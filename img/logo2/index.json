@@ -351,11 +351,6 @@
   "src": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/21/46/70/214670cf-b683-2ddc-2ec3-afcdb6ce83fe/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
   "app": "Keyper: Manage & Rent Property"
  },
- "fincart": {
-  "domain": "appstore:3E ADVISORS PRIVATE LIMITED",
-  "src": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0f/27/a2/0f27a262-740c-4a68-c44b-903955754a8a/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
-  "app": "Fincart - Investment App"
- },
  "silq": {
   "domain": "appstore:Rahim Siddiq",
   "src": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c9/c3/fc/c9c3fc0f-5fd6-d452-1b5f-05121723b75c/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
@@ -378,11 +373,6 @@
  "velents": {
   "domain": "velents.com",
   "src": "https://velents.ai/wp-content/uploads/2026/02/cropped-Logo-Icon-1-1-180x180.png"
- },
- "skipcash": {
-  "domain": "appstore:Bro Technologies",
-  "src": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b7/07/50/b707501f-4d75-f652-64cb-bd6e74a6599a/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/512x512bb.jpg",
-  "app": "SkipCash"
  },
  "takeem": {
   "domain": "takeem.ai",
@@ -437,11 +427,6 @@
   "src": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ac/55/9c/ac559cf4-2c4a-e133-ca10-287f74c70a37/AppIcon-0-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
   "app": "EFG Hermes ONE"
  },
- "amaani-a-za": {
-  "domain": "appstore:Ian Andrew Macalisang",
-  "src": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ce/48/1b/ce481b4b-3110-6daf-8c3a-48807ddfdf1b/AppIcon-0-0-1x_U007emarketing-0-7-0-sRGB-85-220.png/512x512bb.jpg",
-  "app": "Aiza: Fitness Coach"
- },
  "bundle": {
   "domain": "appstore:BUNDLE HABER BILISIM TEKNOLOJI ANONIM SIRKETI",
   "src": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/80/75/e9/8075e947-d6a7-d36b-719d-2b37b5f445bd/DefaultAppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
@@ -451,11 +436,6 @@
   "domain": "appstore:Cobra Mobile Limited",
   "src": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/4e/e0/9f/4ee09f85-c589-c6e9-b81f-f35003d2f82a/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
   "app": "Cobi Arrows"
- },
- "gaia": {
-  "domain": "appstore:Trailbehind, INC.",
-  "src": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/24/f9/2f/24f92f29-ff5e-6a0e-1d2a-544b68a22bae/AppIcon-0-0-1x_U007epad-0-1-0-0-0-85-220.png/512x512bb.jpg",
-  "app": "Gaia GPS: Mobile Trail Maps"
  },
  "remedium": {
   "domain": "appstore:BRANDMED SP Z O O",

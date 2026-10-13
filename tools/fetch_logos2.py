@@ -61,9 +61,12 @@ for slug, c in CFG.items():
         except Exception as e: print('imgfail', slug, u, e)
     for ap in ([] if done else ([c['app']] if c.get('app') else [])):
         try:
-            q = urllib.parse.urlencode({'term': ap['term'], 'country': ap.get('country', 'sa'), 'entity': 'software', 'limit': 15})
-            js = json.loads(get('https://itunes.apple.com/search?' + q)[0])
-            want = re.compile(r'\b' + re.escape(ap.get('match', ap['term']).lower()) + r'\b')
+            if ap.get('id'):
+                js = json.loads(get('https://itunes.apple.com/lookup?id=%s&country=%s' % (ap['id'], ap.get('country', 'us')))[0])
+            else:
+                q = urllib.parse.urlencode({'term': ap['term'], 'country': ap.get('country', 'sa'), 'entity': 'software', 'limit': 15})
+                js = json.loads(get('https://itunes.apple.com/search?' + q)[0])
+            want = re.compile(r'\b' + re.escape(ap.get('match', ap.get('term', '')).lower()) + r'\b') if not ap.get('id') else re.compile('')
             for r in js.get('results', []):
                 if want.search((r.get('trackName', '') + ' ' + r.get('sellerName', '')).lower()):
                     u = r.get('artworkUrl512') or r.get('artworkUrl100')

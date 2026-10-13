@@ -69,20 +69,8 @@
  "fincart": {
   "name": "Fincart",
   "domains": [
-   "fincart.io",
-   "fincart.com",
-   "fincart.sa",
-   "fincart.com.sa",
-   "fincart.ae",
-   "fincart.ai",
-   "fincart.co",
-   "fincart.app"
-  ],
-  "app": {
-   "term": "fincart",
-   "country": "eg",
-   "match": "fincart"
-  }
+   "fincart.io"
+  ]
  },
  "maalexi": {
   "name": "Maalexi",
@@ -206,20 +194,9 @@
  },
  "skipcash": {
   "name": "SkipCash",
-  "domains": [
-   "skipcash.app",
-   "skipcash.com",
-   "skipcash.sa",
-   "skipcash.com.sa",
-   "skipcash.ae",
-   "skipcash.io",
-   "skipcash.ai",
-   "skipcash.co"
-  ],
   "app": {
-   "term": "skipcash",
-   "country": "qa",
-   "match": "skipcash"
+   "id": "1483010805",
+   "country": "qa"
   }
  },
  "tanami-capital": {
@@ -440,24 +417,10 @@
   }
  },
  "amaani-a-za": {
-  "name": "Amaani ",
+  "name": "aiza",
   "domains": [
-   "aiza.ae",
-   "amaani.ae",
-   "aiza.app",
-   "amaani.com",
-   "amaani.sa",
-   "amaani.com.sa",
-   "amaani.io",
-   "amaani.ai",
-   "amaani.co",
-   "amaani.app"
-  ],
-  "app": {
-   "term": "aiza",
-   "country": "ae",
-   "match": "aiza"
-  }
+   "aiza.co"
+  ]
  },
  "bundle": {
   "name": "Bundle",
@@ -512,20 +475,8 @@
  "gaia": {
   "name": "Gaia",
   "domains": [
-   "gaia.sa",
-   "gaia.com",
-   "gaia.com.sa",
-   "gaia.ae",
-   "gaia.io",
-   "gaia.ai",
-   "gaia.co",
-   "gaia.app"
-  ],
-  "app": {
-   "term": "gaia",
-   "country": "sa",
-   "match": "gaia"
-  }
+   "gaia.sa"
+  ]
  },
  "remedium": {
   "name": "Remedium",
@@ -912,17 +863,9 @@
   ]
  },
  "3c-coding-school": {
-  "name": "3C Coding School",
+  "name": "3C",
   "domains": [
-   "3ccodingschool.com",
-   "3c.school",
-   "3ccodingschool.sa",
-   "3ccodingschool.com.sa",
-   "3ccodingschool.ae",
-   "3ccodingschool.io",
-   "3ccodingschool.ai",
-   "3ccodingschool.co",
-   "3ccodingschool.app"
+   "3cschool.net"
   ]
  },
  "bekia": {
