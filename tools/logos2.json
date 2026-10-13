@@ -11,20 +11,23 @@
    "barq.ai",
    "barq.co",
    "barq.app"
-  ]
+  ],
+  "app": {
+   "term": "barq",
+   "country": "sa",
+   "match": "barq"
+  }
  },
  "fasset": {
   "name": "Fasset",
   "domains": [
-   "fasset.com",
-   "fasset.io",
-   "fasset.sa",
-   "fasset.com.sa",
-   "fasset.ae",
-   "fasset.ai",
-   "fasset.co",
-   "fasset.app"
-  ]
+   "fasset.com"
+  ],
+  "app": {
+   "term": "fasset",
+   "country": "ae",
+   "match": "fasset"
+  }
  },
  "moove": {
   "name": "Moove",
@@ -37,7 +40,12 @@
    "moove.ai",
    "moove.co",
    "moove.app"
-  ]
+  ],
+  "app": {
+   "term": "moove",
+   "country": "ae",
+   "match": "moove"
+  }
  },
  "keyper": {
   "name": "Keyper",
@@ -51,7 +59,12 @@
    "keyper.ai",
    "keyper.co",
    "keyper.app"
-  ]
+  ],
+  "app": {
+   "term": "keyper",
+   "country": "ae",
+   "match": "keyper"
+  }
  },
  "fincart": {
   "name": "Fincart",
@@ -64,7 +77,12 @@
    "fincart.ai",
    "fincart.co",
    "fincart.app"
-  ]
+  ],
+  "app": {
+   "term": "fincart",
+   "country": "eg",
+   "match": "fincart"
+  }
  },
  "maalexi": {
   "name": "Maalexi",
@@ -90,7 +108,12 @@
    "silq.io",
    "silq.ai",
    "silq.app"
-  ]
+  ],
+  "app": {
+   "term": "silq",
+   "country": "sa",
+   "match": "silq"
+  }
  },
  "rize": {
   "name": "Rize",
@@ -104,7 +127,12 @@
    "rize.ai",
    "rize.co",
    "rize.app"
-  ]
+  ],
+  "app": {
+   "term": "rize",
+   "country": "sa",
+   "match": "rize"
+  }
  },
  "rela": {
   "name": "Rela",
@@ -117,7 +145,12 @@
    "rela.io",
    "rela.ai",
    "rela.app"
-  ]
+  ],
+  "app": {
+   "term": "rela",
+   "country": "sa",
+   "match": "rela"
+  }
  },
  "twin1-ai": {
   "name": "Twin1 AI",
@@ -146,7 +179,12 @@
    "zeal.io",
    "zeal.ai",
    "zeal.co"
-  ]
+  ],
+  "app": {
+   "term": "zeal",
+   "country": "eg",
+   "match": "zeal"
+  }
  },
  "velents": {
   "name": "Velents",
@@ -159,7 +197,12 @@
    "velents.io",
    "velents.co",
    "velents.app"
-  ]
+  ],
+  "app": {
+   "term": "velents",
+   "country": "sa",
+   "match": "velents"
+  }
  },
  "skipcash": {
   "name": "SkipCash",
@@ -172,7 +215,12 @@
    "skipcash.io",
    "skipcash.ai",
    "skipcash.co"
-  ]
+  ],
+  "app": {
+   "term": "skipcash",
+   "country": "qa",
+   "match": "skipcash"
+  }
  },
  "tanami-capital": {
   "name": "Tanami Capital",
@@ -199,7 +247,12 @@
    "takeem.ai",
    "takeem.co",
    "takeem.app"
-  ]
+  ],
+  "app": {
+   "term": "takeem",
+   "country": "ae",
+   "match": "takeem"
+  }
  },
  "raff": {
   "name": "Raff",
@@ -212,7 +265,12 @@
    "raff.ai",
    "raff.co",
    "raff.app"
-  ]
+  ],
+  "app": {
+   "term": "raff",
+   "country": "sa",
+   "match": "raff"
+  }
  },
  "rwaj": {
   "name": "Rwaj",
@@ -225,7 +283,12 @@
    "rwaj.ai",
    "rwaj.co",
    "rwaj.app"
-  ]
+  ],
+  "app": {
+   "term": "rwaj",
+   "country": "sa",
+   "match": "rwaj"
+  }
  },
  "labby": {
   "name": "Labby",
@@ -238,7 +301,12 @@
    "labby.ae",
    "labby.ai",
    "labby.co"
-  ]
+  ],
+  "app": {
+   "term": "labby",
+   "country": "sa",
+   "match": "labby"
+  }
  },
  "nayla-finance": {
   "name": "Nayla Finance",
@@ -252,7 +320,12 @@
    "naylafinance.ai",
    "naylafinance.co",
    "naylafinance.app"
-  ]
+  ],
+  "app": {
+   "term": "nayla",
+   "country": "sa",
+   "match": "nayla"
+  }
  },
  "stellaria": {
   "name": "Stellaria",
@@ -265,7 +338,12 @@
    "stellaria.ae",
    "stellaria.co",
    "stellaria.app"
-  ]
+  ],
+  "app": {
+   "term": "stellaria",
+   "country": "ae",
+   "match": "stellaria"
+  }
  },
  "planno": {
   "name": "Planno",
@@ -278,14 +356,24 @@
    "planno.ae",
    "planno.co",
    "planno.app"
-  ]
+  ],
+  "app": {
+   "term": "planno",
+   "country": "ae",
+   "match": "planno"
+  }
  },
  "oro": {
   "name": "Oro",
   "domains": [
    "oro.ae",
    "oro.app"
-  ]
+  ],
+  "app": {
+   "term": "oro",
+   "country": "ae",
+   "match": "oro"
+  }
  },
  "brkz": {
   "name": "BRKZ",
@@ -324,7 +412,12 @@
    "echelon.ai",
    "echelon.co",
    "echelon.app"
-  ]
+  ],
+  "app": {
+   "term": "echelon",
+   "country": "sa",
+   "match": "echelon"
+  }
  },
  "efg-holding": {
   "name": "EFG Holding",
@@ -339,7 +432,12 @@
    "efgholding.ai",
    "efgholding.co",
    "efgholding.app"
-  ]
+  ],
+  "app": {
+   "term": "efg hermes",
+   "country": "eg",
+   "match": "efg"
+  }
  },
  "amaani-a-za": {
   "name": "Amaani ",
@@ -354,7 +452,12 @@
    "amaani.ai",
    "amaani.co",
    "amaani.app"
-  ]
+  ],
+  "app": {
+   "term": "aiza",
+   "country": "ae",
+   "match": "aiza"
+  }
  },
  "bundle": {
   "name": "Bundle",
@@ -367,7 +470,12 @@
    "bundle.ai",
    "bundle.co",
    "bundle.app"
-  ]
+  ],
+  "app": {
+   "term": "bundle",
+   "country": "ae",
+   "match": "bundle"
+  }
  },
  "carly": {
   "name": "Carly",
@@ -394,7 +502,12 @@
    "cobi.io",
    "cobi.co",
    "cobi.app"
-  ]
+  ],
+  "app": {
+   "term": "cobi",
+   "country": "ae",
+   "match": "cobi"
+  }
  },
  "gaia": {
   "name": "Gaia",
@@ -407,7 +520,12 @@
    "gaia.ai",
    "gaia.co",
    "gaia.app"
-  ]
+  ],
+  "app": {
+   "term": "gaia",
+   "country": "sa",
+   "match": "gaia"
+  }
  },
  "remedium": {
   "name": "Remedium",
@@ -420,7 +538,12 @@
    "remedium.ai",
    "remedium.co",
    "remedium.app"
-  ]
+  ],
+  "app": {
+   "term": "remedium",
+   "country": "sa",
+   "match": "remedium"
+  }
  },
  "xsquare": {
   "name": "XSquare",
@@ -433,7 +556,12 @@
    "xsquare.io",
    "xsquare.co",
    "xsquare.app"
-  ]
+  ],
+  "app": {
+   "term": "xsquare",
+   "country": "ae",
+   "match": "xsquare"
+  }
  },
  "enhance": {
   "name": "Enhance",
@@ -459,7 +587,12 @@
    "naran.io",
    "naran.co",
    "naran.app"
-  ]
+  ],
+  "app": {
+   "term": "naran",
+   "country": "ae",
+   "match": "naran"
+  }
  },
  "longevium": {
   "name": "Longevium",
@@ -538,7 +671,12 @@
    "taxstar.ai",
    "taxstar.co",
    "taxstar.app"
-  ]
+  ],
+  "app": {
+   "term": "tax star",
+   "country": "ae",
+   "match": "tax star"
+  }
  },
  "gmnsm": {
   "name": "GMNSM",
@@ -712,7 +850,12 @@
    "soor.io",
    "soor.ai",
    "soor.co"
-  ]
+  ],
+  "app": {
+   "term": "soor",
+   "country": "bh",
+   "match": "soor"
+  }
  },
  "dawraty": {
   "name": "Dawraty",
@@ -807,7 +950,12 @@
    "birdnest.ae",
    "birdnest.ai",
    "birdnest.co"
-  ]
+  ],
+  "app": {
+   "term": "birdnest",
+   "country": "eg",
+   "match": "birdnest"
+  }
  },
  "eduact": {
   "name": "Eduact",
@@ -834,7 +982,12 @@
    "kuadra.ai",
    "kuadra.co",
    "kuadra.app"
-  ]
+  ],
+  "app": {
+   "term": "kuadra",
+   "country": "eg",
+   "match": "kuadra"
+  }
  },
  "reme-d": {
   "name": "Reme-D",
@@ -968,7 +1121,12 @@
    "anbcapital.ai",
    "anbcapital.co",
    "anbcapital.app"
-  ]
+  ],
+  "app": {
+   "term": "anb capital",
+   "country": "sa",
+   "match": "anb"
+  }
  },
  "aljazira-capital": {
   "name": "Aljazira Capital",
@@ -981,7 +1139,12 @@
    "aljaziracapital.ai",
    "aljaziracapital.co",
    "aljaziracapital.app"
-  ]
+  ],
+  "app": {
+   "term": "aljazira capital",
+   "country": "sa",
+   "match": "aljazira"
+  }
  },
  "anara-impact-capital": {
   "name": "Anara Impact Capital",
@@ -1322,7 +1485,12 @@
    "jadwainvestment.ai",
    "jadwainvestment.co",
    "jadwainvestment.app"
-  ]
+  ],
+  "app": {
+   "term": "jadwa",
+   "country": "sa",
+   "match": "jadwa"
+  }
  },
  "joa-capital": {
   "name": "Joa Capital",
@@ -1463,7 +1631,12 @@
   "name": "OSN",
   "domains": [
    "osn.com"
-  ]
+  ],
+  "app": {
+   "term": "osn+",
+   "country": "ae",
+   "match": "osn"
+  }
  },
  "oraseya-capital": {
   "name": "Oraseya Capital",
@@ -1589,7 +1762,12 @@
    "riyadbank.ai",
    "riyadbank.co",
    "riyadbank.app"
-  ]
+  ],
+  "app": {
+   "term": "riyad bank",
+   "country": "sa",
+   "match": "riyad bank"
+  }
  },
  "robostrategy": {
   "name": "RoboStrategy",
@@ -1644,7 +1822,12 @@
    "soharinternationalbank.ai",
    "soharinternationalbank.co",
    "soharinternationalbank.app"
-  ]
+  ],
+  "app": {
+   "term": "sohar international",
+   "country": "om",
+   "match": "sohar"
+  }
  },
  "spring": {
   "name": "Spring",
@@ -1850,7 +2033,12 @@
    "arabnews.ai",
    "arabnews.co",
    "arabnews.app"
-  ]
+  ],
+  "app": {
+   "term": "arab news",
+   "country": "sa",
+   "match": "arab news"
+  }
  },
  "the-national": {
   "name": "The National",
@@ -1864,7 +2052,12 @@
    "thenational.ai",
    "thenational.co",
    "thenational.app"
-  ]
+  ],
+  "app": {
+   "term": "the national",
+   "country": "ae",
+   "match": "the national"
+  }
  },
  "sharikat-mubasher": {
   "name": "Sharikat Mubasher",
@@ -1951,14 +2144,7 @@
  "arabinform": {
   "name": "Arabinform",
   "domains": [
-   "arabinform.com",
-   "arabinform.sa",
-   "arabinform.com.sa",
-   "arabinform.ae",
-   "arabinform.io",
-   "arabinform.ai",
-   "arabinform.co",
-   "arabinform.app"
+   "arabinform.com"
   ]
  },
  "reuters-via-kfgo": {
@@ -1973,7 +2159,12 @@
    "reutersviakfgo.ai",
    "reutersviakfgo.co",
    "reutersviakfgo.app"
-  ]
+  ],
+  "app": {
+   "term": "reuters",
+   "country": "us",
+   "match": "reuters"
+  }
  },
  "reuters-via-the-star": {
   "name": "Reuters",
@@ -1987,19 +2178,17 @@
    "reutersviathestar.ai",
    "reutersviathestar.co",
    "reutersviathestar.app"
-  ]
+  ],
+  "app": {
+   "term": "reuters",
+   "country": "us",
+   "match": "reuters"
+  }
  },
  "paul-graham": {
   "name": "Paul Graham",
-  "domains": [
-   "paulgraham.com",
-   "paulgraham.sa",
-   "paulgraham.com.sa",
-   "paulgraham.ae",
-   "paulgraham.io",
-   "paulgraham.ai",
-   "paulgraham.co",
-   "paulgraham.app"
+  "img": [
+   "https://unavatar.io/x/paulg"
   ]
  },
  "dealroom": {

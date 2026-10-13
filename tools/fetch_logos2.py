@@ -37,8 +37,9 @@ def icons(html, base):
         elif 'icon' in rel: out.append((2, int(sz.group(1)) if sz else 32, href.group(1)))
     og = re.search(r'<meta[^>]+property=["\']og:image["\'][^>]+content=["\']([^"\']+)', html, re.I) or re.search(r'<meta[^>]+content=["\']([^"\']+)["\'][^>]+property=["\']og:image', html, re.I)
     if og: out.append((1, 100, og.group(1)))
-    out.sort(key=lambda x: (-(x[1] >= 120), -x[0], -x[1]))
-    return [urllib.parse.urljoin(base, h) for _, _, h in out]
+    big = [x for x in out if x[0] >= 2 and x[1] >= 120]; big.sort(key=lambda x: (-x[0], -x[1]))
+    rest = [x for x in out if x not in big and x[0] >= 2]; ogs = [x for x in out if x[0] == 1]
+    return [urllib.parse.urljoin(base, h) for _, _, h in big] + ['S2'] + [urllib.parse.urljoin(base, h) for _, _, h in rest + ogs]
 for slug, c in CFG.items():
     if slug in idx and os.path.exists(os.path.join(OUT, slug + '.png')): continue
     name = c['name']; key = [w for w in re.split(r'[^a-z0-9]+', name.lower()) if len(w) >= 3] or [name.lower()]
@@ -58,6 +59,17 @@ for slug, c in CFG.items():
             im.thumbnail((400, 400) if c.get('book') else (256, 256)); im.save(os.path.join(OUT, slug + '.png'), 'PNG', optimize=True)
             idx[slug] = {'domain': '', 'src': u}; done = True; print('ok', slug, u, im.size); break
         except Exception as e: print('imgfail', slug, u, e)
+    for ap in ([] if done else ([c['app']] if c.get('app') else [])):
+        try:
+            q = urllib.parse.urlencode({'term': ap['term'], 'country': ap.get('country', 'sa'), 'entity': 'software', 'limit': 15})
+            js = json.loads(get('https://itunes.apple.com/search?' + q)[0])
+            want = re.compile(r'\b' + re.escape(ap.get('match', ap['term']).lower()) + r'\b')
+            for r in js.get('results', []):
+                if want.search((r.get('trackName', '') + ' ' + r.get('sellerName', '')).lower()):
+                    u = r.get('artworkUrl512') or r.get('artworkUrl100')
+                    im = img_from(u); im.thumbnail((256, 256)); im.save(os.path.join(OUT, slug + '.png'), 'PNG', optimize=True)
+                    idx[slug] = {'domain': 'appstore:' + r.get('sellerName', ''), 'src': u, 'app': r.get('trackName')}; done = True; print('ok app', slug, r.get('trackName'), r.get('sellerName')); break
+        except Exception as e: print('app', slug, e)
     for dom in ([] if done else c.get('domains', [])):
         try:
             raw, final = get('https://' + dom)
@@ -67,7 +79,7 @@ for slug, c in CFG.items():
             low = html.lower()
             if not any(k in low for k in key[:2]):
                 print('noname', slug, dom); continue
-            cands = icons(html, final) + ['https://www.google.com/s2/favicons?domain=%s&sz=256' % dom]
+            cands = [('https://www.google.com/s2/favicons?domain=%s&sz=256' % dom) if u == 'S2' else u for u in icons(html, final)]
             for u in cands:
                 try:
                     im = img_from(u)

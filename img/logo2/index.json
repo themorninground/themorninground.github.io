@@ -1,127 +1,19 @@
 {
- "barq": {
-  "domain": "barq.co",
-  "src": "https://zuwar.barq.co/images/og-en-2f73cda38ab4854654aa1da4dc6b7a70.png?vsn=d"
- },
- "fasset": {
-  "domain": "fasset.com",
-  "src": "https://fasset.com/images/Open-Graph.jpg"
- },
- "moove": {
-  "domain": "moove.ae",
-  "src": "https://moove.ae/wp-content/uploads/2026/01/Icon1-300x300.png"
- },
- "keyper": {
-  "domain": "keyper.com",
-  "src": "https://www.keyper.com/wp-content/uploads/2023/02/cropped-tile-keyper-rgb-512-180x180.png"
- },
- "fincart": {
-  "domain": "fincart.io",
-  "src": "https://framerusercontent.com/images/Tpo9e0u17b4o7nPytUyi5C6Yq8.png"
- },
  "maalexi": {
   "domain": "maalexi.com",
   "src": "https://assets.maalexi.com/images/logos/logo.png"
- },
- "silq": {
-  "domain": "silq.ai",
-  "src": "https://cdn.prod.website-files.com/68dac20637579522c9947199/693bb73b0a53d314bed3b84c_Favicon-256px-silq.png"
- },
- "rize": {
-  "domain": "rize.sa",
-  "src": "https://rize.sa/wp-content/uploads/2026/01/rize-site-icon-1-300x300.png"
- },
- "rela": {
-  "domain": "rela.sa",
-  "src": "https://rela.sa/apple-touch-icon.png"
  },
  "twin1-ai": {
   "domain": "twin1.ai",
   "src": "https://twin1.ai/favicon.ico?favicon.3a5f0dcb.ico"
  },
- "zeal": {
-  "domain": "zeal.app",
-  "src": "https://www.zeal.app/images/628b44efd78d359ef4e18a1e_Zeal%20Webclip.png"
- },
- "velents": {
-  "domain": "velents.com",
-  "src": "https://velents.ai/wp-content/uploads/2026/02/cropped-Logo-Icon-1-1-180x180.png"
- },
- "takeem": {
-  "domain": "takeem.ai",
-  "src": "https://takeem.ai/pwa/apple-touch-icon.png"
- },
- "rwaj": {
-  "domain": "rwaj.co",
-  "src": "https://rwaj.co/meta/og-image.jpg"
- },
- "labby": {
-  "domain": "labby.co",
-  "src": "https://labby.co/wp-content/uploads/2026/08/cropped-Untitled-design-180x180.png"
- },
- "stellaria": {
-  "domain": "stellaria.app",
-  "src": "https://stellaria.app/apple-touch-icon.png"
- },
- "planno": {
-  "domain": "planno.co",
-  "src": "https://www.google.com/s2/favicons?domain=planno.co&sz=256"
- },
- "oro": {
-  "domain": "oro.ae",
-  "src": "https://assets.oro.ae/uploads/og_oro_7bb42e349d.jpg"
- },
  "brkz": {
   "domain": "brkz.com",
   "src": "https://brkz.com/apple-touch-icon.png"
  },
- "decart": {
-  "domain": "decart.ai",
-  "src": "https://cdn.prod.website-files.com/69a974f0b1fffb03644ecf2c/69b7eec046f48ce787bbaaf1_webclip.png"
- },
- "echelon": {
-  "domain": "echelon.io",
-  "src": "https://echelon.io/favicon.ico"
- },
- "efg-holding": {
-  "domain": "efghldg.com",
-  "src": "https://efgholding.com/uploads/EFG_Holding_Corporate_Ad_Web_1_3be5d53b67.jpg"
- },
- "amaani-a-za": {
-  "domain": "amaani.ai",
-  "src": "https://img1.wsimg.com/isteam/ip/static/pwa-app/logo-default.png/:/rs=w:180,h:180,m"
- },
- "bundle": {
-  "domain": "bundle.co",
-  "src": "https://bundle.co/img/apple-touch-icon.png"
- },
  "carly": {
   "domain": "carly.sa",
   "src": "https://www.halacarly.com/assets/images/android-chrome-512x512.png"
- },
- "cobi": {
-  "domain": "cobi.com",
-  "src": "http://cobi.com/cdn/shop/files/OG.png?v=1788511501"
- },
- "gaia": {
-  "domain": "gaia.sa",
-  "src": "https://gaia.sa/favicon.png"
- },
- "remedium": {
-  "domain": "remedium.ai",
-  "src": "https://remedium.ai/images/favicons/apple-touch-icon.png"
- },
- "xsquare": {
-  "domain": "xsquare.ai",
-  "src": "https://cdn.prod.website-files.com/64b4c86840d0d19f7ac202c6/64f946dbe5a13d680b9cbedd_xsquare_webclip.png"
- },
- "enhance": {
-  "domain": "enhance.com",
-  "src": "https://www.google.com/s2/favicons?domain=enhance.com&sz=256"
- },
- "naran": {
-  "domain": "naran.io",
-  "src": "https://naran.io/images/fav/apple-icon-180x180.png"
  },
  "longevium": {
   "domain": "longevium.com",
@@ -142,10 +34,6 @@
  "epic-markets": {
   "domain": "epicmarkets.com",
   "src": "https://www.epicmarkets.com/assets/apple-touch-icon.png"
- },
- "tax-star": {
-  "domain": "taxstar.app",
-  "src": "https://cdn.prod.website-files.com/67128d9c572a2012abee8f3c/686b8ebcce0f0a4ccad4ad56_taxstar-favicon.ico"
  },
  "gmnsm": {
   "domain": "gmnsm.com",
@@ -175,17 +63,9 @@
   "domain": "rime.sa",
   "src": "https://rime.sa/apple-touch-icon.png?v=20260309c"
  },
- "arep": {
-  "domain": "arep.sa",
-  "src": "https://arep.sa/uploads/favicon-mtzow2sl-b8479350.png"
- },
  "aligator": {
   "domain": "aligator.com",
   "src": "https://www.aligator.com/apple-touch-icon.png?v=20260826"
- },
- "soor": {
-  "domain": "soor.app",
-  "src": "https://soor.app/images/favicon.png"
  },
  "dawraty": {
   "domain": "dawraty.com",
@@ -211,10 +91,6 @@
   "domain": "eduact.me",
   "src": "https://www.google.com/s2/favicons?domain=eduact.me&sz=256"
  },
- "kuadra": {
-  "domain": "kuadra.com",
-  "src": "https://d36mllhqac4qbe.cloudfront.net/OG%20GLOBLAL.jpg"
- },
  "amtaar-capital": {
   "domain": "amtaar.com",
   "src": "https://amtaar.com/wp-content/uploads/2020/02/cropped-amtaar-logo1-1-180x180.png"
@@ -231,10 +107,6 @@
   "domain": "alohakeem.com",
   "src": "https://alohakeem.com/logo-app.png"
  },
- "doctorbook": {
-  "domain": "doctorbook.ai",
-  "src": "https://doctorbook.ai/favicon.ico"
- },
  "doushesh": {
   "domain": "doushesh.com",
   "src": "https://doushesh.com/images/logo/192x192.png"
@@ -247,21 +119,9 @@
   "domain": "arayaventures.com",
   "src": "https://www.araya.ventures/favicon.png"
  },
- "arbor-ventures": {
-  "domain": "arborventures.com",
-  "src": "https://cdn.prod.website-files.com/6078e89d783403bdc5544df3/60808f50307eb21cbf7cd0a1_webclip.png"
- },
  "artal-capital": {
   "domain": "artalcapital.com",
   "src": "https://artalcapital.com/wp-content/uploads/2025/09/cropped-cropped-favico-180x180.png"
- },
- "avra": {
-  "domain": "avra.com",
-  "src": "https://www.avra.com/wp-content/uploads/2022/12/cropped-Favicon-180x180.png"
- },
- "by-venture-partners": {
-  "domain": "byvp.com",
-  "src": "https://www.byvp.com//static-image.jpg"
  },
  "beltone-venture-capital": {
   "domain": "beltoneholding.com",
@@ -271,21 +131,9 @@
   "domain": "cotu.vc",
   "src": "https://static.wixstatic.com/media/80312b_730f656eba0d409aa733a0a0bfd0f1c3%7Emv2.png/v1/fill/w_180%2Ch_180%2Clg_1%2Cusm_0.66_1.00_0.01/80312b_730f656eba0d409aa733a0a0bfd0f1c3%7Emv2.png"
  },
- "coefficient": {
-  "domain": "coefficient.io",
-  "src": "https://coefficient.io/wp-content/uploads/2026/02/homepage-meta-image-v2.png"
- },
  "conjunction-capital": {
   "domain": "conjunction.capital",
   "src": "https://www.conjunction.capital/conjunction-capital-favicon.png"
- },
- "ebla-ventures": {
-  "domain": "eblaventures.com",
-  "src": "https://eblaventures.com/wp-content/uploads/2025/03/cropped-Group-2-180x180.png"
- },
- "hsg": {
-  "domain": "hsgroup.com",
-  "src": "https://hsgroup.com/favicons/apple-touch-icon.png"
  },
  "idrisi-ventures": {
   "domain": "idrisiventures.com",
@@ -294,10 +142,6 @@
  "impact46": {
   "domain": "impact46.co",
   "src": "https://impact46.co/assets/Favicon_i46.png"
- },
- "incubayt": {
-  "domain": "incubayt.com",
-  "src": "https://images.squarespace-cdn.com/content/v1/61ee3a01378df06b48e8a5be/ee90740d-34b2-4731-b5a1-d23b0e1ea23a/favicon.ico?format=100w"
  },
  "jada-fund-of-funds": {
   "domain": "jada.com.sa",
@@ -311,17 +155,9 @@
   "domain": "khwarizmiventures.com",
   "src": "https://static.wixstatic.com/media/ee7b7a_2913841bf6b04f779e8eedc5fe10ffcc%7Emv2.png/v1/fill/w_180%2Ch_180%2Clg_1%2Cusm_0.66_1.00_0.01/ee7b7a_2913841bf6b04f779e8eedc5fe10ffcc%7Emv2.png"
  },
- "localglobe": {
-  "domain": "localglobe.vc",
-  "src": "https://www.phoenixcourt.vc/apple-icon.png?apple-icon.249ftcom0dxfh.png"
- },
  "lunara-partners": {
   "domain": "lunarapartners.com",
   "src": "https://www.lunarapartners.com/assets/apple-touch-icon.png"
- },
- "mubadala": {
-  "domain": "mubadala.com",
-  "src": "https://www.mubadala.com/~/media/73A20E4AE1C844E1BA91178C72DEA946.ico"
  },
  "nuwa-capital": {
   "domain": "nuwacapital.io",
@@ -339,10 +175,6 @@
   "domain": "phoenix-vp.com",
   "src": "https://phoenix-vp.com/wp-content/uploads/2015/10/PHOENIX_Favicon-02.png"
  },
- "pinnacle": {
-  "domain": "pinnacle.com",
-  "src": "https://www.google.com/s2/favicons?domain=pinnacle.com&sz=256"
- },
  "presight": {
   "domain": "presight.com",
   "src": "https://presight.com/wp-content/uploads/2024/11/apple-touch-icon.png"
@@ -354,14 +186,6 @@
  "robostrategy": {
   "domain": "robostrategy.co",
   "src": "https://framerusercontent.com/images/zHZsCD6KElQU64ie4ivMlWwLSyI.png"
- },
- "scaleup-europe-fund-eqt": {
-  "domain": "eqtgroup.com",
-  "src": "https://cdn.sanity.io/images/30p7so6x/eqt-public-web-prod/cc9c1063312a4a2ecdffff0468e24d3f3e14777c-1920x1080.jpg?auto=format"
- },
- "spring": {
-  "domain": "spring.io",
-  "src": "https://spring.io/icons/icon-512x512.png?v=96334d577af708644f6f0495dd1c7bc8"
  },
  "vine-ventures": {
   "domain": "vineventures.com",
@@ -395,25 +219,9 @@
   "domain": "oilprice.com",
   "src": "https://d1o9e4un86hhpc.cloudfront.net/apple-touch-icon.png"
  },
- "orrick": {
-  "domain": "orrick.com",
-  "src": "https://media.orrick.com/Media%20Library/public/images/orrick-logo-social-media.jpg"
- },
- "the-disruptor": {
-  "domain": "thedisruptor.ai",
-  "src": "https://assets.cdn.filesafe.space/oyt0fNxOM7arYMsTJ9zX/media/69f12541d0efad0b4cc8bdb1.png"
- },
  "entarabi": {
   "domain": "entarabi.com",
   "src": "https://entarabi.com/wp-content/uploads/2026/04/entARABI_Logo-300x300.png"
- },
- "arabinform": {
-  "domain": "arabinform.com",
-  "src": "https://arabinform.com/wp-content/uploads/2025/04/36-615x408.jpg"
- },
- "dealroom": {
-  "domain": "dealroom.co",
-  "src": "https://dealroom.co/og-images/dealroom-home-v2.png"
  },
  "20vc": {
   "domain": "thetwentyminutevc.com",
@@ -430,10 +238,6 @@
  "lenny-s-podcast": {
   "domain": "lennysnewsletter.com",
   "src": "https://substackcdn.com/image/fetch/$s_!GWyt!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5d6af901-7717-4d79-b49e-8bc28427148c%2Fapple-touch-icon-1024x1024.png"
- },
- "paul-graham-essays": {
-  "domain": "paulgrahamessays.com",
-  "src": "https://paulgrahamessays.com/apple-touch-icon.png"
  },
  "alumni-ventures": {
   "domain": "av.vc",
@@ -474,10 +278,6 @@
  "scaling-partners": {
   "domain": "scalingpartners.io",
   "src": "https://assets.cdn.filesafe.space/V4suGlQjC1BnXbr0k4SE/media/69aecf325a8a19763ac31b21.png"
- },
- "aicontentfy": {
-  "domain": "aicontentfy.com",
-  "src": "https://aicontentfy.com/logo.png"
  },
  "paulg": {
   "domain": "",
