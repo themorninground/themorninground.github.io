@@ -45,7 +45,7 @@ def load_dir(d):
 
 def build_data(export_dir):
     cols = {c: load_dir(os.path.join(export_dir, c)) for c in ['items', 'meta']}
-    cols['meta'] = {k: v for k, v in cols['meta'].items() if k in ('market', 'series', 'plan', 'checks', 'deals', 'profiles', 'concepts', 'econ', 'world', 'library', 'logos')}
+    cols['meta'] = {k: v for k, v in cols['meta'].items() if k in ('market', 'series', 'plan', 'checks', 'deals', 'profiles', 'concepts', 'econ', 'world', 'library', 'logos', 'learn', 'glossary')}
     for k, d in cols['items'].items():
         d.pop('version', None); d.pop('updatedAt', None)
         if isinstance(d.get('image'), dict):
