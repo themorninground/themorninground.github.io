@@ -2,6 +2,7 @@
 """Build the public site.
 
   python3 tools/build.py page            -> index.html from src/paper.html + src/public-adapter.js
+  python3 tools/build.py v2 EXPORT_DIR   -> v2/index.html + v2/data/site.json (new paper preview; EXPORT_DIR holds items/ and meta/)
   python3 tools/build.py data EXPORT_DIR -> data/site.json from an export of the Claude artifact database
                                             (EXPORT_DIR holds rounds/, stories/, news/, watchlist/, meta/ JSON files)
 """
@@ -60,8 +61,24 @@ def build_data(export_dir):
     json.dump(site, open(os.path.join(ROOT, 'data', 'site.json'), 'w', encoding='utf-8'), ensure_ascii=False)
     print('data/site.json', {c: len(v) for c, v in cols.items()})
 
+def build_v2(export_dir):
+    paper = open(os.path.join(ROOT, 'src', 'paper-v2.html'), encoding='utf-8').read()
+    adapter = open(os.path.join(ROOT, 'src', 'public-adapter.js'), encoding='utf-8').read()
+    os.makedirs(os.path.join(ROOT, 'v2', 'data'), exist_ok=True)
+    out = HEAD + "<script>window.MR_IMG_BASE='../img/';</script>\n<script>\n" + adapter + '</script>\n' + paper + '\n</body>\n</html>\n'
+    open(os.path.join(ROOT, 'v2', 'index.html'), 'w', encoding='utf-8').write(out)
+    cols = {c: load_dir(os.path.join(export_dir, c)) for c in ['items', 'meta']}
+    for k, d in cols['items'].items():
+        if isinstance(d.get('image'), dict):
+            d['image'].pop('asset', None)
+    site = {'updated': datetime.datetime.now(datetime.timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ'), 'collections': cols}
+    json.dump(site, open(os.path.join(ROOT, 'v2', 'data', 'site.json'), 'w', encoding='utf-8'), ensure_ascii=False)
+    print('v2', {c: len(v) for c, v in cols.items()}, len(out))
+
 if __name__ == '__main__':
     if sys.argv[1] == 'page':
         build_page()
+    elif sys.argv[1] == 'v2':
+        build_v2(sys.argv[2])
     else:
         build_data(sys.argv[2])
