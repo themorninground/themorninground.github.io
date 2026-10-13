@@ -14,6 +14,7 @@ HEAD = """<!doctype html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
+<title>The Morning Round</title>
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="description" content="A daily paper on venture capital, startups and the Saudi and GCC markets. Every page compounds.">
 <meta property="og:title" content="The Morning Round">
@@ -54,7 +55,7 @@ def build_data(export_dir):
     meta = cols['meta']
     state = meta.get('state', {})
     meta['state'] = {'tracks': {t: {'level': 1, 'next': 0} for t in (state.get('tracks') or {})}}
-    site = {'updated': datetime.datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ'), 'collections': cols}
+    site = {'updated': datetime.datetime.now(datetime.timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ'), 'collections': cols}
     os.makedirs(os.path.join(ROOT, 'data'), exist_ok=True)
     json.dump(site, open(os.path.join(ROOT, 'data', 'site.json'), 'w', encoding='utf-8'), ensure_ascii=False)
     print('data/site.json', {c: len(v) for c, v in cols.items()})
