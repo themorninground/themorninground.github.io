@@ -7,7 +7,8 @@ Static site served by GitHub Pages at https://themorninground.github.io
 - `src/paper-v1.html` — the previous design, kept for reference only.
 - `src/public-adapter.js` — makes the paper read `data/site.json` and keep each visitor's follows and filters in their own browser.
 - `index.html` — built output. Never edit by hand; run `python3 tools/build.py page`.
-- `data/site.json` — all shared content: `items` (news, deals, articles, reports) and `meta/market` (ticker). Built with `python3 tools/build.py data EXPORT_DIR` from an export of the artifact database (EXPORT_DIR holds `items/` and `meta/`).
+- `data/site.json` — all shared content: `items` (types deal, news, article, report) and `meta/market` (ticker), `meta/series` (dashboard monthly and quarterly figures), `meta/plan` (reading tracks), `meta/checks` (last watchlist check per company). Built with `python3 tools/build.py data EXPORT_DIR` from an export of the artifact database (EXPORT_DIR holds `items/` and `meta/`).
+- `vendor/` — d3 and d3-sankey copies (the page loads them from cdnjs and jsdelivr).
 - `img/` — photos for items, mirrored by the "Mirror news images" GitHub Action from `tools/images.json`.
 
 ## Daily update
