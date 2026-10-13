@@ -607,5 +607,26 @@
  "aicontentfy": {
   "domain": "aicontentfy.com",
   "src": "https://aicontentfy.com/logo.png"
+ },
+ "fincart": {
+  "domain": "fincart.io",
+  "src": "https://framerusercontent.com/images/Tpo9e0u17b4o7nPytUyi5C6Yq8.png"
+ },
+ "skipcash": {
+  "domain": "appstore:Bro Technologies",
+  "src": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b7/07/50/b707501f-4d75-f652-64cb-bd6e74a6599a/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/512x512bb.jpg",
+  "app": "SkipCash"
+ },
+ "amaani-a-za": {
+  "domain": "aiza.co",
+  "src": "http://www.aiza.co/cdn/shop/files/Aiza_logo_1_29ad3273-b8f9-4b96-a781-d4847a9ac368.png?v=1729236863"
+ },
+ "gaia": {
+  "domain": "gaia.sa",
+  "src": "https://gaia.sa/favicon.png"
+ },
+ "3c-coding-school": {
+  "domain": "3cschool.net",
+  "src": "https://www.google.com/s2/favicons?domain=3cschool.net&sz=256"
  }
 }
