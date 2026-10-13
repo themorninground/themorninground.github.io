@@ -14,3 +14,7 @@ Static site served by GitHub Pages at https://themorninground.github.io
 3. `python3 tools/build.py data <folder>` then commit and push `data/site.json`.
 
 Personal fields (status, notes, answers, feedback, chat, lab values) are stripped from the public file.
+
+## Source rule
+Every news item links to the exact story (open it to verify), never a site homepage or a monthly roundup.
+If no direct story exists, keep the item, link the best page, and set `linkType: "roundup"` so the paper labels it.
