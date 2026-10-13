@@ -1,4 +1,66 @@
 [
- {"id":"flyakeed-2026-09","url":"https://cdn.wamda.com/feature-images/a38511e63834631.jpg"},
- {"id":"autobia-2026-10","url":"https://cdn.wamda.com/feature-images/34b9ed908a56998.jpg"}
+ {
+  "id": "flyakeed-2026-09",
+  "url": "https://cdn.wamda.com/feature-images/a38511e63834631.jpg"
+ },
+ {
+  "id": "autobia-2026-10",
+  "url": "https://cdn.wamda.com/feature-images/34b9ed908a56998.jpg"
+ },
+ {
+  "id": "d01",
+  "url": "https://eu-images.contentstack.com/v3/assets/blt7dacf616844cf077/blt9f9959015c70a307/6aabf62415f07212249f46a8/Barq_-_FinTech_News.png?disable=upscale&width=1200&height=630&fit=crop&overlay=%2Fv3%2Fassets%2Fblt7dacf616844cf077%2Fblt64e39b3570bd3868%2F6a2693f2ff0c884b0726ec23%2FFF_432x166_White.png&overlay-width=432&overlay-height=166&overlay-align=right,bottom"
+ },
+ {
+  "id": "d02",
+  "url": "https://eu-images.contentstack.com/v3/assets/blt7dacf616844cf077/blt80a8283533190f16/6a452e097ca0dc573ff77c12/Tabby_-_FinTech_News.png?disable=upscale&width=1200&height=630&fit=crop&overlay=%2Fv3%2Fassets%2Fblt7dacf616844cf077%2Fblt64e39b3570bd3868%2F6a2693f2ff0c884b0726ec23%2FFF_432x166_White.png&overlay-width=432&overlay-height=166&overlay-align=right,bottom"
+ },
+ {
+  "id": "d03",
+  "url": "https://sg-imgs.dealroom.co/23890b1420127973c650855fe074b487.jpeg?ar=3:1&fit=crop&crop=faces,center&auto=compress&cs=origin"
+ },
+ {
+  "id": "d04",
+  "url": "https://www.mubadala.com/~/media/Images/M/mubadala/corp/templates/news/thumbnails/mubadala-paymob-img.jpg"
+ },
+ {
+  "id": "d06",
+  "url": "https://eu-images.contentstack.com/v3/assets/blt7dacf616844cf077/blt456ab7af4602fb17/6a997e09287a0755a3199be0/Nayla_Finance_-_FinTech_News_(1).png?disable=upscale&width=1200&height=630&fit=crop&overlay=%2Fv3%2Fassets%2Fblt7dacf616844cf077%2Fblt64e39b3570bd3868%2F6a2693f2ff0c884b0726ec23%2FFF_432x166_White.png&overlay-width=432&overlay-height=166&overlay-align=right,bottom"
+ },
+ {
+  "id": "d07",
+  "url": "https://cdn.wamda.com/feature-images/b08b272c125348d.jpg"
+ },
+ {
+  "id": "d08",
+  "url": "https://assets.sharikatmubasher.com/news/21572826.png"
+ },
+ {
+  "id": "d10",
+  "url": "https://sg-imgs.dealroom.co/9c649dc3842fd994963105d15aad46f9.jpeg?ar=3:1&fit=crop&crop=faces,center&auto=compress&cs=origin"
+ },
+ {
+  "id": "d11",
+  "url": "https://thedisruptormag.com/wp-content/uploads/2026/10/projectsupplies.jpg"
+ },
+ {
+  "id": "d12",
+  "url": "https://entarabi.com/wp-content/uploads/2026/10/AloHakeemfounder.png"
+ },
+ {
+  "id": "n01",
+  "url": "https://assets.maestronewsroom.com/media/30f6532d-717b-4366-9158-9c455299fcd9/1791488590646-cc93f5f9951a3ca9.jpg"
+ },
+ {
+  "id": "n02",
+  "url": "https://apicms.thestar.com.my/uploads/images/2026/10/09/4153129.jpg"
+ },
+ {
+  "id": "n03",
+  "url": "https://storage.googleapis.com/media.mwcradio.com/mimesis/2026-10/11/2026-10-11T211649Z_1_LYNXMPEM9A0MP_RTROPTP_3_USA-STOCKS.JPG"
+ },
+ {
+  "id": "n04",
+  "url": "https://techcrunch.com/wp-content/uploads/2026/09/GettyImages-2278374931.jpg?w=1024"
+ }
 ]
