@@ -796,5 +796,197 @@
   "title": "Homepage | Professional | Redwheel",
   "src": "https://www.google.com/s2/favicons?domain=www.redwheel.com&sz=256",
   "how": "site"
+ },
+ "saudi-exchange": {
+  "wd": "Q2006583",
+  "label": "Saudi Stock Exchange",
+  "desc": "stock exchange in Saudi Arabia",
+  "file": "Tadawul logo.svg",
+  "prop": "P154",
+  "site": "https://www.tadawul.com.sa",
+  "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Tadawul_logo.svg?width=512",
+  "how": "wikidata"
+ },
+ "cb-insights": {
+  "domain": "cbinsights.com",
+  "src": "https://cbinsights.com/apple-touch-icon.png",
+  "how": "icon-service",
+  "title": ""
+ },
+ "gulf-business": {
+  "domain": "gulfbusiness.com",
+  "final": "https://gulfbusiness.com/en/",
+  "title": "Gulf Business | GCC Business News &amp; Market Insights",
+  "src": "https://gulfbusiness.com/apple-icon.png",
+  "how": "site"
+ },
+ "arabian-business": {
+  "domain": "arabianbusiness.com",
+  "src": "https://www.google.com/s2/favicons?domain=arabianbusiness.com&sz=256",
+  "how": "icon-service",
+  "title": ""
+ },
+ "the-national-news": {
+  "wd": "Q2544289",
+  "label": "The National",
+  "desc": "UAE newspaper",
+  "file": "The National (ae) (2020-01-12).svg",
+  "prop": "P154",
+  "site": "https://www.thenational.ae/",
+  "src": "https://commons.wikimedia.org/wiki/Special:FilePath/The_National_%28ae%29_%282020-01-12%29.svg?width=512",
+  "how": "wikidata"
+ },
+ "oraseya-capital": {
+  "domain": "dafz.ae",
+  "final": "https://www.dafz.ae/en",
+  "title": "Dubai Airport Freezone | Business Setup In Dubai | Leading Freezone In UAE | DAFZ",
+  "src": "https://www.dafz.ae/wp-content/uploads/2019/04/fav-icon-300x300.png",
+  "how": "site"
+ },
+ "nayla-finance": {
+  "domain": "naylafinance.com",
+  "src": "https://www.google.com/s2/favicons?domain=naylafinance.com&sz=256",
+  "how": "icon-service",
+  "title": ""
+ },
+ "kanoo-ventures": {
+  "domain": "kanoo.com",
+  "final": "https://www.kanoo.com/",
+  "title": "Creating Futures | Home | YBA Kanoo",
+  "src": "https://www.kanoo.com/wp-content/uploads/2024/02/cropped-Favicon-512-180x180.png",
+  "how": "site"
+ },
+ "echelon": {
+  "domain": "techxmedia.com",
+  "src": "https://www.google.com/s2/favicons?domain=techxmedia.com&sz=256",
+  "how": "icon-service",
+  "title": ""
+ },
+ "ebla-ventures": {
+  "domain": "eblaventures.com",
+  "final": "https://eblaventures.com",
+  "title": "Home - Ebla",
+  "src": "https://eblaventures.com/wp-content/uploads/2025/03/cropped-Group-2-180x180.png",
+  "how": "site"
+ },
+ "stride-ventures": {
+  "domain": "strideventures.com",
+  "src": "https://www.google.com/s2/favicons?domain=strideventures.com&sz=256",
+  "how": "icon-service",
+  "title": ""
+ },
+ "tanami": {
+  "domain": "tanamicapital.com",
+  "final": "https://www.tanamicapital.com/",
+  "title": "Tanami — The better alternative",
+  "src": "https://www.tanamicapital.com/favicon.svg",
+  "how": "site"
+ },
+ "1818-ventures": {
+  "domain": "maddyness.com",
+  "src": "https://www.google.com/s2/favicons?domain=maddyness.com&sz=256",
+  "how": "icon-service",
+  "title": ""
+ },
+ "quantic-financial-solutions": {
+  "domain": "quanticfinancial.com",
+  "final": "https://quanticfinancial.com",
+  "title": "Think. Quantic. - Quantic Financial Solutions",
+  "src": "https://quanticfinancial.com/wp-content/uploads/2020/04/cropped-favicon-180x180.gif",
+  "how": "site"
+ },
+ "orrick": {
+  "wd": "Q3356678",
+  "label": "Orrick, Herrington & Sutcliffe",
+  "desc": "multinational law firm",
+  "file": "Orrick Herrington & Sutcliffe logo.svg",
+  "prop": "P154",
+  "site": "http://www.orrick.com/",
+  "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Orrick_Herrington_%26_Sutcliffe_logo.svg?width=512",
+  "how": "wikidata"
+ },
+ "d-global-ventures": {
+  "domain": "shizune.co",
+  "final": "https://shizune.co",
+  "title": "Shizune — Find the right investors for your startup",
+  "src": "https://shizune.co/seo/images/apple-touch-icon.png",
+  "how": "site"
+ },
+ "exits-mena": {
+  "domain": "exitsmena.com",
+  "src": "https://www.google.com/s2/favicons?domain=exitsmena.com&sz=256",
+  "how": "icon-service",
+  "title": ""
+ },
+ "naran": {
+  "domain": "naran.io",
+  "src": "https://www.google.com/s2/favicons?domain=naran.io&sz=256",
+  "how": "icon-service",
+  "title": ""
+ },
+ "bundle": {
+  "domain": "bundle.social",
+  "src": "https://bundle.social/apple-touch-icon.png",
+  "how": "icon-service",
+  "title": ""
+ },
+ "ash-games": {
+  "domain": "ashgames.com",
+  "src": "https://www.google.com/s2/favicons?domain=ashgames.com&sz=256",
+  "how": "icon-service",
+  "title": ""
+ },
+ "eduact": {
+  "domain": "eduact.me",
+  "src": "https://www.google.com/s2/favicons?domain=eduact.me&sz=256",
+  "how": "icon-service",
+  "title": ""
+ },
+ "doctolib": {
+  "domain": "doctolib.de",
+  "src": "https://doctolib.de/apple-touch-icon.png",
+  "how": "icon-service",
+  "title": ""
+ },
+ "atlas-atomics": {
+  "domain": "atlasatomics.com",
+  "src": "https://atlasatomics.com/apple-touch-icon.png",
+  "how": "icon-service",
+  "title": ""
+ },
+ "crescent-enterprises": {
+  "domain": "crescententerprises.com",
+  "src": "https://www.google.com/s2/favicons?domain=crescententerprises.com&sz=256",
+  "how": "icon-service",
+  "title": ""
+ },
+ "aden-health": {
+  "domain": "aden.health",
+  "final": "https://aden.health",
+  "title": "Unlock the potential of your unique biology | Aden",
+  "src": "https://framerusercontent.com/images/0uPRIGvAWAfpaa23OkZEmk0oZng.png",
+  "how": "site"
+ },
+ "hamad-bin-saedan": {
+  "domain": "binsaedan.com",
+  "src": "https://www.google.com/s2/favicons?domain=binsaedan.com&sz=256",
+  "how": "icon-service",
+  "title": ""
+ },
+ "arab-news": {
+  "wd": "Q623659",
+  "label": "Arab News",
+  "desc": "Saudi Arabian English-language daily newspaper",
+  "file": "Arab News (2019-07-27).svg",
+  "prop": "P154",
+  "site": "https://www.arabnews.com/",
+  "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Arab_News_%282019-07-27%29.svg?width=512",
+  "how": "wikidata"
+ },
+ "cib-egypt": {
+  "domain": "cibeg.com",
+  "src": "https://www.google.com/s2/favicons?domain=cibeg.com&sz=256",
+  "how": "icon-service",
+  "title": ""
  }
 }

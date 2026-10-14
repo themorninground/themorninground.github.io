@@ -1,41 +1,108 @@
 wd adq None
 imgfail adq https://www.google.com/s2/favicons?domain=www.adq.ae&sz=256 HTTP Error 404: Not Found
+iconfail adq https://adq.ae/apple-touch-icon.png HTTP Error 404: The requested content does not exist.
+iconfail adq https://www.adq.ae/apple-touch-icon.png HTTP Error 404: The requested content does not exist.
+iconfail adq https://icons.duckduckgo.com/ip3/adq.ae.ico HTTP Error 404: Not Found
 NONE adq ['adq.ae']
+wd ministry-of-finance None
 noname ministry-of-finance mof.gov.sa وزارة المالية - المملكة العربية السعودية
+iconfail ministry-of-finance https://mof.gov.sa/apple-touch-icon.png cannot identify image file <_io.BytesIO object at 0x7f03c580f970>
+iconfail ministry-of-finance https://www.mof.gov.sa/apple-touch-icon.png cannot identify image file <_io.BytesIO object at 0x7f03c47709f0>
+iconfail ministry-of-finance https://icons.duckduckgo.com/ip3/mof.gov.sa.ico HTTP Error 404: Not Found
 NONE ministry-of-finance ['mof.gov.sa']
+wd gastat None
 FAIL gastat stats.gov.sa <urlopen error timed out>
+iconfail gastat https://stats.gov.sa/apple-touch-icon.png HTTP Error 404: 
+iconfail gastat https://www.stats.gov.sa/apple-touch-icon.png HTTP Error 404: 
+iconfail gastat https://www.google.com/s2/favicons?domain=stats.gov.sa&sz=256 HTTP Error 404: Not Found
+iconfail gastat https://icons.duckduckgo.com/ip3/stats.gov.sa.ico HTTP Error 404: Not Found
 NONE gastat ['stats.gov.sa']
+wd cma None
+iconfail cma https://cma.org.sa/apple-touch-icon.png HTTP Error 404: NOT FOUND
+iconfail cma https://www.cma.org.sa/apple-touch-icon.png cannot identify image file <_io.BytesIO object at 0x7f03c4772d40>
+iconfail cma https://icons.duckduckgo.com/ip3/cma.org.sa.ico HTTP Error 404: Not Found
 NONE cma ['cma.org.sa']
-FAIL saudi-exchange saudiexchange.sa <urlopen error [Errno -5] No address associated with hostname>
-NONE saudi-exchange ['saudiexchange.sa']
-FAIL elm elm.sa <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>
+wd saudi-exchange {'wd': 'Q2006583', 'label': 'Saudi Stock Exchange', 'desc': 'stock exchange in Saudi Arabia', 'file': 'Tadawul logo.svg', 'prop': 'P154', 'site': 'https://www.tadawul.com.sa'}
+ok saudi-exchange {'wd': 'Q2006583', 'label': 'Saudi Stock Exchange', 'desc': 'stock exchange in Saudi Arabia', 'file': 'Tadawul logo.svg', 'prop': 'P154', 'site': 'https://www.tadawul.com.sa', 'src': 'https://commons.wikimedia.org/wiki/Special:FilePath/Tadawul_logo.svg?width=512', 'how': 'wikidata'}
+wd elm None
+imgfail elm https://www.google.com/s2/favicons?domain=elm.sa&sz=256 HTTP Error 404: Not Found
+imgfail elm https://elm.sa/Style%20Library/ar-sa/assets/images/cropped-faveicon-1-32x32.png <urlopen error timed out>
+imgfail elm https://elm.sa/SiteAssets/safari-pinned-tab.svg <urlopen error timed out>
+imgfail elm https://elm.sa/Style%20Library/ar-sa/assets/images/cropped-faveicon-1-32x32.png <urlopen error timed out>
+iconfail elm https://elm.sa/apple-touch-icon.png <urlopen error timed out>
+iconfail elm https://www.elm.sa/apple-touch-icon.png <urlopen error timed out>
+iconfail elm https://www.google.com/s2/favicons?domain=elm.sa&sz=256 HTTP Error 404: Not Found
+iconfail elm https://icons.duckduckgo.com/ip3/elm.sa.ico HTTP Error 404: Not Found
 NONE elm ['elm.sa']
 FAIL wa-ed-ventures waed.net <urlopen error timed out>
 FAIL wa-ed-ventures waedventures.com <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)>
+iconfail wa-ed-ventures https://waed.net/apple-touch-icon.png <urlopen error timed out>
+iconfail wa-ed-ventures https://www.waed.net/apple-touch-icon.png <urlopen error timed out>
+iconfail wa-ed-ventures https://www.google.com/s2/favicons?domain=waed.net&sz=256 HTTP Error 404: Not Found
+iconfail wa-ed-ventures https://icons.duckduckgo.com/ip3/waed.net.ico HTTP Error 404: Not Found
+iconfail wa-ed-ventures https://waedventures.com/apple-touch-icon.png <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)>
+iconfail wa-ed-ventures https://www.waedventures.com/apple-touch-icon.png <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)>
+iconfail wa-ed-ventures https://www.google.com/s2/favicons?domain=waedventures.com&sz=256 HTTP Error 404: Not Found
+iconfail wa-ed-ventures https://icons.duckduckgo.com/ip3/waedventures.com.ico HTTP Error 404: Not Found
 NONE wa-ed-ventures ['waed.net', 'waedventures.com']
-wd aramco-ventures {'wd': 'Q679322', 'label': 'Saudi Aramco', 'desc': 'Saudi Arabian state-owned petroleum company', 'file': 'Saudi aramco logo.svg', 'prop': 'P154', 'site': 'https://www.aramco.com//'}
-ok aramco-ventures {'wd': 'Q679322', 'label': 'Saudi Aramco', 'desc': 'Saudi Arabian state-owned petroleum company', 'file': 'Saudi aramco logo.svg', 'prop': 'P154', 'site': 'https://www.aramco.com//', 'src': 'https://commons.wikimedia.org/wiki/Special:FilePath/Saudi_aramco_logo.svg?width=512', 'how': 'wikidata'}
+iconfail dealstreetasia https://dealstreetasia.com/apple-touch-icon.png HTTP Error 404: Not Found
+iconfail dealstreetasia https://www.dealstreetasia.com/apple-touch-icon.png HTTP Error 404: Not Found
+iconfail dealstreetasia https://icons.duckduckgo.com/ip3/dealstreetasia.com.ico HTTP Error 404: Not Found
 NONE dealstreetasia ['dealstreetasia.com']
+iconfail the-startup-scene https://thestartupscene.me/apple-touch-icon.png HTTP Error 404: Not Found
+iconfail the-startup-scene https://www.thestartupscene.me/apple-touch-icon.png HTTP Error 404: Not Found
 NONE the-startup-scene ['thestartupscene.me']
+iconfail the-saas-news https://thesaasnews.com/apple-touch-icon.png HTTP Error 404: Not Found
+iconfail the-saas-news https://www.thesaasnews.com/apple-touch-icon.png HTTP Error 404: Not Found
 NONE the-saas-news ['thesaasnews.com']
-FAIL decypha decypha.com <urlopen error timed out>
+imgfail decypha https://www.google.com/s2/favicons?domain=decypha.com&sz=256 HTTP Error 404: Not Found
+iconfail decypha https://decypha.com/apple-touch-icon.png HTTP Error 404: Not Found
+iconfail decypha https://www.decypha.com/apple-touch-icon.png HTTP Error 404: Not Found
+iconfail decypha https://www.google.com/s2/favicons?domain=decypha.com&sz=256 HTTP Error 404: Not Found
 NONE decypha ['decypha.com']
 wd asharq-al-awsat {'wd': 'Q724844', 'label': 'Asharq Al-Awsat', 'desc': 'Saudi newspaper and website', 'site': 'https://aawsat.com/'}
+iconfail asharq-al-awsat https://aawsat.com/apple-touch-icon.png HTTP Error 404: Not Found
+iconfail asharq-al-awsat https://www.aawsat.com/apple-touch-icon.png HTTP Error 404: Not Found
+iconfail asharq-al-awsat https://aawsat.com/apple-touch-icon.png HTTP Error 404: Not Found
+iconfail asharq-al-awsat https://www.aawsat.com/apple-touch-icon.png HTTP Error 404: Not Found
 NONE asharq-al-awsat ['aawsat.com', 'aawsat.com']
+iconfail lucidity-insights https://lucidityinsights.com/apple-touch-icon.png HTTP Error 404: Not Found
+iconfail lucidity-insights https://www.lucidityinsights.com/apple-touch-icon.png HTTP Error 404: Not Found
 NONE lucidity-insights ['lucidityinsights.com']
+wd magnitt {'wd': 'Q193663', 'label': 'magnetic tape', 'desc': 'medium used to store data in the form of magnetic fields', 'site': ''}
 FAIL magnitt magnitt.com HTTP Error 403: Forbidden
+iconfail magnitt https://magnitt.com/apple-touch-icon.png cannot identify image file <_io.BytesIO object at 0x7f03c5830180>
+iconfail magnitt https://www.magnitt.com/apple-touch-icon.png cannot identify image file <_io.BytesIO object at 0x7f03c5830180>
 NONE magnitt ['magnitt.com']
+wd pitchbook {'wd': 'Q16967130', 'label': 'PitchBook Data', 'desc': 'company', 'site': 'https://pitchbook.com'}
 FAIL pitchbook pitchbook.com HTTP Error 403: Forbidden
-NONE pitchbook ['pitchbook.com']
-NONE cb-insights ['cbinsights.com']
-NONE sifted ['sifted.eu']
+FAIL pitchbook pitchbook.com HTTP Error 403: Forbidden
+iconfail pitchbook https://pitchbook.com/apple-touch-icon.png HTTP Error 404: Not Found
+iconfail pitchbook https://www.pitchbook.com/apple-touch-icon.png HTTP Error 404: Not Found
+iconfail pitchbook https://pitchbook.com/apple-touch-icon.png HTTP Error 404: Not Found
+iconfail pitchbook https://www.pitchbook.com/apple-touch-icon.png HTTP Error 404: Not Found
+NONE pitchbook ['pitchbook.com', 'pitchbook.com']
+wd cb-insights {'wd': 'Q97276012', 'label': 'CB Insights', 'desc': 'business analytics platform', 'site': 'http://cbinsights.com/'}
+ok cb-insights {'domain': 'cbinsights.com', 'src': 'https://cbinsights.com/apple-touch-icon.png', 'how': 'icon-service', 'title': ''}
+wd sifted {'wd': 'Q128802786', 'label': 'Sifted', 'desc': 'media company focused on startups', 'site': 'https://sifted.eu/'}
+iconfail sifted https://sifted.eu/apple-touch-icon.png HTTP Error 404: Not Found
+iconfail sifted https://www.sifted.eu/apple-touch-icon.png HTTP Error 404: Not Found
+iconfail sifted https://sifted.eu/apple-touch-icon.png HTTP Error 404: Not Found
+iconfail sifted https://www.sifted.eu/apple-touch-icon.png HTTP Error 404: Not Found
+NONE sifted ['sifted.eu', 'sifted.eu']
+iconfail menabytes https://menabytes.com/apple-touch-icon.png HTTP Error 404: Not Found
+iconfail menabytes https://www.menabytes.com/apple-touch-icon.png HTTP Error 404: Not Found
+iconfail menabytes https://icons.duckduckgo.com/ip3/menabytes.com.ico HTTP Error 404: Not Found
 NONE menabytes ['menabytes.com']
-FAIL gulf-business gulfbusiness.com HTTP Error 403: Forbidden
-NONE gulf-business ['gulfbusiness.com']
+ok gulf-business {'domain': 'gulfbusiness.com', 'final': 'https://gulfbusiness.com/en/', 'title': 'Gulf Business | GCC Business News &amp; Market Insights', 'src': 'https://gulfbusiness.com/apple-icon.png', 'how': 'site'}
 FAIL arabian-business arabianbusiness.com HTTP Error 405: Not Allowed
-NONE arabian-business ['arabianbusiness.com']
-imgfail the-national-news https://www.google.com/s2/favicons?domain=www.thenationalnews.com:443&sz=256 HTTP Error 404: Not Found
-NONE the-national-news ['thenationalnews.com']
+iconfail arabian-business https://arabianbusiness.com/apple-touch-icon.png HTTP Error 405: Not Allowed
+iconfail arabian-business https://www.arabianbusiness.com/apple-touch-icon.png HTTP Error 405: Not Allowed
+ok arabian-business {'domain': 'arabianbusiness.com', 'src': 'https://www.google.com/s2/favicons?domain=arabianbusiness.com&sz=256', 'how': 'icon-service', 'title': ''}
+wd the-national-news {'wd': 'Q2544289', 'label': 'The National', 'desc': 'UAE newspaper', 'file': 'The National (ae) (2020-01-12).svg', 'prop': 'P154', 'site': 'https://www.thenational.ae/'}
+ok the-national-news {'wd': 'Q2544289', 'label': 'The National', 'desc': 'UAE newspaper', 'file': 'The National (ae) (2020-01-12).svg', 'prop': 'P154', 'site': 'https://www.thenational.ae/', 'src': 'https://commons.wikimedia.org/wiki/Special:FilePath/The_National_%28ae%29_%282020-01-12%29.svg?width=512', 'how': 'wikidata'}
+iconfail al-eqtisadiah https://aleqt.com/apple-touch-icon.png HTTP Error 404: Not Found
+iconfail al-eqtisadiah https://www.aleqt.com/apple-touch-icon.png HTTP Error 404: Not Found
 NONE al-eqtisadiah ['aleqt.com']
 FAIL zero-to-one-media 0to1.sa <urlopen error [Errno -2] Name or service not known>
 FAIL zero-to-one-media zerotoone.sa <urlopen error [Errno -2] Name or service not known>
@@ -44,260 +111,444 @@ noname zero-to-one-media zto.sa welcome - صفر لواحد
 FAIL zero-to-one-media newsletter.zto.sa <urlopen error [Errno -5] No address associated with hostname>
 noname zero-to-one-media shuhub.ai شُهُب — حيث تنطلق المنتجات العربية
 noname zero-to-one-media ecosystemsa.com Saudi Ecosystem Directory | دليل ريادة الأعمال السعودي
+iconfail zero-to-one-media https://0to1.sa/apple-touch-icon.png <urlopen error [Errno -2] Name or service not known>
+iconfail zero-to-one-media https://www.0to1.sa/apple-touch-icon.png <urlopen error [Errno -2] Name or service not known>
+iconfail zero-to-one-media https://www.google.com/s2/favicons?domain=0to1.sa&sz=256 HTTP Error 404: Not Found
+iconfail zero-to-one-media https://icons.duckduckgo.com/ip3/0to1.sa.ico HTTP Error 404: Not Found
+iconfail zero-to-one-media https://zerotoone.sa/apple-touch-icon.png <urlopen error [Errno -2] Name or service not known>
+iconfail zero-to-one-media https://www.zerotoone.sa/apple-touch-icon.png <urlopen error [Errno -2] Name or service not known>
+iconfail zero-to-one-media https://www.google.com/s2/favicons?domain=zerotoone.sa&sz=256 HTTP Error 404: Not Found
+iconfail zero-to-one-media https://icons.duckduckgo.com/ip3/zerotoone.sa.ico HTTP Error 404: Not Found
 NONE zero-to-one-media ['0to1.sa', 'zerotoone.sa', 'sefr1.com', 'zto.sa', 'newsletter.zto.sa', 'shuhub.ai', 'ecosystemsa.com']
 noname oraseya-capital oraseya.com 
 FAIL oraseya-capital oraseya.ae <urlopen error [Errno -2] Name or service not known>
-nocontext oraseya-capital startupintros.com Startup Intros — Stop Pitching Blind. Start Matching Smart.
-nocontext oraseya-capital gulfpitch.com GulfPitch — The Gulf Startup Show &amp; GCC Funding Map
-NONE oraseya-capital ['oraseyacapital.com', 'oraseya.com', 'oraseya.ae', 'oraseyacapital.ae', 'startupintros.com', 'gulfpitch.com']
+ok oraseya-capital {'domain': 'dafz.ae', 'final': 'https://www.dafz.ae/en', 'title': 'Dubai Airport Freezone | Business Setup In Dubai | Leading Freezone In UAE | DAFZ', 'src': 'https://www.dafz.ae/wp-content/uploads/2019/04/fav-icon-300x300.png', 'how': 'site'}
 FAIL nayla-finance naylafinance.com HTTP Error 403: Forbidden
-NONE nayla-finance ['naylafinance.com']
-imgfail blominvest https://www.blominvestbank.com/BlomInvest/images/mobileicon.png cannot identify image file <_io.BytesIO object at 0x7f9d1add7ce0>
+iconfail nayla-finance https://naylafinance.com/apple-touch-icon.png HTTP Error 403: Forbidden
+iconfail nayla-finance https://www.naylafinance.com/apple-touch-icon.png HTTP Error 403: Forbidden
+ok nayla-finance {'domain': 'naylafinance.com', 'src': 'https://www.google.com/s2/favicons?domain=naylafinance.com&sz=256', 'how': 'icon-service', 'title': ''}
+imgfail blominvest https://www.blominvestbank.com/BlomInvest/images/mobileicon.png cannot identify image file <_io.BytesIO object at 0x7f03c580f8d0>
 imgfail blominvest https://www.google.com/s2/favicons?domain=www.blominvestbank.com&sz=256 HTTP Error 404: Not Found
+iconfail blominvest https://blominvestbank.com/apple-touch-icon.png HTTP Error 526: <none>
+iconfail blominvest https://www.blominvestbank.com/apple-touch-icon.png cannot identify image file <_io.BytesIO object at 0x7f03c4771210>
+iconfail blominvest https://www.google.com/s2/favicons?domain=blominvestbank.com&sz=256 HTTP Error 404: Not Found
+iconfail blominvest https://icons.duckduckgo.com/ip3/blominvestbank.com.ico HTTP Error 404: Not Found
 NONE blominvest ['blominvestbank.com']
 imgfail x-tech-fund-sab-invest https://www.google.com/s2/favicons?domain=sabinvest.com&sz=256 HTTP Error 404: Not Found
+iconfail x-tech-fund-sab-invest https://sabinvest.com/apple-touch-icon.png HTTP Error 404: Not Found
+iconfail x-tech-fund-sab-invest https://www.sabinvest.com/apple-touch-icon.png HTTP Error 404: Not Found
+iconfail x-tech-fund-sab-invest https://www.google.com/s2/favicons?domain=sabinvest.com&sz=256 HTTP Error 404: Not Found
+iconfail x-tech-fund-sab-invest https://icons.duckduckgo.com/ip3/sabinvest.com.ico HTTP Error 404: Not Found
 NONE x-tech-fund-sab-invest ['sabinvest.com']
 FAIL gib-saudi-arabia gib.com HTTP Error 403: Forbidden
+iconfail gib-saudi-arabia https://gib.com/apple-touch-icon.png HTTP Error 403: Forbidden
+iconfail gib-saudi-arabia https://www.gib.com/apple-touch-icon.png HTTP Error 403: Forbidden
 NONE gib-saudi-arabia ['gib.com']
 FAIL kanoo-ventures kanooventures.com <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)>
-FAIL kanoo-ventures kanoo.com <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'kanoo.com'. (_ssl.c:1010)>
-NONE kanoo-ventures ['kanooventures.com', 'kanoo.com']
-FAIL ksh-investments privatemarketview.com HTTP Error 429: Too Many Requests
-noname ksh-investments article.wn.com World News
-noname ksh-investments menafn.com Business &amp; Financial - International News, Currencies &amp; Economic Indicators
-ok ksh-investments {'domain': 'en.aletihad.ae', 'final': 'https://en.aletihad.ae', 'title': 'Home Page  -  Aletihad News Center', 'src': 'https://www.google.com/s2/favicons?domain=en.aletihad.ae&sz=256', 'how': 'site'}
+ok kanoo-ventures {'domain': 'kanoo.com', 'final': 'https://www.kanoo.com/', 'title': 'Creating Futures | Home | YBA Kanoo', 'src': 'https://www.kanoo.com/wp-content/uploads/2024/02/cropped-Favicon-512-180x180.png', 'how': 'site'}
+NONE ksh-investments []
 noname echelon saudishopper.com.sa Saudi ICT Shopper News | Saudi Tech &amp; Telecom News
 noname echelon techxmedia.com TECHx Media - TECHx Media
-NONE echelon ['saudishopper.com.sa', 'techxmedia.com']
+iconfail echelon https://saudishopper.com.sa/apple-touch-icon.png HTTP Error 404: Not Found
+iconfail echelon https://www.saudishopper.com.sa/apple-touch-icon.png HTTP Error 404: Not Found
+iconfail echelon https://www.google.com/s2/favicons?domain=saudishopper.com.sa&sz=256 HTTP Error 404: Not Found
+iconfail echelon https://techxmedia.com/apple-touch-icon.png HTTP Error 404: Not Found
+iconfail echelon https://www.techxmedia.com/apple-touch-icon.png HTTP Error 404: Not Found
+ok echelon {'domain': 'techxmedia.com', 'src': 'https://www.google.com/s2/favicons?domain=techxmedia.com&sz=256', 'how': 'icon-service', 'title': ''}
 FAIL east40 east40.vc <urlopen error [Errno -2] Name or service not known>
 FAIL east40 east40.ae <urlopen error [Errno -2] Name or service not known>
 nocontext east40 east40holding.com East40 Holding
 noname east40 ecosystemsa.com Saudi Ecosystem Directory | دليل ريادة الأعمال السعودي
 noname east40 gritt.io gritt.io — Personalised investor outreach for startups
 noname east40 prospeo.io Prospeo - Find Verified Emails &amp; Phone Numbers for Outreach
+iconfail east40 https://east40.vc/apple-touch-icon.png <urlopen error [Errno -2] Name or service not known>
+iconfail east40 https://www.east40.vc/apple-touch-icon.png <urlopen error [Errno -2] Name or service not known>
+iconfail east40 https://www.google.com/s2/favicons?domain=east40.vc&sz=256 HTTP Error 404: Not Found
+iconfail east40 https://icons.duckduckgo.com/ip3/east40.vc.ico HTTP Error 404: Not Found
+iconfail east40 https://east40.com/apple-touch-icon.png HTTP Error 404: Not Found
+iconfail east40 https://www.east40.com/apple-touch-icon.png HTTP Error 404: Not Found
 NONE east40 ['east40.vc', 'east40.com', 'east40.ae', 'east40holding.com', 'ecosystemsa.com', 'gritt.io', 'prospeo.io']
 nocontext avra avra.com Home - Avra
+iconfail avra https://avra.com/apple-touch-icon.png HTTP Error 404: Not Found
+iconfail avra https://www.avra.com/apple-touch-icon.png HTTP Error 404: Not Found
+iconfail avra https://www.google.com/s2/favicons?domain=avra.com&sz=256 HTTP Error 404: Not Found
+iconfail avra https://icons.duckduckgo.com/ip3/avra.com.ico HTTP Error 404: Not Found
 NONE avra ['avra.com']
-FAIL m20-fund marketscreener.com HTTP Error 403: Forbidden
-FAIL m20-fund sa.marketscreener.com HTTP Error 403: Forbidden
-ok m20-fund {'domain': 'maaal.com', 'final': 'https://maaal.com', 'title': 'صحيفة مال - أخبار المال والأعمال والاقتصاد السعودي - صحيفة مال', 'src': 'https://maaal.com/apple-icon.png?122c310157c94221', 'how': 'site'}
-NONE noon-investments []
+NONE m20-fund []
+FAIL noon-investments info-clipper.com HTTP Error 403: Forbidden
+FAIL noon-investments clarifiedby.diligenciagroup.com HTTP Error 403: Forbidden
+imgfail noon-investments https://www.google.com/s2/favicons?domain=decypha.com&sz=256 HTTP Error 404: Not Found
+iconfail noon-investments https://info-clipper.com/apple-touch-icon.png HTTP Error 404: Not Found
+iconfail noon-investments https://www.info-clipper.com/apple-touch-icon.png HTTP Error 404: Not Found
+iconfail noon-investments https://www.google.com/s2/favicons?domain=info-clipper.com&sz=256 HTTP Error 404: Not Found
+iconfail noon-investments https://clarifiedby.diligenciagroup.com/apple-touch-icon.png HTTP Error 403: Forbidden
+iconfail noon-investments https://www.clarifiedby.diligenciagroup.com/apple-touch-icon.png <urlopen error [Errno -2] Name or service not known>
+iconfail noon-investments https://icons.duckduckgo.com/ip3/clarifiedby.diligenciagroup.com.ico HTTP Error 404: Not Found
+NONE noon-investments ['info-clipper.com', 'clarifiedby.diligenciagroup.com', 'decypha.com']
 FAIL ebla-ventures ebla.vc <urlopen error [Errno -2] Name or service not known>
 ok ebla-ventures {'domain': 'eblaventures.com', 'final': 'https://eblaventures.com', 'title': 'Home - Ebla', 'src': 'https://eblaventures.com/wp-content/uploads/2025/03/cropped-Group-2-180x180.png', 'how': 'site'}
 FAIL stride-ventures strideventures.in <urlopen error [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010)>
 FAIL stride-ventures strideventures.com <urlopen error timed out>
-NONE stride-ventures ['strideventures.in', 'strideventures.com']
-FAIL tanami tanami.com <urlopen error _ssl.c:993: The handshake operation timed out>
+iconfail stride-ventures https://strideventures.in/apple-touch-icon.png <urlopen error [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010)>
+iconfail stride-ventures https://www.strideventures.in/apple-touch-icon.png <urlopen error [Errno -2] Name or service not known>
+iconfail stride-ventures https://www.google.com/s2/favicons?domain=strideventures.in&sz=256 HTTP Error 404: Not Found
+iconfail stride-ventures https://icons.duckduckgo.com/ip3/strideventures.in.ico HTTP Error 404: Not Found
+iconfail stride-ventures https://strideventures.com/apple-touch-icon.png <urlopen error timed out>
+iconfail stride-ventures https://www.strideventures.com/apple-touch-icon.png <urlopen error timed out>
+ok stride-ventures {'domain': 'strideventures.com', 'src': 'https://www.google.com/s2/favicons?domain=strideventures.com&sz=256', 'how': 'icon-service', 'title': ''}
+nocontext tanami tanami.com 
 FAIL tanami tanami.bh <urlopen error [Errno -2] Name or service not known>
-imgfail tanami https://www.tanamicapital.com/favicon.ico HTTP Error 404: Not Found
-imgfail tanami https://www.tanamicapital.com/favicon.ico HTTP Error 404: Not Found
-NONE tanami ['tanami.com', 'tanami.bh', 'tanamicapital.com', 'tanami.capital']
-NONE 1818-ventures []
-NONE quantic-financial-solutions []
-FAIL boyu-capital boyucapital.com <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>
+ok tanami {'domain': 'tanamicapital.com', 'final': 'https://www.tanamicapital.com/', 'title': 'Tanami — The better alternative', 'src': 'https://www.tanamicapital.com/favicon.svg', 'how': 'site'}
+noname 1818-ventures maddyness.com Maddyness - Le média pour comprendre l&#039;économie de demain
+noname 1818-ventures inforcapital.com InforCapital: Market Intelligence for Private Equity &amp; Venture Capital
+iconfail 1818-ventures https://maddyness.com/apple-touch-icon.png HTTP Error 404: Not Found
+iconfail 1818-ventures https://www.maddyness.com/apple-touch-icon.png HTTP Error 404: Not Found
+ok 1818-ventures {'domain': 'maddyness.com', 'src': 'https://www.google.com/s2/favicons?domain=maddyness.com&sz=256', 'how': 'icon-service', 'title': ''}
+ok quantic-financial-solutions {'domain': 'quanticfinancial.com', 'final': 'https://quanticfinancial.com', 'title': 'Think. Quantic. - Quantic Financial Solutions', 'src': 'https://quanticfinancial.com/wp-content/uploads/2020/04/cropped-favicon-180x180.gif', 'how': 'site'}
+iconfail boyu-capital https://boyucapital.com/apple-touch-icon.png HTTP Error 404: Not Found
+iconfail boyu-capital https://www.boyucapital.com/apple-touch-icon.png HTTP Error 404: Not Found
+iconfail boyu-capital https://icons.duckduckgo.com/ip3/boyucapital.com.ico HTTP Error 404: Not Found
 NONE boyu-capital ['boyucapital.com']
+iconfail zhenfund https://zhenfund.com/apple-touch-icon.png HTTP Error 404: Not Found
+iconfail zhenfund https://www.zhenfund.com/apple-touch-icon.png HTTP Error 404: Not Found
+iconfail zhenfund https://icons.duckduckgo.com/ip3/zhenfund.com.ico HTTP Error 404: Not Found
 NONE zhenfund ['zhenfund.com']
-NONE orrick ['orrick.com']
+wd orrick {'wd': 'Q3356678', 'label': 'Orrick, Herrington & Sutcliffe', 'desc': 'multinational law firm', 'file': 'Orrick Herrington & Sutcliffe logo.svg', 'prop': 'P154', 'site': 'http://www.orrick.com/'}
+ok orrick {'wd': 'Q3356678', 'label': 'Orrick, Herrington & Sutcliffe', 'desc': 'multinational law firm', 'file': 'Orrick Herrington & Sutcliffe logo.svg', 'prop': 'P154', 'site': 'http://www.orrick.com/', 'src': 'https://commons.wikimedia.org/wiki/Special:FilePath/Orrick_Herrington_%26_Sutcliffe_logo.svg?width=512', 'how': 'wikidata'}
+iconfail arcapita https://arcapita.com/apple-touch-icon.png HTTP Error 404: Not Found
+iconfail arcapita https://www.arcapita.com/apple-touch-icon.png HTTP Error 404: Not Found
 NONE arcapita ['arcapita.com']
-NONE yazeed-al-rajhi-brothers-holding []
-NONE d-global-ventures []
+noname yazeed-al-rajhi-brothers-holding flaia.org FLAIA – The Community for Alternative Investments
+FAIL yazeed-al-rajhi-brothers-holding clarifiedby.diligenciagroup.com HTTP Error 403: Forbidden
+iconfail yazeed-al-rajhi-brothers-holding https://rajhi.sa/apple-touch-icon.png HTTP Error 404: Not Found
+iconfail yazeed-al-rajhi-brothers-holding https://www.rajhi.sa/apple-touch-icon.png HTTP Error 404: Not Found
+iconfail yazeed-al-rajhi-brothers-holding https://flaia.org/apple-touch-icon.png HTTP Error 404: Not Found
+iconfail yazeed-al-rajhi-brothers-holding https://www.flaia.org/apple-touch-icon.png HTTP Error 404: Not Found
+NONE yazeed-al-rajhi-brothers-holding ['rajhi.sa', 'flaia.org', 'clarifiedby.diligenciagroup.com']
+ok d-global-ventures {'domain': 'shizune.co', 'final': 'https://shizune.co', 'title': 'Shizune — Find the right investors for your startup', 'src': 'https://shizune.co/seo/images/apple-touch-icon.png', 'how': 'site'}
 NONE project-suppliers []
 noname pinnacle pinnacle-capital.com 
 noname pinnacle pinnaclecapital.co 
 noname pinnacle pinnacle.vc 
 FAIL pinnacle pinnaclecapital.sa <urlopen error [Errno -2] Name or service not known>
+iconfail pinnacle https://pinnacle-capital.com/apple-touch-icon.png cannot identify image file <_io.BytesIO object at 0x7f03c3ff9f30>
+iconfail pinnacle https://www.pinnacle-capital.com/apple-touch-icon.png cannot identify image file <_io.BytesIO object at 0x7f03c3ffaa70>
+iconfail pinnacle https://www.google.com/s2/favicons?domain=pinnacle-capital.com&sz=256 HTTP Error 404: Not Found
+iconfail pinnacle https://icons.duckduckgo.com/ip3/pinnacle-capital.com.ico HTTP Error 404: Not Found
+iconfail pinnacle https://pinnaclecapital.co/apple-touch-icon.png cannot identify image file <_io.BytesIO object at 0x7f03c40573d0>
+iconfail pinnacle https://www.pinnaclecapital.co/apple-touch-icon.png cannot identify image file <_io.BytesIO object at 0x7f03c40573d0>
+iconfail pinnacle https://www.google.com/s2/favicons?domain=pinnaclecapital.co&sz=256 HTTP Error 404: Not Found
+iconfail pinnacle https://icons.duckduckgo.com/ip3/pinnaclecapital.co.ico HTTP Error 404: Not Found
 NONE pinnacle ['pinnacle-capital.com', 'pinnaclecapital.co', 'pinnacle.vc', 'pinnaclecapital.sa']
-FAIL enhance enhance.ae <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'enhance.ae'. (_ssl.c:1010)>
+noname enhance enhance.ae 404 - PAGE NOT FOUND
 noname enhance getenhance.com 
+iconfail enhance https://enhance.ae/apple-touch-icon.png cannot identify image file <_io.BytesIO object at 0x7f03c3ff9a80>
+iconfail enhance https://www.enhance.ae/apple-touch-icon.png cannot identify image file <_io.BytesIO object at 0x7f03c47ae430>
+iconfail enhance https://www.google.com/s2/favicons?domain=enhance.ae&sz=256 HTTP Error 404: Not Found
+iconfail enhance https://icons.duckduckgo.com/ip3/enhance.ae.ico HTTP Error 404: Not Found
+iconfail enhance https://getenhance.com/apple-touch-icon.png cannot identify image file <_io.BytesIO object at 0x7f03c580ebb0>
+iconfail enhance https://www.getenhance.com/apple-touch-icon.png cannot identify image file <_io.BytesIO object at 0x7f03c580ebb0>
+iconfail enhance https://www.google.com/s2/favicons?domain=getenhance.com&sz=256 HTTP Error 404: Not Found
+iconfail enhance https://icons.duckduckgo.com/ip3/getenhance.com.ico HTTP Error 404: Not Found
 NONE enhance ['enhance.ae', 'getenhance.com']
 NONE remedium []
 NONE oro []
 imgfail stellaria https://www.google.com/s2/favicons?domain=stellaria.ai&sz=256 HTTP Error 404: Not Found
 FAIL stellaria stellaria.ae <urlopen error [Errno -2] Name or service not known>
+iconfail stellaria https://stellaria.ai/apple-touch-icon.png HTTP Error 404: Not Found
+iconfail stellaria https://www.stellaria.ai/apple-touch-icon.png HTTP Error 404: Not Found
+iconfail stellaria https://www.google.com/s2/favicons?domain=stellaria.ai&sz=256 HTTP Error 404: Not Found
+iconfail stellaria https://icons.duckduckgo.com/ip3/stellaria.ai.ico HTTP Error 404: Not Found
+iconfail stellaria https://stellaria.ae/apple-touch-icon.png <urlopen error [Errno -2] Name or service not known>
+iconfail stellaria https://www.stellaria.ae/apple-touch-icon.png <urlopen error [Errno -2] Name or service not known>
+iconfail stellaria https://www.google.com/s2/favicons?domain=stellaria.ae&sz=256 HTTP Error 404: Not Found
+iconfail stellaria https://icons.duckduckgo.com/ip3/stellaria.ae.ico HTTP Error 404: Not Found
 NONE stellaria ['stellaria.ai', 'stellaria.ae']
 FAIL raff raff.sa <urlopen error [Errno -2] Name or service not known>
 FAIL raff raff.store <urlopen error [Errno -2] Name or service not known>
 FAIL raff raff.com.sa <urlopen error [Errno -2] Name or service not known>
+iconfail raff https://raff.sa/apple-touch-icon.png <urlopen error [Errno -2] Name or service not known>
+iconfail raff https://www.raff.sa/apple-touch-icon.png <urlopen error [Errno -2] Name or service not known>
+iconfail raff https://www.google.com/s2/favicons?domain=raff.sa&sz=256 HTTP Error 404: Not Found
+iconfail raff https://icons.duckduckgo.com/ip3/raff.sa.ico HTTP Error 404: Not Found
+iconfail raff https://raff.store/apple-touch-icon.png <urlopen error [Errno -2] Name or service not known>
+iconfail raff https://www.raff.store/apple-touch-icon.png <urlopen error [Errno -2] Name or service not known>
+iconfail raff https://www.google.com/s2/favicons?domain=raff.store&sz=256 HTTP Error 404: Not Found
+iconfail raff https://icons.duckduckgo.com/ip3/raff.store.ico HTTP Error 404: Not Found
 NONE raff ['raff.sa', 'raff.store', 'raff.com.sa']
 NONE xsquare []
 FAIL tax-star taxstar.ae <urlopen error [Errno -2] Name or service not known>
 imgfail tax-star https://www.google.com/s2/favicons?domain=taxstar.ai&sz=256 HTTP Error 404: Not Found
 FAIL tax-star tax-star.com <urlopen error [Errno -2] Name or service not known>
+iconfail tax-star https://taxstar.ae/apple-touch-icon.png <urlopen error [Errno -2] Name or service not known>
+iconfail tax-star https://www.taxstar.ae/apple-touch-icon.png <urlopen error [Errno -2] Name or service not known>
+iconfail tax-star https://www.google.com/s2/favicons?domain=taxstar.ae&sz=256 HTTP Error 404: Not Found
+iconfail tax-star https://icons.duckduckgo.com/ip3/taxstar.ae.ico HTTP Error 404: Not Found
+iconfail tax-star https://taxstar.ai/apple-touch-icon.png HTTP Error 441: status code 441
+iconfail tax-star https://www.taxstar.ai/apple-touch-icon.png <urlopen error [SSL: TLSV1_UNRECOGNIZED_NAME] tlsv1 unrecognized name (_ssl.c:1010)>
+iconfail tax-star https://www.google.com/s2/favicons?domain=taxstar.ai&sz=256 HTTP Error 404: Not Found
 NONE tax-star ['taxstar.ae', 'taxstar.ai', 'tax-star.com']
 FAIL avanz-capital avanz.capital <urlopen error [Errno -2] Name or service not known>
+iconfail avanz-capital https://avanzcapital.com/apple-touch-icon.png HTTP Error 404: Not Found
+iconfail avanz-capital https://www.avanzcapital.com/apple-touch-icon.png HTTP Error 404: Not Found
+iconfail avanz-capital https://avanz.capital/apple-touch-icon.png <urlopen error [Errno -2] Name or service not known>
+iconfail avanz-capital https://www.avanz.capital/apple-touch-icon.png <urlopen error [Errno -2] Name or service not known>
+iconfail avanz-capital https://www.google.com/s2/favicons?domain=avanz.capital&sz=256 HTTP Error 404: Not Found
+iconfail avanz-capital https://icons.duckduckgo.com/ip3/avanz.capital.ico HTTP Error 404: Not Found
 NONE avanz-capital ['avanzcapital.com', 'avanz.capital']
 noname exits-mena exitsmena.com Client Challenge
 FAIL exits-mena exits-mena.com <urlopen error [Errno -2] Name or service not known>
-NONE exits-mena ['exitsmena.com', 'exits-mena.com']
+iconfail exits-mena https://exitsmena.com/apple-touch-icon.png cannot identify image file <_io.BytesIO object at 0x7f03c4057fb0>
+iconfail exits-mena https://www.exitsmena.com/apple-touch-icon.png cannot identify image file <_io.BytesIO object at 0x7f03c4057fb0>
+ok exits-mena {'domain': 'exitsmena.com', 'src': 'https://www.google.com/s2/favicons?domain=exitsmena.com&sz=256', 'how': 'icon-service', 'title': ''}
 FAIL naran naran.ae <urlopen error timed out>
 nocontext naran naran.io Rubén Naranjo Izquierdo
 FAIL naran naran.com <urlopen error timed out>
-NONE naran ['naran.ae', 'naran.io', 'naran.com']
+iconfail naran https://naran.ae/apple-touch-icon.png <urlopen error timed out>
+iconfail naran https://www.naran.ae/apple-touch-icon.png <urlopen error [Errno -2] Name or service not known>
+iconfail naran https://www.google.com/s2/favicons?domain=naran.ae&sz=256 HTTP Error 404: Not Found
+iconfail naran https://icons.duckduckgo.com/ip3/naran.ae.ico HTTP Error 404: Not Found
+iconfail naran https://naran.io/apple-touch-icon.png HTTP Error 404: Not Found
+iconfail naran https://www.naran.io/apple-touch-icon.png HTTP Error 404: Not Found
+ok naran {'domain': 'naran.io', 'src': 'https://www.google.com/s2/favicons?domain=naran.io&sz=256', 'how': 'icon-service', 'title': ''}
 imgfail cobi https://www.google.com/s2/favicons?domain=www.cobi.ai&sz=256 HTTP Error 404: Not Found
 FAIL cobi cobi.ae <urlopen error [Errno -2] Name or service not known>
 FAIL cobi getcobi.com <urlopen error timed out>
+iconfail cobi https://cobi.ai/apple-touch-icon.png HTTP Error 400: Bad Request
+iconfail cobi https://www.cobi.ai/apple-touch-icon.png HTTP Error 400: Bad Request
+iconfail cobi https://www.google.com/s2/favicons?domain=cobi.ai&sz=256 HTTP Error 404: Not Found
+iconfail cobi https://cobi.ae/apple-touch-icon.png <urlopen error [Errno -2] Name or service not known>
+iconfail cobi https://www.cobi.ae/apple-touch-icon.png <urlopen error [Errno -2] Name or service not known>
+iconfail cobi https://www.google.com/s2/favicons?domain=cobi.ae&sz=256 HTTP Error 404: Not Found
+iconfail cobi https://icons.duckduckgo.com/ip3/cobi.ae.ico HTTP Error 404: Not Found
 NONE cobi ['cobi.ai', 'cobi.ae', 'getcobi.com']
 imgfail moove https://www.google.com/s2/favicons?domain=www.moove.io:443&sz=256 HTTP Error 404: Not Found
+iconfail moove https://moove.io/apple-touch-icon.png HTTP Error 404: Not Found
+iconfail moove https://www.moove.io/apple-touch-icon.png HTTP Error 404: Not Found
 NONE moove ['moove.io']
 nocontext bundle bundle.social Unified Social Media API, Unlimited Social Accounts
 nocontext bundle bundle.money bundle.money — 9y · 5 refs | ExpiredDomains.com
 parked bundle bundlewallet.com
 noname bundle bundle.ae 
-NONE bundle ['bundle.social', 'bundle.money', 'bundlewallet.com', 'bundle.ae']
+ok bundle {'domain': 'bundle.social', 'src': 'https://bundle.social/apple-touch-icon.png', 'how': 'icon-service', 'title': ''}
 noname ash-games ashgames.com 
 FAIL ash-games ash.games <urlopen error [Errno -2] Name or service not known>
 FAIL ash-games ashgames.sa <urlopen error [Errno -2] Name or service not known>
-NONE ash-games ['ashgames.com', 'ash.games', 'ashgames.sa']
+iconfail ash-games https://ashgames.com/apple-touch-icon.png cannot identify image file <_io.BytesIO object at 0x7f03c40567f0>
+iconfail ash-games https://www.ashgames.com/apple-touch-icon.png cannot identify image file <_io.BytesIO object at 0x7f03c4057ec0>
+ok ash-games {'domain': 'ashgames.com', 'src': 'https://www.google.com/s2/favicons?domain=ashgames.com&sz=256', 'how': 'icon-service', 'title': ''}
 FAIL doctorbook doctorbook.sy <urlopen error [Errno -2] Name or service not known>
 FAIL doctorbook doctorbook.app <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)>
 FAIL doctorbook doctorbook.com <urlopen error timed out>
+iconfail doctorbook https://doctorbook.sy/apple-touch-icon.png <urlopen error [Errno -2] Name or service not known>
+iconfail doctorbook https://www.doctorbook.sy/apple-touch-icon.png <urlopen error [Errno -2] Name or service not known>
+iconfail doctorbook https://www.google.com/s2/favicons?domain=doctorbook.sy&sz=256 HTTP Error 404: Not Found
+iconfail doctorbook https://icons.duckduckgo.com/ip3/doctorbook.sy.ico HTTP Error 404: Not Found
+iconfail doctorbook https://doctorbook.app/apple-touch-icon.png <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)>
+iconfail doctorbook https://www.doctorbook.app/apple-touch-icon.png <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)>
+iconfail doctorbook https://www.google.com/s2/favicons?domain=doctorbook.app&sz=256 HTTP Error 404: Not Found
+iconfail doctorbook https://icons.duckduckgo.com/ip3/doctorbook.app.ico HTTP Error 404: Not Found
 NONE doctorbook ['doctorbook.sy', 'doctorbook.app', 'doctorbook.com']
 FAIL by-venture-partners byventurepartners.com <urlopen error [Errno -2] Name or service not known>
 FAIL by-venture-partners by.vc <urlopen error [Errno -3] Temporary failure in name resolution>
+iconfail by-venture-partners https://byventurepartners.com/apple-touch-icon.png <urlopen error [Errno -2] Name or service not known>
+iconfail by-venture-partners https://www.byventurepartners.com/apple-touch-icon.png <urlopen error [Errno -2] Name or service not known>
+iconfail by-venture-partners https://www.google.com/s2/favicons?domain=byventurepartners.com&sz=256 HTTP Error 404: Not Found
+iconfail by-venture-partners https://icons.duckduckgo.com/ip3/byventurepartners.com.ico HTTP Error 404: Not Found
+iconfail by-venture-partners https://by.vc/apple-touch-icon.png <urlopen error [Errno -3] Temporary failure in name resolution>
+iconfail by-venture-partners https://www.by.vc/apple-touch-icon.png <urlopen error [Errno -3] Temporary failure in name resolution>
+iconfail by-venture-partners https://www.google.com/s2/favicons?domain=by.vc&sz=256 HTTP Error 404: Not Found
+iconfail by-venture-partners https://icons.duckduckgo.com/ip3/by.vc.ico HTTP Error 404: Not Found
 NONE by-venture-partners ['byventurepartners.com', 'by.vc']
 NONE labby []
 FAIL silq silq.co <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)>
-FAIL silq silq.com <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'silq.com'. (_ssl.c:1010)>
+noname silq silq.com Under Construction
+iconfail silq https://silq.co/apple-touch-icon.png <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)>
+iconfail silq https://www.silq.co/apple-touch-icon.png <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)>
+iconfail silq https://www.google.com/s2/favicons?domain=silq.co&sz=256 HTTP Error 404: Not Found
+iconfail silq https://icons.duckduckgo.com/ip3/silq.co.ico HTTP Error 404: Not Found
+iconfail silq https://silq.com/apple-touch-icon.png HTTP Error 404: Not Found
+iconfail silq https://www.silq.com/apple-touch-icon.png HTTP Error 404: Not Found
+iconfail silq https://www.google.com/s2/favicons?domain=silq.com&sz=256 HTTP Error 404: Not Found
+iconfail silq https://icons.duckduckgo.com/ip3/silq.com.ico HTTP Error 404: Not Found
 NONE silq ['silq.co', 'silq.com']
 nocontext kuadra kuadra.ai Kuadra IA - Control de Costos
 noname kuadra kuadra.io 
 nocontext kuadra kuadra.co Virtual Bookkeeping Services | Multilingual Accounting Support
+iconfail kuadra https://kuadra.ai/apple-touch-icon.png HTTP Error 404: Not Found
+iconfail kuadra https://www.kuadra.ai/apple-touch-icon.png HTTP Error 404: Not Found
+iconfail kuadra https://www.google.com/s2/favicons?domain=kuadra.ai&sz=256 HTTP Error 404: Not Found
+iconfail kuadra https://icons.duckduckgo.com/ip3/kuadra.ai.ico HTTP Error 404: Not Found
+iconfail kuadra https://kuadra.io/apple-touch-icon.png cannot identify image file <_io.BytesIO object at 0x7f03c3ffaa20>
+iconfail kuadra https://www.kuadra.io/apple-touch-icon.png cannot identify image file <_io.BytesIO object at 0x7f03c3ff9850>
+iconfail kuadra https://www.google.com/s2/favicons?domain=kuadra.io&sz=256 HTTP Error 404: Not Found
+iconfail kuadra https://icons.duckduckgo.com/ip3/kuadra.io.ico HTTP Error 404: Not Found
 NONE kuadra ['kuadra.ai', 'kuadra.io', 'kuadra.co']
 FAIL reme-d reme-d.com HTTP Error 403: Forbidden
 FAIL reme-d reme-d.net <urlopen error [Errno -2] Name or service not known>
+iconfail reme-d https://reme-d.com/apple-touch-icon.png HTTP Error 441: status code 441
+iconfail reme-d https://www.reme-d.com/apple-touch-icon.png HTTP Error 441: status code 441
+iconfail reme-d https://www.google.com/s2/favicons?domain=reme-d.com&sz=256 HTTP Error 404: Not Found
+iconfail reme-d https://icons.duckduckgo.com/ip3/reme-d.com.ico HTTP Error 404: Not Found
+iconfail reme-d https://remed.com/apple-touch-icon.png HTTP Error 403: Forbidden
+iconfail reme-d https://www.remed.com/apple-touch-icon.png HTTP Error 403: Forbidden
 NONE reme-d ['reme-d.com', 'remed.com', 'reme-d.net']
 NONE incubayt []
 parked takeem takeem.com
 FAIL takeem takeem.ae <urlopen error [Errno 111] Connection refused>
+iconfail takeem https://takeem.com/apple-touch-icon.png HTTP Error 404: Not Found
+iconfail takeem https://www.takeem.com/apple-touch-icon.png HTTP Error 404: Not Found
+iconfail takeem https://www.google.com/s2/favicons?domain=takeem.com&sz=256 HTTP Error 404: Not Found
+iconfail takeem https://takeem.ae/apple-touch-icon.png <urlopen error [Errno 111] Connection refused>
+iconfail takeem https://www.takeem.ae/apple-touch-icon.png <urlopen error [Errno 111] Connection refused>
+iconfail takeem https://www.google.com/s2/favicons?domain=takeem.ae&sz=256 HTTP Error 404: Not Found
+iconfail takeem https://icons.duckduckgo.com/ip3/takeem.ae.ico HTTP Error 404: Not Found
 NONE takeem ['takeem.com', 'takeem.ae']
-FAIL almakhfi almakhfi.com <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>
+noname almakhfi almakhfi.com Redirecting...
 FAIL almakhfi almakhfi.sa <urlopen error [Errno -2] Name or service not known>
+iconfail almakhfi https://almakhfi.com/apple-touch-icon.png Remote end closed connection without response
+iconfail almakhfi https://www.almakhfi.com/apple-touch-icon.png Remote end closed connection without response
+iconfail almakhfi https://www.google.com/s2/favicons?domain=almakhfi.com&sz=256 HTTP Error 404: Not Found
+iconfail almakhfi https://icons.duckduckgo.com/ip3/almakhfi.com.ico HTTP Error 404: Not Found
+iconfail almakhfi https://almakhfi.sa/apple-touch-icon.png <urlopen error [Errno -2] Name or service not known>
+iconfail almakhfi https://www.almakhfi.sa/apple-touch-icon.png <urlopen error [Errno -2] Name or service not known>
+iconfail almakhfi https://www.google.com/s2/favicons?domain=almakhfi.sa&sz=256 HTTP Error 404: Not Found
+iconfail almakhfi https://icons.duckduckgo.com/ip3/almakhfi.sa.ico HTTP Error 404: Not Found
 NONE almakhfi ['almakhfi.com', 'almakhfi.sa']
 FAIL tarmeez-capital tarmeezcapital.com <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)>
 nocontext tarmeez-capital tarmeez.com.sa Tarmeez Sales Dashboard Demo
 nocontext tarmeez-capital tarmeez.sa Home
+iconfail tarmeez-capital https://tarmeezcapital.com/apple-touch-icon.png <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)>
+iconfail tarmeez-capital https://www.tarmeezcapital.com/apple-touch-icon.png <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)>
+iconfail tarmeez-capital https://www.google.com/s2/favicons?domain=tarmeezcapital.com&sz=256 HTTP Error 404: Not Found
+iconfail tarmeez-capital https://icons.duckduckgo.com/ip3/tarmeezcapital.com.ico HTTP Error 404: Not Found
+iconfail tarmeez-capital https://tarmeez.com.sa/apple-touch-icon.png HTTP Error 404: Not Found
+iconfail tarmeez-capital https://www.tarmeez.com.sa/apple-touch-icon.png HTTP Error 404: Not Found
+iconfail tarmeez-capital https://www.google.com/s2/favicons?domain=tarmeez.com.sa&sz=256 HTTP Error 404: Not Found
+iconfail tarmeez-capital https://icons.duckduckgo.com/ip3/tarmeez.com.sa.ico HTTP Error 404: Not Found
 NONE tarmeez-capital ['tarmeezcapital.com', 'tarmeez.com.sa', 'tarmeez.sa']
 FAIL solidrange solidrange.io <urlopen error [Errno -2] Name or service not known>
+iconfail solidrange https://solidrange.com/apple-touch-icon.png HTTP Error 404: Not Found
+iconfail solidrange https://www.solidrange.com/apple-touch-icon.png cannot identify image file <_io.BytesIO object at 0x7f03c41adfd0>
+iconfail solidrange https://solidrange.io/apple-touch-icon.png <urlopen error [Errno -2] Name or service not known>
+iconfail solidrange https://www.solidrange.io/apple-touch-icon.png <urlopen error [Errno -2] Name or service not known>
+iconfail solidrange https://www.google.com/s2/favicons?domain=solidrange.io&sz=256 HTTP Error 404: Not Found
+iconfail solidrange https://icons.duckduckgo.com/ip3/solidrange.io.ico HTTP Error 404: Not Found
 NONE solidrange ['solidrange.com', 'solidrange.io']
 NONE growth-catalyst-fund []
 FAIL coefficient coefficient.ae <urlopen error [Errno -2] Name or service not known>
 noname coefficient coefficientcapital.com 
+iconfail coefficient https://coefficient.ae/apple-touch-icon.png <urlopen error [Errno -2] Name or service not known>
+iconfail coefficient https://www.coefficient.ae/apple-touch-icon.png <urlopen error [Errno -2] Name or service not known>
+iconfail coefficient https://www.google.com/s2/favicons?domain=coefficient.ae&sz=256 HTTP Error 404: Not Found
+iconfail coefficient https://icons.duckduckgo.com/ip3/coefficient.ae.ico HTTP Error 404: Not Found
+iconfail coefficient https://coefficientcapital.com/apple-touch-icon.png cannot identify image file <_io.BytesIO object at 0x7f03c47718a0>
+iconfail coefficient https://www.coefficientcapital.com/apple-touch-icon.png cannot identify image file <_io.BytesIO object at 0x7f03c47726b0>
+iconfail coefficient https://www.google.com/s2/favicons?domain=coefficientcapital.com&sz=256 HTTP Error 404: Not Found
+iconfail coefficient https://icons.duckduckgo.com/ip3/coefficientcapital.com.ico HTTP Error 404: Not Found
 NONE coefficient ['coefficient.ae', 'coefficientcapital.com']
 NONE spring []
 FAIL dark-reading darkreading.com HTTP Error 403: Forbidden
+iconfail dark-reading https://darkreading.com/apple-touch-icon.png HTTP Error 404: Not Found
+iconfail dark-reading https://www.darkreading.com/apple-touch-icon.png HTTP Error 404: Not Found
 NONE dark-reading ['darkreading.com']
+iconfail newswire https://newswire.com/apple-touch-icon.png HTTP Error 404: Not Found
+iconfail newswire https://www.newswire.com/apple-touch-icon.png HTTP Error 404: Not Found
 NONE newswire ['newswire.com']
 nocontext eduact eduact.me 
 noname eduact eduact.com 
-NONE eduact ['eduact.me', 'eduact.com']
-imgfail blom-invest-saudi https://www.blominvest.sa/images/mobileicon.png cannot identify image file <_io.BytesIO object at 0x7f9d1a112020>
+iconfail eduact https://eduact.me/apple-touch-icon.png HTTP Error 404: Not Found
+iconfail eduact https://www.eduact.me/apple-touch-icon.png HTTP Error 404: Not Found
+ok eduact {'domain': 'eduact.me', 'src': 'https://www.google.com/s2/favicons?domain=eduact.me&sz=256', 'how': 'icon-service', 'title': ''}
+imgfail blom-invest-saudi https://www.blominvest.sa/images/mobileicon.png cannot identify image file <_io.BytesIO object at 0x7f03c4057b50>
 FAIL blom-invest-saudi blominvestsaudi.com <urlopen error [Errno -2] Name or service not known>
-FAIL blom-invest-saudi blom.sa <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1010)>
+imgfail blom-invest-saudi https://www.blominvest.sa/images/mobileicon.png cannot identify image file <_io.BytesIO object at 0x7f03c47727f0>
+iconfail blom-invest-saudi https://blominvest.sa/apple-touch-icon.png cannot identify image file <_io.BytesIO object at 0x7f03c41ae2f0>
+iconfail blom-invest-saudi https://www.blominvest.sa/apple-touch-icon.png cannot identify image file <_io.BytesIO object at 0x7f03c47727f0>
+iconfail blom-invest-saudi https://blominvestsaudi.com/apple-touch-icon.png <urlopen error [Errno -2] Name or service not known>
+iconfail blom-invest-saudi https://www.blominvestsaudi.com/apple-touch-icon.png <urlopen error [Errno -2] Name or service not known>
+iconfail blom-invest-saudi https://www.google.com/s2/favicons?domain=blominvestsaudi.com&sz=256 HTTP Error 404: Not Found
+iconfail blom-invest-saudi https://icons.duckduckgo.com/ip3/blominvestsaudi.com.ico HTTP Error 404: Not Found
 NONE blom-invest-saudi ['blominvest.sa', 'blominvestsaudi.com', 'blom.sa']
-ok ramp {'domain': 'ramp.com', 'final': 'https://ramp.com', 'title': 'Spend Management, Corporate Cards &amp; Accounts Payable Solutions | Ramp', 'src': 'https://ramp.com/apple-touch-icon.png', 'how': 'site'}
-ok pluto-security {'domain': 'pluto.security', 'final': 'https://pluto.security', 'title': 'Enabling CISOs to say YES - Pluto Security', 'src': 'https://pluto.security/wp-content/uploads/2026/04/favicon-new-200x200.jpg', 'how': 'site'}
-ok arena {'domain': 'lmarena.ai', 'final': 'https://arena.ai/', 'title': 'Arena AI: The Official AI Ranking &amp; LLM Leaderboard', 'src': 'https://arena.ai/apple-touch-icon.png', 'how': 'site'}
-wd perplexity {'wd': 'Q124333951', 'label': 'Perplexity AI', 'desc': 'American conversational search engine company', 'file': 'Perplexity AI logo.svg', 'prop': 'P154', 'site': 'https://www.perplexity.ai/hub/'}
-ok perplexity {'wd': 'Q124333951', 'label': 'Perplexity AI', 'desc': 'American conversational search engine company', 'file': 'Perplexity AI logo.svg', 'prop': 'P154', 'site': 'https://www.perplexity.ai/hub/', 'src': 'https://commons.wikimedia.org/wiki/Special:FilePath/Perplexity_AI_logo.svg?width=512', 'how': 'wikidata'}
-ok isomorphic-labs {'domain': 'isomorphiclabs.com', 'final': 'https://www.isomorphiclabs.com/', 'title': 'Reimagining Drug Discovery Process with AI - Isomorphic Labs', 'src': 'https://cdn.prod.website-files.com/683d9417ea8f9b604314bfb1/6943e611af86b1bb63e2dbb4_63a1ea62b9dd95563ab9266f_ISO%20-%20Webclip%20Image.png', 'how': 'site'}
-ok nuvacore {'domain': 'nuvacore.com', 'final': 'https://nuvacore.ai/', 'title': 'NUVACORE | The Core of What’s Next', 'src': 'https://www.google.com/s2/favicons?domain=nuvacore.ai&sz=256', 'how': 'site'}
-ok 1komma5 {'domain': '1komma5.com', 'final': 'https://1komma5.com/de/', 'title': '🏠☀️Immer der günstigste und sauberste Strom | 1KOMMA5°', 'src': 'https://1komma5.com/og/apple-icon.png', 'how': 'site'}
 wd doctolib {'wd': 'Q116152937', 'label': 'Doctolib GmbH', 'desc': 'German subsidiary of the French digital health company Doctolib', 'site': 'https://www.doctolib.de/'}
 FAIL doctolib doctolib.de HTTP Error 403: Forbidden
 FAIL doctolib doctolib.fr HTTP Error 403: Forbidden
 FAIL doctolib doctolib.com HTTP Error 403: Forbidden
-NONE doctolib ['doctolib.de', 'doctolib.fr', 'doctolib.com']
-wd bumble None
-ok bumble {'domain': 'bumble.com', 'final': 'https://bumble.com', 'title': 'Bumble | Date, Chat &amp; Meet New People', 'src': 'https://bumble.com/bumble-brand-assets/favicon/apple-touch-icon.png', 'how': 'site'}
+ok doctolib {'domain': 'doctolib.de', 'src': 'https://doctolib.de/apple-touch-icon.png', 'how': 'icon-service', 'title': ''}
 NONE volta []
-ok varda {'domain': 'varda.com', 'final': 'https://www.varda.com/', 'title': 'Space born, Earth bound • Varda Space Industries', 'src': 'https://cdn.prod.website-files.com/69737782e8f70a763e5f85d4/6a2ae8685cf9ad0af169c58a_Webclip.png', 'how': 'site'}
 wd jio-platforms {'wd': 'Q96418672', 'label': 'Jio Platforms', 'desc': 'Indian telecommunications and technology company', 'site': 'https://www.jio.com/'}
 noname jio-platforms jio.com 
 noname jio-platforms jio.com 
+iconfail jio-platforms https://jio.com/apple-touch-icon.png cannot identify image file <_io.BytesIO object at 0x7f03c47712b0>
+iconfail jio-platforms https://www.jio.com/apple-touch-icon.png cannot identify image file <_io.BytesIO object at 0x7f03c4057d80>
+iconfail jio-platforms https://icons.duckduckgo.com/ip3/jio.com.ico HTTP Error 404: Not Found
+iconfail jio-platforms https://jio.com/apple-touch-icon.png cannot identify image file <_io.BytesIO object at 0x7f03c3ffab10>
+iconfail jio-platforms https://www.jio.com/apple-touch-icon.png cannot identify image file <_io.BytesIO object at 0x7f03c3ffacf0>
+iconfail jio-platforms https://icons.duckduckgo.com/ip3/jio.com.ico HTTP Error 404: Not Found
 NONE jio-platforms ['jio.com', 'jio.com']
-wd schneider-electric {'wd': 'Q49053', 'label': 'Schneider Electric', 'desc': 'France-based multinational corporation', 'file': 'Schneider Electric 2007.svg', 'prop': 'P154', 'site': 'https://www.se.com'}
-ok schneider-electric {'wd': 'Q49053', 'label': 'Schneider Electric', 'desc': 'France-based multinational corporation', 'file': 'Schneider Electric 2007.svg', 'prop': 'P154', 'site': 'https://www.se.com', 'src': 'https://commons.wikimedia.org/wiki/Special:FilePath/Schneider_Electric_2007.svg?width=512', 'how': 'wikidata'}
-wd ptc {'wd': 'Q1760641', 'label': 'Parametric Technology Corporation', 'desc': 'U.S.-based computer software company', 'file': 'PTC logo.svg', 'prop': 'P154', 'site': 'http://www.ptc.com'}
-ok ptc {'wd': 'Q1760641', 'label': 'Parametric Technology Corporation', 'desc': 'U.S.-based computer software company', 'file': 'PTC logo.svg', 'prop': 'P154', 'site': 'http://www.ptc.com', 'src': 'https://commons.wikimedia.org/wiki/Special:FilePath/PTC_logo.svg?width=512', 'how': 'wikidata'}
-wd stryker {'wd': 'Q2357515', 'label': 'Stryker Corporation', 'desc': 'American medical technologies company', 'file': 'Stryker logo.svg', 'prop': 'P154', 'site': 'http://www.stryker.com'}
-ok stryker {'wd': 'Q2357515', 'label': 'Stryker Corporation', 'desc': 'American medical technologies company', 'file': 'Stryker logo.svg', 'prop': 'P154', 'site': 'http://www.stryker.com', 'src': 'https://commons.wikimedia.org/wiki/Special:FilePath/Stryker_logo.svg?width=512', 'how': 'wikidata'}
-ok cmr-surgical {'domain': 'cmrsurgical.com', 'final': 'https://us.cmrsurgical.com/', 'title': 'CMR Surgical - Transforming Surgery. For Good.', 'src': 'https://us.cmrsurgical.com/wp-content/uploads/2022/04/cropped-cmr-surgical-favicon-180x180.png', 'how': 'site'}
-ok oratomic {'domain': 'oratomic.com', 'final': 'https://www.oratomic.com/', 'title': 'Oratomic | Fault-Tolerant Quantum Computing', 'src': 'https://www.oratomic.com/apple-touch-icon.png', 'how': 'site'}
 nocontext atlas-atomics atlasatomics.com Atlas Atomics
 FAIL atlas-atomics atlasatomics.io <urlopen error timed out>
-NONE atlas-atomics ['atlasatomics.com', 'atlasatomics.io']
-wd deepseek {'wd': 'Q131577453', 'label': 'DeepSeek', 'desc': 'Chinese artificial intelligence company', 'file': 'DeepSeek logo.svg', 'prop': 'P154', 'site': 'https://deepseek.com'}
-ok deepseek {'wd': 'Q131577453', 'label': 'DeepSeek', 'desc': 'Chinese artificial intelligence company', 'file': 'DeepSeek logo.svg', 'prop': 'P154', 'site': 'https://deepseek.com', 'src': 'https://commons.wikimedia.org/wiki/Special:FilePath/DeepSeek_logo.svg?width=512', 'how': 'wikidata'}
+ok atlas-atomics {'domain': 'atlasatomics.com', 'src': 'https://atlasatomics.com/apple-touch-icon.png', 'how': 'icon-service', 'title': ''}
+wd crescent-enterprises {'wd': 'Q5184360', 'label': 'Crescent Enterprises', 'desc': 'Emirati-based conglomerate', 'site': 'http://www.crescententerprises.com'}
 FAIL crescent-enterprises crescententerprises.com <urlopen error timed out>
-NONE crescent-enterprises ['crescententerprises.com']
+FAIL crescent-enterprises crescententerprises.com <urlopen error timed out>
+iconfail crescent-enterprises https://crescententerprises.com/apple-touch-icon.png <urlopen error timed out>
+iconfail crescent-enterprises https://www.crescententerprises.com/apple-touch-icon.png HTTP Error 404: Not Found
+ok crescent-enterprises {'domain': 'crescententerprises.com', 'src': 'https://www.google.com/s2/favicons?domain=crescententerprises.com&sz=256', 'how': 'icon-service', 'title': ''}
+iconfail mytvs https://mytvs.com/apple-touch-icon.png HTTP Error 404: Not Found
+iconfail mytvs https://www.mytvs.com/apple-touch-icon.png HTTP Error 404: Not Found
 NONE mytvs ['mytvs.com']
-ok yasmina {'domain': 'yasmina.ai', 'final': 'https://www.yasmina.ai/', 'title': 'Yasmina - embedded insurance API for Saudi platforms', 'src': 'https://www.yasmina.ai/apple-touch-icon.png', 'how': 'site'}
 FAIL alinma-investment alinmainvestment.com <urlopen error [Errno 111] Connection refused>
 imgfail alinma-investment https://www.google.com/s2/favicons?domain=alinmacapital.com&sz=256 HTTP Error 404: Not Found
-imgfail alinma-investment https://alinmacapital.com/-/media/Project/Alinma/shared/favicon.png <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>
+iconfail alinma-investment https://alinmainvestment.com/apple-touch-icon.png <urlopen error [Errno 111] Connection refused>
+iconfail alinma-investment https://www.alinmainvestment.com/apple-touch-icon.png <urlopen error [Errno 111] Connection refused>
+iconfail alinma-investment https://icons.duckduckgo.com/ip3/alinmainvestment.com.ico HTTP Error 404: Not Found
+iconfail alinma-investment https://alinmacapital.com/apple-touch-icon.png cannot identify image file <_io.BytesIO object at 0x7f03c3ff8180>
+iconfail alinma-investment https://www.alinmacapital.com/apple-touch-icon.png cannot identify image file <_io.BytesIO object at 0x7f03c580f8d0>
+iconfail alinma-investment https://www.google.com/s2/favicons?domain=alinmacapital.com&sz=256 HTTP Error 404: Not Found
+iconfail alinma-investment https://icons.duckduckgo.com/ip3/alinmacapital.com.ico HTTP Error 404: Not Found
 NONE alinma-investment ['alinmainvestment.com', 'alinmacapital.com']
-ok salehli {'domain': 'salehli.com', 'final': 'https://www.salehli.com/', 'title': 'صلّحلي - منصة الخدمات المهنية', 'src': 'https://www.salehli.com/images/icon-192x192.png', 'how': 'site'}
 ok aden-health {'domain': 'aden.health', 'final': 'https://aden.health', 'title': 'Unlock the potential of your unique biology | Aden', 'src': 'https://framerusercontent.com/images/0uPRIGvAWAfpaa23OkZEmk0oZng.png', 'how': 'site'}
-ok mazal {'domain': 'mazal.ae', 'final': 'https://mazal.ae', 'title': 'Luxury Abayas &amp; Kaftans Online UAE | MAZAL', 'src': 'https://mazal.ae/images/brand/logo.png', 'how': 'site'}
-wd microsoft {'wd': 'Q2283', 'label': 'Microsoft', 'desc': 'American multinational technology corporation', 'file': 'Microsoft logo (1980).svg', 'prop': 'P154', 'site': 'https://www.microsoft.com/'}
-ok microsoft {'wd': 'Q2283', 'label': 'Microsoft', 'desc': 'American multinational technology corporation', 'file': 'Microsoft logo (1980).svg', 'prop': 'P154', 'site': 'https://www.microsoft.com/', 'src': 'https://commons.wikimedia.org/wiki/Special:FilePath/Microsoft_logo_%281980%29.svg?width=512', 'how': 'wikidata'}
+wd g42 None
+iconfail g42 https://g42.ai/apple-touch-icon.png HTTP Error 404: Not Found
+iconfail g42 https://www.g42.ai/apple-touch-icon.png HTTP Error 404: Not Found
 NONE g42 ['g42.ai']
-ok raya-holding {'domain': 'rayacorp.com', 'final': 'https://rayacorp.com', 'title': 'Home - Raya Corp', 'src': 'https://rayacorp.com/wp-content/themes/raya/img/favicon/apple-touch-icon.png', 'how': 'site'}
 NONE growthx []
-ok snoonu {'domain': 'snoonu.com', 'final': 'https://snoonu.com', 'title': 'Fastest food delivery &amp; online shopping', 'src': 'https://snoonu.com/images/favicon/144.png', 'how': 'site'}
-ok hired-valley {'domain': 'hiredvalley.com', 'final': 'https://hiredvalley.com', 'title': 'Международная карьерная платформа | Hired Valley', 'src': 'https://hiredvalley.com/brand/hired-valley-icon.png', 'how': 'site'}
-ok talebhub {'domain': 'talebhub.com', 'final': 'https://talebhub.com', 'title': 'Talebhub &#8211; Welcome', 'src': 'https://www.google.com/s2/favicons?domain=talebhub.com&sz=256', 'how': 'site'}
-FAIL src src.sa <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>
+imgfail src https://www.google.com/s2/favicons?domain=src.sa&sz=256 HTTP Error 404: Not Found
+iconfail src https://src.sa/apple-touch-icon.png cannot identify image file <_io.BytesIO object at 0x7f03c4057240>
+iconfail src https://www.src.sa/apple-touch-icon.png <urlopen error [Errno -5] No address associated with hostname>
+iconfail src https://www.google.com/s2/favicons?domain=src.sa&sz=256 HTTP Error 404: Not Found
+iconfail src https://icons.duckduckgo.com/ip3/src.sa.ico HTTP Error 404: Not Found
 NONE src ['src.sa']
-wd banque-du-caire {'wd': 'Q4857077', 'label': 'Banque du Caire', 'desc': 'bank in Cairo', 'file': 'Banque du caire Logo.svg', 'prop': 'P154', 'site': 'https://www.bdc.com.eg'}
-ok banque-du-caire {'wd': 'Q4857077', 'label': 'Banque du Caire', 'desc': 'bank in Cairo', 'file': 'Banque du caire Logo.svg', 'prop': 'P154', 'site': 'https://www.bdc.com.eg', 'src': 'https://commons.wikimedia.org/wiki/Special:FilePath/Banque_du_caire_Logo.svg?width=512', 'how': 'wikidata'}
-wd banque-misr {'wd': 'Q2060638', 'label': 'Banque Misr', 'desc': 'Egyptian bank', 'file': 'Banque Misr.svg', 'prop': 'P154', 'site': 'https://www.banquemisr.com/'}
-ok banque-misr {'wd': 'Q2060638', 'label': 'Banque Misr', 'desc': 'Egyptian bank', 'file': 'Banque Misr.svg', 'prop': 'P154', 'site': 'https://www.banquemisr.com/', 'src': 'https://commons.wikimedia.org/wiki/Special:FilePath/Banque_Misr.svg?width=512', 'how': 'wikidata'}
-FAIL ci-capital cicapital.com <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>
+imgfail ci-capital https://www.google.com/s2/favicons?domain=www.cicapital.com&sz=256 HTTP Error 404: Not Found
+iconfail ci-capital https://cicapital.com/apple-touch-icon.png HTTP Error 404: Not Found
+iconfail ci-capital https://www.cicapital.com/apple-touch-icon.png HTTP Error 404: Not Found
+iconfail ci-capital https://www.google.com/s2/favicons?domain=cicapital.com&sz=256 HTTP Error 404: Not Found
+iconfail ci-capital https://icons.duckduckgo.com/ip3/cicapital.com.ico HTTP Error 404: Not Found
 NONE ci-capital ['cicapital.com']
-FAIL rasmal-ventures rasmal.vc <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>
-ok rasmal-ventures {'domain': 'rasmalventures.com', 'final': 'https://www.rasmalventures.com/en', 'title': 'Homepage | Rasmal Ventures', 'src': 'https://www.rasmalventures.com/img/favicon/apple-icon-180x180.png', 'how': 'site'}
-ok strategic-gears {'domain': 'strategicgears.com', 'final': 'https://strategicgears.com', 'title': 'Strategic Gears', 'src': 'https://strategicgears.com/favicon.ico', 'how': 'site'}
 noname hamad-bin-saedan saedan.com 
 noname hamad-bin-saedan binsaedan.com 
 FAIL hamad-bin-saedan saedan.sa <urlopen error [Errno -2] Name or service not known>
-NONE hamad-bin-saedan ['saedan.com', 'binsaedan.com', 'saedan.sa']
-wd egyptian-exchange {'wd': 'Q2509254', 'label': 'Egyptian Exchange', 'desc': 'formerly Cairo and Alexandria Stock Exchanges (CASE)', 'file': 'The Egyptian Exchange logo.png', 'prop': 'P154', 'site': 'https://www.egx.com.eg/en/homepage.aspx'}
-ok egyptian-exchange {'wd': 'Q2509254', 'label': 'Egyptian Exchange', 'desc': 'formerly Cairo and Alexandria Stock Exchanges (CASE)', 'file': 'The Egyptian Exchange logo.png', 'prop': 'P154', 'site': 'https://www.egx.com.eg/en/homepage.aspx', 'src': 'https://commons.wikimedia.org/wiki/Special:FilePath/The_Egyptian_Exchange_logo.png?width=512', 'how': 'wikidata'}
-ok lightspeed {'domain': 'lsvp.com', 'final': 'https://lsvp.com', 'title': 'Lightspeed Venture Partners', 'src': 'https://lsvp.com/wp-content/uploads/2023/04/mstile-310x310-1.png', 'how': 'site'}
-ok khosla-ventures {'domain': 'khoslaventures.com', 'final': 'https://www.khoslaventures.com/', 'title': 'Khosla Ventures', 'src': 'https://cdn.prod.website-files.com/67539a3c13f571f3ecb310f9/67eda1f7d10e329c601e7a46_kv-favicon%202.png', 'how': 'site'}
-ok general-catalyst {'domain': 'generalcatalyst.com', 'final': 'https://www.generalcatalyst.com/', 'title': 'General Catalyst', 'src': 'https://www.google.com/s2/favicons?domain=www.generalcatalyst.com&sz=256', 'how': 'site'}
-ok thrive-capital {'domain': 'thrivecap.com', 'final': 'https://www.thrivecap.com/', 'title': 'Thrive Capital', 'src': 'https://framerusercontent.com/images/wTRQbw1UlJLLsjPTdU2bulTkj6M.png', 'how': 'site'}
-ok dragoneer {'domain': 'dragoneer.com', 'final': 'https://www.dragoneer.com/', 'title': 'Home', 'src': 'https://cdn.prod.website-files.com/67d468571abba14b3eeb3ed0/68406326cfe9e67ec35b192b_fav_icon_256.png', 'how': 'site'}
-ok founders-fund {'domain': 'foundersfund.com', 'final': 'https://foundersfund.com', 'title': 'Founders Fund', 'src': 'https://foundersfund.com/apple-touch-icon-152x152.png', 'how': 'site'}
-ok jump-capital {'domain': 'jumpcap.com', 'final': 'https://jumpcap.com', 'title': 'Home - Jump Capital', 'src': 'https://jumpcap.com/wp-content/uploads/2024/06/cropped-favicon-180x180.png', 'how': 'site'}
-ok apollo {'domain': 'apollo.com', 'final': 'https://www.apollo.com/', 'title': 'Home | Apollo Global Management', 'src': 'https://www.google.com/s2/favicons?domain=www.apollo.com&sz=256', 'how': 'site'}
-ok jpmorgan {'domain': 'jpmorganchase.com', 'final': 'https://www.jpmorganchase.com/', 'title': 'Home | JPMorganChase', 'src': 'https://www.jpmorganchase.com/etc.clientlibs/cws/clientlibs/clientlib-base/resources/jpmc/images/jpmc-favicon-152.png', 'how': 'site'}
-ok goldman-sachs {'domain': 'goldmansachs.com', 'final': 'https://www.goldmansachs.com/', 'title': 'Home | Goldman Sachs', 'src': 'https://cdn.gs.com/images/goldman-sachs/v2/gs-favicon-180.png', 'how': 'site'}
-ok fintechgate {'domain': 'fintechgate.net', 'final': 'https://fintechgate.net', 'title': 'بوابة التكنولوجيا المالية – Fintechgate - fintechgate', 'src': 'https://fintechgate.net/apple-icon-180x180.png?r=1.1', 'how': 'site'}
-FAIL arab-news arabnews.com HTTP Error 403: Forbidden
-NONE arab-news ['arabnews.com']
-ok semafor {'domain': 'semafor.com', 'final': 'https://www.semafor.com/', 'title': 'Semafor - An intelligent, transparent global news platform for breaking stories, analysis and video', 'src': 'https://www.semafor.com/apple-touch-icon.png', 'how': 'site'}
-ok techcrunch {'domain': 'techcrunch.com', 'final': 'https://techcrunch.com', 'title': 'TechCrunch | Startup and Technology News', 'src': 'https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180', 'how': 'site'}
+iconfail hamad-bin-saedan https://saedan.com/apple-touch-icon.png cannot identify image file <_io.BytesIO object at 0x7f03c5830180>
+iconfail hamad-bin-saedan https://www.saedan.com/apple-touch-icon.png cannot identify image file <_io.BytesIO object at 0x7f03c41ae430>
+iconfail hamad-bin-saedan https://www.google.com/s2/favicons?domain=saedan.com&sz=256 HTTP Error 404: Not Found
+iconfail hamad-bin-saedan https://icons.duckduckgo.com/ip3/saedan.com.ico HTTP Error 404: Not Found
+iconfail hamad-bin-saedan https://binsaedan.com/apple-touch-icon.png cannot identify image file <_io.BytesIO object at 0x7f03c4057380>
+iconfail hamad-bin-saedan https://www.binsaedan.com/apple-touch-icon.png cannot identify image file <_io.BytesIO object at 0x7f03c4057920>
+ok hamad-bin-saedan {'domain': 'binsaedan.com', 'src': 'https://www.google.com/s2/favicons?domain=binsaedan.com&sz=256', 'how': 'icon-service', 'title': ''}
+wd arab-news {'wd': 'Q623659', 'label': 'Arab News', 'desc': 'Saudi Arabian English-language daily newspaper', 'file': 'Arab News (2019-07-27).svg', 'prop': 'P154', 'site': 'https://www.arabnews.com/'}
+ok arab-news {'wd': 'Q623659', 'label': 'Arab News', 'desc': 'Saudi Arabian English-language daily newspaper', 'file': 'Arab News (2019-07-27).svg', 'prop': 'P154', 'site': 'https://www.arabnews.com/', 'src': 'https://commons.wikimedia.org/wiki/Special:FilePath/Arab_News_%282019-07-27%29.svg?width=512', 'how': 'wikidata'}
+iconfail eu-startups https://eu-startups.com/apple-touch-icon.png HTTP Error 404: Not Found
+iconfail eu-startups https://www.eu-startups.com/apple-touch-icon.png HTTP Error 404: Not Found
 NONE eu-startups ['eu-startups.com']
-ok startup-fortune {'domain': 'startupfortune.com', 'final': 'https://startupfortune.com', 'title': 'Startup Fortune - Financial news and market intelligence covering AI, crypto, and precious metals', 'src': 'https://startupfortune.com/wp-content/uploads/2026/06/startup_fortune_icon-1.png', 'how': 'site'}
-ok the-recursive {'domain': 'therecursive.com', 'final': 'https://www.therecursive.com/', 'title': 'Emerging Markets Tech Ecosystem Intelligence &amp; Access | The Recursive', 'src': 'https://www.google.com/s2/favicons?domain=www.therecursive.com&sz=256', 'how': 'site'}
-ok economic-times {'domain': 'economictimes.indiatimes.com', 'final': 'https://economictimes.indiatimes.com', 'title': 'Business News Live, Share Market News - Read Latest Finance News, IPO, Mutual Funds News - The Economic Times', 'src': 'https://economictimes.indiatimes.com/thumb/width-120,height-120,msid-75267040/et.jpg', 'how': 'site'}
-ok mena-startup-digest {'domain': 'menastartupdigest.com', 'final': 'https://menastartupdigest.com', 'title': 'MENA Startup News | MENA Startup Digest', 'src': 'https://menastartupdigest.com/wp-content/uploads/2025/07/cropped-MSD-Black-180x180.png', 'how': 'site'}
 imgfail enterpriseam https://ent.news/internal/apple-touch-icon.png HTTP Error 403: Forbidden
 imgfail enterpriseam https://ent.news/internal/favicon-96x96.png HTTP Error 403: Forbidden
 imgfail enterpriseam https://ent.news/internal/favicon.svg HTTP Error 403: Forbidden
+iconfail enterpriseam https://enterpriseam.com/apple-touch-icon.png cannot identify image file <_io.BytesIO object at 0x7f03c4057560>
+iconfail enterpriseam https://www.enterpriseam.com/apple-touch-icon.png cannot identify image file <_io.BytesIO object at 0x7f03c4057560>
 NONE enterpriseam ['enterpriseam.com']
-ok dxbstart {'domain': 'dxbstart.com', 'final': 'https://www.dxbstart.com/', 'title': 'Dubai Startup News — Funding, Companies &amp; Ecosystem Data | DXBStart', 'src': 'https://www.dxbstart.com/images/favicon/apple-touch-icon.png', 'how': 'site'}
-imgfail wsgr https://www.wsgr.com/cached/40144/images/favicons/apple-touch-icon.png HTTP Error 404: Not Found
-ok wsgr {'domain': 'wsgr.com', 'final': 'https://www.wsgr.com/en/', 'title': 'Home | Wilson Sonsini', 'src': 'https://www.wsgr.com/cached/40144/images/favicons/mstile-144x144.png', 'how': 'site'}
-wd anthropic {'wd': 'Q116758847', 'label': 'Anthropic', 'desc': 'American artificial intelligence corporation', 'file': 'Anthropic logo.svg', 'prop': 'P154', 'site': 'https://www.anthropic.com/'}
-ok anthropic {'wd': 'Q116758847', 'label': 'Anthropic', 'desc': 'American artificial intelligence corporation', 'file': 'Anthropic logo.svg', 'prop': 'P154', 'site': 'https://www.anthropic.com/', 'src': 'https://commons.wikimedia.org/wiki/Special:FilePath/Anthropic_logo.svg?width=512', 'how': 'wikidata'}
-wd openai {'wd': 'Q21708200', 'label': 'OpenAI', 'desc': 'American artificial intelligence research organization', 'file': 'OpenAI logo 2025 (wordmark).svg', 'prop': 'P154', 'site': 'https://openai.com/'}
-ok openai {'wd': 'Q21708200', 'label': 'OpenAI', 'desc': 'American artificial intelligence research organization', 'file': 'OpenAI logo 2025 (wordmark).svg', 'prop': 'P154', 'site': 'https://openai.com/', 'src': 'https://commons.wikimedia.org/wiki/Special:FilePath/OpenAI_logo_2025_%28wordmark%29.svg?width=512', 'how': 'wikidata'}
-ok salesforce-ventures {'domain': 'salesforceventures.com', 'final': 'https://salesforceventures.com', 'title': 'Salesforce Ventures | For The Most Enterprising Founders', 'src': 'https://salesforceventures.com/wp-content/uploads/2022/05/cropped-Untitled-1-2.png?w=180', 'how': 'site'}
-ok capital-one {'domain': 'capitalone.com', 'final': 'https://www.capitalone.com/', 'title': 'Capital One | Credit Cards, Checking, Savings &amp; Auto Loans', 'src': 'https://www.capitalone.com/assets/shell/apple-touch-icon.png', 'how': 'site'}
 NONE maynger-ventures []
 FAIL cib-egypt cibeg.com <urlopen error [SSL: TLSV1_UNRECOGNIZED_NAME] tlsv1 unrecognized name (_ssl.c:1010)>
-NONE cib-egypt ['cibeg.com']
-ok redwheel {'domain': 'redwheel.com', 'final': 'https://www.redwheel.com/uk/en/professional/', 'title': 'Homepage | Professional | Redwheel', 'src': 'https://www.google.com/s2/favicons?domain=www.redwheel.com&sz=256', 'how': 'site'}
+iconfail cib-egypt https://cibeg.com/apple-touch-icon.png <urlopen error [SSL: TLSV1_UNRECOGNIZED_NAME] tlsv1 unrecognized name (_ssl.c:1010)>
+iconfail cib-egypt https://www.cibeg.com/apple-touch-icon.png HTTP Error 404: Not Found
+ok cib-egypt {'domain': 'cibeg.com', 'src': 'https://www.google.com/s2/favicons?domain=cibeg.com&sz=256', 'how': 'icon-service', 'title': ''}
