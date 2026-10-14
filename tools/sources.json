@@ -1,0 +1,1178 @@
+[
+ {
+  "id": "tadawul",
+  "name": "Saudi Exchange (Tadawul)",
+  "ar": "تداول",
+  "url": "https://www.saudiexchange.sa",
+  "tier": 1,
+  "kind": "official",
+  "lang": [
+   "ar",
+   "en"
+  ],
+  "region": "KSA",
+  "auto": false
+ },
+ {
+  "id": "cma",
+  "name": "Capital Market Authority",
+  "ar": "هيئة السوق المالية",
+  "url": "https://cma.org.sa",
+  "tier": 1,
+  "kind": "official",
+  "lang": [
+   "ar",
+   "en"
+  ],
+  "region": "KSA",
+  "auto": false
+ },
+ {
+  "id": "sama",
+  "name": "SAMA",
+  "ar": "البنك المركزي السعودي",
+  "url": "https://www.sama.gov.sa",
+  "tier": 1,
+  "kind": "official",
+  "lang": [
+   "ar",
+   "en"
+  ],
+  "region": "KSA",
+  "auto": false
+ },
+ {
+  "id": "gastat",
+  "name": "GASTAT",
+  "ar": "الهيئة العامة للإحصاء",
+  "url": "https://www.stats.gov.sa",
+  "tier": 1,
+  "kind": "official",
+  "lang": [
+   "ar",
+   "en"
+  ],
+  "region": "KSA",
+  "auto": false
+ },
+ {
+  "id": "misa",
+  "name": "Ministry of Investment",
+  "ar": "وزارة الاستثمار",
+  "url": "https://misa.gov.sa",
+  "tier": 1,
+  "kind": "official",
+  "lang": [
+   "ar",
+   "en"
+  ],
+  "region": "KSA",
+  "auto": false
+ },
+ {
+  "id": "monshaat",
+  "name": "Monsha'at",
+  "ar": "منشآت",
+  "url": "https://www.monshaat.gov.sa",
+  "tier": 1,
+  "kind": "official",
+  "lang": [
+   "ar",
+   "en"
+  ],
+  "region": "KSA",
+  "auto": false
+ },
+ {
+  "id": "svc",
+  "name": "Saudi Venture Capital (SVC)",
+  "ar": "الشركة السعودية للاستثمار الجريء",
+  "url": "https://svc.com.sa",
+  "tier": 1,
+  "kind": "official",
+  "lang": [
+   "ar",
+   "en"
+  ],
+  "region": "KSA",
+  "auto": false
+ },
+ {
+  "id": "jada",
+  "name": "Jada Fund of Funds",
+  "ar": "جدا",
+  "url": "https://jada.com.sa",
+  "tier": 1,
+  "kind": "official",
+  "lang": [
+   "ar",
+   "en"
+  ],
+  "region": "KSA",
+  "auto": false
+ },
+ {
+  "id": "pif",
+  "name": "Public Investment Fund",
+  "ar": "صندوق الاستثمارات العامة",
+  "url": "https://www.pif.gov.sa",
+  "tier": 1,
+  "kind": "official",
+  "lang": [
+   "ar",
+   "en"
+  ],
+  "region": "KSA",
+  "auto": false
+ },
+ {
+  "id": "spa",
+  "name": "Saudi Press Agency",
+  "ar": "وكالة الأنباء السعودية (واس)",
+  "url": "https://www.spa.gov.sa",
+  "tier": 1,
+  "kind": "official",
+  "lang": [
+   "ar",
+   "en"
+  ],
+  "region": "KSA",
+  "auto": false
+ },
+ {
+  "id": "fintechsaudi",
+  "name": "Fintech Saudi",
+  "ar": "فنتك السعودية",
+  "url": "https://fintechsaudi.com",
+  "tier": 1,
+  "kind": "official",
+  "lang": [
+   "ar",
+   "en"
+  ],
+  "region": "KSA",
+  "auto": false
+ },
+ {
+  "id": "kaust",
+  "name": "KAUST Innovation",
+  "ar": "كاوست للابتكار",
+  "url": "https://innovation.kaust.edu.sa",
+  "tier": 1,
+  "kind": "official",
+  "lang": [
+   "en"
+  ],
+  "region": "KSA",
+  "auto": false
+ },
+ {
+  "id": "adgm",
+  "name": "ADGM",
+  "ar": "سوق أبوظبي العالمي",
+  "url": "https://www.adgm.com",
+  "tier": 1,
+  "kind": "official",
+  "lang": [
+   "en"
+  ],
+  "region": "UAE",
+  "auto": false
+ },
+ {
+  "id": "difc",
+  "name": "DIFC",
+  "ar": "مركز دبي المالي العالمي",
+  "url": "https://www.difc.com",
+  "tier": 1,
+  "kind": "official",
+  "lang": [
+   "en"
+  ],
+  "region": "UAE",
+  "auto": false
+ },
+ {
+  "id": "prnewswire",
+  "name": "PR Newswire",
+  "ar": "بيانات صحفية",
+  "url": "https://www.prnewswire.com",
+  "tier": 1,
+  "kind": "press",
+  "lang": [
+   "en"
+  ],
+  "region": "Global",
+  "auto": false
+ },
+ {
+  "id": "businesswire",
+  "name": "Business Wire",
+  "ar": "بيانات صحفية",
+  "url": "https://www.businesswire.com",
+  "tier": 1,
+  "kind": "press",
+  "lang": [
+   "en"
+  ],
+  "region": "Global",
+  "auto": false
+ },
+ {
+  "id": "asharq",
+  "name": "Asharq Business with Bloomberg",
+  "ar": "الشرق بلومبرغ",
+  "url": "https://asharqbusiness.com",
+  "tier": 2,
+  "kind": "media",
+  "lang": [
+   "ar"
+  ],
+  "region": "MENA",
+  "auto": false
+ },
+ {
+  "id": "bloomberg",
+  "name": "Bloomberg",
+  "ar": "بلومبرغ",
+  "url": "https://www.bloomberg.com",
+  "tier": 2,
+  "kind": "media",
+  "lang": [
+   "en"
+  ],
+  "region": "Global",
+  "auto": false
+ },
+ {
+  "id": "reuters",
+  "name": "Reuters",
+  "ar": "رويترز",
+  "url": "https://www.reuters.com",
+  "tier": 2,
+  "kind": "media",
+  "lang": [
+   "en"
+  ],
+  "region": "Global",
+  "auto": false
+ },
+ {
+  "id": "ft",
+  "name": "Financial Times",
+  "ar": "فايننشال تايمز",
+  "url": "https://www.ft.com",
+  "tier": 2,
+  "kind": "media",
+  "lang": [
+   "en"
+  ],
+  "region": "Global",
+  "auto": false
+ },
+ {
+  "id": "wsj",
+  "name": "The Wall Street Journal",
+  "ar": "وول ستريت جورنال",
+  "url": "https://www.wsj.com",
+  "tier": 2,
+  "kind": "media",
+  "lang": [
+   "en"
+  ],
+  "region": "Global",
+  "auto": false
+ },
+ {
+  "id": "cnbc",
+  "name": "CNBC",
+  "ar": "سي إن بي سي",
+  "url": "https://www.cnbc.com",
+  "tier": 2,
+  "kind": "media",
+  "lang": [
+   "en"
+  ],
+  "region": "Global",
+  "auto": false
+ },
+ {
+  "id": "cnbcarabia",
+  "name": "CNBC Arabia",
+  "ar": "سي إن بي سي عربية",
+  "url": "https://www.cnbcarabia.com",
+  "tier": 2,
+  "kind": "media",
+  "lang": [
+   "ar"
+  ],
+  "region": "MENA",
+  "auto": false
+ },
+ {
+  "id": "zawya",
+  "name": "Zawya (LSEG)",
+  "ar": "زاوية",
+  "url": "https://www.zawya.com",
+  "tier": 2,
+  "kind": "media",
+  "lang": [
+   "en",
+   "ar"
+  ],
+  "region": "MENA",
+  "auto": false
+ },
+ {
+  "id": "alarabiya",
+  "name": "Al Arabiya Business",
+  "ar": "العربية Business",
+  "url": "https://www.alarabiya.net/aswaq",
+  "tier": 2,
+  "kind": "media",
+  "lang": [
+   "ar"
+  ],
+  "region": "MENA",
+  "auto": false
+ },
+ {
+  "id": "argaam",
+  "name": "Argaam",
+  "ar": "أرقام",
+  "url": "https://www.argaam.com",
+  "tier": 2,
+  "kind": "media",
+  "lang": [
+   "ar",
+   "en"
+  ],
+  "region": "KSA",
+  "auto": false
+ },
+ {
+  "id": "maaal",
+  "name": "Maaal",
+  "ar": "مال",
+  "url": "https://maaal.com",
+  "tier": 2,
+  "kind": "media",
+  "lang": [
+   "ar"
+  ],
+  "region": "KSA",
+  "auto": false
+ },
+ {
+  "id": "aleqt",
+  "name": "Al Eqtisadiah",
+  "ar": "الاقتصادية",
+  "url": "https://www.aleqt.com",
+  "tier": 2,
+  "kind": "media",
+  "lang": [
+   "ar"
+  ],
+  "region": "KSA",
+  "auto": false
+ },
+ {
+  "id": "arabnews",
+  "name": "Arab News",
+  "ar": "عرب نيوز",
+  "url": "https://www.arabnews.com",
+  "tier": 2,
+  "kind": "media",
+  "lang": [
+   "en"
+  ],
+  "region": "KSA",
+  "auto": false
+ },
+ {
+  "id": "saudigazette",
+  "name": "Saudi Gazette",
+  "ar": "سعودي جازيت",
+  "url": "https://saudigazette.com.sa",
+  "tier": 2,
+  "kind": "media",
+  "lang": [
+   "en"
+  ],
+  "region": "KSA",
+  "auto": false
+ },
+ {
+  "id": "agbi",
+  "name": "AGBI",
+  "ar": "AGBI",
+  "url": "https://www.agbi.com",
+  "tier": 2,
+  "kind": "media",
+  "lang": [
+   "en"
+  ],
+  "region": "GCC",
+  "auto": false
+ },
+ {
+  "id": "meed",
+  "name": "MEED",
+  "ar": "ميد",
+  "url": "https://www.meed.com",
+  "tier": 2,
+  "kind": "media",
+  "lang": [
+   "en"
+  ],
+  "region": "MENA",
+  "auto": false
+ },
+ {
+  "id": "forbesme",
+  "name": "Forbes Middle East",
+  "ar": "فوربس الشرق الأوسط",
+  "url": "https://www.forbesmiddleeast.com",
+  "tier": 2,
+  "kind": "media",
+  "lang": [
+   "en",
+   "ar"
+  ],
+  "region": "MENA",
+  "auto": false
+ },
+ {
+  "id": "gulfbusiness",
+  "name": "Gulf Business",
+  "ar": "جلف بزنس",
+  "url": "https://gulfbusiness.com",
+  "tier": 2,
+  "kind": "media",
+  "lang": [
+   "en"
+  ],
+  "region": "GCC",
+  "auto": false
+ },
+ {
+  "id": "thenational",
+  "name": "The National",
+  "ar": "ذا ناشونال",
+  "url": "https://www.thenationalnews.com",
+  "tier": 2,
+  "kind": "media",
+  "lang": [
+   "en"
+  ],
+  "region": "UAE",
+  "auto": false
+ },
+ {
+  "id": "khaleej",
+  "name": "Khaleej Times",
+  "ar": "خليج تايمز",
+  "url": "https://www.khaleejtimes.com",
+  "tier": 2,
+  "kind": "media",
+  "lang": [
+   "en"
+  ],
+  "region": "UAE",
+  "auto": false
+ },
+ {
+  "id": "enterprise",
+  "name": "EnterpriseAM",
+  "ar": "إنتربرايز",
+  "url": "https://enterpriseam.com",
+  "tier": 2,
+  "kind": "media",
+  "lang": [
+   "en",
+   "ar"
+  ],
+  "region": "MENA",
+  "auto": false
+ },
+ {
+  "id": "sharikat",
+  "name": "Sharikat Mubasher",
+  "ar": "شركات مباشر",
+  "url": "https://www.sharikatmubasher.com",
+  "tier": 2,
+  "kind": "media",
+  "lang": [
+   "en",
+   "ar"
+  ],
+  "region": "MENA",
+  "auto": false
+ },
+ {
+  "id": "aawsat",
+  "name": "Asharq Al-Awsat",
+  "ar": "الشرق الأوسط",
+  "url": "https://aawsat.com",
+  "tier": 2,
+  "kind": "media",
+  "lang": [
+   "ar"
+  ],
+  "region": "MENA",
+  "auto": false
+ },
+ {
+  "id": "okaz",
+  "name": "Okaz",
+  "ar": "عكاظ",
+  "url": "https://www.okaz.com.sa",
+  "tier": 2,
+  "kind": "media",
+  "lang": [
+   "ar"
+  ],
+  "region": "KSA",
+  "auto": false
+ },
+ {
+  "id": "alriyadh",
+  "name": "Al Riyadh",
+  "ar": "الرياض",
+  "url": "https://www.alriyadh.com",
+  "tier": 2,
+  "kind": "media",
+  "lang": [
+   "ar"
+  ],
+  "region": "KSA",
+  "auto": false
+ },
+ {
+  "id": "jawlah",
+  "name": "Jawlah",
+  "ar": "جولة",
+  "url": "https://jawlah.co",
+  "tier": 2,
+  "kind": "vc",
+  "lang": [
+   "ar",
+   "en"
+  ],
+  "region": "KSA",
+  "auto": false
+ },
+ {
+  "id": "zerotoone",
+  "name": "Zero to One",
+  "ar": "صفر لواحد",
+  "url": "",
+  "tier": 2,
+  "kind": "vc",
+  "lang": [
+   "ar"
+  ],
+  "region": "KSA",
+  "auto": false
+ },
+ {
+  "id": "wamda",
+  "name": "Wamda",
+  "ar": "ومضة",
+  "url": "https://www.wamda.com",
+  "tier": 2,
+  "kind": "vc",
+  "lang": [
+   "ar",
+   "en"
+  ],
+  "region": "MENA",
+  "auto": false
+ },
+ {
+  "id": "magnitt",
+  "name": "MAGNiTT",
+  "ar": "ماغنيت",
+  "url": "https://magnitt.com",
+  "tier": 2,
+  "kind": "vc",
+  "lang": [
+   "en"
+  ],
+  "region": "MENA",
+  "auto": false
+ },
+ {
+  "id": "menabytes",
+  "name": "MENAbytes",
+  "ar": "مينا بايتس",
+  "url": "https://www.menabytes.com",
+  "tier": 2,
+  "kind": "vc",
+  "lang": [
+   "en"
+  ],
+  "region": "MENA",
+  "auto": false
+ },
+ {
+  "id": "entrepreneurme",
+  "name": "Entrepreneur Middle East",
+  "ar": "إنتربرنور الشرق الأوسط",
+  "url": "https://www.entrepreneur.com/en-ae",
+  "tier": 2,
+  "kind": "vc",
+  "lang": [
+   "en"
+  ],
+  "region": "MENA",
+  "auto": false
+ },
+ {
+  "id": "arabfounders",
+  "name": "Arab Founders",
+  "ar": "عرب فاوندرز",
+  "url": "https://arabfounders.net",
+  "tier": 2,
+  "kind": "vc",
+  "lang": [
+   "en",
+   "ar"
+  ],
+  "region": "MENA",
+  "auto": false
+ },
+ {
+  "id": "disruptor",
+  "name": "The Disruptor",
+  "ar": "ذا ديسربتور",
+  "url": "https://thedisruptor.co",
+  "tier": 2,
+  "kind": "vc",
+  "lang": [
+   "en"
+  ],
+  "region": "KSA",
+  "auto": false
+ },
+ {
+  "id": "entarabi",
+  "name": "entArabi",
+  "ar": "إنترابي",
+  "url": "https://www.entarabi.com",
+  "tier": 2,
+  "kind": "vc",
+  "lang": [
+   "ar"
+  ],
+  "region": "MENA",
+  "auto": false
+ },
+ {
+  "id": "menastartupdigest",
+  "name": "MENA Startup Digest",
+  "ar": "مينا ستارت أب دايجست",
+  "url": "https://menastartupdigest.com",
+  "tier": 2,
+  "kind": "vc",
+  "lang": [
+   "en"
+  ],
+  "region": "MENA",
+  "auto": false
+ },
+ {
+  "id": "fintechfutures",
+  "name": "FinTech Futures",
+  "ar": "فنتك فيوتشرز",
+  "url": "https://www.fintechfutures.com",
+  "tier": 2,
+  "kind": "vc",
+  "lang": [
+   "en"
+  ],
+  "region": "Global",
+  "auto": false
+ },
+ {
+  "id": "fintechnews",
+  "name": "Fintech News Middle East",
+  "ar": "فنتك نيوز الشرق الأوسط",
+  "url": "https://fintechnews.ae",
+  "tier": 2,
+  "kind": "vc",
+  "lang": [
+   "en"
+  ],
+  "region": "MENA",
+  "auto": false
+ },
+ {
+  "id": "techcrunch",
+  "name": "TechCrunch",
+  "ar": "تك كرنش",
+  "url": "https://techcrunch.com",
+  "tier": 2,
+  "kind": "vc",
+  "lang": [
+   "en"
+  ],
+  "region": "Global",
+  "auto": false
+ },
+ {
+  "id": "crunchbase",
+  "name": "Crunchbase News",
+  "ar": "كرنش بيس",
+  "url": "https://news.crunchbase.com",
+  "tier": 2,
+  "kind": "vc",
+  "lang": [
+   "en"
+  ],
+  "region": "Global",
+  "auto": false
+ },
+ {
+  "id": "pitchbook",
+  "name": "PitchBook News",
+  "ar": "بيتش بوك",
+  "url": "https://pitchbook.com/news",
+  "tier": 2,
+  "kind": "vc",
+  "lang": [
+   "en"
+  ],
+  "region": "Global",
+  "auto": false
+ },
+ {
+  "id": "sifted",
+  "name": "Sifted",
+  "ar": "سيفتد",
+  "url": "https://sifted.eu",
+  "tier": 2,
+  "kind": "vc",
+  "lang": [
+   "en"
+  ],
+  "region": "Europe",
+  "auto": false
+ },
+ {
+  "id": "semafor",
+  "name": "Semafor",
+  "ar": "سيمافور",
+  "url": "https://www.semafor.com",
+  "tier": 2,
+  "kind": "vc",
+  "lang": [
+   "en"
+  ],
+  "region": "Global",
+  "auto": false
+ },
+ {
+  "id": "axios",
+  "name": "Axios Pro Rata",
+  "ar": "أكسيوس",
+  "url": "https://www.axios.com/newsletters/axios-pro-rata",
+  "tier": 2,
+  "kind": "vc",
+  "lang": [
+   "en"
+  ],
+  "region": "Global",
+  "auto": false
+ },
+ {
+  "id": "theinformation",
+  "name": "The Information",
+  "ar": "ذا إنفورميشن",
+  "url": "https://www.theinformation.com",
+  "tier": 2,
+  "kind": "vc",
+  "lang": [
+   "en"
+  ],
+  "region": "Global",
+  "auto": false
+ },
+ {
+  "id": "dealroom",
+  "name": "Dealroom",
+  "ar": "ديل روم",
+  "url": "https://dealroom.co",
+  "tier": 2,
+  "kind": "vc",
+  "lang": [
+   "en"
+  ],
+  "region": "Global",
+  "auto": false
+ },
+ {
+  "id": "techinafrica",
+  "name": "TechInAfrica",
+  "ar": "تك إن أفريقيا",
+  "url": "https://techinafrica.com",
+  "tier": 2,
+  "kind": "vc",
+  "lang": [
+   "en"
+  ],
+  "region": "Africa",
+  "auto": false
+ },
+ {
+  "id": "techcabal",
+  "name": "TechCabal",
+  "ar": "تك كابال",
+  "url": "https://techcabal.com",
+  "tier": 2,
+  "kind": "vc",
+  "lang": [
+   "en"
+  ],
+  "region": "Africa",
+  "auto": false
+ },
+ {
+  "id": "dabafinance",
+  "name": "Daba Finance",
+  "ar": "دابا",
+  "url": "https://dabafinance.com",
+  "tier": 2,
+  "kind": "vc",
+  "lang": [
+   "en"
+  ],
+  "region": "Africa",
+  "auto": false
+ },
+ {
+  "id": "kpmg",
+  "name": "KPMG Venture Pulse",
+  "ar": "كي بي إم جي",
+  "url": "https://kpmg.com/xx/en/our-insights/value-creation/venture-pulse.html",
+  "tier": 3,
+  "kind": "reports",
+  "lang": [
+   "en"
+  ],
+  "region": "Global",
+  "auto": false
+ },
+ {
+  "id": "pwc",
+  "name": "PwC Middle East",
+  "ar": "بي دبليو سي",
+  "url": "https://www.pwc.com/m1/en.html",
+  "tier": 3,
+  "kind": "reports",
+  "lang": [
+   "en"
+  ],
+  "region": "MENA",
+  "auto": false
+ },
+ {
+  "id": "bain",
+  "name": "Bain & Company",
+  "ar": "باين",
+  "url": "https://www.bain.com",
+  "tier": 3,
+  "kind": "reports",
+  "lang": [
+   "en"
+  ],
+  "region": "Global",
+  "auto": false
+ },
+ {
+  "id": "mckinsey",
+  "name": "McKinsey",
+  "ar": "ماكنزي",
+  "url": "https://www.mckinsey.com",
+  "tier": 3,
+  "kind": "reports",
+  "lang": [
+   "en"
+  ],
+  "region": "Global",
+  "auto": false
+ },
+ {
+  "id": "cbinsights",
+  "name": "CB Insights",
+  "ar": "سي بي إنسايتس",
+  "url": "https://www.cbinsights.com/research",
+  "tier": 3,
+  "kind": "reports",
+  "lang": [
+   "en"
+  ],
+  "region": "Global",
+  "auto": false
+ },
+ {
+  "id": "startupgenome",
+  "name": "Startup Genome",
+  "ar": "ستارت أب جينوم",
+  "url": "https://startupgenome.com",
+  "tier": 3,
+  "kind": "reports",
+  "lang": [
+   "en"
+  ],
+  "region": "Global",
+  "auto": false
+ },
+ {
+  "id": "imf",
+  "name": "IMF",
+  "ar": "صندوق النقد الدولي",
+  "url": "https://www.imf.org",
+  "tier": 3,
+  "kind": "reports",
+  "lang": [
+   "en"
+  ],
+  "region": "Global",
+  "auto": false
+ },
+ {
+  "id": "paulgraham",
+  "name": "Paul Graham",
+  "ar": "بول غراهام",
+  "url": "https://paulgraham.com",
+  "tier": 3,
+  "kind": "essays",
+  "lang": [
+   "en"
+  ],
+  "region": "Global",
+  "auto": false
+ },
+ {
+  "id": "a16z",
+  "name": "a16z",
+  "ar": "أندريسن هورويتز",
+  "url": "https://a16z.com",
+  "tier": 3,
+  "kind": "essays",
+  "lang": [
+   "en"
+  ],
+  "region": "Global",
+  "auto": false
+ },
+ {
+  "id": "sequoia",
+  "name": "Sequoia Capital",
+  "ar": "سيكويا",
+  "url": "https://www.sequoiacap.com/articles/",
+  "tier": 3,
+  "kind": "essays",
+  "lang": [
+   "en"
+  ],
+  "region": "Global",
+  "auto": false
+ },
+ {
+  "id": "firstround",
+  "name": "First Round Review",
+  "ar": "فيرست راوند",
+  "url": "https://review.firstround.com",
+  "tier": 3,
+  "kind": "essays",
+  "lang": [
+   "en"
+  ],
+  "region": "Global",
+  "auto": false
+ },
+ {
+  "id": "nfx",
+  "name": "NFX",
+  "ar": "إن إف إكس",
+  "url": "https://www.nfx.com/essays",
+  "tier": 3,
+  "kind": "essays",
+  "lang": [
+   "en"
+  ],
+  "region": "Global",
+  "auto": false
+ },
+ {
+  "id": "abovethecrowd",
+  "name": "Bill Gurley — Above the Crowd",
+  "ar": "بيل غيرلي",
+  "url": "https://abovethecrowd.com",
+  "tier": 3,
+  "kind": "essays",
+  "lang": [
+   "en"
+  ],
+  "region": "Global",
+  "auto": false
+ },
+ {
+  "id": "avc",
+  "name": "Fred Wilson — AVC",
+  "ar": "فريد ويلسون",
+  "url": "https://avc.com",
+  "tier": 3,
+  "kind": "essays",
+  "lang": [
+   "en"
+  ],
+  "region": "Global",
+  "auto": false
+ },
+ {
+  "id": "eladgil",
+  "name": "Elad Gil",
+  "ar": "إيلاد جيل",
+  "url": "https://blog.eladgil.com",
+  "tier": 3,
+  "kind": "essays",
+  "lang": [
+   "en"
+  ],
+  "region": "Global",
+  "auto": false
+ },
+ {
+  "id": "notboring",
+  "name": "Not Boring",
+  "ar": "نوت بورينغ",
+  "url": "https://www.notboring.co",
+  "tier": 3,
+  "kind": "essays",
+  "lang": [
+   "en"
+  ],
+  "region": "Global",
+  "auto": false
+ },
+ {
+  "id": "lenny",
+  "name": "Lenny's Newsletter",
+  "ar": "ليني",
+  "url": "https://www.lennysnewsletter.com",
+  "tier": 3,
+  "kind": "essays",
+  "lang": [
+   "en"
+  ],
+  "region": "Global",
+  "auto": false
+ },
+ {
+  "id": "tunguz",
+  "name": "Tomasz Tunguz",
+  "ar": "توماس تونغوز",
+  "url": "https://tomtunguz.com",
+  "tier": 3,
+  "kind": "essays",
+  "lang": [
+   "en"
+  ],
+  "region": "Global",
+  "auto": false
+ },
+ {
+  "id": "ycblog",
+  "name": "Y Combinator",
+  "ar": "واي كومبينيتور",
+  "url": "https://www.ycombinator.com/blog",
+  "tier": 3,
+  "kind": "essays",
+  "lang": [
+   "en"
+  ],
+  "region": "Global",
+  "auto": false
+ },
+ {
+  "id": "howardmarks",
+  "name": "Howard Marks memos",
+  "ar": "هوارد ماركس",
+  "url": "https://www.oaktreecapital.com/insights/memos",
+  "tier": 3,
+  "kind": "essays",
+  "lang": [
+   "en"
+  ],
+  "region": "Global",
+  "auto": false
+ },
+ {
+  "id": "stv",
+  "name": "STV insights",
+  "ar": "إس تي في",
+  "url": "https://stv.vc",
+  "tier": 3,
+  "kind": "essays",
+  "lang": [
+   "en"
+  ],
+  "region": "KSA",
+  "auto": false
+ },
+ {
+  "id": "raed",
+  "name": "RAED Ventures",
+  "ar": "رائد فنتشرز",
+  "url": "https://raed.vc",
+  "tier": 3,
+  "kind": "essays",
+  "lang": [
+   "en"
+  ],
+  "region": "KSA",
+  "auto": false
+ },
+ {
+  "id": "beco",
+  "name": "BECO Capital",
+  "ar": "بيكو كابيتال",
+  "url": "https://becocapital.com",
+  "tier": 3,
+  "kind": "essays",
+  "lang": [
+   "en"
+  ],
+  "region": "UAE",
+  "auto": false
+ },
+ {
+  "id": "thmanyah",
+  "name": "Thmanyah",
+  "ar": "ثمانية",
+  "url": "https://thmanyah.com",
+  "tier": 3,
+  "kind": "essays",
+  "lang": [
+   "ar"
+  ],
+  "region": "KSA",
+  "auto": false
+ },
+ {
+  "id": "orrick",
+  "name": "Orrick",
+  "ar": "أوريك",
+  "url": "https://www.orrick.com",
+  "tier": 3,
+  "kind": "essays",
+  "lang": [
+   "en"
+  ],
+  "region": "Global",
+  "auto": false
+ }
+]
