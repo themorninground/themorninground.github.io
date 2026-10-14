@@ -1331,7 +1331,8 @@
   ],
   "region": "SA",
   "auto": true,
-  "found": "2026-10-14"
+  "found": "2026-10-14",
+  "last_ok": "2026-10-14"
  },
  {
   "id": "waya",
@@ -1387,7 +1388,8 @@
   ],
   "region": "SA",
   "auto": true,
-  "found": "2026-10-14"
+  "found": "2026-10-14",
+  "last_ok": "2026-10-14"
  },
  {
   "id": "finance",
@@ -1457,7 +1459,8 @@
   ],
   "region": "SA",
   "auto": true,
-  "found": "2026-10-14"
+  "found": "2026-10-14",
+  "last_ok": "2026-10-14"
  },
  {
   "id": "fintechgate",
@@ -1499,7 +1502,8 @@
   ],
   "region": "AE",
   "auto": true,
-  "found": "2026-10-14"
+  "found": "2026-10-14",
+  "last_ok": "2026-10-14"
  },
  {
   "id": "businessstandard",
@@ -1527,7 +1531,8 @@
   ],
   "region": "AE",
   "auto": true,
-  "found": "2026-10-14"
+  "found": "2026-10-14",
+  "last_ok": "2026-10-14"
  },
  {
   "id": "entrackr",
@@ -1541,7 +1546,8 @@
   ],
   "region": "AE",
   "auto": true,
-  "found": "2026-10-14"
+  "found": "2026-10-14",
+  "last_ok": "2026-10-14"
  },
  {
   "id": "thecondia",
@@ -1555,7 +1561,8 @@
   ],
   "region": "AE",
   "auto": true,
-  "found": "2026-10-14"
+  "found": "2026-10-14",
+  "last_ok": "2026-10-14"
  },
  {
   "id": "nairametrics",
@@ -1569,7 +1576,8 @@
   ],
   "region": "AE",
   "auto": true,
-  "found": "2026-10-14"
+  "found": "2026-10-14",
+  "last_ok": "2026-10-14"
  },
  {
   "id": "tekedia",
@@ -1583,7 +1591,8 @@
   ],
   "region": "EG",
   "auto": true,
-  "found": "2026-10-14"
+  "found": "2026-10-14",
+  "last_ok": "2026-10-14"
  },
  {
   "id": "bignewsnetwork",
@@ -1611,7 +1620,8 @@
   ],
   "region": "SA",
   "auto": true,
-  "found": "2026-10-14"
+  "found": "2026-10-14",
+  "last_ok": "2026-10-14"
  },
  {
   "id": "satellitetoday",
@@ -1653,7 +1663,8 @@
   ],
   "region": "US",
   "auto": true,
-  "found": "2026-10-14"
+  "found": "2026-10-14",
+  "last_ok": "2026-10-14"
  },
  {
   "id": "fortune",
@@ -1667,7 +1678,8 @@
   ],
   "region": "US",
   "auto": true,
-  "found": "2026-10-14"
+  "found": "2026-10-14",
+  "last_ok": "2026-10-14"
  },
  {
   "id": "financex",
@@ -1695,7 +1707,8 @@
   ],
   "region": "US",
   "auto": true,
-  "found": "2026-10-14"
+  "found": "2026-10-14",
+  "last_ok": "2026-10-14"
  },
  {
   "id": "tech",
@@ -1709,7 +1722,8 @@
   ],
   "region": "US",
   "auto": true,
-  "found": "2026-10-14"
+  "found": "2026-10-14",
+  "last_ok": "2026-10-14"
  },
  {
   "id": "therecursive",
@@ -1723,7 +1737,8 @@
   ],
   "region": "US",
   "auto": true,
-  "found": "2026-10-14"
+  "found": "2026-10-14",
+  "last_ok": "2026-10-14"
  },
  {
   "id": "bwdisrupt",
@@ -1751,7 +1766,8 @@
   ],
   "region": "US",
   "auto": true,
-  "found": "2026-10-14"
+  "found": "2026-10-14",
+  "last_ok": "2026-10-14"
  },
  {
   "id": "ascendants",
@@ -1765,7 +1781,8 @@
   ],
   "region": "US",
   "auto": true,
-  "found": "2026-10-14"
+  "found": "2026-10-14",
+  "last_ok": "2026-10-14"
  },
  {
   "id": "techjuice",
@@ -1779,7 +1796,8 @@
   ],
   "region": "US",
   "auto": true,
-  "found": "2026-10-14"
+  "found": "2026-10-14",
+  "last_ok": "2026-10-14"
  },
  {
   "id": "bizjournals",
@@ -1821,7 +1839,8 @@
   ],
   "region": "US",
   "auto": true,
-  "found": "2026-10-14"
+  "found": "2026-10-14",
+  "last_ok": "2026-10-14"
  },
  {
   "id": "techinsider",
@@ -1877,7 +1896,8 @@
   ],
   "region": "US",
   "auto": true,
-  "found": "2026-10-14"
+  "found": "2026-10-14",
+  "last_ok": "2026-10-14"
  },
  {
   "id": "capitalriesgo",
@@ -1905,7 +1925,8 @@
   ],
   "region": "US",
   "auto": true,
-  "found": "2026-10-14"
+  "found": "2026-10-14",
+  "last_ok": "2026-10-14"
  },
  {
   "id": "startupfortune",
@@ -1919,7 +1940,8 @@
   ],
   "region": "US",
   "auto": true,
-  "found": "2026-10-14"
+  "found": "2026-10-14",
+  "last_ok": "2026-10-14"
  },
  {
   "id": "startupbusiness",
@@ -1933,7 +1955,8 @@
   ],
   "region": "US",
   "auto": true,
-  "found": "2026-10-14"
+  "found": "2026-10-14",
+  "last_ok": "2026-10-14"
  },
  {
   "id": "enterpriseai",
@@ -2003,7 +2026,8 @@
   ],
   "region": "GB",
   "auto": true,
-  "found": "2026-10-14"
+  "found": "2026-10-14",
+  "last_ok": "2026-10-14"
  },
  {
   "id": "n24",
@@ -2059,7 +2083,8 @@
   ],
   "region": "SA",
   "auto": true,
-  "found": "2026-10-14"
+  "found": "2026-10-14",
+  "last_ok": "2026-10-14"
  },
  {
   "id": "twaslnews1",
@@ -2087,7 +2112,8 @@
   ],
   "region": "SA",
   "auto": true,
-  "found": "2026-10-14"
+  "found": "2026-10-14",
+  "last_ok": "2026-10-14"
  },
  {
   "id": "alborsaanews",
@@ -2101,7 +2127,8 @@
   ],
   "region": "SA",
   "auto": true,
-  "found": "2026-10-14"
+  "found": "2026-10-14",
+  "last_ok": "2026-10-14"
  },
  {
   "id": "youm7",
@@ -2129,7 +2156,8 @@
   ],
   "region": "SA",
   "auto": true,
-  "found": "2026-10-14"
+  "found": "2026-10-14",
+  "last_ok": "2026-10-14"
  },
  {
   "id": "agenzianova",
@@ -2213,7 +2241,8 @@
   ],
   "region": "EG",
   "auto": true,
-  "found": "2026-10-14"
+  "found": "2026-10-14",
+  "last_ok": "2026-10-14"
  },
  {
   "id": "alanba",
