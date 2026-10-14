@@ -615,5 +615,25 @@
    1200,
    630
   ]
+ },
+ "art-r001": {
+  "page": "https://en.wikipedia.org/wiki/Riyadh",
+  "site": "",
+  "title": "Riyadh - Wikipedia",
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Riyadh_Skyline.jpg/1280px-Riyadh_Skyline.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
+  "size": [
+   1280,
+   720
+  ]
+ },
+ "rep-cbi-q3-2026": {
+  "page": "https://www.cbinsights.com/research/report/venture-trends-q3-2026/",
+  "site": "CB Insights Research",
+  "title": "CB Insights Research",
+  "src": "https://research-assets.cbinsights.com/2026/10/07151801/SoAI-Q326-FI-1-572x364.png",
+  "size": [
+   572,
+   364
+  ]
  }
 }

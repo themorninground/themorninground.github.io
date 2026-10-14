@@ -1,29 +1,3 @@
 FAIL art-mena-h1 https://i0.wp.com/ent.news/2025/4/1476.jpg?ssl=1 HTTP Error 404: Not Found
-ok art-arabinform (1400, 788) https://arabinform.com/wp-content/uploads/2026/06/ChatGPT-Image-3-июл.-2026-г.-12_19_50.png
-ok art-pg (1400, 735) https://www.ycombinator.com/assets/ycdc/yc-og-image-c440a0ad1dacfb86eeeb343717479cc54d256614449b4ef719977a0a451f8bc8.png
-generic share image https://en.sharikatmubasher.com/media-hub/experts-thoughts/27259 https://sharikatmubasher.com/assets/images/logo.png
-FAIL art-r001 None no image found
-ok n40 (1024, 341) https://sg-imgs.dealroom.co/378dd98d5f5f3ee3ea2fd06c6d65ef31.jpeg?ar=3:1&fit=crop&crop=faces,center&auto=compress&cs=origin
-ok n58 (868, 488) https://media.thenextweb.com/2026/10/schneider-electric-logo-office-facade-berlin.jpg
-ok art-agbi-war-ai (1400, 934) https://www.agbi.com/tachyon/sites/4/2026/10/724BEFED-8B52-4918-8204-AF3B055BFB23-scaled.jpg
-ok art-jawlah-liquidity (1200, 675) https://jawlah.co/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-11-at-17.41.36.jpeg
-ok art-lebanon-startups (1400, 933) https://www.lebanon24.com/uploadImages/DocumentImages/Doc-P-1582532-639275664758704630.jpeg
-ok art-morocco-trails (750, 536) https://www.moroccoworldnews.com/wp-content/uploads/2026/02/startups.jpg
-ok art-saudi-family-wealth (1400, 934) https://jawlah.co/wp-content/uploads/2026/08/WhatsApp-Image-2026-08-17-at-16.36.13.jpeg
-ok art-ai-sovereignty (1000, 630) https://jawlah.co/wp-content/uploads/2026/09/data-saudi.jpg
-ok art-beco-aiza (1400, 967) https://www.becocapital.com/wp-content/uploads/2026/09/Shubham-Poddar_AIZA-scaled-1.jpg
-ok art-lenny-moat (1200, 675) https://substackcdn.com/image/fetch/$s_!7Uce!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffb5a8d5c-1e31-45f5-b9f8-93426e87a971_1456x970.png
-ok art-theory-ai-survey (1200, 630) https://res.cloudinary.com/dzawgnnlr/image/upload/c_fill,g_auto,w_1200,h_630/aip2026-01-security-gap.gif
-ok art-a16z-new-cfo (1200, 630) https://d1lamhf6l6yk6d.cloudfront.net/uploads/2026/10/You-Need-A New-CFO-yoast-li-1.png
-ok art-a16z-texas-dc (1024, 538) https://d1lamhf6l6yk6d.cloudfront.net/uploads/2026/10/Why-Texas-is-Making-Data-Centers-Wait-yoast-li-1024x538.png
-ok art-a16z-manufacturing (1200, 630) https://d1lamhf6l6yk6d.cloudfront.net/uploads/2026/10/The-Case-for-the-American-Manufacturing-Asset-Class-yoast-li.png
-ok art-bending-spoons (1280, 720) https://framerusercontent.com/images/grG5gEUWX07IK4W5yQPZ8yGnjtM.jpg?width=1280&height=720
-ok art-notboring-runway (960, 540) https://substackcdn.com/image/fetch/$s_!ow7z!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb0d2e738-bfbe-4939-94a7-980475bf0f40_960x540.gif
-ok art-jawlah-opportunity (1200, 800) https://jawlah.co/wp-content/uploads/2026/09/WhatsApp-Image-2026-09-21-at-13.39.05.jpeg
-ok art-svb-revenue-bars (1400, 788) https://jawlah.co/wp-content/uploads/2026/08/WhatsApp-Image-2026-08-30-at-15.18.49.jpeg
-ok rep-magnitt-9m (1400, 934) https://www.agbi.com/tachyon/sites/4/2026/10/724BEFED-8B52-4918-8204-AF3B055BFB23-scaled.jpg
-ok rep-dxbstart-uae-q3 (600, 338) http://www.fintechgate.net/UploadCache/libfiles/7/0/600x338o/955.jpeg
-no share image https://bebeez.eu/2026/10/12/global-venture-capital-firms-pour-698-billion-us-dollars-in-startups-at-the-end-of-3q26-cb-insights/
-FAIL rep-cbi-q3-2026 None no image found
-ok rep-kpmg-h1-2026 (1280, 854) https://assets.kpmg.com/is/image/kpmgcloud/us-building-pe-backend
-ok rep-a16z-top100-7 (1200, 630) https://d1lamhf6l6yk6d.cloudfront.net/uploads/2026/10/Top-100-Gen-AI-–-Worlds-Fair-OG-Image.png
+ok art-r001 (1280, 720) https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Riyadh_Skyline.jpg/1280px-Riyadh_Skyline.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail
+ok rep-cbi-q3-2026 (572, 364) https://research-assets.cbinsights.com/2026/10/07151801/SoAI-Q326-FI-1-572x364.png
