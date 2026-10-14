@@ -1,0 +1,42 @@
+{
+ "e04": {
+  "page": "https://www.arabnews.pk/business/saudi-non-oil-pmi-rises-to-553-highest-since-february-3003228",
+  "site": "",
+  "title": "Saudi non-oil PMI rises to 55.3, highest since February",
+  "src": "https://assets.maestronewsroom.com/media/30f6532d-717b-4366-9158-9c455299fcd9/arabnews-import/2022/06/proxy/3268251-2061978756.webp",
+  "size": [
+   1200,
+   720
+  ]
+ },
+ "e05": {
+  "page": "https://www.khaleejtimes.com/business/uae-business-activity-picks-up-as-prices-rise-at-fastest-pace-in-over-15-years",
+  "site": "Khaleej Times",
+  "title": "UAE business activity picks up as prices rise at fastest pace in over 15 years",
+  "src": "https://imgengine.khaleejtimes.com/khaleejtimes-english/2026-06-01/tuwozx1k/UAE-jobs-recruitment.jpeg?width=1200&height=630&q=60&format=auto&ogImage=true&mode=crop&rect=0,0,1200,800",
+  "size": [
+   945,
+   630
+  ]
+ },
+ "e07": {
+  "page": "https://www.argaam.com/en/reports/inflation-report/61578",
+  "site": "ArgaamPlus",
+  "title": "Saudi Arabia’s inflation holds steady at 1.8% in August",
+  "src": "https://www.argaam.com/content/en/images/argaam-plus-social1.jpg",
+  "size": [
+   560,
+   320
+  ]
+ },
+ "rep-sama-q1": {
+  "page": "https://en.wikipedia.org/wiki/Saudi_Central_Bank",
+  "site": "",
+  "title": "Saudi Central Bank - Wikipedia",
+  "src": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Bank_SA.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail_unscaled",
+  "size": [
+   949,
+   691
+  ]
+ }
+}
