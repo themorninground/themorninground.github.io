@@ -1,5 +1,2 @@
-ok d03 (900, 500) https://cdn.wamda.com/feature-images/318906348c004b8.jpg
-FAIL art-mena-h1 None HTTP Error 404: Not Found
-page fail https://arabnews.com/business/saudi-inflation-holds-at-18-in-august-as-housing-and-food-costs-climb-3001753 HTTP Error 403: Forbidden
-generic share image https://www.argaam.com/en/reports/inflation-report/61578 https://www.argaam.com/content/en/images/argaam-plus-social1.jpg
-FAIL e07 None no image found
+ok art-mena-h1 (900, 500) https://cdn.wamda.com/feature-images/7750c7eb65c8423.jpg
+ok e07 (1200, 675) https://ajel.sa/cdn-cgi/image/width=1200,height=675,fit=cover,gravity=auto,format=jpeg/https://cdn.ajel.sa/articles/2026-08/%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9-8s6_2_6-.jpg

@@ -20,13 +20,13 @@
   ]
  },
  "e07": {
-  "page": "https://en.wikipedia.org/wiki/Economy_of_Saudi_Arabia",
-  "site": "",
-  "title": "Economy of Saudi Arabia - Wikipedia",
-  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Riyadh_Skyline.jpg/1280px-Riyadh_Skyline.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
+  "page": "https://english.ajel.sa/business/0smwcyh8y",
+  "site": "Ajel English",
+  "title": "Saudi annual inflation steady at 1.8% in July",
+  "src": "https://ajel.sa/cdn-cgi/image/width=1200,height=675,fit=cover,gravity=auto,format=jpeg/https://cdn.ajel.sa/articles/2026-08/%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9-8s6_2_6-.jpg",
   "size": [
-   1280,
-   720
+   1200,
+   675
   ]
  },
  "rep-sama-q1": {
@@ -641,6 +641,16 @@
   "site": "Wamda",
   "title": "Lendo, Quantic launch $200 million SME financing programme in Saudi Arabia",
   "src": "https://cdn.wamda.com/feature-images/318906348c004b8.jpg",
+  "size": [
+   900,
+   500
+  ]
+ },
+ "art-mena-h1": {
+  "page": "https://www.wamda.com/en/2026/07/mena-startups-raise-1-7-billion-h1-2026-despite-regional-uncertainty",
+  "site": "Wamda",
+  "title": "MENA startups raise $1.7 billion in H1 2026 despite regional uncertainty",
+  "src": "https://cdn.wamda.com/feature-images/7750c7eb65c8423.jpg",
   "size": [
    900,
    500
