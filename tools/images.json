@@ -307,7 +307,8 @@
  {
   "id": "n40",
   "pages": [
-   "https://enterpriseam.com/egypt/2026/10/14/war-or-not-institutional-investors-had-a-big-appetite-for-mnt-halans-usd-126-mn-ipo-on-the-egyptian-exchange"
+   "https://dealroom.co/news/160815-mnt-halan-opens-cairo-ipo-at-egp24-50-a-share-raising-150m/",
+   "https://www.riotimesonline.com/egypt-mnt-halan-ipo-opens-2026/"
   ]
  },
  {
@@ -421,9 +422,7 @@
  },
  {
   "id": "n58",
-  "pages": [
-   "https://thenextweb.com/news/schneider-electric-ptc-22-6bn"
-  ]
+  "url": "https://media.thenextweb.com/2026/10/schneider-electric-logo-office-facade-berlin.jpg"
  },
  {
   "id": "n59",
@@ -441,8 +440,9 @@
  {
   "id": "n61",
   "pages": [
-   "https://dealroom.co/news/160571-deepseeks-round-swells-to-15b-at-75b-valuation-before-shanghai-ipo/"
-  ]
+   "https://www.vktr.com/ai-news/deepseek-targets-2027-shanghai-ipo-at-74b/"
+  ],
+  "force": true
  },
  {
   "id": "n62",
