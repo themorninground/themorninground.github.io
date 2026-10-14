@@ -199,8 +199,7 @@
    "https://www.wamda.com/en/2026/07/mena-startups-raise-1-7-billion-h1-2026-despite-regional-uncertainty",
    "https://menastartupdigest.com/?p=50274",
    "https://www.magnitt.com/research/mena-venture-capital-the-h1-2026-review-51047"
-  ],
-  "force": true
+  ]
  },
  {
   "id": "art-a16z-metrics",
@@ -282,8 +281,7 @@
    "https://www.arabnews.pk/business/saudi-inflation-holds-at-18-in-august-as-housing-and-food-costs-climb-3001300",
    "https://sabq.org/article/zrLz174",
    "https://www.okaz.com.sa/economy/na/2266044"
-  ],
-  "force": true
+  ]
  },
  {
   "id": "rep-sama-q1",
@@ -314,8 +312,10 @@
   "id": "n40",
   "pages": [
    "https://dealroom.co/news/160815-mnt-halan-opens-cairo-ipo-at-egp24-50-a-share-raising-150m/",
-   "https://www.riotimesonline.com/egypt-mnt-halan-ipo-opens-2026/"
-  ]
+   "https://enterpriseam.com/egypt/2026/10/04/mnt-halan-is-offering-20-of-its-egyptian-arm-a-move-that-may-bring-foreign-investors-back-to-the-egx/",
+   "https://dabafinance.com/en/news/mnt-halan-plans-ipo-on-egyptian-exchange-2026-10-01"
+  ],
+  "force": true
  },
  {
   "id": "n41",
