@@ -378,5 +378,242 @@
    1280,
    720
   ]
+ },
+ "art-arabinform": {
+  "page": "https://arabinform.com/saudi-style-venture-capital-why-founders-now-need-a-riyadh-strategy/",
+  "site": "The Arabinform Journal",
+  "title": "Saudi-Style Venture Capital: Why Founders Now Need a Riyadh Strategy",
+  "src": "https://arabinform.com/wp-content/uploads/2026/06/ChatGPT-Image-3-июл.-2026-г.-12_19_50.png",
+  "size": [
+   1400,
+   788
+  ]
+ },
+ "art-pg": {
+  "page": "https://www.ycombinator.com/library",
+  "site": "YC Startup Library",
+  "title": "YC Startup Library | Y Combinator",
+  "src": "https://www.ycombinator.com/assets/ycdc/yc-og-image-c440a0ad1dacfb86eeeb343717479cc54d256614449b4ef719977a0a451f8bc8.png",
+  "size": [
+   1400,
+   735
+  ]
+ },
+ "n40": {
+  "page": "https://dealroom.co/news/160815-mnt-halan-opens-cairo-ipo-at-egp24-50-a-share-raising-150m/",
+  "site": "",
+  "title": "MNT-Halan opens Cairo IPO at EGP24.50 a share, raising $150M | Dealroom News",
+  "src": "https://sg-imgs.dealroom.co/378dd98d5f5f3ee3ea2fd06c6d65ef31.jpeg?ar=3:1&fit=crop&crop=faces,center&auto=compress&cs=origin",
+  "size": [
+   1024,
+   341
+  ]
+ },
+ "n58": {
+  "src": "https://media.thenextweb.com/2026/10/schneider-electric-logo-office-facade-berlin.jpg",
+  "size": [
+   868,
+   488
+  ]
+ },
+ "art-agbi-war-ai": {
+  "page": "https://www.agbi.com/analysis/banking-finance/2026/10/war-and-ai-make-mena-venture-capital-harder-to-secure/",
+  "site": "AGBI",
+  "title": "War and AI make Mena venture capital harder to secure",
+  "src": "https://www.agbi.com/tachyon/sites/4/2026/10/724BEFED-8B52-4918-8204-AF3B055BFB23-scaled.jpg",
+  "size": [
+   1400,
+   934
+  ]
+ },
+ "art-jawlah-liquidity": {
+  "page": "https://jawlah.co/66282",
+  "site": "جولة",
+  "title": "رأس المال الجريء يواجه تحديات السيولة رغم نمو قيمة الشركات | Jawlah",
+  "src": "https://jawlah.co/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-11-at-17.41.36.jpeg",
+  "size": [
+   1200,
+   675
+  ]
+ },
+ "art-lebanon-startups": {
+  "page": "https://www.lebanon24.com/news/lebanon/1582532/%D8%B4%D8%B1%D9%83%D8%A7%D8%AA-%D9%84%D8%A8%D9%86%D8%A7%D9%86-%D8%A7%D9%84%D9%86%D8%A7%D8%B4%D8%A6%D8%A9-%D8%A8%D9%84%D8%A7-%D8%AA%D9%85%D9%88%D9%8A%D9%84",
+  "site": "Lebanon24",
+  "title": "شركات لبنان الناشئة بلا تمويل... كفاءات بالآلاف وتمويل بالقطّارة",
+  "src": "https://www.lebanon24.com/uploadImages/DocumentImages/Doc-P-1582532-639275664758704630.jpeg",
+  "size": [
+   1400,
+   933
+  ]
+ },
+ "art-morocco-trails": {
+  "page": "https://www.moroccoworldnews.com/2026/10/341800/morocco-trails-regional-peers-in-1-1-billion-mena-startup-funding/",
+  "site": "Morocco World News",
+  "title": "Morocco Trails Regional Peers in $1.1 Billion MENA Startup Funding",
+  "src": "https://www.moroccoworldnews.com/wp-content/uploads/2026/02/startups.jpg",
+  "size": [
+   750,
+   536
+  ]
+ },
+ "art-saudi-family-wealth": {
+  "page": "https://jawlah.co/en/62660",
+  "site": "Jawlah",
+  "title": "Saudi family wealth enters governance era | Jawlah",
+  "src": "https://jawlah.co/wp-content/uploads/2026/08/WhatsApp-Image-2026-08-17-at-16.36.13.jpeg",
+  "size": [
+   1400,
+   934
+  ]
+ },
+ "art-ai-sovereignty": {
+  "page": "https://jawlah.co/en/64621",
+  "site": "Jawlah",
+  "title": "AI sovereignty in Saudi Arabia goes beyond data centers to building local capacity | Jawlah",
+  "src": "https://jawlah.co/wp-content/uploads/2026/09/data-saudi.jpg",
+  "size": [
+   1000,
+   630
+  ]
+ },
+ "art-beco-aiza": {
+  "page": "https://www.becocapital.com/why-we-invested-aiza-by-amaani/",
+  "site": "BECO Capital",
+  "title": "Why We Invested: AÏZA by Amaani",
+  "src": "https://www.becocapital.com/wp-content/uploads/2026/09/Shubham-Poddar_AIZA-scaled-1.jpg",
+  "size": [
+   1400,
+   967
+  ]
+ },
+ "art-lenny-moat": {
+  "page": "https://www.lennysnewsletter.com/p/how-to-tell-if-a-startup-has-a-moat",
+  "site": "",
+  "title": "How to tell if a startup has a moat",
+  "src": "https://substackcdn.com/image/fetch/$s_!7Uce!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffb5a8d5c-1e31-45f5-b9f8-93426e87a971_1456x970.png",
+  "size": [
+   1200,
+   675
+  ]
+ },
+ "art-theory-ai-survey": {
+  "page": "https://tomtunguz.com/ai-in-practice-survey-2026/",
+  "site": "Tomasz Tunguz",
+  "title": "The Theory 2026 AI Survey Results",
+  "src": "https://res.cloudinary.com/dzawgnnlr/image/upload/c_fill,g_auto,w_1200,h_630/aip2026-01-security-gap.gif",
+  "size": [
+   1200,
+   630
+  ]
+ },
+ "art-a16z-new-cfo": {
+  "page": "https://a16z.com/you-need-a-new-cfo/",
+  "site": "Andreessen Horowitz",
+  "title": "You Need a New CFO | Andreessen Horowitz",
+  "src": "https://d1lamhf6l6yk6d.cloudfront.net/uploads/2026/10/You-Need-A New-CFO-yoast-li-1.png",
+  "size": [
+   1200,
+   630
+  ]
+ },
+ "art-a16z-texas-dc": {
+  "page": "https://a16z.com/why-texas-is-making-data-centers-wait/",
+  "site": "Andreessen Horowitz",
+  "title": "Why Texas Is Making Data Centers Wait | Andreessen Horowitz",
+  "src": "https://d1lamhf6l6yk6d.cloudfront.net/uploads/2026/10/Why-Texas-is-Making-Data-Centers-Wait-yoast-li-1024x538.png",
+  "size": [
+   1024,
+   538
+  ]
+ },
+ "art-a16z-manufacturing": {
+  "page": "https://a16z.com/the-case-for-the-american-manufacturing-asset-class/",
+  "site": "Andreessen Horowitz",
+  "title": "The Case for the American Manufacturing Asset Class | Andreessen Horowitz",
+  "src": "https://d1lamhf6l6yk6d.cloudfront.net/uploads/2026/10/The-Case-for-the-American-Manufacturing-Asset-Class-yoast-li.png",
+  "size": [
+   1200,
+   630
+  ]
+ },
+ "art-bending-spoons": {
+  "page": "https://sequoiacap.com/podcast/luca-ferrari-the-operating-system-behind-bending-spoons",
+  "site": "",
+  "title": "Luca Ferrari: The Operating System Behind Bending Spoons | Sequoia Capital",
+  "src": "https://framerusercontent.com/images/grG5gEUWX07IK4W5yQPZ8yGnjtM.jpg?width=1280&height=720",
+  "size": [
+   1280,
+   720
+  ]
+ },
+ "art-notboring-runway": {
+  "page": "https://www.notboring.co/p/runway-learning-from-watching-the",
+  "site": "",
+  "title": "Runway: Learning From Watching the World",
+  "src": "https://substackcdn.com/image/fetch/$s_!ow7z!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb0d2e738-bfbe-4939-94a7-980475bf0f40_960x540.gif",
+  "size": [
+   960,
+   540
+  ]
+ },
+ "art-jawlah-opportunity": {
+  "page": "https://jawlah.co/en/64815",
+  "site": "Jawlah",
+  "title": "Entrepreneurship starts with an opportunity others don't see | Jawlah",
+  "src": "https://jawlah.co/wp-content/uploads/2026/09/WhatsApp-Image-2026-09-21-at-13.39.05.jpeg",
+  "size": [
+   1200,
+   800
+  ]
+ },
+ "art-svb-revenue-bars": {
+  "page": "https://jawlah.co/en/63421",
+  "site": "Jawlah",
+  "title": "Recent report: Startup revenues jump from $220,000 to $14.6 million | Jawlah",
+  "src": "https://jawlah.co/wp-content/uploads/2026/08/WhatsApp-Image-2026-08-30-at-15.18.49.jpeg",
+  "size": [
+   1400,
+   788
+  ]
+ },
+ "rep-magnitt-9m": {
+  "page": "https://www.agbi.com/analysis/banking-finance/2026/10/war-and-ai-make-mena-venture-capital-harder-to-secure/",
+  "site": "AGBI",
+  "title": "War and AI make Mena venture capital harder to secure",
+  "src": "https://www.agbi.com/tachyon/sites/4/2026/10/724BEFED-8B52-4918-8204-AF3B055BFB23-scaled.jpg",
+  "size": [
+   1400,
+   934
+  ]
+ },
+ "rep-dxbstart-uae-q3": {
+  "page": "https://fintechgate.net/254340",
+  "site": "بوابة التكنولوجيا المالية – Fintechgate - fintechgate",
+  "title": "تمويلات الشركات الناشئة في الإمارات ترتفع إلى 727 مليون دولار عبر 31 جولة خلال الربع الثالث من 2026",
+  "src": "http://www.fintechgate.net/UploadCache/libfiles/7/0/600x338o/955.jpeg",
+  "size": [
+   600,
+   338
+  ]
+ },
+ "rep-kpmg-h1-2026": {
+  "page": "https://kpmg.com/ua/en/media/press-releases/2026/08/global-vc-investment-reaches-us-dollar-560-4-billion-at-mid-year.html",
+  "site": "KPMG",
+  "title": "Global VC investment reaches US$560.4 billion at mid-year",
+  "src": "https://assets.kpmg.com/is/image/kpmgcloud/us-building-pe-backend",
+  "size": [
+   1280,
+   854
+  ]
+ },
+ "rep-a16z-top100-7": {
+  "page": "https://a16z.com/100-gen-ai-apps-7/",
+  "site": "Andreessen Horowitz",
+  "title": "The Top 100 Gen AI Consumer Apps — 7th Edition | Andreessen Horowitz",
+  "src": "https://d1lamhf6l6yk6d.cloudfront.net/uploads/2026/10/Top-100-Gen-AI-–-Worlds-Fair-OG-Image.png",
+  "size": [
+   1200,
+   630
+  ]
  }
 }

@@ -1,42 +1,29 @@
 FAIL art-mena-h1 https://i0.wp.com/ent.news/2025/4/1476.jpg?ssl=1 HTTP Error 404: Not Found
-FAIL art-arabinform None 'ascii' codec can't encode characters in position 48-50: ordinal not in range(128)
-FAIL art-pg None image too small (240, 320)
+ok art-arabinform (1400, 788) https://arabinform.com/wp-content/uploads/2026/06/ChatGPT-Image-3-июл.-2026-г.-12_19_50.png
+ok art-pg (1400, 735) https://www.ycombinator.com/assets/ycdc/yc-og-image-c440a0ad1dacfb86eeeb343717479cc54d256614449b4ef719977a0a451f8bc8.png
 generic share image https://en.sharikatmubasher.com/media-hub/experts-thoughts/27259 https://sharikatmubasher.com/assets/images/logo.png
 FAIL art-r001 None no image found
-ok n36 (1000, 600) https://arabfounders.net/wp-content/uploads/2026/10/Phoenix-Venture-Partners.jpg
-ok n38 (1200, 630) https://img.semafor.com/974dfdc616597f1f4cd9dd1a167a16a8fc0024c8-5500x3096.jpg?rect=0,104,5500,2888&w=1200&h=630&q=75&auto=format
-ok n39 (600, 338) http://www.fintechgate.net/UploadCache/libfiles/7/0/600x338o/955.jpeg
-FAIL n40 None HTTP Error 404: Not Found
-ok n41 (1280, 720) https://waya.media/wp-content/uploads/sites/3/2026/10/Banque-du-Caire-IPO.png
-ok n42 (800, 450) https://fintechgate.net/UploadCache/libfiles/7/0/800x450o/687.jpg
-ok n43 (925, 633) https://media.zawya.com/prod/images/gm_preview/1b693f289828-rasmal-ventures-and-strategic-gears-saudi.jpeg
-ok n44 (824, 633) https://media.zawya.com/prod/images/gm_preview/45c846408fe4-r-dinesh-director-tvs-automobile-solutions-ltd-and-badr-jafar-ceo-crescent.jpg
-ok n45 (1000, 630) https://jawlah.co/wp-content/uploads/2026/10/yasmina-alinma.jpg
-ok n46 (1000, 630) https://jawlah.co/wp-content/uploads/2026/10/hamad-blom.jpg
-ok n47 (1280, 720) https://waya.media/arabi/wp-content/uploads/sites/2/2026/10/Syrias-Salehli-Raises-USD-100K-in-Pre-Seed-Round.png
-ok n48 (600, 338) http://www.fintechgate.net/UploadCache/libfiles/7/0/600x338o/876.jpeg
-ok n49 (1000, 630) https://jawlah.co/wp-content/uploads/2026/10/mazal-app.jpg
-ok n50 (1000, 630) https://jawlah.co/wp-content/uploads/2026/09/microsoft-saudi.jpg
-ok n51 (1000, 630) https://jawlah.co/wp-content/uploads/2026/09/raya-holding.jpg
-ok n52 (1000, 630) https://jawlah.co/wp-content/uploads/2026/09/hired-valley.jpg
-ok n53 (1400, 831) https://jawlah.co/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-13-at-15.23.33.jpeg
-ok n54 (900, 600) https://media.zawya.com/prod/images/gm_preview/314b0e1a42af-201224075313nkbh-jpg.webp
-ok n55 (1200, 630) https://img.semafor.com/83d19c021675c8788a1805ec9d0e61788c567380-1177x811.jpg?rect=0,97,1177,618&w=1200&h=630&q=75&auto=format
-ok n37 (1200, 815) https://techcrunch.com/wp-content/uploads/2026/10/Screenshot_20261013_211032.png?resize=1200,815
-ok n56 (868, 488) https://media.thenextweb.com/2026/06/ramp-series-f-44-billion-valuation.jpg
-ok n57 (1024, 341) https://sg-imgs.dealroom.co/0e19e39becb541dc9509dbd296e81bdf.jpeg?ar=3:1&fit=crop&crop=faces,center&auto=compress&cs=origin
-generic share image https://thenextweb.com/news/schneider-electric-ptc-22-6bn https://media.thenextweb.com/2026/10/schneider-electric-logo-office-facade-berlin.jpg
-FAIL n58 None no image found
-ok n59 (1400, 841) https://images.sifted.eu/cdn-cgi/image/width=1400,quality=75,fit=cover,format=auto/wp-content/uploads/2026/10/12152231/Product-Versius-Surgical-Robotic-System-OR-B.jpg
-ok n60 (1024, 341) https://sg-imgs.dealroom.co/11232b07e3fdbaaa92cb1d22599bb486.jpeg?ar=3:1&fit=crop&crop=faces,center&auto=compress&cs=origin
-ok n61 (500, 167) https://sg-imgs.dealroom.co/8bda3a48526b8b412da41bf596331a5a.jpeg?ar=3:1&fit=crop&crop=faces,center&auto=compress&cs=origin
-ok n62 (1200, 801) https://techcrunch.com/wp-content/uploads/2026/06/ARENA_3Founders.jpg?resize=1200,801
-ok n63 (1280, 720) https://startupfortune.com/wp-content/uploads/2026/10/nvidia-perplexity-the-information.jpg
-ok n64 (1280, 720) https://startupfortune.com/wp-content/uploads/2026/10/alphafold-demis-hassabis-isomorphic-labs.jpg
-ok n65 (1200, 900) https://img.etimg.com/thumb/width-1200,height-900,imgsize-9215066,resizemode-75,msid-134870940/tech/technology/sequoia-backed-chip-startup-nuvacore-raising-funds-at-about-a-2-5-billion-valuation.jpg
-ok n66 (868, 488) https://media.thenextweb.com/2026/06/jio-platforms-ipo-3-8-billion-india-largest-ambani-debt-repayment.jpg
-ok n67 (1400, 788) https://www.eu-startups.com/wp-content/uploads/2026/10/NVIDIA-French-Startups.jpg
-ok n68 (1200, 630) https://img.semafor.com/d75646a17452b9e9f5ce8aca0bca1afa6eed0cb3-5760x3715.jpg?rect=0,346,5760,3024&w=1200&h=630&q=75&auto=format
-ok n69 (1200, 630) https://img.semafor.com/7f16e60805b8247a568959c58709d14e09cd8232-3998x2667.jpg?rect=0,285,3998,2099&w=1200&h=630&q=75&auto=format
-ok n70 (1200, 915) https://storage.ghost.io/c/b8/ae/b8aee878-7ddc-40ad-8f68-92a28c560560/content/images/2026/10/delian-weekly-1.png
-ok n71 (1280, 720) https://cdn.tech.eu/uploads/2026/10/untitled-design-3-549.png
+ok n40 (1024, 341) https://sg-imgs.dealroom.co/378dd98d5f5f3ee3ea2fd06c6d65ef31.jpeg?ar=3:1&fit=crop&crop=faces,center&auto=compress&cs=origin
+ok n58 (868, 488) https://media.thenextweb.com/2026/10/schneider-electric-logo-office-facade-berlin.jpg
+ok art-agbi-war-ai (1400, 934) https://www.agbi.com/tachyon/sites/4/2026/10/724BEFED-8B52-4918-8204-AF3B055BFB23-scaled.jpg
+ok art-jawlah-liquidity (1200, 675) https://jawlah.co/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-11-at-17.41.36.jpeg
+ok art-lebanon-startups (1400, 933) https://www.lebanon24.com/uploadImages/DocumentImages/Doc-P-1582532-639275664758704630.jpeg
+ok art-morocco-trails (750, 536) https://www.moroccoworldnews.com/wp-content/uploads/2026/02/startups.jpg
+ok art-saudi-family-wealth (1400, 934) https://jawlah.co/wp-content/uploads/2026/08/WhatsApp-Image-2026-08-17-at-16.36.13.jpeg
+ok art-ai-sovereignty (1000, 630) https://jawlah.co/wp-content/uploads/2026/09/data-saudi.jpg
+ok art-beco-aiza (1400, 967) https://www.becocapital.com/wp-content/uploads/2026/09/Shubham-Poddar_AIZA-scaled-1.jpg
+ok art-lenny-moat (1200, 675) https://substackcdn.com/image/fetch/$s_!7Uce!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffb5a8d5c-1e31-45f5-b9f8-93426e87a971_1456x970.png
+ok art-theory-ai-survey (1200, 630) https://res.cloudinary.com/dzawgnnlr/image/upload/c_fill,g_auto,w_1200,h_630/aip2026-01-security-gap.gif
+ok art-a16z-new-cfo (1200, 630) https://d1lamhf6l6yk6d.cloudfront.net/uploads/2026/10/You-Need-A New-CFO-yoast-li-1.png
+ok art-a16z-texas-dc (1024, 538) https://d1lamhf6l6yk6d.cloudfront.net/uploads/2026/10/Why-Texas-is-Making-Data-Centers-Wait-yoast-li-1024x538.png
+ok art-a16z-manufacturing (1200, 630) https://d1lamhf6l6yk6d.cloudfront.net/uploads/2026/10/The-Case-for-the-American-Manufacturing-Asset-Class-yoast-li.png
+ok art-bending-spoons (1280, 720) https://framerusercontent.com/images/grG5gEUWX07IK4W5yQPZ8yGnjtM.jpg?width=1280&height=720
+ok art-notboring-runway (960, 540) https://substackcdn.com/image/fetch/$s_!ow7z!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb0d2e738-bfbe-4939-94a7-980475bf0f40_960x540.gif
+ok art-jawlah-opportunity (1200, 800) https://jawlah.co/wp-content/uploads/2026/09/WhatsApp-Image-2026-09-21-at-13.39.05.jpeg
+ok art-svb-revenue-bars (1400, 788) https://jawlah.co/wp-content/uploads/2026/08/WhatsApp-Image-2026-08-30-at-15.18.49.jpeg
+ok rep-magnitt-9m (1400, 934) https://www.agbi.com/tachyon/sites/4/2026/10/724BEFED-8B52-4918-8204-AF3B055BFB23-scaled.jpg
+ok rep-dxbstart-uae-q3 (600, 338) http://www.fintechgate.net/UploadCache/libfiles/7/0/600x338o/955.jpeg
+no share image https://bebeez.eu/2026/10/12/global-venture-capital-firms-pour-698-billion-us-dollars-in-startups-at-the-end-of-3q26-cb-insights/
+FAIL rep-cbi-q3-2026 None no image found
+ok rep-kpmg-h1-2026 (1280, 854) https://assets.kpmg.com/is/image/kpmgcloud/us-building-pe-backend
+ok rep-a16z-top100-7 (1200, 630) https://d1lamhf6l6yk6d.cloudfront.net/uploads/2026/10/Top-100-Gen-AI-–-Worlds-Fair-OG-Image.png
