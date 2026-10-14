@@ -5,7 +5,7 @@
   python3 tools/build.py data EXPORT_DIR -> data/site.json from an export of the Claude artifact database
                                             (EXPORT_DIR holds items/ and meta/ JSON files)
 """
-import json, os, sys, glob, datetime
+import re, json, os, sys, glob, datetime
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 PERSONAL = {'status', 'notes', 'answer', 'feedback', 'chat', 'advanced', 'completedAt', 'labState', 'version', 'updatedAt'}
@@ -43,6 +43,8 @@ def load_dir(d):
         out[os.path.splitext(os.path.basename(f))[0]] = doc
     return out
 
+INTERNAL = re.compile(r'(?<![\u0600-\u06FF])تالي(?![\u0600-\u06FF])|\btali\b|\bstc\b', re.I)
+
 def build_data(export_dir):
     cols = {c: load_dir(os.path.join(export_dir, c)) for c in ['items', 'meta']}
     cols['meta'] = {k: v for k, v in cols['meta'].items() if k in ('market', 'series', 'plan', 'checks', 'deals', 'profiles', 'concepts', 'econ', 'world', 'library', 'logos', 'learn', 'glossary', 'sources')}
@@ -50,6 +52,15 @@ def build_data(export_dir):
         d.pop('version', None); d.pop('updatedAt', None)
         if isinstance(d.get('image'), dict):
             d['image'].pop('asset', None)
+        # the public site carries no internal team notes: drop the private lens and study notes
+        for f in ('lens', 'question', 'tali', 'note', 'internal'):
+            d.pop(f, None)
+        if isinstance(d.get('explain'), list):
+            d['explain'] = ['' if isinstance(x, str) and INTERNAL.search(x) else x for x in d['explain']]
+        for lang in ('ar', 'en'):
+            w = (d.get(lang) or {}).get('why')
+            if isinstance(w, str) and INTERNAL.search(w):
+                raise SystemExit('internal reference in public "why" of %s (%s): %s' % (k, lang, w))
     site = {'updated': datetime.datetime.now(datetime.timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ'), 'collections': cols}
     os.makedirs(os.path.join(ROOT, 'data'), exist_ok=True)
     json.dump(site, open(os.path.join(ROOT, 'data', 'site.json'), 'w', encoding='utf-8'), ensure_ascii=False)
