@@ -2301,5 +2301,47 @@
   "auto": true,
   "found": "2026-10-14",
   "last_ok": "2026-10-14"
+ },
+ {
+  "id": "streamlinefeed",
+  "name": "https://streamlinefeed.co.ke/",
+  "ar": "https://streamlinefeed.co.ke/",
+  "url": "https://streamlinefeed.co.ke",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "en"
+  ],
+  "region": "EG",
+  "auto": true,
+  "found": "2026-10-14"
+ },
+ {
+  "id": "citybiz",
+  "name": "citybiz",
+  "ar": "citybiz",
+  "url": "https://citybiz.co",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "en"
+  ],
+  "region": "US",
+  "auto": true,
+  "found": "2026-10-14"
+ },
+ {
+  "id": "eu",
+  "name": "36Kr",
+  "ar": "36Kr",
+  "url": "https://eu.36kr.com",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "en"
+  ],
+  "region": "US",
+  "auto": true,
+  "found": "2026-10-14"
  }
 ]
