@@ -193,7 +193,11 @@
  },
  {
   "id": "art-mena-h1",
-  "url": "https://i0.wp.com/ent.news/2025/4/1476.jpg?ssl=1"
+  "url": "https://i0.wp.com/ent.news/2025/4/1476.jpg?ssl=1",
+  "pages": [
+   "https://www.wamda.com/en/2026/07/mena-startups-raise-1-7-billion-h1-2026-despite-regional-uncertainty",
+   "https://enterpriseam.com/uae/2026/07/14/mena-vc-survives-on-bigger-bets/"
+  ]
  },
  {
   "id": "art-a16z-metrics",
@@ -244,8 +248,8 @@
  {
   "id": "art-pg",
   "pages": [
-   "https://en.wikipedia.org/wiki/Paul_Graham_(programmer)",
-   "https://commons.wikimedia.org/wiki/File:Paulgraham_240x320.jpg"
+   "https://www.ycombinator.com/library",
+   "https://www.ycombinator.com/"
   ]
  },
  {

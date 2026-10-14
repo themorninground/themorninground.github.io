@@ -19,6 +19,7 @@ UA = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 13_5) AppleWebKit/53
       'Accept-Language': 'en,ar;q=0.8'}
 WUA = {'User-Agent': 'TheMorningRoundImageBot/1.0 (https://themorninground.github.io)'}
 def get(url, n=8_000_000):
+    url = urllib.parse.quote(url, safe=':/?&=%#+,;@!$~*()')
     h = WUA if 'wikimedia.org' in url or 'wikipedia.org' in url else UA
     r = urllib.request.urlopen(urllib.request.Request(url, headers=h), timeout=30)
     return r.read(n), r.geturl()
