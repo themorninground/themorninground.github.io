@@ -1,0 +1,1305 @@
+{
+ "sama": {
+  "name": "Saudi Central Bank",
+  "wd": "Saudi Central Bank",
+  "domains": [
+   "sama.gov.sa"
+  ],
+  "alias": [
+   "saudi-central-bank",
+   "saudi-central-bank-sama",
+   "saudi-arabian-monetary-authority"
+  ]
+ },
+ "pif": {
+  "name": "Public Investment Fund",
+  "wd": "Public Investment Fund",
+  "wd_must": [
+   "saudi",
+   "sovereign"
+  ],
+  "domains": [
+   "pif.gov.sa"
+  ],
+  "alias": [
+   "public-investment-fund",
+   "pif-saudi"
+  ]
+ },
+ "mubadala": {
+  "name": "Mubadala Investment Company",
+  "wd": "Mubadala Investment Company",
+  "domains": [
+   "mubadala.com"
+  ],
+  "alias": [
+   "mubadala-capital",
+   "mubadala-investment-company"
+  ]
+ },
+ "adq": {
+  "name": "ADQ",
+  "wd": "ADQ",
+  "wd_must": [
+   "abu dhabi",
+   "holding",
+   "sovereign"
+  ],
+  "domains": [
+   "adq.ae"
+  ]
+ },
+ "qia": {
+  "name": "Qatar Investment Authority",
+  "wd": "Qatar Investment Authority",
+  "domains": [
+   "qia.qa"
+  ],
+  "alias": [
+   "qatar-investment-authority"
+  ]
+ },
+ "ebrd": {
+  "name": "European Bank for Reconstruction and Development",
+  "wd": "European Bank for Reconstruction and Development",
+  "domains": [
+   "ebrd.com"
+  ],
+  "alias": [
+   "european-bank-for-reconstruction-and-development"
+  ]
+ },
+ "imf": {
+  "name": "International Monetary Fund",
+  "wd": "International Monetary Fund",
+  "domains": [
+   "imf.org"
+  ],
+  "alias": [
+   "international-monetary-fund"
+  ]
+ },
+ "world-bank": {
+  "name": "World Bank",
+  "wd": "World Bank",
+  "wd_must": [
+   "financial",
+   "bank",
+   "institution"
+  ],
+  "domains": [
+   "worldbank.org"
+  ]
+ },
+ "ministry-of-finance": {
+  "name": "Ministry of Finance (Saudi Arabia)",
+  "domains": [
+   "mof.gov.sa"
+  ],
+  "must": [
+   "ministry"
+  ],
+  "alias": [
+   "saudi-ministry-of-finance",
+   "mof"
+  ]
+ },
+ "gastat": {
+  "name": "General Authority for Statistics",
+  "domains": [
+   "stats.gov.sa"
+  ],
+  "alias": [
+   "general-authority-for-statistics"
+  ]
+ },
+ "monshaat": {
+  "name": "Monsha'at",
+  "domains": [
+   "monshaat.gov.sa"
+  ],
+  "alias": [
+   "monsha-at"
+  ]
+ },
+ "misa": {
+  "name": "Ministry of Investment",
+  "domains": [
+   "misa.gov.sa"
+  ],
+  "alias": [
+   "ministry-of-investment",
+   "ministry-of-investment-saudi-arabia"
+  ]
+ },
+ "cma": {
+  "name": "Capital Market Authority",
+  "domains": [
+   "cma.org.sa"
+  ],
+  "alias": [
+   "capital-market-authority",
+   "saudi-cma"
+  ]
+ },
+ "saudi-exchange": {
+  "name": "Saudi Exchange",
+  "domains": [
+   "saudiexchange.sa"
+  ],
+  "alias": [
+   "tadawul",
+   "saudi-tadawul"
+  ]
+ },
+ "stc": {
+  "name": "stc",
+  "wd": "Saudi Telecom Company",
+  "domains": [
+   "stc.com.sa"
+  ],
+  "alias": [
+   "stc-group",
+   "stc-cif",
+   "saudi-telecom-company"
+  ]
+ },
+ "elm": {
+  "name": "Elm",
+  "domains": [
+   "elm.sa"
+  ],
+  "must": [
+   "digital",
+   "solutions",
+   "elm"
+  ],
+  "alias": [
+   "elm-company"
+  ]
+ },
+ "wa-ed-ventures": {
+  "name": "Wa'ed Ventures",
+  "domains": [
+   "waed.net",
+   "waedventures.com"
+  ],
+  "must": [
+   "aramco",
+   "venture"
+  ],
+  "alias": [
+   "waed-ventures",
+   "wa-ed"
+  ]
+ },
+ "aramco-ventures": {
+  "name": "Aramco Ventures",
+  "domains": [
+   "aramcoventures.com"
+  ],
+  "must": [
+   "venture"
+  ]
+ },
+ "softbank": {
+  "name": "SoftBank Group",
+  "wd": "SoftBank Group",
+  "domains": [
+   "group.softbank"
+  ],
+  "alias": [
+   "softbank-group",
+   "softbank-vision-fund"
+  ]
+ },
+ "jawlah": {
+  "name": "Jawlah",
+  "domains": [
+   "jawlah.co"
+  ],
+  "must": [
+   "جولة",
+   "jawlah"
+  ]
+ },
+ "zawya": {
+  "name": "Zawya",
+  "domains": [
+   "zawya.com"
+  ],
+  "alias": [
+   "zawya-press-release"
+  ]
+ },
+ "entrepreneur-me": {
+  "name": "Entrepreneur Middle East",
+  "domains": [
+   "entrepreneur.com"
+  ],
+  "alias": [
+   "entrepreneur-middle-east"
+  ]
+ },
+ "dealstreetasia": {
+  "name": "DealStreetAsia",
+  "domains": [
+   "dealstreetasia.com"
+  ]
+ },
+ "the-startup-scene": {
+  "name": "The Startup Scene",
+  "domains": [
+   "thestartupscene.me"
+  ]
+ },
+ "the-paypers": {
+  "name": "The Paypers",
+  "domains": [
+   "thepaypers.com"
+  ]
+ },
+ "agbi": {
+  "name": "AGBI",
+  "domains": [
+   "agbi.com"
+  ],
+  "alias": [
+   "arabian-gulf-business-insight"
+  ]
+ },
+ "tech-eu": {
+  "name": "tech.eu",
+  "domains": [
+   "tech.eu"
+  ]
+ },
+ "the-next-web": {
+  "name": "The Next Web",
+  "wd": "The Next Web",
+  "domains": [
+   "thenextweb.com"
+  ],
+  "alias": [
+   "tnw"
+  ]
+ },
+ "khaleej-times": {
+  "name": "Khaleej Times",
+  "wd": "Khaleej Times",
+  "domains": [
+   "khaleejtimes.com"
+  ]
+ },
+ "ynet": {
+  "name": "Ynet",
+  "domains": [
+   "ynetnews.com"
+  ],
+  "alias": [
+   "ynetnews"
+  ]
+ },
+ "teleborsa": {
+  "name": "Teleborsa",
+  "domains": [
+   "teleborsa.it"
+  ]
+ },
+ "wam": {
+  "name": "WAM Emirates News Agency",
+  "wd": "Emirates News Agency",
+  "domains": [
+   "wam.ae"
+  ],
+  "alias": [
+   "wam-emirates-news-agency",
+   "emirates-news-agency"
+  ]
+ },
+ "the-saas-news": {
+  "name": "The SaaS News",
+  "domains": [
+   "thesaasnews.com"
+  ]
+ },
+ "decypha": {
+  "name": "Decypha",
+  "domains": [
+   "decypha.com"
+  ]
+ },
+ "asharq-al-awsat": {
+  "name": "Asharq Al-Awsat",
+  "wd": "Asharq Al-Awsat",
+  "domains": [
+   "aawsat.com"
+  ]
+ },
+ "me-observer": {
+  "name": "Middle East Observer",
+  "domains": [
+   "meobserver.news"
+  ],
+  "must": [
+   "observer"
+  ]
+ },
+ "arab-founders": {
+  "name": "Arab Founders",
+  "domains": [
+   "arabfounders.net"
+  ]
+ },
+ "lucidity-insights": {
+  "name": "Lucidity Insights",
+  "domains": [
+   "lucidityinsights.com"
+  ]
+ },
+ "waya": {
+  "name": "Waya",
+  "domains": [
+   "waya.media"
+  ]
+ },
+ "the-disruptor": {
+  "name": "The Disruptor",
+  "domains": [
+   "thedisruptormag.com"
+  ],
+  "alias": [
+   "the-disruptor-mag"
+  ]
+ },
+ "asbcf": {
+  "name": "ASBCF",
+  "domains": [
+   "asbcf.org.au"
+  ],
+  "must": [
+   "saudi",
+   "business"
+  ]
+ },
+ "magnitt": {
+  "name": "MAGNiTT",
+  "domains": [
+   "magnitt.com"
+  ]
+ },
+ "bloomberg": {
+  "name": "Bloomberg",
+  "wd": "Bloomberg L.P.",
+  "domains": [
+   "bloomberg.com"
+  ]
+ },
+ "reuters": {
+  "name": "Reuters",
+  "wd": "Reuters",
+  "wd_must": [
+   "news"
+  ],
+  "domains": [
+   "reuters.com"
+  ]
+ },
+ "financial-times": {
+  "name": "Financial Times",
+  "wd": "Financial Times",
+  "domains": [
+   "ft.com"
+  ],
+  "alias": [
+   "ft"
+  ]
+ },
+ "pitchbook": {
+  "name": "PitchBook",
+  "domains": [
+   "pitchbook.com"
+  ]
+ },
+ "cb-insights": {
+  "name": "CB Insights",
+  "domains": [
+   "cbinsights.com"
+  ],
+  "alias": [
+   "cbinsights"
+  ]
+ },
+ "kpmg": {
+  "name": "KPMG",
+  "wd": "KPMG",
+  "domains": [
+   "kpmg.com"
+  ],
+  "alias": [
+   "kpmg-venture-pulse"
+  ]
+ },
+ "sifted": {
+  "name": "Sifted",
+  "domains": [
+   "sifted.eu"
+  ]
+ },
+ "menabytes": {
+  "name": "MENAbytes",
+  "domains": [
+   "menabytes.com"
+  ]
+ },
+ "gulf-business": {
+  "name": "Gulf Business",
+  "domains": [
+   "gulfbusiness.com"
+  ]
+ },
+ "arabian-business": {
+  "name": "Arabian Business",
+  "domains": [
+   "arabianbusiness.com"
+  ]
+ },
+ "the-national-news": {
+  "name": "The National",
+  "domains": [
+   "thenationalnews.com"
+  ]
+ },
+ "al-eqtisadiah": {
+  "name": "Al Eqtisadiah",
+  "domains": [
+   "aleqt.com"
+  ],
+  "alias": [
+   "aleqt",
+   "al-eqtisadiah-newspaper"
+  ]
+ },
+ "spa": {
+  "name": "Saudi Press Agency",
+  "wd": "Saudi Press Agency",
+  "domains": [
+   "spa.gov.sa"
+  ],
+  "alias": [
+   "saudi-press-agency"
+  ]
+ },
+ "zero-to-one-media": {
+  "name": "Sefr Le Wahed",
+  "domains": [
+   "0to1.sa",
+   "zerotoone.sa",
+   "sefr1.com"
+  ],
+  "q": "صفر لواحد موقع أخبار الشركات الناشئة السعودية"
+ },
+ "oraseya-capital": {
+  "name": "Oraseya Capital",
+  "domains": [
+   "oraseya.com",
+   "oraseyacapital.com",
+   "oraseya.ae"
+  ],
+  "must": [
+   "venture",
+   "fund",
+   "dubai"
+  ],
+  "q": "Oraseya Capital DIEZ venture fund"
+ },
+ "velents": {
+  "name": "Velents",
+  "domains": [
+   "velents.com",
+   "velents.ai"
+  ],
+  "must": [
+   "hiring",
+   "talent",
+   "ai"
+  ]
+ },
+ "nayla-finance": {
+  "name": "Nayla Finance",
+  "domains": [
+   "naylafinance.com"
+  ],
+  "alias": [
+   "nayla"
+  ]
+ },
+ "blominvest": {
+  "name": "BLOMINVEST Bank",
+  "domains": [
+   "blominvestbank.com",
+   "blominvest.com"
+  ],
+  "must": [
+   "invest"
+  ]
+ },
+ "s60-ventures": {
+  "name": "S60 Ventures",
+  "domains": [
+   "s60.vc",
+   "s60ventures.com",
+   "s60.sa"
+  ],
+  "q": "\"S60 Ventures\" Saudi venture capital"
+ },
+ "localglobe": {
+  "name": "LocalGlobe",
+  "domains": [
+   "localglobe.vc"
+  ]
+ },
+ "decart": {
+  "name": "Decart",
+  "domains": [
+   "decart.ai"
+  ],
+  "must": [
+   "ai",
+   "world model",
+   "real-time"
+  ]
+ },
+ "daba-finance": {
+  "name": "Daba Finance",
+  "domains": [
+   "dabafinance.com"
+  ]
+ },
+ "x-tech-fund-sab-invest": {
+  "name": "SAB Invest",
+  "domains": [
+   "sabinvest.com"
+  ],
+  "alias": [
+   "sab-invest"
+  ]
+ },
+ "gib-saudi-arabia": {
+  "name": "GIB Saudi Arabia",
+  "domains": [
+   "gib.com"
+  ],
+  "must": [
+   "gulf international bank",
+   "gib"
+  ],
+  "alias": [
+   "gib",
+   "gib-capital"
+  ]
+ },
+ "kanoo-ventures": {
+  "name": "Kanoo Ventures",
+  "domains": [
+   "kanooventures.com",
+   "kanoo.com"
+  ],
+  "must": [
+   "venture",
+   "kanoo"
+  ]
+ },
+ "ksh-investments": {
+  "name": "KSH Investments",
+  "q": "\"KSH Investments\" Abu Dhabi Sheikh Mohamed Bin Khalid",
+  "must": [
+   "invest"
+  ]
+ },
+ "mnt-halan": {
+  "name": "MNT-Halan",
+  "domains": [
+   "mnt-halan.com",
+   "halan.com"
+  ],
+  "must": [
+   "halan"
+  ]
+ },
+ "echelon": {
+  "name": "Echelon",
+  "domains": [
+   "echelon.sa",
+   "echelon.ai",
+   "echelonai.com",
+   "echelon.com.sa"
+  ],
+  "must": [
+   "riyadh",
+   "saudi",
+   "ai"
+  ],
+  "q": "Echelon Riyadh AI company Prince Khalid bin Bader"
+ },
+ "east40": {
+  "name": "East40",
+  "domains": [
+   "east40.vc",
+   "east40.com",
+   "east40.ae"
+  ],
+  "must": [
+   "venture",
+   "invest"
+  ],
+  "q": "East40 venture capital Gulf"
+ },
+ "avra": {
+  "name": "Avra",
+  "domains": [
+   "avra.com"
+  ],
+  "must": [
+   "founder",
+   "invest",
+   "growth"
+  ]
+ },
+ "ben-horowitz": {
+  "name": "Ben Horowitz",
+  "x": "bhorowitz"
+ },
+ "m20-fund": {
+  "name": "M20 Fund",
+  "q": "\"M20 Fund\" investment Barq",
+  "must": [
+   "fund",
+   "invest"
+  ]
+ },
+ "noon-investments": {
+  "name": "Noon Investments",
+  "q": "\"Noon Investments\" Saudi",
+  "must": [
+   "invest"
+  ]
+ },
+ "ebla-ventures": {
+  "name": "Ebla Ventures",
+  "domains": [
+   "eblaventures.com"
+  ],
+  "must": [
+   "venture"
+  ]
+ },
+ "stride-ventures": {
+  "name": "Stride Ventures",
+  "domains": [
+   "strideventures.in",
+   "strideventures.com"
+  ],
+  "must": [
+   "venture debt",
+   "venture"
+  ]
+ },
+ "justad": {
+  "name": "JustAd",
+  "domains": [
+   "justad.ai",
+   "justad.com",
+   "justad.me",
+   "justad.ae"
+  ],
+  "must": [
+   "advert",
+   "campaign",
+   "pay later"
+  ],
+  "q": "JustAd \"advertise now pay later\" UAE"
+ },
+ "tanami": {
+  "name": "Tanami",
+  "domains": [
+   "tanami.com",
+   "tanami.bh",
+   "tanamicapital.com",
+   "tanami.capital"
+  ],
+  "must": [
+   "private market",
+   "invest"
+  ],
+  "alias": [
+   "tanami-capital"
+  ],
+  "q": "Tanami Bahrain private markets investment platform"
+ },
+ "1818-ventures": {
+  "name": "1818 Ventures",
+  "q": "\"1818 Ventures\" UK venture fund",
+  "must": [
+   "venture"
+  ]
+ },
+ "quantic-financial-solutions": {
+  "name": "Quantic Financial Solutions",
+  "q": "\"Quantic Financial Solutions\" Vienna asset manager",
+  "must": [
+   "quantic"
+  ]
+ },
+ "boyu-capital": {
+  "name": "Boyu Capital",
+  "domains": [
+   "boyucapital.com"
+  ]
+ },
+ "zhenfund": {
+  "name": "ZhenFund",
+  "domains": [
+   "zhenfund.com"
+  ]
+ },
+ "hsg": {
+  "name": "HSG (HongShan)",
+  "domains": [
+   "hsgroup.com"
+  ],
+  "must": [
+   "hongshan",
+   "hsg"
+  ],
+  "alias": [
+   "hongshan"
+  ]
+ },
+ "orrick": {
+  "name": "Orrick",
+  "domains": [
+   "orrick.com"
+  ]
+ },
+ "eqt": {
+  "name": "EQT",
+  "wd": "EQT AB",
+  "domains": [
+   "eqtgroup.com"
+  ],
+  "alias": [
+   "scaleup-europe-fund-eqt",
+   "eqt-group"
+  ]
+ },
+ "arcapita": {
+  "name": "Arcapita",
+  "domains": [
+   "arcapita.com"
+  ]
+ },
+ "yazeed-al-rajhi-brothers-holding": {
+  "name": "Yazeed Al Rajhi & Brothers Holding",
+  "q": "Yazeed Al Rajhi and Brothers Holding company",
+  "must": [
+   "rajhi"
+  ]
+ },
+ "d-global-ventures": {
+  "name": "D Global Ventures",
+  "q": "\"D Global Ventures\" venture capital",
+  "must": [
+   "venture"
+  ]
+ },
+ "project-suppliers": {
+  "name": "Project Suppliers",
+  "q": "\"Project Suppliers\" Saudi construction MEP platform",
+  "must": [
+   "supplier"
+  ]
+ },
+ "pinnacle": {
+  "name": "Pinnacle Capital",
+  "domains": [
+   "pinnaclecapital.com",
+   "pinnacle-capital.com",
+   "pinnaclecap.com"
+  ],
+  "must": [
+   "venture",
+   "secondary",
+   "growth"
+  ],
+  "q": "Pinnacle Capital Pinnacle Growth & Secondary Fund MENA",
+  "alias": [
+   "pinnacle-capital",
+   "pinnacle-vc-fund"
+  ]
+ },
+ "rela": {
+  "name": "Rela",
+  "domains": [
+   "rela.sa"
+  ],
+  "must": [
+   "housing",
+   "accommodation",
+   "سكن"
+  ]
+ },
+ "merak-capital": {
+  "name": "Merak Capital",
+  "domains": [
+   "merak.capital",
+   "merakcapital.com",
+   "merak.com.sa"
+  ],
+  "must": [
+   "capital",
+   "invest"
+  ]
+ },
+ "funding-souq": {
+  "name": "Funding Souq",
+  "domains": [
+   "fundingsouq.com"
+  ]
+ },
+ "foodics": {
+  "name": "Foodics",
+  "domains": [
+   "foodics.com"
+  ]
+ },
+ "arbor-ventures": {
+  "name": "Arbor Ventures",
+  "domains": [
+   "arborventures.com"
+  ]
+ },
+ "enhance": {
+  "name": "Enhance",
+  "domains": [
+   "enhance.ae",
+   "getenhance.com"
+  ],
+  "must": [
+   "enhance"
+  ],
+  "q": "Enhance UAE raises $18.2 million equity debt"
+ },
+ "remedium": {
+  "name": "Remedium",
+  "domains": [
+   "remedium.sa",
+   "remedium.io",
+   "remedium.ai"
+  ],
+  "must": [
+   "sustainab",
+   "esg",
+   "carbon"
+  ],
+  "q": "Remedium Saudi sustainability accounting startup"
+ },
+ "oro": {
+  "name": "Oro",
+  "domains": [
+   "oro.ae",
+   "oro.ai",
+   "getoro.com",
+   "oro.finance"
+  ],
+  "must": [
+   "financ",
+   "ai"
+  ],
+  "q": "Oro UAE AI financial execution platform raises $3 million"
+ },
+ "stellaria": {
+  "name": "Stellaria",
+  "domains": [
+   "stellaria.ai",
+   "stellaria.ae"
+  ],
+  "must": [
+   "geospatial",
+   "satellite",
+   "earth"
+  ],
+  "q": "Stellaria UAE geospatial AI platform"
+ },
+ "raff": {
+  "name": "Raff",
+  "domains": [
+   "raff.sa",
+   "raff.store",
+   "raff.com.sa"
+  ],
+  "must": [
+   "retail",
+   "brand",
+   "shelf"
+  ],
+  "q": "Raff Saudi bridge online brands physical retail"
+ },
+ "xsquare": {
+  "name": "XSquare",
+  "domains": [
+   "xsquare.ai",
+   "xsquare.ae",
+   "xsquare.io"
+  ],
+  "must": [
+   "ai",
+   "data"
+  ],
+  "q": "XSquare UAE pre-seed Saudi Arabia expansion"
+ },
+ "tax-star": {
+  "name": "Tax Star",
+  "domains": [
+   "taxstar.ae",
+   "taxstar.ai",
+   "tax-star.com"
+  ],
+  "must": [
+   "tax",
+   "vat"
+  ],
+  "q": "Tax Star UAE tax compliance startup seed"
+ },
+ "avanz-capital": {
+  "name": "Avanz Capital",
+  "domains": [
+   "avanzcapital.com",
+   "avanz.capital"
+  ],
+  "must": [
+   "capital",
+   "invest"
+  ],
+  "q": "Avanz Capital Egypt"
+ },
+ "exits-mena": {
+  "name": "Exits MENA",
+  "domains": [
+   "exitsmena.com",
+   "exits-mena.com"
+  ],
+  "must": [
+   "exit",
+   "m&a",
+   "acqui"
+  ],
+  "q": "Exits MENA M&A advisory"
+ },
+ "naran": {
+  "name": "Naran",
+  "domains": [
+   "naran.ae",
+   "naran.io",
+   "naran.com"
+  ],
+  "must": [
+   "mobility",
+   "driver",
+   "vehicle",
+   "financ"
+  ],
+  "q": "Naran mobility fintech UAE drivers"
+ },
+ "cobi": {
+  "name": "Cobi",
+  "domains": [
+   "cobi.ai",
+   "cobi.ae",
+   "getcobi.com"
+  ],
+  "must": [
+   "ai",
+   "agent",
+   "business"
+  ],
+  "q": "Cobi UAE startup pre-seed Lunara Partners"
+ },
+ "moove": {
+  "name": "Moove",
+  "domains": [
+   "moove.io"
+  ],
+  "must": [
+   "driver",
+   "mobility",
+   "vehicle"
+  ]
+ },
+ "birdnest": {
+  "name": "BirdNest",
+  "domains": [
+   "birdnest.com.eg",
+   "birdnestlife.com",
+   "birdnest.eg"
+  ],
+  "must": [
+   "nest",
+   "life",
+   "home",
+   "smart"
+  ],
+  "q": "BirdNest Egypt Beltone exit"
+ },
+ "bundle": {
+  "name": "Bundle",
+  "domains": [
+   "bundle.social",
+   "bundle.money",
+   "bundlewallet.com",
+   "bundle.ae"
+  ],
+  "must": [
+   "web3",
+   "crypto",
+   "wallet"
+  ],
+  "q": "Bundle web3 startup UAE pre-seed $5.5 million"
+ },
+ "ash-games": {
+  "name": "Ash Games",
+  "domains": [
+   "ashgames.com",
+   "ash.games",
+   "ashgames.sa"
+  ],
+  "must": [
+   "game"
+  ],
+  "q": "Ash Games Saudi game studio Merak Impact46"
+ },
+ "doctorbook": {
+  "name": "DoctorBook",
+  "domains": [
+   "doctorbook.sy",
+   "doctorbook.app",
+   "doctorbook.com"
+  ],
+  "must": [
+   "doctor",
+   "طبيب",
+   "health"
+  ],
+  "q": "DoctorBook Syria healthtech"
+ },
+ "by-venture-partners": {
+  "name": "BY Venture Partners",
+  "domains": [
+   "byventurepartners.com",
+   "by.vc"
+  ],
+  "must": [
+   "venture"
+  ]
+ },
+ "labby": {
+  "name": "Labby",
+  "domains": [
+   "labby.sy",
+   "labby.app",
+   "labby.co"
+  ],
+  "must": [
+   "lab",
+   "تحاليل",
+   "health",
+   "test"
+  ],
+  "q": "Labby Syria startup raises $10 million"
+ },
+ "silq": {
+  "name": "SILQ",
+  "domains": [
+   "silq.co",
+   "silq.com"
+  ],
+  "must": [
+   "financ",
+   "sme",
+   "business"
+  ]
+ },
+ "seedra-ventures": {
+  "name": "SEEDRA Ventures",
+  "domains": [
+   "seedra.vc",
+   "seedraventures.com",
+   "seedra.com"
+  ],
+  "must": [
+   "venture"
+  ],
+  "q": "SEEDRA Ventures Saudi fund"
+ },
+ "kuadra": {
+  "name": "Kuadra",
+  "domains": [
+   "kuadra.ai",
+   "kuadra.io",
+   "kuadra.co"
+  ],
+  "must": [
+   "construction",
+   "project"
+  ],
+  "q": "Kuadra Egypt AI construction management"
+ },
+ "reme-d": {
+  "name": "Reme-D",
+  "domains": [
+   "reme-d.com",
+   "remed.com",
+   "reme-d.net"
+  ],
+  "must": [
+   "diagnos",
+   "health",
+   "test"
+  ],
+  "q": "Reme-D Egypt diagnostics"
+ },
+ "incubayt": {
+  "name": "Incubayt",
+  "domains": [
+   "incubayt.com",
+   "incubayt.ai",
+   "incubayt.ae"
+  ],
+  "must": [
+   "incubat",
+   "startup",
+   "venture"
+  ],
+  "q": "Incubayt venture studio"
+ },
+ "takeem": {
+  "name": "Takeem",
+  "domains": [
+   "takeem.com",
+   "takeem.ae"
+  ],
+  "must": [
+   "rent",
+   "property",
+   "landlord"
+  ],
+  "q": "Takeem UAE rental dubizzle"
+ },
+ "almakhfi": {
+  "name": "Almakhfi",
+  "domains": [
+   "almakhfi.com",
+   "almakhfi.sa"
+  ],
+  "must": [
+   "education",
+   "تعليم",
+   "learn"
+  ],
+  "q": "المخفي منصة تعليمية نون أكاديمي"
+ },
+ "tarmeez-capital": {
+  "name": "Tarmeez Capital",
+  "domains": [
+   "tarmeezcapital.com",
+   "tarmeez.com.sa",
+   "tarmeez.sa"
+  ],
+  "must": [
+   "capital",
+   "invest"
+  ],
+  "q": "Tarmeez Capital Saudi"
+ },
+ "cognna": {
+  "name": "Cognna",
+  "domains": [
+   "cognna.com",
+   "cognna.io",
+   "cognna.ai"
+  ],
+  "must": [
+   "security",
+   "cyber"
+  ],
+  "q": "Cognna Saudi cybersecurity"
+ },
+ "solidrange": {
+  "name": "Solidrange",
+  "domains": [
+   "solidrange.com",
+   "solidrange.io"
+  ],
+  "must": [
+   "ai",
+   "data",
+   "insight"
+  ],
+  "q": "Solidrange Saudi AI"
+ },
+ "growth-catalyst-fund": {
+  "name": "Growth Catalyst Fund",
+  "domains": [],
+  "must": [
+   "fund"
+  ],
+  "q": "\"Growth Catalyst Fund I\" Jada"
+ },
+ "coefficient": {
+  "name": "Coefficient",
+  "domains": [
+   "coefficient.ae",
+   "coefficientcapital.com"
+  ],
+  "must": [
+   "invest",
+   "capital"
+  ],
+  "q": "Coefficient Sawiris investment firm Swvl"
+ },
+ "spring": {
+  "name": "Spring",
+  "domains": [],
+  "must": [
+   "invest",
+   "venture",
+   "startup"
+  ],
+  "q": "Spring Bahrain investor Soor insurtech pre-seed"
+ },
+ "dark-reading": {
+  "name": "Dark Reading",
+  "domains": [
+   "darkreading.com"
+  ]
+ },
+ "newswire": {
+  "name": "Newswire",
+  "domains": [
+   "newswire.com"
+  ]
+ },
+ "eduact": {
+  "name": "Eduact",
+  "domains": [
+   "eduact.me",
+   "eduact.com"
+  ],
+  "must": [
+   "education",
+   "learn",
+   "تعليم"
+  ],
+  "q": "Eduact Egypt edtech"
+ }
+}
