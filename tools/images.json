@@ -17,7 +17,10 @@
  },
  {
   "id": "d03",
-  "url": "https://sg-imgs.dealroom.co/23890b1420127973c650855fe074b487.jpeg?ar=3:1&fit=crop&crop=faces,center&auto=compress&cs=origin"
+  "pages": [
+   "https://www.wamda.com/en/2026/09/lendo-quantic-launch-200-million-sme-financing-programme-saudi-arabia"
+  ],
+  "force": true
  },
  {
   "id": "d04",
@@ -193,12 +196,11 @@
  },
  {
   "id": "art-mena-h1",
-  "url": "https://i0.wp.com/ent.news/2025/4/1476.jpg?ssl=1",
   "pages": [
-   "https://www.wamda.com/ar/2026/07/mena-startups-raise-1-7-billion-h1-2026-despite-regional-uncertainty",
-   "https://arabnews.com/node/2650728/amp",
-   "https://www.arabnews.pk/node/2651443/business-economy"
-  ]
+   "https://enterpriseam.com/ksa/2026/07/14/mena-vc-survives-on-bigger-bets/",
+   "https://www.wamda.com/ar/2026/07/mena-startups-raise-1-7-billion-h1-2026-despite-regional-uncertainty"
+  ],
+  "force": true
  },
  {
   "id": "art-a16z-metrics",
@@ -276,7 +278,8 @@
  {
   "id": "e07",
   "pages": [
-   "https://en.wikipedia.org/wiki/Economy_of_Saudi_Arabia"
+   "https://arabnews.com/business/saudi-inflation-holds-at-18-in-august-as-housing-and-food-costs-climb-3001753",
+   "https://www.argaam.com/en/reports/inflation-report/61578"
   ],
   "force": true
  },
@@ -442,8 +445,7 @@
   "id": "n61",
   "pages": [
    "https://www.vktr.com/ai-news/deepseek-targets-2027-shanghai-ipo-at-74b/"
-  ],
-  "force": true
+  ]
  },
  {
   "id": "n62",
@@ -558,8 +560,7 @@
   "pages": [
    "https://theory.ventures/",
    "https://tomtunguz.com/"
-  ],
-  "force": true
+  ]
  },
  {
   "id": "art-a16z-new-cfo",
@@ -607,16 +608,14 @@
   "id": "rep-magnitt-9m",
   "pages": [
    "https://fintechgate.net/254236"
-  ],
-  "force": true
+  ]
  },
  {
   "id": "rep-dxbstart-uae-q3",
   "pages": [
    "https://dxbstart.com/",
    "https://www.dxbstart.com/"
-  ],
-  "force": true
+  ]
  },
  {
   "id": "rep-cbi-q3-2026",
