@@ -271,16 +271,233 @@
  {
   "id": "e07",
   "pages": [
-   "https://www.arabnews.com/node/3001753/business-economy",
-   "https://arabnews.com/business/saudi-inflation-holds-at-18-in-august-as-housing-and-food-costs-climb-3001753",
-   "https://www.zawya.com/en/economy/gcc/saudi-inflation-steady-at-18-in-august"
-  ],
-  "force": true
+   "https://english.aawsat.com/business",
+   "https://stats.gov.sa/en/w/news/214"
+  ]
  },
  {
   "id": "rep-sama-q1",
   "pages": [
    "https://en.wikipedia.org/wiki/Saudi_Central_Bank"
+  ]
+ },
+ {
+  "id": "n36",
+  "pages": [
+   "https://arabfounders.net/en/phoenix-venture-partners-23m-debut-fund-mena-startups/",
+   "https://jawlah.co/66297"
+  ]
+ },
+ {
+  "id": "n38",
+  "pages": [
+   "https://www.semafor.com/article/10/13/2026/uae-and-saudi-arabia-account-for-almost-90-of-298-billion-of-startup-capital-in-2026"
+  ]
+ },
+ {
+  "id": "n39",
+  "pages": [
+   "https://fintechgate.net/254340"
+  ]
+ },
+ {
+  "id": "n40",
+  "pages": [
+   "https://enterpriseam.com/egypt/2026/10/14/war-or-not-institutional-investors-had-a-big-appetite-for-mnt-halans-usd-126-mn-ipo-on-the-egyptian-exchange"
+  ]
+ },
+ {
+  "id": "n41",
+  "pages": [
+   "https://waya.media/banque-du-caire-announces-plans-for-30-stake-sale-through-egx-ipo/"
+  ]
+ },
+ {
+  "id": "n42",
+  "pages": [
+   "https://menastartupdigest.com/endeavor-mena-to-work-with-egyptian-exchange-on-startup-exit-path/"
+  ]
+ },
+ {
+  "id": "n43",
+  "pages": [
+   "https://www.zawya.com/en/press-release/companies-news/rasmal-ventures-and-strategic-gears-sign-mou-to-collaborate-in-building-a-two-way-bridge-between-saudi-arabia-and-asia-1588922"
+  ]
+ },
+ {
+  "id": "n44",
+  "pages": [
+   "https://www.zawya.com/en/press-release/companies-news/crescent-enterprises-and-tvs-automobile-solutions-announce-strategic-partnership-to-accelerate-mytvs-growth-across-india-uae-and-mena-1509982",
+   "https://jawlah.co/65966"
+  ]
+ },
+ {
+  "id": "n45",
+  "pages": [
+   "https://jawlah.co/66149"
+  ]
+ },
+ {
+  "id": "n46",
+  "pages": [
+   "https://jawlah.co/65942"
+  ]
+ },
+ {
+  "id": "n47",
+  "pages": [
+   "https://waya.media/arabi/%D8%B5%D9%84%D9%91%D8%AD%D9%84%D9%8A-%D8%A7%D9%84%D8%B3%D9%88%D8%B1%D9%8A%D8%A9-%D8%AA%D8%AC%D9%85%D8%B9-100-%D8%A3%D9%84%D9%81-%D8%AF%D9%88%D9%84%D8%A7%D8%B1/"
+  ]
+ },
+ {
+  "id": "n48",
+  "pages": [
+   "https://fintechgate.net/254259"
+  ]
+ },
+ {
+  "id": "n49",
+  "pages": [
+   "https://jawlah.co/66038"
+  ]
+ },
+ {
+  "id": "n50",
+  "pages": [
+   "https://jawlah.co/en/64981"
+  ]
+ },
+ {
+  "id": "n51",
+  "pages": [
+   "https://jawlah.co/en/64978"
+  ]
+ },
+ {
+  "id": "n52",
+  "pages": [
+   "https://jawlah.co/en/65109"
+  ]
+ },
+ {
+  "id": "n53",
+  "pages": [
+   "https://jawlah.co/en/66373"
+  ]
+ },
+ {
+  "id": "n54",
+  "pages": [
+   "https://www.zawya.com/en/economy/imf-raises-saudi-arabias-growth-forecast-to-7.9-in-2027-1638898"
+  ]
+ },
+ {
+  "id": "n55",
+  "pages": [
+   "https://www.semafor.com/article/10/13/2026/saudi-attacks-shake-the-confidence-of-foreign-investors"
+  ]
+ },
+ {
+  "id": "n37",
+  "pages": [
+   "https://techcrunch.com/2026/10/13/pluto-security-raises-42m-as-ai-gives-enterprise-security-teams-a-new-headache/"
+  ]
+ },
+ {
+  "id": "n56",
+  "pages": [
+   "https://thenextweb.com/news/ramp-60bn-valuation-1-85bn-round"
+  ]
+ },
+ {
+  "id": "n57",
+  "pages": [
+   "https://dealroom.co/news/161158-oratomic-raises-475m-series-b-hitting-5-4b-three-months-after-its-series/"
+  ]
+ },
+ {
+  "id": "n58",
+  "pages": [
+   "https://thenextweb.com/news/schneider-electric-ptc-22-6bn"
+  ]
+ },
+ {
+  "id": "n59",
+  "pages": [
+   "https://sifted.eu/articles/stryker-to-invest-400m-in-cmr-surgical-with-option-to-buy-it-outright/",
+   "https://www.mddionline.com/ma/stryker-invests-400m-in-cmr-surgical-secures-option-to-acquire-soft-tissue-robotics-rival"
+  ]
+ },
+ {
+  "id": "n60",
+  "pages": [
+   "https://dealroom.co/news/161239-ramaswamys-nuclear-startup-atlas-atomics-raises-400m-at-1-9b-value/"
+  ]
+ },
+ {
+  "id": "n61",
+  "pages": [
+   "https://dealroom.co/news/160571-deepseeks-round-swells-to-15b-at-75b-valuation-before-shanghai-ipo/"
+  ]
+ },
+ {
+  "id": "n62",
+  "pages": [
+   "https://techcrunch.com/2026/10/08/popular-ai-leaderboard-arena-nearly-doubles-valuation-to-3-1b-valuation-in-10-months/"
+  ]
+ },
+ {
+  "id": "n63",
+  "pages": [
+   "https://startupfortune.com/nvidia-is-in-talks-to-value-perplexity-at-more-than-30-billion/"
+  ]
+ },
+ {
+  "id": "n64",
+  "pages": [
+   "https://startupfortune.com/isomorphic-labs-seeks-funding-at-a-valuation-of-at-least-40-billion/"
+  ]
+ },
+ {
+  "id": "n65",
+  "pages": [
+   "https://economictimes.indiatimes.com/tech/technology/sequoia-backed-chip-startup-nuvacore-raising-funds-at-about-a-2-5-billion-valuation/articleshow/134870940.cms"
+  ]
+ },
+ {
+  "id": "n66",
+  "pages": [
+   "https://thenextweb.com/news/jio-ipo-20-billion-bids"
+  ]
+ },
+ {
+  "id": "n67",
+  "pages": [
+   "https://www.eu-startups.com/2026/10/nvidia-plans-minority-investments-in-four-french-startups-as-european-tech-commitment-nears-e9-billion/"
+  ]
+ },
+ {
+  "id": "n68",
+  "pages": [
+   "https://www.semafor.com/article/10/13/2026/voltas-5-billion-debt-deal-is-a-pulse-check-on-the-ai-financing-boom"
+  ]
+ },
+ {
+  "id": "n69",
+  "pages": [
+   "https://www.semafor.com/article/10/13/2026/bumble-to-go-private-in-13b-acquisition"
+  ]
+ },
+ {
+  "id": "n70",
+  "pages": [
+   "https://www.therecursive.com/cee-startup-tech-weekly-11/"
+  ]
+ },
+ {
+  "id": "n71",
+  "pages": [
+   "https://tech.eu/2026/10/12/1komma5-reaches-1-35b-valuation-plans-100m-investment-in-energy-ai/"
   ]
  }
 ]
