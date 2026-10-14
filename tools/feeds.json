@@ -157,5 +157,6 @@
  "cryptonews": "https://cryptonews.net/rss.xml",
  "streamlinefeed": "https://streamlinefeed.co.ke/api/rss",
  "citybiz": "",
- "eu": "https://eu.36kr.com/feed"
+ "eu": "https://eu.36kr.com/feed",
+ "25h": "https://25h.app/feed/"
 }
