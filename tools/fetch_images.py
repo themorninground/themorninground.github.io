@@ -3,13 +3,18 @@
 Each entry is {"id", "url"} for a direct image, or {"id", "page"} for a story page: the page's own
 share image (og:image / twitter:image) is used. img/index.json records where each image came from
 (page, image url, site name) so the credit is kept. Runs in GitHub Actions; skips ids already present."""
-import json, os, io, re, html as H, urllib.request, urllib.parse
+import json, os, io, re, sys, html as H, urllib.request, urllib.parse
 from PIL import Image
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 items = json.load(open(os.path.join(ROOT, 'tools', 'images.json'), encoding='utf-8'))
 os.makedirs(os.path.join(ROOT, 'img'), exist_ok=True)
 IDX = os.path.join(ROOT, 'img', 'index.json')
 idx = json.load(open(IDX)) if os.path.exists(IDX) else {}
+LOG = open(os.path.join(ROOT, 'img', 'last_run.txt'), 'w')
+_print = print
+def print(*a):
+    _print(*a); LOG.write(' '.join(str(x) for x in a) + '\n')
+GENERIC = re.compile(r'(logo|default|placeholder|social[-_]?share|social1|fallback|og-default|brand)', re.I)
 UA = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124 Safari/537.36',
       'Accept-Language': 'en,ar;q=0.8'}
 WUA = {'User-Agent': 'TheMorningRoundImageBot/1.0 (https://themorninground.github.io)'}
@@ -37,6 +42,7 @@ for it in items:
                 page = raw.decode('utf-8', 'ignore')
                 u = meta(page, 'og:image:secure_url', 'og:image', 'twitter:image', 'twitter:image:src')
                 if not u: print('no share image', pg); continue
+                if GENERIC.search(u.split('?')[0].rsplit('/', 1)[-1]): print('generic share image', pg, u); continue
                 url = urllib.parse.urljoin(final, u)
                 rec = {'page': pg, 'site': meta(page, 'og:site_name'), 'title': meta(page, 'og:title')[:140]}
                 break
@@ -54,3 +60,4 @@ for it in items:
     except Exception as e:
         print('FAIL', it['id'], it.get('url') or it.get('page'), e)
 json.dump(idx, open(IDX, 'w'), indent=1, ensure_ascii=False)
+LOG.close()

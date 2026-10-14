@@ -18,6 +18,10 @@ CFG = json.load(open(os.path.join(ROOT, 'tools', 'logos3.json')))
 OUT = os.path.join(ROOT, 'img', 'logo3'); os.makedirs(OUT, exist_ok=True)
 IDX = os.path.join(OUT, 'index.json')
 idx = json.load(open(IDX)) if os.path.exists(IDX) else {}
+LOG = open(os.path.join(OUT, 'last_run.txt'), 'w')
+_print = print
+def print(*a):
+    _print(*a); LOG.write(' '.join(str(x) for x in a) + '\n'); LOG.flush()
 UA = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124 Safari/537.36',
       'Accept-Language': 'en,ar;q=0.8'}
 WUA = {'User-Agent': 'TheMorningRoundLogoBot/1.0 (https://themorninground.github.io; logo review)'}

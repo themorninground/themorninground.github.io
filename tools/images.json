@@ -244,7 +244,8 @@
  {
   "id": "art-pg",
   "pages": [
-   "https://en.wikipedia.org/wiki/Paul_Graham_(programmer)"
+   "https://en.wikipedia.org/wiki/Paul_Graham_(programmer)",
+   "https://commons.wikimedia.org/wiki/File:Paulgraham_240x320.jpg"
   ]
  },
  {
@@ -270,9 +271,11 @@
  {
   "id": "e07",
   "pages": [
+   "https://www.arabnews.com/node/3001753/business-economy",
    "https://arabnews.com/business/saudi-inflation-holds-at-18-in-august-as-housing-and-food-costs-climb-3001753",
-   "https://www.argaam.com/en/reports/inflation-report/61578"
-  ]
+   "https://www.zawya.com/en/economy/gcc/saudi-inflation-steady-at-18-in-august"
+  ],
+  "force": true
  },
  {
   "id": "rep-sama-q1",
