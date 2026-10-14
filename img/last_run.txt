@@ -1,2 +1,1 @@
-ok art-mena-h1 (900, 500) https://cdn.wamda.com/feature-images/7750c7eb65c8423.jpg
-ok e07 (1200, 675) https://ajel.sa/cdn-cgi/image/width=1200,height=675,fit=cover,gravity=auto,format=jpeg/https://cdn.ajel.sa/articles/2026-08/%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9-8s6_2_6-.jpg
+ok n40 (1024, 341) https://sg-imgs.dealroom.co/378dd98d5f5f3ee3ea2fd06c6d65ef31.jpeg?ar=3:1&fit=crop&crop=faces,center&auto=compress&cs=origin
