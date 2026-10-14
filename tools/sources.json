@@ -2360,5 +2360,47 @@
   "auto": true,
   "found": "2026-10-14",
   "last_ok": "2026-10-14"
+ },
+ {
+  "id": "france24",
+  "name": "France 24",
+  "ar": "France 24",
+  "url": "https://france24.com",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "en"
+  ],
+  "region": "SA",
+  "auto": true,
+  "found": "2026-10-14"
+ },
+ {
+  "id": "timesofindia",
+  "name": "The Times of India",
+  "ar": "The Times of India",
+  "url": "https://timesofindia.indiatimes.com",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "en"
+  ],
+  "region": "SA",
+  "auto": true,
+  "found": "2026-10-14"
+ },
+ {
+  "id": "newsx",
+  "name": "재경일보",
+  "ar": "재경일보",
+  "url": "https://news.jkn.co.kr",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "ar"
+  ],
+  "region": "SA",
+  "auto": true,
+  "found": "2026-10-14"
  }
 ]
