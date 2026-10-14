@@ -20,13 +20,13 @@
   ]
  },
  "e07": {
-  "page": "https://www.argaam.com/en/reports/inflation-report/61578",
-  "site": "ArgaamPlus",
-  "title": "Saudi Arabia’s inflation holds steady at 1.8% in August",
-  "src": "https://www.argaam.com/content/en/images/argaam-plus-social1.jpg",
+  "page": "https://en.wikipedia.org/wiki/Economy_of_Saudi_Arabia",
+  "site": "",
+  "title": "Economy of Saudi Arabia - Wikipedia",
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Riyadh_Skyline.jpg/1280px-Riyadh_Skyline.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
   "size": [
-   560,
-   320
+   1280,
+   720
   ]
  },
  "rep-sama-q1": {
@@ -270,13 +270,13 @@
   ]
  },
  "n61": {
-  "page": "https://dealroom.co/news/160571-deepseeks-round-swells-to-15b-at-75b-valuation-before-shanghai-ipo/",
-  "site": "",
-  "title": "DeepSeek's round swells to $15B at $75B valuation before Shanghai IPO | Dealroom News",
-  "src": "https://sg-imgs.dealroom.co/8bda3a48526b8b412da41bf596331a5a.jpeg?ar=3:1&fit=crop&crop=faces,center&auto=compress&cs=origin",
+  "page": "https://www.vktr.com/ai-news/deepseek-targets-2027-shanghai-ipo-at-74b/",
+  "site": "VKTR.com",
+  "title": "DeepSeek Targets 2027 Shanghai IPO at $74B",
+  "src": "https://www.vktr.com/-/media/6ad3ed8f179749faa35aa2d6e1602a1c.ashx?mw=1200",
   "size": [
-   500,
-   167
+   1200,
+   900
   ]
  },
  "n62": {
@@ -497,13 +497,13 @@
   ]
  },
  "art-theory-ai-survey": {
-  "page": "https://tomtunguz.com/ai-in-practice-survey-2026/",
-  "site": "Tomasz Tunguz",
-  "title": "The Theory 2026 AI Survey Results",
-  "src": "https://res.cloudinary.com/dzawgnnlr/image/upload/c_fill,g_auto,w_1200,h_630/aip2026-01-security-gap.gif",
+  "page": "https://theory.ventures/",
+  "site": "Theory Ventures",
+  "title": "Theory Ventures",
+  "src": "https://storage.googleapis.com/cdn.theory.ventures/homepage-assets/images/social-card.png",
   "size": [
-   1200,
-   630
+   1400,
+   730
   ]
  },
  "art-a16z-new-cfo": {
@@ -577,23 +577,23 @@
   ]
  },
  "rep-magnitt-9m": {
-  "page": "https://www.agbi.com/analysis/banking-finance/2026/10/war-and-ai-make-mena-venture-capital-harder-to-secure/",
-  "site": "AGBI",
-  "title": "War and AI make Mena venture capital harder to secure",
-  "src": "https://www.agbi.com/tachyon/sites/4/2026/10/724BEFED-8B52-4918-8204-AF3B055BFB23-scaled.jpg",
-  "size": [
-   1400,
-   934
-  ]
- },
- "rep-dxbstart-uae-q3": {
-  "page": "https://fintechgate.net/254340",
+  "page": "https://fintechgate.net/254236",
   "site": "بوابة التكنولوجيا المالية – Fintechgate - fintechgate",
-  "title": "تمويلات الشركات الناشئة في الإمارات ترتفع إلى 727 مليون دولار عبر 31 جولة خلال الربع الثالث من 2026",
-  "src": "http://www.fintechgate.net/UploadCache/libfiles/7/0/600x338o/955.jpeg",
+  "title": "الشركات الناشئة بالشرق الأوسط وشمال أفريقيا تجمع 2.98 مليار دولار عبر 351 صفقة منذ بداية 2026",
+  "src": "http://www.fintechgate.net/UploadCache/libfiles/7/0/600x338o/855.jpeg",
   "size": [
    600,
    338
+  ]
+ },
+ "rep-dxbstart-uae-q3": {
+  "page": "https://dxbstart.com/",
+  "site": "",
+  "title": "Dubai Startup News — Funding, Companies & Ecosystem Data | DXBStart",
+  "src": "https://www.dxbstart.com/og?title=Dubai%20Startup%20News%20%26%20Ecosystem%20Data&type=default",
+  "size": [
+   1200,
+   630
   ]
  },
  "rep-kpmg-h1-2026": {

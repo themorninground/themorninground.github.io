@@ -1,3 +1,6 @@
 FAIL art-mena-h1 https://i0.wp.com/ent.news/2025/4/1476.jpg?ssl=1 HTTP Error 404: Not Found
-ok art-r001 (1280, 720) https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Riyadh_Skyline.jpg/1280px-Riyadh_Skyline.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail
-ok rep-cbi-q3-2026 (572, 364) https://research-assets.cbinsights.com/2026/10/07151801/SoAI-Q326-FI-1-572x364.png
+ok e07 (1280, 720) https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Riyadh_Skyline.jpg/1280px-Riyadh_Skyline.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail
+ok n61 (1200, 900) https://www.vktr.com/-/media/6ad3ed8f179749faa35aa2d6e1602a1c.ashx?mw=1200
+ok art-theory-ai-survey (1400, 730) https://storage.googleapis.com/cdn.theory.ventures/homepage-assets/images/social-card.png
+ok rep-magnitt-9m (600, 338) http://www.fintechgate.net/UploadCache/libfiles/7/0/600x338o/855.jpeg
+ok rep-dxbstart-uae-q3 (1200, 630) https://www.dxbstart.com/og?title=Dubai%20Startup%20News%20%26%20Ecosystem%20Data&type=default
