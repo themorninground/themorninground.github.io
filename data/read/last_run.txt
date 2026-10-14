@@ -1,75 +1,26 @@
-ok r8d8fc654 6239 chars https://www.lebanon24.com/news/lebanon/1582532/%D8%B4%D8%B1%D9%83%D8%A7%D8%AA-%D9%84%D8%A8%D9%86%D8%A7%D9%86-%D8%A7%D9%8
-ok r129e1c26 4224 chars https://www.eu-startups.com/2026/10/barcelonas-full-stack-quantum-computing-company-qilimanjaro-quantum-tech-completes-e
-ok rfa8f705c 4043 chars https://www.eu-startups.com/2026/10/nvidia-plans-minority-investments-in-four-french-startups-as-european-tech-commitmen
-FAIL rd404d538 https://www.theinformation.com/briefings/anthropic-strikes-licensing-acqui-hire-deal-ai-security-startup HTTP Error 403: Forbidden
-ok ra35df69c 3781 chars https://www.zawya.com/en/multimedia/videos/video-saudi-startups-lead-q3-2026-funding-with-1bln-raised-1642257
-ok raf05d2aa 5729 chars https://www.zawya.com/en/economy/imf-raises-saudi-arabias-growth-forecast-to-7.9-in-2027-1638898
-ok re193daab 1183 chars https://www.semafor.com/article/10/13/2026/bumble-to-go-private-in-13b-acquisition
-ok re6436438 1160 chars https://www.semafor.com/article/10/13/2026/nvidia-to-announce-2b-in-european-investments
-ok r12539992 10573 chars https://enterpriseam.com/egypt/2026/10/14/war-or-not-institutional-investors-had-a-big-appetite-for-mnt-halans-usd-126-m
-ok r8023892d 2877 chars https://www.semafor.com/article/10/13/2026/voltas-5-billion-debt-deal-is-a-pulse-check-on-the-ai-financing-boom
-ok rb0fbeb22 16636 chars https://jawlah.co/66416
-ok r60b05aee 4409 chars https://news.lavx.hu/article/pluto-security-raises-42-million-as-ai-tools-open-new-enterprise-security-gaps
-ok r45b21f7e 6258 chars https://fintechgate.net/254399
-ok r4d1328cf 6834 chars https://techcrunch.com/2026/10/13/pluto-security-raises-42m-as-ai-gives-enterprise-security-teams-a-new-headache/
-ok r73f10500 3970 chars https://thenextweb.com/news/jio-ipo-20-billion-bids
-ok r00aadda3 3997 chars https://fintechgate.net/254379
-FAIL r9fd3f273 https://www.theinformation.com/articles/applied-intuition-fields-offers-30-billion-valuation-2 HTTP Error 403: Forbidden
-ok rc698e049 1773 chars https://www.semafor.com/article/10/13/2026/saudi-attacks-shake-the-confidence-of-foreign-investors
-ok re3a9575e 1207 chars https://www.semafor.com/article/10/13/2026/uae-and-saudi-arabia-account-for-almost-90-of-298-billion-of-startup-capital-
-ok r616bd015 77 chars https://www.techinafrica.com/african-startups-raise-2-16b-in-nine-months-as-debt-falls-33/
-ok rd766984e 15352 chars https://fintechgate.net/254340
-FAIL r98af94ce https://news.google.com/rss/articles/CBMitARBVV95cUxQNXFGeXB4WGYzSXh0RzlMZmVqcEpOeTJHNS12SW1ORDJ5eXhvTmVKWFlsYTgwMnNPRU1 HTTP Error 403: Forbidden
-ok r7acd7791 2889 chars https://waya.media/arabi/%D8%B5%D9%84%D9%91%D8%AD%D9%84%D9%8A-%D8%A7%D9%84%D8%B3%D9%88%D8%B1%D9%8A%D8%A9-%D8%AA%D8%AC%D9
-ok r941a75ff 1712 chars https://entarabi.com/2026/10/%d9%85%d9%86%d8%b5%d8%a9-%d8%b5%d9%84%d9%91%d8%ad%d9%84%d9%8a-%d8%a7%d9%84%d8%b3%d9%88%d8%b
-ok r1061b250 22229 chars https://arabfounders.net/en/phoenix-venture-partners-23m-debut-fund-mena-startups/
-ok r5cb6d31e 1717 chars https://enterpriseai.economictimes.indiatimes.com/news/industry/sarvam-ai-in-talks-to-raise-up-to-300-million-at-3-billi
-ok r513d93e6 953 chars https://www.forbesmiddleeast.com/money/markets/moonshot-ai-could-break-records-in-hong-kong-ipoif-it-can-settle-sharehol
-ok rf6466493 1012 chars https://www.tradingview.com/news/reuters.com,2026-10-13:newsml_Zaww9LG6:0-saudi-startups-lead-q3-2026-funding-with-1bln-
-ok rd0fb815d 3320 chars https://dabafinance.com/fr/nouvelles/airtel-money-sets-ipo-price-targets-7-billion-valuation-2026-10-01
-ok rd9e83f33 7574 chars https://www.agbi.com/analysis/banking-finance/2026/10/war-and-ai-make-mena-venture-capital-harder-to-secure/
-ok re1274ba0 6341 chars https://www.moroccoworldnews.com/2026/10/341800/morocco-trails-regional-peers-in-1-1-billion-mena-startup-funding/
-ok r983da474 4797 chars https://jawlah.co/66297
-ok r12f73206 3435 chars https://www.vietnam.vn/ar/nvidia-dam-phan-rot-them-von-vao-startup-ai-reflection
-ok r08e40d45 35849 chars https://arabfounders.net/en/desible-ai-3-31m-seed-plus-funding-bfsi-automation/
-ok r7cf5bf16 16722 chars https://jawlah.co/66282
-ok r1039aca8 2530 chars https://finance.yahoo.com/technology/ai/articles/deepseek-leads-400-million-seed-130736720.html
-ok r880537b8 2473 chars https://fintechgate.net/254259
-ok r0fd01fe6 5286 chars https://startupfortune.com/deepseek-leads-400-million-funding-round-for-ex-tencent-scientists-robot-ai-startup/
-ok rd54cdcd0 2251 chars https://tech.eu/2026/10/12/1komma5-reaches-1-35b-valuation-plans-100m-investment-in-energy-ai/
-ok rebc948b7 1428 chars https://menastartupdigest.com/endeavor-mena-to-work-with-egyptian-exchange-on-startup-exit-path/
-ok r81e3973c 1440 chars https://menastartupdigest.com/saudi-swiss-watch-brand-forlan-marri-secured-chf1m-in-first-minute-of-crowdfunding/
-ok ra9448e79 4347 chars https://fintechgate.net/254236
-FAIL r4fcc17fb https://news.google.com/rss/articles/CBMilgFBVV95cUxPSnNjeS05d1MwOS1ibEFvZ2lTOXNySzNxYVJkbXRtUlN4czFTSE1DWUs4MVE4aUgxaVZ HTTP Error 403: Forbidden
-ok rd14bc70c 9172 chars https://www.zawya.com/en/press-release/companies-news/rasmal-ventures-and-strategic-gears-sign-mou-to-collaborate-in-bui
-ok r151d1754 0 chars https://maaal.com/en/news/details/nvidia-seeks-to-acquire-o/
-ok r0657db22 3818 chars https://waya.media/banque-du-caire-announces-plans-for-30-stake-sale-through-egx-ipo/
-ok rc5d8af75 4155 chars https://economictimes.indiatimes.com/tech/technology/sequoia-backed-chip-startup-nuvacore-raising-funds-at-about-a-2-5-b
-ok r47ed93ba 2909 chars https://fintechgate.net/254170
-ok r8e6afaf1 3428 chars https://dabafinance.com/fr/nouvelles/fitch-revises-nigeria-s-outlook-to-positive-on-policy-reforms-2026-10-11
-FAIL r7e3e604e https://news.google.com/rss/articles/CBMiUkFVX3lxTE9ZckRWdXVvMGozemVlUTJYVFV0ZTlGdmJFeUx6aHp3NFl2dHhfaktPMWhWdWVOcVFZLXk HTTP Error 403: Forbidden
-FAIL re7199dad https://news.google.com/rss/articles/CBMitwFBVV95cUxPdGhaWDVEUjNKdDJxekxnVU9vWGZmNnlDMi1pd0liZW1QNnh1c2ZNNE13d2NzV19jUl8 HTTP Error 403: Forbidden
-ok r32a3dddc 4285 chars https://jawlah.co/66149
-FAIL r9d0c54f2 https://news.google.com/rss/articles/CBMizgFBVV95cUxQclRtS0tkNGE0bkJ3X1c0SGNIeUNibWZLVlp4VEpFdURROExjbXZmMGUtcWNKYU1uOHV HTTP Error 401: HTTP Forbidden
-FAIL r2a30ae4b https://news.google.com/rss/articles/CBMisAFBVV95cUxOQmtDWkliRlRySXZybVd3dVp0aWNmdkJnaHZrdVUxWHg0LTQ3dW5kOEplTGNkMnhGVjF HTTP Error 403: Forbidden
-ok r5e34f1cd 5616 chars https://startupfortune.com/nvidia-is-in-talks-to-value-perplexity-at-more-than-30-billion/
-ok r96f9dd83 4603 chars https://www.therecursive.com/cee-startup-tech-weekly-11/
-ok rde462b88 3866 chars https://techcrunch.com/2026/10/08/popular-ai-leaderboard-arena-nearly-doubles-valuation-to-3-1b-valuation-in-10-months/
-ok rb345ad90 4598 chars https://jawlah.co/66038
-ok rf536f7e6 0 chars https://www.konsulteer.com/article/spark-launches-industrial-ai-accelerator-to-move-uae-technologies-from-pilot-to-scale
-FAIL r2e03d345 https://www.fintechfutures.com/stock-exchange-ipos/mynt-gcash-ipo HTTP Error 403: Forbidden
-ok r9946ecfe 5602 chars https://startupfortune.com/isomorphic-labs-seeks-funding-at-a-valuation-of-at-least-40-billion/
-ok rfa97196e 4352 chars https://jawlah.co/65966
-ok r95b90654 4211 chars https://jawlah.co/65942
-ok reacde7ae 1851 chars https://entrackr.com/snippets/agentic-ai-startup-desibleai-raises-rs-32-cr-led-by-prime-venture-partners-12632530
-FAIL r27d31c7b https://www.semafor.com/article/10/13/2026/uae-and-saudi-arabia-account-for-almost-90-of-298-billion-of-startup-capital- HTTP Error 404: 
-ok r236e0231 10573 chars https://enterpriseam.com/egypt/2026/10/14/war-or-not-institutional-investors-had-a-big-appetite-for-mnt-halans-usd-126-m
-ok r9930ab2c 4598 chars https://jawlah.co/66038
-ok ra6015765 5136 chars https://jawlah.co/en/64981
-ok rf52d37f8 4669 chars https://jawlah.co/en/64978
-ok r9bfe36a2 4705 chars https://jawlah.co/en/65109
-ok r5ce8aade 4381 chars https://jawlah.co/en/65035
-ok rcba892c2 0 chars https://www.wam.ae/en/article/c2l97ih-crescent-enterprises-tvs-automobile-solutions
-ok rd300a557 12028 chars https://www.zawya.com/en/press-release/companies-news/crescent-enterprises-and-tvs-automobile-solutions-announce-strateg
-ok r80d93db0 176 chars https://sifted.eu/articles/stryker-to-invest-400m-in-cmr-surgical-with-option-to-buy-it-outright
-FAIL r96b0f72e https://www.theinformation.com/articles/applied-intuition-fields-offers-30-billion-valuation HTTP Error 403: Forbidden
+FAIL r217bf1d0 https://www.mckinsey.com/industries/financial-services/our-insights/pause-pivot-or-accelerate-saas-in-the-age-of-agentic The read operation timed out
+ok rb343848d 3747 chars https://tomtunguz.com/ai-in-practice-survey-2026/
+ok rf02d3da8 13311 chars https://www.lennysnewsletter.com/p/how-to-tell-if-a-startup-has-a-moat
+ok rd0a9343b 60000 chars https://www.notboring.co/p/runway-learning-from-watching-the
+ok r075c2a20 1249 chars https://www.fwdstart.me/podcast/stride-ventures-ishpreet-singh-gandhi-on-1b-in-credit-equity-dilution-and-expanding-to-t
+FAIL r458bb0a6 https://news.google.com/rss/articles/CBMioAFBVV95cUxPOWpBaUM4U2pkYUdfZ1IxYTVHdkZCNU53TS1aVGVsRXVhdFBtbHNNSlRSRndueVE2MkZ HTTP Error 403: Forbidden
+ok r32c986cc 729 chars https://tomtunguz.com/bardia-shahali-office-hours/
+ok r8312a608 60000 chars https://sequoiacap.com/podcast/google-s-ai-infrastructure-chief-amin-vahdat-on-the-physics-economics-of-frontier-ai
+ok r1577d0e1 60000 chars https://sequoiacap.com/podcast/luca-ferrari-the-operating-system-behind-bending-spoons
+ok rfe022514 0 chars https://www.oaktreecapital.com/docs/default-source/default-document-library/credit-quarterly-new-terms.pdf?sfvrsn=e6ce2d
+ok rbefe2544 20514 chars https://a16z.com/you-need-a-new-cfo/
+ok r9c858405 41223 chars https://a16z.com/why-texas-is-making-data-centers-wait/
+ok r941a78e0 27433 chars https://a16z.com/100-gen-ai-apps-7/
+ok ra7b7c441 10077 chars https://a16z.com/podcast/beyond-the-god-model-alex-atallah-amjad-masad/
+ok r6403868c 9772 chars https://a16z.com/podcast/why-ai-agents-can-beat-the-incumbents/
+ok rc72dc6d9 29458 chars https://a16z.com/the-case-for-the-american-manufacturing-asset-class/
+ok r531dd314 7158 chars https://www.becocapital.com/why-we-invested-aiza-by-amaani/
+ok ra1031cc3 9588 chars https://jawlah.co/en/62660
+ok r6e22169c 6738 chars https://jawlah.co/en/64621
+ok rd70416f3 12778 chars https://jawlah.co/en/64815
+ok rbcbb191a 13628 chars https://jawlah.co/en/63421
+ok r6da0ee42 7603 chars https://bebeez.eu/2026/10/12/global-venture-capital-firms-pour-698-billion-us-dollars-in-startups-at-the-end-of-3q26-cb-
+ok r1d6afdbc 6347 chars https://kpmg.com/ua/en/media/press-releases/2026/08/global-vc-investment-reaches-us-dollar-560-4-billion-at-mid-year.htm
+ok r069697e2 755 chars https://aiweekly.co/alerts/crunchbase-logs-27-billion-dollar-rounds-in-q3-2026-as-ai-grabs-102b-or-64-of
+ok r0f11adb4 1771 chars https://valueaddvc.com/pulse/north-america-q3-2026-funding-falls-35-percent
+ok rd07b81c3 7574 chars https://www.agbi.com/analysis/banking-finance/2026/10/war-and-ai-make-mena-venture-capital-harder-to-secure/
