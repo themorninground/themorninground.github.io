@@ -400,27 +400,6 @@
   "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Saudi_aramco_logo.svg?width=512",
   "how": "wikidata"
  },
- "ksh-investments": {
-  "domain": "en.aletihad.ae",
-  "final": "https://en.aletihad.ae",
-  "title": "Home Page  -  Aletihad News Center",
-  "src": "https://www.google.com/s2/favicons?domain=en.aletihad.ae&sz=256",
-  "how": "site"
- },
- "m20-fund": {
-  "domain": "maaal.com",
-  "final": "https://maaal.com",
-  "title": "صحيفة مال - أخبار المال والأعمال والاقتصاد السعودي - صحيفة مال",
-  "src": "https://maaal.com/apple-icon.png?122c310157c94221",
-  "how": "site"
- },
- "ebla-ventures": {
-  "domain": "eblaventures.com",
-  "final": "https://eblaventures.com",
-  "title": "Home - Ebla",
-  "src": "https://eblaventures.com/wp-content/uploads/2025/03/cropped-Group-2-180x180.png",
-  "how": "site"
- },
  "ramp": {
   "domain": "ramp.com",
   "final": "https://ramp.com",
@@ -553,13 +532,6 @@
   "final": "https://www.salehli.com/",
   "title": "صلّحلي - منصة الخدمات المهنية",
   "src": "https://www.salehli.com/images/icon-192x192.png",
-  "how": "site"
- },
- "aden-health": {
-  "domain": "aden.health",
-  "final": "https://aden.health",
-  "title": "Unlock the potential of your unique biology | Aden",
-  "src": "https://framerusercontent.com/images/0uPRIGvAWAfpaa23OkZEmk0oZng.png",
   "how": "site"
  },
  "mazal": {

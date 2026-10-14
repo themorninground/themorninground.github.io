@@ -39,11 +39,11 @@
  },
  "adq": {
   "name": "ADQ",
-  "wd": "ADQ",
+  "wd": "ADQ (company)",
   "wd_must": [
    "abu dhabi",
-   "holding",
-   "sovereign"
+   "investment",
+   "holding"
   ],
   "domains": [
    "adq.ae"
@@ -102,7 +102,8 @@
   "alias": [
    "saudi-ministry-of-finance",
    "mof"
-  ]
+  ],
+  "wd": "Ministry of Finance (Saudi Arabia)"
  },
  "gastat": {
   "name": "General Authority for Statistics",
@@ -111,7 +112,8 @@
   ],
   "alias": [
    "general-authority-for-statistics"
-  ]
+  ],
+  "wd": "General Authority for Statistics (Saudi Arabia)"
  },
  "monshaat": {
   "name": "Monsha'at",
@@ -140,7 +142,8 @@
   "alias": [
    "capital-market-authority",
    "saudi-cma"
-  ]
+  ],
+  "wd": "Capital Market Authority (Saudi Arabia)"
  },
  "saudi-exchange": {
   "name": "Saudi Exchange",
@@ -150,7 +153,8 @@
   "alias": [
    "tadawul",
    "saudi-tadawul"
-  ]
+  ],
+  "wd": "Saudi Exchange"
  },
  "stc": {
   "name": "stc",
@@ -176,6 +180,10 @@
   ],
   "alias": [
    "elm-company"
+  ],
+  "wd": "Elm (company)",
+  "wd_must": [
+   "saudi"
   ]
  },
  "wa-ed-ventures": {
@@ -389,7 +397,8 @@
   "name": "MAGNiTT",
   "domains": [
    "magnitt.com"
-  ]
+  ],
+  "wd": "MAGNiTT"
  },
  "bloomberg": {
   "name": "Bloomberg",
@@ -422,7 +431,8 @@
   "name": "PitchBook",
   "domains": [
    "pitchbook.com"
-  ]
+  ],
+  "wd": "PitchBook"
  },
  "cb-insights": {
   "name": "CB Insights",
@@ -431,7 +441,8 @@
   ],
   "alias": [
    "cbinsights"
-  ]
+  ],
+  "wd": "CB Insights"
  },
  "kpmg": {
   "name": "KPMG",
@@ -447,7 +458,8 @@
   "name": "Sifted",
   "domains": [
    "sifted.eu"
-  ]
+  ],
+  "wd": "Sifted"
  },
  "menabytes": {
   "name": "MENAbytes",
@@ -471,7 +483,8 @@
   "name": "The National",
   "domains": [
    "thenationalnews.com"
-  ]
+  ],
+  "wd": "The National (Abu Dhabi)"
  },
  "al-eqtisadiah": {
   "name": "Al Eqtisadiah",
@@ -613,10 +626,10 @@
  },
  "ksh-investments": {
   "name": "KSH Investments",
-  "q": "\"KSH Investments\" Abu Dhabi Sheikh Mohamed Bin Khalid",
   "must": [
    "invest"
-  ]
+  ],
+  "domains": []
  },
  "mnt-halan": {
   "name": "MNT-Halan",
@@ -664,11 +677,11 @@
  },
  "m20-fund": {
   "name": "M20 Fund",
-  "q": "\"M20 Fund\" investment Barq",
   "must": [
    "fund",
    "invest"
-  ]
+  ],
+  "domains": []
  },
  "noon-investments": {
   "name": "Noon Investments",
@@ -687,8 +700,7 @@
   "must": [
    "venture",
    "syria"
-  ],
-  "q": "EBLA Ventures Syria venture capital"
+  ]
  },
  "stride-ventures": {
   "name": "Stride Ventures",
@@ -776,7 +788,8 @@
   "name": "Orrick",
   "domains": [
    "orrick.com"
-  ]
+  ],
+  "wd": "Orrick, Herrington & Sutcliffe"
  },
  "eqt": {
   "name": "EQT",
@@ -1335,7 +1348,13 @@
    "doctolib.fr",
    "doctolib.com"
   ],
-  "wd": "Doctolib"
+  "wd": "Doctolib",
+  "wd_must": [
+   "french",
+   "france",
+   "software",
+   "health"
+  ]
  },
  "bumble": {
   "name": "Bumble",
@@ -1363,11 +1382,14 @@
   ]
  },
  "jio-platforms": {
-  "name": "Jio Platforms",
+  "name": "Jio",
   "domains": [
    "jio.com"
   ],
-  "wd": "Jio Platforms"
+  "wd": "Jio Platforms",
+  "must": [
+   "jio"
+  ]
  },
  "schneider-electric": {
   "name": "Schneider Electric",
@@ -1434,7 +1456,8 @@
   ],
   "alias": [
    "ce-invests"
-  ]
+  ],
+  "wd": "Crescent Enterprises"
  },
  "mytvs": {
   "name": "myTVS",
@@ -1494,8 +1517,7 @@
    "biomarker",
    "health",
    "blood"
-  ],
-  "q": "Aden precision health UAE biomarkers subscription Sarah Cronin"
+  ]
  },
  "mazal": {
   "name": "Mazal",
@@ -1525,6 +1547,12 @@
   "name": "G42",
   "domains": [
    "g42.ai"
+  ],
+  "wd": "G42 (company)",
+  "wd_must": [
+   "abu dhabi",
+   "artificial",
+   "technology"
   ]
  },
  "raya-holding": {
@@ -1734,7 +1762,8 @@
   "name": "Arab News",
   "domains": [
    "arabnews.com"
-  ]
+  ],
+  "wd": "Arab News"
  },
  "semafor": {
   "name": "Semafor",

@@ -28,14 +28,33 @@ WUA = {'User-Agent': 'TheMorningRoundLogoBot/1.0 (https://themorninground.github
 BAD = re.compile(r'domain (is )?for sale|buy this domain|parked free|hugedomains|sedo\.com|dan\.com/|this domain may be for sale', re.I)
 SKIP = re.compile(r'(wamda|linkedin|crunchbase|facebook|twitter|x\.com|instagram|youtube|wikipedia|wikidata|zawya|magnitt|pitchbook|cbinsights|dealroom|tracxn|bloomberg|reuters|techcrunch|arabnews|gulfnews|thenationalnews|apple\.com|google\.|startupresearcher|fundz|seedtable|cairoscene|entrepreneur|menabytes|enterpriseam|fintechfutures|thepaypers|jawlah|argaam|mubasher|thestartupscene|waya\.media|arabfounders|lucidity|glassdoor|indeed|medium\.com|substack|f6s|owler|zoominfo|rocketreach|craft\.co|wellfound|angel\.co|github|duckduckgo|bing\.com|tiktok|pinterest|dnb\.com|bizapedia|opencorporates|globenewswire|prnewswire|businesswire|yahoo|msn\.com|forbes|gulfbusiness|khaleejtimes|aawsat|agbi|semafor|ft\.com|wsj\.com|cnbc|zoominfo|signalhire|apollo\.io|contactout|leadiq|clay\.com|golden\.com|startupblink|failory|ycombinator\.com/companies)', re.I)
 
+import ssl
+LAX = ssl.create_default_context(); LAX.check_hostname = False; LAX.verify_mode = ssl.CERT_NONE
+BOTS = [UA, {'User-Agent': 'facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)'}, {'User-Agent': 'Twitterbot/1.0'}]
 def get(url, n=3_000_000, h=UA):
-    r = urllib.request.urlopen(urllib.request.Request(url, headers=h), timeout=20)
-    return r.read(n), r.geturl()
+    last = None
+    for hh in ([h] + [b for b in BOTS if b is not h]):
+        for ctx in (None, LAX):
+            try:
+                r = urllib.request.urlopen(urllib.request.Request(url, headers=hh), timeout=20, context=ctx)
+                return r.read(n), r.geturl()
+            except urllib.error.HTTPError as e:
+                last = e
+                if e.code not in (401, 403, 429, 503): raise
+                break
+            except urllib.error.URLError as e:
+                last = e
+                if 'CERTIFICATE' not in str(e) and 'SSL' not in str(e): raise
+    raise last
 
 def img_from(url, h=UA):
     raw, _ = get(url, 8_000_000, h)
-    if raw[:5] == b'<?xml' or b'<svg' in raw[:600]:
-        return None
+    if raw[:5] == b'<?xml' or b'<svg' in raw[:2000]:
+        try:
+            import cairosvg
+            raw = cairosvg.svg2png(bytestring=raw, output_width=512)
+        except Exception as e:
+            print('svgfail', url, e); return None
     im = Image.open(io.BytesIO(raw))
     if getattr(im, 'n_frames', 1) > 1:
         try:
@@ -149,5 +168,14 @@ for slug, c in CFG.items():
             if done: break
         except Exception as e:
             print('FAIL', slug, dom, e)
+    for dom in ([] if done else doms[:2]):
+        for u in ['https://%s/apple-touch-icon.png' % dom, 'https://www.%s/apple-touch-icon.png' % dom, 'https://www.google.com/s2/favicons?domain=%s&sz=256' % dom, 'https://icons.duckduckgo.com/ip3/%s.ico' % dom]:
+            try:
+                im = img_from(u)
+                if not im or min(im.size) < 96: continue
+                if len(set(im.convert('L').resize((32, 32)).getdata())) < 4: continue
+                save(slug, im, {'domain': dom, 'src': u, 'how': 'icon-service', 'title': ''}); done = True; break
+            except Exception as e: print('iconfail', slug, u, e)
+        if done: break
     if not done: print('NONE', slug, doms)
     json.dump(idx, open(IDX, 'w'), indent=1, ensure_ascii=False)
