@@ -11,7 +11,9 @@
    "en"
   ],
   "region": "KSA",
-  "auto": false
+  "auto": false,
+  "via": "gnews",
+  "last_ok": "2026-10-14"
  },
  {
   "id": "cma",
@@ -25,7 +27,9 @@
    "en"
   ],
   "region": "KSA",
-  "auto": false
+  "auto": false,
+  "via": "gnews",
+  "last_ok": "2026-10-14"
  },
  {
   "id": "sama",
@@ -39,7 +43,9 @@
    "en"
   ],
   "region": "KSA",
-  "auto": false
+  "auto": false,
+  "via": "gnews",
+  "last_ok": "2026-10-14"
  },
  {
   "id": "gastat",
@@ -53,7 +59,9 @@
    "en"
   ],
   "region": "KSA",
-  "auto": false
+  "auto": false,
+  "via": "gnews",
+  "last_ok": "2026-10-14"
  },
  {
   "id": "misa",
@@ -82,7 +90,9 @@
    "en"
   ],
   "region": "KSA",
-  "auto": false
+  "auto": false,
+  "via": "gnews",
+  "last_ok": "2026-10-14"
  },
  {
   "id": "svc",
@@ -96,7 +106,9 @@
    "en"
   ],
   "region": "KSA",
-  "auto": false
+  "auto": false,
+  "via": "gnews",
+  "last_ok": "2026-10-14"
  },
  {
   "id": "jada",
@@ -125,7 +137,9 @@
    "en"
   ],
   "region": "KSA",
-  "auto": false
+  "auto": false,
+  "via": "gnews",
+  "last_ok": "2026-10-14"
  },
  {
   "id": "spa",
@@ -139,7 +153,9 @@
    "en"
   ],
   "region": "KSA",
-  "auto": false
+  "auto": false,
+  "via": "gnews",
+  "last_ok": "2026-10-14"
  },
  {
   "id": "fintechsaudi",
@@ -153,7 +169,9 @@
    "en"
   ],
   "region": "KSA",
-  "auto": false
+  "auto": false,
+  "via": "gnews",
+  "last_ok": "2026-10-14"
  },
  {
   "id": "kaust",
@@ -166,7 +184,9 @@
    "en"
   ],
   "region": "KSA",
-  "auto": false
+  "auto": false,
+  "via": "gnews",
+  "last_ok": "2026-10-14"
  },
  {
   "id": "adgm",
@@ -179,7 +199,9 @@
    "en"
   ],
   "region": "UAE",
-  "auto": false
+  "auto": false,
+  "via": "gnews",
+  "last_ok": "2026-10-14"
  },
  {
   "id": "difc",
@@ -192,7 +214,9 @@
    "en"
   ],
   "region": "UAE",
-  "auto": false
+  "auto": false,
+  "via": "gnews",
+  "last_ok": "2026-10-14"
  },
  {
   "id": "prnewswire",
@@ -205,7 +229,9 @@
    "en"
   ],
   "region": "Global",
-  "auto": false
+  "auto": false,
+  "via": "gnews",
+  "last_ok": "2026-10-14"
  },
  {
   "id": "businesswire",
@@ -218,7 +244,9 @@
    "en"
   ],
   "region": "Global",
-  "auto": false
+  "auto": false,
+  "via": "gnews",
+  "last_ok": "2026-10-14"
  },
  {
   "id": "asharq",
@@ -245,7 +273,9 @@
    "en"
   ],
   "region": "Global",
-  "auto": false
+  "auto": false,
+  "via": "gnews",
+  "last_ok": "2026-10-14"
  },
  {
   "id": "reuters",
@@ -258,7 +288,9 @@
    "en"
   ],
   "region": "Global",
-  "auto": false
+  "auto": false,
+  "via": "gnews",
+  "last_ok": "2026-10-14"
  },
  {
   "id": "ft",
@@ -271,7 +303,9 @@
    "en"
   ],
   "region": "Global",
-  "auto": false
+  "auto": false,
+  "via": "gnews",
+  "last_ok": "2026-10-14"
  },
  {
   "id": "wsj",
@@ -284,7 +318,9 @@
    "en"
   ],
   "region": "Global",
-  "auto": false
+  "auto": false,
+  "via": "gnews",
+  "last_ok": "2026-10-14"
  },
  {
   "id": "cnbc",
@@ -297,7 +333,9 @@
    "en"
   ],
   "region": "Global",
-  "auto": false
+  "auto": false,
+  "via": "gnews",
+  "last_ok": "2026-10-14"
  },
  {
   "id": "cnbcarabia",
@@ -310,7 +348,9 @@
    "ar"
   ],
   "region": "MENA",
-  "auto": false
+  "auto": false,
+  "via": "gnews",
+  "last_ok": "2026-10-14"
  },
  {
   "id": "zawya",
@@ -324,7 +364,9 @@
    "ar"
   ],
   "region": "MENA",
-  "auto": false
+  "auto": false,
+  "via": "gnews",
+  "last_ok": "2026-10-14"
  },
  {
   "id": "alarabiya",
@@ -337,7 +379,9 @@
    "ar"
   ],
   "region": "MENA",
-  "auto": false
+  "auto": false,
+  "via": "gnews",
+  "last_ok": "2026-10-14"
  },
  {
   "id": "argaam",
@@ -351,7 +395,9 @@
    "en"
   ],
   "region": "KSA",
-  "auto": false
+  "auto": false,
+  "via": "gnews",
+  "last_ok": "2026-10-14"
  },
  {
   "id": "maaal",
@@ -364,7 +410,9 @@
    "ar"
   ],
   "region": "KSA",
-  "auto": false
+  "auto": false,
+  "via": "gnews",
+  "last_ok": "2026-10-14"
  },
  {
   "id": "aleqt",
@@ -377,7 +425,9 @@
    "ar"
   ],
   "region": "KSA",
-  "auto": false
+  "auto": false,
+  "via": "gnews",
+  "last_ok": "2026-10-14"
  },
  {
   "id": "arabnews",
@@ -390,7 +440,9 @@
    "en"
   ],
   "region": "KSA",
-  "auto": false
+  "auto": false,
+  "via": "gnews",
+  "last_ok": "2026-10-14"
  },
  {
   "id": "saudigazette",
@@ -403,7 +455,9 @@
    "en"
   ],
   "region": "KSA",
-  "auto": false
+  "auto": false,
+  "via": "gnews",
+  "last_ok": "2026-10-14"
  },
  {
   "id": "agbi",
@@ -430,7 +484,9 @@
    "en"
   ],
   "region": "MENA",
-  "auto": false
+  "auto": false,
+  "via": "gnews",
+  "last_ok": "2026-10-14"
  },
  {
   "id": "forbesme",
@@ -458,7 +514,9 @@
    "en"
   ],
   "region": "GCC",
-  "auto": false
+  "auto": false,
+  "via": "gnews",
+  "last_ok": "2026-10-14"
  },
  {
   "id": "thenational",
@@ -471,7 +529,9 @@
    "en"
   ],
   "region": "UAE",
-  "auto": false
+  "auto": false,
+  "via": "gnews",
+  "last_ok": "2026-10-14"
  },
  {
   "id": "khaleej",
@@ -514,7 +574,9 @@
    "ar"
   ],
   "region": "MENA",
-  "auto": false
+  "auto": false,
+  "via": "gnews",
+  "last_ok": "2026-10-14"
  },
  {
   "id": "aawsat",
@@ -541,7 +603,9 @@
    "ar"
   ],
   "region": "KSA",
-  "auto": false
+  "auto": false,
+  "via": "gnews",
+  "last_ok": "2026-10-14"
  },
  {
   "id": "alriyadh",
@@ -554,7 +618,9 @@
    "ar"
   ],
   "region": "KSA",
-  "auto": false
+  "auto": false,
+  "via": "gnews",
+  "last_ok": "2026-10-14"
  },
  {
   "id": "jawlah",
@@ -568,7 +634,9 @@
    "en"
   ],
   "region": "KSA",
-  "auto": false
+  "auto": false,
+  "via": "gnews",
+  "last_ok": "2026-10-14"
  },
  {
   "id": "zerotoone",
@@ -609,7 +677,9 @@
    "en"
   ],
   "region": "MENA",
-  "auto": false
+  "auto": false,
+  "via": "gnews",
+  "last_ok": "2026-10-14"
  },
  {
   "id": "menabytes",
@@ -622,7 +692,9 @@
    "en"
   ],
   "region": "MENA",
-  "auto": false
+  "auto": false,
+  "via": "gnews",
+  "last_ok": "2026-10-14"
  },
  {
   "id": "entrepreneurme",
@@ -650,7 +722,9 @@
    "ar"
   ],
   "region": "MENA",
-  "auto": false
+  "auto": false,
+  "via": "gnews",
+  "last_ok": "2026-10-14"
  },
  {
   "id": "disruptor",
@@ -663,7 +737,9 @@
    "en"
   ],
   "region": "KSA",
-  "auto": false
+  "auto": false,
+  "via": "gnews",
+  "last_ok": "2026-10-14"
  },
  {
   "id": "entarabi",
@@ -760,7 +836,9 @@
    "en"
   ],
   "region": "Global",
-  "auto": false
+  "auto": false,
+  "via": "gnews",
+  "last_ok": "2026-10-14"
  },
  {
   "id": "sifted",
@@ -801,7 +879,9 @@
    "en"
   ],
   "region": "Global",
-  "auto": false
+  "auto": false,
+  "via": "gnews",
+  "last_ok": "2026-10-14"
  },
  {
   "id": "theinformation",
@@ -828,7 +908,9 @@
    "en"
   ],
   "region": "Global",
-  "auto": false
+  "auto": false,
+  "via": "gnews",
+  "last_ok": "2026-10-14"
  },
  {
   "id": "techinafrica",
@@ -869,7 +951,9 @@
    "en"
   ],
   "region": "Africa",
-  "auto": false
+  "auto": false,
+  "via": "gnews",
+  "last_ok": "2026-10-14"
  },
  {
   "id": "kpmg",
@@ -882,7 +966,9 @@
    "en"
   ],
   "region": "Global",
-  "auto": false
+  "auto": false,
+  "via": "gnews",
+  "last_ok": "2026-10-14"
  },
  {
   "id": "pwc",
@@ -895,7 +981,9 @@
    "en"
   ],
   "region": "MENA",
-  "auto": false
+  "auto": false,
+  "via": "gnews",
+  "last_ok": "2026-10-14"
  },
  {
   "id": "bain",
@@ -908,7 +996,9 @@
    "en"
   ],
   "region": "Global",
-  "auto": false
+  "auto": false,
+  "via": "gnews",
+  "last_ok": "2026-10-14"
  },
  {
   "id": "mckinsey",
@@ -949,7 +1039,9 @@
    "en"
   ],
   "region": "Global",
-  "auto": false
+  "auto": false,
+  "via": "gnews",
+  "last_ok": "2026-10-14"
  },
  {
   "id": "imf",
@@ -962,7 +1054,9 @@
    "en"
   ],
   "region": "Global",
-  "auto": false
+  "auto": false,
+  "via": "gnews",
+  "last_ok": "2026-10-14"
  },
  {
   "id": "paulgraham",
@@ -989,7 +1083,9 @@
    "en"
   ],
   "region": "Global",
-  "auto": false
+  "auto": false,
+  "via": "gnews",
+  "last_ok": "2026-10-14"
  },
  {
   "id": "sequoia",
@@ -1002,7 +1098,9 @@
    "en"
   ],
   "region": "Global",
-  "auto": false
+  "auto": false,
+  "via": "gnews",
+  "last_ok": "2026-10-14"
  },
  {
   "id": "firstround",
@@ -1029,7 +1127,9 @@
    "en"
   ],
   "region": "Global",
-  "auto": false
+  "auto": false,
+  "via": "gnews",
+  "last_ok": "2026-10-14"
  },
  {
   "id": "abovethecrowd",
@@ -1056,7 +1156,9 @@
    "en"
   ],
   "region": "Global",
-  "auto": false
+  "auto": false,
+  "via": "gnews",
+  "last_ok": "2026-10-14"
  },
  {
   "id": "eladgil",
@@ -1139,7 +1241,9 @@
    "en"
   ],
   "region": "Global",
-  "auto": false
+  "auto": false,
+  "via": "gnews",
+  "last_ok": "2026-10-14"
  },
  {
   "id": "stv",
@@ -1152,7 +1256,9 @@
    "en"
   ],
   "region": "KSA",
-  "auto": false
+  "auto": false,
+  "via": "gnews",
+  "last_ok": "2026-10-14"
  },
  {
   "id": "raed",
@@ -1165,7 +1271,9 @@
    "en"
   ],
   "region": "KSA",
-  "auto": false
+  "auto": false,
+  "via": "gnews",
+  "last_ok": "2026-10-14"
  },
  {
   "id": "beco",
@@ -1192,7 +1300,9 @@
    "ar"
   ],
   "region": "KSA",
-  "auto": false
+  "auto": false,
+  "via": "gnews",
+  "last_ok": "2026-10-14"
  },
  {
   "id": "orrick",
@@ -1205,6 +1315,918 @@
    "en"
   ],
   "region": "Global",
-  "auto": false
+  "auto": false,
+  "via": "gnews",
+  "last_ok": "2026-10-14"
+ },
+ {
+  "id": "tradingview",
+  "name": "TradingView",
+  "ar": "TradingView",
+  "url": "https://tradingview.com",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "en"
+  ],
+  "region": "SA",
+  "auto": true,
+  "found": "2026-10-14"
+ },
+ {
+  "id": "waya",
+  "name": "waya.media",
+  "ar": "waya.media",
+  "url": "https://waya.media",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "en"
+  ],
+  "region": "SA",
+  "auto": true,
+  "found": "2026-10-14"
+ },
+ {
+  "id": "fwdstart",
+  "name": "FWDStart",
+  "ar": "FWDStart",
+  "url": "https://fwdstart.me",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "en"
+  ],
+  "region": "SA",
+  "auto": true,
+  "found": "2026-10-14"
+ },
+ {
+  "id": "moroccoworldnews",
+  "name": "Morocco World News",
+  "ar": "Morocco World News",
+  "url": "https://moroccoworldnews.com",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "en"
+  ],
+  "region": "SA",
+  "auto": true,
+  "found": "2026-10-14"
+ },
+ {
+  "id": "theaiinsider",
+  "name": "AI Insider",
+  "ar": "AI Insider",
+  "url": "https://theaiinsider.tech",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "en"
+  ],
+  "region": "SA",
+  "auto": true,
+  "found": "2026-10-14"
+ },
+ {
+  "id": "finance",
+  "name": "Yahoo Finance",
+  "ar": "Yahoo Finance",
+  "url": "https://finance.yahoo.com",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "en"
+  ],
+  "region": "SA",
+  "auto": true,
+  "found": "2026-10-14"
+ },
+ {
+  "id": "m",
+  "name": "The Economic Times",
+  "ar": "The Economic Times",
+  "url": "https://m.economictimes.com",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "en"
+  ],
+  "region": "SA",
+  "auto": true,
+  "found": "2026-10-14"
+ },
+ {
+  "id": "tracxn",
+  "name": "Tracxn",
+  "ar": "Tracxn",
+  "url": "https://tracxn.com",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "en"
+  ],
+  "region": "SA",
+  "auto": true,
+  "found": "2026-10-14"
+ },
+ {
+  "id": "indianretailer",
+  "name": "Indian Retailer",
+  "ar": "Indian Retailer",
+  "url": "https://indianretailer.com",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "en"
+  ],
+  "region": "SA",
+  "auto": true,
+  "found": "2026-10-14"
+ },
+ {
+  "id": "news",
+  "name": "news.lavx.hu",
+  "ar": "news.lavx.hu",
+  "url": "https://news.lavx.hu",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "en"
+  ],
+  "region": "SA",
+  "auto": true,
+  "found": "2026-10-14"
+ },
+ {
+  "id": "fintechgate",
+  "name": "بوابة التكنولوجيا المالية",
+  "ar": "بوابة التكنولوجيا المالية",
+  "url": "https://fintechgate.net",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "en"
+  ],
+  "region": "AE",
+  "auto": true,
+  "found": "2026-10-14"
+ },
+ {
+  "id": "konsulteer",
+  "name": "Konsulteer",
+  "ar": "Konsulteer",
+  "url": "https://konsulteer.com",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "en"
+  ],
+  "region": "AE",
+  "auto": true,
+  "found": "2026-10-14"
+ },
+ {
+  "id": "indianstartupnews",
+  "name": "Indian Startup News",
+  "ar": "Indian Startup News",
+  "url": "https://indianstartupnews.com",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "en"
+  ],
+  "region": "AE",
+  "auto": true,
+  "found": "2026-10-14"
+ },
+ {
+  "id": "businessstandard",
+  "name": "Business Standard",
+  "ar": "Business Standard",
+  "url": "https://business-standard.com",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "en"
+  ],
+  "region": "AE",
+  "auto": true,
+  "found": "2026-10-14"
+ },
+ {
+  "id": "inc42",
+  "name": "Inc42",
+  "ar": "Inc42",
+  "url": "https://inc42.com",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "en"
+  ],
+  "region": "AE",
+  "auto": true,
+  "found": "2026-10-14"
+ },
+ {
+  "id": "entrackr",
+  "name": "Entrackr",
+  "ar": "Entrackr",
+  "url": "https://entrackr.com",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "en"
+  ],
+  "region": "AE",
+  "auto": true,
+  "found": "2026-10-14"
+ },
+ {
+  "id": "thecondia",
+  "name": "Condia",
+  "ar": "Condia",
+  "url": "https://thecondia.com",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "en"
+  ],
+  "region": "AE",
+  "auto": true,
+  "found": "2026-10-14"
+ },
+ {
+  "id": "nairametrics",
+  "name": "Nairametrics",
+  "ar": "Nairametrics",
+  "url": "https://nairametrics.com",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "en"
+  ],
+  "region": "AE",
+  "auto": true,
+  "found": "2026-10-14"
+ },
+ {
+  "id": "tekedia",
+  "name": "Tekedia",
+  "ar": "Tekedia",
+  "url": "https://tekedia.com",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "en"
+  ],
+  "region": "EG",
+  "auto": true,
+  "found": "2026-10-14"
+ },
+ {
+  "id": "bignewsnetwork",
+  "name": "Big News Network.com",
+  "ar": "Big News Network.com",
+  "url": "https://bignewsnetwork.com",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "en"
+  ],
+  "region": "EG",
+  "auto": true,
+  "found": "2026-10-14"
+ },
+ {
+  "id": "fintech",
+  "name": "FinTech Global",
+  "ar": "FinTech Global",
+  "url": "https://fintech.global",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "en"
+  ],
+  "region": "SA",
+  "auto": true,
+  "found": "2026-10-14"
+ },
+ {
+  "id": "satellitetoday",
+  "name": "Via Satellite",
+  "ar": "Via Satellite",
+  "url": "https://satellitetoday.com",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "en"
+  ],
+  "region": "US",
+  "auto": true,
+  "found": "2026-10-14"
+ },
+ {
+  "id": "app",
+  "name": "Dealroom",
+  "ar": "Dealroom",
+  "url": "https://app.dealroom.co",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "en"
+  ],
+  "region": "US",
+  "auto": true,
+  "found": "2026-10-14"
+ },
+ {
+  "id": "thenextweb",
+  "name": "The Next Web",
+  "ar": "The Next Web",
+  "url": "https://thenextweb.com",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "en"
+  ],
+  "region": "US",
+  "auto": true,
+  "found": "2026-10-14"
+ },
+ {
+  "id": "fortune",
+  "name": "Fortune",
+  "ar": "Fortune",
+  "url": "https://fortune.com",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "en"
+  ],
+  "region": "US",
+  "auto": true,
+  "found": "2026-10-14"
+ },
+ {
+  "id": "financex",
+  "name": "BigGo Finance",
+  "ar": "BigGo Finance",
+  "url": "https://finance.biggo.com",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "en"
+  ],
+  "region": "US",
+  "auto": true,
+  "found": "2026-10-14"
+ },
+ {
+  "id": "eustartups",
+  "name": "EU-Startups",
+  "ar": "EU-Startups",
+  "url": "https://eu-startups.com",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "en"
+  ],
+  "region": "US",
+  "auto": true,
+  "found": "2026-10-14"
+ },
+ {
+  "id": "tech",
+  "name": "Tech.eu",
+  "ar": "Tech.eu",
+  "url": "https://tech.eu",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "en"
+  ],
+  "region": "US",
+  "auto": true,
+  "found": "2026-10-14"
+ },
+ {
+  "id": "therecursive",
+  "name": "The Recursive",
+  "ar": "The Recursive",
+  "url": "https://therecursive.com",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "en"
+  ],
+  "region": "US",
+  "auto": true,
+  "found": "2026-10-14"
+ },
+ {
+  "id": "bwdisrupt",
+  "name": "BW Disrupt",
+  "ar": "BW Disrupt",
+  "url": "https://bwdisrupt.com",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "en"
+  ],
+  "region": "US",
+  "auto": true,
+  "found": "2026-10-14"
+ },
+ {
+  "id": "indianstartuptimes",
+  "name": "Indian Startup Times",
+  "ar": "Indian Startup Times",
+  "url": "https://indianstartuptimes.com",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "en"
+  ],
+  "region": "US",
+  "auto": true,
+  "found": "2026-10-14"
+ },
+ {
+  "id": "ascendants",
+  "name": "https://ascendants.in/",
+  "ar": "https://ascendants.in/",
+  "url": "https://ascendants.in",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "en"
+  ],
+  "region": "US",
+  "auto": true,
+  "found": "2026-10-14"
+ },
+ {
+  "id": "techjuice",
+  "name": "TechJuice",
+  "ar": "TechJuice",
+  "url": "https://techjuice.pk",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "en"
+  ],
+  "region": "US",
+  "auto": true,
+  "found": "2026-10-14"
+ },
+ {
+  "id": "bizjournals",
+  "name": "The Business Journals",
+  "ar": "The Business Journals",
+  "url": "https://bizjournals.com",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "en"
+  ],
+  "region": "US",
+  "auto": true,
+  "found": "2026-10-14"
+ },
+ {
+  "id": "calcalistech",
+  "name": "CTech",
+  "ar": "CTech",
+  "url": "https://calcalistech.com",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "en"
+  ],
+  "region": "US",
+  "auto": true,
+  "found": "2026-10-14"
+ },
+ {
+  "id": "globalventuring",
+  "name": "Global Venturing",
+  "ar": "Global Venturing",
+  "url": "https://globalventuring.com",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "en"
+  ],
+  "region": "US",
+  "auto": true,
+  "found": "2026-10-14"
+ },
+ {
+  "id": "techinsider",
+  "name": "tech-insider.org",
+  "ar": "tech-insider.org",
+  "url": "https://tech-insider.org",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "en"
+  ],
+  "region": "US",
+  "auto": true,
+  "found": "2026-10-14"
+ },
+ {
+  "id": "bebeez",
+  "name": "BeBeez International",
+  "ar": "BeBeez International",
+  "url": "https://bebeez.eu",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "en"
+  ],
+  "region": "US",
+  "auto": true,
+  "found": "2026-10-14"
+ },
+ {
+  "id": "finsmes",
+  "name": "FinSMEs",
+  "ar": "FinSMEs",
+  "url": "https://finsmes.com",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "en"
+  ],
+  "region": "US",
+  "auto": true,
+  "found": "2026-10-14"
+ },
+ {
+  "id": "pulse2",
+  "name": "Pulse 2.0",
+  "ar": "Pulse 2.0",
+  "url": "https://pulse2.com",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "en"
+  ],
+  "region": "US",
+  "auto": true,
+  "found": "2026-10-14"
+ },
+ {
+  "id": "capitalriesgo",
+  "name": "Capital-Riesgo.es",
+  "ar": "Capital-Riesgo.es",
+  "url": "https://capital-riesgo.es",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "en"
+  ],
+  "region": "US",
+  "auto": true,
+  "found": "2026-10-14"
+ },
+ {
+  "id": "qz",
+  "name": "Quartz",
+  "ar": "Quartz",
+  "url": "https://qz.com",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "en"
+  ],
+  "region": "US",
+  "auto": true,
+  "found": "2026-10-14"
+ },
+ {
+  "id": "startupfortune",
+  "name": "Startup Fortune",
+  "ar": "Startup Fortune",
+  "url": "https://startupfortune.com",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "en"
+  ],
+  "region": "US",
+  "auto": true,
+  "found": "2026-10-14"
+ },
+ {
+  "id": "startupbusiness",
+  "name": "Startupbusiness.it",
+  "ar": "Startupbusiness.it",
+  "url": "https://startupbusiness.it",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "en"
+  ],
+  "region": "US",
+  "auto": true,
+  "found": "2026-10-14"
+ },
+ {
+  "id": "enterpriseai",
+  "name": "ET Enterprise AI",
+  "ar": "ET Enterprise AI",
+  "url": "https://enterpriseai.economictimes.indiatimes.com",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "en"
+  ],
+  "region": "US",
+  "auto": true,
+  "found": "2026-10-14"
+ },
+ {
+  "id": "vietnam",
+  "name": "Vietnam.vn",
+  "ar": "Vietnam.vn",
+  "url": "https://vietnam.vn",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "en"
+  ],
+  "region": "US",
+  "auto": true,
+  "found": "2026-10-14"
+ },
+ {
+  "id": "ibanet",
+  "name": "International Bar Association | IBA",
+  "ar": "International Bar Association | IBA",
+  "url": "https://ibanet.org",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "en"
+  ],
+  "region": "US",
+  "auto": true,
+  "found": "2026-10-14"
+ },
+ {
+  "id": "unite",
+  "name": "Unite.AI",
+  "ar": "Unite.AI",
+  "url": "https://unite.ai",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "en"
+  ],
+  "region": "US",
+  "auto": true,
+  "found": "2026-10-14"
+ },
+ {
+  "id": "trendingtopics",
+  "name": "www.trendingtopics.eu",
+  "ar": "www.trendingtopics.eu",
+  "url": "https://trendingtopics.eu",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "en"
+  ],
+  "region": "GB",
+  "auto": true,
+  "found": "2026-10-14"
+ },
+ {
+  "id": "n24",
+  "name": "n24.com.tr",
+  "ar": "n24.com.tr",
+  "url": "https://n24.com.tr",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "en"
+  ],
+  "region": "GB",
+  "auto": true,
+  "found": "2026-10-14"
+ },
+ {
+  "id": "cnnbusinessarabic",
+  "name": "CNN الاقتصادية",
+  "ar": "CNN الاقتصادية",
+  "url": "https://cnnbusinessarabic.com",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "ar"
+  ],
+  "region": "SA",
+  "auto": true,
+  "found": "2026-10-14"
+ },
+ {
+  "id": "i24news",
+  "name": "i24NEWS",
+  "ar": "i24NEWS",
+  "url": "https://i24news.tv",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "ar"
+  ],
+  "region": "SA",
+  "auto": true,
+  "found": "2026-10-14"
+ },
+ {
+  "id": "followict",
+  "name": "followict",
+  "ar": "followict",
+  "url": "https://followict.news",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "ar"
+  ],
+  "region": "SA",
+  "auto": true,
+  "found": "2026-10-14"
+ },
+ {
+  "id": "twaslnews1",
+  "name": "شبكة تواصل الإخبارية",
+  "ar": "شبكة تواصل الإخبارية",
+  "url": "https://twaslnews1.twaslnews.com",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "ar"
+  ],
+  "region": "SA",
+  "auto": true,
+  "found": "2026-10-14"
+ },
+ {
+  "id": "sarmad",
+  "name": "شبكة سرمد الإعلامية",
+  "ar": "شبكة سرمد الإعلامية",
+  "url": "https://sarmad.com",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "ar"
+  ],
+  "region": "SA",
+  "auto": true,
+  "found": "2026-10-14"
+ },
+ {
+  "id": "alborsaanews",
+  "name": "جريدة البورصة",
+  "ar": "جريدة البورصة",
+  "url": "https://alborsaanews.com",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "ar"
+  ],
+  "region": "SA",
+  "auto": true,
+  "found": "2026-10-14"
+ },
+ {
+  "id": "youm7",
+  "name": "اليوم السابع",
+  "ar": "اليوم السابع",
+  "url": "https://youm7.com",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "ar"
+  ],
+  "region": "SA",
+  "auto": true,
+  "found": "2026-10-14"
+ },
+ {
+  "id": "annahar",
+  "name": "annahar.com",
+  "ar": "annahar.com",
+  "url": "https://annahar.com",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "ar"
+  ],
+  "region": "SA",
+  "auto": true,
+  "found": "2026-10-14"
+ },
+ {
+  "id": "agenzianova",
+  "name": "Agenzia Nova",
+  "ar": "Agenzia Nova",
+  "url": "https://agenzianova.com",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "ar"
+  ],
+  "region": "SA",
+  "auto": true,
+  "found": "2026-10-14"
+ },
+ {
+  "id": "masrawy",
+  "name": "Masrawy",
+  "ar": "Masrawy",
+  "url": "https://masrawy.com",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "ar"
+  ],
+  "region": "SA",
+  "auto": true,
+  "found": "2026-10-14"
+ },
+ {
+  "id": "alkhaleej",
+  "name": "صحيفة الخليج",
+  "ar": "صحيفة الخليج",
+  "url": "https://alkhaleej.ae",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "ar"
+  ],
+  "region": "AE",
+  "auto": true,
+  "found": "2026-10-14"
+ },
+ {
+  "id": "mubasher",
+  "name": "معلومات مباشر",
+  "ar": "معلومات مباشر",
+  "url": "https://mubasher.info",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "ar"
+  ],
+  "region": "EG",
+  "auto": true,
+  "found": "2026-10-14"
+ },
+ {
+  "id": "almasryalyoum",
+  "name": "المصري اليوم",
+  "ar": "المصري اليوم",
+  "url": "https://almasryalyoum.com",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "ar"
+  ],
+  "region": "EG",
+  "auto": true,
+  "found": "2026-10-14"
+ },
+ {
+  "id": "alsbbora",
+  "name": "السبورة",
+  "ar": "السبورة",
+  "url": "https://alsbbora.info",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "ar"
+  ],
+  "region": "EG",
+  "auto": true,
+  "found": "2026-10-14"
+ },
+ {
+  "id": "alanba",
+  "name": "جريدة الأنباء الكويتية",
+  "ar": "جريدة الأنباء الكويتية",
+  "url": "https://alanba.com.kw",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "ar"
+  ],
+  "region": "SA",
+  "auto": true,
+  "found": "2026-10-14"
  }
 ]
