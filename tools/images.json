@@ -276,9 +276,9 @@
  {
   "id": "e07",
   "pages": [
-   "https://english.aawsat.com/business",
-   "https://stats.gov.sa/en/w/news/214"
-  ]
+   "https://en.wikipedia.org/wiki/Economy_of_Saudi_Arabia"
+  ],
+  "force": true
  },
  {
   "id": "rep-sama-q1",
@@ -442,7 +442,8 @@
   "id": "n61",
   "pages": [
    "https://www.vktr.com/ai-news/deepseek-targets-2027-shanghai-ipo-at-74b/"
-  ]
+  ],
+  "force": true
  },
  {
   "id": "n62",
@@ -555,8 +556,10 @@
  {
   "id": "art-theory-ai-survey",
   "pages": [
-   "https://tomtunguz.com/ai-in-practice-survey-2026/"
-  ]
+   "https://theory.ventures/",
+   "https://tomtunguz.com/"
+  ],
+  "force": true
  },
  {
   "id": "art-a16z-new-cfo",
@@ -603,14 +606,17 @@
  {
   "id": "rep-magnitt-9m",
   "pages": [
-   "https://www.agbi.com/analysis/banking-finance/2026/10/war-and-ai-make-mena-venture-capital-harder-to-secure/"
-  ]
+   "https://fintechgate.net/254236"
+  ],
+  "force": true
  },
  {
   "id": "rep-dxbstart-uae-q3",
   "pages": [
-   "https://fintechgate.net/254340"
-  ]
+   "https://dxbstart.com/",
+   "https://www.dxbstart.com/"
+  ],
+  "force": true
  },
  {
   "id": "rep-cbi-q3-2026",
