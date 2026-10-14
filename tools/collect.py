@@ -119,8 +119,8 @@ added_sources = []
 
 per_src = {}
 def keep(d, src, force=False):
-    if not d.get('date'): d['date'] = NOW
-    if d['date'] < NOW - timedelta(days=KEEP_DAYS): return
+    if not d.get('date'): return
+    if d['date'] < NOW - timedelta(days=KEEP_DAYS) or d['date'] > NOW + timedelta(days=1): return
     txt = d['t'] + ' ' + d.get('sum', '')
     rx = STRICT if src.get('kind') in ('discovered', 'media', 'official', 'reports', 'press') or src.get('tier', 2) >= 3 and src.get('kind') != 'essays' else TOPIC
     if not force and not rx.search(txt): return
