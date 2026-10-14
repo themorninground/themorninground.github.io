@@ -2279,7 +2279,7 @@ function sourcesBox(n){const x=tr8();const ss=n.sources||[];if(!ss.length&&!n.ve
 /* data: public site reads the live radar file; the private page reads meta/radar */
 const RS=()=>(S.sources&&S.sources.list)||[];
 const srcById=id=>RS().find(s=>s.id===id);
-(function(){if(IS_PUBLIC){fetch('data/radar.json?'+Date.now()).then(r=>r.ok?r.json():null).then(j=>{if(j){S.radar=j;if(S.view.tab==='news'&&S.view.nv==='radar')soon()}}).catch(()=>{})}})();
+(function(){if(IS_PUBLIC){fetch('tools/sources.json?'+Date.now()).then(r=>r.ok?r.json():null).then(j=>{if(j){S.sources={list:j};if(S.view.tab==='news')soon()}}).catch(()=>{});fetch('data/radar.json?'+Date.now()).then(r=>r.ok?r.json():null).then(j=>{if(j){S.radar=j;if(S.view.tab==='news'&&S.view.nv==='radar')soon()}}).catch(()=>{})}})();
 function newsSeg(){const x=tr8();const nv=S.view.nv||'ed';return `<div class="nseg">${['ed','radar','sources'].map(k=>`<button data-nv="${k}" aria-pressed="${nv===k}">${esc(x.seg[k])}${k==='radar'&&S.radar?` <b>${S.radar.n||(S.radar.items||[]).length}</b>`:''}${k==='sources'&&RS().length?` <b>${RS().length}</b>`:''}</button>`).join('')}</div>`}
 function radarHTML(){const x=tr8();const R=S.radar;if(!R)return `<p class="muted">…</p>`;const its=R.items||[];const mins=Math.max(1,Math.round((Date.now()-Date.parse(R.updated))/6e4));
   const f=S.view.rf||{};const kinds=[...new Set(its.map(i=>(srcById(i.src)||{}).kind||i.kind).filter(Boolean))];
