@@ -3,7 +3,40 @@ FAIL art-arabinform None 'ascii' codec can't encode characters in position 48-50
 FAIL art-pg None image too small (240, 320)
 generic share image https://en.sharikatmubasher.com/media-hub/experts-thoughts/27259 https://sharikatmubasher.com/assets/images/logo.png
 FAIL art-r001 None no image found
-page fail https://www.arabnews.com/node/3001753/business-economy HTTP Error 403: Forbidden
-page fail https://arabnews.com/business/saudi-inflation-holds-at-18-in-august-as-housing-and-food-costs-climb-3001753 HTTP Error 403: Forbidden
-page fail https://www.zawya.com/en/economy/gcc/saudi-inflation-steady-at-18-in-august HTTP Error 400: Bad Request
-FAIL e07 None no image found
+ok n36 (1000, 600) https://arabfounders.net/wp-content/uploads/2026/10/Phoenix-Venture-Partners.jpg
+ok n38 (1200, 630) https://img.semafor.com/974dfdc616597f1f4cd9dd1a167a16a8fc0024c8-5500x3096.jpg?rect=0,104,5500,2888&w=1200&h=630&q=75&auto=format
+ok n39 (600, 338) http://www.fintechgate.net/UploadCache/libfiles/7/0/600x338o/955.jpeg
+FAIL n40 None HTTP Error 404: Not Found
+ok n41 (1280, 720) https://waya.media/wp-content/uploads/sites/3/2026/10/Banque-du-Caire-IPO.png
+ok n42 (800, 450) https://fintechgate.net/UploadCache/libfiles/7/0/800x450o/687.jpg
+ok n43 (925, 633) https://media.zawya.com/prod/images/gm_preview/1b693f289828-rasmal-ventures-and-strategic-gears-saudi.jpeg
+ok n44 (824, 633) https://media.zawya.com/prod/images/gm_preview/45c846408fe4-r-dinesh-director-tvs-automobile-solutions-ltd-and-badr-jafar-ceo-crescent.jpg
+ok n45 (1000, 630) https://jawlah.co/wp-content/uploads/2026/10/yasmina-alinma.jpg
+ok n46 (1000, 630) https://jawlah.co/wp-content/uploads/2026/10/hamad-blom.jpg
+ok n47 (1280, 720) https://waya.media/arabi/wp-content/uploads/sites/2/2026/10/Syrias-Salehli-Raises-USD-100K-in-Pre-Seed-Round.png
+ok n48 (600, 338) http://www.fintechgate.net/UploadCache/libfiles/7/0/600x338o/876.jpeg
+ok n49 (1000, 630) https://jawlah.co/wp-content/uploads/2026/10/mazal-app.jpg
+ok n50 (1000, 630) https://jawlah.co/wp-content/uploads/2026/09/microsoft-saudi.jpg
+ok n51 (1000, 630) https://jawlah.co/wp-content/uploads/2026/09/raya-holding.jpg
+ok n52 (1000, 630) https://jawlah.co/wp-content/uploads/2026/09/hired-valley.jpg
+ok n53 (1400, 831) https://jawlah.co/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-13-at-15.23.33.jpeg
+ok n54 (900, 600) https://media.zawya.com/prod/images/gm_preview/314b0e1a42af-201224075313nkbh-jpg.webp
+ok n55 (1200, 630) https://img.semafor.com/83d19c021675c8788a1805ec9d0e61788c567380-1177x811.jpg?rect=0,97,1177,618&w=1200&h=630&q=75&auto=format
+ok n37 (1200, 815) https://techcrunch.com/wp-content/uploads/2026/10/Screenshot_20261013_211032.png?resize=1200,815
+ok n56 (868, 488) https://media.thenextweb.com/2026/06/ramp-series-f-44-billion-valuation.jpg
+ok n57 (1024, 341) https://sg-imgs.dealroom.co/0e19e39becb541dc9509dbd296e81bdf.jpeg?ar=3:1&fit=crop&crop=faces,center&auto=compress&cs=origin
+generic share image https://thenextweb.com/news/schneider-electric-ptc-22-6bn https://media.thenextweb.com/2026/10/schneider-electric-logo-office-facade-berlin.jpg
+FAIL n58 None no image found
+ok n59 (1400, 841) https://images.sifted.eu/cdn-cgi/image/width=1400,quality=75,fit=cover,format=auto/wp-content/uploads/2026/10/12152231/Product-Versius-Surgical-Robotic-System-OR-B.jpg
+ok n60 (1024, 341) https://sg-imgs.dealroom.co/11232b07e3fdbaaa92cb1d22599bb486.jpeg?ar=3:1&fit=crop&crop=faces,center&auto=compress&cs=origin
+ok n61 (500, 167) https://sg-imgs.dealroom.co/8bda3a48526b8b412da41bf596331a5a.jpeg?ar=3:1&fit=crop&crop=faces,center&auto=compress&cs=origin
+ok n62 (1200, 801) https://techcrunch.com/wp-content/uploads/2026/06/ARENA_3Founders.jpg?resize=1200,801
+ok n63 (1280, 720) https://startupfortune.com/wp-content/uploads/2026/10/nvidia-perplexity-the-information.jpg
+ok n64 (1280, 720) https://startupfortune.com/wp-content/uploads/2026/10/alphafold-demis-hassabis-isomorphic-labs.jpg
+ok n65 (1200, 900) https://img.etimg.com/thumb/width-1200,height-900,imgsize-9215066,resizemode-75,msid-134870940/tech/technology/sequoia-backed-chip-startup-nuvacore-raising-funds-at-about-a-2-5-billion-valuation.jpg
+ok n66 (868, 488) https://media.thenextweb.com/2026/06/jio-platforms-ipo-3-8-billion-india-largest-ambani-debt-repayment.jpg
+ok n67 (1400, 788) https://www.eu-startups.com/wp-content/uploads/2026/10/NVIDIA-French-Startups.jpg
+ok n68 (1200, 630) https://img.semafor.com/d75646a17452b9e9f5ce8aca0bca1afa6eed0cb3-5760x3715.jpg?rect=0,346,5760,3024&w=1200&h=630&q=75&auto=format
+ok n69 (1200, 630) https://img.semafor.com/7f16e60805b8247a568959c58709d14e09cd8232-3998x2667.jpg?rect=0,285,3998,2099&w=1200&h=630&q=75&auto=format
+ok n70 (1200, 915) https://storage.ghost.io/c/b8/ae/b8aee878-7ddc-40ad-8f68-92a28c560560/content/images/2026/10/delian-weekly-1.png
+ok n71 (1280, 720) https://cdn.tech.eu/uploads/2026/10/untitled-design-3-549.png
