@@ -2272,5 +2272,33 @@
   "region": "SA",
   "auto": true,
   "found": "2026-10-14"
+ },
+ {
+  "id": "technical",
+  "name": "Technical.ly",
+  "ar": "Technical.ly",
+  "url": "https://technical.ly",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "en"
+  ],
+  "region": "US",
+  "auto": true,
+  "found": "2026-10-14"
+ },
+ {
+  "id": "cryptonews",
+  "name": "Cryptonews.net",
+  "ar": "Cryptonews.net",
+  "url": "https://cryptonews.net",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "ar"
+  ],
+  "region": "SA",
+  "auto": true,
+  "found": "2026-10-14"
  }
 ]
