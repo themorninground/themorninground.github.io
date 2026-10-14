@@ -1,0 +1,303 @@
+wd adq None
+imgfail adq https://www.google.com/s2/favicons?domain=www.adq.ae&sz=256 HTTP Error 404: Not Found
+NONE adq ['adq.ae']
+noname ministry-of-finance mof.gov.sa وزارة المالية - المملكة العربية السعودية
+NONE ministry-of-finance ['mof.gov.sa']
+FAIL gastat stats.gov.sa <urlopen error timed out>
+NONE gastat ['stats.gov.sa']
+NONE cma ['cma.org.sa']
+FAIL saudi-exchange saudiexchange.sa <urlopen error [Errno -5] No address associated with hostname>
+NONE saudi-exchange ['saudiexchange.sa']
+FAIL elm elm.sa <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>
+NONE elm ['elm.sa']
+FAIL wa-ed-ventures waed.net <urlopen error timed out>
+FAIL wa-ed-ventures waedventures.com <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)>
+NONE wa-ed-ventures ['waed.net', 'waedventures.com']
+wd aramco-ventures {'wd': 'Q679322', 'label': 'Saudi Aramco', 'desc': 'Saudi Arabian state-owned petroleum company', 'file': 'Saudi aramco logo.svg', 'prop': 'P154', 'site': 'https://www.aramco.com//'}
+ok aramco-ventures {'wd': 'Q679322', 'label': 'Saudi Aramco', 'desc': 'Saudi Arabian state-owned petroleum company', 'file': 'Saudi aramco logo.svg', 'prop': 'P154', 'site': 'https://www.aramco.com//', 'src': 'https://commons.wikimedia.org/wiki/Special:FilePath/Saudi_aramco_logo.svg?width=512', 'how': 'wikidata'}
+NONE dealstreetasia ['dealstreetasia.com']
+NONE the-startup-scene ['thestartupscene.me']
+NONE the-saas-news ['thesaasnews.com']
+FAIL decypha decypha.com <urlopen error timed out>
+NONE decypha ['decypha.com']
+wd asharq-al-awsat {'wd': 'Q724844', 'label': 'Asharq Al-Awsat', 'desc': 'Saudi newspaper and website', 'site': 'https://aawsat.com/'}
+NONE asharq-al-awsat ['aawsat.com', 'aawsat.com']
+NONE lucidity-insights ['lucidityinsights.com']
+FAIL magnitt magnitt.com HTTP Error 403: Forbidden
+NONE magnitt ['magnitt.com']
+FAIL pitchbook pitchbook.com HTTP Error 403: Forbidden
+NONE pitchbook ['pitchbook.com']
+NONE cb-insights ['cbinsights.com']
+NONE sifted ['sifted.eu']
+NONE menabytes ['menabytes.com']
+FAIL gulf-business gulfbusiness.com HTTP Error 403: Forbidden
+NONE gulf-business ['gulfbusiness.com']
+FAIL arabian-business arabianbusiness.com HTTP Error 405: Not Allowed
+NONE arabian-business ['arabianbusiness.com']
+imgfail the-national-news https://www.google.com/s2/favicons?domain=www.thenationalnews.com:443&sz=256 HTTP Error 404: Not Found
+NONE the-national-news ['thenationalnews.com']
+NONE al-eqtisadiah ['aleqt.com']
+FAIL zero-to-one-media 0to1.sa <urlopen error [Errno -2] Name or service not known>
+FAIL zero-to-one-media zerotoone.sa <urlopen error [Errno -2] Name or service not known>
+FAIL zero-to-one-media sefr1.com HTTP Error 404: Not Found
+noname zero-to-one-media zto.sa welcome - صفر لواحد
+FAIL zero-to-one-media newsletter.zto.sa <urlopen error [Errno -5] No address associated with hostname>
+noname zero-to-one-media shuhub.ai شُهُب — حيث تنطلق المنتجات العربية
+noname zero-to-one-media ecosystemsa.com Saudi Ecosystem Directory | دليل ريادة الأعمال السعودي
+NONE zero-to-one-media ['0to1.sa', 'zerotoone.sa', 'sefr1.com', 'zto.sa', 'newsletter.zto.sa', 'shuhub.ai', 'ecosystemsa.com']
+noname oraseya-capital oraseya.com 
+FAIL oraseya-capital oraseya.ae <urlopen error [Errno -2] Name or service not known>
+nocontext oraseya-capital startupintros.com Startup Intros — Stop Pitching Blind. Start Matching Smart.
+nocontext oraseya-capital gulfpitch.com GulfPitch — The Gulf Startup Show &amp; GCC Funding Map
+NONE oraseya-capital ['oraseyacapital.com', 'oraseya.com', 'oraseya.ae', 'oraseyacapital.ae', 'startupintros.com', 'gulfpitch.com']
+FAIL nayla-finance naylafinance.com HTTP Error 403: Forbidden
+NONE nayla-finance ['naylafinance.com']
+imgfail blominvest https://www.blominvestbank.com/BlomInvest/images/mobileicon.png cannot identify image file <_io.BytesIO object at 0x7f9d1add7ce0>
+imgfail blominvest https://www.google.com/s2/favicons?domain=www.blominvestbank.com&sz=256 HTTP Error 404: Not Found
+NONE blominvest ['blominvestbank.com']
+imgfail x-tech-fund-sab-invest https://www.google.com/s2/favicons?domain=sabinvest.com&sz=256 HTTP Error 404: Not Found
+NONE x-tech-fund-sab-invest ['sabinvest.com']
+FAIL gib-saudi-arabia gib.com HTTP Error 403: Forbidden
+NONE gib-saudi-arabia ['gib.com']
+FAIL kanoo-ventures kanooventures.com <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)>
+FAIL kanoo-ventures kanoo.com <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'kanoo.com'. (_ssl.c:1010)>
+NONE kanoo-ventures ['kanooventures.com', 'kanoo.com']
+FAIL ksh-investments privatemarketview.com HTTP Error 429: Too Many Requests
+noname ksh-investments article.wn.com World News
+noname ksh-investments menafn.com Business &amp; Financial - International News, Currencies &amp; Economic Indicators
+ok ksh-investments {'domain': 'en.aletihad.ae', 'final': 'https://en.aletihad.ae', 'title': 'Home Page  -  Aletihad News Center', 'src': 'https://www.google.com/s2/favicons?domain=en.aletihad.ae&sz=256', 'how': 'site'}
+noname echelon saudishopper.com.sa Saudi ICT Shopper News | Saudi Tech &amp; Telecom News
+noname echelon techxmedia.com TECHx Media - TECHx Media
+NONE echelon ['saudishopper.com.sa', 'techxmedia.com']
+FAIL east40 east40.vc <urlopen error [Errno -2] Name or service not known>
+FAIL east40 east40.ae <urlopen error [Errno -2] Name or service not known>
+nocontext east40 east40holding.com East40 Holding
+noname east40 ecosystemsa.com Saudi Ecosystem Directory | دليل ريادة الأعمال السعودي
+noname east40 gritt.io gritt.io — Personalised investor outreach for startups
+noname east40 prospeo.io Prospeo - Find Verified Emails &amp; Phone Numbers for Outreach
+NONE east40 ['east40.vc', 'east40.com', 'east40.ae', 'east40holding.com', 'ecosystemsa.com', 'gritt.io', 'prospeo.io']
+nocontext avra avra.com Home - Avra
+NONE avra ['avra.com']
+FAIL m20-fund marketscreener.com HTTP Error 403: Forbidden
+FAIL m20-fund sa.marketscreener.com HTTP Error 403: Forbidden
+ok m20-fund {'domain': 'maaal.com', 'final': 'https://maaal.com', 'title': 'صحيفة مال - أخبار المال والأعمال والاقتصاد السعودي - صحيفة مال', 'src': 'https://maaal.com/apple-icon.png?122c310157c94221', 'how': 'site'}
+NONE noon-investments []
+FAIL ebla-ventures ebla.vc <urlopen error [Errno -2] Name or service not known>
+ok ebla-ventures {'domain': 'eblaventures.com', 'final': 'https://eblaventures.com', 'title': 'Home - Ebla', 'src': 'https://eblaventures.com/wp-content/uploads/2025/03/cropped-Group-2-180x180.png', 'how': 'site'}
+FAIL stride-ventures strideventures.in <urlopen error [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010)>
+FAIL stride-ventures strideventures.com <urlopen error timed out>
+NONE stride-ventures ['strideventures.in', 'strideventures.com']
+FAIL tanami tanami.com <urlopen error _ssl.c:993: The handshake operation timed out>
+FAIL tanami tanami.bh <urlopen error [Errno -2] Name or service not known>
+imgfail tanami https://www.tanamicapital.com/favicon.ico HTTP Error 404: Not Found
+imgfail tanami https://www.tanamicapital.com/favicon.ico HTTP Error 404: Not Found
+NONE tanami ['tanami.com', 'tanami.bh', 'tanamicapital.com', 'tanami.capital']
+NONE 1818-ventures []
+NONE quantic-financial-solutions []
+FAIL boyu-capital boyucapital.com <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>
+NONE boyu-capital ['boyucapital.com']
+NONE zhenfund ['zhenfund.com']
+NONE orrick ['orrick.com']
+NONE arcapita ['arcapita.com']
+NONE yazeed-al-rajhi-brothers-holding []
+NONE d-global-ventures []
+NONE project-suppliers []
+noname pinnacle pinnacle-capital.com 
+noname pinnacle pinnaclecapital.co 
+noname pinnacle pinnacle.vc 
+FAIL pinnacle pinnaclecapital.sa <urlopen error [Errno -2] Name or service not known>
+NONE pinnacle ['pinnacle-capital.com', 'pinnaclecapital.co', 'pinnacle.vc', 'pinnaclecapital.sa']
+FAIL enhance enhance.ae <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'enhance.ae'. (_ssl.c:1010)>
+noname enhance getenhance.com 
+NONE enhance ['enhance.ae', 'getenhance.com']
+NONE remedium []
+NONE oro []
+imgfail stellaria https://www.google.com/s2/favicons?domain=stellaria.ai&sz=256 HTTP Error 404: Not Found
+FAIL stellaria stellaria.ae <urlopen error [Errno -2] Name or service not known>
+NONE stellaria ['stellaria.ai', 'stellaria.ae']
+FAIL raff raff.sa <urlopen error [Errno -2] Name or service not known>
+FAIL raff raff.store <urlopen error [Errno -2] Name or service not known>
+FAIL raff raff.com.sa <urlopen error [Errno -2] Name or service not known>
+NONE raff ['raff.sa', 'raff.store', 'raff.com.sa']
+NONE xsquare []
+FAIL tax-star taxstar.ae <urlopen error [Errno -2] Name or service not known>
+imgfail tax-star https://www.google.com/s2/favicons?domain=taxstar.ai&sz=256 HTTP Error 404: Not Found
+FAIL tax-star tax-star.com <urlopen error [Errno -2] Name or service not known>
+NONE tax-star ['taxstar.ae', 'taxstar.ai', 'tax-star.com']
+FAIL avanz-capital avanz.capital <urlopen error [Errno -2] Name or service not known>
+NONE avanz-capital ['avanzcapital.com', 'avanz.capital']
+noname exits-mena exitsmena.com Client Challenge
+FAIL exits-mena exits-mena.com <urlopen error [Errno -2] Name or service not known>
+NONE exits-mena ['exitsmena.com', 'exits-mena.com']
+FAIL naran naran.ae <urlopen error timed out>
+nocontext naran naran.io Rubén Naranjo Izquierdo
+FAIL naran naran.com <urlopen error timed out>
+NONE naran ['naran.ae', 'naran.io', 'naran.com']
+imgfail cobi https://www.google.com/s2/favicons?domain=www.cobi.ai&sz=256 HTTP Error 404: Not Found
+FAIL cobi cobi.ae <urlopen error [Errno -2] Name or service not known>
+FAIL cobi getcobi.com <urlopen error timed out>
+NONE cobi ['cobi.ai', 'cobi.ae', 'getcobi.com']
+imgfail moove https://www.google.com/s2/favicons?domain=www.moove.io:443&sz=256 HTTP Error 404: Not Found
+NONE moove ['moove.io']
+nocontext bundle bundle.social Unified Social Media API, Unlimited Social Accounts
+nocontext bundle bundle.money bundle.money — 9y · 5 refs | ExpiredDomains.com
+parked bundle bundlewallet.com
+noname bundle bundle.ae 
+NONE bundle ['bundle.social', 'bundle.money', 'bundlewallet.com', 'bundle.ae']
+noname ash-games ashgames.com 
+FAIL ash-games ash.games <urlopen error [Errno -2] Name or service not known>
+FAIL ash-games ashgames.sa <urlopen error [Errno -2] Name or service not known>
+NONE ash-games ['ashgames.com', 'ash.games', 'ashgames.sa']
+FAIL doctorbook doctorbook.sy <urlopen error [Errno -2] Name or service not known>
+FAIL doctorbook doctorbook.app <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)>
+FAIL doctorbook doctorbook.com <urlopen error timed out>
+NONE doctorbook ['doctorbook.sy', 'doctorbook.app', 'doctorbook.com']
+FAIL by-venture-partners byventurepartners.com <urlopen error [Errno -2] Name or service not known>
+FAIL by-venture-partners by.vc <urlopen error [Errno -3] Temporary failure in name resolution>
+NONE by-venture-partners ['byventurepartners.com', 'by.vc']
+NONE labby []
+FAIL silq silq.co <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)>
+FAIL silq silq.com <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'silq.com'. (_ssl.c:1010)>
+NONE silq ['silq.co', 'silq.com']
+nocontext kuadra kuadra.ai Kuadra IA - Control de Costos
+noname kuadra kuadra.io 
+nocontext kuadra kuadra.co Virtual Bookkeeping Services | Multilingual Accounting Support
+NONE kuadra ['kuadra.ai', 'kuadra.io', 'kuadra.co']
+FAIL reme-d reme-d.com HTTP Error 403: Forbidden
+FAIL reme-d reme-d.net <urlopen error [Errno -2] Name or service not known>
+NONE reme-d ['reme-d.com', 'remed.com', 'reme-d.net']
+NONE incubayt []
+parked takeem takeem.com
+FAIL takeem takeem.ae <urlopen error [Errno 111] Connection refused>
+NONE takeem ['takeem.com', 'takeem.ae']
+FAIL almakhfi almakhfi.com <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>
+FAIL almakhfi almakhfi.sa <urlopen error [Errno -2] Name or service not known>
+NONE almakhfi ['almakhfi.com', 'almakhfi.sa']
+FAIL tarmeez-capital tarmeezcapital.com <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)>
+nocontext tarmeez-capital tarmeez.com.sa Tarmeez Sales Dashboard Demo
+nocontext tarmeez-capital tarmeez.sa Home
+NONE tarmeez-capital ['tarmeezcapital.com', 'tarmeez.com.sa', 'tarmeez.sa']
+FAIL solidrange solidrange.io <urlopen error [Errno -2] Name or service not known>
+NONE solidrange ['solidrange.com', 'solidrange.io']
+NONE growth-catalyst-fund []
+FAIL coefficient coefficient.ae <urlopen error [Errno -2] Name or service not known>
+noname coefficient coefficientcapital.com 
+NONE coefficient ['coefficient.ae', 'coefficientcapital.com']
+NONE spring []
+FAIL dark-reading darkreading.com HTTP Error 403: Forbidden
+NONE dark-reading ['darkreading.com']
+NONE newswire ['newswire.com']
+nocontext eduact eduact.me 
+noname eduact eduact.com 
+NONE eduact ['eduact.me', 'eduact.com']
+imgfail blom-invest-saudi https://www.blominvest.sa/images/mobileicon.png cannot identify image file <_io.BytesIO object at 0x7f9d1a112020>
+FAIL blom-invest-saudi blominvestsaudi.com <urlopen error [Errno -2] Name or service not known>
+FAIL blom-invest-saudi blom.sa <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1010)>
+NONE blom-invest-saudi ['blominvest.sa', 'blominvestsaudi.com', 'blom.sa']
+ok ramp {'domain': 'ramp.com', 'final': 'https://ramp.com', 'title': 'Spend Management, Corporate Cards &amp; Accounts Payable Solutions | Ramp', 'src': 'https://ramp.com/apple-touch-icon.png', 'how': 'site'}
+ok pluto-security {'domain': 'pluto.security', 'final': 'https://pluto.security', 'title': 'Enabling CISOs to say YES - Pluto Security', 'src': 'https://pluto.security/wp-content/uploads/2026/04/favicon-new-200x200.jpg', 'how': 'site'}
+ok arena {'domain': 'lmarena.ai', 'final': 'https://arena.ai/', 'title': 'Arena AI: The Official AI Ranking &amp; LLM Leaderboard', 'src': 'https://arena.ai/apple-touch-icon.png', 'how': 'site'}
+wd perplexity {'wd': 'Q124333951', 'label': 'Perplexity AI', 'desc': 'American conversational search engine company', 'file': 'Perplexity AI logo.svg', 'prop': 'P154', 'site': 'https://www.perplexity.ai/hub/'}
+ok perplexity {'wd': 'Q124333951', 'label': 'Perplexity AI', 'desc': 'American conversational search engine company', 'file': 'Perplexity AI logo.svg', 'prop': 'P154', 'site': 'https://www.perplexity.ai/hub/', 'src': 'https://commons.wikimedia.org/wiki/Special:FilePath/Perplexity_AI_logo.svg?width=512', 'how': 'wikidata'}
+ok isomorphic-labs {'domain': 'isomorphiclabs.com', 'final': 'https://www.isomorphiclabs.com/', 'title': 'Reimagining Drug Discovery Process with AI - Isomorphic Labs', 'src': 'https://cdn.prod.website-files.com/683d9417ea8f9b604314bfb1/6943e611af86b1bb63e2dbb4_63a1ea62b9dd95563ab9266f_ISO%20-%20Webclip%20Image.png', 'how': 'site'}
+ok nuvacore {'domain': 'nuvacore.com', 'final': 'https://nuvacore.ai/', 'title': 'NUVACORE | The Core of What’s Next', 'src': 'https://www.google.com/s2/favicons?domain=nuvacore.ai&sz=256', 'how': 'site'}
+ok 1komma5 {'domain': '1komma5.com', 'final': 'https://1komma5.com/de/', 'title': '🏠☀️Immer der günstigste und sauberste Strom | 1KOMMA5°', 'src': 'https://1komma5.com/og/apple-icon.png', 'how': 'site'}
+wd doctolib {'wd': 'Q116152937', 'label': 'Doctolib GmbH', 'desc': 'German subsidiary of the French digital health company Doctolib', 'site': 'https://www.doctolib.de/'}
+FAIL doctolib doctolib.de HTTP Error 403: Forbidden
+FAIL doctolib doctolib.fr HTTP Error 403: Forbidden
+FAIL doctolib doctolib.com HTTP Error 403: Forbidden
+NONE doctolib ['doctolib.de', 'doctolib.fr', 'doctolib.com']
+wd bumble None
+ok bumble {'domain': 'bumble.com', 'final': 'https://bumble.com', 'title': 'Bumble | Date, Chat &amp; Meet New People', 'src': 'https://bumble.com/bumble-brand-assets/favicon/apple-touch-icon.png', 'how': 'site'}
+NONE volta []
+ok varda {'domain': 'varda.com', 'final': 'https://www.varda.com/', 'title': 'Space born, Earth bound • Varda Space Industries', 'src': 'https://cdn.prod.website-files.com/69737782e8f70a763e5f85d4/6a2ae8685cf9ad0af169c58a_Webclip.png', 'how': 'site'}
+wd jio-platforms {'wd': 'Q96418672', 'label': 'Jio Platforms', 'desc': 'Indian telecommunications and technology company', 'site': 'https://www.jio.com/'}
+noname jio-platforms jio.com 
+noname jio-platforms jio.com 
+NONE jio-platforms ['jio.com', 'jio.com']
+wd schneider-electric {'wd': 'Q49053', 'label': 'Schneider Electric', 'desc': 'France-based multinational corporation', 'file': 'Schneider Electric 2007.svg', 'prop': 'P154', 'site': 'https://www.se.com'}
+ok schneider-electric {'wd': 'Q49053', 'label': 'Schneider Electric', 'desc': 'France-based multinational corporation', 'file': 'Schneider Electric 2007.svg', 'prop': 'P154', 'site': 'https://www.se.com', 'src': 'https://commons.wikimedia.org/wiki/Special:FilePath/Schneider_Electric_2007.svg?width=512', 'how': 'wikidata'}
+wd ptc {'wd': 'Q1760641', 'label': 'Parametric Technology Corporation', 'desc': 'U.S.-based computer software company', 'file': 'PTC logo.svg', 'prop': 'P154', 'site': 'http://www.ptc.com'}
+ok ptc {'wd': 'Q1760641', 'label': 'Parametric Technology Corporation', 'desc': 'U.S.-based computer software company', 'file': 'PTC logo.svg', 'prop': 'P154', 'site': 'http://www.ptc.com', 'src': 'https://commons.wikimedia.org/wiki/Special:FilePath/PTC_logo.svg?width=512', 'how': 'wikidata'}
+wd stryker {'wd': 'Q2357515', 'label': 'Stryker Corporation', 'desc': 'American medical technologies company', 'file': 'Stryker logo.svg', 'prop': 'P154', 'site': 'http://www.stryker.com'}
+ok stryker {'wd': 'Q2357515', 'label': 'Stryker Corporation', 'desc': 'American medical technologies company', 'file': 'Stryker logo.svg', 'prop': 'P154', 'site': 'http://www.stryker.com', 'src': 'https://commons.wikimedia.org/wiki/Special:FilePath/Stryker_logo.svg?width=512', 'how': 'wikidata'}
+ok cmr-surgical {'domain': 'cmrsurgical.com', 'final': 'https://us.cmrsurgical.com/', 'title': 'CMR Surgical - Transforming Surgery. For Good.', 'src': 'https://us.cmrsurgical.com/wp-content/uploads/2022/04/cropped-cmr-surgical-favicon-180x180.png', 'how': 'site'}
+ok oratomic {'domain': 'oratomic.com', 'final': 'https://www.oratomic.com/', 'title': 'Oratomic | Fault-Tolerant Quantum Computing', 'src': 'https://www.oratomic.com/apple-touch-icon.png', 'how': 'site'}
+nocontext atlas-atomics atlasatomics.com Atlas Atomics
+FAIL atlas-atomics atlasatomics.io <urlopen error timed out>
+NONE atlas-atomics ['atlasatomics.com', 'atlasatomics.io']
+wd deepseek {'wd': 'Q131577453', 'label': 'DeepSeek', 'desc': 'Chinese artificial intelligence company', 'file': 'DeepSeek logo.svg', 'prop': 'P154', 'site': 'https://deepseek.com'}
+ok deepseek {'wd': 'Q131577453', 'label': 'DeepSeek', 'desc': 'Chinese artificial intelligence company', 'file': 'DeepSeek logo.svg', 'prop': 'P154', 'site': 'https://deepseek.com', 'src': 'https://commons.wikimedia.org/wiki/Special:FilePath/DeepSeek_logo.svg?width=512', 'how': 'wikidata'}
+FAIL crescent-enterprises crescententerprises.com <urlopen error timed out>
+NONE crescent-enterprises ['crescententerprises.com']
+NONE mytvs ['mytvs.com']
+ok yasmina {'domain': 'yasmina.ai', 'final': 'https://www.yasmina.ai/', 'title': 'Yasmina - embedded insurance API for Saudi platforms', 'src': 'https://www.yasmina.ai/apple-touch-icon.png', 'how': 'site'}
+FAIL alinma-investment alinmainvestment.com <urlopen error [Errno 111] Connection refused>
+imgfail alinma-investment https://www.google.com/s2/favicons?domain=alinmacapital.com&sz=256 HTTP Error 404: Not Found
+imgfail alinma-investment https://alinmacapital.com/-/media/Project/Alinma/shared/favicon.png <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>
+NONE alinma-investment ['alinmainvestment.com', 'alinmacapital.com']
+ok salehli {'domain': 'salehli.com', 'final': 'https://www.salehli.com/', 'title': 'صلّحلي - منصة الخدمات المهنية', 'src': 'https://www.salehli.com/images/icon-192x192.png', 'how': 'site'}
+ok aden-health {'domain': 'aden.health', 'final': 'https://aden.health', 'title': 'Unlock the potential of your unique biology | Aden', 'src': 'https://framerusercontent.com/images/0uPRIGvAWAfpaa23OkZEmk0oZng.png', 'how': 'site'}
+ok mazal {'domain': 'mazal.ae', 'final': 'https://mazal.ae', 'title': 'Luxury Abayas &amp; Kaftans Online UAE | MAZAL', 'src': 'https://mazal.ae/images/brand/logo.png', 'how': 'site'}
+wd microsoft {'wd': 'Q2283', 'label': 'Microsoft', 'desc': 'American multinational technology corporation', 'file': 'Microsoft logo (1980).svg', 'prop': 'P154', 'site': 'https://www.microsoft.com/'}
+ok microsoft {'wd': 'Q2283', 'label': 'Microsoft', 'desc': 'American multinational technology corporation', 'file': 'Microsoft logo (1980).svg', 'prop': 'P154', 'site': 'https://www.microsoft.com/', 'src': 'https://commons.wikimedia.org/wiki/Special:FilePath/Microsoft_logo_%281980%29.svg?width=512', 'how': 'wikidata'}
+NONE g42 ['g42.ai']
+ok raya-holding {'domain': 'rayacorp.com', 'final': 'https://rayacorp.com', 'title': 'Home - Raya Corp', 'src': 'https://rayacorp.com/wp-content/themes/raya/img/favicon/apple-touch-icon.png', 'how': 'site'}
+NONE growthx []
+ok snoonu {'domain': 'snoonu.com', 'final': 'https://snoonu.com', 'title': 'Fastest food delivery &amp; online shopping', 'src': 'https://snoonu.com/images/favicon/144.png', 'how': 'site'}
+ok hired-valley {'domain': 'hiredvalley.com', 'final': 'https://hiredvalley.com', 'title': 'Международная карьерная платформа | Hired Valley', 'src': 'https://hiredvalley.com/brand/hired-valley-icon.png', 'how': 'site'}
+ok talebhub {'domain': 'talebhub.com', 'final': 'https://talebhub.com', 'title': 'Talebhub &#8211; Welcome', 'src': 'https://www.google.com/s2/favicons?domain=talebhub.com&sz=256', 'how': 'site'}
+FAIL src src.sa <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>
+NONE src ['src.sa']
+wd banque-du-caire {'wd': 'Q4857077', 'label': 'Banque du Caire', 'desc': 'bank in Cairo', 'file': 'Banque du caire Logo.svg', 'prop': 'P154', 'site': 'https://www.bdc.com.eg'}
+ok banque-du-caire {'wd': 'Q4857077', 'label': 'Banque du Caire', 'desc': 'bank in Cairo', 'file': 'Banque du caire Logo.svg', 'prop': 'P154', 'site': 'https://www.bdc.com.eg', 'src': 'https://commons.wikimedia.org/wiki/Special:FilePath/Banque_du_caire_Logo.svg?width=512', 'how': 'wikidata'}
+wd banque-misr {'wd': 'Q2060638', 'label': 'Banque Misr', 'desc': 'Egyptian bank', 'file': 'Banque Misr.svg', 'prop': 'P154', 'site': 'https://www.banquemisr.com/'}
+ok banque-misr {'wd': 'Q2060638', 'label': 'Banque Misr', 'desc': 'Egyptian bank', 'file': 'Banque Misr.svg', 'prop': 'P154', 'site': 'https://www.banquemisr.com/', 'src': 'https://commons.wikimedia.org/wiki/Special:FilePath/Banque_Misr.svg?width=512', 'how': 'wikidata'}
+FAIL ci-capital cicapital.com <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>
+NONE ci-capital ['cicapital.com']
+FAIL rasmal-ventures rasmal.vc <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>
+ok rasmal-ventures {'domain': 'rasmalventures.com', 'final': 'https://www.rasmalventures.com/en', 'title': 'Homepage | Rasmal Ventures', 'src': 'https://www.rasmalventures.com/img/favicon/apple-icon-180x180.png', 'how': 'site'}
+ok strategic-gears {'domain': 'strategicgears.com', 'final': 'https://strategicgears.com', 'title': 'Strategic Gears', 'src': 'https://strategicgears.com/favicon.ico', 'how': 'site'}
+noname hamad-bin-saedan saedan.com 
+noname hamad-bin-saedan binsaedan.com 
+FAIL hamad-bin-saedan saedan.sa <urlopen error [Errno -2] Name or service not known>
+NONE hamad-bin-saedan ['saedan.com', 'binsaedan.com', 'saedan.sa']
+wd egyptian-exchange {'wd': 'Q2509254', 'label': 'Egyptian Exchange', 'desc': 'formerly Cairo and Alexandria Stock Exchanges (CASE)', 'file': 'The Egyptian Exchange logo.png', 'prop': 'P154', 'site': 'https://www.egx.com.eg/en/homepage.aspx'}
+ok egyptian-exchange {'wd': 'Q2509254', 'label': 'Egyptian Exchange', 'desc': 'formerly Cairo and Alexandria Stock Exchanges (CASE)', 'file': 'The Egyptian Exchange logo.png', 'prop': 'P154', 'site': 'https://www.egx.com.eg/en/homepage.aspx', 'src': 'https://commons.wikimedia.org/wiki/Special:FilePath/The_Egyptian_Exchange_logo.png?width=512', 'how': 'wikidata'}
+ok lightspeed {'domain': 'lsvp.com', 'final': 'https://lsvp.com', 'title': 'Lightspeed Venture Partners', 'src': 'https://lsvp.com/wp-content/uploads/2023/04/mstile-310x310-1.png', 'how': 'site'}
+ok khosla-ventures {'domain': 'khoslaventures.com', 'final': 'https://www.khoslaventures.com/', 'title': 'Khosla Ventures', 'src': 'https://cdn.prod.website-files.com/67539a3c13f571f3ecb310f9/67eda1f7d10e329c601e7a46_kv-favicon%202.png', 'how': 'site'}
+ok general-catalyst {'domain': 'generalcatalyst.com', 'final': 'https://www.generalcatalyst.com/', 'title': 'General Catalyst', 'src': 'https://www.google.com/s2/favicons?domain=www.generalcatalyst.com&sz=256', 'how': 'site'}
+ok thrive-capital {'domain': 'thrivecap.com', 'final': 'https://www.thrivecap.com/', 'title': 'Thrive Capital', 'src': 'https://framerusercontent.com/images/wTRQbw1UlJLLsjPTdU2bulTkj6M.png', 'how': 'site'}
+ok dragoneer {'domain': 'dragoneer.com', 'final': 'https://www.dragoneer.com/', 'title': 'Home', 'src': 'https://cdn.prod.website-files.com/67d468571abba14b3eeb3ed0/68406326cfe9e67ec35b192b_fav_icon_256.png', 'how': 'site'}
+ok founders-fund {'domain': 'foundersfund.com', 'final': 'https://foundersfund.com', 'title': 'Founders Fund', 'src': 'https://foundersfund.com/apple-touch-icon-152x152.png', 'how': 'site'}
+ok jump-capital {'domain': 'jumpcap.com', 'final': 'https://jumpcap.com', 'title': 'Home - Jump Capital', 'src': 'https://jumpcap.com/wp-content/uploads/2024/06/cropped-favicon-180x180.png', 'how': 'site'}
+ok apollo {'domain': 'apollo.com', 'final': 'https://www.apollo.com/', 'title': 'Home | Apollo Global Management', 'src': 'https://www.google.com/s2/favicons?domain=www.apollo.com&sz=256', 'how': 'site'}
+ok jpmorgan {'domain': 'jpmorganchase.com', 'final': 'https://www.jpmorganchase.com/', 'title': 'Home | JPMorganChase', 'src': 'https://www.jpmorganchase.com/etc.clientlibs/cws/clientlibs/clientlib-base/resources/jpmc/images/jpmc-favicon-152.png', 'how': 'site'}
+ok goldman-sachs {'domain': 'goldmansachs.com', 'final': 'https://www.goldmansachs.com/', 'title': 'Home | Goldman Sachs', 'src': 'https://cdn.gs.com/images/goldman-sachs/v2/gs-favicon-180.png', 'how': 'site'}
+ok fintechgate {'domain': 'fintechgate.net', 'final': 'https://fintechgate.net', 'title': 'بوابة التكنولوجيا المالية – Fintechgate - fintechgate', 'src': 'https://fintechgate.net/apple-icon-180x180.png?r=1.1', 'how': 'site'}
+FAIL arab-news arabnews.com HTTP Error 403: Forbidden
+NONE arab-news ['arabnews.com']
+ok semafor {'domain': 'semafor.com', 'final': 'https://www.semafor.com/', 'title': 'Semafor - An intelligent, transparent global news platform for breaking stories, analysis and video', 'src': 'https://www.semafor.com/apple-touch-icon.png', 'how': 'site'}
+ok techcrunch {'domain': 'techcrunch.com', 'final': 'https://techcrunch.com', 'title': 'TechCrunch | Startup and Technology News', 'src': 'https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180', 'how': 'site'}
+NONE eu-startups ['eu-startups.com']
+ok startup-fortune {'domain': 'startupfortune.com', 'final': 'https://startupfortune.com', 'title': 'Startup Fortune - Financial news and market intelligence covering AI, crypto, and precious metals', 'src': 'https://startupfortune.com/wp-content/uploads/2026/06/startup_fortune_icon-1.png', 'how': 'site'}
+ok the-recursive {'domain': 'therecursive.com', 'final': 'https://www.therecursive.com/', 'title': 'Emerging Markets Tech Ecosystem Intelligence &amp; Access | The Recursive', 'src': 'https://www.google.com/s2/favicons?domain=www.therecursive.com&sz=256', 'how': 'site'}
+ok economic-times {'domain': 'economictimes.indiatimes.com', 'final': 'https://economictimes.indiatimes.com', 'title': 'Business News Live, Share Market News - Read Latest Finance News, IPO, Mutual Funds News - The Economic Times', 'src': 'https://economictimes.indiatimes.com/thumb/width-120,height-120,msid-75267040/et.jpg', 'how': 'site'}
+ok mena-startup-digest {'domain': 'menastartupdigest.com', 'final': 'https://menastartupdigest.com', 'title': 'MENA Startup News | MENA Startup Digest', 'src': 'https://menastartupdigest.com/wp-content/uploads/2025/07/cropped-MSD-Black-180x180.png', 'how': 'site'}
+imgfail enterpriseam https://ent.news/internal/apple-touch-icon.png HTTP Error 403: Forbidden
+imgfail enterpriseam https://ent.news/internal/favicon-96x96.png HTTP Error 403: Forbidden
+imgfail enterpriseam https://ent.news/internal/favicon.svg HTTP Error 403: Forbidden
+NONE enterpriseam ['enterpriseam.com']
+ok dxbstart {'domain': 'dxbstart.com', 'final': 'https://www.dxbstart.com/', 'title': 'Dubai Startup News — Funding, Companies &amp; Ecosystem Data | DXBStart', 'src': 'https://www.dxbstart.com/images/favicon/apple-touch-icon.png', 'how': 'site'}
+imgfail wsgr https://www.wsgr.com/cached/40144/images/favicons/apple-touch-icon.png HTTP Error 404: Not Found
+ok wsgr {'domain': 'wsgr.com', 'final': 'https://www.wsgr.com/en/', 'title': 'Home | Wilson Sonsini', 'src': 'https://www.wsgr.com/cached/40144/images/favicons/mstile-144x144.png', 'how': 'site'}
+wd anthropic {'wd': 'Q116758847', 'label': 'Anthropic', 'desc': 'American artificial intelligence corporation', 'file': 'Anthropic logo.svg', 'prop': 'P154', 'site': 'https://www.anthropic.com/'}
+ok anthropic {'wd': 'Q116758847', 'label': 'Anthropic', 'desc': 'American artificial intelligence corporation', 'file': 'Anthropic logo.svg', 'prop': 'P154', 'site': 'https://www.anthropic.com/', 'src': 'https://commons.wikimedia.org/wiki/Special:FilePath/Anthropic_logo.svg?width=512', 'how': 'wikidata'}
+wd openai {'wd': 'Q21708200', 'label': 'OpenAI', 'desc': 'American artificial intelligence research organization', 'file': 'OpenAI logo 2025 (wordmark).svg', 'prop': 'P154', 'site': 'https://openai.com/'}
+ok openai {'wd': 'Q21708200', 'label': 'OpenAI', 'desc': 'American artificial intelligence research organization', 'file': 'OpenAI logo 2025 (wordmark).svg', 'prop': 'P154', 'site': 'https://openai.com/', 'src': 'https://commons.wikimedia.org/wiki/Special:FilePath/OpenAI_logo_2025_%28wordmark%29.svg?width=512', 'how': 'wikidata'}
+ok salesforce-ventures {'domain': 'salesforceventures.com', 'final': 'https://salesforceventures.com', 'title': 'Salesforce Ventures | For The Most Enterprising Founders', 'src': 'https://salesforceventures.com/wp-content/uploads/2022/05/cropped-Untitled-1-2.png?w=180', 'how': 'site'}
+ok capital-one {'domain': 'capitalone.com', 'final': 'https://www.capitalone.com/', 'title': 'Capital One | Credit Cards, Checking, Savings &amp; Auto Loans', 'src': 'https://www.capitalone.com/assets/shell/apple-touch-icon.png', 'how': 'site'}
+NONE maynger-ventures []
+FAIL cib-egypt cibeg.com <urlopen error [SSL: TLSV1_UNRECOGNIZED_NAME] tlsv1 unrecognized name (_ssl.c:1010)>
+NONE cib-egypt ['cibeg.com']
+ok redwheel {'domain': 'redwheel.com', 'final': 'https://www.redwheel.com/uk/en/professional/', 'title': 'Homepage | Professional | Redwheel', 'src': 'https://www.google.com/s2/favicons?domain=www.redwheel.com&sz=256', 'how': 'site'}

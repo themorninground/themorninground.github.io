@@ -389,5 +389,440 @@
   "title": "AI SOC Agents | Faster Detection &amp; Lower Costs | COGNNA",
   "src": "https://cdn.prod.website-files.com/68619c5d239c7a3f045f1866/686e91fa2ec31389f23143d5_Untitled%20design%20-%202025-07-09T152159.108.png",
   "how": "site"
+ },
+ "aramco-ventures": {
+  "wd": "Q679322",
+  "label": "Saudi Aramco",
+  "desc": "Saudi Arabian state-owned petroleum company",
+  "file": "Saudi aramco logo.svg",
+  "prop": "P154",
+  "site": "https://www.aramco.com//",
+  "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Saudi_aramco_logo.svg?width=512",
+  "how": "wikidata"
+ },
+ "ksh-investments": {
+  "domain": "en.aletihad.ae",
+  "final": "https://en.aletihad.ae",
+  "title": "Home Page  -  Aletihad News Center",
+  "src": "https://www.google.com/s2/favicons?domain=en.aletihad.ae&sz=256",
+  "how": "site"
+ },
+ "m20-fund": {
+  "domain": "maaal.com",
+  "final": "https://maaal.com",
+  "title": "صحيفة مال - أخبار المال والأعمال والاقتصاد السعودي - صحيفة مال",
+  "src": "https://maaal.com/apple-icon.png?122c310157c94221",
+  "how": "site"
+ },
+ "ebla-ventures": {
+  "domain": "eblaventures.com",
+  "final": "https://eblaventures.com",
+  "title": "Home - Ebla",
+  "src": "https://eblaventures.com/wp-content/uploads/2025/03/cropped-Group-2-180x180.png",
+  "how": "site"
+ },
+ "ramp": {
+  "domain": "ramp.com",
+  "final": "https://ramp.com",
+  "title": "Spend Management, Corporate Cards &amp; Accounts Payable Solutions | Ramp",
+  "src": "https://ramp.com/apple-touch-icon.png",
+  "how": "site"
+ },
+ "pluto-security": {
+  "domain": "pluto.security",
+  "final": "https://pluto.security",
+  "title": "Enabling CISOs to say YES - Pluto Security",
+  "src": "https://pluto.security/wp-content/uploads/2026/04/favicon-new-200x200.jpg",
+  "how": "site"
+ },
+ "arena": {
+  "domain": "lmarena.ai",
+  "final": "https://arena.ai/",
+  "title": "Arena AI: The Official AI Ranking &amp; LLM Leaderboard",
+  "src": "https://arena.ai/apple-touch-icon.png",
+  "how": "site"
+ },
+ "perplexity": {
+  "wd": "Q124333951",
+  "label": "Perplexity AI",
+  "desc": "American conversational search engine company",
+  "file": "Perplexity AI logo.svg",
+  "prop": "P154",
+  "site": "https://www.perplexity.ai/hub/",
+  "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Perplexity_AI_logo.svg?width=512",
+  "how": "wikidata"
+ },
+ "isomorphic-labs": {
+  "domain": "isomorphiclabs.com",
+  "final": "https://www.isomorphiclabs.com/",
+  "title": "Reimagining Drug Discovery Process with AI - Isomorphic Labs",
+  "src": "https://cdn.prod.website-files.com/683d9417ea8f9b604314bfb1/6943e611af86b1bb63e2dbb4_63a1ea62b9dd95563ab9266f_ISO%20-%20Webclip%20Image.png",
+  "how": "site"
+ },
+ "nuvacore": {
+  "domain": "nuvacore.com",
+  "final": "https://nuvacore.ai/",
+  "title": "NUVACORE | The Core of What’s Next",
+  "src": "https://www.google.com/s2/favicons?domain=nuvacore.ai&sz=256",
+  "how": "site"
+ },
+ "1komma5": {
+  "domain": "1komma5.com",
+  "final": "https://1komma5.com/de/",
+  "title": "🏠☀️Immer der günstigste und sauberste Strom | 1KOMMA5°",
+  "src": "https://1komma5.com/og/apple-icon.png",
+  "how": "site"
+ },
+ "bumble": {
+  "domain": "bumble.com",
+  "final": "https://bumble.com",
+  "title": "Bumble | Date, Chat &amp; Meet New People",
+  "src": "https://bumble.com/bumble-brand-assets/favicon/apple-touch-icon.png",
+  "how": "site"
+ },
+ "varda": {
+  "domain": "varda.com",
+  "final": "https://www.varda.com/",
+  "title": "Space born, Earth bound • Varda Space Industries",
+  "src": "https://cdn.prod.website-files.com/69737782e8f70a763e5f85d4/6a2ae8685cf9ad0af169c58a_Webclip.png",
+  "how": "site"
+ },
+ "schneider-electric": {
+  "wd": "Q49053",
+  "label": "Schneider Electric",
+  "desc": "France-based multinational corporation",
+  "file": "Schneider Electric 2007.svg",
+  "prop": "P154",
+  "site": "https://www.se.com",
+  "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Schneider_Electric_2007.svg?width=512",
+  "how": "wikidata"
+ },
+ "ptc": {
+  "wd": "Q1760641",
+  "label": "Parametric Technology Corporation",
+  "desc": "U.S.-based computer software company",
+  "file": "PTC logo.svg",
+  "prop": "P154",
+  "site": "http://www.ptc.com",
+  "src": "https://commons.wikimedia.org/wiki/Special:FilePath/PTC_logo.svg?width=512",
+  "how": "wikidata"
+ },
+ "stryker": {
+  "wd": "Q2357515",
+  "label": "Stryker Corporation",
+  "desc": "American medical technologies company",
+  "file": "Stryker logo.svg",
+  "prop": "P154",
+  "site": "http://www.stryker.com",
+  "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Stryker_logo.svg?width=512",
+  "how": "wikidata"
+ },
+ "cmr-surgical": {
+  "domain": "cmrsurgical.com",
+  "final": "https://us.cmrsurgical.com/",
+  "title": "CMR Surgical - Transforming Surgery. For Good.",
+  "src": "https://us.cmrsurgical.com/wp-content/uploads/2022/04/cropped-cmr-surgical-favicon-180x180.png",
+  "how": "site"
+ },
+ "oratomic": {
+  "domain": "oratomic.com",
+  "final": "https://www.oratomic.com/",
+  "title": "Oratomic | Fault-Tolerant Quantum Computing",
+  "src": "https://www.oratomic.com/apple-touch-icon.png",
+  "how": "site"
+ },
+ "deepseek": {
+  "wd": "Q131577453",
+  "label": "DeepSeek",
+  "desc": "Chinese artificial intelligence company",
+  "file": "DeepSeek logo.svg",
+  "prop": "P154",
+  "site": "https://deepseek.com",
+  "src": "https://commons.wikimedia.org/wiki/Special:FilePath/DeepSeek_logo.svg?width=512",
+  "how": "wikidata"
+ },
+ "yasmina": {
+  "domain": "yasmina.ai",
+  "final": "https://www.yasmina.ai/",
+  "title": "Yasmina - embedded insurance API for Saudi platforms",
+  "src": "https://www.yasmina.ai/apple-touch-icon.png",
+  "how": "site"
+ },
+ "salehli": {
+  "domain": "salehli.com",
+  "final": "https://www.salehli.com/",
+  "title": "صلّحلي - منصة الخدمات المهنية",
+  "src": "https://www.salehli.com/images/icon-192x192.png",
+  "how": "site"
+ },
+ "aden-health": {
+  "domain": "aden.health",
+  "final": "https://aden.health",
+  "title": "Unlock the potential of your unique biology | Aden",
+  "src": "https://framerusercontent.com/images/0uPRIGvAWAfpaa23OkZEmk0oZng.png",
+  "how": "site"
+ },
+ "mazal": {
+  "domain": "mazal.ae",
+  "final": "https://mazal.ae",
+  "title": "Luxury Abayas &amp; Kaftans Online UAE | MAZAL",
+  "src": "https://mazal.ae/images/brand/logo.png",
+  "how": "site"
+ },
+ "microsoft": {
+  "wd": "Q2283",
+  "label": "Microsoft",
+  "desc": "American multinational technology corporation",
+  "file": "Microsoft logo (1980).svg",
+  "prop": "P154",
+  "site": "https://www.microsoft.com/",
+  "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Microsoft_logo_%281980%29.svg?width=512",
+  "how": "wikidata"
+ },
+ "raya-holding": {
+  "domain": "rayacorp.com",
+  "final": "https://rayacorp.com",
+  "title": "Home - Raya Corp",
+  "src": "https://rayacorp.com/wp-content/themes/raya/img/favicon/apple-touch-icon.png",
+  "how": "site"
+ },
+ "snoonu": {
+  "domain": "snoonu.com",
+  "final": "https://snoonu.com",
+  "title": "Fastest food delivery &amp; online shopping",
+  "src": "https://snoonu.com/images/favicon/144.png",
+  "how": "site"
+ },
+ "hired-valley": {
+  "domain": "hiredvalley.com",
+  "final": "https://hiredvalley.com",
+  "title": "Международная карьерная платформа | Hired Valley",
+  "src": "https://hiredvalley.com/brand/hired-valley-icon.png",
+  "how": "site"
+ },
+ "talebhub": {
+  "domain": "talebhub.com",
+  "final": "https://talebhub.com",
+  "title": "Talebhub &#8211; Welcome",
+  "src": "https://www.google.com/s2/favicons?domain=talebhub.com&sz=256",
+  "how": "site"
+ },
+ "banque-du-caire": {
+  "wd": "Q4857077",
+  "label": "Banque du Caire",
+  "desc": "bank in Cairo",
+  "file": "Banque du caire Logo.svg",
+  "prop": "P154",
+  "site": "https://www.bdc.com.eg",
+  "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Banque_du_caire_Logo.svg?width=512",
+  "how": "wikidata"
+ },
+ "banque-misr": {
+  "wd": "Q2060638",
+  "label": "Banque Misr",
+  "desc": "Egyptian bank",
+  "file": "Banque Misr.svg",
+  "prop": "P154",
+  "site": "https://www.banquemisr.com/",
+  "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Banque_Misr.svg?width=512",
+  "how": "wikidata"
+ },
+ "rasmal-ventures": {
+  "domain": "rasmalventures.com",
+  "final": "https://www.rasmalventures.com/en",
+  "title": "Homepage | Rasmal Ventures",
+  "src": "https://www.rasmalventures.com/img/favicon/apple-icon-180x180.png",
+  "how": "site"
+ },
+ "strategic-gears": {
+  "domain": "strategicgears.com",
+  "final": "https://strategicgears.com",
+  "title": "Strategic Gears",
+  "src": "https://strategicgears.com/favicon.ico",
+  "how": "site"
+ },
+ "egyptian-exchange": {
+  "wd": "Q2509254",
+  "label": "Egyptian Exchange",
+  "desc": "formerly Cairo and Alexandria Stock Exchanges (CASE)",
+  "file": "The Egyptian Exchange logo.png",
+  "prop": "P154",
+  "site": "https://www.egx.com.eg/en/homepage.aspx",
+  "src": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Egyptian_Exchange_logo.png?width=512",
+  "how": "wikidata"
+ },
+ "lightspeed": {
+  "domain": "lsvp.com",
+  "final": "https://lsvp.com",
+  "title": "Lightspeed Venture Partners",
+  "src": "https://lsvp.com/wp-content/uploads/2023/04/mstile-310x310-1.png",
+  "how": "site"
+ },
+ "khosla-ventures": {
+  "domain": "khoslaventures.com",
+  "final": "https://www.khoslaventures.com/",
+  "title": "Khosla Ventures",
+  "src": "https://cdn.prod.website-files.com/67539a3c13f571f3ecb310f9/67eda1f7d10e329c601e7a46_kv-favicon%202.png",
+  "how": "site"
+ },
+ "general-catalyst": {
+  "domain": "generalcatalyst.com",
+  "final": "https://www.generalcatalyst.com/",
+  "title": "General Catalyst",
+  "src": "https://www.google.com/s2/favicons?domain=www.generalcatalyst.com&sz=256",
+  "how": "site"
+ },
+ "thrive-capital": {
+  "domain": "thrivecap.com",
+  "final": "https://www.thrivecap.com/",
+  "title": "Thrive Capital",
+  "src": "https://framerusercontent.com/images/wTRQbw1UlJLLsjPTdU2bulTkj6M.png",
+  "how": "site"
+ },
+ "dragoneer": {
+  "domain": "dragoneer.com",
+  "final": "https://www.dragoneer.com/",
+  "title": "Home",
+  "src": "https://cdn.prod.website-files.com/67d468571abba14b3eeb3ed0/68406326cfe9e67ec35b192b_fav_icon_256.png",
+  "how": "site"
+ },
+ "founders-fund": {
+  "domain": "foundersfund.com",
+  "final": "https://foundersfund.com",
+  "title": "Founders Fund",
+  "src": "https://foundersfund.com/apple-touch-icon-152x152.png",
+  "how": "site"
+ },
+ "jump-capital": {
+  "domain": "jumpcap.com",
+  "final": "https://jumpcap.com",
+  "title": "Home - Jump Capital",
+  "src": "https://jumpcap.com/wp-content/uploads/2024/06/cropped-favicon-180x180.png",
+  "how": "site"
+ },
+ "apollo": {
+  "domain": "apollo.com",
+  "final": "https://www.apollo.com/",
+  "title": "Home | Apollo Global Management",
+  "src": "https://www.google.com/s2/favicons?domain=www.apollo.com&sz=256",
+  "how": "site"
+ },
+ "jpmorgan": {
+  "domain": "jpmorganchase.com",
+  "final": "https://www.jpmorganchase.com/",
+  "title": "Home | JPMorganChase",
+  "src": "https://www.jpmorganchase.com/etc.clientlibs/cws/clientlibs/clientlib-base/resources/jpmc/images/jpmc-favicon-152.png",
+  "how": "site"
+ },
+ "goldman-sachs": {
+  "domain": "goldmansachs.com",
+  "final": "https://www.goldmansachs.com/",
+  "title": "Home | Goldman Sachs",
+  "src": "https://cdn.gs.com/images/goldman-sachs/v2/gs-favicon-180.png",
+  "how": "site"
+ },
+ "fintechgate": {
+  "domain": "fintechgate.net",
+  "final": "https://fintechgate.net",
+  "title": "بوابة التكنولوجيا المالية – Fintechgate - fintechgate",
+  "src": "https://fintechgate.net/apple-icon-180x180.png?r=1.1",
+  "how": "site"
+ },
+ "semafor": {
+  "domain": "semafor.com",
+  "final": "https://www.semafor.com/",
+  "title": "Semafor - An intelligent, transparent global news platform for breaking stories, analysis and video",
+  "src": "https://www.semafor.com/apple-touch-icon.png",
+  "how": "site"
+ },
+ "techcrunch": {
+  "domain": "techcrunch.com",
+  "final": "https://techcrunch.com",
+  "title": "TechCrunch | Startup and Technology News",
+  "src": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180",
+  "how": "site"
+ },
+ "startup-fortune": {
+  "domain": "startupfortune.com",
+  "final": "https://startupfortune.com",
+  "title": "Startup Fortune - Financial news and market intelligence covering AI, crypto, and precious metals",
+  "src": "https://startupfortune.com/wp-content/uploads/2026/06/startup_fortune_icon-1.png",
+  "how": "site"
+ },
+ "the-recursive": {
+  "domain": "therecursive.com",
+  "final": "https://www.therecursive.com/",
+  "title": "Emerging Markets Tech Ecosystem Intelligence &amp; Access | The Recursive",
+  "src": "https://www.google.com/s2/favicons?domain=www.therecursive.com&sz=256",
+  "how": "site"
+ },
+ "economic-times": {
+  "domain": "economictimes.indiatimes.com",
+  "final": "https://economictimes.indiatimes.com",
+  "title": "Business News Live, Share Market News - Read Latest Finance News, IPO, Mutual Funds News - The Economic Times",
+  "src": "https://economictimes.indiatimes.com/thumb/width-120,height-120,msid-75267040/et.jpg",
+  "how": "site"
+ },
+ "mena-startup-digest": {
+  "domain": "menastartupdigest.com",
+  "final": "https://menastartupdigest.com",
+  "title": "MENA Startup News | MENA Startup Digest",
+  "src": "https://menastartupdigest.com/wp-content/uploads/2025/07/cropped-MSD-Black-180x180.png",
+  "how": "site"
+ },
+ "dxbstart": {
+  "domain": "dxbstart.com",
+  "final": "https://www.dxbstart.com/",
+  "title": "Dubai Startup News — Funding, Companies &amp; Ecosystem Data | DXBStart",
+  "src": "https://www.dxbstart.com/images/favicon/apple-touch-icon.png",
+  "how": "site"
+ },
+ "wsgr": {
+  "domain": "wsgr.com",
+  "final": "https://www.wsgr.com/en/",
+  "title": "Home | Wilson Sonsini",
+  "src": "https://www.wsgr.com/cached/40144/images/favicons/mstile-144x144.png",
+  "how": "site"
+ },
+ "anthropic": {
+  "wd": "Q116758847",
+  "label": "Anthropic",
+  "desc": "American artificial intelligence corporation",
+  "file": "Anthropic logo.svg",
+  "prop": "P154",
+  "site": "https://www.anthropic.com/",
+  "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Anthropic_logo.svg?width=512",
+  "how": "wikidata"
+ },
+ "openai": {
+  "wd": "Q21708200",
+  "label": "OpenAI",
+  "desc": "American artificial intelligence research organization",
+  "file": "OpenAI logo 2025 (wordmark).svg",
+  "prop": "P154",
+  "site": "https://openai.com/",
+  "src": "https://commons.wikimedia.org/wiki/Special:FilePath/OpenAI_logo_2025_%28wordmark%29.svg?width=512",
+  "how": "wikidata"
+ },
+ "salesforce-ventures": {
+  "domain": "salesforceventures.com",
+  "final": "https://salesforceventures.com",
+  "title": "Salesforce Ventures | For The Most Enterprising Founders",
+  "src": "https://salesforceventures.com/wp-content/uploads/2022/05/cropped-Untitled-1-2.png?w=180",
+  "how": "site"
+ },
+ "capital-one": {
+  "domain": "capitalone.com",
+  "final": "https://www.capitalone.com/",
+  "title": "Capital One | Credit Cards, Checking, Savings &amp; Auto Loans",
+  "src": "https://www.capitalone.com/assets/shell/apple-touch-icon.png",
+  "how": "site"
+ },
+ "redwheel": {
+  "domain": "redwheel.com",
+  "final": "https://www.redwheel.com/uk/en/professional/",
+  "title": "Homepage | Professional | Redwheel",
+  "src": "https://www.google.com/s2/favicons?domain=www.redwheel.com&sz=256",
+  "how": "site"
  }
 }
