@@ -1,0 +1,474 @@
+{
+ "sama": {
+  "wd": "Q2605574",
+  "label": "Saudi Central Bank",
+  "desc": "central bank",
+  "file": "Logo Saudi Arabian Monetary Authority.svg",
+  "prop": "P154",
+  "site": "http://www.sama.gov.sa",
+  "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Logo_Saudi_Arabian_Monetary_Authority.svg?width=512",
+  "how": "wikidata"
+ },
+ "pif": {
+  "wd": "Q12220298",
+  "label": "Public Investment Fund",
+  "desc": "sovereign wealth fund owned by Saudi Arabia",
+  "file": "Public Investment Fund (Saudi Arabia) logo.svg",
+  "prop": "P154",
+  "site": "https://pif.gov.sa",
+  "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Public_Investment_Fund_%28Saudi_Arabia%29_logo.svg?width=512",
+  "how": "wikidata"
+ },
+ "mubadala": {
+  "wd": "Q55645212",
+  "label": "Mubadala Investment Company",
+  "desc": "United Arab Emirates sovereign wealth fund",
+  "file": "Mubadala Investment logo.svg",
+  "prop": "P154",
+  "site": "https://www.mubadala.com/",
+  "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Mubadala_Investment_logo.svg?width=512",
+  "how": "wikidata"
+ },
+ "qia": {
+  "domain": "qia.qa",
+  "final": "https://qia.qa/en/pages/default.aspx",
+  "title": "",
+  "src": "https://www.google.com/s2/favicons?domain=qia.qa&sz=256",
+  "how": "site"
+ },
+ "ebrd": {
+  "wd": "Q488981",
+  "label": "European Bank for Reconstruction and Development",
+  "desc": "international investment bank",
+  "file": "EBRD logo.png",
+  "prop": "P154",
+  "site": "https://www.ebrd.com/",
+  "src": "https://commons.wikimedia.org/wiki/Special:FilePath/EBRD_logo.png?width=512",
+  "how": "wikidata"
+ },
+ "imf": {
+  "wd": "Q7804",
+  "label": "International Monetary Fund",
+  "desc": "international financial institution",
+  "file": "IMF-Seal ENG RGB.svg",
+  "prop": "P154",
+  "site": "https://www.imf.org/",
+  "src": "https://commons.wikimedia.org/wiki/Special:FilePath/IMF-Seal_ENG_RGB.svg?width=512",
+  "how": "wikidata"
+ },
+ "world-bank": {
+  "wd": "Q7164",
+  "label": "World Bank",
+  "desc": "international financial institution",
+  "file": "The World Bank logo.svg",
+  "prop": "P154",
+  "site": "https://www.worldbank.org/",
+  "src": "https://commons.wikimedia.org/wiki/Special:FilePath/The_World_Bank_logo.svg?width=512",
+  "how": "wikidata"
+ },
+ "monshaat": {
+  "domain": "monshaat.gov.sa",
+  "final": "https://monshaat.gov.sa/ar",
+  "title": "الهيئة العامة للمنشآت الصغيرة والمتوسطة | منشآت",
+  "src": "https://www.google.com/s2/favicons?domain=monshaat.gov.sa&sz=256",
+  "how": "site"
+ },
+ "misa": {
+  "domain": "misa.gov.sa",
+  "final": "https://misa.gov.sa",
+  "title": "Ministry of investment | وزارة الاستثمار",
+  "src": "https://misa.gov.sa/app/uploads/2024/03/Ministry_of_Investment_Logo-Dark.png",
+  "how": "site"
+ },
+ "stc": {
+  "wd": "Q1535171",
+  "label": "Saudi Telecom Company",
+  "desc": "Saudi Arabia-based telecommunications company",
+  "file": "STC-01.svg",
+  "prop": "P154",
+  "site": "https://www.stc.com.sa/",
+  "src": "https://commons.wikimedia.org/wiki/Special:FilePath/STC-01.svg?width=512",
+  "how": "wikidata"
+ },
+ "aramco-ventures": {
+  "domain": "aramcoventures.com",
+  "final": "https://aramcoventures.com",
+  "title": "Home New - Aramco Ventures",
+  "src": "https://aramcoventures.com/wp-content/themes/aramco/assets/images/favicons/apple-touch-icon.png?v=0.11",
+  "how": "site"
+ },
+ "softbank": {
+  "wd": "Q201653",
+  "label": "SoftBank Group",
+  "desc": "Japanese company",
+  "file": "Softbank mobile logo.svg",
+  "prop": "P154",
+  "site": "https://group.softbank/",
+  "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Softbank_mobile_logo.svg?width=512",
+  "how": "wikidata"
+ },
+ "jawlah": {
+  "domain": "jawlah.co",
+  "final": "https://jawlah.co",
+  "title": "جولة | منصة أخبار الاستثمار الجريء",
+  "src": "https://jawlah.co/wp-content/uploads/2026/02/cropped-Favicon-Avatar-180x180.png",
+  "how": "site"
+ },
+ "zawya": {
+  "domain": "zawya.com",
+  "final": "https://www.zawya.com:443/en/",
+  "title": "ZAWYA - The Trusted Source for Business and Finance News",
+  "src": "https://assets.zawya.com/prod/assets/favicon-180x180.07463bd2.png",
+  "how": "site"
+ },
+ "entrepreneur-me": {
+  "domain": "entrepreneur.com",
+  "final": "https://www.entrepreneur.com/",
+  "title": "Homepage | Entrepreneur",
+  "src": "https://www.entrepreneur.com/wp-content/uploads/sites/2/2025/03/cropped-Ent_Logo_Circle_Black_300.png?w=180",
+  "how": "site"
+ },
+ "the-paypers": {
+  "domain": "thepaypers.com",
+  "final": "https://thepaypers.com",
+  "title": "The Paypers | Global Payments &amp; Fintech Industry News",
+  "src": "https://thepaypers.com/tp/tp-apple-touch-icon.png",
+  "how": "site"
+ },
+ "agbi": {
+  "domain": "agbi.com",
+  "final": "https://www.agbi.com/",
+  "title": "Arabian Gulf Business Insight | AGBI | Middle East Business News",
+  "src": "https://www.agbi.com/tachyon/sites/4/2022/03/cropped-favicon.png?fit=180%2C180",
+  "how": "site"
+ },
+ "tech-eu": {
+  "domain": "tech.eu",
+  "final": "https://tech.eu",
+  "title": "Tech.eu - European Startup, Funding and Technology News",
+  "src": "https://tech.eu/v8/apple-touch-icon.png",
+  "how": "site"
+ },
+ "the-next-web": {
+  "wd": "Q2913725",
+  "label": "TNW",
+  "desc": "tech and media company",
+  "file": "The Next Web Logo.svg",
+  "prop": "P154",
+  "site": "https://thenextweb.com/",
+  "src": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Next_Web_Logo.svg?width=512",
+  "how": "wikidata"
+ },
+ "khaleej-times": {
+  "wd": "Q1579995",
+  "label": "Khaleej Times",
+  "desc": "newspaper",
+  "file": "KT40Logo.png",
+  "prop": "P154",
+  "site": "https://www.khaleejtimes.com/",
+  "src": "https://commons.wikimedia.org/wiki/Special:FilePath/KT40Logo.png?width=512",
+  "how": "wikidata"
+ },
+ "ynet": {
+  "domain": "ynetnews.com",
+  "final": "https://www.ynetnews.com/category/3083",
+  "title": "ynetglobal - News from Israel, Middle East and Jewish World Coverage",
+  "src": "https://www.google.com/s2/favicons?domain=www.ynetnews.com&sz=256",
+  "how": "site"
+ },
+ "teleborsa": {
+  "domain": "teleborsa.it",
+  "final": "https://www.teleborsa.it/",
+  "title": "Borsa, Quotazioni, Obbligazioni, Titoli, Notizie Economia e Finanza | Teleborsa.it",
+  "src": "https://www.google.com/s2/favicons?domain=www.teleborsa.it&sz=256",
+  "how": "site"
+ },
+ "wam": {
+  "domain": "wam.ae",
+  "final": "https://www.wam.ae/",
+  "title": "وكالة أنباء الإمارات",
+  "src": "https://www.wam.ae/assets/favicon_io/apple-touch-icon.png",
+  "how": "site"
+ },
+ "me-observer": {
+  "domain": "meobserver.news",
+  "final": "https://meobserver.news",
+  "title": "Home - The Middle East Observer",
+  "src": "https://meobserver.news/wp-content/uploads/2024/07/meo-favicon-logo-2-300x300.png",
+  "how": "site"
+ },
+ "arab-founders": {
+  "domain": "arabfounders.net",
+  "final": "https://arabfounders.net",
+  "title": "عرب فاوندرز|ArabFounders: ريادة الأعمال والشركات الناشئة في الشرق الأوسط",
+  "src": "https://arabfounders.net/wp-content/uploads/2022/03/cropped-logo-new-180x180.jpg",
+  "how": "site"
+ },
+ "waya": {
+  "domain": "waya.media",
+  "final": "https://waya.media",
+  "title": "WAYA",
+  "src": "https://www.google.com/s2/favicons?domain=waya.media&sz=256",
+  "how": "site"
+ },
+ "the-disruptor": {
+  "domain": "thedisruptormag.com",
+  "final": "https://thedisruptormag.com",
+  "title": "The Disruptor Magazine &#8211; Uncovering Innovation from MENA to Central Asia",
+  "src": "https://thedisruptormag.com/wp-content/uploads/2025/07/cropped-android-chrome-512x512-1-180x180.png",
+  "how": "site"
+ },
+ "asbcf": {
+  "domain": "asbcf.org.au",
+  "final": "https://asbcf.org.au",
+  "title": "Business Partnerships &amp; Investment | Australia–Saudi Forum",
+  "src": "https://asbcf.org.au/wp-content/uploads/2023/04/favicon-300x300.png",
+  "how": "site"
+ },
+ "bloomberg": {
+  "wd": "Q13977",
+  "label": "Bloomberg L.P.",
+  "desc": "American multinational mass media corporation",
+  "file": "Bloomberg L.P. logo.svg",
+  "prop": "P154",
+  "site": "https://www.bloomberg.com/",
+  "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Bloomberg_L.P._logo.svg?width=512",
+  "how": "wikidata"
+ },
+ "reuters": {
+  "wd": "Q130879",
+  "label": "Reuters",
+  "desc": "international news agency",
+  "file": "Reuters logo 2024.svg",
+  "prop": "P154",
+  "site": "https://www.reuters.com/",
+  "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Reuters_logo_2024.svg?width=512",
+  "how": "wikidata"
+ },
+ "financial-times": {
+  "wd": "Q183399",
+  "label": "Financial Times",
+  "desc": "London-based daily newspaper",
+  "file": "Financial Times corporate logo (no background).svg",
+  "prop": "P154",
+  "site": "https://www.ft.com",
+  "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Financial_Times_corporate_logo_%28no_background%29.svg?width=512",
+  "how": "wikidata"
+ },
+ "kpmg": {
+  "wd": "Q493751",
+  "label": "KPMG",
+  "desc": "provider of audit, legal, tax advisory, financial, and business advisory services",
+  "file": "KPMG.svg",
+  "prop": "P154",
+  "site": "http://www.kpmg.fr",
+  "src": "https://commons.wikimedia.org/wiki/Special:FilePath/KPMG.svg?width=512",
+  "how": "wikidata"
+ },
+ "spa": {
+  "wd": "Q12251169",
+  "label": "Saudi Press Agency",
+  "desc": "Official government news agency of Saudi Arabia",
+  "file": "وكالة الأنباء السعودية.png",
+  "prop": "P154",
+  "site": "https://www.spa.gov.sa/",
+  "src": "https://commons.wikimedia.org/wiki/Special:FilePath/%D9%88%D9%83%D8%A7%D9%84%D8%A9_%D8%A7%D9%84%D8%A3%D9%86%D8%A8%D8%A7%D8%A1_%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9.png?width=512",
+  "how": "wikidata"
+ },
+ "oraseya-capital": {
+  "domain": "fundmomentum.vc",
+  "final": "https://fundmomentum.vc",
+  "title": "Fund Momentum: Agentic Fundraising Intelligence",
+  "src": "https://fundmomentum.vc/_cdn/static/6c093921-cc76-4d22-9e04-51cd9a9d8b86-apple-touch-icon-v2.png",
+  "how": "site"
+ },
+ "velents": {
+  "domain": "velents.com",
+  "final": "https://velents.ai/",
+  "title": "وكلاء الذكاء الاصطناعي للحكومات والمؤسسات - تمكين التحول الرقمي وتعزيز الكفاءة",
+  "src": "https://velents.ai/wp-content/uploads/2026/02/cropped-Logo-Icon-1-1-180x180.png",
+  "how": "site"
+ },
+ "blominvest": {
+  "domain": "blominvest.com",
+  "final": "https://forsale.dynadot.com/blominvest.com?drefid=2071",
+  "title": "For Sale Domain: blominvest.com",
+  "src": "https://www.google.com/s2/favicons?domain=forsale.dynadot.com&sz=256",
+  "how": "site"
+ },
+ "s60-ventures": {
+  "domain": "s60.com.sa",
+  "final": "https://s60.com.sa",
+  "title": "",
+  "src": "https://www.google.com/s2/favicons?domain=s60.com.sa&sz=256",
+  "how": "site"
+ },
+ "localglobe": {
+  "domain": "localglobe.vc",
+  "final": "https://www.phoenixcourt.vc/funds/localglobe",
+  "title": "LocalGlobe | Phoenix Court",
+  "src": "https://www.phoenixcourt.vc/apple-icon.png?apple-icon.249ftcom0dxfh.png",
+  "how": "site"
+ },
+ "decart": {
+  "domain": "decart.ai",
+  "final": "https://decart.ai",
+  "title": "The Live AI Lab the World Runs On",
+  "src": "https://cdn.prod.website-files.com/69a974f0b1fffb03644ecf2c/69b7eec046f48ce787bbaaf1_webclip.png",
+  "how": "site"
+ },
+ "daba-finance": {
+  "domain": "dabafinance.com",
+  "final": "https://dabafinance.com/en",
+  "title": "Invest in Africa with Daba: Your Gateway to High-Quality Opportunities",
+  "src": "https://www.google.com/s2/favicons?domain=dabafinance.com&sz=256",
+  "how": "site"
+ },
+ "mnt-halan": {
+  "domain": "mnt-halan.com",
+  "final": "https://mnt-halan.com",
+  "title": "",
+  "src": "https://www.google.com/s2/favicons?domain=mnt-halan.com&sz=256",
+  "how": "site"
+ },
+ "echelon": {
+  "domain": "echelonai.com",
+  "final": "https://echelonai.com",
+  "title": "Echelon: The agentic delivery platform for your enterprise systems.",
+  "src": "https://echelonai.com/images/webclip.png",
+  "how": "site"
+ },
+ "ben-horowitz": {
+  "src": "https://unavatar.io/x/bhorowitz",
+  "how": "x"
+ },
+ "ebla-ventures": {
+  "domain": "eblaventures.com",
+  "final": "https://eblaventures.com",
+  "title": "Home - Ebla",
+  "src": "https://eblaventures.com/wp-content/uploads/2025/03/cropped-Group-2-180x180.png",
+  "how": "site"
+ },
+ "justad": {
+  "domain": "justad.ai",
+  "final": "https://just.ad/",
+  "title": "JustAd – AI Marketing Assistant for All Your Ad Platforms",
+  "src": "https://www.google.com/s2/favicons?domain=just.ad&sz=256",
+  "how": "site"
+ },
+ "hsg": {
+  "domain": "hsgroup.com",
+  "final": "https://hsgroup.com",
+  "title": "Hill &amp; Smith PLC - Home",
+  "src": "https://hsgroup.com/favicons/apple-touch-icon.png",
+  "how": "site"
+ },
+ "eqt": {
+  "wd": "Q1275733",
+  "label": "EQT Partners",
+  "desc": "Swedish private equity firm",
+  "file": "EQT (Unternehmen) logo.svg",
+  "prop": "P154",
+  "site": "https://www.eqtgroup.com/",
+  "src": "https://commons.wikimedia.org/wiki/Special:FilePath/EQT_%28Unternehmen%29_logo.svg?width=512",
+  "how": "wikidata"
+ },
+ "pinnacle": {
+  "domain": "pinnaclecap.com",
+  "final": "https://afg.com/",
+  "title": "Alliance Funding Group- Equipment Leasing, Financing &amp; Working Capital",
+  "src": "https://afg.com/wp-content/uploads/2020/11/AFG-Favicon-144x144-1.png",
+  "how": "site"
+ },
+ "rela": {
+  "domain": "rela.sa",
+  "final": "https://rela.sa",
+  "title": "ريلا | منصة إدارة سكن العمالة للشركات في السعودية",
+  "src": "https://rela.sa/apple-touch-icon.png",
+  "how": "site"
+ },
+ "merak-capital": {
+  "domain": "merak.capital",
+  "final": "https://merak.capital",
+  "title": "Merak Capital",
+  "src": "https://cdn.prod.website-files.com/67ad154f604f4e7d65316e9f/67ad35c3f4987938c19cafaa_merak_fav_256.png",
+  "how": "site"
+ },
+ "funding-souq": {
+  "domain": "fundingsouq.com",
+  "final": "https://fundingsouq.com/ae/en/",
+  "title": "Investing in SME Financing in The United Arab Emirates",
+  "src": "https://fundingsouq.com/img/favicon/apple-touch-icon-ipad-retina-152x152.png?v=zVWvMsnz9mcMxTcF_IXhYmrEymGTpnosyXxdwZyHE2E&amp;v=zVWvMsnz9mcMxTcF_IXhYmrEymGTpnosyXxdwZyHE2E",
+  "how": "site"
+ },
+ "foodics": {
+  "domain": "foodics.com",
+  "final": "https://www.foodics.com/",
+  "title": "POS Point of Sale &amp; Restaurant Management System RMS",
+  "src": "https://www.foodics.com/wp-content/uploads/2021/08/Foodics_Fav-1.png",
+  "how": "site"
+ },
+ "arbor-ventures": {
+  "domain": "arborventures.com",
+  "final": "https://www.arborventures.com/",
+  "title": "Arbor Ventures",
+  "src": "https://cdn.prod.website-files.com/6078e89d783403bdc5544df3/60808f50307eb21cbf7cd0a1_webclip.png",
+  "how": "site"
+ },
+ "remedium": {
+  "domain": "remedium.ai",
+  "final": "https://remedium.ai",
+  "title": "ReMediumAI - Data for Healing. Healing with AI.",
+  "src": "https://remedium.ai/images/favicons/apple-touch-icon.png",
+  "how": "site"
+ },
+ "oro": {
+  "domain": "oro.finance",
+  "final": "https://www.oro.finance/",
+  "title": "Oro - Gold. Just Better.",
+  "src": "https://framerusercontent.com/images/xHWlIu3GFhBgHb9V5ispPjh6U7U.png",
+  "how": "site"
+ },
+ "xsquare": {
+  "domain": "xsquare.ai",
+  "final": "https://www.xsquaretechnologies.com/",
+  "title": "Smart Automated Warehouse System Solutions | XSQUARE",
+  "src": "https://cdn.prod.website-files.com/64b4c86840d0d19f7ac202c6/64f946dbe5a13d680b9cbedd_xsquare_webclip.png",
+  "how": "site"
+ },
+ "birdnest": {
+  "domain": "birdnestlife.com",
+  "final": "https://birdnestlife.com",
+  "title": "Serviced Apartments &amp; Holiday Homes in Egypt | BirdNest",
+  "src": "https://birdnestlife.com/favicon.ico",
+  "how": "site"
+ },
+ "labby": {
+  "domain": "labby.co",
+  "final": "https://labby.co",
+  "title": "Labby — Rides across Middle East",
+  "src": "https://labby.co/wp-content/uploads/2026/08/cropped-Untitled-design-180x180.png",
+  "how": "site"
+ },
+ "seedra-ventures": {
+  "domain": "seedra.com",
+  "final": "https://seedra.com",
+  "title": "SEEDRA Ventures | Venture Builder &amp; Investor",
+  "src": "https://seedra.com/wp-content/uploads/2021/03/favicon.png",
+  "how": "site"
+ },
+ "incubayt": {
+  "domain": "incubayt.com",
+  "final": "https://www.incubayt.com/",
+  "title": "Incubayt | Drive Sustainable Innovation Today",
+  "src": "https://www.google.com/s2/favicons?domain=www.incubayt.com&sz=256",
+  "how": "site"
+ },
+ "cognna": {
+  "domain": "cognna.com",
+  "final": "https://www.cognna.com/",
+  "title": "AI SOC Agents | Faster Detection &amp; Lower Costs | COGNNA",
+  "src": "https://cdn.prod.website-files.com/68619c5d239c7a3f045f1866/686e91fa2ec31389f23143d5_Untitled%20design%20-%202025-07-09T152159.108.png",
+  "how": "site"
+ }
+}
