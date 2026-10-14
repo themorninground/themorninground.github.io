@@ -90,13 +90,6 @@
   "src": "https://commons.wikimedia.org/wiki/Special:FilePath/STC-01.svg?width=512",
   "how": "wikidata"
  },
- "aramco-ventures": {
-  "domain": "aramcoventures.com",
-  "final": "https://aramcoventures.com",
-  "title": "Home New - Aramco Ventures",
-  "src": "https://aramcoventures.com/wp-content/themes/aramco/assets/images/favicons/apple-touch-icon.png?v=0.11",
-  "how": "site"
- },
  "softbank": {
   "wd": "Q201653",
   "label": "SoftBank Group",
@@ -275,25 +268,11 @@
   "src": "https://commons.wikimedia.org/wiki/Special:FilePath/%D9%88%D9%83%D8%A7%D9%84%D8%A9_%D8%A7%D9%84%D8%A3%D9%86%D8%A8%D8%A7%D8%A1_%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9.png?width=512",
   "how": "wikidata"
  },
- "oraseya-capital": {
-  "domain": "fundmomentum.vc",
-  "final": "https://fundmomentum.vc",
-  "title": "Fund Momentum: Agentic Fundraising Intelligence",
-  "src": "https://fundmomentum.vc/_cdn/static/6c093921-cc76-4d22-9e04-51cd9a9d8b86-apple-touch-icon-v2.png",
-  "how": "site"
- },
  "velents": {
   "domain": "velents.com",
   "final": "https://velents.ai/",
   "title": "وكلاء الذكاء الاصطناعي للحكومات والمؤسسات - تمكين التحول الرقمي وتعزيز الكفاءة",
   "src": "https://velents.ai/wp-content/uploads/2026/02/cropped-Logo-Icon-1-1-180x180.png",
-  "how": "site"
- },
- "blominvest": {
-  "domain": "blominvest.com",
-  "final": "https://forsale.dynadot.com/blominvest.com?drefid=2071",
-  "title": "For Sale Domain: blominvest.com",
-  "src": "https://www.google.com/s2/favicons?domain=forsale.dynadot.com&sz=256",
   "how": "site"
  },
  "s60-ventures": {
@@ -331,24 +310,6 @@
   "src": "https://www.google.com/s2/favicons?domain=mnt-halan.com&sz=256",
   "how": "site"
  },
- "echelon": {
-  "domain": "echelonai.com",
-  "final": "https://echelonai.com",
-  "title": "Echelon: The agentic delivery platform for your enterprise systems.",
-  "src": "https://echelonai.com/images/webclip.png",
-  "how": "site"
- },
- "ben-horowitz": {
-  "src": "https://unavatar.io/x/bhorowitz",
-  "how": "x"
- },
- "ebla-ventures": {
-  "domain": "eblaventures.com",
-  "final": "https://eblaventures.com",
-  "title": "Home - Ebla",
-  "src": "https://eblaventures.com/wp-content/uploads/2025/03/cropped-Group-2-180x180.png",
-  "how": "site"
- },
  "justad": {
   "domain": "justad.ai",
   "final": "https://just.ad/",
@@ -372,13 +333,6 @@
   "site": "https://www.eqtgroup.com/",
   "src": "https://commons.wikimedia.org/wiki/Special:FilePath/EQT_%28Unternehmen%29_logo.svg?width=512",
   "how": "wikidata"
- },
- "pinnacle": {
-  "domain": "pinnaclecap.com",
-  "final": "https://afg.com/",
-  "title": "Alliance Funding Group- Equipment Leasing, Financing &amp; Working Capital",
-  "src": "https://afg.com/wp-content/uploads/2020/11/AFG-Favicon-144x144-1.png",
-  "how": "site"
  },
  "rela": {
   "domain": "rela.sa",
@@ -415,27 +369,6 @@
   "src": "https://cdn.prod.website-files.com/6078e89d783403bdc5544df3/60808f50307eb21cbf7cd0a1_webclip.png",
   "how": "site"
  },
- "remedium": {
-  "domain": "remedium.ai",
-  "final": "https://remedium.ai",
-  "title": "ReMediumAI - Data for Healing. Healing with AI.",
-  "src": "https://remedium.ai/images/favicons/apple-touch-icon.png",
-  "how": "site"
- },
- "oro": {
-  "domain": "oro.finance",
-  "final": "https://www.oro.finance/",
-  "title": "Oro - Gold. Just Better.",
-  "src": "https://framerusercontent.com/images/xHWlIu3GFhBgHb9V5ispPjh6U7U.png",
-  "how": "site"
- },
- "xsquare": {
-  "domain": "xsquare.ai",
-  "final": "https://www.xsquaretechnologies.com/",
-  "title": "Smart Automated Warehouse System Solutions | XSQUARE",
-  "src": "https://cdn.prod.website-files.com/64b4c86840d0d19f7ac202c6/64f946dbe5a13d680b9cbedd_xsquare_webclip.png",
-  "how": "site"
- },
  "birdnest": {
   "domain": "birdnestlife.com",
   "final": "https://birdnestlife.com",
@@ -443,25 +376,11 @@
   "src": "https://birdnestlife.com/favicon.ico",
   "how": "site"
  },
- "labby": {
-  "domain": "labby.co",
-  "final": "https://labby.co",
-  "title": "Labby — Rides across Middle East",
-  "src": "https://labby.co/wp-content/uploads/2026/08/cropped-Untitled-design-180x180.png",
-  "how": "site"
- },
  "seedra-ventures": {
   "domain": "seedra.com",
   "final": "https://seedra.com",
   "title": "SEEDRA Ventures | Venture Builder &amp; Investor",
   "src": "https://seedra.com/wp-content/uploads/2021/03/favicon.png",
-  "how": "site"
- },
- "incubayt": {
-  "domain": "incubayt.com",
-  "final": "https://www.incubayt.com/",
-  "title": "Incubayt | Drive Sustainable Innovation Today",
-  "src": "https://www.google.com/s2/favicons?domain=www.incubayt.com&sz=256",
   "how": "site"
  },
  "cognna": {
