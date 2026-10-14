@@ -2373,7 +2373,8 @@
   ],
   "region": "SA",
   "auto": true,
-  "found": "2026-10-14"
+  "found": "2026-10-14",
+  "last_ok": "2026-10-14"
  },
  {
   "id": "timesofindia",
@@ -2400,6 +2401,77 @@
    "ar"
   ],
   "region": "SA",
+  "auto": true,
+  "found": "2026-10-14",
+  "last_ok": "2026-10-14"
+ },
+ {
+  "id": "tradersunion",
+  "name": "Traders Union",
+  "ar": "Traders Union",
+  "url": "https://tradersunion.com",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "en"
+  ],
+  "region": "EG",
+  "auto": true,
+  "found": "2026-10-14"
+ },
+ {
+  "id": "en",
+  "name": "Wowtale",
+  "ar": "Wowtale",
+  "url": "https://en.wowtale.net",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "en"
+  ],
+  "region": "US",
+  "auto": true,
+  "found": "2026-10-14"
+ },
+ {
+  "id": "techbuzz",
+  "name": "The Tech Buzz",
+  "ar": "The Tech Buzz",
+  "url": "https://techbuzz.ai",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "en"
+  ],
+  "region": "US",
+  "auto": true,
+  "found": "2026-10-14"
+ },
+ {
+  "id": "koreatechdesk",
+  "name": "KoreaTechDesk",
+  "ar": "KoreaTechDesk",
+  "url": "https://koreatechdesk.com",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "en"
+  ],
+  "region": "US",
+  "auto": true,
+  "found": "2026-10-14"
+ },
+ {
+  "id": "venturesquare",
+  "name": "벤처스퀘어",
+  "ar": "벤처스퀘어",
+  "url": "https://venturesquare.net",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "en"
+  ],
+  "region": "US",
   "auto": true,
   "found": "2026-10-14"
  }
