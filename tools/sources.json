@@ -1635,7 +1635,8 @@
   ],
   "region": "US",
   "auto": true,
-  "found": "2026-10-14"
+  "found": "2026-10-14",
+  "last_ok": "2026-10-14"
  },
  {
   "id": "app",
@@ -2249,6 +2250,20 @@
   "name": "جريدة الأنباء الكويتية",
   "ar": "جريدة الأنباء الكويتية",
   "url": "https://alanba.com.kw",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "ar"
+  ],
+  "region": "SA",
+  "auto": true,
+  "found": "2026-10-14"
+ },
+ {
+  "id": "lebanon24",
+  "name": "Lebanon 24",
+  "ar": "Lebanon 24",
+  "url": "https://lebanon24.com",
   "tier": 4,
   "kind": "discovered",
   "lang": [
