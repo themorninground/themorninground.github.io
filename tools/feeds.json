@@ -154,5 +154,8 @@
  "alanba": "",
  "lebanon24": "",
  "technical": "",
- "cryptonews": "https://cryptonews.net/rss.xml"
+ "cryptonews": "https://cryptonews.net/rss.xml",
+ "streamlinefeed": "https://streamlinefeed.co.ke/api/rss",
+ "citybiz": "",
+ "eu": "https://eu.36kr.com/feed"
 }

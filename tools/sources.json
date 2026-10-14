@@ -2314,7 +2314,8 @@
   ],
   "region": "EG",
   "auto": true,
-  "found": "2026-10-14"
+  "found": "2026-10-14",
+  "last_ok": "2026-10-14"
  },
  {
   "id": "citybiz",
@@ -2341,6 +2342,21 @@
    "en"
   ],
   "region": "US",
+  "auto": true,
+  "found": "2026-10-14",
+  "last_ok": "2026-10-14"
+ },
+ {
+  "id": "25h",
+  "name": "25H",
+  "ar": "25H",
+  "url": "https://25h.app",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "ar"
+  ],
+  "region": "SA",
   "auto": true,
   "found": "2026-10-14"
  }
