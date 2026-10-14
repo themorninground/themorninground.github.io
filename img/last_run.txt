@@ -1,1 +1,1 @@
-FAIL n40 None HTTP Error 404: Not Found
+ok n40 (790, 534) https://upload.wikimedia.org/wikipedia/commons/7/74/Egypt_SE_HQ.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail_unscaled
