@@ -30,7 +30,11 @@ old = json.load(open(OUT)) if os.path.exists(OUT) else {'items': []}
 
 TOPIC = re.compile(r"(startup|start-up|venture|\bVC\b|funding|raises?|raised|round|seed|series [a-f]|pre-seed|unicorn|valuation|acqui|merger|\bM&A\b|IPO|listing|fintech|investor|invest(s|ment)|fund\b|fund |capital|private equity|accelerator|incubator|"
                    r"شركة ناشئة|الشركات الناشئة|ناشئة|تمويل|جولة|استثمار|الاستثمار الجريء|رأس المال الجريء|مستثمر|استحواذ|اندماج|طرح|اكتتاب|يونيكورن|تقييم|صندوق|التقنية المالية|مسرعة|حاضنة)", re.I)
-VC_KINDS = {'vc', 'essays', 'reports', 'press'}
+VC_KINDS = {'vc', 'essays'}
+STRICT = re.compile(r"(start-?up|venture|\bVC\b|raises?|raised|funding round|series [a-f]\b|pre-seed|seed round|unicorn|valuation|acquires?|acquisition|IPO|fintech|accelerator|"
+                    r"شركة ناشئة|الشركات الناشئة|ناشئة|جولة|تمويل|الاستثمار الجريء|رأس المال الجريء|استحواذ|طرح عام|اكتتاب|يونيكورن|تقنية مالية|التقنية المالية)", re.I)
+JUNK = re.compile(r"sport|football|soccer|celebrity|weather|horoscope|gaming news|entertainment|tv guide|recipes|bulletin|daily mail|tabloid", re.I)
+PER_SRC = 40
 
 GNEWS = [
     ('en', 'SA', 'Saudi startup raises funding'), ('en', 'SA', 'Saudi Arabia venture capital'),
@@ -113,10 +117,15 @@ items = {x['id']: x for x in old.get('items', [])}
 by_dom = {dom(s['url']): s for s in reg if s.get('url')}
 added_sources = []
 
+per_src = {}
 def keep(d, src, force=False):
     if not d.get('date'): d['date'] = NOW
     if d['date'] < NOW - timedelta(days=KEEP_DAYS): return
-    if not force and not TOPIC.search(d['t'] + ' ' + d.get('sum', '')): return
+    txt = d['t'] + ' ' + d.get('sum', '')
+    rx = STRICT if src.get('kind') in ('discovered', 'media', 'official', 'reports', 'press') or src.get('tier', 2) >= 3 and src.get('kind') != 'essays' else TOPIC
+    if not force and not rx.search(txt): return
+    per_src[src['id']] = per_src.get(src['id'], 0) + 1
+    if per_src[src['id']] > PER_SRC: return
     key = hashlib.sha1(re.sub(r'\W+', '', d['t'].lower())[:90].encode()).hexdigest()[:12]
     if key in items:
         it = items[key]
@@ -141,7 +150,27 @@ for s in reg:
     except Exception as e:
         print('feed fail', s['id'], e)
 
-# 2. Google News searches, with automatic discovery of new outlets
+# 2a. sources without a readable feed are read through Google News 'site:' searches
+for s_ in reg:
+    if time.time() - START > BUDGET: break
+    if s_.get('auto') or not s_.get('url') or feeds.get(s_['id']): continue
+    d0 = dom(s_['url'])
+    if not d0: continue
+    lang = 'ar' if s_.get('lang') == ['ar'] else 'en'
+    q = 'site:' + d0 + ' when:14d'
+    url = 'https://news.google.com/rss/search?' + urllib.parse.urlencode({'q': q, 'hl': 'ar' if lang == 'ar' else 'en-US', 'gl': 'SA' if lang == 'ar' else 'US', 'ceid': 'SA:ar' if lang == 'ar' else 'US:en'})
+    try:
+        raw, _ = get(url)
+        for d in parse_feed(raw)[:40]:
+            name = (d.get('gsrc') or ('', ''))[0]
+            if name: d['t'] = re.sub(r'\s+-\s+' + re.escape(name) + r'$', '', d['t'])
+            keep(d, s_, force=s_.get('kind') in VC_KINDS)
+        s_['via'] = 'gnews'; s_['last_ok'] = NOW.strftime('%Y-%m-%d')
+    except Exception as e:
+        print('site fail', s_['id'], e)
+
+# 2b. Google News topic searches, with automatic discovery of new outlets
+cand = {}
 for lang, gl, q in GNEWS:
     if time.time() - START > BUDGET: break
     hl = 'ar' if lang == 'ar' else 'en-US'
@@ -155,15 +184,23 @@ for lang, gl, q in GNEWS:
         dd = dom(surl)
         src = by_dom.get(dd)
         if not src and dd:
-            sid = re.sub(r'[^a-z0-9]+', '', dd.split('.')[0])[:24] or dd
-            while any(x['id'] == sid for x in reg): sid += 'x'
-            src = {'id': sid, 'name': name or dd, 'ar': name or dd, 'url': 'https://' + dd, 'tier': 4, 'kind': 'discovered',
-                   'lang': [lang], 'region': gl, 'auto': True, 'found': NOW.strftime('%Y-%m-%d')}
-            reg.append(src); by_dom[dd] = src; added_sources.append(src['name'])
+            if JUNK.search(name + ' ' + dd) or not STRICT.search(d['t']): continue
+            cand.setdefault(dd, {'name': name or dd, 'lang': lang, 'gl': gl, 'items': []})['items'].append(d)
+            continue
         if not src: continue
         t = re.sub(r'\s+-\s+' + re.escape(name) + r'$', '', d['t']) if name else d['t']
         d['t'] = t
         keep(d, src)
+
+for dd, c in cand.items():
+    if len(c['items']) < 2: continue
+    sid = re.sub(r'[^a-z0-9]+', '', dd.split('.')[0])[:24] or dd
+    while any(x['id'] == sid for x in reg): sid += 'x'
+    src = {'id': sid, 'name': c['name'], 'ar': c['name'], 'url': 'https://' + dd, 'tier': 4, 'kind': 'discovered',
+           'lang': [c['lang']], 'region': c['gl'], 'auto': True, 'found': NOW.strftime('%Y-%m-%d')}
+    reg.append(src); by_dom[dd] = src; added_sources.append(src['name'])
+    for d in c['items']:
+        d['t'] = re.sub(r'\s+-\s+' + re.escape(c['name']) + r'$', '', d['t']); keep(d, src)
 
 lst = sorted(items.values(), key=lambda x: x['date'], reverse=True)
 lst = [x for x in lst if x['date'] >= (NOW - timedelta(days=KEEP_DAYS)).strftime('%Y-%m-%dT%H:%M:%SZ')][:2000]
