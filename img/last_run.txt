@@ -1,0 +1,9 @@
+FAIL art-mena-h1 https://i0.wp.com/ent.news/2025/4/1476.jpg?ssl=1 HTTP Error 404: Not Found
+FAIL art-arabinform None 'ascii' codec can't encode characters in position 48-50: ordinal not in range(128)
+FAIL art-pg None image too small (240, 320)
+generic share image https://en.sharikatmubasher.com/media-hub/experts-thoughts/27259 https://sharikatmubasher.com/assets/images/logo.png
+FAIL art-r001 None no image found
+page fail https://www.arabnews.com/node/3001753/business-economy HTTP Error 403: Forbidden
+page fail https://arabnews.com/business/saudi-inflation-holds-at-18-in-august-as-housing-and-food-costs-climb-3001753 HTTP Error 403: Forbidden
+page fail https://www.zawya.com/en/economy/gcc/saudi-inflation-steady-at-18-in-august HTTP Error 400: Bad Request
+FAIL e07 None no image found
