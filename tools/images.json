@@ -234,5 +234,50 @@
  {
   "id": "n35",
   "url": "https://jawlah.co/wp-content/uploads/2026/10/justad.jpg"
+ },
+ {
+  "id": "art-arabinform",
+  "pages": [
+   "https://arabinform.com/saudi-style-venture-capital-why-founders-now-need-a-riyadh-strategy/"
+  ]
+ },
+ {
+  "id": "art-pg",
+  "pages": [
+   "https://en.wikipedia.org/wiki/Paul_Graham_(programmer)"
+  ]
+ },
+ {
+  "id": "art-r001",
+  "pages": [
+   "https://en.sharikatmubasher.com/media-hub/experts-thoughts/27259"
+  ]
+ },
+ {
+  "id": "e04",
+  "pages": [
+   "https://www.arabnews.pk/business/saudi-non-oil-pmi-rises-to-553-highest-since-february-3003228",
+   "https://english.aawsat.com/business/5326056-saudi-non-oil-sector-grows-seven-month-high-september"
+  ]
+ },
+ {
+  "id": "e05",
+  "pages": [
+   "https://www.khaleejtimes.com/business/uae-business-activity-picks-up-as-prices-rise-at-fastest-pace-in-over-15-years",
+   "https://www.zawya.com/en/economy/uaes-non-oil-firms-hike-prices-at-fastest-rate-in-over-15-years-pmi-1499249"
+  ]
+ },
+ {
+  "id": "e07",
+  "pages": [
+   "https://arabnews.com/business/saudi-inflation-holds-at-18-in-august-as-housing-and-food-costs-climb-3001753",
+   "https://www.argaam.com/en/reports/inflation-report/61578"
+  ]
+ },
+ {
+  "id": "rep-sama-q1",
+  "pages": [
+   "https://en.wikipedia.org/wiki/Saudi_Central_Bank"
+  ]
  }
 ]
