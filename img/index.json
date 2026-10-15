@@ -815,5 +815,15 @@
    1280,
    850
   ]
+ },
+ "rep-visa-uae-sme-2026": {
+  "page": "https://en.wikipedia.org/wiki/Dubai_Mall",
+  "site": "",
+  "title": "Dubai Mall - Wikipedia",
+  "src": "https://thumb.wikimedia.org/wikipedia/en/thumb/d/df/Dubai_Mall_10.jpg/1280px-Dubai_Mall_10.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
+  "size": [
+   1280,
+   960
+  ]
  }
 }

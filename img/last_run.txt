@@ -1,3 +1,1 @@
-ok n87 (1400, 934) https://assets.qz.com/media/GettyImages-2283602127.jpg
-FAIL rep-visa-uae-sme-2026 None image file is truncated (4 bytes not processed)
-ok n82 (1280, 850) https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Cairo_Opera_House%2C_Al_Hurriyah_Park_and_the_Nile_river_%2814797782354%29.jpg/1280px-Cairo_Opera_House%2C_Al_Hurriyah_Park_and_the_Nile_river_%2814797782354%29.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail
+ok rep-visa-uae-sme-2026 (1280, 960) https://thumb.wikimedia.org/wikipedia/en/thumb/d/df/Dubai_Mall_10.jpg/1280px-Dubai_Mall_10.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail
