@@ -1300,7 +1300,7 @@ let rzT,rzW=innerWidth;window.addEventListener('resize',()=>{clearTimeout(rzT);r
 
 
 /* ===== concept labs: hands-on simulations ===== */
-const LABT={ar:{try:'جرّبها بيدك',reset:'من جديد',ill:'أرقام توضيحية، إلا لو مكتوب غير كذا'},en:{try:'Try it yourself',reset:'Reset',ill:'Illustrative numbers unless stated'}};
+const LABT={ar:{try:'جرّبها بيدك',reset:'من جديد',ill:'أرقام توضيحية ما لم يُذكر غير ذلك'},en:{try:'Try it yourself',reset:'Reset',ill:'Illustrative numbers unless stated'}};
 const lt=()=>LABT[L];
 const fmtM=v=>v>=1000?'$'+(v/1000).toFixed(2).replace(/\.?0+$/,'')+'B':'$'+(Math.round(v*10)/10)+'M';
 const fmtS=v=>(v>=1000?(v/1000).toFixed(2)+'B':Math.round(v)+'M')+(L==='ar'?' ريال':' SAR');
@@ -1478,10 +1478,58 @@ Object.assign(LABS,{
    d3.range(6).forEach(i=>g('c'+i).oninput=upd);upd()}}
 });
 
+/* ===== v9 labs: secondary sales vs primary rounds, and the IPO order book ===== */
+Object.assign(LABS,{
+ tender:{html:p=>`<div class="labbtns"><button class="labbtn" data-md="primary" aria-pressed="false">${AR()?'جولة أولية (أسهم جديدة)':'Primary round (new shares)'}</button><button class="labbtn" data-md="secondary" aria-pressed="true">${AR()?'بيع ثانوي (عرض شراء للموظفين)':'Secondary sale (tender offer)'}</button></div>
+  <div class="labbtns">${(p.presets||[]).map((x,i)=>`<button class="labbtn" data-pre="${i}">${esc(x.label)}</button>`).join('')}</div>
+  ${rng('t1',AR()?'التقييم ($B)':'Valuation ($B)',5,150,1,p.v||90)}${rng('t2',AR()?'حجم الصفقة ($B)':'Deal size ($B)',0.1,10,0.1,p.a||1.3)}${rng('t3',AR()?'حصة الموظفين قبل الصفقة (%)':'Employees\' stake before (%)',5,40,1,p.e||20)}
+  <div class="labviz" id="lv"></div><div class="k3"><div class="kpi"><b class="tnum" id="k1"></b><span>${AR()?'نقد يدخل الشركة':'Cash into the company'}</span></div><div class="kpi"><b class="tnum" id="k2"></b><span>${AR()?'نقد يصل للموظفين':'Cash to employees'}</span></div><div class="kpi"><b class="tnum" id="k3"></b><span>${AR()?'تخفيف ملكية الجميع':'Dilution for everyone'}</span></div></div><p class="arx note2" id="lt"></p>`,
+  bind:(el,p)=>{const g=id=>el.querySelector('#'+id);let md='secondary';const W=g('lv').clientWidth||600,H=150,m={l:90,r:10,t:10,b:10};
+   const svg=d3.select(g('lv')).append('svg').attr('viewBox',`0 0 ${W} ${H}`);const x=d3.scaleLinear([0,100],[m.l,W-m.r]);const rows=[{k:'b',y:22,en:'Before',ar:'قبل'},{k:'a',y:88,en:'After',ar:'بعد'}];
+   rows.forEach(r=>svg.append('text').attr('x',m.l-8).attr('y',r.y+26).attr('text-anchor','end').attr('font-size',13).attr('font-weight',800).attr('fill','currentColor').text(AR()?r.ar:r.en));
+   const COL={emp:'#E2A04A',inv:'var(--pop)',buy:'#5FD39A'};const NM={emp:{en:'Employees',ar:'الموظفون'},inv:{en:'Other holders',ar:'بقية المساهمين'},buy:{en:'New buyer',ar:'المشتري الجديد'}};
+   const gB=svg.append('g'),gA=svg.append('g');
+   const draw=(gg,y,segs)=>{let acc=0;const d=segs.map(s=>{const o={...s,x0:acc};acc+=s.v;return o});
+    gg.selectAll('rect').data(d,s=>s.k).join('rect').attr('y',y).attr('height',40).attr('rx',4).attr('fill',s=>COL[s.k]).transition().duration(300).attr('x',s=>x(s.x0)).attr('width',s=>Math.max(0,x(s.x0+s.v)-x(s.x0)));
+    gg.selectAll('text').data(d.filter(s=>s.v>=7),s=>s.k).join('text').attr('y',y+25).attr('text-anchor','middle').attr('font-size',11).attr('font-weight',800).attr('fill','#0B1424').transition().duration(300).attr('x',s=>x(s.x0+s.v/2)).text(s=>`${NM[s.k][L]||NM[s.k].en} ${s.v.toFixed(1)}%`)};
+   const upd=()=>{const V=+g('t1').value,A=+g('t2').value,E=+g('t3').value;g('t1v').textContent='$'+V+'B';g('t2v').textContent='$'+A.toFixed(1)+'B';g('t3v').textContent=E+'%';
+    el.querySelectorAll('[data-md]').forEach(b=>b.setAttribute('aria-pressed',b.dataset.md===md));
+    const before=[{k:'emp',v:E},{k:'inv',v:100-E}];let after,cash,emp,dil;
+    if(md==='primary'){const post=V+A;const buy=A/post*100;const f=1-buy/100;after=[{k:'emp',v:E*f},{k:'inv',v:(100-E)*f},{k:'buy',v:buy}];cash=A;emp=0;dil=buy}
+    else{const sold=Math.min(A/V*100,E);after=[{k:'emp',v:E-sold},{k:'inv',v:100-E},{k:'buy',v:sold}];cash=0;emp=sold/100*V;dil=0}
+    draw(gB,22,before);draw(gA,88,after);
+    g('k1').textContent=cash?'$'+cash.toFixed(1)+'B':'$0';g('k2').textContent=emp?'$'+emp.toFixed(2)+'B':'$0';g('k3').textContent=dil?dil.toFixed(1)+'%':'0%';
+    g('lt').textContent=md==='primary'?(AR()?`في الجولة الأولية تُصدر الشركة أسهمًا جديدة، فيدخل ${'$'+A.toFixed(1)}B إلى خزينتها، وتنخفض حصة كل مساهم بنسبة ${dil.toFixed(1)}%. هذا تمويل للنمو، لا سيولة للموظفين.`:`In a primary round the company issues new shares: $${A.toFixed(1)}B goes into its bank account and every holder is diluted by ${dil.toFixed(1)}%. It funds growth; it does not give employees cash.`)
+     :(AR()?`في البيع الثانوي لا تُصدر أسهم جديدة: الموظفون يبيعون جزءًا من حصتهم لمشترٍ جديد، فيحصلون على نحو $${emp.toFixed(2)}B نقدًا، ولا يدخل الشركة دولار واحد ولا يُخفَّف أحد. لذلك تستخدم أندوريل وغيرها عروض الشراء لإبقاء الموظفين دون إدراج.`:`In a secondary sale no new shares are issued: employees sell part of their stake to a new buyer and receive about $${emp.toFixed(2)}B, the company gets nothing and nobody is diluted. That is why Anduril and others run tender offers to keep staff without listing.`)};
+   el.querySelectorAll('[data-md]').forEach(b=>b.onclick=()=>{md=b.dataset.md;upd()});
+   el.querySelectorAll('[data-pre]').forEach(bt=>bt.onclick=()=>{const q=p.presets[+bt.dataset.pre];g('t1').value=q.v;g('t2').value=q.a;if(q.md)md=q.md;upd()});
+   ['t1','t2','t3'].forEach(i=>g(i).oninput=upd);upd()}},
+ ipobook:{html:p=>`<div class="labbtns">${(p.presets||[]).map((x,i)=>`<button class="labbtn" data-pre="${i}">${esc(x.label)}</button>`).join('')}</div>
+  ${rng('i1',AR()?'الأسهم المطروحة (مليون)':'Shares offered (M)',10,500,1,p.sh||320)}${rng('i2',AR()?'سعر الطرح':'Offer price',1,200,0.5,p.px||24.5)}${rng('i3',AR()?'حصة المستثمرين الرئيسيين (%)':'Anchor share (%)',0,60,1,p.an||35)}${rng('i4',AR()?'حصة شريحة الأفراد (%)':'Retail tranche (%)',5,50,1,p.rt||15)}${rng('i5',AR()?'تغطية شريحة المؤسسات (مرة)':'Institutional cover (x)',0.5,30,0.1,p.ic||19.4)}${rng('i6',AR()?'تغطية شريحة الأفراد (مرة)':'Retail cover (x)',0.5,30,0.1,p.rc||13.5)}
+  <div class="labviz" id="lv"></div><div class="k3"><div class="kpi"><b class="tnum" id="k1"></b><span>${AR()?'حجم الطرح':'Offer size'}</span></div><div class="kpi"><b class="tnum" id="k2"></b><span>${AR()?'إجمالي الطلبات':'Total orders'}</span></div><div class="kpi"><b class="tnum" id="k3"></b><span>${AR()?'نصيب المكتتب الفرد من طلبه':'What a retail applicant gets'}</span></div></div><p class="arx note2" id="lt"></p>`,
+  bind:(el,p)=>{const g=id=>el.querySelector('#'+id);const W=g('lv').clientWidth||600,H=190,m={l:110,r:60,t:10,b:10};const svg=d3.select(g('lv')).append('svg').attr('viewBox',`0 0 ${W} ${H}`);
+   const TR=[{k:'an',en:'Anchors',ar:'الرئيسيون'},{k:'in',en:'Institutions',ar:'المؤسسات'},{k:'rt',en:'Retail',ar:'الأفراد'}];const y=d3.scaleBand(TR.map(t=>t.k),[m.t,H-m.b]).padding(.35);
+   TR.forEach(t=>svg.append('text').attr('x',m.l-8).attr('y',y(t.k)+y.bandwidth()/2+4).attr('text-anchor','end').attr('font-size',12).attr('font-weight',800).attr('fill','currentColor').text(AR()?t.ar:t.en));
+   const gD=svg.append('g'),gO=svg.append('g'),gL=svg.append('g');
+   const upd=()=>{const sh=+g('i1').value,px=+g('i2').value,an=+g('i3').value,rt=+g('i4').value,ic=+g('i5').value,rc=+g('i6').value;
+    g('i1v').textContent=sh+'M';g('i2v').textContent=px;g('i3v').textContent=an+'%';g('i4v').textContent=rt+'%';g('i5v').textContent=ic.toFixed(1)+'x';g('i6v').textContent=rc.toFixed(1)+'x';
+    const inst=Math.max(0,100-an-rt);const val={an:sh*an/100*px,in:sh*inst/100*px,rt:sh*rt/100*px};const dem={an:val.an,in:val.in*ic,rt:val.rt*rc};
+    const mx=d3.max(Object.values(dem))||1;const x=d3.scaleLinear([0,mx],[m.l,W-m.r]);const rows=TR.map(t=>({k:t.k,o:val[t.k],d:dem[t.k]}));
+    gD.selectAll('rect').data(rows,d=>d.k).join('rect').attr('y',d=>y(d.k)).attr('height',y.bandwidth()).attr('fill','#5FD39A').attr('opacity',.35).attr('rx',3).transition().duration(300).attr('x',m.l).attr('width',d=>x(d.d)-m.l);
+    gO.selectAll('rect').data(rows,d=>d.k).join('rect').attr('y',d=>y(d.k)+y.bandwidth()*.2).attr('height',y.bandwidth()*.6).attr('fill','var(--pop)').attr('rx',3).transition().duration(300).attr('x',m.l).attr('width',d=>Math.max(1,x(d.o)-m.l));
+    gL.selectAll('text').data(rows,d=>d.k).join('text').attr('y',d=>y(d.k)+y.bandwidth()/2+4).attr('font-size',11).attr('font-weight',800).attr('fill','currentColor').transition().duration(300).attr('x',d=>x(d.d)+4).text(d=>d.k==='an'?'1x':(d.d/Math.max(d.o,1e-9)).toFixed(1)+'x');
+    const tot=val.an+val.in+val.rt,ord=dem.an+dem.in+dem.rt;const f=v=>v>=1000?(v/1000).toFixed(2)+'B':v.toFixed(0)+'M';
+    g('k1').textContent=f(tot);g('k2').textContent=f(ord);g('k3').textContent=rc>1?Math.round(100/rc)+'%':'100%';
+    g('lt').textContent=AR()?`الأعمدة الداكنة ما هو معروض في كل شريحة، والفاتحة حجم الطلبات. المستثمرون الرئيسيون يلتزمون مسبقًا بسعر ثابت فيمنحون الطرح الثقة، ثم تُقسَّم بقية الأسهم بين المؤسسات والأفراد. ومع تغطية ${rc.toFixed(1)} مرة، يحصل المكتتب الفرد على نحو ${rc>1?Math.round(100/rc):100}% فقط مما طلبه. التغطية العالية تقيس الطلب، لكنها لا تضمن أداء السهم بعد الإدراج.`
+     :`Dark bars are what each tranche offers; light bars are the orders. Anchors commit in advance at a fixed price, which gives the deal credibility; the rest is split between institutions and retail. At ${rc.toFixed(1)}x cover, a retail applicant gets only about ${rc>1?Math.round(100/rc):100}% of what they asked for. High cover measures demand; it does not guarantee how the stock trades after listing.`};
+   el.querySelectorAll('[data-pre]').forEach(bt=>bt.onclick=()=>{const q=p.presets[+bt.dataset.pre];['sh','px','an','rt','ic','rc'].forEach((k,i)=>{if(q[k]!=null)g('i'+(i+1)).value=q[k]});upd()});
+   ['i1','i2','i3','i4','i5','i6'].forEach(i=>g(i).oninput=upd);upd()}}
+});
+
 /* ===== For You, Learn, Concepts and profiles ===== */
 const FYT={ar:{subs:{field:'مجالي',watch:'Watchlist',learn:'Learn',saved:'المحفوظات',follows:'المتابعات'},lsubs:{today:'قراءة اليوم',tracks:'المسارات',concepts:'المفاهيم',glossary:'القاموس',notes:'ملاحظاتي',progress:'الإنجاز'},
   editInt:'عدّل اهتماماتك',newSince:'جديد من آخر زيارة',fieldDeals:'صفقات مجالك في السوق (آخر 100 يوم)',noFieldDeals:'ما فيه صفقات معلنة في مجالك بهالفترة.',openProfile:'افتح الملف',lastRound:'آخر جولة',lastStory:'آخر خبر',founded:'التأسيس',hq:'المقر',founders:'المؤسسون',type:'النوع',sector:'القطاع',
-  upNext:'التالي في مساراتك',conceptDay:'مفهوم اليوم',tryLab:'جرّبه في المختبر ←',tried:'جرّبته ✓',notTried:'ما جربته',formula:'المعادلة',seenIn:'وين شفته في الموقع',prev:'السابق',next:'التالي',backC:'كل المفاهيم',
+  upNext:'التالي في مساراتك',conceptDay:'مفهوم اليوم',tryLab:'جرّبه في المختبر ←',tried:'جرّبته ✓',notTried:'ما جربته',formula:'المعادلة',seenIn:'أين ورد في الموقع',prev:'السابق',next:'التالي',backC:'كل المفاهيم',
   topics:'المواضيع',doneT:'خلصته',nextT:'التالي',lockedT:'بعدين',read:'قراءات خلصتها',labs:'مختبرات جربتها',terms:'مصطلحات حفظتها',notesN:'ملاحظات كتبتها',days:'آخر 12 أسبوع',noNotes:'لما تكتب ملاحظة أو تجاوب سؤال اليوم في أي مقال، تطلع هنا.',yourAnswer:'جوابك',yourNotes:'ملاحظاتك',onlyMine:'محفوظاتي بس',all:'الكل',
   kinds:{company:'الشركات',investor:'المستثمرين',source:'المصادر',filter:'الفلاتر'},suggest:'اقتراحات تتابعها',watchIt:'+ أضف للـ Watchlist',inWatch:'في الـ Watchlist ✓',portfolio:'في محفظة تالي',peers:'منافسون ومشابهون',rounds:'جولات التمويل',coinv:'يستثمر غالبًا مع',portfolioOf:'صفقاته المعلنة',sectors:'القطاعات',markets:'الأسواق',noProfile:'ما عندنا ملف مكتوب لها للحين؛ هذي الصفقات والأخبار المسجلة عنها.',srcs:'مصادر الملف',dealsTotal:'صفقات معلنة',leads:'قادها',stories:'أخبار في الموقع'},
  en:{subs:{field:'My field',watch:'Watchlist',learn:'Learn',saved:'Saved',follows:'Follows'},lsubs:{today:'Today\'s read',tracks:'Tracks',concepts:'Concepts',glossary:'Glossary',notes:'My notes',progress:'Progress'},
