@@ -691,8 +691,7 @@
  },
  {
   "id": "n87",
-  "url": "https://assets.qz.com/media/GettyImages-2283602127.jpg",
-  "force": true
+  "url": "https://assets.qz.com/media/GettyImages-2283602127.jpg"
  },
  {
   "id": "n88",
@@ -721,7 +720,8 @@
  {
   "id": "rep-visa-uae-sme-2026",
   "pages": [
-   "https://mena.entrepreneur.com/finance/digital-payments-widely-used-among-uae-smes-but-financial-administration-remains-a-challenge-visa-report-finds"
+   "https://en.wikipedia.org/wiki/Dubai_Mall",
+   "https://en.wikipedia.org/wiki/Visa_Inc."
   ],
   "force": true
  },
@@ -729,8 +729,7 @@
   "id": "n82",
   "pages": [
    "https://en.wikipedia.org/wiki/Cairo"
-  ],
-  "force": true
+  ]
  },
  {
   "id": "n83",
