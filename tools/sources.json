@@ -2550,5 +2550,33 @@
   "region": "SA",
   "auto": true,
   "found": "2026-10-15"
+ },
+ {
+  "id": "romaniajournal",
+  "name": "The Romania Journal",
+  "ar": "The Romania Journal",
+  "url": "https://romaniajournal.ro",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "en"
+  ],
+  "region": "US",
+  "auto": true,
+  "found": "2026-10-15"
+ },
+ {
+  "id": "mwlana",
+  "name": "بوابة مولانا",
+  "ar": "بوابة مولانا",
+  "url": "https://mwlana.com",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "ar"
+  ],
+  "region": "SA",
+  "auto": true,
+  "found": "2026-10-15"
  }
 ]
