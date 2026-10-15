@@ -748,10 +748,10 @@
   ]
  },
  "n87": {
-  "src": "https://qz.com/cdn-cgi/image/width=1200,quality=85,format=auto/https://assets.qz.com/media/GettyImages-2283602127-300x200.jpg",
+  "src": "https://assets.qz.com/media/GettyImages-2283602127.jpg",
   "size": [
-   300,
-   200
+   1400,
+   934
   ]
  },
  "n88": {
@@ -804,6 +804,16 @@
   "size": [
    1400,
    983
+  ]
+ },
+ "n82": {
+  "page": "https://en.wikipedia.org/wiki/Cairo",
+  "site": "",
+  "title": "Cairo - Wikipedia",
+  "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Cairo_Opera_House%2C_Al_Hurriyah_Park_and_the_Nile_river_%2814797782354%29.jpg/1280px-Cairo_Opera_House%2C_Al_Hurriyah_Park_and_the_Nile_river_%2814797782354%29.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
+  "size": [
+   1280,
+   850
   ]
  }
 }
