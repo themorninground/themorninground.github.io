@@ -2506,5 +2506,47 @@
   "region": "SA",
   "auto": true,
   "found": "2026-10-15"
+ },
+ {
+  "id": "siliconindia",
+  "name": "Siliconindia",
+  "ar": "Siliconindia",
+  "url": "https://siliconindia.com",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "en"
+  ],
+  "region": "US",
+  "auto": true,
+  "found": "2026-10-15"
+ },
+ {
+  "id": "youlyou",
+  "name": "www.youlyou.com",
+  "ar": "www.youlyou.com",
+  "url": "https://youlyou.com",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "ar"
+  ],
+  "region": "SA",
+  "auto": true,
+  "found": "2026-10-15"
+ },
+ {
+  "id": "almalnews",
+  "name": "جريدة المال",
+  "ar": "جريدة المال",
+  "url": "https://almalnews.com",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "ar"
+  ],
+  "region": "SA",
+  "auto": true,
+  "found": "2026-10-15"
  }
 ]
