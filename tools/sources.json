@@ -2519,7 +2519,8 @@
   ],
   "region": "US",
   "auto": true,
-  "found": "2026-10-15"
+  "found": "2026-10-15",
+  "last_ok": "2026-10-15"
  },
  {
   "id": "youlyou",
@@ -2533,7 +2534,8 @@
   ],
   "region": "SA",
   "auto": true,
-  "found": "2026-10-15"
+  "found": "2026-10-15",
+  "last_ok": "2026-10-15"
  },
  {
   "id": "almalnews",
