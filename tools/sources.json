@@ -2492,5 +2492,19 @@
   "auto": true,
   "found": "2026-10-15",
   "last_ok": "2026-10-15"
+ },
+ {
+  "id": "erembusiness",
+  "name": "إرم بزنس",
+  "ar": "إرم بزنس",
+  "url": "https://erembusiness.com",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "ar"
+  ],
+  "region": "SA",
+  "auto": true,
+  "found": "2026-10-15"
  }
 ]
