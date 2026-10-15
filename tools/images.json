@@ -691,7 +691,8 @@
  },
  {
   "id": "n87",
-  "url": "https://qz.com/cdn-cgi/image/width=1200,quality=85,format=auto/https://assets.qz.com/media/GettyImages-2283602127-300x200.jpg"
+  "url": "https://assets.qz.com/media/GettyImages-2283602127.jpg",
+  "force": true
  },
  {
   "id": "n88",
@@ -719,11 +720,17 @@
  },
  {
   "id": "rep-visa-uae-sme-2026",
-  "url": "https://mena.entrepreneur.com/wp-content/uploads/sites/11/2026/10/shutterstock_1908264283.jpg"
+  "pages": [
+   "https://mena.entrepreneur.com/finance/digital-payments-widely-used-among-uae-smes-but-financial-administration-remains-a-challenge-visa-report-finds"
+  ],
+  "force": true
  },
  {
   "id": "n82",
-  "url": "https://i0.wp.com/ent.news/2024/5/1410.jpg?fit=%2C&ssl=1"
+  "pages": [
+   "https://en.wikipedia.org/wiki/Cairo"
+  ],
+  "force": true
  },
  {
   "id": "n83",
