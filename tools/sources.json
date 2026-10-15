@@ -2578,5 +2578,33 @@
   "region": "SA",
   "auto": true,
   "found": "2026-10-15"
+ },
+ {
+  "id": "bharatfast",
+  "name": "Bharat Fast",
+  "ar": "Bharat Fast",
+  "url": "https://bharatfast.com",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "en"
+  ],
+  "region": "US",
+  "auto": true,
+  "found": "2026-10-15"
+ },
+ {
+  "id": "egypttelegraph",
+  "name": "تليجراف مصر",
+  "ar": "تليجراف مصر",
+  "url": "https://egypttelegraph.com",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "ar"
+  ],
+  "region": "EG",
+  "auto": true,
+  "found": "2026-10-15"
  }
 ]
