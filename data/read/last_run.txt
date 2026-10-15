@@ -1,26 +1,41 @@
-FAIL r217bf1d0 https://www.mckinsey.com/industries/financial-services/our-insights/pause-pivot-or-accelerate-saas-in-the-age-of-agentic The read operation timed out
-ok rb343848d 3747 chars https://tomtunguz.com/ai-in-practice-survey-2026/
-ok rf02d3da8 13311 chars https://www.lennysnewsletter.com/p/how-to-tell-if-a-startup-has-a-moat
-ok rd0a9343b 60000 chars https://www.notboring.co/p/runway-learning-from-watching-the
-ok r075c2a20 1249 chars https://www.fwdstart.me/podcast/stride-ventures-ishpreet-singh-gandhi-on-1b-in-credit-equity-dilution-and-expanding-to-t
-FAIL r458bb0a6 https://news.google.com/rss/articles/CBMioAFBVV95cUxPOWpBaUM4U2pkYUdfZ1IxYTVHdkZCNU53TS1aVGVsRXVhdFBtbHNNSlRSRndueVE2MkZ HTTP Error 403: Forbidden
-ok r32c986cc 729 chars https://tomtunguz.com/bardia-shahali-office-hours/
-ok r8312a608 60000 chars https://sequoiacap.com/podcast/google-s-ai-infrastructure-chief-amin-vahdat-on-the-physics-economics-of-frontier-ai
-ok r1577d0e1 60000 chars https://sequoiacap.com/podcast/luca-ferrari-the-operating-system-behind-bending-spoons
-ok rfe022514 0 chars https://www.oaktreecapital.com/docs/default-source/default-document-library/credit-quarterly-new-terms.pdf?sfvrsn=e6ce2d
-ok rbefe2544 20514 chars https://a16z.com/you-need-a-new-cfo/
-ok r9c858405 41223 chars https://a16z.com/why-texas-is-making-data-centers-wait/
-ok r941a78e0 27433 chars https://a16z.com/100-gen-ai-apps-7/
-ok ra7b7c441 10077 chars https://a16z.com/podcast/beyond-the-god-model-alex-atallah-amjad-masad/
-ok r6403868c 9772 chars https://a16z.com/podcast/why-ai-agents-can-beat-the-incumbents/
-ok rc72dc6d9 29458 chars https://a16z.com/the-case-for-the-american-manufacturing-asset-class/
-ok r531dd314 7158 chars https://www.becocapital.com/why-we-invested-aiza-by-amaani/
-ok ra1031cc3 9588 chars https://jawlah.co/en/62660
-ok r6e22169c 6738 chars https://jawlah.co/en/64621
-ok rd70416f3 12778 chars https://jawlah.co/en/64815
-ok rbcbb191a 13628 chars https://jawlah.co/en/63421
-ok r6da0ee42 7603 chars https://bebeez.eu/2026/10/12/global-venture-capital-firms-pour-698-billion-us-dollars-in-startups-at-the-end-of-3q26-cb-
-ok r1d6afdbc 6347 chars https://kpmg.com/ua/en/media/press-releases/2026/08/global-vc-investment-reaches-us-dollar-560-4-billion-at-mid-year.htm
-ok r069697e2 755 chars https://aiweekly.co/alerts/crunchbase-logs-27-billion-dollar-rounds-in-q3-2026-as-ai-grabs-102b-or-64-of
-ok r0f11adb4 1771 chars https://valueaddvc.com/pulse/north-america-q3-2026-funding-falls-35-percent
-ok rd07b81c3 7574 chars https://www.agbi.com/analysis/banking-finance/2026/10/war-and-ai-make-mena-venture-capital-harder-to-secure/
+ok q15t00 4803 chars https://www.agbi.com/markets/2026/10/adia-backs-ipo-of-indias-zetwerk-as-anchor-investor/
+ok q15t01 2790 chars https://mena.entrepreneur.com/finance/digital-payments-widely-used-among-uae-smes-but-financial-administration-remains-a
+ok q15t02 2498 chars https://fintechnews.ae/34276/crypto/standard-chartered-bitcoin-ether-trading-uae/
+ok q15t03 1734 chars https://fintechnews.ae/34269/payments/ant-international-expands-uae-payment-services/
+ok q15t04 4223 chars https://fintech.global/2026/10/15/global-wealthtech-funding-surged-3x-yoy-in-q3-driven-by-growth-in-deals-over-100m/?utm
+FAIL q15t05 https://www.theinformation.com/articles/anthropics-rapid-slowing-growth-weigh-ipo-valuation HTTP Error 403: Forbidden
+FAIL q15t06 https://www.theinformation.com/briefings/anthropic-reports-16-8-billion-third-quarter-revenue HTTP Error 403: Forbidden
+ok q15t07 1349 chars https://dealroom.co/news/162724-iambic-prices-150m-ipo-to-fund-ai-discovered-drug-pipeline/
+FAIL q15t08 https://news.google.com/rss/articles/CBMisgFBVV95cUxPQU84aFhKaGNhRmkxOW4xRGJOZ0hBZC1rcFR5R2YyS2RqTHNaZExvaTg4ckppc2tTaHZ HTTP Error 403: Forbidden
+FAIL q15t09 https://news.google.com/rss/articles/CBMihAFBVV95cUxPREFXR25nQUF4WXJFTFcwN01WaS1OUWphZkFKWmRLVFlza2c3Q194d1JVdWdpRU9LWlN HTTP Error 403: Forbidden
+ok q15t10 7328 chars https://theaiinsider.tech/2026/10/14/icon-raises-200m-in-series-d-funding-to-scale-robotic-construction-systems/
+ok q15t11 4511 chars https://pulse2.com/zenzap-emerges-from-stealth-with-44-million/
+ok q15t12 0 chars https://en.wowtale.net/2026/10/15/235508/
+ok q15t13 6620 chars https://enterpriseam.com/egypt/2026/10/15/vietnamese-tech-giant-fpt-opens-first-africa-office-in-cairo/
+ok q15t14 5314 chars https://enterpriseam.com/egypt/2026/10/15/why-egx-stocks-are-going-under-the-ipo-wave/
+ok q15t15 0 chars https://en.wowtale.net/2026/10/15/235500/?utm_source=rss&utm_medium=rss&utm_campaign=3d-printing-construction-robotics-f
+ok q15t16 2824 chars https://www.cnbc.com/2026/10/14/anduril-tender-offer-valuation.html
+ok q15t17 3815 chars https://pulse2.com/gulf-islamic-investments-acquires-majority-stake-in-london-house-exchange/
+ok q15t18 3319 chars https://thenextweb.com/news/modal-750m-series-d-15-75bn-valuation
+ok q15t19 4112 chars https://thenextweb.com/news/salience-labs-125m-optical-switching
+ok q15t20 1857 chars https://dealroom.co/news/162618-promenaut-lands-8-9m-seed-to-put-guardrails-on-enterprise-ai-agents/
+ok q15t21 2713 chars https://qz.com/anduril-employee-tender-offer-90-billion-valuation-101426
+ok q15t22 3128 chars https://dealroom.co/news/162613-space42-and-viasat-commit-up-to-1b-to-launch-satellite-venture-equatys/
+ok q15t23 182 chars https://qz.com/berkshire-hathaway-bending-spoons-330-million-investment-101426
+FAIL q15t24 https://news.google.com/rss/articles/CBMivwFBVV95cUxOb3N3c2s5T2p5U2FJWHh2Yy1vMUZjWWVsX19jZG0yVVFaeTIzRFJWRldScEpCcU9Lb1F HTTP Error 403: Forbidden
+FAIL q15t25 https://news.google.com/rss/articles/CBMib0FVX3lxTE9ScmtnbjR5SkhQX1JqY0VabktQdWRRd1RSRXZ6cjJIZV8wN0t4SzNVel9DTGlSYURHU21 HTTP Error 404: Not Found
+ok q15t26 2637 chars https://entrackr.com/news/zetwerk-raises-rs-2251-cr-from-anchor-investors-ahead-of-ipo-12676491
+ok q15t27 3532 chars https://fintechgate.net/254478
+ok q15t28 11617 chars https://jawlah.co/66463
+ok q15t29 11418 chars https://streamlinefeed.co.ke/news/egypt-founded-synapse-raises-13-million-credit-ai
+ok q15t30 3489 chars https://www.semafor.com/article/10/14/2026/saudi-set-to-drop-plans-for-five-2034-world-cup-stadiums
+ok q15t31 1259 chars https://www.semafor.com/article/10/14/2026/houthis-reportedly-strike-saudi-national-oil-company-headquarters
+ok q15t32 4127 chars https://www.semafor.com/article/10/14/2026/its-a-different-oil-crisis-but-saudi-arabia-will-still-pay
+ok q15t33 4572 chars https://www.zawya.com/en/capital-markets/dubai-aerospace-plans-to-raise-over-2bln-for-working-capital-needs-report-16559
+ok q15t34 3323 chars https://www.semafor.com/article/10/14/2026/qatars-wealth-fund-keeps-spending-as-war-slashes-government-revenue
+ok q15t35 6074 chars https://www.becocapital.com/the-gulfs-new-advantage-in-building-global-technology-companies/
+ok q15t36 7947 chars https://fintechgate.net/254434
+ok q15t37 5163 chars https://www.zawya.com/ar/%D8%A8%D9%8A%D8%A7%D9%86%D8%A7-%D8%B5%D8%AD%D9%81%D9%8A%D8%A9/%D8%A7%D9%94%D8%AE%D8%A8%D8%A7%D8
+ok q15t38 4934 chars https://www.agbi.com/oil-and-gas/2026/10/omans-oqep-to-raise-2bn-from-global-markets/
+ok q15t39 2587 chars https://mena.entrepreneur.com/business-news/uae-launches-us1-million-global-prize-for-agentic-ai-that-makes-cities-more-
+ok q15t40 1398 chars https://fintechnews.ae/34251/crypto/rain-vara-licence-dubai-crypto-exchange/
