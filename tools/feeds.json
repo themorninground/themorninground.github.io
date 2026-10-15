@@ -161,5 +161,10 @@
  "25h": "https://25h.app/feed/",
  "france24": "https://www.france24.com/en/rss",
  "timesofindia": "",
- "newsx": "https://news.jkn.co.kr/rss"
+ "newsx": "https://news.jkn.co.kr/rss",
+ "tradersunion": "",
+ "en": "https://en.wowtale.net/feed/",
+ "techbuzz": "",
+ "koreatechdesk": "https://koreatechdesk.com/rss.xml",
+ "venturesquare": "https://www.venturesquare.net/feed/"
 }
