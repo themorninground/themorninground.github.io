@@ -2591,7 +2591,8 @@
   ],
   "region": "US",
   "auto": true,
-  "found": "2026-10-15"
+  "found": "2026-10-15",
+  "last_ok": "2026-10-15"
  },
  {
   "id": "egypttelegraph",
@@ -2604,6 +2605,20 @@
    "ar"
   ],
   "region": "EG",
+  "auto": true,
+  "found": "2026-10-15"
+ },
+ {
+  "id": "egyptiangazette",
+  "name": "Egyptian Gazette",
+  "ar": "Egyptian Gazette",
+  "url": "https://egyptian-gazette.com",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "en"
+  ],
+  "region": "SA",
   "auto": true,
   "found": "2026-10-15"
  }
