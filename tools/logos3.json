@@ -1885,5 +1885,325 @@
   "domains": [
    "redwheel.com"
   ]
+ },
+ "ghanem": {
+  "name": "Ghanem",
+  "domains": [
+   "ghanem.sa",
+   "ghanem.app",
+   "ghaneem.com",
+   "ghanem.com.sa"
+  ],
+  "must": [
+   "ghanem",
+   "غانم",
+   "عقار"
+  ],
+  "q": "Ghanem fractional real estate Saudi app website"
+ },
+ "saudi-aramco": {
+  "name": "Saudi Aramco",
+  "domains": [
+   "aramco.com"
+  ],
+  "wd": "Saudi Aramco",
+  "wd_must": [
+   "oil",
+   "petroleum"
+  ],
+  "alias": [
+   "aramco"
+  ]
+ },
+ "ant-international": {
+  "name": "Ant International",
+  "domains": [
+   "ant-intl.com"
+  ],
+  "must": [
+   "ant"
+  ],
+  "alias": [
+   "antom"
+  ]
+ },
+ "standard-chartered": {
+  "name": "Standard Chartered",
+  "domains": [
+   "sc.com"
+  ],
+  "wd": "Standard Chartered",
+  "alias": [
+   "standard-chartered-bank"
+  ]
+ },
+ "rain": {
+  "name": "Rain",
+  "domains": [
+   "rain.com"
+  ],
+  "must": [
+   "crypto",
+   "bitcoin"
+  ]
+ },
+ "dubai-aerospace-enterprise": {
+  "name": "Dubai Aerospace Enterprise",
+  "domains": [
+   "dubaiaerospace.com"
+  ],
+  "alias": [
+   "dae"
+  ]
+ },
+ "oq-exploration-production": {
+  "name": "OQ Exploration & Production",
+  "domains": [
+   "oqep.om",
+   "oq.com"
+  ],
+  "must": [
+   "oq"
+  ],
+  "alias": [
+   "oqep"
+  ]
+ },
+ "anduril": {
+  "name": "Anduril",
+  "domains": [
+   "anduril.com"
+  ],
+  "wd": "Anduril Industries"
+ },
+ "modal": {
+  "name": "Modal",
+  "domains": [
+   "modal.com"
+  ],
+  "must": [
+   "modal",
+   "gpu",
+   "serverless"
+  ],
+  "alias": [
+   "modal-labs"
+  ]
+ },
+ "zetwerk": {
+  "name": "Zetwerk",
+  "domains": [
+   "zetwerk.com"
+  ],
+  "must": [
+   "zetwerk"
+  ]
+ },
+ "adia": {
+  "name": "Abu Dhabi Investment Authority",
+  "domains": [
+   "adia.ae"
+  ],
+  "wd": "Abu Dhabi Investment Authority",
+  "alias": [
+   "abu-dhabi-investment-authority"
+  ]
+ },
+ "bending-spoons": {
+  "name": "Bending Spoons",
+  "domains": [
+   "bendingspoons.com"
+  ],
+  "must": [
+   "bending"
+  ]
+ },
+ "berkshire-hathaway": {
+  "name": "Berkshire Hathaway",
+  "domains": [
+   "berkshirehathaway.com"
+  ],
+  "wd": "Berkshire Hathaway"
+ },
+ "salience-labs": {
+  "name": "Salience Labs",
+  "domains": [
+   "saliencelabs.ai",
+   "salience.ai"
+  ],
+  "must": [
+   "photonic",
+   "optical",
+   "salience"
+  ]
+ },
+ "icon": {
+  "name": "ICON",
+  "domains": [
+   "iconbuild.com"
+  ],
+  "must": [
+   "icon",
+   "3d",
+   "print"
+  ]
+ },
+ "fintech-global": {
+  "name": "FinTech Global",
+  "domains": [
+   "fintech.global"
+  ],
+  "must": [
+   "fintech"
+  ]
+ },
+ "visa": {
+  "name": "Visa",
+  "domains": [
+   "visa.com"
+  ],
+  "wd": "Visa Inc.",
+  "wd_must": [
+   "payment"
+  ]
+ },
+ "fintech-news-uae": {
+  "name": "Fintech News UAE",
+  "domains": [
+   "fintechnews.ae"
+  ],
+  "must": [
+   "fintech"
+  ]
+ },
+ "siliconangle": {
+  "name": "SiliconANGLE",
+  "domains": [
+   "siliconangle.com"
+  ],
+  "must": [
+   "silicon"
+  ]
+ },
+ "cnbc": {
+  "name": "CNBC",
+  "domains": [
+   "cnbc.com"
+  ],
+  "wd": "CNBC"
+ },
+ "quartz": {
+  "name": "Quartz",
+  "domains": [
+   "qz.com"
+  ],
+  "must": [
+   "quartz"
+  ]
+ },
+ "ai-insider": {
+  "name": "AI Insider",
+  "domains": [
+   "theaiinsider.tech"
+  ],
+  "must": [
+   "ai"
+  ]
+ },
+ "accel": {
+  "name": "Accel",
+  "domains": [
+   "accel.com"
+  ],
+  "must": [
+   "accel"
+  ]
+ },
+ "kleiner-perkins": {
+  "name": "Kleiner Perkins",
+  "domains": [
+   "kleinerperkins.com"
+  ],
+  "must": [
+   "kleiner"
+  ]
+ },
+ "bullhound-capital": {
+  "name": "Bullhound Capital",
+  "domains": [
+   "bullhoundcapital.com",
+   "bullhound.com"
+  ],
+  "must": [
+   "bullhound"
+  ]
+ },
+ "amd-ventures": {
+  "name": "AMD Ventures",
+  "domains": [
+   "amd.com"
+  ],
+  "wd": "AMD",
+  "wd_must": [
+   "semiconductor"
+  ],
+  "alias": [
+   "amd"
+  ]
+ },
+ "intel-capital": {
+  "name": "Intel Capital",
+  "domains": [
+   "intelcapital.com"
+  ],
+  "must": [
+   "intel"
+  ]
+ },
+ "baillie-gifford": {
+  "name": "Baillie Gifford",
+  "domains": [
+   "bailliegifford.com"
+  ],
+  "must": [
+   "baillie"
+  ]
+ },
+ "blackrock": {
+  "name": "BlackRock",
+  "domains": [
+   "blackrock.com"
+  ],
+  "wd": "BlackRock",
+  "wd_must": [
+   "investment"
+  ]
+ },
+ "business-standard": {
+  "name": "Business Standard",
+  "domains": [
+   "business-standard.com"
+  ],
+  "must": [
+   "business standard"
+  ]
+ },
+ "entrackr": {
+  "name": "Entrackr",
+  "domains": [
+   "entrackr.com"
+  ],
+  "must": [
+   "entrackr"
+  ]
+ },
+ "al-monitor": {
+  "name": "Al-Monitor",
+  "domains": [
+   "al-monitor.com"
+  ],
+  "must": [
+   "monitor"
+  ]
  }
 }
