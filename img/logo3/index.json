@@ -988,5 +988,211 @@
   "src": "https://www.google.com/s2/favicons?domain=cibeg.com&sz=256",
   "how": "icon-service",
   "title": ""
+ },
+ "project-suppliers": {
+  "domain": "jeddahconstruct.com",
+  "final": "https://www.big5constructqatar.com/",
+  "title": "Big 5 Construct Qatar - Largest construction event in Qatar",
+  "src": "https://www.big5constructqatar.com/wp-content/uploads/sites/5/2022/11/cropped-favicon-qatar1-180x180.png",
+  "how": "site"
+ },
+ "enhance": {
+  "domain": "dxbstart.com",
+  "final": "https://www.dxbstart.com/",
+  "title": "Dubai Startup News — Funding, Companies &amp; Ecosystem Data | DXBStart",
+  "src": "https://www.dxbstart.com/images/favicon/apple-touch-icon.png",
+  "how": "site"
+ },
+ "remedium": {
+  "domain": "remedium.sa",
+  "final": "https://remedium.sa",
+  "title": "Remedium",
+  "src": "https://remedium.sa/remedium-icon.svg",
+  "how": "site"
+ },
+ "ghanem": {
+  "domain": "ghanem.sa",
+  "final": "https://ghanem.sa/ar",
+  "title": "غانم | التملك الجزئي في العقار السعودي - استثمار عقاري",
+  "src": "https://ghanem.sa/apple-touch-icon.png",
+  "how": "site"
+ },
+ "saudi-aramco": {
+  "wd": "Q679322",
+  "label": "Saudi Aramco",
+  "desc": "Saudi Arabian state-owned petroleum company",
+  "file": "Saudi aramco logo.svg",
+  "prop": "P154",
+  "site": "https://www.aramco.com//",
+  "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Saudi_aramco_logo.svg?width=512",
+  "how": "wikidata"
+ },
+ "standard-chartered": {
+  "wd": "Q548278",
+  "label": "Standard Chartered",
+  "desc": "British financial company",
+  "file": "Standard Chartered (2021).svg",
+  "prop": "P154",
+  "site": "https://www.sc.com",
+  "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Standard_Chartered_%282021%29.svg?width=512",
+  "how": "wikidata"
+ },
+ "rain": {
+  "domain": "rain.com",
+  "final": "https://www.rain.com/",
+  "title": "Buy &amp; Sell Bitcoin, Ethereum &amp; more in Bahrain",
+  "src": "https://www.rain.com/apple-touch-icon_180x180.png",
+  "how": "site"
+ },
+ "oq-exploration-production": {
+  "domain": "oqep.om",
+  "final": "https://oqep.om",
+  "title": "OQEP",
+  "src": "https://oqep.om/assets/img/logo.svg",
+  "how": "site"
+ },
+ "anduril": {
+  "wd": "Q61918830",
+  "label": "Anduril Industries",
+  "desc": "American defense contractor",
+  "file": "Anduril Industries Logo.svg",
+  "prop": "P154",
+  "site": "https://www.anduril.com/",
+  "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Anduril_Industries_Logo.svg?width=512",
+  "how": "wikidata"
+ },
+ "modal": {
+  "domain": "modal.com",
+  "final": "https://modal.com",
+  "title": "Modal: The platform for production AI",
+  "src": "https://www.google.com/s2/favicons?domain=modal.com&sz=256",
+  "how": "site"
+ },
+ "zetwerk": {
+  "domain": "zetwerk.com",
+  "final": "https://www.zetwerk.com/en-us/",
+  "title": "Maximize Manufacturing - Zetwerk",
+  "src": "https://d3fmssennfe86p.cloudfront.net/en-us/wp-content/uploads/sites/4/2022/05/cropped-favicon180-192x192-1.png",
+  "how": "site"
+ },
+ "adia": {
+  "wd": "Q334956",
+  "label": "Abu Dhabi Investment Authority",
+  "desc": "sovereign wealth fund",
+  "file": "Abu Dhabi Investment Authority logo.svg",
+  "prop": "P154",
+  "site": "http://www.adia.ae",
+  "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Abu_Dhabi_Investment_Authority_logo.svg?width=512",
+  "how": "wikidata"
+ },
+ "bending-spoons": {
+  "domain": "bendingspoons.com",
+  "final": "https://bendingspoons.com",
+  "title": "Bending Spoons | Impossible. Maybe.",
+  "src": "https://bendingspoons.com/favicon.ico?favicon.01_2okm33rqhi.ico",
+  "how": "site"
+ },
+ "berkshire-hathaway": {
+  "wd": "Q217583",
+  "label": "Berkshire Hathaway",
+  "desc": "American multinational conglomerate holding company",
+  "file": "Berkshire-Hathaway-Logo.svg",
+  "prop": "P154",
+  "site": "https://www.berkshirehathaway.com/",
+  "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Berkshire-Hathaway-Logo.svg?width=512",
+  "how": "wikidata"
+ },
+ "salience-labs": {
+  "domain": "saliencelabs.ai",
+  "final": "https://www.saliencelabs.ai/",
+  "title": "Salience Labs - All-Optical Switching for AI Infrastructure",
+  "src": "https://www.saliencelabs.ai/wp-content/uploads/2026/02/cropped-mstile-icon-270-180x180.png",
+  "how": "site"
+ },
+ "icon": {
+  "domain": "iconbuild.com",
+  "final": "https://www.iconbuild.com/",
+  "title": "ICON: Architecture for Humanity and Building Technology",
+  "src": "https://cdn.prod.website-files.com/696aa403bbe74c1adbd1ed11/6980559ff7cfeb7efbb0d078_icon-webclip.png",
+  "how": "site"
+ },
+ "fintech-global": {
+  "domain": "fintech.global",
+  "final": "https://fintech.global",
+  "title": "FinTech Global - Latest FinTech News, Insights &amp; Analysis",
+  "src": "https://fintech.global/wp-content/uploads/2019/06/cropped-FG-Logo_Black-BG_Horizontal-180x180.png",
+  "how": "site"
+ },
+ "fintech-news-uae": {
+  "domain": "fintechnews.ae",
+  "final": "https://fintechnews.ae",
+  "title": "Fintech News UAE",
+  "src": "https://www.google.com/s2/favicons?domain=fintechnews.ae&sz=256",
+  "how": "site"
+ },
+ "cnbc": {
+  "wd": "Q1023912",
+  "label": "CNBC",
+  "desc": "American basic cable and satellite business news television channel",
+  "file": "CNBC logo.svg",
+  "prop": "P154",
+  "site": "https://www.cnbc.com/",
+  "src": "https://commons.wikimedia.org/wiki/Special:FilePath/CNBC_logo.svg?width=512",
+  "how": "wikidata"
+ },
+ "quartz": {
+  "domain": "qz.com",
+  "final": "https://qz.com",
+  "title": "Home",
+  "src": "https://www.google.com/s2/favicons?domain=qz.com&sz=256",
+  "how": "site"
+ },
+ "kleiner-perkins": {
+  "domain": "kleinerperkins.com",
+  "final": "https://www.kleinerperkins.com/",
+  "title": "Home | Kleiner Perkins",
+  "src": "https://www.kleinerperkins.com/wp-content/themes/kp-handstand-theme/apple-touch-icon.png",
+  "how": "site"
+ },
+ "bullhound-capital": {
+  "domain": "bullhoundcapital.com",
+  "final": "https://bullhoundcapital.com",
+  "title": "Bullhound Capital - Building with founders",
+  "src": "https://bullhoundcapital.com/uploads/sites/2/2025/09/cropped-cropped-android-chrome-512x512-1-inverted-1-180x180.png",
+  "how": "site"
+ },
+ "amd-ventures": {
+  "wd": "Q128896",
+  "label": "AMD",
+  "desc": "American multinational semiconductor company",
+  "file": "AMD Logo.svg",
+  "prop": "P154",
+  "site": "https://www.amd.com/",
+  "src": "https://commons.wikimedia.org/wiki/Special:FilePath/AMD_Logo.svg?width=512",
+  "how": "wikidata"
+ },
+ "blackrock": {
+  "wd": "Q219635",
+  "label": "BlackRock",
+  "desc": "American multinational investment management corporation",
+  "file": "BlackRock wordmark.svg",
+  "prop": "P154",
+  "site": "https://www.blackrock.com",
+  "src": "https://commons.wikimedia.org/wiki/Special:FilePath/BlackRock_wordmark.svg?width=512",
+  "how": "wikidata"
+ },
+ "business-standard": {
+  "domain": "business-standard.com",
+  "final": "https://www.business-standard.com/",
+  "title": "Business News, Finance News, India News, Stock Markets BSE/NSE News, SENSEX, NIFTY,  Personal Finance News",
+  "src": "https://www.business-standard.com/apple-touch-icon-min.png",
+  "how": "site"
+ },
+ "al-monitor": {
+  "domain": "al-monitor.com",
+  "final": "https://www.al-monitor.com/",
+  "title": "AL-MONITOR: The Middle Eastʼs leading independent news source since 2012",
+  "src": "https://www.al-monitor.com/themes/custom/alm/icons/apple-touch-icon-180x180.png",
+  "how": "site"
  }
 }
