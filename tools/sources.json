@@ -2692,6 +2692,35 @@
   ],
   "region": "US",
   "auto": true,
+  "found": "2026-10-16",
+  "last_ok": "2026-10-16"
+ },
+ {
+  "id": "analyticsinsight",
+  "name": "Analytics Insight",
+  "ar": "Analytics Insight",
+  "url": "https://analyticsinsight.net",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "en"
+  ],
+  "region": "AE",
+  "auto": true,
+  "found": "2026-10-16"
+ },
+ {
+  "id": "techfundingnews",
+  "name": "Tech Funding News",
+  "ar": "Tech Funding News",
+  "url": "https://techfundingnews.com",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "en"
+  ],
+  "region": "US",
+  "auto": true,
   "found": "2026-10-16"
  }
 ]
