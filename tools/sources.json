@@ -2707,7 +2707,8 @@
   ],
   "region": "AE",
   "auto": true,
-  "found": "2026-10-16"
+  "found": "2026-10-16",
+  "last_ok": "2026-10-16"
  },
  {
   "id": "techfundingnews",
@@ -2720,6 +2721,20 @@
    "en"
   ],
   "region": "US",
+  "auto": true,
+  "found": "2026-10-16"
+ },
+ {
+  "id": "tradeflock",
+  "name": "TradeFlock",
+  "ar": "TradeFlock",
+  "url": "https://tradeflock.com",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "en"
+  ],
+  "region": "SA",
   "auto": true,
   "found": "2026-10-16"
  }
