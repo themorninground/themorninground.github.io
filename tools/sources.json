@@ -2796,7 +2796,8 @@
   ],
   "region": "SA",
   "auto": true,
-  "found": "2026-10-16"
+  "found": "2026-10-16",
+  "last_ok": "2026-10-16"
  },
  {
   "id": "datacenterdynamics",
@@ -2810,7 +2811,8 @@
   ],
   "region": "AE",
   "auto": true,
-  "found": "2026-10-16"
+  "found": "2026-10-16",
+  "last_ok": "2026-10-16"
  },
  {
   "id": "internationalfinance",
@@ -2824,13 +2826,28 @@
   ],
   "region": "SA",
   "auto": true,
-  "found": "2026-10-16"
+  "found": "2026-10-16",
+  "last_ok": "2026-10-16"
  },
  {
   "id": "xtb",
   "name": "XTB.com",
   "ar": "XTB.com",
   "url": "https://xtb.com",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "ar"
+  ],
+  "region": "SA",
+  "auto": true,
+  "found": "2026-10-16"
+ },
+ {
+  "id": "sa",
+  "name": "Investing.com",
+  "ar": "Investing.com",
+  "url": "https://sa.investing.com",
   "tier": 4,
   "kind": "discovered",
   "lang": [
