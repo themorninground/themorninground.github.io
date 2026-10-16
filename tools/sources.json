@@ -2856,5 +2856,19 @@
   "region": "SA",
   "auto": true,
   "found": "2026-10-16"
+ },
+ {
+  "id": "tikr",
+  "name": "TIKR.com",
+  "ar": "TIKR.com",
+  "url": "https://tikr.com",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "en"
+  ],
+  "region": "US",
+  "auto": true,
+  "found": "2026-10-16"
  }
 ]
