@@ -2751,7 +2751,8 @@
   ],
   "region": "AE",
   "auto": true,
-  "found": "2026-10-16"
+  "found": "2026-10-16",
+  "last_ok": "2026-10-16"
  },
  {
   "id": "inc",
@@ -2765,7 +2766,8 @@
   ],
   "region": "US",
   "auto": true,
-  "found": "2026-10-16"
+  "found": "2026-10-16",
+  "last_ok": "2026-10-16"
  },
  {
   "id": "demandsage",
@@ -2778,6 +2780,63 @@
    "en"
   ],
   "region": "US",
+  "auto": true,
+  "found": "2026-10-16",
+  "last_ok": "2026-10-16"
+ },
+ {
+  "id": "crowdfundinsider",
+  "name": "Crowdfund Insider",
+  "ar": "Crowdfund Insider",
+  "url": "https://crowdfundinsider.com",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "en"
+  ],
+  "region": "SA",
+  "auto": true,
+  "found": "2026-10-16"
+ },
+ {
+  "id": "datacenterdynamics",
+  "name": "Data Center Dynamics",
+  "ar": "Data Center Dynamics",
+  "url": "https://datacenterdynamics.com",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "en"
+  ],
+  "region": "AE",
+  "auto": true,
+  "found": "2026-10-16"
+ },
+ {
+  "id": "internationalfinance",
+  "name": "https://internationalfinance.com/",
+  "ar": "https://internationalfinance.com/",
+  "url": "https://internationalfinance.com",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "en"
+  ],
+  "region": "SA",
+  "auto": true,
+  "found": "2026-10-16"
+ },
+ {
+  "id": "xtb",
+  "name": "XTB.com",
+  "ar": "XTB.com",
+  "url": "https://xtb.com",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "ar"
+  ],
+  "region": "SA",
   "auto": true,
   "found": "2026-10-16"
  }
