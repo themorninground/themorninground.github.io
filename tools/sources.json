@@ -2736,6 +2736,49 @@
   ],
   "region": "SA",
   "auto": true,
+  "found": "2026-10-16",
+  "last_ok": "2026-10-16"
+ },
+ {
+  "id": "disruptafrica",
+  "name": "- Disrupt Africa",
+  "ar": "- Disrupt Africa",
+  "url": "https://disruptafrica.com",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "en"
+  ],
+  "region": "AE",
+  "auto": true,
+  "found": "2026-10-16"
+ },
+ {
+  "id": "inc",
+  "name": "Inc.com",
+  "ar": "Inc.com",
+  "url": "https://inc.com",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "en"
+  ],
+  "region": "US",
+  "auto": true,
+  "found": "2026-10-16"
+ },
+ {
+  "id": "demandsage",
+  "name": "DemandSage",
+  "ar": "DemandSage",
+  "url": "https://demandsage.com",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "en"
+  ],
+  "region": "US",
+  "auto": true,
   "found": "2026-10-16"
  }
 ]
