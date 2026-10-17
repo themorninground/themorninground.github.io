@@ -2899,5 +2899,19 @@
   "region": "SA",
   "auto": true,
   "found": "2026-10-17"
+ },
+ {
+  "id": "aifundingtracker",
+  "name": "AI Funding Tracker",
+  "ar": "AI Funding Tracker",
+  "url": "https://aifundingtracker.com",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "en"
+  ],
+  "region": "SA",
+  "auto": true,
+  "found": "2026-10-17"
  }
 ]
