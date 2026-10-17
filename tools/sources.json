@@ -2885,5 +2885,19 @@
   "region": "SA",
   "auto": true,
   "found": "2026-10-17"
+ },
+ {
+  "id": "akhbaralkhaleej",
+  "name": "أخبار الخليج",
+  "ar": "أخبار الخليج",
+  "url": "https://akhbar-alkhaleej.com",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "ar"
+  ],
+  "region": "SA",
+  "auto": true,
+  "found": "2026-10-17"
  }
 ]
