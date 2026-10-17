@@ -2914,5 +2914,19 @@
   "auto": true,
   "found": "2026-10-17",
   "last_ok": "2026-10-17"
+ },
+ {
+  "id": "ventureburn",
+  "name": "Ventureburn",
+  "ar": "Ventureburn",
+  "url": "https://ventureburn.com",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "en"
+  ],
+  "region": "AE",
+  "auto": true,
+  "found": "2026-10-17"
  }
 ]
