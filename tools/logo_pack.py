@@ -15,6 +15,12 @@ lst = json.loads(get('https://api.github.com/repos/google/fonts/contents/ofl/bri
 ttf = [x for x in lst if x['name'].endswith('.ttf') and 'Italic' not in x['name']][0]
 print('font', ttf['name'])
 raw = get(ttf['download_url'])
+os.makedirs('brand/fonts', exist_ok=True)
+open('brand/fonts/BricolageGrotesque-Variable.ttf', 'wb').write(raw)
+try:
+    open('brand/fonts/OFL-Bricolage.txt', 'wb').write(get('https://raw.githubusercontent.com/google/fonts/main/ofl/bricolagegrotesque/OFL.txt'))
+except Exception as e:
+    print('ofl', e)
 f = TTFont(io.BytesIO(raw))
 axes = {a.axisTag for a in f['fvar'].axes}
 loc = {k: v for k, v in {'wght': 700, 'opsz': 36, 'wdth': 100}.items() if k in axes}

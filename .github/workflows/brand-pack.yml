@@ -18,5 +18,5 @@ jobs:
       - run: |
           git config user.name "The Morning Round"
           git config user.email "themorninground@users.noreply.github.com"
-          git add brand/pack
+          git add brand/pack brand/fonts
           git diff --cached --quiet || (git commit -m "Build logo pack" && git pull --rebase && git push)
