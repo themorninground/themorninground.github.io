@@ -203,5 +203,8 @@
  "siliconangle": "https://siliconangle.com/feed",
  "ahwal": "https://ahwal.sa/feed",
  "motanahy": "https://motanahy.com/feed/",
- "khabrynews": ""
+ "khabrynews": "",
+ "thedailystar": "https://thedailystar.net/rss.xml",
+ "alleywatch": "https://alleywatch.com/feed/",
+ "petra": ""
 }

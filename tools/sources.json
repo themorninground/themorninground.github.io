@@ -3030,7 +3030,8 @@
   ],
   "region": "SA",
   "auto": true,
-  "found": "2026-10-18"
+  "found": "2026-10-18",
+  "last_ok": "2026-10-18"
  },
  {
   "id": "alleywatch",
@@ -3044,7 +3045,8 @@
   ],
   "region": "US",
   "auto": true,
-  "found": "2026-10-18"
+  "found": "2026-10-18",
+  "last_ok": "2026-10-18"
  },
  {
   "id": "petra",
