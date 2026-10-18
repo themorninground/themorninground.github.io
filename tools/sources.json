@@ -2956,6 +2956,49 @@
   ],
   "region": "SA",
   "auto": true,
+  "found": "2026-10-18",
+  "last_ok": "2026-10-18"
+ },
+ {
+  "id": "siliconangle",
+  "name": "SiliconANGLE",
+  "ar": "SiliconANGLE",
+  "url": "https://siliconangle.com",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "en"
+  ],
+  "region": "US",
+  "auto": true,
+  "found": "2026-10-18"
+ },
+ {
+  "id": "ahwal",
+  "name": "صحيفة أحوال الإلكترونية",
+  "ar": "صحيفة أحوال الإلكترونية",
+  "url": "https://ahwal.sa",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "ar"
+  ],
+  "region": "SA",
+  "auto": true,
+  "found": "2026-10-18"
+ },
+ {
+  "id": "motanahy",
+  "name": "موقع متناهي",
+  "ar": "موقع متناهي",
+  "url": "https://motanahy.com",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "ar"
+  ],
+  "region": "SA",
+  "auto": true,
   "found": "2026-10-18"
  }
 ]
