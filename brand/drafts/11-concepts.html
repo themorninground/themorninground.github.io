@@ -87,7 +87,7 @@ document.fonts.ready.then(()=>{
   const c=document.createElement('canvas').getContext('2d');
   // A: long shadows away from the sun
   document.querySelectorAll('.sh').forEach(w=>{
-    const bg=w.dataset.bg,sh=w.dataset.sh,N=60;
+    const bg=w.dataset.bg,sh=w.dataset.sh,N=24;
     const mk=(dx,dy)=>{const a=[];for(let i=1;i<=N;i++){a.push(`${(dx*i).toFixed(2)}px ${(dy*i).toFixed(2)}px 0 ${sh}`)}return a.join(',')};
     const k=parseFloat(getComputedStyle(w).fontSize)/96;
     w.querySelectorAll('.L').forEach(e=>e.style.textShadow=mk(-1*k,0.42*k));
@@ -105,7 +105,7 @@ document.fonts.ready.then(()=>{
     const seq=[["G",0,.07],["#FFD45C",.07,.30],["G",.30,.38],["#FFA235",.38,.58],["G",.58,.68],["#FF7A24",.68,.85],["G",.85,.96],["#F2551A",.96,1]];
     const g=[`${top} 0px`,`${top} ${mid.toFixed(1)}px`];
     seq.forEach(([col,a,b])=>{const cc=col==='G'?'transparent':col;g.push(`${cc} ${(mid+a*h).toFixed(1)}px`,`${cc} ${(mid+b*h).toFixed(1)}px`)});
-    g.push(`#F2551A ${(base+fs).toFixed(1)}px`);
+    g.push(`${top} ${(base+0.5).toFixed(1)}px`,`${top} ${(base+fs).toFixed(1)}px`);
     el.style.background=`linear-gradient(180deg,${g.join(',')})`;
     el.style.webkitBackgroundClip='text';el.style.backgroundClip='text';el.style.color='transparent';
   });
