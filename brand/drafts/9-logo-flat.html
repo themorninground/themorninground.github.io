@@ -91,7 +91,7 @@ svg{display:block;overflow:visible}
 <div class="root">
   <div class="kick">The Morning Round · logo 01 · flat master</div>
   <div class="lead"><div><h1>The stripes are the sunrise</h1>
-  <p>Sky blue fills exactly the top half; four flat stripes fill the lower half. Each stripe is one solid colour, so the logo prints, shrinks and recolours cleanly. "the" takes the sky blue, the colour above the sun.</p></div>
+  <p>Sky blue fills exactly the top half; four flat stripes fill the lower half. Each stripe is one solid colour, so the logo prints, shrinks and recolours cleanly. "the" carries the same steps as the sun.</p></div>
   <div class="ar">ألوان صريحة بدون تدرّج: أزرق السماء فوق، ثم الأصفر والبرتقالي والبرتقالي الغامق. كل شريحة لون واحد، فيصلح الشعار للطباعة والأحجام الصغيرة والنسخ أحادية اللون. و"the" بأزرق السماء، لأنها فوق الشمس.</div></div>
 
   <div class="card light" style="height:500px"><span class="cap">Master logo · light</span><div class="wm" style="font-size:140px;"><span class="the ">the</span><span class="l">m<svg class="oo"><use href="#sunF"/></svg>rning</span><span class="l">round</span></div></div>
@@ -131,5 +131,24 @@ svg{display:block;overflow:visible}
     <div class="card dark"><span class="cap">One line · dark</span><span class="inl" style="color:#F2F2F0"><span class="the" style="margin-right:.22em">the</span>m<svg class="oo"><use href="#sunF"/></svg>rning round</span></div>
   </div>
 </div>
+<script>
+document.fonts.ready.then(()=>{
+  const c=document.createElement('canvas').getContext('2d');
+  const bands=[["#3EA6F2",0,.5],["#FFD45C",.5,.625],["#FFA235",.625,.75],["#FF7A24",.75,.875],["#F2551A",.875,1]];
+  document.querySelectorAll('.the:not(.o):not(.k):not(.gr)').forEach(el=>{
+    const cs=getComputedStyle(el);const fs=parseFloat(cs.fontSize);
+    c.font=cs.fontWeight+' '+cs.fontSize+' '+cs.fontFamily;
+    const m=c.measureText('the');
+    const lh=parseFloat(cs.lineHeight)||fs;
+    const base=(lh-(m.fontBoundingBoxAscent+m.fontBoundingBoxDescent))/2+m.fontBoundingBoxAscent;
+    const top=base-m.actualBoundingBoxAscent, h=base-top;
+    const st=bands.map(([col,a,b])=>`${col} ${(top+a*h).toFixed(2)}px ${(top+b*h).toFixed(2)}px`).join(',');
+    el.style.setProperty('background',`linear-gradient(180deg,#3EA6F2 0px,${st},#F2551A ${(base).toFixed(2)}px)`,'important');
+    el.style.setProperty('-webkit-background-clip','text','important');
+    el.style.setProperty('background-clip','text','important');
+    el.style.setProperty('color','transparent','important');
+  });
+});
+</script>
 </body>
 </html>
