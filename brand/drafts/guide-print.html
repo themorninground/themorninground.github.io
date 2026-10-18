@@ -809,13 +809,13 @@ figcaption.no::before{content:"✕ ";color:var(--fall);font-weight:700}
 <style>
 .topbar{display:none!important}
 body::before{display:none}
-.cover{break-after:page;min-height:2036px;display:flex;flex-direction:column;justify-content:space-between}
+.cover{min-height:1500px;display:flex;flex-direction:column;justify-content:space-between}
 .cov-in{padding-top:220px}
 .cov-hz{height:420px}
-.toc{break-after:page}
+.toc{break-after:page;margin-top:24px}
 .chapter{break-before:page;margin-top:0;padding-top:24px}
 .sec,figure,.stage,.chart-card,.comp,.fc,.sw,.trait,.desk,.fan-wrap,.pages,.social figure,.mail-wrap{break-inside:avoid}
 .foot{break-inside:avoid}
-.hscroll{flex-wrap:wrap;overflow:visible;justify-content:center}
+.hscroll{flex-wrap:wrap;overflow:visible;justify-content:center}.fan-wrap+.hscroll{display:none}
 .cov-hz .horizon,.rise-sun,.splash .spl{animation:none!important}
 </style></body></html>
