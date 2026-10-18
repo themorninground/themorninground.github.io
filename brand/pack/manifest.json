@@ -7,6 +7,7 @@
  },
  "upem": 1000,
  "files": [
+  "manifest.json",
   "png",
   "tmr-app-icon-small.svg",
   "tmr-app-icon.svg",
