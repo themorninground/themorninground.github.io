@@ -1,0 +1,22 @@
+name: Render brand drafts
+on:
+  push:
+    paths: ['brand/drafts/*.html', 'tools/shoot.mjs']
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  shoot:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: {node-version: '20'}
+      - run: npm i --no-save playwright@1.47.2 && npx playwright install --with-deps chromium
+      - run: sudo apt-get install -y fonts-noto-color-emoji >/dev/null || true
+      - run: node tools/shoot.mjs
+      - run: |
+          git config user.name "The Morning Round"
+          git config user.email "themorninground@users.noreply.github.com"
+          git add brand/drafts/*.png
+          git diff --cached --quiet || (git commit -m "Render brand drafts" && git pull --rebase && git push)
