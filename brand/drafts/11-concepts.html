@@ -52,9 +52,9 @@ h1{margin:10px 0 0;font-size:54px;letter-spacing:-.035em;line-height:1}
   <!-- A -->
   <div class="rowhead"><b><i>A</i>Long morning shadows</b><span class="ar">الـ o شمس، وكل حرف يرمي ظل طويل بعيد عنها، مثل ظلال أول الصبح</span></div>
   <div class="grid">
-    <div class="card light"><div class="wm sh" data-bg="#ffffff" data-sh="#F4D7B0"><span class="the">the</span><span class="l"><span class="L">m</span><span class="sun"></span><span class="R">rning</span></span><span class="l D">round</span></div></div>
-    <div class="card dark"><div class="wm sh" data-bg="#0A0A0A" data-sh="#3B2A16"><span class="the">the</span><span class="l"><span class="L">m</span><span class="sun"></span><span class="R">rning</span></span><span class="l D">round</span></div></div>
-    <div class="card light icons"><div class="tile"><div class="wm sh" data-bg="#0A0A0A" data-sh="#3B2A16" style="font-size:96px;color:#F2F2F0"><span class="l"><span class="L">m</span><span class="sun"></span></span></div></div></div>
+    <div class="card light"><div class="wm sh" data-bg="#ffffff" data-sh="#FBE7CC"><span class="the">the</span><span class="l"><span class="L">m</span><span class="sun"></span><span class="R">rning</span></span><span class="l D">round</span></div></div>
+    <div class="card dark"><div class="wm sh" data-bg="#0A0A0A" data-sh="#2A2014"><span class="the">the</span><span class="l"><span class="L">m</span><span class="sun"></span><span class="R">rning</span></span><span class="l D">round</span></div></div>
+    <div class="card light icons"><div class="tile"><div class="wm sh" data-bg="#0A0A0A" data-sh="#2A2014" style="font-size:58px;color:#F2F2F0;margin-left:10px"><span class="l"><span class="L">m</span><span class="sun"></span></span></div></div></div>
   </div>
 
   <!-- B -->
@@ -87,25 +87,25 @@ document.fonts.ready.then(()=>{
   const c=document.createElement('canvas').getContext('2d');
   // A: long shadows away from the sun
   document.querySelectorAll('.sh').forEach(w=>{
-    const bg=w.dataset.bg,sh=w.dataset.sh,N=46;
-    const mk=(dx,dy)=>{const a=[];for(let i=1;i<=N;i++){a.push(`${(dx*i).toFixed(2)}px ${(dy*i).toFixed(2)}px 0 ${mix(sh,bg,Math.pow(i/N,0.8))}`)}return a.join(',')};
+    const bg=w.dataset.bg,sh=w.dataset.sh,N=60;
+    const mk=(dx,dy)=>{const a=[];for(let i=1;i<=N;i++){a.push(`${(dx*i).toFixed(2)}px ${(dy*i).toFixed(2)}px 0 ${sh}`)}return a.join(',')};
     const k=parseFloat(getComputedStyle(w).fontSize)/96;
-    w.querySelectorAll('.L').forEach(e=>e.style.textShadow=mk(-1.6*k,0.55*k));
-    w.querySelectorAll('.R').forEach(e=>e.style.textShadow=mk(1.6*k,0.55*k));
-    w.querySelectorAll('.D').forEach(e=>e.style.textShadow=mk(0.35*k,1.5*k));
+    w.querySelectorAll('.L').forEach(e=>e.style.textShadow=mk(-1*k,0.42*k));
+    w.querySelectorAll('.R').forEach(e=>e.style.textShadow=mk(1*k,0.42*k));
+    w.querySelectorAll('.D').forEach(e=>e.style.textShadow=mk(0.42*k,1*k));
   });
   // C: lower half of the x-height in sunrise stripes
   document.querySelectorAll('.cut').forEach(el=>{
-    const cs=getComputedStyle(el);c.font=cs.fontWeight+' '+cs.fontSize+' '+cs.fontFamily;
-    const m=c.measureText(el.textContent),x=c.measureText('x');
-    const lh=el.getBoundingClientRect().height||parseFloat(cs.fontSize);
-    const base=(lh-(m.fontBoundingBoxAscent+m.fontBoundingBoxDescent))/2+m.fontBoundingBoxAscent;
-    const xh=x.actualBoundingBoxAscent, mid=base-xh*0.5, top=el.dataset.top||'#0A0A0A';
-    const span=xh*0.5+parseFloat(cs.fontSize)*0.22;
-    const st=[["#FFD45C",.00,.17],["T",.17,.24],["#FFA235",.24,.41],["T",.41,.50],["#FF7A24",.50,.66],["T",.66,.76],["#F2551A",.76,1.2]];
-    const g=[`${top} 0px`,`${top} ${mid.toFixed(1)}px`,`transparent ${mid.toFixed(1)}px`,`transparent ${(mid+xh*0.07).toFixed(1)}px`];
-    let off=mid+xh*0.07;
-    st.forEach(([col,a,b])=>{const A=off+a*span,B=off+b*span;const cc=col==='T'?'transparent':col;g.push(`${cc} ${A.toFixed(1)}px`,`${cc} ${B.toFixed(1)}px`)});
+    const cs=getComputedStyle(el);const fs=parseFloat(cs.fontSize);
+    const p=document.createElement('span');p.style.cssText='display:inline-block;width:0;height:0;vertical-align:baseline';el.appendChild(p);
+    const base=p.getBoundingClientRect().top-el.getBoundingClientRect().top;p.remove();
+    c.font=cs.fontWeight+' '+cs.fontSize+' '+cs.fontFamily;const xh=c.measureText('x').actualBoundingBoxAscent;
+    const top=el.dataset.top||'#0A0A0A', mid=base-xh*0.5, h=xh*0.5;
+    // 4 bands with growing gaps between mid and baseline, descenders stay ember
+    const seq=[["G",0,.07],["#FFD45C",.07,.30],["G",.30,.38],["#FFA235",.38,.58],["G",.58,.68],["#FF7A24",.68,.85],["G",.85,.96],["#F2551A",.96,1]];
+    const g=[`${top} 0px`,`${top} ${mid.toFixed(1)}px`];
+    seq.forEach(([col,a,b])=>{const cc=col==='G'?'transparent':col;g.push(`${cc} ${(mid+a*h).toFixed(1)}px`,`${cc} ${(mid+b*h).toFixed(1)}px`)});
+    g.push(`#F2551A ${(base+fs).toFixed(1)}px`);
     el.style.background=`linear-gradient(180deg,${g.join(',')})`;
     el.style.webkitBackgroundClip='text';el.style.backgroundClip='text';el.style.color='transparent';
   });
