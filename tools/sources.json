@@ -3017,5 +3017,47 @@
   "region": "EG",
   "auto": true,
   "found": "2026-10-18"
+ },
+ {
+  "id": "thedailystar",
+  "name": "The Daily Star",
+  "ar": "The Daily Star",
+  "url": "https://thedailystar.net",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "en"
+  ],
+  "region": "SA",
+  "auto": true,
+  "found": "2026-10-18"
+ },
+ {
+  "id": "alleywatch",
+  "name": "AlleyWatch",
+  "ar": "AlleyWatch",
+  "url": "https://alleywatch.com",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "en"
+  ],
+  "region": "US",
+  "auto": true,
+  "found": "2026-10-18"
+ },
+ {
+  "id": "petra",
+  "name": "وكالة الانباء الاردنية",
+  "ar": "وكالة الانباء الاردنية",
+  "url": "https://petra.gov.jo",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "ar"
+  ],
+  "region": "SA",
+  "auto": true,
+  "found": "2026-10-18"
  }
 ]
