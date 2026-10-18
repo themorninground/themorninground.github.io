@@ -2929,5 +2929,33 @@
   "auto": true,
   "found": "2026-10-17",
   "last_ok": "2026-10-18"
+ },
+ {
+  "id": "entrepreneur",
+  "name": "ET Entrepreneur",
+  "ar": "ET Entrepreneur",
+  "url": "https://entrepreneur.economictimes.indiatimes.com",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "en"
+  ],
+  "region": "AE",
+  "auto": true,
+  "found": "2026-10-18"
+ },
+ {
+  "id": "mzmz",
+  "name": "mz-mz.net",
+  "ar": "mz-mz.net",
+  "url": "https://mz-mz.net",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "ar"
+  ],
+  "region": "SA",
+  "auto": true,
+  "found": "2026-10-18"
  }
 ]
