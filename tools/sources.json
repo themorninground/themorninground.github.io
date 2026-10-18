@@ -2971,7 +2971,8 @@
   ],
   "region": "US",
   "auto": true,
-  "found": "2026-10-18"
+  "found": "2026-10-18",
+  "last_ok": "2026-10-18"
  },
  {
   "id": "ahwal",
@@ -2985,7 +2986,8 @@
   ],
   "region": "SA",
   "auto": true,
-  "found": "2026-10-18"
+  "found": "2026-10-18",
+  "last_ok": "2026-10-18"
  },
  {
   "id": "motanahy",
@@ -2998,6 +3000,21 @@
    "ar"
   ],
   "region": "SA",
+  "auto": true,
+  "found": "2026-10-18",
+  "last_ok": "2026-10-18"
+ },
+ {
+  "id": "khabrynews",
+  "name": "خبري نيوز",
+  "ar": "خبري نيوز",
+  "url": "https://khabrynews.com",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "ar"
+  ],
+  "region": "EG",
   "auto": true,
   "found": "2026-10-18"
  }
