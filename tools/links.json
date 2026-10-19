@@ -1,9 +1,298 @@
 [
  {
-  "url": "https://arxiv.org/abs/cond-mat/0412004",
+  "url": "https://carta.com/learn/private-funds/management/fund-performance/dpi/",
   "status": 200,
-  "final": "https://arxiv.org/abs/cond-mat/0412004",
-  "title": "[cond-mat/0412004] Power laws, Pareto distributions and Zipf's law"
+  "final": "https://carta.com/learn/private-funds/management/fund-performance/dpi/",
+  "title": "How Distributions to Paid-In Capital (DPI) Works in Private Equity & VC"
+ },
+ {
+  "url": "https://carta.com/learn/private-funds/management/fund-performance/tvpi/",
+  "status": 200,
+  "final": "https://carta.com/learn/private-funds/management/fund-performance/tvpi/",
+  "title": "Total Value to Paid-In Capital (TVPI) in Private Equity and Venture Capital"
+ },
+ {
+  "url": "https://carta.com/learn/startups/equity-management/private-company-valuations/pre-money-vs-post-money-valuations/",
+  "status": 200,
+  "final": "https://carta.com/learn/startups/equity-management/private-company-valuations/pre-money-vs-post-money-valuations/",
+  "title": "Pre-Money Valuations vs. Post-Money Valuations"
+ },
+ {
+  "url": "https://corporatefinanceinstitute.com/resources/career-map/sell-side/capital-markets/participating-preferred-stock",
+  "status": 200,
+  "final": "https://corporatefinanceinstitute.com/resources/capital_markets/",
+  "title": "Capital Markets Archives | Corporate Finance Institute"
+ },
+ {
+  "url": "https://corporatefinanceinstitute.com/resources/valuation/annual-recurring-revenue-arr",
+  "status": 200,
+  "final": "https://corporatefinanceinstitute.com/resources/valuation/annual-recurring-revenue-arr/",
+  "title": "Annual Recurring Revenue (ARR) - Calculation and Examples"
+ },
+ {
+  "url": "https://en.wikipedia.org/wiki/Anti-dilution_provision",
+  "status": 404,
+  "error": "HTTP Error 404: Not Found"
+ },
+ {
+  "url": "https://en.wikipedia.org/wiki/Burn_rate",
+  "status": 200,
+  "final": "https://en.wikipedia.org/wiki/Burn_rate",
+  "title": "Burn rate - Wikipedia"
+ },
+ {
+  "url": "https://en.wikipedia.org/wiki/Capital_call",
+  "status": 200,
+  "final": "https://en.wikipedia.org/wiki/Capital_call",
+  "title": "Capital call - Wikipedia"
+ },
+ {
+  "url": "https://en.wikipedia.org/wiki/Capitalization_table",
+  "status": 200,
+  "final": "https://en.wikipedia.org/wiki/Capitalization_table",
+  "title": "Capitalization table - Wikipedia"
+ },
+ {
+  "url": "https://en.wikipedia.org/wiki/Carried_interest",
+  "status": 200,
+  "final": "https://en.wikipedia.org/wiki/Carried_interest",
+  "title": "Carried interest - Wikipedia"
+ },
+ {
+  "url": "https://en.wikipedia.org/wiki/Continuation_fund",
+  "status": 404,
+  "error": "HTTP Error 404: Not Found"
+ },
+ {
+  "url": "https://en.wikipedia.org/wiki/Continuation_vehicle",
+  "status": 404,
+  "error": "HTTP Error 404: Not Found"
+ },
+ {
+  "url": "https://en.wikipedia.org/wiki/Convertible_note",
+  "status": 200,
+  "final": "https://en.wikipedia.org/wiki/Convertible_note",
+  "title": "Convertible bond - Wikipedia"
+ },
+ {
+  "url": "https://en.wikipedia.org/wiki/Corporate_venture_capital",
+  "status": 200,
+  "final": "https://en.wikipedia.org/wiki/Corporate_venture_capital",
+  "title": "Corporate venture capital - Wikipedia"
+ },
+ {
+  "url": "https://en.wikipedia.org/wiki/Customer_acquisition_cost",
+  "status": 200,
+  "final": "https://en.wikipedia.org/wiki/Customer_acquisition_cost",
+  "title": "Customer acquisition cost - Wikipedia"
+ },
+ {
+  "url": "https://en.wikipedia.org/wiki/Customer_lifetime_value",
+  "status": 200,
+  "final": "https://en.wikipedia.org/wiki/Customer_lifetime_value",
+  "title": "Customer lifetime value - Wikipedia"
+ },
+ {
+  "url": "https://en.wikipedia.org/wiki/Discounted_cash_flow",
+  "status": 200,
+  "final": "https://en.wikipedia.org/wiki/Discounted_cash_flow",
+  "title": "Discounted cash flow - Wikipedia"
+ },
+ {
+  "url": "https://en.wikipedia.org/wiki/Distribution_waterfall",
+  "status": 200,
+  "final": "https://en.wikipedia.org/wiki/Distribution_waterfall",
+  "title": "Distribution waterfall - Wikipedia"
+ },
+ {
+  "url": "https://en.wikipedia.org/wiki/Down_round",
+  "status": 404,
+  "error": "HTTP Error 404: Not Found"
+ },
+ {
+  "url": "https://en.wikipedia.org/wiki/Dry_powder",
+  "status": 200,
+  "final": "https://en.wikipedia.org/wiki/Dry_powder",
+  "title": "Dry powder - Wikipedia"
+ },
+ {
+  "url": "https://en.wikipedia.org/wiki/Dry_powder_(finance)",
+  "status": 404,
+  "error": "HTTP Error 404: Not Found"
+ },
+ {
+  "url": "https://en.wikipedia.org/wiki/Employee_stock_option",
+  "status": 200,
+  "final": "https://en.wikipedia.org/wiki/Employee_stock_option",
+  "title": "Employee stock option - Wikipedia"
+ },
+ {
+  "url": "https://en.wikipedia.org/wiki/Enterprise_value",
+  "status": 200,
+  "final": "https://en.wikipedia.org/wiki/Enterprise_value",
+  "title": "Enterprise value - Wikipedia"
+ },
+ {
+  "url": "https://en.wikipedia.org/wiki/General_partner",
+  "status": 200,
+  "final": "https://en.wikipedia.org/wiki/General_partner",
+  "title": "General partner - Wikipedia"
+ },
+ {
+  "url": "https://en.wikipedia.org/wiki/Hurdle_rate",
+  "status": 200,
+  "final": "https://en.wikipedia.org/wiki/Hurdle_rate",
+  "title": "Hurdle rate - Wikipedia"
+ },
+ {
+  "url": "https://en.wikipedia.org/wiki/Initial_public_offering",
+  "status": 200,
+  "final": "https://en.wikipedia.org/wiki/Initial_public_offering",
+  "title": "Initial public offering - Wikipedia"
+ },
+ {
+  "url": "https://en.wikipedia.org/wiki/Internal_rate_of_return",
+  "status": 200,
+  "final": "https://en.wikipedia.org/wiki/Internal_rate_of_return",
+  "title": "Internal rate of return - Wikipedia"
+ },
+ {
+  "url": "https://en.wikipedia.org/wiki/J_curve",
+  "status": 200,
+  "final": "https://en.wikipedia.org/wiki/J_curve",
+  "title": "J curve - Wikipedia"
+ },
+ {
+  "url": "https://en.wikipedia.org/wiki/Leveraged_buyout",
+  "status": 200,
+  "final": "https://en.wikipedia.org/wiki/Leveraged_buyout",
+  "title": "Leveraged buyout - Wikipedia"
+ },
+ {
+  "url": "https://en.wikipedia.org/wiki/Limited_partnership",
+  "status": 200,
+  "final": "https://en.wikipedia.org/wiki/Limited_partnership",
+  "title": "Limited partnership - Wikipedia"
+ },
+ {
+  "url": "https://en.wikipedia.org/wiki/Liquidation_preference",
+  "status": 200,
+  "final": "https://en.wikipedia.org/wiki/Liquidation_preference",
+  "title": "Liquidation preference - Wikipedia"
+ },
+ {
+  "url": "https://en.wikipedia.org/wiki/Management_fee",
+  "status": 200,
+  "final": "https://en.wikipedia.org/wiki/Management_fee",
+  "title": "Management fee - Wikipedia"
+ },
+ {
+  "url": "https://en.wikipedia.org/wiki/Mergers_and_acquisitions",
+  "status": 200,
+  "final": "https://en.wikipedia.org/wiki/Mergers_and_acquisitions",
+  "title": "Mergers and acquisitions - Wikipedia"
+ },
+ {
+  "url": "https://en.wikipedia.org/wiki/Participating_preferred_stock",
+  "status": 200,
+  "final": "https://en.wikipedia.org/wiki/Participating_preferred_stock",
+  "title": "Participating preferred stock - Wikipedia"
+ },
+ {
+  "url": "https://en.wikipedia.org/wiki/Pre-money_valuation",
+  "status": 200,
+  "final": "https://en.wikipedia.org/wiki/Pre-money_valuation",
+  "title": "Pre-money valuation - Wikipedia"
+ },
+ {
+  "url": "https://en.wikipedia.org/wiki/Private_credit",
+  "status": 200,
+  "final": "https://en.wikipedia.org/wiki/Private_credit",
+  "title": "Private credit - Wikipedia"
+ },
+ {
+  "url": "https://en.wikipedia.org/wiki/Private_equity_secondary_market",
+  "status": 200,
+  "final": "https://en.wikipedia.org/wiki/Private_equity_secondary_market",
+  "title": "Private-equity secondary market - Wikipedia"
+ },
+ {
+  "url": "https://en.wikipedia.org/wiki/Pro_rata",
+  "status": 200,
+  "final": "https://en.wikipedia.org/wiki/Pro_rata",
+  "title": "Pro rata - Wikipedia"
+ },
+ {
+  "url": "https://en.wikipedia.org/wiki/Recurring_revenue",
+  "status": 200,
+  "final": "https://en.wikipedia.org/wiki/Recurring_revenue",
+  "title": "Revenue stream - Wikipedia"
+ },
+ {
+  "url": "https://en.wikipedia.org/wiki/Rule_of_40",
+  "status": 200,
+  "final": "https://en.wikipedia.org/wiki/Rule_of_40",
+  "title": "Rule of 40 - Wikipedia"
+ },
+ {
+  "url": "https://en.wikipedia.org/wiki/Series_A_round",
+  "status": 200,
+  "final": "https://en.wikipedia.org/wiki/Series_A_round",
+  "title": "Series A round - Wikipedia"
+ },
+ {
+  "url": "https://en.wikipedia.org/wiki/Stock_dilution",
+  "status": 200,
+  "final": "https://en.wikipedia.org/wiki/Stock_dilution",
+  "title": "Stock dilution - Wikipedia"
+ },
+ {
+  "url": "https://en.wikipedia.org/wiki/Term_sheet",
+  "status": 200,
+  "final": "https://en.wikipedia.org/wiki/Term_sheet",
+  "title": "Term sheet - Wikipedia"
+ },
+ {
+  "url": "https://en.wikipedia.org/wiki/Unicorn_(finance)",
+  "status": 200,
+  "final": "https://en.wikipedia.org/wiki/Unicorn_(finance)",
+  "title": "Unicorn (finance) - Wikipedia"
+ },
+ {
+  "url": "https://en.wikipedia.org/wiki/Venture_debt",
+  "status": 200,
+  "final": "https://en.wikipedia.org/wiki/Venture_debt",
+  "title": "Venture debt - Wikipedia"
+ },
+ {
+  "url": "https://en.wikipedia.org/wiki/Venture_round",
+  "status": 200,
+  "final": "https://en.wikipedia.org/wiki/Venture_round",
+  "title": "Venture round - Wikipedia"
+ },
+ {
+  "url": "https://en.wikipedia.org/wiki/Vesting",
+  "status": 200,
+  "final": "https://en.wikipedia.org/wiki/Vesting",
+  "title": "Vesting - Wikipedia"
+ },
+ {
+  "url": "https://en.wikipedia.org/wiki/Vintage_year",
+  "status": 200,
+  "final": "https://en.wikipedia.org/wiki/Vintage_year",
+  "title": "Vintage year - Wikipedia"
+ },
+ {
+  "url": "https://learn.angellist.com/what-is-a-down-round",
+  "status": 200,
+  "final": "https://learn.angellist.com/what-is-a-down-round",
+  "title": "What is a Down Round? | AngelList Education Center"
+ },
+ {
+  "url": "https://ltse.com/insights/what-is-an-anti-dilution-provision",
+  "status": 200,
+  "final": "https://ltse.com/insights/what-is-an-anti-dilution-provision",
+  "title": "What is an anti-dilution provision?"
  },
  {
   "url": "https://nvca.org/model-legal-documents/",
@@ -17,194 +306,16 @@
   "error": "HTTP Error 403: Forbidden"
  },
  {
-  "url": "https://www.investopedia.com/articles/personal-finance/102015/series-b-c-funding-what-it-all-means-and-how-it-works.asp",
-  "status": 403,
-  "error": "HTTP Error 403: Forbidden"
+  "url": "https://www.holloway.com/g/venture-capital/sections/liquidation-preference",
+  "status": 200,
+  "final": "https://www.holloway.com/g/venture-capital/sections/liquidation-preference",
+  "title": "Liquidation Preference \u2014 The Holloway Guide to Raising Venture Capital"
  },
  {
-  "url": "https://www.investopedia.com/ask/answers/114.asp",
-  "status": 403,
-  "error": "HTTP Error 403: Forbidden"
- },
- {
-  "url": "https://www.investopedia.com/private-credit-7484007",
-  "status": 403,
-  "error": "HTTP Error 403: Forbidden"
- },
- {
-  "url": "https://www.investopedia.com/terms/a/annual-recurring-revenue.asp",
-  "status": 403,
-  "error": "HTTP Error 403: Forbidden"
- },
- {
-  "url": "https://www.investopedia.com/terms/a/antidilutionprovision.asp",
-  "status": 403,
-  "error": "HTTP Error 403: Forbidden"
- },
- {
-  "url": "https://www.investopedia.com/terms/b/burnrate.asp",
-  "status": 403,
-  "error": "HTTP Error 403: Forbidden"
- },
- {
-  "url": "https://www.investopedia.com/terms/c/capital-call.asp",
-  "status": 403,
-  "error": "HTTP Error 403: Forbidden"
- },
- {
-  "url": "https://www.investopedia.com/terms/c/capitalization-table.asp",
-  "status": 403,
-  "error": "HTTP Error 403: Forbidden"
- },
- {
-  "url": "https://www.investopedia.com/terms/c/carriedinterest.asp",
-  "status": 403,
-  "error": "HTTP Error 403: Forbidden"
- },
- {
-  "url": "https://www.investopedia.com/terms/c/continuation-fund.asp",
-  "status": 403,
-  "error": "HTTP Error 403: Forbidden"
- },
- {
-  "url": "https://www.investopedia.com/terms/c/convertiblenote.asp",
-  "status": 403,
-  "error": "HTTP Error 403: Forbidden"
- },
- {
-  "url": "https://www.investopedia.com/terms/c/corporate-venture-capital.asp",
-  "status": 403,
-  "error": "HTTP Error 403: Forbidden"
- },
- {
-  "url": "https://www.investopedia.com/terms/c/customer-acquisition-cost.asp",
-  "status": 403,
-  "error": "HTTP Error 403: Forbidden"
- },
- {
-  "url": "https://www.investopedia.com/terms/d/dcf.asp",
-  "status": 403,
-  "error": "HTTP Error 403: Forbidden"
- },
- {
-  "url": "https://www.investopedia.com/terms/d/dilution.asp",
-  "status": 403,
-  "error": "HTTP Error 403: Forbidden"
- },
- {
-  "url": "https://www.investopedia.com/terms/d/distribution-waterfall.asp",
-  "status": 403,
-  "error": "HTTP Error 403: Forbidden"
- },
- {
-  "url": "https://www.investopedia.com/terms/d/downround.asp",
-  "status": 403,
-  "error": "HTTP Error 403: Forbidden"
- },
- {
-  "url": "https://www.investopedia.com/terms/d/dpi.asp",
-  "status": 403,
-  "error": "HTTP Error 403: Forbidden"
- },
- {
-  "url": "https://www.investopedia.com/terms/d/drypowder.asp",
-  "status": 403,
-  "error": "HTTP Error 403: Forbidden"
- },
- {
-  "url": "https://www.investopedia.com/terms/e/enterprisevaluerevenuemultiple.asp",
-  "status": 403,
-  "error": "HTTP Error 403: Forbidden"
- },
- {
-  "url": "https://www.investopedia.com/terms/e/eso.asp",
-  "status": 403,
-  "error": "HTTP Error 403: Forbidden"
- },
- {
-  "url": "https://www.investopedia.com/terms/h/hurdlerate.asp",
-  "status": 403,
-  "error": "HTTP Error 403: Forbidden"
- },
- {
-  "url": "https://www.investopedia.com/terms/i/ipo.asp",
-  "status": 403,
-  "error": "HTTP Error 403: Forbidden"
- },
- {
-  "url": "https://www.investopedia.com/terms/i/irr.asp",
-  "status": 403,
-  "error": "HTTP Error 403: Forbidden"
- },
- {
-  "url": "https://www.investopedia.com/terms/j/j-curve.asp",
-  "status": 403,
-  "error": "HTTP Error 403: Forbidden"
- },
- {
-  "url": "https://www.investopedia.com/terms/l/leveragedbuyout.asp",
-  "status": 403,
-  "error": "HTTP Error 403: Forbidden"
- },
- {
-  "url": "https://www.investopedia.com/terms/l/limitedpartner.asp",
-  "status": 403,
-  "error": "HTTP Error 403: Forbidden"
- },
- {
-  "url": "https://www.investopedia.com/terms/l/liquidation-preference.asp",
-  "status": 403,
-  "error": "HTTP Error 403: Forbidden"
- },
- {
-  "url": "https://www.investopedia.com/terms/m/mergersandacquisitions.asp",
-  "status": 403,
-  "error": "HTTP Error 403: Forbidden"
- },
- {
-  "url": "https://www.investopedia.com/terms/p/participatingpreferredstock.asp",
-  "status": 403,
-  "error": "HTTP Error 403: Forbidden"
- },
- {
-  "url": "https://www.investopedia.com/terms/r/rule-of-40.asp",
-  "status": 403,
-  "error": "HTTP Error 403: Forbidden"
- },
- {
-  "url": "https://www.investopedia.com/terms/s/secondarymarket.asp",
-  "status": 403,
-  "error": "HTTP Error 403: Forbidden"
- },
- {
-  "url": "https://www.investopedia.com/terms/t/termsheet.asp",
-  "status": 403,
-  "error": "HTTP Error 403: Forbidden"
- },
- {
-  "url": "https://www.investopedia.com/terms/t/two_and_twenty.asp",
-  "status": 403,
-  "error": "HTTP Error 403: Forbidden"
- },
- {
-  "url": "https://www.investopedia.com/terms/u/unicorn.asp",
-  "status": 403,
-  "error": "HTTP Error 403: Forbidden"
- },
- {
-  "url": "https://www.investopedia.com/terms/v/venture-debt.asp",
-  "status": 403,
-  "error": "HTTP Error 403: Forbidden"
- },
- {
-  "url": "https://www.investopedia.com/terms/v/vesting.asp",
-  "status": 403,
-  "error": "HTTP Error 403: Forbidden"
- },
- {
-  "url": "https://www.investopedia.com/terms/v/vintageyear.asp",
-  "status": 403,
-  "error": "HTTP Error 403: Forbidden"
+  "url": "https://www.holloway.com/g/venture-capital/sections/pro-rata-rights",
+  "status": 200,
+  "final": "https://www.holloway.com/g/venture-capital/sections/pro-rata-rights",
+  "title": "Pro Rata Rights \u2014 The Holloway Guide to Raising Venture Capital"
  },
  {
   "url": "https://www.ycombinator.com/documents",
