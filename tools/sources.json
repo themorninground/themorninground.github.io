@@ -3074,13 +3074,28 @@
   ],
   "region": "US",
   "auto": true,
-  "found": "2026-10-19"
+  "found": "2026-10-19",
+  "last_ok": "2026-10-19"
  },
  {
   "id": "clay",
   "name": "Clay",
   "ar": "Clay",
   "url": "https://clay.com",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "en"
+  ],
+  "region": "US",
+  "auto": true,
+  "found": "2026-10-19"
+ },
+ {
+  "id": "forbes",
+  "name": "Forbes",
+  "ar": "Forbes",
+  "url": "https://forbes.com",
   "tier": 4,
   "kind": "discovered",
   "lang": [
