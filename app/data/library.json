@@ -536,19 +536,234 @@
  {
   "id": "bain-pe-midyear-2026",
   "cat": "pm",
-  "ar": "تحكّم بما تقدر عليه، وتحمّل الباقي",
-  "en": "Private Equity Midyear Report 2026",
-  "author": "Bain & Company",
-  "pub": "Bain",
+  "ar": "تحكّم فيما يمكن التحكم فيه، واصمد أمام الباقي: تقرير الملكية الخاصة لمنتصف 2026",
+  "en": "Control the Controllable, Weather the Rest: Private Equity Midyear Report 2026",
+  "author": "هيو ماكآرثر وآخرون",
+  "pub": "Bain & Company",
   "date": "يونيو 2026",
   "mins": 20,
   "url": "https://www.bain.com/insights/private-equity-midyear-report-2026/",
   "embed": true,
-  "arabic": false,
+  "arabic": true,
   "img": "lib-bain-pe-midyear-2026",
-  "about": "قيمة صفقات التقنية في الملكية الخاصة نزلت 70% بين نهاية 2025 وبداية 2026، والتوزيعات على المستثمرين في أدنى مستوى لها منذ أربع سنوات.",
-  "why": "أدق صورة بالأرقام لحال الملكية الخاصة هذه السنة.",
-  "topic": "pe"
+  "about": "تقرير Bain عن النصف الأول 2026: ثلاث صدمات (الذكاء الاصطناعي والبرمجيات، والائتمان الخاص، وحرب إيران) أوقفت انتعاش الصفقات، والخروج والتوزيعات في أدنى مستوياتها، وجمع الأموال يتأخر. والحل عند Bain: أربعة مبادئ لخلق القيمة.",
+  "why": "أوضح صورة لحال الملكية الخاصة اليوم بأرقام MSCI وILPA وDealogic، ومعادلة واحدة تختصر كل شيء: الصفقة التي كانت تحتاج نموًا 5% تحتاج اليوم 12%.",
+  "topic": "pe",
+  "author_en": "Hugh MacArthur et al.",
+  "about_en": "Bain's review of H1 2026: three shocks (AI and software, private credit, the Iran war) stalled the deal recovery, exits and distributions are at record lows, and fundraising lags. Bain's answer: four value-creation principles.",
+  "why_en": "The clearest picture of private equity today with MSCI, ILPA and Dealogic numbers, and one line that sums it up: a deal that needed 5% growth now needs 12%.",
+  "match": [
+   "كل الأقسام بعناوين التقرير وترتيبها، والمبادئ الأربعة بعناوينها.",
+   "الأشكال 13 من 13: الشكل 3 أعدنا رسمه من أرقام النص، والبقية بعناوينها ومصادرها وملاحظاتها والأرقام الواردة في النص، لأن أرقامها التفصيلية في الصور فقط.",
+   "ترجمنا اقتباسات المديرين بتصرف."
+  ],
+  "summary": {
+   "ar": {
+    "core": "كان يُفترض أن تكون 2026 سنة عودة الصفقات، لكن ثلاث صدمات أوقفتها: الذكاء الاصطناعي الذي هز البرمجيات، وضغوط الاسترداد في الائتمان الخاص، وحرب إيران. الخروج والتوزيعات عالقان، فجمع الأموال يتأخر. ومع غلاء الصفقات تاريخيًا، لا يبقى للصناديق إلا خلق القيمة التشغيلية.",
+    "points": [
+     [
+      "يوم الجرذ الأرضي",
+      "التعافي يتأجل مجددًا بعد ثلاث صدمات في 2026."
+     ],
+     [
+      "لا شيء معطل",
+      "الأسهم العامة قوية والسيولة وفيرة وأسواق الدين مفتوحة، لكن التعافي يحتاج استقرارًا يدوم."
+     ],
+     [
+      "صفقات التقنية",
+      "قيمتها نزلت 70% من الربع الرابع 2025 إلى الأول 2026، وتقييمات البرمجيات في الصناديق نزلت قرابة 8% (8.9% أمريكا، 4.2% أوروبا)."
+     ],
+     [
+      "أغلى صفقات في التاريخ",
+      "مضاعفات الدخول والفائدة مرتفعتان معًا لأول مرة، و«مؤشر تكلفة الصفقة» قياسي."
+     ],
+     [
+      "استقرار لا تعافٍ",
+      "مؤشر اتفاقيات السرية من Ontra يشير إلى نشاط ثابت حتى يوليو 2026."
+     ],
+     [
+      "الخروج عالق",
+      "أربع سنوات من أدنى توزيعات قياسية، ودورة رأس مال قرابة سبع سنوات، ومعظم الأصول اشتُريت في 2021 أو قبلها."
+     ],
+     [
+      "معضلة التقييم",
+      "معظم الشركاء يفقدون الثقة إذا تجاوز خصم الخروج 5%، لكن أكثر من 75% من الأصول تخرج فوق تقييم ما قبل الأخير."
+     ],
+     [
+      "جمع الأموال آخر ما يتعافى",
+      "يحتاج 12 إلى 18 شهرًا من تحسن الخروج، وواحد من كل خمسة شركاء يخفض تخصيصه، والقوة التفاوضية تنتقل إلى الشركاء."
+     ],
+     [
+      "أربعة مبادئ",
+      "12 هي الـ5 الجديدة، وانخرط في الذكاء الاصطناعي، ولا تعلق في المنتصف، وركّز على الرابحين."
+     ]
+    ],
+    "numbers": [
+     [
+      "−70%",
+      "قيمة صفقات التقنية من الربع الرابع 2025 إلى الأول 2026"
+     ],
+     [
+      "~7 سنوات",
+      "دورة رأس المال الضمنية للاستحواذات"
+     ],
+     [
+      "5%",
+      "حد الخصم الذي يفقد بعده معظم الشركاء الثقة"
+     ],
+     [
+      "75%+",
+      "من الأصول تخرج فوق تقييم ما قبل الأخير"
+     ],
+     [
+      "5% → 12%",
+      "نمو EBITDA اللازم لعائد 2.5 ضعف في خمس سنوات، قبل عقد واليوم"
+     ]
+    ],
+    "must": "حين تكون الفائدة ومضاعفات الشراء مرتفعتين معًا، لم يعد بإمكان الصندوق الاعتماد على الرافعة الرخيصة أو بيع الشركة بمضاعف أعلى. العائد يجب أن يأتي من نمو الأرباح فعلًا، ولهذا صار التشغيل والتخصص والتركيز على الرابحين هو الفرق بين الصناديق."
+   },
+   "en": {
+    "core": "2026 was supposed to bring dealmaking back, but three shocks stopped it: AI shaking software, redemption stress in private credit, and the Iran war. Exits and distributions are stuck, so fundraising lags. With deals historically expensive, funds are left with operational value creation.",
+    "points": [
+     [
+      "Groundhog Day",
+      "Recovery is deferred again after three shocks in 2026."
+     ],
+     [
+      "Nothing is broken",
+      "Public equities are strong, dry powder is ample and debt markets are open, but recovery needs lasting stability."
+     ],
+     [
+      "Tech deals",
+      "Deal value fell 70% from Q4 2025 to Q1 2026; PE software marks fell about 8% (8.9% US, 4.2% Europe)."
+     ],
+     [
+      "Most expensive deals ever",
+      "Entry multiples and rates are high at the same time for the first time; the deal cost index is at a record."
+     ],
+     [
+      "A plateau, not a recovery",
+      "Ontra's NDA index points to flat activity through July 2026."
+     ],
+     [
+      "Exits are stuck",
+      "Four years of record-low distributions, a seven-year capital cycle, and most assets bought in 2021 or earlier."
+     ],
+     [
+      "The marks dilemma",
+      "Most LPs lose confidence beyond a 5% exit discount, yet over 75% of assets exit above the next-to-last mark."
+     ],
+     [
+      "Fundraising recovers last",
+      "It needs 12–18 months of better exits; one LP in five is cutting allocations, and leverage is shifting to LPs."
+     ],
+     [
+      "Four principles",
+      "12 is the new 5, lean into AI, don't get caught in the middle, focus on the winners."
+     ]
+    ],
+    "numbers": [
+     [
+      "−70%",
+      "Tech deal value, Q4 2025 to Q1 2026"
+     ],
+     [
+      "~7 years",
+      "Implied buyout capital cycle"
+     ],
+     [
+      "5%",
+      "Discount beyond which most LPs lose confidence"
+     ],
+     [
+      "75%+",
+      "Assets exiting above next-to-last mark"
+     ],
+     [
+      "5% → 12%",
+      "EBITDA growth needed for 2.5x in five years, then vs now"
+     ]
+    ],
+    "must": "When rates and purchase multiples are both high, a fund can no longer rely on cheap leverage or selling at a higher multiple. Returns must come from real earnings growth, which is why operations, specialisation and backing winners now separate funds."
+   }
+  },
+  "quiz": [
+   {
+    "q": {
+     "ar": "ما معنى «12 هي الـ5 الجديدة»؟",
+     "en": "What does \"12 is the new 5\" mean?"
+    },
+    "o": {
+     "ar": [
+      "صفقة كانت تحتاج نمو أرباح 5% تحتاج اليوم 12% لنفس العائد",
+      "الرسوم صارت 12%",
+      "الاحتفاظ صار 12 سنة",
+      "العائد المطلوب 12 ضعفًا"
+     ],
+     "en": [
+      "A deal needing 5% EBITDA growth now needs 12% for the same return",
+      "Fees are now 12%",
+      "Holds are now 12 years",
+      "Required return is 12x"
+     ]
+    },
+    "a": 0,
+    "why": {
+     "ar": "لتحقيق 2.5 ضعف في خمس سنوات مع الفائدة والأسعار الحالية.",
+     "en": "To reach 2.5x over five years at today's rates and prices."
+    }
+   },
+   {
+    "q": {
+     "ar": "لماذا يتأخر جمع الأموال؟",
+     "en": "Why does fundraising lag?"
+    },
+    "o": {
+     "ar": [
+      "لأن الخروج والتوزيعات متأخرة، فلا يعود النقد للشركاء",
+      "لأن الشركاء فقدوا الإيمان بالاستحواذات",
+      "لأن الفائدة صفر",
+      "لأن الصناديق لا تريد المال"
+     ],
+     "en": [
+      "Exits and distributions lag, so cash doesn't return to LPs",
+      "LPs lost faith in buyouts",
+      "Rates are zero",
+      "Funds don't want money"
+     ]
+    },
+    "a": 0,
+    "why": {
+     "ar": "التقرير يقول إن الشركاء صبورون ولم يفقدوا الإيمان، لكنهم يحتاجون التوزيعات.",
+     "en": "The report says LPs remain patient and keep faith but need distributions."
+    }
+   },
+   {
+    "q": {
+     "ar": "ما الذي يقيسه «مؤشر تكلفة الصفقة»؟",
+     "en": "What does the \"deal cost index\" measure?"
+    },
+    "o": {
+     "ar": [
+      "عائد القرض × متوسط قيمة المنشأة إلى EBITDA",
+      "عدد الصفقات × الرسوم",
+      "الفائدة ÷ التضخم",
+      "الإيراد × الهامش"
+     ],
+     "en": [
+      "Loan yield × median TEV/EBITDA",
+      "Deal count × fees",
+      "Rates ÷ inflation",
+      "Revenue × margin"
+     ]
+    },
+    "a": 0,
+    "why": {
+     "ar": "ويجمع غلاء الدين وغلاء الشراء في رقم واحد، وهو اليوم في مستوى قياسي.",
+     "en": "It combines expensive debt and expensive purchases in one number, now at a record."
+    }
+   }
+  ]
  },
  {
   "id": "damodaran-sa-blowup",
