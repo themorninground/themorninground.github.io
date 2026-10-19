@@ -15,14 +15,14 @@ jobs:
           import json, subprocess
           out = []
           for u in open('tools/frame_urls.txt').read().split():
-              r = subprocess.run(['curl', '-sIL', '-A', 'Mozilla/5.0', '--max-time', '25', u], capture_output=True, text=True).stdout
-              blocks = [b for b in r.split('\r\n\r\n') if b.strip()]
+              r = subprocess.run(['curl', '-sIL', '-A', 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15', '-H', 'Accept: text/html,application/xhtml+xml', '-H', 'Accept-Language: en-US,en;q=0.9', '--max-time', '25', u], capture_output=True, text=True).stdout
+              blocks = [b for b in r.replace('\r','').split('\n\n') if b.strip()]
               last = blocks[-1] if blocks else ''
               h = {}
-              for line in last.split('\r\n')[1:]:
+              for line in last.split('\n')[1:]:
                   if ':' in line:
                       k, v = line.split(':', 1); h[k.strip().lower()] = v.strip()
-              status = last.split('\r\n')[0] if last else 'no response'
+              status = last.split('\n')[0] if last else 'no response'
               csp = h.get('content-security-policy', '')
               fa = [p.strip() for p in csp.split(';') if p.strip().startswith('frame-ancestors')]
               out.append({'url': u, 'status': status, 'x-frame-options': h.get('x-frame-options', ''), 'frame-ancestors': fa[0] if fa else '', 'content-type': h.get('content-type', '')})
