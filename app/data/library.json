@@ -1093,17 +1093,231 @@
   "id": "marks-repeal-3",
   "cat": "ec",
   "ar": "هل نلغي قوانين الاقتصاد؟ الجزء الثالث",
-  "en": "Shall We Repeal the Laws of Economics – Part III",
+  "en": "Shall We Repeal the Laws of Economics? Part III",
   "author": "هوارد ماركس",
   "pub": "Oaktree",
   "date": "سبتمبر 2026",
   "mins": 17,
   "url": "https://www.oaktreecapital.com/insights/memo/shall-we-repeal-the-laws-of-economics---part-iii",
   "embed": true,
-  "arabic": false,
+  "arabic": true,
   "img": null,
-  "about": "عن ارتفاع عوائد السندات الأمريكية الطويلة، وأن الدين الأمريكي مسألة حساب وانضباط مالي.",
-  "why": "الفائدة الأمريكية تحدد تكلفة رأس المال عندنا بسبب ربط الريال بالدولار.",
-  "topic": "ec"
+  "about": "عائد سندات الثلاثين عامًا الأمريكية فوق 5.3% والخزانة تحاول كبته بإعادة الشراء. ماركس يشرح لماذا هذا علاج شكلي، وما الذي يرفع الفائدة فعلًا: التضخم والعجز والطلب على رأس المال ومنه الذكاء الاصطناعي، وهل الدين مشكلة، وما الحل، وماذا يفعل المستثمر.",
+  "why": "الفائدة الطويلة تحدد تكلفة كل شيء، من تقييمات الشركات الناشئة إلى قروض الاستحواذ. هنا تفهم القوى وراءها من أوضح كاتب في الأسواق.",
+  "topic": "ec",
+  "author_en": "Howard Marks",
+  "about_en": "The US 30-year yield is above 5.3% and the Treasury is trying to cap it with buybacks. Marks explains why that is cosmetic, what is really pushing rates up (inflation, deficits, demand for capital including AI), whether the debt is a problem, what the fix is, and what investors should do.",
+  "why_en": "Long rates set the cost of everything, from startup valuations to buyout loans. This is the clearest writer in markets on the forces behind them.",
+  "match": [
+   "كل الأقسام بعناوين الكاتب وترتيبها، مع المقدمة والخاتمة بلا عنوان كما في الأصل.",
+   "الأصل بلا رسوم أو جداول أو هوامش."
+  ],
+  "summary": {
+   "ar": {
+    "core": "حين ارتفع عائد سندات الثلاثين عامًا الأمريكية إلى أعلى مستوى في 19 عامًا، ضاعفت الخزانة إعادة شراء السندات الطويلة لتخفضه. ماركس يرى ذلك علاجًا شكليًا مؤقتًا، لأن ما يرفع الفائدة حقيقي: تضخم فوق الهدف، وعجز 6% في زمن رخاء، وطلب هائل على رأس المال. الحل الوحيد عنده ضبط الموازنة برفع الإيرادات وإبطاء الإنفاق.",
+    "points": [
+     [
+      "التدخل يشوه",
+      "الاقتصاد نظام يعمل بنفسه كدائرة الحياة، والتدخل ينتج عواقب غير مقصودة."
+     ],
+     [
+      "الشرارة",
+      "عائد الثلاثين عامًا فوق 5.3% في 17 أغسطس، والخزانة ترفع حد إعادة الشراء من 2 إلى 4 مليارات للعملية، وBessent يلمح إلى «كل ما يلزم»."
+     ],
+     [
+      "علاج مؤقت",
+      "أثر الشراء يتلاشى حين يتوقف، وDruckenmiller يرى أن الحكومات التي تحارب الأساسيات تخسر دائمًا."
+     ],
+     [
+      "ما يرفع الفائدة فعلًا",
+      "تضخم 3.7% مقابل هدف 2%، وعجز 6% مع بطالة 4%، وفوائد تتجاوز تريليون دولار، وتقصير آجال الدين، وطلب على المال منه 5 تريليونات لمراكز بيانات الذكاء الاصطناعي."
+     ],
+     [
+      "السوق لم يقتنع",
+      "حتى بعد رفع الحد إلى 6 مليارات ارتفعت العوائد. كيس الثلج يخفض الحرارة ولا يشفي."
+     ],
+     [
+      "هل الدين مشكلة؟",
+      "لن تتعثر أمريكا لأن دينها بعملتها، والدولار ما زال 89% من معاملات الصرف و57% من الاحتياطيات، لكن الخطر في القوة الشرائية والعملة."
+     ],
+     [
+      "ليس 2008",
+      "ضخ 2008 عوّض ائتمانًا دُمّر في أزمة، أما عجز اليوم فمصنوع ذاتيًا في زمن رخاء فيضيف ضغطًا تضخميًا."
+     ],
+     [
+      "الحل",
+      "قبول أن الدين لن ينزل، ورفع الضرائب خصوصًا على الشرائح العليا، وإبطاء نمو الإنفاق تحت نمو الناتج، والاستفادة من مكاسب الإنتاجية دون إنفاقها."
+     ],
+     [
+      "ماذا يفعل المستثمر؟",
+      "لا تبع أسهمك: المشكلة في المالية العامة لا في الشركات. التنويع خارج الدولار مقبول، لكن ليس على نطاق واسع."
+     ]
+    ],
+    "numbers": [
+     [
+      "5.3%",
+      "عائد سندات الثلاثين عامًا، أعلى مستوى في 19 عامًا"
+     ],
+     [
+      "$40T",
+      "الدين الفيدرالي الأمريكي تقريبًا"
+     ],
+     [
+      "6%",
+      "العجز نسبة إلى الناتج مع بطالة 4%"
+     ],
+     [
+      "$1T+",
+      "صافي مدفوعات الفوائد هذا العام، أكثر من ميزانية الدفاع"
+     ],
+     [
+      "89% / 57%",
+      "حصة الدولار من معاملات الصرف ومن الاحتياطيات"
+     ]
+    ],
+    "must": "الفائدة الطويلة سعر للمال تحدده أساسيات: التضخم، والعجز، والطلب على رأس المال. أي محاولة لخفضها دون معالجة هذه الأساسيات مؤقتة، وقد ترفعها لاحقًا إذا قلق المستثمرون على قيمة العملة. ولأن الفائدة تدخل في كل تقييم، فهذا يخص كل مستثمر، لا الحكومات وحدها."
+   },
+   "en": {
+    "core": "When the US 30-year yield hit a 19-year high, the Treasury doubled its buybacks of long bonds to push it down. Marks sees that as a temporary, cosmetic fix, because what lifts rates is real: inflation above target, a 6% deficit in good times, and huge demand for capital. His only real fix is budget discipline: more revenue and slower spending.",
+    "points": [
+     [
+      "Intervention distorts",
+      "The economy is a self-running system like the circle of life; intervening has unintended consequences."
+     ],
+     [
+      "The trigger",
+      "The 30-year yield closed above 5.3% on 17 August; the Treasury raised its buyback cap from $2B to $4B per operation and Bessent hinted at \"whatever it takes\"."
+     ],
+     [
+      "A temporary fix",
+      "Buying stops working when it stops; Druckenmiller says governments that fight fundamentals always lose."
+     ],
+     [
+      "What really lifts rates",
+      "3.7% inflation against a 2% target, a 6% deficit with 4% unemployment, interest over $1 trillion, shorter debt maturities, and capital demand including $5 trillion for AI data centres."
+     ],
+     [
+      "The market wasn't impressed",
+      "Even after the cap went to $6B, yields rose. An ice pack lowers a fever but does not cure it."
+     ],
+     [
+      "Is the debt a problem?",
+      "The US will not default because it borrows in its own currency, and the dollar is still 89% of FX trades and 57% of reserves; the risk is purchasing power and the currency."
+     ],
+     [
+      "Not 2008",
+      "2008's money creation replaced credit destroyed in a crisis; today's deficits are self-made in prosperity and add to inflation."
+     ],
+     [
+      "The fix",
+      "Accept the debt won't shrink, raise taxes especially at the top, keep spending growth below GDP growth, and bank productivity gains instead of spending them."
+     ],
+     [
+      "What should investors do?",
+      "Don't sell your stocks: the problem is fiscal, not corporate. Diversifying away from the dollar is fine, but not on a large scale."
+     ]
+    ],
+    "numbers": [
+     [
+      "5.3%",
+      "30-year yield, a 19-year high"
+     ],
+     [
+      "$40T",
+      "US federal debt, roughly"
+     ],
+     [
+      "6%",
+      "Deficit to GDP with 4% unemployment"
+     ],
+     [
+      "$1T+",
+      "Net interest this year, more than defence"
+     ],
+     [
+      "89% / 57%",
+      "Dollar share of FX trades and of reserves"
+     ]
+    ],
+    "must": "Long rates are the price of money set by fundamentals: inflation, deficits and capital demand. Any attempt to push them down without fixing those is temporary and may raise them later if investors worry about the currency. Because rates enter every valuation, this matters to every investor, not only governments."
+   }
+  },
+  "quiz": [
+   {
+    "q": {
+     "ar": "لماذا يرى ماركس أن إعادة شراء السندات علاج شكلي؟",
+     "en": "Why does Marks call the buybacks cosmetic?"
+    },
+    "o": {
+     "ar": [
+      "لأنها لا تعالج أسباب ارتفاع الفائدة وأثرها مؤقت",
+      "لأنها غير قانونية",
+      "لأنها ترفع الضرائب",
+      "لأنها تخفض التضخم فورًا"
+     ],
+     "en": [
+      "They don't address the causes and the effect fades",
+      "They are illegal",
+      "They raise taxes",
+      "They cut inflation immediately"
+     ]
+    },
+    "a": 0,
+    "why": {
+     "ar": "الشراء يرفع الأسعار مؤقتًا، والتضخم والعجز والطلب على المال باقية.",
+     "en": "Buying lifts prices briefly while inflation, deficits and capital demand remain."
+    }
+   },
+   {
+    "q": {
+     "ar": "لماذا لا يتوقع ماركس أن تتعثر أمريكا في السداد؟",
+     "en": "Why doesn't Marks expect a US default?"
+    },
+    "o": {
+     "ar": [
+      "لأن دينها بعملة تصدرها",
+      "لأن دينها صغير",
+      "لأن الذهب يغطيه",
+      "لأن العجز صفر"
+     ],
+     "en": [
+      "It borrows in a currency it issues",
+      "Its debt is small",
+      "Gold backs it",
+      "The deficit is zero"
+     ]
+    },
+    "a": 0,
+    "why": {
+     "ar": "الخطر عنده ليس التعثر بل تراجع قيمة الدولار.",
+     "en": "The risk he sees is not default but a weaker dollar."
+    }
+   },
+   {
+    "q": {
+     "ar": "ماذا نصح ماركس صديقه الذي سأل هل يبيع أسهمه؟",
+     "en": "What did Marks tell the friend who asked about selling stocks?"
+    },
+    "o": {
+     "ar": [
+      "لا تبع",
+      "بع كل شيء واشترِ ذهبًا",
+      "انقل كل أموالك لليورو",
+      "اشترِ سندات الثلاثين عامًا فقط"
+     ],
+     "en": [
+      "Don't sell",
+      "Sell everything for gold",
+      "Move everything to euros",
+      "Buy only 30-year bonds"
+     ]
+    },
+    "a": 0,
+    "why": {
+     "ar": "المشكلة في المالية العامة لا في الشركات الأمريكية، والبدائل الدولارية معرضة للخطر نفسه.",
+     "en": "The problem is fiscal, not with US companies, and dollar alternatives carry the same risk."
+    }
+   }
+  ]
  }
 ]
