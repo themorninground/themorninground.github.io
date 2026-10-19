@@ -3220,5 +3220,19 @@
   "auto": true,
   "found": "2026-10-19",
   "last_ok": "2026-10-19"
+ },
+ {
+  "id": "businessnewsthisweek",
+  "name": "Business News This Week",
+  "ar": "Business News This Week",
+  "url": "https://businessnewsthisweek.com",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "en"
+  ],
+  "region": "SA",
+  "auto": true,
+  "found": "2026-10-19"
  }
 ]
