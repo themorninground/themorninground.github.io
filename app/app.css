@@ -1026,3 +1026,13 @@ kbd{font-family:var(--lat);font-size:11.5px;padding:2px 6px;border-radius:6px;ba
 .mtools button{display:flex;align-items:center;gap:12px;padding:12px 14px;border-radius:14px;font-weight:600;color:var(--ink-2);text-align:start}
 .mtools button:hover{background:var(--paper-2);color:var(--ink)}
 .mby{margin-top:14px;text-align:center;font-size:13px;color:var(--ink-3)}
+
+.sky .st text{opacity:0;font-size:16px;paint-order:stroke;stroke:#0B0D12;stroke-width:4px}
+.sky .st.on text{opacity:.95}
+.sky .st.hv text{opacity:1}
+.sky.hov .st:not(.hv){opacity:.45}
+.sky .lk.hl{stroke:#FFD45C;stroke-opacity:.9;stroke-dasharray:none;stroke-width:1.6}
+.sky .st .halo{transition:r .4s}
+.sky .gl{font-size:15px;font-weight:600}
+@media (max-width:760px){.skywrap{margin-inline:-16px;border-radius:0}.sky{min-width:760px}.skywrap{overflow-x:auto}.skyhead{position:sticky;inset-inline-start:16px}}
+.sky .lk{stroke:rgba(255,255,255,.11)}

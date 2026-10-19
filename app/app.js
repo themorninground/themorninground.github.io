@@ -377,31 +377,32 @@ function renderLibrary(q) {
 }
 
 /* ---------- CONCEPTS ---------- */
-const CGROUP = { vc: ['أساسيات الاستثمار الجريء', 'Venture basics'], funds: ['الصناديق والمستثمرون فيها', 'Funds & LPs'], deal: ['هيكلة الصفقات', 'Deal terms'], val: ['التقييم', 'Valuation'], pe: ['الملكية الخاصة والائتمان', 'PE & credit'], mk: ['الأسواق والاقتصاد', 'Markets & economics'] };
-function skySVG(W, H, small) {
- const groups = Object.keys(CGROUP).filter(g => CON.some(c => (c.group || 'vc') === g));
- const pos = {}; const gx = {};
- groups.forEach((g, gi) => { const cx = W * (gi + .5) / groups.length; gx[g] = cx; const list = CON.filter(c => (c.group || 'vc') === g);
-  list.forEach((c, k) => { const ang = k * 2.39996; const rad = 26 * Math.sqrt(k + .6) * (small ? .8 : 1); pos[c.id] = [cx + Math.cos(ang) * rad * 1.25, H * .44 + Math.sin(ang) * rad * .85]; }); });
- const links = []; CON.forEach((c, i) => CON.slice(i + 1).forEach(d => { const shared = (c.articles || []).some(x => (d.articles || []).includes(x)) || (c.related || []).includes(d.id) || (d.related || []).includes(c.id); if (shared) links.push([c.id, d.id]); }));
- let h = 7; const rnd = () => ((h = (h * 1103515245 + 12345) >>> 0) / 4294967296);
- const dust = Array.from({ length: small ? 40 : 90 }, () => `<circle cx="${(rnd() * W).toFixed(0)}" cy="${(rnd() * H * .8).toFixed(0)}" r="${(rnd() * 1.2 + .3).toFixed(1)}" class="dust" style="--d:${(rnd() * 4).toFixed(1)}s"/>`).join('');
+const CGROUP = { vc: ['أساسيات الاستثمار الجريء', 'Venture basics'], deal: ['هيكلة الصفقات', 'Deal terms'], funds: ['الصناديق والمستثمرون فيها', 'Funds & LPs'], val: ['التقييم والمقاييس', 'Valuation & metrics'], pe: ['الملكية الخاصة والائتمان', 'PE & credit'], mk: ['الأسواق والخروج', 'Markets & exits'] };
+function skySVG(W, H) {
+ const groups = Object.keys(CGROUP).filter(g => CON.some(c => (c.group || 'vc') === g)); if (!EN()) groups.reverse();
+ const pos = {}; const gx = {}; let h = 11; const rnd = () => ((h = (h * 1103515245 + 12345) >>> 0) / 4294967296);
+ const top = H * .18, span = H * .6;
+ groups.forEach((g, gi) => { const cx = W * (gi + .5) / groups.length; gx[g] = cx; const list = CON.filter(c => (c.group || 'vc') === g); const cols = list.length > 6 ? 2 : 1; const rows = Math.ceil(list.length / cols);
+  list.forEach((c, k) => { const col = k % cols, row = Math.floor(k / cols); pos[c.id] = [cx + (col - (cols - 1) / 2) * (W / groups.length * .42) + (rnd() - .5) * 26, top + (row + .5) * span / rows + (rnd() - .5) * 18 + (col ? span / rows / 2 : 0)]; }); });
+ const links = []; CON.forEach((c, i) => CON.slice(i + 1).forEach(d => { const shared = (c.related || []).includes(d.id) || (d.related || []).includes(c.id); if (shared) links.push([c.id, d.id]); }));
+ const dust = Array.from({ length: 110 }, () => `<circle cx="${(rnd() * W).toFixed(0)}" cy="${(rnd() * H * .8).toFixed(0)}" r="${(rnd() * 1.2 + .3).toFixed(1)}" class="dust" style="--d:${(rnd() * 4).toFixed(1)}s"/>`).join('');
  return `<svg class="sky" viewBox="0 0 ${W} ${H}" role="img" aria-label="${tr('خريطة المفاهيم', 'Concept map')}">
   <defs><radialGradient id="glw"><stop offset="0" stop-color="#FFA235" stop-opacity=".55"/><stop offset="1" stop-color="#FFA235" stop-opacity="0"/></radialGradient></defs>
   ${dust}
-  ${links.map(([x, y]) => `<line class="lk${ST.known.includes(x) && ST.known.includes(y) ? ' on' : ''}" x1="${pos[x][0].toFixed(1)}" y1="${pos[x][1].toFixed(1)}" x2="${pos[y][0].toFixed(1)}" y2="${pos[y][1].toFixed(1)}"/>`).join('')}
+  ${links.map(([x, y]) => `<line class="lk${ST.known.includes(x) && ST.known.includes(y) ? ' on' : ''}" data-a="${x}" data-b="${y}" x1="${pos[x][0].toFixed(1)}" y1="${pos[x][1].toFixed(1)}" x2="${pos[y][0].toFixed(1)}" y2="${pos[y][1].toFixed(1)}"/>`).join('')}
   <line class="hz" x1="0" x2="${W}" y1="${H * .86}" y2="${H * .86}"/>
-  ${groups.map(g => `<text class="gl" x="${gx[g]}" y="${H * .86 + 22}" text-anchor="middle">${esc(CGROUP[g][EN() ? 1 : 0])}</text>`).join('')}
-  ${CON.map((c, k) => { const [x, y] = pos[c.id]; const on = ST.known.includes(c.id); return `<a href="#/c/${c.id}" class="st${on ? ' on' : ''}" style="--i:${k}"><g transform="translate(${x.toFixed(1)} ${y.toFixed(1)})">${on ? `<circle r="26" fill="url(#glw)"/><circle r="10" fill="url(#stripes-v)"/>` : `<circle r="12" class="halo"/><path class="star4" d="M0-7 1.6-1.6 7 0 1.6 1.6 0 7-1.6 1.6-7 0-1.6-1.6z"/>`}<text y="${on ? 28 : 24}" text-anchor="middle">${esc(EN() ? c.en : c.ar)}</text></g></a>`; }).join('')}
+  ${groups.map(g => `<text class="gl" x="${gx[g]}" y="${H * .86 + 26}" text-anchor="middle">${esc(CGROUP[g][EN() ? 1 : 0])}</text>`).join('')}
+  ${CON.map((c, k) => { const [x, y] = pos[c.id]; const on = ST.known.includes(c.id); return `<a href="#/c/${c.id}" class="st${on ? ' on' : ''}" data-id="${c.id}" style="--i:${k}"><g transform="translate(${x.toFixed(1)} ${y.toFixed(1)})">${on ? `<circle r="24" fill="url(#glw)"/><circle r="9" fill="url(#stripes-v)"/>` : `<circle r="11" class="halo"/><path class="star4" d="M0-6 1.4-1.4 6 0 1.4 1.4 0 6-1.4 1.4-6 0-1.4-1.4z"/>`}<text y="${on ? 26 : 23}" text-anchor="middle">${esc(EN() ? c.en.replace(/ \(.*\)/, '') : c.ar.replace(/ \(.*\)/, ''))}</text></g></a>`; }).join('')}
  </svg>`;
 }
 function renderConcepts() {
  const n = CON.length, k = CON.filter(c => ST.known.includes(c.id)).length;
  return `<main class="wrap">${head(tr('المفاهيم', 'Concepts'), tr('سماء مفاهيمك: كل نجمة مفهوم، وتضيء حين تأخذه. تعريف دقيق بمرجعه، وكيف يشتغل، ومثال حقيقي، وما يختلط معه.', 'Your sky of concepts: each star is a concept and it lights up once you learn it. A precise definition with its reference, how it works, a real example, and what it gets confused with.'))}
-  <section class="skywrap rv"><div class="skyhead"><b dir="ltr"><span class="b">${k}</span> / <span class="b">${n}</span></b><span>${tr('مفهوم أضأته', 'concepts lit')}</span></div>${skySVG(1100, 420)}</section>
+  <section class="skywrap rv"><div class="skyhead"><b dir="ltr"><span class="b">${k}</span> / <span class="b">${n}</span></b><span>${tr('مفهوم أضأته', 'concepts lit')}</span></div>${skySVG(1100, 560)}</section>
   ${Object.keys(CGROUP).filter(g => CON.some(c => (c.group || 'vc') === g)).map(g => `<h2 class="cgh">${esc(CGROUP[g][EN() ? 1 : 0])}</h2><div class="cgrid">${CON.filter(c => (c.group || 'vc') === g).map(c => `<a class="cbox rv${ST.known.includes(c.id) ? ' on' : ''}" href="#/c/${c.id}"><span class="cst">${ST.known.includes(c.id) ? '<i class="sunlet"></i>' : ic('star')}</span><b>${esc(EN() ? c.en : c.ar)}</b><span class="b en2">${esc(EN() ? c.ar : c.en)}</span><span>${tx(c, 'defn').replace(/<[^>]+>/g, '').slice(0, 130)}…</span></a>`).join('')}</div>`).join('')}
   <div class="coming rv">${ic('clock')} <span>${tr('تُضاف المفاهيم تباعًا بعد مراجعة كل واحد ومرجعه.', 'Concepts are added as each one and its reference are checked.')}</span></div></main>`;
 }
+function bindSky() { const sv = $('.sky'); if (!sv) return; $$('.st', sv).forEach(a => { a.addEventListener('pointerenter', () => { sv.classList.add('hov'); a.classList.add('hv'); $$('.lk', sv).forEach(l => l.classList.toggle('hl', l.dataset.a === a.dataset.id || l.dataset.b === a.dataset.id)); }); a.addEventListener('pointerleave', () => { sv.classList.remove('hov'); a.classList.remove('hv'); $$('.lk.hl', sv).forEach(l => l.classList.remove('hl')); }); }); }
 function renderConcept(id) {
  const c = con(id); if (!c) return notFound();
  const arts = (c.articles || []).map(lib).filter(a => a && a.arabic);
@@ -616,7 +617,7 @@ async function route(fresh) {
  if (!parts.length) { html = renderForYou(); bind = bindForYou; }
  else if (parts[0] === 'a') { html = await renderArticle(parts[1], q); bind = () => bindArticle(parts[1]); }
  else if (parts[0] === 'articles') html = renderLibrary(q);
- else if (parts[0] === 'concepts') html = renderConcepts();
+ else if (parts[0] === 'concepts') { html = renderConcepts(); bind = bindSky; }
  else if (parts[0] === 'c') html = renderConcept(parts[1]);
  else if (parts[0] === 'news') html = renderNews(q);
  else if (parts[0] === 'n') { html = renderStory(parts[1]); bind = bindStory; }
