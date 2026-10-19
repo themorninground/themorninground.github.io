@@ -863,5 +863,19 @@
    496,
    328
   ]
+ },
+ "lib-neumann-power-laws": {
+  "src": "https://reactionwheel.net/wp-content/uploads/2015/06/normal-v-pld.png",
+  "size": [
+   602,
+   282
+  ]
+ },
+ "lib-gurley-revenue": {
+  "src": "https://abovethecrowd.com/wp-content/uploads/2011/05/seesaw-01.jpg",
+  "size": [
+   329,
+   335
+  ]
  }
 }
