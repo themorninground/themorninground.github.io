@@ -3118,5 +3118,33 @@
   "region": "SA",
   "auto": true,
   "found": "2026-10-19"
+ },
+ {
+  "id": "ffnews",
+  "name": "FF News",
+  "ar": "FF News",
+  "url": "https://ffnews.com",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "en"
+  ],
+  "region": "SA",
+  "auto": true,
+  "found": "2026-10-19"
+ },
+ {
+  "id": "amwalalghad",
+  "name": "أموال الغد",
+  "ar": "أموال الغد",
+  "url": "https://amwalalghad.com",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "ar"
+  ],
+  "region": "SA",
+  "auto": true,
+  "found": "2026-10-19"
  }
 ]
