@@ -1996,5 +1996,252 @@
     }
    }
   ]
+ },
+ {
+  "id": "gurley-ltv",
+  "cat": "vc",
+  "topic": "vc",
+  "ar": "الإغراء الخطير لصيغة القيمة الدائمة للعميل (LTV)",
+  "en": "The Dangerous Seduction of the Lifetime Value (LTV) Formula",
+  "author": "بيل غيرلي",
+  "author_en": "Bill Gurley",
+  "pub": "Above the Crowd",
+  "date": "سبتمبر 2012",
+  "mins": 11,
+  "url": "https://abovethecrowd.com/2012/09/04/the-dangerous-seduction-of-the-lifetime-value-ltv-formula/",
+  "embed": true,
+  "arabic": true,
+  "img": "lib-gurley-revenue",
+  "about": "صيغة LTV مقابل CAC أداة مفيدة لمقارنة قنوات التسويق، لكنها صارت تبريرًا لحرق الأموال. غيرلي يعدد عشرة أسباب لعدم الثقة بها: متغيراتها تشد بعضها، والعملاء المشترون أسوأ من العضويين، والنمو يصبح طاحونة، و«الغد» الذي تتوقف فيه عن الإنفاق لا يأتي.",
+  "about_en": "LTV versus CAC is a useful tool for comparing marketing channels, but it became a justification for burning cash. Gurley gives ten reasons not to trust it: its variables pull against each other, bought customers underperform organic ones, growth becomes a grind, and the \"tomorrow\" when you stop spending never comes.",
+  "why": "أي شركة ناشئة تعرض عليك «LTV/CAC = 5» تحتاج هذه المقالة قبل أن تصدق الرقم.",
+  "why_en": "Any startup that shows you \"LTV/CAC = 5\" needs this essay before you believe the number.",
+  "match": [
+   "المقدمة والأسباب العشرة بعناوينها وترتيبها والخاتمة.",
+   "الصيغة صورة في الأصل كتبناها بصيغتها المبسطة مع التنبيه، وشكل A-B-C أعدنا رسمه، وشريحة Skype نبهنا عليها في هامش."
+  ],
+  "summary": {
+   "ar": {
+    "core": "نموذج القيمة الدائمة للعميل يقول: إذا كانت قيمة العميل أكبر من تكلفة اكتسابه فأنفق على التسويق بلا تردد. غيرلي يرى أنه أداة تكتيكية مفيدة، لكنه ليس استراتيجية، وافتراضاته هشة ومتشابكة، وكثيرًا ما يُستخدم لتبرير خسائر لا تنتهي.",
+    "points": [
+     [
+      "التعريف",
+      "LTV = القيمة الحالية لأرباح العميل؛ تُقارن بتكلفة الاكتساب، وعمر العميل = 1 ÷ التسرب."
+     ],
+     [
+      "1. أداة لا استراتيجية",
+      "شراء العملاء بأقل من قيمتهم مراجحة يقلدها المنافسون، فلا ميزة مستدامة."
+     ],
+     [
+      "2. تبرير الإنفاق",
+      "العمولات المعتادة 5–10% من المبيعات، والنموذج يبرر 30–50% من الإيراد للاكتساب."
+     ],
+     [
+      "3. سوء الاستخدام",
+      "حساب التكلفة على كل العملاء بدل المشترين، وخصم الإيراد بدل الهامش."
+     ],
+     [
+      "4. ليست فيزياء",
+      "الصيغة تخمين جيد في أحسن أحوالها، لكنها تبدو علمية فتكسب النقاش."
+     ],
+     [
+      "5. الفرسان الخمسة",
+      "رفع السعر يرفع التسرب، وزيادة الإنفاق ترفع تكلفة الاكتساب، والخدمة الأفضل ترفع التكاليف."
+     ],
+     [
+      "6. طاحونة النمو",
+      "مضاعفة الإيراد مرتين تعني مضاعفة الإنفاق أربعًا، وتكلفة الاكتساب ترتفع."
+     ],
+     [
+      "7. المشترون أسوأ",
+      "العملاء العضويون أعلى قيمة وأقل تسربًا وأكثر رضا."
+     ],
+     [
+      "8. أعطه للعميل",
+      "ما يُنفق على التسويق يمكن أن يصير أسعارًا أقل أو تجربة أفضل، كما يقول Bezos."
+     ],
+     [
+      "9. الغمامات",
+      "الهوس بالنموذج يقتل الإبداع في النمو الفيروسي والعضوي."
+     ],
+     [
+      "10. الغد لا يأتي",
+      "التوقف عن الإنفاق يرفع التسرب، والسوق قد يعاقب الشركة، واحذر أن تكون مستثمر القمة."
+     ]
+    ],
+    "numbers": [
+     [
+      "n = 1/churn",
+      "متوسط عمر العميل"
+     ],
+     [
+      "5–10%",
+      "سقف العمولات المعتاد من المبيعات"
+     ],
+     [
+      "30–50%",
+      "من الإيراد يبرره النموذج للاكتساب"
+     ],
+     [
+      "$50M → $200M",
+      "ميزانية تسويق عند 50% من إيراد يتضاعف مرتين"
+     ],
+     [
+      "A → B → C",
+      "صعود القيمة بالتسويق ثم انهيارها"
+     ]
+    ],
+    "must": "نسبة LTV إلى CAC مفيدة فقط للمقارنة بين قنوات تسويق متشابهة، لا لتبرير نموذج عمل كامل. اسأل: هل حُسبت التكلفة على العملاء المشترين وحدهم؟ هل القيمة مبنية على الهامش لا الإيراد؟ وماذا يحدث للتسرب لو توقف الإنفاق؟"
+   },
+   "en": {
+    "core": "The LTV model says: if a customer is worth more than it costs to acquire, spend on marketing without hesitation. Gurley sees it as a useful tactical tool but not a strategy; its assumptions are fragile and intertwined, and it is often used to justify endless losses.",
+    "points": [
+     [
+      "Definition",
+      "LTV = present value of a customer's profits; compared with acquisition cost; lifetime = 1 ÷ churn."
+     ],
+     [
+      "1. Tool, not strategy",
+      "Buying customers below their value is an arbitrage competitors can copy: no lasting advantage."
+     ],
+     [
+      "2. Justifying spend",
+      "Affiliate fees are usually capped at 5–10% of sales; LTV math justifies 30–50% of revenue."
+     ],
+     [
+      "3. Misuse",
+      "Dividing spend by all customers instead of bought ones, and discounting revenue instead of margin."
+     ],
+     [
+      "4. Not physics",
+      "At best a good guess, but it looks scientific so it wins arguments."
+     ],
+     [
+      "5. Five horsemen",
+      "Higher price raises churn, more spend raises CAC, better service raises cost."
+     ],
+     [
+      "6. A grind",
+      "Doubling revenue twice means quadrupling spend, and CAC rises."
+     ],
+     [
+      "7. Bought customers underperform",
+      "Organic customers are worth more, churn less and are happier."
+     ],
+     [
+      "8. Give it to the customer",
+      "Marketing money could become lower prices or better experience, as Bezos says."
+     ],
+     [
+      "9. Blinders",
+      "LTV obsession kills creativity in viral and organic growth."
+     ],
+     [
+      "10. Tomorrow never comes",
+      "Stopping spend raises churn, markets punish, and beware being the peak investor."
+     ]
+    ],
+    "numbers": [
+     [
+      "n = 1/churn",
+      "Average customer lifetime"
+     ],
+     [
+      "5–10%",
+      "Usual affiliate cap on sales"
+     ],
+     [
+      "30–50%",
+      "Revenue LTV math justifies for acquisition"
+     ],
+     [
+      "$50M → $200M",
+      "Marketing at 50% of revenue that doubles twice"
+     ],
+     [
+      "A → B → C",
+      "Value pumped by marketing, then collapsing"
+     ]
+    ],
+    "must": "LTV/CAC is only useful for comparing similar marketing channels, not for justifying a whole business model. Ask: is CAC computed on bought customers only? Is value based on margin, not revenue? What happens to churn if spending stops?"
+   }
+  },
+  "quiz": [
+   {
+    "q": {
+     "ar": "كيف يُحسب متوسط عمر العميل في النموذج؟",
+     "en": "How is average customer lifetime computed?"
+    },
+    "o": {
+     "ar": [
+      "1 ÷ معدل التسرب السنوي",
+      "الإيراد ÷ التكلفة",
+      "عدد العملاء × 12",
+      "WACC × 2"
+     ],
+     "en": [
+      "1 ÷ annual churn",
+      "Revenue ÷ cost",
+      "Customers × 12",
+      "WACC × 2"
+     ]
+    },
+    "a": 0,
+    "why": {
+     "ar": "تسرب 20% سنويًا يعني عمرًا متوسطه 5 سنوات.",
+     "en": "20% annual churn means a 5-year average life."
+    }
+   },
+   {
+    "q": {
+     "ar": "ما الخطأ في قسمة الإنفاق التسويقي على كل العملاء الجدد؟",
+     "en": "What is wrong with dividing marketing spend by all new customers?"
+    },
+    "o": {
+     "ar": [
+      "يدخل العملاء العضويين فتبدو التكلفة أقل من الحقيقة",
+      "يجعل التكلفة أعلى",
+      "لا شيء",
+      "يتجاهل الضرائب"
+     ],
+     "en": [
+      "It includes organic customers so CAC looks too low",
+      "It makes CAC too high",
+      "Nothing",
+      "It ignores taxes"
+     ]
+    },
+    "a": 0,
+    "why": {
+     "ar": "العضويون جاؤوا دون إنفاق، فيجب استبعادهم.",
+     "en": "Organic customers came without spend and should be excluded."
+    }
+   },
+   {
+    "q": {
+     "ar": "ماذا يحدث غالبًا حين تخفض الشركة إنفاقها التسويقي فجأة؟",
+     "en": "What often happens when a company suddenly cuts marketing?"
+    },
+    "o": {
+     "ar": [
+      "يرتفع التسرب لأن الإنفاق كان يدعم تكرار الشراء",
+      "تتضاعف الأرباح فورًا",
+      "تنخفض تكلفة الاكتساب إلى الصفر",
+      "لا شيء"
+     ],
+     "en": [
+      "Churn rises because spend was propping up repeat purchases",
+      "Profits double at once",
+      "CAC falls to zero",
+      "Nothing"
+     ]
+    },
+    "a": 0,
+    "why": {
+     "ar": "ولهذا «الغد» الموعود نادرًا ما يأتي.",
+     "en": "That is why the promised \"tomorrow\" rarely arrives."
+    }
+   }
+  ]
  }
 ]
