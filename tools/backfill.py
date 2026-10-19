@@ -31,7 +31,7 @@ for s in ['https://www.wamda.com/sitemap.xml', 'https://www.wamda.com/sitemap_in
         except Exception as e: log('robots fail', e)
     else: sitemap(s)
 log('from sitemaps', len(urls))
-# fallback: walk listing pages
+# fallback: walk listing pages (run 2)
 if len(urls) < 50:
     for base in ['https://www.wamda.com/en/news?page={}', 'https://www.wamda.com/news?page={}', 'https://www.wamda.com/en/latest?page={}', 'https://www.wamda.com/en/investment?page={}']:
         got = 0
@@ -55,11 +55,16 @@ def meta(h, *names):
     return ''
 out = []; T0 = time.time()
 for u in sorted(urls):
-    if time.time() - T0 > 25 * 60: log('time budget'); break
+    if time.time() - T0 > 33 * 60: log('time budget'); break
+    h = None
+    for wait in (0, 40, 90):
+        if wait: time.sleep(wait)
+        try: h = get(u, 1_500_000); break
+        except Exception as e: log('retry', u, e)
+    if h is None: continue
     try:
-        h = get(u, 1_500_000)
         out.append({'url': u, 't': meta(h, 'og:title', 'twitter:title'), 'd': meta(h, 'og:description', 'description'), 'date': meta(h, 'article:published_time', 'date') or re.search(r'/(2026/\d\d)/', u).group(1)})
     except Exception as e: log('page fail', u, e)
-    time.sleep(.25)
+    time.sleep(3.5)
 json.dump(out, open(os.path.join(OUT, 'wamda-2026h1.json'), 'w'), ensure_ascii=False, indent=0)
 log('done', len(out))
