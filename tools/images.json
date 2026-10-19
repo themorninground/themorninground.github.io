@@ -744,11 +744,13 @@
  },
  {
   "id": "lib-neumann-power-laws",
-  "url": "https://i0.wp.com/reactionwheel.net/wp-content/uploads/2015/06/normal-v-pld.png"
+  "url": "https://reactionwheel.net/wp-content/uploads/2015/06/normal-v-pld.png",
+  "force": true
  },
  {
   "id": "lib-gurley-revenue",
-  "url": "https://i0.wp.com/abovethecrowd.com/wp-content/uploads/2011/05/seesaw-01.jpg"
+  "url": "https://abovethecrowd.com/wp-content/uploads/2011/05/seesaw-01.jpg",
+  "force": true
  },
  {
   "id": "lib-kauffman-enemy",
