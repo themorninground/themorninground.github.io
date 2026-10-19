@@ -25,6 +25,23 @@
   ],
   "articles": [
    "neumann-power-laws"
-  ]
+  ],
+  "group": "vc",
+  "stage_en": "VC fundamentals",
+  "defn_en": "A distribution that does not cluster around an average: small values are very common, and huge values are rare but far more likely than a bell curve would suggest. Its form is <bdi dir=\"ltr\" class=\"b\">p(x) = C·x<sup>−α</sup></bdi>, and one number sets its shape: alpha.",
+  "how_en": "The smaller alpha is, the fatter the tail, so extreme outcomes become more likely. At alpha of 2 or less the distribution has no finite mean: the more samples you take, the higher the average climbs. In venture, measured alphas cluster near 2, which is why one company can return the whole fund while most investments lose money or return a small multiple.",
+  "example_en": "In the deals we tracked on 14 October 2026, Modal's round alone ($750M) was larger than Bending Spoons, ICON, Salience Labs and Ghanem combined ($656.5M).",
+  "confuse_en": [
+   [
+    "The 80/20 rule (Pareto)",
+    "A popular special case, not the definition. A power law describes the whole shape of a distribution; 80/20 is just a ratio that appears at one value of alpha."
+   ],
+   [
+    "The lognormal distribution",
+    "It also has a long tail and is hard to tell apart from a power law in real data, but it does have a finite mean and variance."
+   ]
+  ],
+  "formula": "p(x) = Cx<sup>−α</sup>",
+  "related": []
  }
 ]

@@ -3,7 +3,9 @@
 Static site served by GitHub Pages at https://themorninground.github.io
 
 ## Files
-- `app/app.js`, `app/app.css` — the v4 site (Oct 2026): For You (لك) home, articles, concepts, news, dashboard. Hash routes: `#/`, `#/a/<id>`, `#/articles`, `#/concepts`, `#/c/<id>`, `#/news`, `#/n/<id>`, `#/dashboard`.
+- `app/app.js`, `app/app.css` — the v5 site (Oct 2026): Arabic/English toggle, For You (لك) home, articles (tabs Summary / Arabic / Original + machine translation), concepts sky, news, saved, search palette (⌘K). Hash routes: `#/`, `#/a/<id>?t=sum|ar|orig`, `#/articles`, `#/concepts`, `#/c/<id>`, `#/news`, `#/n/<id>`, `#/saved`, `#/dashboard`.
+- `app/dash.js` — D3 dashboard (lazy; uses `vendor/d3.min.js`, `app/data/mena.geo.json`, `app/data/market.json` for the cross-source comparison, each figure with its source).
+- Library entries need `summary.ar/en` (core, points in article order, numbers, must), `about_en`, `why_en`, `topic` (vc, pe, ma, mk, ec), optional `quiz`. Only `arabic: true` articles are shown. Concepts take `group` and `*_en` fields.
 - `app/data/library.json` — the article library (cards, summaries, market notes, embed flag). `app/articles/<id>.html` — the full Arabic version of an article (paragraph by paragraph). `app/data/concepts.json` — reviewed concepts. `app/data/charts.json` — charts used on cards.
 - `index.html` — built output. Never edit by hand; run `python3 tools/build.py page` (calls `tools/build_app.py`).
 - `classic.html` — the previous design (built with `python3 tools/build.py classic` from `src/paper.html` + `src/public-adapter.js`). Backups: branches `design-classic`, `design-brand-v1`; folder `backup/`.

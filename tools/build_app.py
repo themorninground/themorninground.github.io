@@ -42,7 +42,7 @@ html = f'''<!doctype html>
 <link rel="icon" href="{fav}">
 <link rel="apple-touch-icon" href="brand/pack/png/tmr-app-icon-180.png">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=Newsreader:opsz,wght@6..72,400..700&display=swap">
 <link rel="stylesheet" href="app/app.css?v=VER">
 </head>
 <body>

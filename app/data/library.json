@@ -48,6 +48,241 @@
   ],
   "concepts": [
    "power-law"
+  ],
+  "topic": "vc",
+  "author_en": "Jerry Neumann",
+  "about_en": "Venture returns are not bell-shaped. A very small number of deals produce most of the return. Neumann builds a simple model that explains why, tests it against real data from funds and angel investors, then works out what it means for portfolio size, fund life and time to exit.",
+  "why_en": "The best-known reference on the most important idea in VC: why one company can return the whole fund.",
+  "summary": {
+   "ar": {
+    "core": "عوائد الاستثمار الجريء لا تتبع منحنى الجرس، بل قانون القوة، وألفا فيها قريبة من 2. يبيّن نيومان أن نموًا أُسّيًا مع زمن خروج عشوائي يكفيان لإنتاج هذا الشكل، ثم يستخرج منه ما يعنيه لعمر الصندوق وحجم المحفظة وسرعة النمو المطلوبة.",
+    "points": [
+     [
+      "العالم «الطبيعي»",
+      "معظم الظواهر، كأطوال الناس، تتجمع حول متوسط بسبب نظرية النهاية المركزية، ونظرية التمويل الحديثة والتأمين ونظرية المحفظة كلها مبنية على هذا الافتراض."
+     ],
+     [
+      "ظواهر بلا حجم نموذجي",
+      "الزلازل والمدن والحروب لا تتجمع حول متوسط، بل تتبع قانون القوة p(x) = Cx^−α. ذيله أسمك بكثير من ذيل التوزيع الطبيعي، وكلما صغرت ألفا سمك الذيل."
+     ],
+     [
+      "هل عوائد الـVC كذلك؟",
+      "ثيل يعدّها قانون قوة، والمشككون يقولون إنه يصعب تمييزها عن التوزيع اللوغاريتمي الطبيعي. الكاتب يأخذ بمنطق ماندلبروت: نموذج يفترض أن الشذوذ ممتد بلا حد أبسط وأصدق مع الواقع."
+     ],
+     [
+      "النموذج",
+      "شركة تنمو أُسّيًا بمعدل g، وزمن خروجها عشوائي بمتوسط i. هذان الشرطان وحدهما ينتجان قانون قوة للعوائد فوق 1x، وألفا فيه = 1/(gi) + 1."
+     ],
+     [
+      "المقارنة بالواقع",
+      "بقواعد الإبهام (خروج بعد 4 سنوات، ونمو 30% سنويًا) يتنبأ النموذج بألفا 1.96. و16 تقديرًا من بيانات حقيقية، من صناديق وملائكيين وشركات سريعة النمو، تقع بين 1.68 و2.27 وتتجمع حولها."
+     ],
+     [
+      "المستثمر يختار ألفا",
+      "ألفا الأعلى ترتبط بمحافظ المراحل المتأخرة الأقل مخاطرة. ولاستهداف ألفا معينة تستهدف مضاعفًا: ألفا 1.95 تعني شركات تتوقع أن تعيد 2.9 ضعف."
+     ],
+     [
+      "المتوسط اللانهائي",
+      "إذا كانت ألفا 2 أو أقل فلا متوسط للتوزيع، ويرتفع متوسط العينة كلما زادت العينات. عند ألفا 2، أكبر مضاعف متوقع من 10 شركات هو 10x تقريبًا، وتحتها قد تعيد شركة واحدة الصندوق كله."
+     ],
+     [
+      "إكستريمستان وأبسردستان",
+      "يحذّر طالب من أن أدوات المخاطر المبنية على التوزيع الطبيعي تقلل وزن الذيول، كما في انهيار LTCM. وإذا كانت الأسواق العامة «إكستريمستان»، فالاستثمار الجريء «أبسردستان»."
+     ],
+     [
+      "لماذا تبقى ألفا قرب 2؟",
+      "التوقيت: عمر الصندوق نحو 10 سنوات، ولكي تخرج 80% من الشركات خلال 8 سنوات يلزم متوسط خروج نحو 5 سنوات. لذلك لا تناسب براءات الاختراع (ألفا 1.3 إلى 1.7) الاستثمار الجريء، ولألفا قرب 2 يلزم نمو سنوي نحو 22% مع خروج بعد 5 سنوات، ونحو 33% مع 3.5 سنة."
+     ],
+     [
+      "كم شركة في المحفظة؟",
+      "يرى الكاتب أن ألفا مقياس للأداء أفضل من IRR ومضاعف النقد لأنهما يتأثران بالحظ. مكلور يريد 50 إلى 100 شركة أو أكثر، وثيل يريد التركيز، والكاتب يذكّر بأن نمو الشركات الصغيرة في أمريكا قرابة 7.5% سنويًا لا 30%."
+     ],
+     [
+      "فرضية العرض والطلب",
+      "حين تتوفر شركات بألفا أقل من 2، تُجمع أموال وتُنشأ صناديق جديدة، فيرتفع الطلب على هذه الشركات حتى تعود ألفا إلى قرابة 2."
+     ],
+     [
+      "أسئلة لم تُحسم",
+      "هل يتبع الفشل القانون نفسه؟ كيف يتغير توزيع النمو في صناعة ناشئة؟ كيف تُسعّر «القيمة الخيارية» إذا كانت النتائج قانون قوة؟ وهل للعوائد سقف أصلًا؟"
+     ]
+    ],
+    "numbers": [
+     [
+      "1.96",
+      "ألفا التي يتنبأ بها النموذج: خروج بعد 4 سنوات ونمو 30% سنويًا"
+     ],
+     [
+      "1.68–2.27",
+      "نطاق ألفا في 16 مصدر بيانات حقيقية"
+     ],
+     [
+      "2.9x",
+      "المضاعف المستهدف لكي تكون ألفا 1.95"
+     ],
+     [
+      "5 سنوات",
+      "متوسط الخروج اللازم لكي تخرج 80% من الشركات خلال 8 سنوات"
+     ],
+     [
+      "22–33%",
+      "النمو السنوي اللازم لألفا قرب 2 مع خروج بعد 5 أو 3.5 سنة"
+     ]
+    ],
+    "must": "في عالم ألفا قرب 2، خسارة أغلب الصفقات أمر طبيعي، والعائد كله يأتي من الذيل. لذلك قرارات المستثمر الحقيقية ثلاثة: كم شركة يستثمر فيها، وكم يتوقع أن تنمو، وكم تحتاج حتى تخرج. فالخروج المتأخر قد يجعل عائد الذيل يأتي بعد انتهاء عمر الصندوق."
+   },
+   "en": {
+    "core": "Venture returns follow a power law, not a bell curve, and their alpha sits close to 2. Neumann shows that exponential growth plus a random time to exit is enough to produce that shape, then draws out what it means for fund life, portfolio size and the growth a fund needs.",
+    "points": [
+     [
+      "A \"normal\" world",
+      "Most things, like human height, cluster around an average because of the central limit theorem. Modern finance, insurance and portfolio theory are all built on that assumption."
+     ],
+     [
+      "Things with no typical size",
+      "Earthquakes, cities and wars do not cluster around an average. They follow a power law, p(x) = Cx^−α, whose tail is far fatter than a normal curve's. The smaller alpha is, the fatter the tail."
+     ],
+     [
+      "Is venture like that?",
+      "Thiel treats VC returns as a power law; sceptics say it is hard to tell one apart from a lognormal. Neumann sides with Mandelbrot: a model that assumes the extremes go on without limit is simpler and closer to reality."
+     ],
+     [
+      "The model",
+      "A company grows exponentially at rate g and exits at a random time with mean i. Those two assumptions alone produce a power law for returns above 1x, with alpha = 1/(gi) + 1."
+     ],
+     [
+      "Against real data",
+      "With rules of thumb (a 4-year hold and 30% annual growth) the model predicts alpha of 1.96. Sixteen estimates from real data on funds, angels and fast-growing companies range from 1.68 to 2.27 and cluster around it."
+     ],
+     [
+      "Investors choose alpha",
+      "Higher alphas go with lower-risk, later-stage portfolios. To target an alpha you target a multiple: alpha of 1.95 means backing companies you expect to return 2.9x."
+     ],
+     [
+      "The infinite mean",
+      "At alpha of 2 or less the distribution has no mean, and the sample average keeps rising as you add samples. At alpha 2 the largest expected multiple from 10 companies is about 10x; below 2 one company can return the whole fund."
+     ],
+     [
+      "Extremistan and Absurdistan",
+      "Taleb warns that risk tools built on normal distributions underweight the tails, as in the fall of LTCM. If public markets are Extremistan, venture is Absurdistan."
+     ],
+     [
+      "Why alpha stays near 2",
+      "Timing. A fund lives about 10 years; to see 80% of companies exit within 8 years, the mean exit time must be about 5 years. That rules out patents (alpha 1.3 to 1.7), and alpha near 2 needs about 22% annual growth with a 5-year exit, or about 33% with 3.5 years."
+     ],
+     [
+      "How many companies?",
+      "Neumann argues alpha measures performance better than IRR or cash multiples, which luck distorts. McClure wants 50 to 100+ companies, Thiel wants concentration, and Neumann notes that small US companies grow about 7.5% a year, not 30%."
+     ],
+     [
+      "Supply and demand",
+      "When companies with alpha below 2 are available, money flows in and new funds form, bidding them up until alpha returns to about 2."
+     ],
+     [
+      "Open questions",
+      "Do failures follow the same law? How does the growth distribution change in a new industry? How should option value be priced when outcomes follow a power law? And do returns have a ceiling at all?"
+     ]
+    ],
+    "numbers": [
+     [
+      "1.96",
+      "Alpha the model predicts: 4-year exit, 30% annual growth"
+     ],
+     [
+      "1.68–2.27",
+      "Range of alpha across 16 real data sources"
+     ],
+     [
+      "2.9x",
+      "Target multiple for an alpha of 1.95"
+     ],
+     [
+      "5 years",
+      "Mean exit time needed for 80% of companies to exit within 8 years"
+     ],
+     [
+      "22–33%",
+      "Annual growth needed for alpha near 2 with a 5- or 3.5-year exit"
+     ]
+    ],
+    "must": "When alpha is near 2, losing on most deals is normal and the whole return comes from the tail. So an investor's real decisions are three: how many companies to back, how fast they are expected to grow, and how long they take to exit. Exit too late and the tail's return arrives after the fund has ended."
+   }
+  },
+  "quiz": [
+   {
+    "q": {
+     "ar": "بخروج بعد 4 سنوات ونمو 30% سنويًا، كم ألفا التي يتنبأ بها النموذج؟",
+     "en": "With a 4-year exit and 30% annual growth, what alpha does the model predict?"
+    },
+    "o": {
+     "ar": [
+      "1.96",
+      "1.5",
+      "3.0",
+      "2.5"
+     ],
+     "en": [
+      "1.96",
+      "1.5",
+      "3.0",
+      "2.5"
+     ]
+    },
+    "a": 0,
+    "why": {
+     "ar": "ألفا = 1/(gi) + 1، و30% سنويًا تعادل نموًا مستمرًا قدره 26%، فيكون الناتج 1/(0.26×4) + 1 ≈ 1.96.",
+     "en": "Alpha = 1/(gi) + 1. 30% a year is 26% continuous growth, so 1/(0.26×4) + 1 ≈ 1.96."
+    }
+   },
+   {
+    "q": {
+     "ar": "ماذا يحدث إذا كانت ألفا 2 أو أقل؟",
+     "en": "What happens when alpha is 2 or less?"
+    },
+    "o": {
+     "ar": [
+      "لا يكون للتوزيع متوسط محدد",
+      "يختفي الذيل",
+      "يصير التوزيع طبيعيًا",
+      "يتساوى المتوسط والوسيط"
+     ],
+     "en": [
+      "The distribution has no finite mean",
+      "The tail disappears",
+      "It becomes a normal distribution",
+      "The mean equals the median"
+     ]
+    },
+    "a": 0,
+    "why": {
+     "ar": "تحت 2 يرتفع متوسط العينة كلما زادت العينات، ولهذا قد تعيد شركة واحدة الصندوق كله.",
+     "en": "Below 2 the sample average keeps rising as you add samples, which is why one company can return the fund."
+    }
+   },
+   {
+    "q": {
+     "ar": "لماذا لا تناسب براءات الاختراع الاستثمار الجريء حسب الكاتب؟",
+     "en": "Why don't patents suit venture capital, according to Neumann?"
+    },
+    "o": {
+     "ar": [
+      "عوائدها تحتاج وقتًا أطول بكثير من عمر الصندوق",
+      "ألفا فيها أعلى من 3",
+      "لا توجد بيانات عنها",
+      "نموها أسرع من اللازم"
+     ],
+     "en": [
+      "Their returns take far longer than a fund's life",
+      "Their alpha is above 3",
+      "There is no data on them",
+      "They grow too fast"
+     ]
+    },
+    "a": 0,
+    "why": {
+     "ar": "ألفا بين 1.3 و1.7 مع نمو معقول يعني خروجًا بعد عقدين تقريبًا، والصندوق يحتاج خروج أغلب شركاته خلال نحو 8 سنوات.",
+     "en": "Alpha of 1.3 to 1.7 at a sensible growth rate means exits after roughly two decades, while a fund needs most exits within about 8 years."
+    }
+   }
   ]
  },
  {
@@ -64,7 +299,8 @@
   "arabic": false,
   "img": null,
   "about": "يروي قصة الدين عالي العائد من السبعينات حتى صار الإقراض المباشر سوقًا بالتريليونات، ويشرح كيف التوسع السريع جعل بعض المديرين يخففون معاييرهم.",
-  "why": "أكبر اسم في الدين عالي العائد يعطيك الصورة الكاملة لموضوع الساعة."
+  "why": "أكبر اسم في الدين عالي العائد يعطيك الصورة الكاملة لموضوع الساعة.",
+  "topic": "pe"
  },
  {
   "id": "bain-pe-midyear-2026",
@@ -80,7 +316,8 @@
   "arabic": false,
   "img": "lib-bain-pe-midyear-2026",
   "about": "قيمة صفقات التقنية في الملكية الخاصة نزلت 70% بين نهاية 2025 وبداية 2026، والتوزيعات على المستثمرين في أدنى مستوى لها منذ أربع سنوات.",
-  "why": "أدق صورة بالأرقام لحال الملكية الخاصة هذه السنة."
+  "why": "أدق صورة بالأرقام لحال الملكية الخاصة هذه السنة.",
+  "topic": "pe"
  },
  {
   "id": "damodaran-sa-blowup",
@@ -96,7 +333,8 @@
   "arabic": false,
   "img": "lib-damodaran-sa-blowup",
   "about": "صندوق ليوبولد أشنبرينر خسر أكثر من 43% في يوليو وانتهى بالتصفية. داموداران يستخدم القصة ليفكك القناعة الاستثمارية.",
-  "why": "قصة حية من هذا الصيف، ودرسها ينطبق على أي مستثمر مقتنع بفكرة."
+  "why": "قصة حية من هذا الصيف، ودرسها ينطبق على أي مستثمر مقتنع بفكرة.",
+  "topic": "ec"
  },
  {
   "id": "gurley-revenue",
@@ -112,7 +350,8 @@
   "arabic": false,
   "img": "lib-gurley-revenue",
   "about": "لماذا تُقيَّم شركة بعشرة أضعاف إيرادها وأخرى بضعفين؟ غيرلي يعدد الصفات التي ترفع جودة الإيراد.",
-  "why": "طريقة تفكير مستثمر أسطوري في التقييم."
+  "why": "طريقة تفكير مستثمر أسطوري في التقييم.",
+  "topic": "vc"
  },
  {
   "id": "kauffman-enemy",
@@ -128,7 +367,8 @@
   "arabic": false,
   "img": "lib-kauffman-enemy",
   "about": "استثمرت المؤسسة في قرابة 100 صندوق جريء على 20 سنة، وأغلب الصناديق لم تتفوق على السوق العام.",
-  "why": "ترى الـVC من عين المستثمر في الصناديق."
+  "why": "ترى الـVC من عين المستثمر في الصناديق.",
+  "topic": "vc"
  },
  {
   "id": "sequoia-600b",
@@ -144,7 +384,8 @@
   "arabic": false,
   "img": "lib-sequoia-600b",
   "about": "يحسب الفجوة بين الإنفاق على بنية الذكاء الاصطناعي وإيراده الفعلي، ويجدها قرابة 600 مليار دولار.",
-  "why": "قصيرة وتغير نظرتك لموجة الذكاء الاصطناعي."
+  "why": "قصيرة وتغير نظرتك لموجة الذكاء الاصطناعي.",
+  "topic": "vc"
  },
  {
   "id": "marks-repeal-3",
@@ -160,6 +401,7 @@
   "arabic": false,
   "img": null,
   "about": "عن ارتفاع عوائد السندات الأمريكية الطويلة، وأن الدين الأمريكي مسألة حساب وانضباط مالي.",
-  "why": "الفائدة الأمريكية تحدد تكلفة رأس المال عندنا بسبب ربط الريال بالدولار."
+  "why": "الفائدة الأمريكية تحدد تكلفة رأس المال عندنا بسبب ربط الريال بالدولار.",
+  "topic": "ec"
  }
 ]
