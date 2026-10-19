@@ -2243,5 +2243,220 @@
     }
    }
   ]
+ },
+ {
+  "id": "sequoia-200b",
+  "cat": "ec",
+  "topic": "mk",
+  "ar": "سؤال الذكاء الاصطناعي بقيمة 200 مليار دولار",
+  "en": "AI's $200B Question",
+  "author": "ديفيد كان",
+  "author_en": "David Cahn",
+  "pub": "Sequoia Capital",
+  "date": "سبتمبر 2023",
+  "mins": 6,
+  "url": "https://www.sequoiacap.com/article/follow-the-gpus-perspective",
+  "embed": true,
+  "arabic": true,
+  "img": "lib-sequoia-600b",
+  "about": "المقالة الأولى التي سألت: كم يجب أن تحقق منتجات الذكاء الاصطناعي من إيرادات لتبرير ما يُنفق على شرائح Nvidia؟ الحساب: 50 مليارًا × 2 للطاقة ÷ هامش 50% = 200 مليار، مقابل إيرادات مفترضة تترك فجوة تتجاوز 125 مليارًا. اقرأها قبل «سؤال الـ600 مليار».",
+  "about_en": "The first piece to ask how much revenue AI products must make to justify Nvidia chip spending: $50B × 2 for energy ÷ a 50% margin = $200B, against assumed revenue that leaves a gap above $125B. Read it before \"AI's $600B Question\".",
+  "why": "يعلمك طريقة تفكير المستثمر الجريء في فقاعات البنية التحتية: اتبع المال حتى العميل النهائي.",
+  "why_en": "It teaches how a VC thinks about infrastructure booms: follow the money to the end customer.",
+  "match": [
+   "كل فقرات المقالة بترتيبها، وهي بلا عناوين فرعية في الأصل.",
+   "الصورة الوحيدة أعدنا رسمها من أرقام النص."
+  ],
+  "summary": {
+   "ar": {
+    "core": "نتائج Nvidia أشعلت الاستثمار في الذكاء الاصطناعي، لكن كل دولار يُنفق على الشرائح يحتاج أن يعود من عملاء نهائيين. الحساب يقول إن إنفاق سنة واحدة يحتاج 200 مليار دولار من الإيرادات، والإيرادات المتوقعة أقل بأكثر من 125 مليارًا. الفائض سيحرق رأس المال، لكنه سيخفض التكاليف ويفتح الباب للشركات التي تبني منتجات يحبها الناس.",
+    "points": [
+     [
+      "المحفز",
+      "توقعات Nvidia وتجاوزها أثبتت أن الذكاء الاصطناعي يولد مليارات، فتسارع الاستثمار بتقييمات قياسية."
+     ],
+     [
+      "الحساب",
+      "50 مليار إيرادات Nvidia × 2 (الطاقة) = 100 مليار، ÷ (1 − 50% هامش) = 200 مليار إيرادات مطلوبة."
+     ],
+     [
+      "من ينفق؟",
+      "Google ومايكروسوفت وMeta، وByteDance وTencent وAlibaba، ثم Amazon وOracle وApple وTesla وCoreWeave."
+     ],
+     [
+      "الفجوة",
+      "OpenAI مليار، ومايكروسوفت 10، وافتراض 10 لكل من Google وMeta وApple و5 لست شركات أخرى، تترك فجوة تتجاوز 125 مليارًا."
+     ],
+     [
+      "اتبع الشرائح",
+      "Sequoia تبحث عن الشركات التي تخلق قيمة حقيقية للعميل النهائي."
+     ],
+     [
+      "الفائض مفيد",
+      "الإفراط في البنية التحتية يحرق المال لكنه يخفض التكلفة الحدية فيطلق الابتكار."
+     ],
+     [
+      "أين التركيز",
+      "البنية والنماذج والأدوات لم تعد القيد؛ القيد منتجات يستخدمها الناس يوميًا ويدفعون مقابلها."
+     ]
+    ],
+    "numbers": [
+     [
+      "$50B",
+      "إيرادات Nvidia السنوية المفترضة"
+     ],
+     [
+      "×2",
+      "دولار طاقة لكل دولار شرائح"
+     ],
+     [
+      "$200B",
+      "الإيرادات المطلوبة لكل سنة إنفاق"
+     ],
+     [
+      "$125B+",
+      "الفجوة السنوية"
+     ],
+     [
+      "$1B",
+      "إيرادات OpenAI السنوية وقتها"
+     ]
+    ],
+    "must": "أي طفرة في البنية التحتية تُقاس بسؤال واحد: من سيدفع في النهاية؟ إذا كان العملاء النهائيون لا يدفعون ما يكفي، فالمستثمر في البنية يتحمل الخسارة، بينما تستفيد الشركات التي تبني فوقها من رخص التكلفة."
+   },
+   "en": {
+    "core": "Nvidia's results ignited AI investment, but every dollar spent on chips must come back from end customers. The sum says one year of spending needs $200B of revenue, and expected revenue falls short by over $125B. The glut will burn capital but lower costs and open the door to companies building products people love.",
+    "points": [
+     [
+      "The trigger",
+      "Nvidia's guidance and beat proved AI can make billions, so investment raced ahead at record valuations."
+     ],
+     [
+      "The sum",
+      "$50B Nvidia revenue × 2 (energy) = $100B, ÷ (1 − 50% margin) = $200B of revenue needed."
+     ],
+     [
+      "Who is spending",
+      "Google, Microsoft, Meta, ByteDance, Tencent, Alibaba, then Amazon, Oracle, Apple, Tesla and CoreWeave."
+     ],
+     [
+      "The gap",
+      "OpenAI $1B, Microsoft $10B, and assumed $10B each for Google, Meta and Apple plus $5B for six others leave a gap above $125B."
+     ],
+     [
+      "Follow the GPUs",
+      "Sequoia looks for startups creating real value for end customers."
+     ],
+     [
+      "Overbuild helps",
+      "Infrastructure overbuild burns capital but lowers marginal costs and unleashes innovation."
+     ],
+     [
+      "Where to focus",
+      "Infrastructure, models and tools are no longer the constraint; products people use daily and pay for are."
+     ]
+    ],
+    "numbers": [
+     [
+      "$50B",
+      "Assumed Nvidia run-rate revenue"
+     ],
+     [
+      "×2",
+      "Energy dollar per GPU dollar"
+     ],
+     [
+      "$200B",
+      "Revenue needed per year of capex"
+     ],
+     [
+      "$125B+",
+      "Annual gap"
+     ],
+     [
+      "$1B",
+      "OpenAI run-rate revenue then"
+     ]
+    ],
+    "must": "Every infrastructure boom comes down to one question: who pays in the end? If end customers do not pay enough, infrastructure investors take the loss, while companies building on top benefit from cheaper costs."
+   }
+  },
+  "quiz": [
+   {
+    "q": {
+     "ar": "لماذا يقسم الكاتب 100 مليار على 0.5؟",
+     "en": "Why does Cahn divide $100B by 0.5?"
+    },
+    "o": {
+     "ar": [
+      "لأن المستخدم النهائي يحتاج هامش 50%",
+      "لأن الطاقة نصف التكلفة",
+      "لأن Nvidia تأخذ النصف",
+      "لأن السنة نصفان"
+     ],
+     "en": [
+      "End users need a 50% margin",
+      "Energy is half the cost",
+      "Nvidia takes half",
+      "A year has two halves"
+     ]
+    },
+    "a": 0,
+    "why": {
+     "ar": "الضرب في 2 الأول للطاقة، والقسمة على 0.5 للهامش.",
+     "en": "The first ×2 is energy; dividing by 0.5 is the margin."
+    }
+   },
+   {
+    "q": {
+     "ar": "ما الفائدة التي يراها الكاتب في الإفراط في البناء؟",
+     "en": "What upside does Cahn see in overbuilding?"
+    },
+    "o": {
+     "ar": [
+      "خفض تكلفة تطوير المنتجات الجديدة",
+      "رفع أسعار الشرائح",
+      "إلغاء الحاجة للعملاء",
+      "ضمان أرباح Nvidia"
+     ],
+     "en": [
+      "Lower cost of building new products",
+      "Higher chip prices",
+      "No need for customers",
+      "Guaranteed Nvidia profits"
+     ]
+    },
+    "a": 0,
+    "why": {
+     "ar": "الفائض يخفض التكلفة الحدية فيطلق الابتكار.",
+     "en": "The glut lowers marginal cost and unleashes innovation."
+    }
+   },
+   {
+    "q": {
+     "ar": "كم كانت إيرادات OpenAI السنوية بحسب The Information وقتها؟",
+     "en": "What was OpenAI's run-rate revenue then, per The Information?"
+    },
+    "o": {
+     "ar": [
+      "قرابة مليار دولار",
+      "10 مليارات",
+      "50 مليارًا",
+      "200 مليار"
+     ],
+     "en": [
+      "About $1B",
+      "$10B",
+      "$50B",
+      "$200B"
+     ]
+    },
+    "a": 0,
+    "why": {
+     "ar": "وصارت 3.4 مليار في مقالة الـ600 مليار بعد تسعة أشهر.",
+     "en": "It reached $3.4B by the $600B piece nine months later."
+    }
+   }
+  ]
  }
 ]
