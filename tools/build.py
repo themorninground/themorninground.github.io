@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
 """Build the public site.
 
-  python3 tools/build.py page            -> index.html from src/paper.html + src/public-adapter.js
+  python3 tools/build.py page            -> index.html (v4 site, from app/ via tools/build_app.py)
+  python3 tools/build.py classic         -> classic.html from src/paper.html + src/public-adapter.js (old design)
   python3 tools/build.py data EXPORT_DIR -> data/site.json from an export of the Claude artifact database
                                             (EXPORT_DIR holds items/ and meta/ JSON files)
 """
-import re, json, os, sys, glob, datetime
+import os, re, json, os, sys, glob, datetime
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 PERSONAL = {'status', 'notes', 'answer', 'feedback', 'chat', 'advanced', 'completedAt', 'labState', 'version', 'updatedAt'}
@@ -33,8 +34,8 @@ def build_page():
     paper = open(os.path.join(ROOT, 'src', 'paper.html'), encoding='utf-8').read()
     adapter = open(os.path.join(ROOT, 'src', 'public-adapter.js'), encoding='utf-8').read()
     out = HEAD + "<script>window.MR_IMG_BASE='img/';</script>\n<script>\n" + adapter + '</script>\n' + paper + '\n</body>\n</html>\n'
-    open(os.path.join(ROOT, 'index.html'), 'w', encoding='utf-8').write(out)
-    print('index.html', len(out))
+    open(os.path.join(ROOT, 'classic.html'), 'w', encoding='utf-8').write(out)
+    print('classic.html', len(out))
 
 def load_dir(d):
     out = {}
@@ -70,6 +71,8 @@ def build_data(export_dir):
 
 if __name__ == '__main__':
     if sys.argv[1] == 'page':
+        import subprocess; subprocess.run([sys.executable, os.path.join(os.path.dirname(os.path.abspath(__file__)), 'build_app.py'), 'index.html'], check=True)
+    elif sys.argv[1] == 'classic':
         build_page()
     else:
         build_data(sys.argv[2])
