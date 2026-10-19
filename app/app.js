@@ -37,7 +37,8 @@ const P = {
  bookmark: '<path d="M7 4h10v16l-5-3.6L7 20z"/>',
  pen: '<path d="M4 20l4.5-1 10-10-3.5-3.5-10 10z"/><path d="M13.5 7l3.5 3.5"/>',
  play: '<path d="M8 5.5v13l10-6.5z"/>',
- pause: '<path d="M8 5.5v13M16 5.5v13"/>'
+ pause: '<path d="M8 5.5v13M16 5.5v13"/>',
+ menu: '<path d="M4 7h16M4 12h16M4 17h16"/>'
 };
 const ic = (n, cls = '') => `<svg class="ic ${cls}" viewBox="0 0 24 24" aria-hidden="true">${P[n] || ''}</svg>`;
 
@@ -289,7 +290,7 @@ async function renderArticle(id, q) {
    ${a.who ? `<div class="box soft"><h4>من كتبه</h4><p>${esc(a.who)}</p><div class="src">المصدر: <a href="${esc(a.whoSrc[1])}" target="_blank" rel="noopener">${esc(a.whoSrc[0])}</a></div></div>` : ''}
    ${a.match ? `<div class="box soft"><h4>مطابقة مع الأصل</h4><ul>${a.match.map(m => `<li>${esc(m)}</li>`).join('')}</ul></div>` : ''}
   </div>${doneBtn}` : `<div class="empty">النسخة العربية الكاملة لهذه المقالة قيد الإعداد.</div>`}</section>
- <section id="v-orig" class="origwrap" ${tab === 'orig' ? '' : 'hidden'}>${a.embed === false ? `<div class="empty">${tr('موقع الكاتب لا يسمح بعرض المقالة داخل موقعنا.', "The author's site doesn't allow the article to be shown inside ours.")} <a href="${esc(a.url)}" target="_blank" rel="noopener">${tr('افتح الأصل', 'Open the original')}</a></div>` : `<div class="obar">${EN() ? '' : `<div class="seg sm" id="otabs"><span class="pill"></span><button data-o="o" aria-pressed="true">${tr('النص الأصلي', 'Original')}</button><button data-o="t" aria-pressed="false">${ic('translate')} ${tr('مترجم آليًا', 'Machine-translated')}</button></div>`}<a class="olink" id="olink" href="${esc(a.url)}" target="_blank" rel="noopener">${ic('ext')} ${tr('افتح في صفحة جديدة', 'Open in a new tab')}</a></div><div class="note" id="onote">${ic('source')} ${tr('النص الأصلي كما نشره الكاتب، معروض من موقعه داخل صفحتنا.', 'The original as the author published it, shown from their site inside ours.')}</div><iframe data-src="${esc(a.url)}" data-tg="${esc(tgURL(a.url))}" title="${esc(a.en)}" loading="lazy" referrerpolicy="no-referrer"></iframe>`}</section>
+ <section id="v-orig" class="origwrap" ${tab === 'orig' ? '' : 'hidden'}>${a.embed === false ? `<div class="empty">${tr('موقع الكاتب لا يسمح بعرض المقالة داخل موقعنا.', "The author's site doesn't allow the article to be shown inside ours.")} <a href="${esc(a.url)}" target="_blank" rel="noopener">${tr('افتح الأصل', 'Open the original')}</a></div>` : `<div class="obar">${EN() ? '' : `<div class="seg sm" id="otabs"><span class="pill"></span><button data-o="o" aria-pressed="true">${tr('النص الأصلي', 'Original')}</button><button data-o="t" aria-pressed="false">${ic('translate')} ${tr('مترجم آليًا', 'Machine-translated')} ${ic('ext')}</button></div>`}<a class="olink" id="olink" href="${esc(a.url)}" target="_blank" rel="noopener">${ic('ext')} ${tr('افتح في صفحة جديدة', 'Open in a new tab')}</a></div><div class="note" id="onote">${ic('source')} ${tr('النص الأصلي كما نشره الكاتب، معروض من موقعه داخل صفحتنا.', 'The original as the author published it, shown from their site inside ours.')}</div><iframe data-src="${esc(a.url)}" data-tg="${esc(tgURL(a.url))}" title="${esc(a.en)}" loading="lazy" referrerpolicy="no-referrer"></iframe>`}</section>
  </main>`;
 }
 function placePill(seg) { const pill = $('.pill', seg), on = $('[aria-pressed="true"]', seg); if (!pill || !on) return; const r = on.getBoundingClientRect(), p = seg.getBoundingClientRect(); pill.style.left = '0px'; pill.style.width = r.width + 'px'; pill.style.transform = `translateX(${r.left - p.left}px)`; }
@@ -299,7 +300,7 @@ function bindArticle(id) {
  const show = t => { $$('button', tabs).forEach(x => x.setAttribute('aria-pressed', String(x.dataset.t === t))); placePill(tabs); ['sum', 'ar', 'orig'].forEach(k => { $('#v-' + k).hidden = k !== t; }); const f = $('#v-orig iframe'); if (t === 'orig' && f && !f.src) f.src = f.dataset.src; if (t === 'sum') dots(); history.replaceState(null, '', `#/a/${id}${t === 'sum' ? '' : '?t=' + t}`); const h = $('.ahead'); if (window.scrollY > h.offsetTop + h.offsetHeight) window.scrollTo({ top: h.offsetTop + h.offsetHeight - 120, behavior: 'smooth' }); };
  $$('button', tabs).forEach(b => b.onclick = () => show(b.dataset.t));
  if (!$('#v-orig').hidden) { const f = $('#v-orig iframe'); if (f) f.src = f.dataset.src; }
- const ot = $('#otabs'); if (ot) { requestAnimationFrame(() => placePill(ot)); $$('button', ot).forEach(b => b.onclick = () => { $$('button', ot).forEach(x => x.setAttribute('aria-pressed', String(x === b))); placePill(ot); const f = $('#v-orig iframe'); const tgm = b.dataset.o === 't'; f.src = tgm ? f.dataset.tg : f.dataset.src; $('#olink').href = tgm ? f.dataset.tg : f.dataset.src; $('#onote').innerHTML = tgm ? `${ic('translate')} ترجمة آلية من Google للصفحة الأصلية كما هي، قد تحتوي أخطاء. النسخة العربية المحررة في تبويب «العربية».` : `${ic('source')} النص الأصلي كما نشره الكاتب، معروض من موقعه داخل صفحتنا.`; }); }
+ const ot = $('#otabs'); if (ot) { requestAnimationFrame(() => placePill(ot)); $$('button', ot).forEach(b => b.onclick = () => { if (b.dataset.o === 't') { window.open($('#v-orig iframe').dataset.tg, '_blank', 'noopener'); toast(tr('فتحنا الترجمة الآلية في صفحة جديدة', 'Opened the machine translation in a new tab')); } }); }
  /* summary deck dots (mobile swipe) */
  const deck = $('#sdeck'), dd = $('#sdots');
  function dots() { if (!deck || !dd) return; const cs = $$('.scard', deck).filter(c => getComputedStyle(c).display !== 'none'); dd.innerHTML = cs.map(() => '<i></i>').join(''); const upd = () => { const w = deck.getBoundingClientRect(); let k = 0, best = 1e9; cs.forEach((c, j) => { const r = c.getBoundingClientRect(); const d = Math.abs((r.left + r.width / 2) - (w.left + w.width / 2)); if (d < best) { best = d; k = j; } }); $$('i', dd).forEach((x, j) => x.classList.toggle('on', j === k)); }; deck.onscroll = upd; upd(); }
@@ -542,6 +543,25 @@ function openSearch() {
  draw(); setTimeout(() => inp.focus(), 30);
 }
 
+
+function openMenu() {
+ if ($('.menu')) return;
+ const n = ST.saved.length + ST.hl.length;
+ const el = document.createElement('div'); el.className = 'menu';
+ const cur = '#' + ((location.hash || '#/').slice(1).split('?')[0] || '/');
+ el.innerHTML = `<div class="mpane"><div class="mtop"><span class="mlogo">${LOGO_LINE}</span><button class="mx" aria-label="close">${ic('close')}</button></div>
+  <nav class="mlinks">${ROUTES.map((r, k) => `<a href="#${r[0]}" class="${cur === '#' + r[0] ? 'on' : ''}" style="--i:${k}">${ic(r[2])}<span>${tr(r[1], r[3])}</span></a>`).join('')}
+  <a href="#/saved" class="sv${cur === '#/saved' ? ' on' : ''}" style="--i:5">${ic('bookmark')}<span>${tr('محفوظاتك', 'Saved')}</span>${n ? `<b class="b">${n}</b>` : ''}</a></nav>
+  <div class="mtools"><button id="m-s">${ic('search')} ${tr('بحث', 'Search')}</button><button id="m-l">${ic('lang')} ${tr('English', 'العربية')}</button><button id="m-t">${ic('moon')} ${tr('الوضع الليلي', 'Dark mode')}</button></div>
+  <div class="mby">Every page compounds · ${tr('باي مشعل الكنهل', 'by Meshal Alkanhal')}</div></div>`;
+ document.body.appendChild(el);
+ const close = () => { el.classList.add('out'); setTimeout(() => el.remove(), 350); };
+ el.onclick = e => { if (e.target === el || e.target.closest('.mx') || e.target.closest('.mlinks a')) close(); };
+ $('#m-s', el).onclick = () => { close(); setTimeout(openSearch, 200); };
+ $('#m-l', el).onclick = () => { close(); $('#langb').click(); };
+ $('#m-t', el).onclick = () => { close(); $('#theme').click(); };
+}
+
 /* ---------- misc ---------- */
 function notFound() { return `<main class="wrap">${head(tr('الصفحة غير موجودة', 'Page not found'), `<a href="#/">${tr('ارجع لصفحة لك', 'Back to For You')}</a>`)}</main>`; }
 
@@ -553,14 +573,14 @@ function chrome() {
  $('#dock').innerHTML = '<span class="ind" id="dockind"></span>' + ROUTES.map(r => `<a href="#${r[0]}" data-r="${r[0]}">${ic(r[2])}<span>${tr(r[1], r[3])}</span></a>`).join('');
  $('#langb').innerHTML = `<span class="${EN() ? 'ar' : 'b'}">${EN() ? 'ع' : 'EN'}</span>`; $('#langb').setAttribute('aria-label', tr('English', 'العربية'));
  $('#srch').setAttribute('aria-label', tr('بحث', 'Search'));
- $('#footl').innerHTML = `<i>Every page compounds</i><span>${tr('الاستثمار الجريء · الأسواق الخاصة · السعودية والخليج · الرياض', 'Venture · Private markets · Saudi & GCC · Riyadh')}</span>`;
+ $('#footl').innerHTML = `<i>Every page compounds</i><span>${tr('الاستثمار الجريء · الأسواق الخاصة · السعودية والخليج · الرياض', 'Venture · Private markets · Saudi & GCC · Riyadh')}</span><span class="byl">${tr('باي مشعل الكنهل', 'by Meshal Alkanhal')}</span>`;
 }
 function shell() {
  setLangAttrs();
  document.body.insertAdjacentHTML('afterbegin', `<svg width="0" height="0" style="position:absolute"><defs><linearGradient id="stripes-v" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3EA6F2"/><stop offset=".5" stop-color="#3EA6F2"/><stop offset=".5" stop-color="#FFD45C"/><stop offset=".625" stop-color="#FFD45C"/><stop offset=".625" stop-color="#FFA235"/><stop offset=".75" stop-color="#FFA235"/><stop offset=".75" stop-color="#FF7A24"/><stop offset=".875" stop-color="#FF7A24"/><stop offset=".875" stop-color="#F2551A"/><stop offset="1" stop-color="#F2551A"/></linearGradient></defs></svg>
  <header class="hdr" id="hdr"><div class="bar"><div class="wrap in"><a class="brand" href="#/" aria-label="The Morning Round">${LOGO_LINE}</a>
   <nav class="nav" id="nav"></nav>
-  <div class="tools"><button class="tbtn sbtn" id="srch">${ic('search')}<kbd class="b">⌘K</kbd></button><button class="tbtn" id="langb"></button><button class="tbtn" id="theme">${ic('moon')}</button></div></div></div><div class="skyline" id="skyline"></div></header>
+  <div class="tools"><button class="tbtn sbtn" id="srch">${ic('search')}<kbd class="b">⌘K</kbd></button><button class="tbtn" id="langb"></button><button class="tbtn" id="theme">${ic('moon')}</button><button class="tbtn" id="menub" aria-label="menu">${ic('menu')}</button></div></div></div><div class="skyline" id="skyline"></div></header>
  <div id="view"></div>
  <footer class="foot"><div class="wrap in"><div id="footl"></div>${stack('f-')}</div></footer>
  <nav class="dock" id="dock"></nav>`);
@@ -572,6 +592,7 @@ function shell() {
  tb.onclick = () => { const curr = document.documentElement.dataset.theme || (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'); const n = curr === 'dark' ? 'light' : 'dark'; try { localStorage.setItem('tmr-theme', n); } catch (e) {} const go = () => setT(n); if (document.startViewTransition) document.startViewTransition(go); else go(); };
  $('#langb').onclick = () => { LANG = EN() ? 'ar' : 'en'; try { localStorage.setItem('tmr-lang', LANG); } catch (e) {} SIDX = null; const go = () => { setLangAttrs(); chrome(); route(true); }; if (document.startViewTransition) document.startViewTransition(go); else go(); };
  $('#srch').onclick = openSearch;
+ $('#menub').onclick = openMenu;
  document.addEventListener('keydown', e => { if ((e.key === 'k' && (e.metaKey || e.ctrlKey)) || (e.key === '/' && !/INPUT|TEXTAREA/.test(document.activeElement.tagName))) { e.preventDefault(); openSearch(); } });
  let ly = 0; window.addEventListener('scroll', () => { const y = window.scrollY; const down = y > ly && y > 140; $('#hdr').classList.toggle('hide', down); $('#dock').classList.toggle('hide', down && y > 300); ly = y;
   const rs = $('#rsun'); const pr = $('#prose'); const sm = $('#sdeck'); const tgt = pr && pr.offsetParent ? pr : (sm && sm.offsetParent ? sm : null); if (rs && tgt) { const r = tgt.getBoundingClientRect(); const p = Math.min(1, Math.max(0, (window.innerHeight * .6 - r.top) / r.height)); rs.style.setProperty('--r', p.toFixed(3)); } }, { passive: true });

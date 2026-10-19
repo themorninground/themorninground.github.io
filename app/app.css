@@ -1001,3 +1001,28 @@ kbd{font-family:var(--lat);font-size:11.5px;padding:2px 6px;border-radius:6px;ba
 
 .dfbar .seg{max-width:100%;overflow-x:auto;scrollbar-width:none}.dfbar .seg::-webkit-scrollbar{display:none}
 @media (max-width:640px){.dfbar .seg button{padding:0 11px;font-size:13.5px}.cchips{flex-basis:100%}.sunsvg .mn{font-size:16px}.sunsvg .mm{font-size:13px}.sunsvg .mv{font-size:16px}.strsvg .slabs text{font-size:16px}.strsvg .mt{font-size:15px}.invsvg .il{font-size:14px}}
+
+.foot .byl{display:block;margin-top:10px;font-weight:700;color:#D9DDE3;font-size:15px}
+.menu{position:fixed;inset:0;z-index:210;background:rgba(11,13,18,.45);backdrop-filter:blur(6px);animation:fade .3s ease both;transition:opacity .35s}
+.menu.out{opacity:0}
+.mpane{position:absolute;top:0;bottom:0;inset-inline-end:0;width:min(380px,88vw);background:var(--paper);display:flex;flex-direction:column;padding:18px 18px calc(24px + env(safe-area-inset-bottom,0px));box-shadow:0 0 60px rgba(0,0,0,.35);animation:mslide .5s var(--ease) both}
+[dir="rtl"] .mpane{animation-name:mslider}
+@keyframes mslide{from{transform:translateX(100%)}}
+@keyframes mslider{from{transform:translateX(-100%)}}
+.menu.out .mpane{transform:translateX(100%);transition:transform .35s var(--ease)}
+[dir="rtl"] .menu.out .mpane{transform:translateX(-100%)}
+.mtop{display:flex;align-items:center;justify-content:space-between;padding-bottom:16px;border-bottom:1px solid var(--hair)}
+.mlogo svg{height:22px;width:auto;color:var(--ink)}
+.mx{width:40px;height:40px;border-radius:12px;background:var(--paper-2);display:grid;place-items:center}
+.mlinks{display:grid;gap:4px;margin-top:14px}
+.mlinks a{display:flex;align-items:center;gap:14px;padding:14px 14px;border-radius:16px;text-decoration:none;font-family:var(--ard);font-weight:800;font-size:21px;animation:page-in .5s var(--ease) both;animation-delay:calc(.05s + var(--i)*.04s);transition:background .3s}
+.mlinks a:hover,.mlinks a.on{background:var(--paper-2)}
+.mlinks a.on{box-shadow:inset 0 -3px 0 var(--glow)}
+.mlinks a .ic{width:24px;height:24px;color:var(--sky-ink)}
+.mlinks a.sv{margin-top:8px;background:color-mix(in srgb,var(--dawn) 22%,var(--paper))}
+.mlinks a.sv .ic{color:var(--ember)}
+.mlinks a b{margin-inline-start:auto;font-size:14px;padding:2px 9px;border-radius:9px;background:var(--ink);color:var(--paper)}
+.mtools{display:grid;gap:6px;margin-top:auto;padding-top:16px;border-top:1px solid var(--hair)}
+.mtools button{display:flex;align-items:center;gap:12px;padding:12px 14px;border-radius:14px;font-weight:600;color:var(--ink-2);text-align:start}
+.mtools button:hover{background:var(--paper-2);color:var(--ink)}
+.mby{margin-top:14px;text-align:center;font-size:13px;color:var(--ink-3)}
