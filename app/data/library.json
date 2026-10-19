@@ -296,11 +296,242 @@
   "mins": 30,
   "url": "https://www.oaktreecapital.com/insights/memo/whats-going-on-in-private-credit",
   "embed": true,
-  "arabic": false,
+  "arabic": true,
   "img": null,
-  "about": "يروي قصة الدين عالي العائد من السبعينات حتى صار الإقراض المباشر سوقًا بالتريليونات، ويشرح كيف التوسع السريع جعل بعض المديرين يخففون معاييرهم.",
-  "why": "أكبر اسم في الدين عالي العائد يعطيك الصورة الكاملة لموضوع الساعة.",
-  "topic": "pe"
+  "about": "يروي ماركس كيف تطور الائتمان من السبعينات حتى صار الإقراض المباشر سوقًا بتريليوني دولار، ويطبق عليه نمط الفقاعات، ثم يشرح لماذا صارت ديون شركات البرمجيات مقلقة مع الذكاء الاصطناعي، وماذا تعلمنا 1929، وكيف أضر ارتفاع الفائدة بالملكية الخاصة.",
+  "why": "أكبر اسم في الدين عالي العائد يعطيك الصورة الكاملة لموضوع الساعة، بأرقام وتاريخ ومنطق مدير لم يندفع مع الموجة.",
+  "topic": "pe",
+  "author_en": "Howard Marks",
+  "about_en": "Marks traces credit from the 1970s to a direct-lending market of about $2 trillion, applies the bubble pattern to it, explains why software debt became a worry with AI, draws lessons from 1929, and shows how higher rates hurt private equity.",
+  "why_en": "The biggest name in high yield gives the full picture of the topic of the moment, with numbers, history and the logic of a manager who did not chase the wave.",
+  "match": [
+   "كل الأقسام بعناوين الكاتب وترتيبها: المقدمة وجدولها، والنمط المعتاد، والإقراض المباشر، والبرمجيات، والمستثمرون من الجمهور، ودروس 1929، وماذا يفعل المدير، والملكية الخاصة، والخاتمة.",
+   "الجدولان في الأصل منقولان كاملين.",
+   "الأصل بلا هوامش؛ أضفنا هامشين منا للتنبيه على اسم مكتوب بشكل غير شائع ورقم ينسبه الكاتب إلى Claude."
+  ],
+  "summary": {
+   "ar": {
+    "core": "الإقراض المباشر مرّ بنمط كل فقاعة: ابتكار حقيقي، أرباح مبكرة، تدفق أموال هائل، ثم تخفيف للمعايير. الآن ينحسر المد مع مخاوف ديون البرمجيات في زمن الذكاء الاصطناعي، وقيود الاسترداد في الأدوات المبيعة للأفراد، وارتفاع الفائدة الذي أضر بالملكية الخاصة. ماركس لا يتوقع كارثة، لكنه يتوقع دورة ائتمانية تفرز المقرضين المنضبطين من غيرهم.",
+    "points": [
+     [
+      "تاريخ الائتمان في جدول",
+      "من قبول الدين دون الدرجة الاستثمارية في السبعينات، إلى الاستحواذات بالرافعة، والتوريق، والبدائل، ثم الإقراض المباشر، وأخيرًا بيعه للأفراد."
+     ],
+     [
+      "من أين جاء الإقراض المباشر",
+      "بعد 2008 صارت البنوك أضعف وأكثر تنظيمًا، فملأت صناديق الائتمان الخاص الفجوة بقروض لشركات متوسطة تملكها صناديق ملكية خاصة."
+     ],
+     [
+      "نمط الفقاعة",
+      "جِدّة، وذرة حقيقة، وأرباح مبكرة، وحسد، وأمل يتحول إلى يقين، وإهمال للسعر، ومتأخرون يخفضون المعايير، ثم خيبة أمل."
+     ],
+     [
+      "الإقراض المباشر يطابق النمط",
+      "قرابة 2 تريليون دولار من القروض في 15 سنة، مقابل 150 مليارًا للائتمان الخاص كله قبل 20 سنة. وغياب التقلب في الأسعار لا يعني غياب المخاطرة."
+     ],
+     [
+      "بدأ المد ينحسر",
+      "إفلاس First Brands وTricolor، ثم قيود السحب في الأدوات غير المتداولة، وخصومات أكبر في الأدوات المتداولة."
+     ],
+     [
+      "البرمجيات",
+      "نصيبها 20–30% من الإقراض المباشر مقابل 4–5% من السندات، واشتُريت بنحو 20 ضعف الأرباح وبرافعة عالية، ثم جاءت نقطة التحول مع أدوات البرمجة بالذكاء الاصطناعي في أوائل 2026."
+     ],
+     [
+      "المستثمرون يتأرجحون",
+      "الشركات تؤدي جيدًا عمومًا حسب فريق Oaktree، لكن المستثمرين لا يميزون: من «بلا عيب» إلى «ميؤوس منها»."
+     ],
+     [
+      "دروس 1929",
+      "ثلاثة عوامل: بيع للجمهور بلا اعتبار للملاءمة، ورافعة كبيرة، وأصول غير سائلة بتمويل قصير الأجل. والعلاج التواضع لا التنظيم وحده."
+     ],
+     [
+      "موقف Oaktree",
+      "الإقراض المباشر أقل من 15% من أصولها، وتعرضها للبرمجيات صغير وفي الرهن الأول، و80% من ائتمانها الخاص لمؤسسات."
+     ],
+     [
+      "الفائدة والملكية الخاصة",
+      "هبوط الفائدة 2,000 نقطة أساس على 40 سنة صنع جزءًا كبيرًا من أرباح الملكية الخاصة. بعد رفعها إلى 5¼–5½% نزلت العوائد والتوزيعات."
+     ],
+     [
+      "ماذا بعد؟",
+      "الدفع العيني وتمديد الآجال أسئلة مفتوحة، والمقرض المنضبط في الشريحة الممتازة يجب أن ينجح، والإقراض المباشر قد يمر بدورة ائتمانية ثم يتعافى كما تعافت السندات عالية العائد."
+     ]
+    ],
+    "numbers": [
+     [
+      "$2T",
+      "قروض مباشرة في آخر 15 سنة تقريبًا"
+     ],
+     [
+      "$150B",
+      "حجم الائتمان الخاص كله قبل 20 سنة"
+     ],
+     [
+      "20–30%",
+      "نصيب البرمجيات من الإقراض المباشر"
+     ],
+     [
+      "5.8% / 11.6%",
+      "عائد الملكية الخاصة الأمريكية مقابل S&P 500 سنويًا (2022 حتى الربع الثالث 2025)"
+     ],
+     [
+      "2,000 bp",
+      "هبوط الفائدة من 1980 إلى 2020"
+     ]
+    ],
+    "must": "الإقراض المباشر ليس أقل مخاطرة من السندات عالية العائد لأنه لا يتقلب سعره؛ مخاطرته فقط أقل ظهورًا. وحين يتدفق مال كثير إلى سوق، تنزل المعايير، والمستثمر الفرد الذي اشترى أداة غير سائلة برافعة يكتشف القيود حين يحتاجها. السؤال الصحيح عن أي مقرض: كم جمع، وبأي سرعة استثمر، وبأي معايير؟"
+   },
+   "en": {
+    "core": "Direct lending followed the pattern of every bubble: a real innovation, early profits, a flood of money, then lower standards. Now the tide is going out, with fears over software debt in the AI era, redemption limits in vehicles sold to individuals, and higher rates that hurt private equity. Marks does not expect disaster, but he expects a credit cycle that separates disciplined lenders from the rest.",
+    "points": [
+     [
+      "Credit history in a table",
+      "From accepting sub-investment-grade debt in the 1970s, to LBOs, securitisation, alternatives, direct lending and finally selling it to individuals."
+     ],
+     [
+      "Where direct lending came from",
+      "After 2008 banks were weaker and more regulated, so private credit funds filled the gap with loans to PE-owned mid-market companies."
+     ],
+     [
+      "The bubble pattern",
+      "Newness, a grain of truth, early rewards, envy, hope turning into certainty, neglect of price, latecomers lowering standards, then disillusionment."
+     ],
+     [
+      "Direct lending fits",
+      "About $2 trillion of loans in 15 years versus $150B for all private credit 20 years ago. No price volatility does not mean no risk."
+     ],
+     [
+      "The tide goes out",
+      "First Brands and Tricolor went bankrupt, then withdrawal limits in non-traded vehicles and wider discounts in traded ones."
+     ],
+     [
+      "Software",
+      "20–30% of direct lending versus 4–5% of high yield, bought at about 20x EBITDA with high leverage, then a tipping point with AI coding tools in early 2026."
+     ],
+     [
+      "Investors swing",
+      "Oaktree's team says companies are mostly performing, but investors do not discriminate: from flawless to hopeless."
+     ],
+     [
+      "Lessons of 1929",
+      "Three causes: selling without regard to suitability, heavy leverage, and illiquid assets on short-term funding. The antidote is humility, not regulation alone."
+     ],
+     [
+      "Oaktree's position",
+      "Direct lending is under 15% of its AUM, software exposure is small and first-lien, and 80% of its private credit is institutional."
+     ],
+     [
+      "Rates and private equity",
+      "A 2,000bp fall in rates over 40 years made much of PE's gains. After the rise to 5¼–5½%, returns and distributions fell."
+     ],
+     [
+      "What next?",
+      "PIK and maturity extensions are open questions; disciplined senior lenders should do well, and direct lending may go through a credit cycle and recover as high yield did."
+     ]
+    ],
+    "numbers": [
+     [
+      "$2T",
+      "Direct loans made in about 15 years"
+     ],
+     [
+      "$150B",
+      "All private credit 20 years ago"
+     ],
+     [
+      "20–30%",
+      "Software share of direct lending"
+     ],
+     [
+      "5.8% / 11.6%",
+      "US PE vs S&P 500 annual return, 2022–Q3 2025"
+     ],
+     [
+      "2,000 bp",
+      "Fall in rates from 1980 to 2020"
+     ]
+    ],
+    "must": "Direct lending is not less risky than high yield just because its price does not move; its risk is simply less visible. When a lot of money floods a market, standards drop, and individuals who bought an illiquid, levered vehicle discover the limits when they need them. The right question about any lender: how much did it raise, how fast did it invest, and at what standards?"
+   }
+  },
+  "quiz": [
+   {
+    "q": {
+     "ar": "ما الفرق بين الائتمان الخاص والإقراض المباشر؟",
+     "en": "How do private credit and direct lending relate?"
+    },
+    "o": {
+     "ar": [
+      "الإقراض المباشر جزء من الائتمان الخاص",
+      "هما الشيء نفسه",
+      "الائتمان الخاص جزء من الإقراض المباشر",
+      "لا علاقة بينهما"
+     ],
+     "en": [
+      "Direct lending is a subset of private credit",
+      "They are the same",
+      "Private credit is a subset of direct lending",
+      "They are unrelated"
+     ]
+    },
+    "a": 0,
+    "why": {
+     "ar": "ينبه ماركس إلى أن كثيرين يخلطون بينهما.",
+     "en": "Marks notes many commentators conflate them."
+    }
+   },
+   {
+    "q": {
+     "ar": "لماذا يرفض ماركس القول إن القروض المباشرة أقل مخاطرة؟",
+     "en": "Why does Marks reject the claim that direct loans are less risky?"
+    },
+    "o": {
+     "ar": [
+      "لأن المخاطرة ليست التقلب، والقروض فقط بلا سوق يسعّرها",
+      "لأن فوائدها أقل",
+      "لأنها مضمونة من الحكومة",
+      "لأن عمرها قصير"
+     ],
+     "en": [
+      "Risk is not volatility; the loans just lack a market price",
+      "Their rates are lower",
+      "They are government-guaranteed",
+      "They are short-term"
+     ]
+    },
+    "a": 0,
+    "why": {
+     "ar": "مخاطرها الائتمانية ليست أقل من السندات عالية العائد، لكنها أقل ظهورًا في الأسعار.",
+     "en": "Their credit risk is no lower than high yield; it is just less visible in prices."
+    }
+   },
+   {
+    "q": {
+     "ar": "أي من هذه ليس من العوامل الثلاثة لفقاعة 1929 عند Sorkin؟",
+     "en": "Which is NOT one of the three causes of the 1929 bubble?"
+    },
+    "o": {
+     "ar": [
+      "ارتفاع أسعار الفائدة",
+      "البيع دون اعتبار للملاءمة",
+      "الرافعة الكبيرة",
+      "أصول غير سائلة بتمويل قصير الأجل"
+     ],
+     "en": [
+      "Rising interest rates",
+      "Selling without regard to suitability",
+      "Heavy leverage",
+      "Illiquid assets funded short-term"
+     ]
+    },
+    "a": 0,
+    "why": {
+     "ar": "بل يقول إن 1929 ليست قصة أسعار فائدة، بل قصة الطبيعة البشرية.",
+     "en": "He says 1929 is not about interest rates but about human nature."
+    }
+   }
+  ]
  },
  {
   "id": "bain-pe-midyear-2026",
