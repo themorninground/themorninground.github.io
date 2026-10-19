@@ -553,19 +553,242 @@
  {
   "id": "damodaran-sa-blowup",
   "cat": "ec",
-  "ar": "انهيار Situational Awareness: ثمن القناعة",
-  "en": "The Situational Awareness Blow-up",
-  "author": "أسوات داموداران",
+  "ar": "انفجار Situational Awareness: الأضرار الجانبية لقناعة المستثمر",
+  "en": "The Situational Awareness Blow-up: The Collateral Damage from Investing Conviction!",
+  "author": "أسواث داموداران",
   "pub": "Musings on Markets",
   "date": "أغسطس 2026",
-  "mins": 18,
+  "mins": 22,
   "url": "https://aswathdamodaran.blogspot.com/2026/08/the-situational-awareness-blow-up.html",
   "embed": null,
-  "arabic": false,
+  "arabic": true,
   "img": "lib-damodaran-sa-blowup",
-  "about": "صندوق ليوبولد أشنبرينر خسر أكثر من 43% في يوليو وانتهى بالتصفية. داموداران يستخدم القصة ليفكك القناعة الاستثمارية.",
-  "why": "قصة حية من هذا الصيف، ودرسها ينطبق على أي مستثمر مقتنع بفكرة.",
-  "topic": "ec"
+  "about": "صندوق تحوط أسسه شاب عمره 25 عامًا خرج من OpenAI، راهن على الذكاء الاصطناعي بتركيز ورافعة، فارتفع 367% ثم انهار في شهر. داموداران يستخدم القصة ليشرح من أين تأتي القناعة الاستثمارية، ومتى تبرر التركيز والدين، ولماذا يتفوق المال المتواضع على المال الذكي.",
+  "why": "أستاذ التقييم الأشهر يحول قصة الساعة إلى إطار تستخدمه في كل قرار: كم أنت متأكد، وكم تركز، وكم تقترض.",
+  "topic": "mk",
+  "author_en": "Aswath Damodaran",
+  "about_en": "A hedge fund founded by a 25-year-old OpenAI alumnus bet on AI with concentration and leverage, rose 367%, then collapsed in a month. Damodaran uses the story to explain where investing conviction comes from, when it justifies concentration and debt, and why humble money beats smart money.",
+  "why_en": "The best-known valuation professor turns the story of the moment into a framework for every decision: how sure you are, how much you concentrate, how much you borrow.",
+  "match": [
+   "كل الأقسام بعناوين الكاتب وترتيبها، ومنها العناوين الفرعية والدروس الثلاثة.",
+   "رسما الأداء في الأصل من Portfolios Lab بلا أرقام في النص؛ أعدنا رسم المسار من الأرقام المذكورة فقط ونبهنا عليه. والصور المفاهيمية الخمس أعدنا رسمها توضيحيًا.",
+   "الفيديو وقائمة الروابط مذكورة في ملاحظة، وموجودة في الأصل."
+  ],
+  "summary": {
+   "ar": {
+    "core": "قناعة قوية بفكرة صحيحة جزئيًا، مع تركيز ورافعة، تكفي لتدمير صندوق حتى لو بقي رابحًا منذ تأسيسه. القناعة تحتاج ثلاثة أشياء: تقديرًا أصح من السوق، وتصحيحًا يحدث، وفي الوقت المناسب. وحجم المركز والدين يجب أن يتبعا درجة القناعة الحقيقية، لا الثقة بالنفس.",
+    "points": [
+     [
+      "القصة",
+      "صندوق Leo Aschenbrenner راهن على رابحي الذكاء الاصطناعي وضد البرمجيات، ارتفع 367% حتى 19 يونيو 2026، ثم خسر أكثر من 43% في يوليو (الجزء العام 67%) وصُفّي وبيعت حيازاته لـCitadel."
+     ],
+     [
+      "ثلاثة تحفظات",
+      "سجل سنتين لا يفصل المهارة عن الحظ، والعوائد الضخمة تحتاج رافعة، ورسوم 2 و20 تشجع المخاطرة."
+     ],
+     [
+      "ما القناعة؟",
+      "الاعتقاد بأن الاستثمار سيحقق عائدًا كبيرًا مقابل مخاطره، وهي طيف لا يقين."
+     ],
+     [
+      "ثلاثة شروط",
+      "تقدير صحيح للسعر العادل، وسوق يصحح نحوه، وتصحيح خلال مدة احتفاظك."
+     ],
+     [
+      "مصادر سوء التسعير",
+      "معلومات خاصة، أو معالجة أفضل للمعلومات، أو فهم أعمق للنشاط، أو خطأ نسبي في التسعير."
+     ],
+     [
+      "متى يحدث التصحيح",
+      "أجل محدد، واحتكاكات أقل، وسيولة ومحفزات، ومدى زمني أطول."
+     ],
+     [
+      "صفات المستثمر",
+      "الذكاء قد يغري بلوم «غباء» الآخرين، والثقة المفرطة والسجل الناجح يغذيان بعضهما."
+     ],
+     [
+      "التركيز والرافعة",
+      "قناعة أعلى تبرر مركزًا أكبر ودينًا أكثر، لكن الرافعة قد تجبرك على البيع قبل أن تتحقق فرضيتك."
+     ],
+     [
+      "دورة الحياة",
+      "الشركات الشابة أصعب تسعيرًا فتستدعي التنويع، والناضجة تحتمل التركيز مع الدين. SpaceX مثال: مقيمة بأقل من قيمتها تحت 100 دولار لكنها رهان من رهانات كثيرة."
+     ],
+     [
+      "ثلاثة دروس",
+      "الأفعال غير المتسقة مع القناعة تقود للخراب، والزخم يطغى على أي استراتيجية، والمال المتواضع يتفوق على المال الذكي."
+     ]
+    ],
+    "numbers": [
+     [
+      "+367%",
+      "صعود الصندوق من أغسطس 2025 حتى 19 يونيو 2026"
+     ],
+     [
+      "−43%",
+      "خسارة الصندوق بين 19 يونيو و29 يوليو 2026"
+     ],
+     [
+      "−67%",
+      "خسارة حيازاته العامة"
+     ],
+     [
+      "2 و20",
+      "رسوم الإدارة والأداء التي ينتقدها الكاتب"
+     ],
+     [
+      "167",
+      "عدد صفحات ورقة Situational Awareness"
+     ]
+    ],
+    "must": "القناعة ليست شعورًا بالثقة، بل تقدير لثلاثة أسئلة: هل أنا محق أكثر من السوق؟ هل سيصحح السوق؟ ومتى؟ إذا كانت الإجابات غير مؤكدة، فلا تركز ولا تقترض، لأن الرافعة قد تنهيك قبل أن يثبت أنك على حق."
+   },
+   "en": {
+    "core": "Strong conviction in a partly right idea, plus concentration and leverage, is enough to destroy a fund even when it is still up since inception. Conviction needs three things: a better estimate than the market, a correction that happens, and on time. Position size and debt should follow real conviction, not self-confidence.",
+    "points": [
+     [
+      "The story",
+      "Leopold Aschenbrenner's fund bet on AI winners and against software, rose 367% to 19 June 2026, lost over 43% in July (67% on public holdings), was liquidated and sold to Citadel."
+     ],
+     [
+      "Three caveats",
+      "Two years cannot separate skill from luck, huge returns need leverage, and 2-and-20 fees encourage risk."
+     ],
+     [
+      "What is conviction?",
+      "The belief an investment will earn large returns relative to its risk; a spectrum, not certainty."
+     ],
+     [
+      "Three conditions",
+      "A correct fair-value estimate, a market that corrects toward it, and a correction within your holding period."
+     ],
+     [
+      "Sources of mispricing",
+      "Private information, better information processing, deeper business understanding, or relative pricing mistakes."
+     ],
+     [
+      "When correction happens",
+      "Fixed maturity, fewer frictions, liquidity and catalysts, and a longer horizon."
+     ],
+     [
+      "Investor traits",
+      "Intelligence tempts you to blame others' stupidity; overconfidence and a winning record feed each other."
+     ],
+     [
+      "Concentration and leverage",
+      "More conviction justifies bigger positions and more debt, but leverage can force a sale before the thesis plays out."
+     ],
+     [
+      "Life cycle",
+      "Young firms are hardest to price and call for diversification; mature firms can take concentration and debt. SpaceX: underpriced below $100, but one bet among many."
+     ],
+     [
+      "Three lessons",
+      "Actions inconsistent with conviction risk ruin, momentum can overwhelm any strategy, and humble money beats smart money."
+     ]
+    ],
+    "numbers": [
+     [
+      "+367%",
+      "Fund rise from Aug 2025 to 19 June 2026"
+     ],
+     [
+      "−43%",
+      "Fund loss from 19 June to 29 July 2026"
+     ],
+     [
+      "−67%",
+      "Loss on public holdings"
+     ],
+     [
+      "2 and 20",
+      "The fee structure he criticises"
+     ],
+     [
+      "167",
+      "Pages in the Situational Awareness paper"
+     ]
+    ],
+    "must": "Conviction is not a feeling of confidence but an answer to three questions: am I more right than the market, will it correct, and when? If the answers are uncertain, do not concentrate or borrow, because leverage can finish you before you are proved right."
+   }
+  },
+  "quiz": [
+   {
+    "q": {
+     "ar": "أي مما يلي ليس من شروط القناعة الثلاثة؟",
+     "en": "Which is NOT one of the three conditions for conviction?"
+    },
+    "o": {
+     "ar": [
+      "أن يكون الصندوق كبيرًا",
+      "أن يكون تقديرك أصح من السوق",
+      "أن يصحح السوق نحوه",
+      "أن يحدث التصحيح خلال مدة احتفاظك"
+     ],
+     "en": [
+      "A large fund",
+      "Your estimate is more right than the market",
+      "The market corrects toward it",
+      "The correction happens within your horizon"
+     ]
+    },
+    "a": 0,
+    "why": {
+     "ar": "الشروط الثلاثة: التقدير الصحيح، والتصحيح، وتوقيته.",
+     "en": "The three are a correct estimate, a correction, and its timing."
+    }
+   },
+   {
+    "q": {
+     "ar": "ما «خطر البتر»؟",
+     "en": "What is \"truncation risk\"?"
+    },
+    "o": {
+     "ar": [
+      "أن تجبرك الرافعة على البيع قبل أن تتحقق فرضيتك",
+      "أن تُقطع الرسوم",
+      "أن يتوقف التداول",
+      "أن يغادر المدير"
+     ],
+     "en": [
+      "Leverage forces you to sell before your thesis plays out",
+      "Fees get cut",
+      "Trading halts",
+      "The manager leaves"
+     ]
+    },
+    "a": 0,
+    "why": {
+     "ar": "وهذا ما حدث للصندوق: بقي رابحًا منذ تأسيسه لكنه لم يصمد شهر يوليو.",
+     "en": "That is what happened: still up since inception, it could not survive July."
+    }
+   },
+   {
+    "q": {
+     "ar": "أي الشركات تستدعي تنويعًا أكثر حسب الكاتب؟",
+     "en": "Which companies call for more diversification?"
+    },
+    "o": {
+     "ar": [
+      "الشركات الشابة",
+      "الناضجة",
+      "المتراجعة",
+      "المرافق"
+     ],
+     "en": [
+      "Young companies",
+      "Mature companies",
+      "Declining companies",
+      "Utilities"
+     ]
+    },
+    "a": 0,
+    "why": {
+     "ar": "لأنها أصعب تسعيرًا ومحفزاتها أقل.",
+     "en": "They are hardest to price and have fewer catalysts."
+    }
+   }
+  ]
  },
  {
   "id": "gurley-revenue",
