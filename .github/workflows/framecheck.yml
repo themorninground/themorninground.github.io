@@ -1,0 +1,35 @@
+name: Check embedding rules
+on:
+  push:
+    paths: ['tools/frame_urls.txt']
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: |
+          python3 - <<'PY'
+          import json, subprocess
+          out = []
+          for u in open('tools/frame_urls.txt').read().split():
+              r = subprocess.run(['curl', '-sIL', '-A', 'Mozilla/5.0', '--max-time', '25', u], capture_output=True, text=True).stdout
+              blocks = [b for b in r.split('\r\n\r\n') if b.strip()]
+              last = blocks[-1] if blocks else ''
+              h = {}
+              for line in last.split('\r\n')[1:]:
+                  if ':' in line:
+                      k, v = line.split(':', 1); h[k.strip().lower()] = v.strip()
+              status = last.split('\r\n')[0] if last else 'no response'
+              csp = h.get('content-security-policy', '')
+              fa = [p.strip() for p in csp.split(';') if p.strip().startswith('frame-ancestors')]
+              out.append({'url': u, 'status': status, 'x-frame-options': h.get('x-frame-options', ''), 'frame-ancestors': fa[0] if fa else '', 'content-type': h.get('content-type', '')})
+          json.dump(out, open('tools/frame_check.json', 'w'), indent=1)
+          PY
+      - run: |
+          git config user.name "The Morning Round"
+          git config user.email "themorninground@users.noreply.github.com"
+          git add tools/frame_check.json
+          git diff --cached --quiet || (git commit -m "Embedding check" && git pull --rebase && git push)
