@@ -1,23 +1,93 @@
 [
  {
-  "url": "https://reactionwheel.net/2015/06/power-laws-in-venture.html",
+  "url": "https://aswathdamodaran.blogspot.com/2026/08/the-situational-awareness-blow-up.html",
   "status": "HTTP/2 200 ",
   "x-frame-options": "",
   "frame-ancestors": "",
   "content-type": "text/html; charset=UTF-8"
  },
  {
-  "url": "https://aswathdamodaran.blogspot.com/2026/08/the-situational-awareness-blow-up.html",
-  "status": "HTTP/2 204 ",
+  "url": "https://paulgraham.com/ds.html",
+  "status": "HTTP/2 200 ",
   "x-frame-options": "",
   "frame-ancestors": "",
   "content-type": "text/html"
  },
  {
-  "url": "https://saudi.endeavor.org/from-startup-to-public-offering-strengthening-the-ipo-pipeline-in-saudi-arabia/",
+  "url": "https://paulgraham.com/growth.html",
   "status": "HTTP/2 200 ",
-  "x-frame-options": "SAMEORIGIN",
+  "x-frame-options": "",
+  "frame-ancestors": "",
+  "content-type": "text/html"
+ },
+ {
+  "url": "https://abovethecrowd.com/2012/09/04/the-dangerous-seduction-of-the-lifetime-value-ltv-formula/",
+  "status": "HTTP/2 200 ",
+  "x-frame-options": "",
   "frame-ancestors": "",
   "content-type": "text/html; charset=UTF-8"
+ },
+ {
+  "url": "https://abovethecrowd.com/2016/04/21/on-the-road-to-recap/",
+  "status": "HTTP/2 200 ",
+  "x-frame-options": "",
+  "frame-ancestors": "",
+  "content-type": "text/html; charset=UTF-8"
+ },
+ {
+  "url": "https://www.oaktreecapital.com/insights/memo/sea-change",
+  "status": "HTTP/2 200 ",
+  "x-frame-options": "",
+  "frame-ancestors": "",
+  "content-type": "text/html; charset=utf-8"
+ },
+ {
+  "url": "https://www.oaktreecapital.com/insights/memo/the-race-to-the-bottom",
+  "status": "HTTP/2 200 ",
+  "x-frame-options": "",
+  "frame-ancestors": "",
+  "content-type": "text/html; charset=utf-8"
+ },
+ {
+  "url": "https://a16z.com/why-software-is-eating-the-world/",
+  "status": "HTTP/2 200 ",
+  "x-frame-options": "DENY",
+  "frame-ancestors": "frame-ancestors 'self'",
+  "content-type": "text/html; charset=utf-8"
+ },
+ {
+  "url": "https://sequoiacap.com/article/follow-the-gpus-perspective/",
+  "status": "HTTP/2 200 ",
+  "x-frame-options": "",
+  "frame-ancestors": "",
+  "content-type": "text/html"
+ },
+ {
+  "url": "https://www.oaktreecapital.com/insights/memo/taking-the-temperature",
+  "status": "HTTP/2 200 ",
+  "x-frame-options": "",
+  "frame-ancestors": "",
+  "content-type": "text/html; charset=utf-8"
+ },
+ {
+  "url": "https://paulgraham.com/startupfunding.html",
+  "status": "HTTP/2 200 ",
+  "x-frame-options": "",
+  "frame-ancestors": "",
+  "content-type": "text/html"
+ },
+ {
+  "url": "https://www.oaktreecapital.com/insights/memo/gimme-credit",
+  "status": "HTTP/2 200 ",
+  "x-frame-options": "",
+  "frame-ancestors": "",
+  "content-type": "text/html; charset=utf-8"
+ },
+ {
+  "url": "https://www.oaktreecapital.com/insights/memo/cockroaches-in-the-coal-mine",
+  "status": "HTTP/2 200 ",
+  "x-frame-options": "",
+  "frame-ancestors": "",
+  "content-type": "text/html; charset=utf-8"
  }
 ]
