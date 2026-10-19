@@ -2690,5 +2690,228 @@
     }
    }
   ]
+ },
+ {
+  "id": "marks-race-bottom",
+  "cat": "pm",
+  "topic": "pe",
+  "ar": "السباق نحو القاع",
+  "en": "The Race to the Bottom",
+  "author": "هوارد ماركس",
+  "author_en": "Howard Marks",
+  "pub": "Oaktree",
+  "date": "فبراير 2007",
+  "mins": 18,
+  "url": "https://www.oaktreecapital.com/insights/memo/the-race-to-the-bottom",
+  "embed": true,
+  "arabic": true,
+  "img": null,
+  "about": "كتبها ماركس قبل الأزمة المالية بأشهر: المال سلعة، ومن يريد توظيف مال أكثر يخفض سعره، إما بعائد أقل أو بأمان أقل. أمثلة من الرهن البريطاني بخمسة أضعاف الراتب، وشركات «على بياض»، وCPDO برافعة 15 إلى 1، وعهود سندات تختفي.",
+  "about_en": "Written months before the financial crisis: money is a commodity, and anyone who wants to place more of it cheapens it, either with lower returns or less safety. Examples from UK mortgages at five times salary, blank-check companies, CPDOs at 15-to-1 leverage, and disappearing bond covenants.",
+  "why": "تقرأ اليوم كأنها عن الائتمان الخاص في 2026. وماركس نفسه يستشهد بها في مذكرته الأخيرة.",
+  "why_en": "It reads today as if written about private credit in 2026, and Marks cites it in his latest memo.",
+  "match": [
+   "كل الأقسام بعناوين الكاتب وترتيبها، والأمثلة الستة بعناوينها.",
+   "الأصل بلا رسوم."
+  ],
+  "summary": {
+   "ar": {
+    "core": "المال سلعة، والسلعة لا تكسب حصة إلا بتخفيض السعر. لهذا حين يكثر المال يتنافس المقرضون والمستثمرون بقبول عوائد أقل وأمان أقل، و«الفائز» هو من يقبل أصغر هامش للخطأ. هذا سباق نحو القاع، ونهايته معروفة وإن كان توقيتها مجهولًا.",
+    "points": [
+     [
+      "المال سلعة",
+      "من يريد توظيف مال أكثر يخفض سعره: فائدة أقل أو سعر شراء أعلى، فينخفض العائد المتوقع."
+     ],
+     [
+      "مبروك!",
+      "الطريقة الأخرى قبول أمان أقل؛ والفائز في المزاد هو من دفع أكثر، وقد يكون خاسرًا."
+     ],
+     [
+      "الرهن البريطاني",
+      "Abbey من 3.5 إلى 5 أضعاف الراتب، أي 50% فوق المعيار التقليدي، والسؤال: لماذا الآن؟"
+     ],
+     [
+      "الرهن الأمريكي",
+      "فائدة تمهيدية، ثم تمويل 100%، ثم قروض بلا توثيق، والخطر الأخلاقي لأن المنشئ يبيع القرض."
+     ],
+     [
+      "ستة أمثلة",
+      "قروض لتوزيع الأرباح، وشركات على بياض، وقرض بلا فحص محاسبي، وCPDO برافعة 15 إلى 1 بتصنيف AAA، و70% من المشترين لا يفتحون غرفة البيانات، واستثمار أسرع بتسعة أضعاف."
+     ],
+     [
+      "العهود تختفي",
+      "النقود الرديئة تطرد الجيدة، والرعاة صاروا يكتبون شروط القروض بأنفسهم."
+     ],
+     [
+      "الآثار",
+      "على المدى القصير صفقات وعوائد، وتأجيل للتعثر؛ ثم كلما كبرت الطفرة كبر الانهيار، والهواء يخرج أسرع مما دخل."
+     ],
+     [
+      "موقف Oaktree",
+      "عوائد أقل الآن ومظهر «العجوز المتزمت» ثمن صغير مقابل الحفاظ على رأس المال."
+     ]
+    ],
+    "numbers": [
+     [
+      "5x",
+      "حد إقراض Abbey من الراتب (من 3.5x)"
+     ],
+     [
+      "50%",
+      "فوق المعيار التقليدي للرهن"
+     ],
+     [
+      "15:1",
+      "رافعة CPDO لتصل إلى LIBOR+200"
+     ],
+     [
+      "70%",
+      "من مشتري القروض لا يزورون غرفة البيانات"
+     ],
+     [
+      "~9x",
+      "سرعة استثمار صناديق 2005 مقارنة بـ2002"
+     ]
+    ],
+    "must": "حين يكثر المال يصبح المقرض والمستثمر «الفائز» هو الأقل حذرًا. علامات ذلك واضحة: عوائد أقل، ورافعة أعلى، وفحص أقل، وعهود أضعف. من يرى هذه العلامات ويبقى منضبطًا سيبدو متأخرًا لفترة، لكنه يحتفظ بماله حين ينقلب السوق."
+   },
+   "en": {
+    "core": "Money is a commodity, and a commodity only wins share by cutting price. So when money is plentiful, lenders and investors compete by accepting lower returns and less safety, and the \"winner\" accepts the smallest margin for error. It is a race to the bottom, and its ending is known even if its timing is not.",
+    "points": [
+     [
+      "Money is a commodity",
+      "Placing more money means cheapening it: lower interest or higher purchase prices, so lower expected returns."
+     ],
+     [
+      "Congratulations!",
+      "The other way is accepting less safety; the auction winner simply paid the most and may be the loser."
+     ],
+     [
+      "UK mortgages",
+      "Abbey went from 3.5x to 5x salary, 50% above the traditional standard. Why now?"
+     ],
+     [
+      "US mortgages",
+      "Teaser rates, then 100% financing, then no-doc loans, and moral hazard because originators sell the loans."
+     ],
+     [
+      "Six examples",
+      "Dividend recaps, blank-check companies, a loan without accounting diligence, AAA CPDOs at 15-to-1, 70% of buyers never opening the data room, deployment nine times faster."
+     ],
+     [
+      "Covenants disappear",
+      "Bad money drives out good; sponsors now write their own loan terms."
+     ],
+     [
+      "Effects",
+      "Short term: deals, returns and postponed defaults; then the bigger the boom, the bigger the bust, and air leaves faster than it went in."
+     ],
+     [
+      "Oaktree's stance",
+      "Lower returns now and looking like an old fogey are a small price for keeping capital."
+     ]
+    ],
+    "numbers": [
+     [
+      "5x",
+      "Abbey's lending multiple of salary (from 3.5x)"
+     ],
+     [
+      "50%",
+      "Above the traditional mortgage standard"
+     ],
+     [
+      "15:1",
+      "CPDO leverage to reach LIBOR+200"
+     ],
+     [
+      "70%",
+      "Loan buyers never visiting the data room"
+     ],
+     [
+      "~9x",
+      "Deployment speed of 2005 funds vs 2002"
+     ]
+    ],
+    "must": "When money is plentiful, the \"winning\" lender or investor is the least careful one. The signs are clear: lower returns, higher leverage, less diligence, weaker covenants. Whoever sees them and stays disciplined looks behind for a while but keeps their money when the market turns."
+   }
+  },
+  "quiz": [
+   {
+    "q": {
+     "ar": "لماذا يعامل ماركس المال كسلعة؟",
+     "en": "Why does Marks treat money as a commodity?"
+    },
+    "o": {
+     "ar": [
+      "لأن مال الجميع متشابه فلا يكسب حصة إلا بالسعر",
+      "لأنه يتداول في البورصة",
+      "لأنه مضمون من الحكومة",
+      "لأنه نادر"
+     ],
+     "en": [
+      "Everyone's money is alike, so only price wins share",
+      "It trades on exchanges",
+      "It is government-backed",
+      "It is scarce"
+     ]
+    },
+    "a": 0,
+    "why": {
+     "ar": "فيخفضه المتنافسون بعائد أقل أو أمان أقل.",
+     "en": "So competitors cheapen it with lower returns or less safety."
+    }
+   },
+   {
+    "q": {
+     "ar": "ماذا يعني قانون Gresham في سياق المذكرة؟",
+     "en": "What does Gresham's Law mean in the memo?"
+    },
+    "o": {
+     "ar": [
+      "رأس المال غير المنضبط يطرد المنضبط",
+      "الذهب أفضل من الورق",
+      "الفائدة ترتفع دائمًا",
+      "العهود تزداد"
+     ],
+     "en": [
+      "Undisciplined capital drives out disciplined capital",
+      "Gold beats paper",
+      "Rates always rise",
+      "Covenants increase"
+     ]
+    },
+    "a": 0,
+    "why": {
+     "ar": "ولهذا حماية العهود مقياس لمناخ السوق.",
+     "en": "That is why covenant protection is a barometer of the market climate."
+    }
+   },
+   {
+    "q": {
+     "ar": "كم مرة أسرع استُثمرت صناديق 2005 مقارنة بـ2002 حسب تقدير ماركس؟",
+     "en": "How much faster were 2005 funds deployed than 2002 ones, per Marks?"
+    },
+    "o": {
+     "ar": [
+      "قرابة 9 أضعاف",
+      "ضعفان",
+      "بالسرعة نفسها",
+      "أبطأ"
+     ],
+     "en": [
+      "About 9x",
+      "2x",
+      "Same speed",
+      "Slower"
+     ]
+    },
+    "a": 0,
+    "why": {
+     "ar": "ثلاثة أضعاف النسبة (10% إلى 30%) على ثلاثة أضعاف المال.",
+     "en": "Three times the share (10% to 30%) on three times the capital."
+    }
+   }
+  ]
  }
 ]
