@@ -1757,5 +1757,244 @@
     }
    }
   ]
+ },
+ {
+  "id": "pg-startup-growth",
+  "cat": "vc",
+  "topic": "vc",
+  "ar": "الشركة الناشئة = النمو",
+  "en": "Startup = Growth",
+  "author": "بول غراهام",
+  "author_en": "Paul Graham",
+  "pub": "paulgraham.com",
+  "date": "سبتمبر 2012",
+  "mins": 20,
+  "url": "https://paulgraham.com/growth.html",
+  "embed": true,
+  "arabic": true,
+  "img": null,
+  "about": "مؤسس Y Combinator يعرّف الشركة الناشئة بشيء واحد: النمو. ومنه يفسر كل شيء آخر: لماذا تعمل في التقنية، ولماذا تفشل كثيرًا، ولماذا يمولها المستثمرون ويشتريها المستحوذون، ولماذا يجب أن يكون معدل النمو الأسبوعي بوصلة المؤسس.",
+  "about_en": "The Y Combinator founder defines a startup by one thing: growth. From it he explains everything else: why startups work on technology, why they fail so often, why investors fund them and acquirers buy them, and why the weekly growth rate should be the founder's compass.",
+  "why": "المقالة التي يفهم منها المستثمر الجريء لماذا يسأل أول ما يسأل عن معدل النمو، ولماذا 5% أسبوعيًا تختلف نوعيًا عن 1%.",
+  "why_en": "The essay that shows a VC why growth rate is the first question, and why 5% a week is a different kind of company from 1%.",
+  "match": [
+   "كل أقسام المقالة بعناوين الكاتب وترتيبها، والجدول كاملًا.",
+   "الهوامش 14 من 14 بصياغتنا، وسطر الشكر."
+  ],
+  "summary": {
+   "ar": {
+    "core": "الشركة الناشئة ليست شركة جديدة ولا شركة تقنية، بل شركة مصممة لتنمو بسرعة. لذلك يجب أن يعرف المؤسس معدل نموه الأسبوعي ويستخدمه بوصلة لكل قرار، لأن فروقًا صغيرة في هذا المعدل تصنع شركات مختلفة تمامًا، وهذا ما يفسر سلوك المستثمرين والمستحوذين.",
+    "points": [
+     [
+      "التعريف",
+      "النمو هو الشيء الجوهري الوحيد، وكل صفة أخرى للشركة الناشئة تأتي منه."
+     ],
+     [
+      "الخشب الأحمر",
+      "الشركة الكبيرة تحتاج (أ) شيئًا يريده كثيرون و(ب) طريقة للوصول إليهم. الصالون مقيد في (ب)، وبرنامج تعليم التبتية للهنغاريين مقيد في (أ)."
+     ],
+     [
+      "الأفكار",
+      "القيود تحمي الأعمال العادية، أما الشركة الناشئة فتنافس العالم وتحتاج فكرة أغفلها الآخرون، غالبًا لأن مؤسسيها يرون مشكلات لا يراها غيرهم."
+     ],
+     [
+      "منحنى S",
+      "بطء، ثم صعود سريع، ثم تباطؤ. الصعود يعرّف الشركة الناشئة، وانحداره هو معدل النمو."
+     ],
+     [
+      "المعدل الصحيح",
+      "في YC: 5–7% أسبوعيًا جيد، و10% استثنائي، و1% يعني أن المؤسسين لم يكتشفوا ما يفعلون. والإيراد أفضل مقياس."
+     ],
+     [
+      "البوصلة",
+      "اختر هدفًا أسبوعيًا وحققه كل أسبوع؛ كل ما يحقق الهدف صحيح، ما عدا الحيل."
+     ],
+     [
+      "القيمة",
+      "1% أسبوعيًا تحول 1,000 دولار شهريًا إلى 7,900 في أربع سنوات، و5% تحولها إلى 25 مليونًا."
+     ],
+     [
+      "المستثمرون",
+      "يفضلون الشركات الناشئة لأن المؤسس لا يغني نفسه دون أن يغنيهم، ولأن حجم النجاحات يعوض الإخفاقات."
+     ],
+     [
+      "المستحوذون",
+      "يدفعون علاوة لأن الشركة النامية قيّمة وخطرة معًا، كـPayPal لدى eBay وInstagram لدى Facebook."
+     ],
+     [
+      "الخلاصة",
+      "تأسيس شركة ناشئة التزام بإيجاد فكرة نادرة تولّد النمو، كعالم يبحث عن اكتشاف."
+     ]
+    ],
+    "numbers": [
+     [
+      "5–7%",
+      "نمو أسبوعي جيد في YC"
+     ],
+     [
+      "12.6x",
+      "مضاعف سنوي لنمو 5% أسبوعيًا"
+     ],
+     [
+      "142x",
+      "مضاعف سنوي لنمو 10% أسبوعيًا"
+     ],
+     [
+      "$7.9K vs $25M",
+      "دخل شهري بعد أربع سنوات بنمو 1% مقابل 5% أسبوعيًا"
+     ],
+     [
+      "43%",
+      "نصيب PayPal من مبيعات eBay"
+     ]
+    ],
+    "must": "معدل النمو ليس رقمًا من الأرقام، بل الرقم الذي يحدد نوع الشركة. لهذا يُقاس نسبة إلى الحجم الحالي، لا بعدد ثابت من العملاء الجدد، ولهذا يتصرف المستثمرون والمستحوذون كما يتصرفون: لأن فرقًا بين 1% و5% أسبوعيًا يعني فرقًا بين عمل صغير وشركة كبرى."
+   },
+   "en": {
+    "core": "A startup is not a new company or a tech company but one designed to grow fast. So founders must know their weekly growth rate and use it as a compass for every decision, because small differences in that rate make entirely different companies, which explains how investors and acquirers behave.",
+    "points": [
+     [
+      "The definition",
+      "Growth is the only essential thing; every other startup trait follows from it."
+     ],
+     [
+      "Redwoods",
+      "A big company needs (a) something many people want and (b) a way to reach them. A barbershop is limited in (b); Tibetan-for-Hungarians software in (a)."
+     ],
+     [
+      "Ideas",
+      "Constraints protect ordinary businesses; startups compete with the world and need ideas others overlooked, usually because founders see problems others don't."
+     ],
+     [
+      "The S-curve",
+      "Slow, then fast ascent, then slowdown. The ascent defines a startup; its slope is the growth rate."
+     ],
+     [
+      "The right rate",
+      "At YC, 5–7% a week is good, 10% exceptional, 1% means founders haven't figured it out. Revenue is the best measure."
+     ],
+     [
+      "The compass",
+      "Pick a weekly target and hit it every week; whatever hits it is right, except tricks."
+     ],
+     [
+      "Value",
+      "1% a week turns $1,000 a month into $7,900 in four years; 5% turns it into $25M."
+     ],
+     [
+      "Investors",
+      "They prefer startups because founders can't enrich themselves without enriching investors, and the size of wins pays for the failures."
+     ],
+     [
+      "Acquirers",
+      "They pay a premium because a growing startup is both valuable and dangerous, like PayPal for eBay or Instagram for Facebook."
+     ],
+     [
+      "Bottom line",
+      "Starting a startup commits you to finding a rare growth-generating idea, like a scientist seeking a discovery."
+     ]
+    ],
+    "numbers": [
+     [
+      "5–7%",
+      "Good weekly growth at YC"
+     ],
+     [
+      "12.6x",
+      "Yearly multiple at 5% a week"
+     ],
+     [
+      "142x",
+      "Yearly multiple at 10% a week"
+     ],
+     [
+      "$7.9K vs $25M",
+      "Monthly revenue after four years at 1% vs 5% weekly"
+     ],
+     [
+      "43%",
+      "PayPal's share of eBay's sales"
+     ]
+    ],
+    "must": "The growth rate is not one number among many; it decides what kind of company you are. That is why it is measured relative to current size, not as a fixed count of new customers, and why investors and acquirers act as they do: 1% versus 5% a week is the gap between a small business and a major company."
+   }
+  },
+  "quiz": [
+   {
+    "q": {
+     "ar": "ما الذي يعرّف الشركة الناشئة عند غراهام؟",
+     "en": "What defines a startup for Graham?"
+    },
+    "o": {
+     "ar": [
+      "أنها مصممة لتنمو بسرعة",
+      "أنها شركة تقنية",
+      "أنها جمعت تمويلًا جريئًا",
+      "أنها حديثة التأسيس"
+     ],
+     "en": [
+      "Being designed to grow fast",
+      "Being a tech company",
+      "Having raised VC",
+      "Being newly founded"
+     ]
+    },
+    "a": 0,
+    "why": {
+     "ar": "النمو هو الشيء الجوهري الوحيد.",
+     "en": "Growth is the only essential thing."
+    }
+   },
+   {
+    "q": {
+     "ar": "لماذا «مئة عميل جديد شهريًا» ليس معدل نمو؟",
+     "en": "Why is \"100 new customers a month\" not a growth rate?"
+    },
+    "o": {
+     "ar": [
+      "لأن المعدل يُقاس نسبة إلى العملاء الحاليين",
+      "لأن العملاء لا يهمون",
+      "لأن الشهر طويل",
+      "لأن الإيراد وحده يهم"
+     ],
+     "en": [
+      "Growth is measured relative to existing customers",
+      "Customers don't matter",
+      "A month is too long",
+      "Only revenue matters"
+     ]
+    },
+    "a": 0,
+    "why": {
+     "ar": "عدد ثابت من العملاء الجدد يعني أن معدل النمو يتناقص.",
+     "en": "A constant number of new customers means a falling growth rate."
+    }
+   },
+   {
+    "q": {
+     "ar": "لماذا يدفع المستحوذون علاوة على الشركات النامية؟",
+     "en": "Why do acquirers pay a premium for growing startups?"
+    },
+    "o": {
+     "ar": [
+      "لأنها قيّمة وخطرة معًا",
+      "لأنها رخيصة",
+      "لأن القانون يلزمهم",
+      "لأنها بلا منافسين"
+     ],
+     "en": [
+      "They are both valuable and dangerous",
+      "They are cheap",
+      "The law requires it",
+      "They have no competitors"
+     ]
+    },
+    "a": 0,
+    "why": {
+     "ar": "قد تتوسع في أرض المستحوذ، فيدفع أكثر من مستثمر عادي.",
+     "en": "They may expand into the acquirer's territory, so it pays more than an ordinary investor."
+    }
+   }
+  ]
  }
 ]
