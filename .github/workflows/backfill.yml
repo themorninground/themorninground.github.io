@@ -1,0 +1,21 @@
+name: Backfill Wamda H1 2026 headlines
+on:
+  push:
+    paths: ['tools/backfill.py']
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  backfill:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - run: python3 tools/backfill.py
+      - run: |
+          git config user.name "The Morning Round"
+          git config user.email "themorninground@users.noreply.github.com"
+          git add data/backfill
+          git diff --cached --quiet || (git commit -m "Backfill: Wamda H1 2026 headlines" && git pull --rebase && git push)
