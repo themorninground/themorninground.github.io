@@ -3145,6 +3145,77 @@
   ],
   "region": "SA",
   "auto": true,
+  "found": "2026-10-19",
+  "last_ok": "2026-10-19"
+ },
+ {
+  "id": "techstory",
+  "name": "TechStory",
+  "ar": "TechStory",
+  "url": "https://techstory.in",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "en"
+  ],
+  "region": "US",
+  "auto": true,
+  "found": "2026-10-19"
+ },
+ {
+  "id": "rowadalaamal",
+  "name": "مجلة رواد الأعمال",
+  "ar": "مجلة رواد الأعمال",
+  "url": "https://rowadalaamal.com",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "ar"
+  ],
+  "region": "SA",
+  "auto": true,
+  "found": "2026-10-19"
+ },
+ {
+  "id": "akhbarak",
+  "name": "اخبارك نت",
+  "ar": "اخبارك نت",
+  "url": "https://akhbarak.net",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "ar"
+  ],
+  "region": "SA",
+  "auto": true,
+  "found": "2026-10-19"
+ },
+ {
+  "id": "almashhadalaraby",
+  "name": "المشهد العربي",
+  "ar": "المشهد العربي",
+  "url": "https://almashhadalaraby.com",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "ar"
+  ],
+  "region": "SA",
+  "auto": true,
+  "found": "2026-10-19"
+ },
+ {
+  "id": "eltaameer",
+  "name": "التعمير",
+  "ar": "التعمير",
+  "url": "https://eltaameer.com",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "ar"
+  ],
+  "region": "SA",
+  "auto": true,
   "found": "2026-10-19"
  }
 ]
