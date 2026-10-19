@@ -2458,5 +2458,237 @@
     }
    }
   ]
+ },
+ {
+  "id": "marks-sea-change",
+  "cat": "pm",
+  "topic": "ec",
+  "ar": "تحوّل كبير",
+  "en": "Sea Change",
+  "author": "هوارد ماركس",
+  "author_en": "Howard Marks",
+  "pub": "Oaktree",
+  "date": "ديسمبر 2022",
+  "mins": 25,
+  "url": "https://www.oaktreecapital.com/insights/memo/sea-change",
+  "embed": true,
+  "arabic": true,
+  "img": null,
+  "about": "أشهر مذكرات ماركس: في 53 عامًا رأى تحولين كبيرين، تفكير المخاطرة والعائد في السبعينات، وأربعين عامًا من الفائدة المتراجعة. ويشرح كيف صنعت الفائدة المتراجعة جزءًا كبيرًا من أرباح المستثمرين، خصوصًا بالرافعة، ولماذا انتهى ذلك في 2022 وبدأ «عالم العائد الكامل».",
+  "about_en": "Marks's most famous memo: in 53 years he saw two sea changes, risk/return thinking in the 1970s and forty years of falling rates. He shows how falling rates made much of investors' gains, especially with leverage, and why that ended in 2022 and a \"full-return world\" began.",
+  "why": "المذكرة التي تفسر لماذا تغيّر كل شيء في الاستثمار الجريء والملكية الخاصة بعد 2022. من دونها لا تفهم التقييمات اليوم.",
+  "why_en": "The memo that explains why everything in venture and private equity changed after 2022. Without it, today's valuations make no sense.",
+  "match": [
+   "كل الأقسام بعناوين الكاتب وترتيبها، والمقدمة بلا عنوان كما في الأصل.",
+   "الجدولان كاملان بكل صفوفهما، ومثال الرافعة بأرقامه.",
+   "رسم التضخم من الأرقام التي يذكرها النص، والأصل لا يعرضها رسمًا."
+  ],
+  "summary": {
+   "ar": {
+    "core": "أربعون عامًا من الفائدة المتراجعة كانت ممشى متحركًا تحت أقدام المستثمرين، وصنعت جزءًا كبيرًا من أرباحهم، خصوصًا من استخدم الرافعة. في 2022 انتهى ذلك: التضخم في أعلى مستوى منذ 40 عامًا، والفائدة ترتفع بسرعة. ماركس يرى تحولًا كبيرًا من عالم «العائد المنخفض» إلى عالم «العائد الكامل»، تتغير فيه الاستراتيجيات الرابحة لصالح المقرضين وصائدي الصفقات.",
+    "points": [
+     [
+      "التحول الأول",
+      "في السبعينات صار الاستثمار في السندات دون الدرجة الاستثمارية مقبولًا إذا عوّض العائد المخاطرة، فولدت عقلية المخاطرة مقابل العائد، ومعها الملكية الخاصة والائتمان الخاص. السوق من 2 مليار إلى 1.2 تريليون."
+     ],
+     [
+      "التحول الثاني",
+      "بعد تضخم السبعينات (13.5% في 1980) رفع Volcker الفائدة إلى 20%، ثم بدأت أربعة عقود من الفائدة المتراجعة. S&P 500 من 102 إلى 4,796، أي 10.3% سنويًا."
+     ],
+     [
+      "الممشى المتحرك",
+      "هبوط الفائدة 2,000 نقطة أساس (من 22.25% إلى 2.25%) رفع قيم الأصول وخفض تكلفة الدين معًا."
+     ],
+     [
+      "الرافعة",
+      "عائد 10% بدين 75%: بفائدة 8% يصير العائد على الملكية 16%، وبـ7% يصير 19%، وبـ5% يصير 25%."
+     ],
+     [
+      "2009–2021",
+      "فائدة صفرية وتيسير كمي، وأطول تعافٍ وسوق صاعدة، وخوف من تفويت الفرصة، ووثائق إقراض ضعيفة. S&P 500 بـ16% سنويًا."
+     ],
+     [
+      "الانعكاس",
+      "تضخم «مؤقت» لم يكن مؤقتًا، ورفع سريع للفائدة، وحرب أوكرانيا، وقروض معلقة لدى البنوك، والمرشحون للتعثر من العشرات إلى المئات."
+     ],
+     [
+      "الجدول",
+      "كل صفة انعكست: من «محفز جدًا» إلى «يشدد»، ومن «الخوف من تفويت الفرصة» إلى «الخوف من الخسارة»، ومن «أدنى عوائد» إلى «أكثر من كافية»."
+     ],
+     [
+      "التوقعات",
+      "الفائدة الأساسية غالبًا بين 2% و4%، ولن تعود محفزة جدًا إلا في ركود خطير، ولن تنزل 2,000 نقطة أخرى."
+     ],
+     [
+      "الخلاصة",
+      "عالم العائد الكامل: السندات عالية العائد بـ8% قد تقارب عوائد الأسهم، والاستراتيجيات الرابحة في 40 عامًا قد لا تربح بعد الآن."
+     ]
+    ],
+    "numbers": [
+     [
+      "2,000 bp",
+      "هبوط الفائدة من 1980 إلى 2020"
+     ],
+     [
+      "10.3%",
+      "عائد S&P 500 السنوي 1982–2022"
+     ],
+     [
+      "16% → 25%",
+      "العائد على الملكية مع نزول تكلفة الدين من 8% إلى 5%"
+     ],
+     [
+      "$4T → $9T",
+      "ميزانية الاحتياطي الفيدرالي"
+     ],
+     [
+      "2–4%",
+      "الفائدة الأساسية المتوقعة في السنوات القادمة"
+     ]
+    ],
+    "must": "جزء كبير من عوائد العقود الماضية لم يكن مهارة، بل ريحًا خلفية من الفائدة المتراجعة. حين تتوقف هذه الريح، تتأثر أكثر الاستراتيجيات التي اعتمدت على الدين الرخيص والتقييمات المرتفعة، كالاستحواذات بالرافعة والنمو بأي ثمن، ويستفيد المقرضون ومن يشتري بأسعار معقولة."
+   },
+   "en": {
+    "core": "Forty years of falling rates were a moving walkway under investors' feet and made much of their gains, especially for those using leverage. In 2022 that ended: inflation at a 40-year high and rates rising fast. Marks sees a sea change from a low-return world to a full-return world, where winning strategies shift toward lenders and bargain hunters.",
+    "points": [
+     [
+      "First sea change",
+      "In the 1970s, sub-investment-grade bonds became acceptable if the yield paid for the risk: risk/return thinking was born, and with it PE and private credit. The market grew from $2B to $1.2T."
+     ],
+     [
+      "Second sea change",
+      "After 1970s inflation (13.5% in 1980) Volcker took rates to 20%, then four decades of falling rates began. The S&P 500 went from 102 to 4,796, 10.3% a year."
+     ],
+     [
+      "The moving walkway",
+      "A 2,000bp fall in rates (22.25% to 2.25%) raised asset values and cut debt costs at once."
+     ],
+     [
+      "Leverage",
+      "A 10% return with 75% debt: at 8% the equity return is 16%, at 7% it is 19%, at 5% it is 25%."
+     ],
+     [
+      "2009–2021",
+      "Zero rates and QE, the longest recovery and bull market, FOMO, weak loan documents. The S&P 500 compounded 16% a year."
+     ],
+     [
+      "The reversal",
+      "\"Transitory\" inflation wasn't, rates rose fast, the Ukraine war, hung bank loans, and distress candidates went from dozens to hundreds."
+     ],
+     [
+      "The table",
+      "Every attribute flipped: highly stimulative to tightening, FOMO to fear of loss, lowest-ever returns to more than ample."
+     ],
+     [
+      "Outlook",
+      "Base rates likely 2–4%, not stimulative again barring a serious recession, and no further 2,000bp fall."
+     ],
+     [
+      "Bottom line",
+      "A full-return world: high yield at 8% may rival equity returns, and the 40-year winning strategies may not win now."
+     ]
+    ],
+    "numbers": [
+     [
+      "2,000 bp",
+      "Fall in rates, 1980 to 2020"
+     ],
+     [
+      "10.3%",
+      "S&P 500 annual return, 1982–2022"
+     ],
+     [
+      "16% → 25%",
+      "Equity return as debt cost falls from 8% to 5%"
+     ],
+     [
+      "$4T → $9T",
+      "Fed balance sheet"
+     ],
+     [
+      "2–4%",
+      "Expected base rate in coming years"
+     ]
+    ],
+    "must": "Much of past decades' returns was not skill but a tailwind from falling rates. When it stops, strategies built on cheap debt and high valuations (leveraged buyouts, growth at any price) suffer most, and lenders and buyers at sensible prices benefit."
+   }
+  },
+  "quiz": [
+   {
+    "q": {
+     "ar": "ما «الممشى المتحرك» في تشبيه ماركس؟",
+     "en": "What is the \"moving walkway\" in Marks's analogy?"
+    },
+    "o": {
+     "ar": [
+      "أربعون عامًا من الفائدة المتراجعة",
+      "نمو الاقتصاد الأمريكي",
+      "التقنية",
+      "العولمة"
+     ],
+     "en": [
+      "Forty years of falling rates",
+      "US economic growth",
+      "Technology",
+      "Globalisation"
+     ]
+    },
+    "a": 0,
+    "why": {
+     "ar": "سرعتك = مشيك + الممشى؛ والعائد = المهارة + هبوط الفائدة.",
+     "en": "Your speed = walking + walkway; returns = skill + falling rates."
+    }
+   },
+   {
+    "q": {
+     "ar": "في مثال الرافعة، كم يصير العائد على الملكية حين تنزل تكلفة الدين إلى 5%؟",
+     "en": "In the leverage example, what is the equity return when debt cost falls to 5%?"
+    },
+    "o": {
+     "ar": [
+      "25%",
+      "16%",
+      "10%",
+      "5%"
+     ],
+     "en": [
+      "25%",
+      "16%",
+      "10%",
+      "5%"
+     ]
+    },
+    "a": 0,
+    "why": {
+     "ar": "10% − (75% × 5%) = 6.25% على حصة 25% = 25%.",
+     "en": "10% − (75% × 5%) = 6.25% on a 25% stake = 25%."
+    }
+   },
+   {
+    "q": {
+     "ar": "كم يتوقع ماركس أن يكون متوسط الفائدة الأساسية؟",
+     "en": "Where does Marks expect base rates to average?"
+    },
+    "o": {
+     "ar": [
+      "بين 2% و4%",
+      "صفر",
+      "فوق 10%",
+      "بين 0% و1%"
+     ],
+     "en": [
+      "2–4%",
+      "Zero",
+      "Above 10%",
+      "0–1%"
+     ]
+    },
+    "a": 0,
+    "why": {
+     "ar": "ويرى أن العودة إلى فائدة محفزة جدًا غير مرجحة دون ركود خطير.",
+     "en": "He sees a return to highly stimulative rates as unlikely without a serious recession."
+    }
+   }
+  ]
  }
 ]
