@@ -825,5 +825,43 @@
    1280,
    960
   ]
+ },
+ "lib-sequoia-600b": {
+  "src": "https://framerusercontent.com/images/NKgiRXjcsgWOr793gaCkamvRl0.webp?width=1200&height=630",
+  "size": [
+   1200,
+   630
+  ]
+ },
+ "lib-kauffman-enemy": {
+  "src": "https://www.kauffman.org/wp-content/uploads/2012/06/we_have_met_the_enemy_venture_capital_report_cover.jpg",
+  "size": [
+   371,
+   480
+  ]
+ },
+ "lib-bain-pe-midyear-2026": {
+  "src": "https://www.bain.com/contentassets/231341aae0144af699804eda1edc3679/44404_pemidyear26_1440x810.jpg",
+  "size": [
+   1400,
+   788
+  ]
+ },
+ "lib-damodaran-sa-blowup": {
+  "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjXo8uQZJpMDXttFVJ7tuZK7HLO1sArfu_qD4B0PO5HeVhmRYlnIa8FL1W9iuQTKm_N3Rp2GOBotuMvHwyylHH1mSUqLTIB9ycF7v6BDVzP0VJOiZLzxKSh22in1VER47eWa4uHjQxQbMQCdxaQdtFgytsm0ihkbLYUY4woP8hrMHvE9a5-qSiaVofJF14/w1200-h630-p-k-no-nu/SATheRise.jpg",
+  "size": [
+   1200,
+   630
+  ]
+ },
+ "lib-nobel-game-theory": {
+  "page": "https://www.nobelprize.org/prizes/economic-sciences/2005/popular-information/",
+  "site": "NobelPrize.org",
+  "title": "Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel 2005",
+  "src": "https://www.nobelprize.org/images/schelling-13708-landscape-medium.jpg",
+  "size": [
+   496,
+   328
+  ]
  }
 }
