@@ -3104,5 +3104,19 @@
   "region": "US",
   "auto": true,
   "found": "2026-10-19"
+ },
+ {
+  "id": "vccircle",
+  "name": "VCCircle",
+  "ar": "VCCircle",
+  "url": "https://vccircle.com",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "en"
+  ],
+  "region": "SA",
+  "auto": true,
+  "found": "2026-10-19"
  }
 ]
