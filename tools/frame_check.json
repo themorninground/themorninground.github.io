@@ -1,37 +1,44 @@
 [
  {
-  "url": "https://stratechery.com/2015/aggregation-theory/",
+  "url": "https://abovethecrowd.com/2013/04/18/a-rake-too-far-optimal-platformpricing-strategy/",
   "status": "HTTP/2 200 ",
   "x-frame-options": "",
   "frame-ancestors": "",
   "content-type": "text/html; charset=UTF-8"
  },
  {
-  "url": "https://nfx.com/post/network-effects-manual",
+  "url": "https://blogs.cfainstitute.org/investor/2019/02/28/aswath-damodaran-on-acquisitions-just-say-no",
+  "status": "HTTP/2 200 ",
+  "x-frame-options": "SAMEORIGIN",
+  "frame-ancestors": "frame-ancestors 'self'",
+  "content-type": "text/html; charset=UTF-8"
+ },
+ {
+  "url": "https://www.stern.nyu.edu/experience-stern/faculty-research/the-top-4-reasons-most-acquisitions-fail",
   "status": "HTTP/2 200 ",
   "x-frame-options": "SAMEORIGIN",
   "frame-ancestors": "",
-  "content-type": "text/html; charset=utf-8"
+  "content-type": "text/html; charset=UTF-8"
  },
  {
-  "url": "https://www.oaktreecapital.com/docs/default-source/memos/2007-02-14-the-race-to-the-bottom.pdf",
+  "url": "https://humbledollar.com/2026/04/how-deals-hurt-returns/",
+  "status": "HTTP/2 200 ",
+  "x-frame-options": "",
+  "frame-ancestors": "",
+  "content-type": "text/html; charset=UTF-8"
+ },
+ {
+  "url": "https://paulgraham.com/newthings.html",
+  "status": "HTTP/2 200 ",
+  "x-frame-options": "",
+  "frame-ancestors": "",
+  "content-type": "text/html"
+ },
+ {
+  "url": "https://www.oaktreecapital.com/docs/default-source/memos/further-thoughts-on-sea-change.pdf",
   "status": "HTTP/2 200 ",
   "x-frame-options": "",
   "frame-ancestors": "",
   "content-type": "application/pdf"
- },
- {
-  "url": "https://www.sequoiacap.com/article/follow-the-gpus-perspective",
-  "status": "HTTP/2 200 ",
-  "x-frame-options": "",
-  "frame-ancestors": "",
-  "content-type": "text/html"
- },
- {
-  "url": "https://morganstanley.com/im/en-us/financial-advisor/insights/articles/measuring-the-moat.html",
-  "status": "HTTP/2 403 ",
-  "x-frame-options": "",
-  "frame-ancestors": "",
-  "content-type": "text/html"
  }
 ]
