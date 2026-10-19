@@ -2913,5 +2913,236 @@
     }
    }
   ]
+ },
+ {
+  "id": "marks-race-on",
+  "cat": "pm",
+  "topic": "mk",
+  "ar": "السباق بدأ",
+  "en": "The Race Is On",
+  "author": "هوارد ماركس",
+  "author_en": "Howard Marks",
+  "pub": "Oaktree",
+  "date": "نوفمبر 2013",
+  "mins": 20,
+  "url": "https://www.oaktreecapital.com/docs/default-source/memos/2013-11-26-the-race-is-on.pdf",
+  "embed": true,
+  "arabic": true,
+  "img": null,
+  "about": "بعد ست سنوات من «السباق نحو القاع»، يرصد ماركس عودة السلوك نفسه: قروض بعهود خفيفة ضعف 2007، وCCC تتفوق، وطرح Twitter يقفز 73%، وSnapchat يرفض 3 مليارات. ثم يجيب: هل هذه إشارة بيع؟ لا، لكن «تقدم بحذر».",
+  "about_en": "Six years after \"The Race to the Bottom\", Marks sees the same behaviour return: covenant-lite loans double 2007, CCCs outperforming, Twitter's IPO jumping 73%, Snapchat turning down $3B. His answer to whether it is a sell signal: no, but \"move forward with caution\".",
+  "why": "تعلمك كيف تقرأ «أين نحن في الدورة» من الأخبار اليومية، بدل محاولة توقع المستقبل.",
+  "why_en": "It teaches you to read \"where we are in the cycle\" from daily headlines instead of trying to forecast.",
+  "match": [
+   "كل الأقسام بعناوين الكاتب وترتيبها، والمقدمة بلا عنوان كما في الأصل.",
+   "جدول صفات 2007 وجدول طرح Twitter صغناهما من أرقام النص."
+  ],
+  "summary": {
+   "ar": {
+    "core": "حين تكون الأوقات جيدة يتنافس مقدمو رأس المال بقبول أقل: سعر أعلى، وهياكل أضعف، ومخاطرة أكبر. في 2013 عادت علامات 2007 كلها، وإن بمدى أقل. ليست إشارة بيع، لأن التقييمات ليست ممتدة، لكن الاتجاه واضح، والحذر يجب أن يرتفع كلما قل حذر الآخرين.",
+    "points": [
+     [
+      "الدورات تتكرر",
+      "نافذة الائتمان تتأرجح بين مفتوحة ومغلقة؛ التاريخ لا يعيد نفسه لكنه يتشابه."
+     ],
+     [
+      "التنافس",
+      "الفوز بالصفقة يعني دفع سعر أعلى أو قبول هيكل أضعف أو مخاطرة أكبر."
+     ],
+     [
+      "التاريخ يتشابه",
+      "هندسة مالية، وطفرة استحواذات، وعهود خفيفة، وديون CCC قبل الأزمة؛ وبعدها عادت معظمها."
+     ],
+     [
+      "أربع صفات حاضرة",
+      "فائض سيولة، وعزوف عن التقليدي، وقلق قليل، وعوائد رقيقة."
+     ],
+     [
+      "من الأخبار",
+      "قروض بعهود خفيفة 200 مليار مقابل 100 في 2007، ودين الاستحواذات 5.37 ضعف، وTwitter من 17 دولارًا إلى 44.90."
+     ],
+     [
+      "لماذا المخاطرة؟",
+      "الفائدة المنخفضة أجبرت المستثمرين على الصعود في منحنى المخاطرة، فارتفعت الأسعار وتجدد السباق."
+     ],
+     [
+      "أين نحن",
+      "لا نعرف إلى أين نذهب، لكن يجب أن نعرف أين نحن: الأسواق أخطر منذ 2008-2009 وتزداد."
+     ],
+     [
+      "ليست إشارة بيع",
+      "مضاعف S&P 500 قرابة 16 مقابل الثلاثينات في 2000؛ والسندات مرتفعة لكنها تعيد قيمتها عند الاستحقاق."
+     ],
+     [
+      "تقدم بحذر",
+      "الحذر يرتفع كلما قل حذر الآخرين، والأقصى يأتي لاحقًا: «ليس بعد»."
+     ]
+    ],
+    "numbers": [
+     [
+      "$200B vs $100B",
+      "قروض بعهود خفيفة في 2013 مقابل 2007"
+     ],
+     [
+      "5.37x",
+      "دين الاستحواذات إلى الأرباح (ذروة الطفرة 6.05x)"
+     ],
+     [
+      "+73%",
+      "قفزة سهم Twitter في أول يوم"
+     ],
+     [
+      "$3B",
+      "عرض رفضه Snapchat بلا إيرادات"
+     ],
+     [
+      "~16x",
+      "مضاعف S&P 500 مقابل الثلاثينات في 2000"
+     ]
+    ],
+    "must": "تحديد «أين نحن» أهم من التنبؤ. راقب علامات السلوك: كم يقبل المقرضون من رافعة وعهود ضعيفة، وكم تقفز الطروحات، وهل صار التحليل عن حركة السعر بدل الأساسيات. هذه تخبرك متى ترفع حذرك."
+   },
+   "en": {
+    "core": "In good times capital providers compete by accepting less: higher prices, weaker structures, more risk. In 2013 all of 2007's signs were back, though less extreme. It is not a sell signal because valuations are not stretched, but the direction is clear, and caution should rise as others' falls.",
+    "points": [
+     [
+      "Cycles recur",
+      "The credit window swings open and shut; history rhymes."
+     ],
+     [
+      "Competition",
+      "Winning a deal means paying more, accepting weaker structures or more risk."
+     ],
+     [
+      "History rhymes",
+      "Financial engineering, buyout boom, covenant-lite, CCC debt before the crisis; most of it came back."
+     ],
+     [
+      "Four traits present",
+      "Liquidity glut, disinterest in traditional assets, little worry, skimpy returns."
+     ],
+     [
+      "From the media",
+      "$200B covenant-lite vs $100B in 2007, LBO debt at 5.37x, Twitter from $17 to $44.90."
+     ],
+     [
+      "Why more risk?",
+      "Low rates forced investors out the risk curve, lifting prices and renewing the race."
+     ],
+     [
+      "Where we are",
+      "We can't know where we're going but should know where we are: markets riskiest since 2008–09 and rising."
+     ],
+     [
+      "Not a sell signal",
+      "S&P 500 P/E about 16 vs low 30s in 2000; bonds are high but repay par."
+     ],
+     [
+      "Move forward with caution",
+      "Caution rises as others' falls; maximum caution comes later: \"just not yet\"."
+     ]
+    ],
+    "numbers": [
+     [
+      "$200B vs $100B",
+      "Covenant-lite loans, 2013 vs 2007"
+     ],
+     [
+      "5.37x",
+      "LBO debt to earnings (6.05x at the peak)"
+     ],
+     [
+      "+73%",
+      "Twitter first-day jump"
+     ],
+     [
+      "$3B",
+      "Offer Snapchat turned down with no revenue"
+     ],
+     [
+      "~16x",
+      "S&P 500 P/E vs low 30s in 2000"
+     ]
+    ],
+    "must": "Knowing \"where we are\" matters more than forecasting. Watch behaviour: how much leverage and how weak covenants lenders accept, how much IPOs jump, whether analysis has shifted to price action. That tells you when to raise your caution."
+   }
+  },
+  "quiz": [
+   {
+    "q": {
+     "ar": "ما المصدر الأساسي لمخاطرة الاستثمار عند ماركس؟",
+     "en": "What is the main source of investment risk for Marks?"
+    },
+    "o": {
+     "ar": [
+      "أسعار مرتفعة جدًا مقارنة بالأساسيات",
+      "الشركات نفسها",
+      "البورصات",
+      "الحكومات"
+     ],
+     "en": [
+      "Prices too high relative to fundamentals",
+      "Companies themselves",
+      "Exchanges",
+      "Governments"
+     ]
+    },
+    "a": 0,
+    "why": {
+     "ar": "ويصنعها المشاركون في السوق حين يتحملون مخاطرة أكثر من اللازم.",
+     "en": "Market participants create it when they become too risk-tolerant."
+    }
+   },
+   {
+    "q": {
+     "ar": "لماذا لم يعدّها ماركس إشارة بيع في 2013؟",
+     "en": "Why wasn't it a sell signal in 2013?"
+    },
+    "o": {
+     "ar": [
+      "لأن التقييمات لم تكن ممتدة",
+      "لأن المخاطرة اختفت",
+      "لأن الفائدة كانت مرتفعة",
+      "لأن الاستحواذات توقفت"
+     ],
+     "en": [
+      "Valuations weren't stretched",
+      "Risk had vanished",
+      "Rates were high",
+      "Buyouts had stopped"
+     ]
+    },
+    "a": 0,
+    "why": {
+     "ar": "مضاعف S&P 500 قرابة 16، متوسط ما بعد الحرب.",
+     "en": "The S&P 500 P/E was about 16, the postwar average."
+    }
+   },
+   {
+    "q": {
+     "ar": "ما شعار Oaktree في تلك الفترة؟",
+     "en": "What was Oaktree's motto then?"
+    },
+    "o": {
+     "ar": [
+      "تقدم، لكن بحذر",
+      "اخرج من السوق",
+      "ضاعف الرافعة",
+      "اشترِ كل شيء"
+     ],
+     "en": [
+      "Move forward, but with caution",
+      "Exit the market",
+      "Double leverage",
+      "Buy everything"
+     ]
+    },
+    "a": 0,
+    "why": {
+     "ar": "لأن الظروف ليست سيئة بما يكفي لأقصى حذر ولا جيدة بما يكفي للعدوانية.",
+     "en": "Conditions were neither bad enough for maximum caution nor good enough for aggression."
+    }
+   }
+  ]
  }
 ]
