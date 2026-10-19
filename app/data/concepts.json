@@ -1169,7 +1169,10 @@
   ],
   "formula": "<span dir=\"ltr\">LTV ÷ CAC ≥ 3</span>",
   "stage": "التقييم والمقاييس",
-  "stage_en": "Valuation & metrics"
+  "stage_en": "Valuation & metrics",
+  "articles": [
+   "gurley-rake"
+  ]
  },
  {
   "id": "burn-runway",
@@ -1382,7 +1385,10 @@
    "m-and-a"
   ],
   "stage": "الملكية الخاصة والائتمان",
-  "stage_en": "PE & credit"
+  "stage_en": "PE & credit",
+  "articles": [
+   "marks-further-sea-change"
+  ]
  },
  {
   "id": "private-credit",
@@ -1416,7 +1422,10 @@
    "venture-debt"
   ],
   "stage": "الملكية الخاصة والائتمان",
-  "stage_en": "PE & credit"
+  "stage_en": "PE & credit",
+  "articles": [
+   "marks-further-sea-change"
+  ]
  },
  {
   "id": "continuation-vehicle",
@@ -1522,6 +1531,9 @@
    "lbo"
   ],
   "stage": "الأسواق والخروج",
-  "stage_en": "Markets & exits"
+  "stage_en": "Markets & exits",
+  "articles": [
+   "humbledollar-deals"
+  ]
  }
 ]

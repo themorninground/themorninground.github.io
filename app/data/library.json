@@ -3615,5 +3615,941 @@
     }
    }
   ]
+ },
+ {
+  "id": "gurley-rake",
+  "cat": "vc",
+  "topic": "vc",
+  "ar": "عمولة أكثر من اللازم: التسعير الأمثل للمنصات",
+  "en": "A Rake Too Far: Optimal Platform Pricing Strategy",
+  "author": "بيل غيرلي",
+  "author_en": "Bill Gurley",
+  "pub": "Above the Crowd",
+  "date": "أبريل 2013",
+  "mins": 13,
+  "url": "https://abovethecrowd.com/2013/04/18/a-rake-too-far-optimal-platformpricing-strategy/",
+  "embed": true,
+  "arabic": true,
+  "img": null,
+  "about": "كم تأخذ المنصة من كل معاملة؟ غيرلي يجادل بأن العمولة المرتفعة تجلب إيرادًا سريعًا لكنها تدعو المنافسين وتطرد الموردين، ويستشهد بـBooking.com وoDesk وGroupon وFacebook وApple.",
+  "about_en": "How much should a platform take from each transaction? Gurley argues a high rake brings quick revenue but invites competitors and drives suppliers away, with Booking.com, oDesk, Groupon, Facebook and Apple as cases.",
+  "why": "كل منصة توصيل أو حجز أو دفع في الخليج تواجه هذا القرار. والمقالة تعطيك سؤالًا تقيّم به أي سوق إلكتروني: هل عمولته تقوّيه أم تفتح الباب لمن يأخذ أقل؟",
+  "why_en": "Every delivery, booking or payments platform in the Gulf faces this decision. The piece gives you one question for judging any marketplace: does its take rate strengthen it, or open the door to someone who takes less?",
+  "match": [
+   "كل الفقرات بترتيبها تحت عناوين الأصل.",
+   "الجدول والصور الثلاث صور في الأصل لا يصف النص قيمها، فأشرنا إليها دون اختراع أرقام.",
+   "الملاحظتان الختاميتان منقولتان."
+  ],
+  "summary": {
+   "ar": {
+    "core": "العمولة الأعلى ليست أفضل. المنصة المستدامة تأخذ عمولة معتدلة على حجم كبير، فيبقى الموردون ويرى المستهلك سعرًا عادلًا. العمولة العالية إيراد سريع، لكنها تدعو المنافسين وتطرد الشركاء.",
+    "points": [
+     [
+      "تعريف",
+      "العمولة نسبة من إجمالي المبيعات المارة عبر المنصة؛ eBay أخذت أقل قليلًا من 10% في 2011."
+     ],
+     [
+      "النطاق",
+      "من مرتفعة جدًا (iTunes وFacebook وGroupon) إلى منخفضة جدًا (OpenTable وHomeAway)."
+     ],
+     [
+      "لماذا الأقل أفضل",
+      "العمولة تدخل في سعر المستهلك وتطرد الموردين؛ Groupon وصلت عمولتها الفعلية نحو 70%."
+     ],
+     [
+      "Booking.com",
+      "بدأت بعمولة 10% أمام منافسين يأخذون أكثر من 30%، ثم أضافت رسومًا اختيارية مقابل الظهور."
+     ],
+     [
+      "oDesk",
+      "خفضت العمولة من 30% إلى 10% فخسرت ثلثي إيرادها الحالي، ثم تجاوزت منافسيها مجتمعين بحلول 2009."
+     ],
+     [
+      "Facebook",
+      "الـ30% مع الإنفاق الإعلاني دفعت شركات الألعاب للبحث عن توزيع خارجها."
+     ],
+     [
+      "Apple",
+      "الـ30% دفعت Amazon وFacebook لدعم Android، وصنعت منافسًا يبيع الأجهزة قرب التعادل."
+     ],
+     [
+      "درس Drucker",
+      "الربح الكلي هو الهامش ضرب الحجم؛ ما تستطيع أخذه ليس ما ينبغي أن تأخذه."
+     ]
+    ],
+    "numbers": [
+     [
+      "<10%",
+      "عمولة eBay في 2011 (6.6 مليار على 68.6 مليار)"
+     ],
+     [
+      "~70%",
+      "عمولة Groupon الفعلية على التاجر"
+     ],
+     [
+      "10%",
+      "عمولة Booking.com وoDesk عند البداية"
+     ],
+     [
+      "30%",
+      "عمولة Apple وFacebook على المعاملات"
+     ]
+    ],
+    "must": "عند تقييم منصة، قارن عمولتها بقيمة الشبكة التي تقدمها. إذا كانت العمولة أعلى بوضوح من البدائل، فالسؤال ليس كم تربح اليوم، بل متى يأتي من يعرض أقل."
+   },
+   "en": {
+    "core": "A higher rake is not better. A sustainable platform takes a modest rake on large volume, so suppliers stay and consumers see fair prices. A high rake is quick revenue, but it invites competitors and drives partners away.",
+    "points": [
+     [
+      "Definition",
+      "The rake is a share of gross merchandise sales; eBay took just under 10% in 2011."
+     ],
+     [
+      "The range",
+      "From very high (iTunes, Facebook, Groupon) to very low (OpenTable, HomeAway)."
+     ],
+     [
+      "Why lower wins",
+      "The rake enters the consumer price and pushes suppliers away; Groupon's effective rake reached about 70%."
+     ],
+     [
+      "Booking.com",
+      "Started at 10% against rivals taking over 30%, then added opt-in fees for placement."
+     ],
+     [
+      "oDesk",
+      "Cut its rake from 30% to 10%, losing two-thirds of current revenue, then outgrew its top rivals combined by 2009."
+     ],
+     [
+      "Facebook",
+      "30% plus ad spend pushed game companies to seek distribution elsewhere."
+     ],
+     [
+      "Apple",
+      "30% pushed Amazon and Facebook toward Android and created a rival selling hardware near breakeven."
+     ],
+     [
+      "Drucker's lesson",
+      "Total profit is margin times volume; what you can extract is not what you should."
+     ]
+    ],
+    "numbers": [
+     [
+      "<10%",
+      "eBay rake in 2011 ($6.6B on $68.6B)"
+     ],
+     [
+      "~70%",
+      "Groupon's effective rake on merchants"
+     ],
+     [
+      "10%",
+      "Booking.com and oDesk starting rake"
+     ],
+     [
+      "30%",
+      "Apple and Facebook platform fee"
+     ]
+    ],
+    "must": "When judging a platform, compare its rake to the network value it delivers. If the rake is clearly above alternatives, the question is not how much it earns today but when someone offers less."
+   }
+  },
+  "quiz": [
+   {
+    "q": {
+     "ar": "ماذا فعلت oDesk بعمولتها؟",
+     "en": "What did oDesk do with its rake?"
+    },
+    "o": {
+     "ar": [
+      "خفضتها من 30% إلى 10%",
+      "رفعتها إلى 30%",
+      "ألغتها",
+      "جعلتها اختيارية"
+     ],
+     "en": [
+      "Cut it from 30% to 10%",
+      "Raised it to 30%",
+      "Dropped it",
+      "Made it optional"
+     ]
+    },
+    "a": 0,
+    "why": {
+     "ar": "فخسرت ثلثي إيرادها مؤقتًا ثم تجاوزت منافسيها.",
+     "en": "It lost two-thirds of revenue at first, then overtook rivals."
+    }
+   },
+   {
+    "q": {
+     "ar": "كيف رفعت Priceline متوسط عمولتها دون إغضاب الموردين؟",
+     "en": "How did Priceline raise its average rake without angering suppliers?"
+    },
+    "o": {
+     "ar": [
+      "رسوم اختيارية يدفعها من يريد ظهورًا أفضل",
+      "رفعتها على الجميع",
+      "بالإعلانات",
+      "بالاشتراكات"
+     ],
+     "en": [
+      "Opt-in fees for better placement",
+      "Raised it for all",
+      "Through ads",
+      "Through subscriptions"
+     ]
+    },
+    "a": 0,
+    "why": {
+     "ar": "كما في Google AdWords، يلوم المورد منافسيه لا المنصة.",
+     "en": "As with AdWords, suppliers blame rivals, not the platform."
+    }
+   },
+   {
+    "q": {
+     "ar": "ما «الخطيئة القاتلة» الأولى عند Drucker؟",
+     "en": "Drucker's first deadly business sin?"
+    },
+    "o": {
+     "ar": [
+      "تقديس الهوامش العالية والتسعير المرتفع",
+      "الديون",
+      "التوسع السريع",
+      "التوظيف الزائد"
+     ],
+     "en": [
+      "Worship of high margins and premium pricing",
+      "Debt",
+      "Fast expansion",
+      "Overhiring"
+     ]
+    },
+    "a": 0,
+    "why": {
+     "ar": "لأن الربح الكلي هو الهامش ضرب الحجم.",
+     "en": "Because total profit is margin times volume."
+    }
+   }
+  ]
+ },
+ {
+  "id": "humbledollar-deals",
+  "cat": "ma",
+  "topic": "ma",
+  "ar": "كيف تضر الصفقات بالعوائد",
+  "en": "How Deals Hurt Returns",
+  "author": "آدم غروسمان",
+  "author_en": "Adam M. Grossman",
+  "pub": "HumbleDollar",
+  "date": "أبريل 2026",
+  "mins": 5,
+  "url": "https://humbledollar.com/2026/04/how-deals-hurt-returns/",
+  "embed": true,
+  "arabic": true,
+  "img": null,
+  "about": "من صفقة Kraft Heinz التي اعترف Buffett بأنها خطأ، إلى الأرقام: 57% من الاستحواذات خفضت قيمة المساهمين في دراسة KPMG. ولماذا يستمر المديرون: النمو، والتآزر المبالغ فيه، والغرور.",
+  "about_en": "From the Kraft Heinz deal Buffett admitted was a mistake to the numbers: 57% of acquisitions cut shareholder value in a KPMG study. And why managers keep doing deals: growth, overestimated synergies, hubris.",
+  "why": "الخليج يشهد موجة استحواذات، من شركات التقنية إلى الصناديق السيادية. المقالة تعطيك ثلاثة أسئلة قبل أن تتحمس لأي صفقة.",
+  "why_en": "The Gulf is seeing a wave of acquisitions, from tech companies to sovereign funds. The piece gives you three questions to ask before getting excited about any deal.",
+  "match": [
+   "كل الفقرات بترتيبها؛ لا عناوين في الأصل.",
+   "لا جداول ولا رسوم."
+  ],
+  "summary": {
+   "ar": {
+    "core": "معظم الاستحواذات تخفض قيمة المشتري: المزايدة ترفع السعر، والتآزر يُبالغ فيه، والمديرون الناجحون يثقون أكثر من اللازم. وحتى Buffett دفع أكثر مما يجب في Kraft Heinz.",
+    "points": [
+     [
+      "الصفقة",
+      "2015: Buffett و3G يدمجان Kraft وHeinz، بتوفير متوقع أكثر من مليار دولار سنويًا."
+     ],
+     [
+      "الشطب",
+      "2018: Berkshire تشطب 15 مليار دولار، ثم يعترف Buffett بأنه دفع أكثر مما يجب."
+     ],
+     [
+      "2026",
+      "رئيس تنفيذي جديد مكلف بالتقسيم، ثم يتراجع خلال أسابيع ويتفق مع Buffett."
+     ],
+     [
+      "الأرقام",
+      "57% من أكثر من 3,000 استحواذ خفضت قيمة المساهمين (KPMG)، وأبحاث أخرى قرب 70%."
+     ],
+     [
+      "لعنة الفائز",
+      "من مزادات النفط: الفائز في مزاد تنافسي غالبًا من دفع الأكثر."
+     ],
+     [
+      "ثلاثة أسباب",
+      "النمو الأسهل من تطوير منتجات، والمبالغة في التآزر، والغرور (Roll 1986)."
+     ],
+     [
+      "للمستثمر",
+      "الصفقات المدمرة لا يمكن توقعها، فالتنويع عبر صناديق المؤشرات يحد أثرها."
+     ]
+    ],
+    "numbers": [
+     [
+      "$15B",
+      "شطب Berkshire على Kraft Heinz في 2018"
+     ],
+     [
+      "57%",
+      "من الصفقات خفضت قيمة المساهمين (KPMG)"
+     ],
+     [
+      "~70%",
+      "نسبة الفشل في أبحاث أخرى"
+     ],
+     [
+      "+$1B",
+      "التوفير السنوي المتوقع من الدمج"
+     ]
+    ],
+    "must": "قبل أن تصدق أي صفقة، اسأل: هل كان هناك مزايدة؟ هل التآزر مكتوب بأرقام يمكن قياسها؟ وهل المشتري يشتري النمو لأنه لم يعد يصنعه؟"
+   },
+   "en": {
+    "core": "Most acquisitions cut the buyer's value: bidding pushes prices up, synergies are overestimated, and successful managers grow overconfident. Even Buffett overpaid for Kraft Heinz.",
+    "points": [
+     [
+      "The deal",
+      "2015: Buffett and 3G merge Kraft and Heinz, expecting over $1B in annual savings."
+     ],
+     [
+      "The write-down",
+      "2018: Berkshire writes down $15B, and Buffett later admits overpaying."
+     ],
+     [
+      "2026",
+      "A new CEO hired to split the company reverses within weeks and sides with Buffett."
+     ],
+     [
+      "The numbers",
+      "57% of 3,000+ acquisitions cut shareholder value (KPMG); other research nears 70%."
+     ],
+     [
+      "Winner's curse",
+      "From oil auctions: the winner of a competitive auction is often whoever paid the most."
+     ],
+     [
+      "Three reasons",
+      "Growth easier than new products, overestimated synergies, hubris (Roll 1986)."
+     ],
+     [
+      "For investors",
+      "Value-destroying deals cannot be predicted, so broad index funds limit their impact."
+     ]
+    ],
+    "numbers": [
+     [
+      "$15B",
+      "Berkshire's 2018 Kraft Heinz write-down"
+     ],
+     [
+      "57%",
+      "Deals that cut shareholder value (KPMG)"
+     ],
+     [
+      "~70%",
+      "Failure rate in other research"
+     ],
+     [
+      "$1B+",
+      "Expected annual savings from the merger"
+     ]
+    ],
+    "must": "Before believing any deal, ask: was there a bidding war? Are synergies written in measurable numbers? Is the buyer purchasing growth because it no longer creates it?"
+   }
+  },
+  "quiz": [
+   {
+    "q": {
+     "ar": "من أين جاء مفهوم «لعنة الفائز»؟",
+     "en": "Where did the \"winner's curse\" come from?"
+    },
+    "o": {
+     "ar": [
+      "مزادات حقوق التنقيب عن النفط",
+      "أسواق الأسهم",
+      "مزادات الفن",
+      "البنوك"
+     ],
+     "en": [
+      "Oil lease auctions",
+      "Stock markets",
+      "Art auctions",
+      "Banks"
+     ]
+    },
+    "a": 0,
+    "why": {
+     "ar": "الفائزون دفعوا أكثر مما يجب حتى حين وجدوا النفط.",
+     "en": "Winners overpaid even when they struck oil."
+    }
+   },
+   {
+    "q": {
+     "ar": "ما «فرضية الغرور»؟",
+     "en": "What is the hubris hypothesis?"
+    },
+    "o": {
+     "ar": [
+      "المديرون الناجحون يثقون أكثر من اللازم فيستحوذون رغم الاحتمالات",
+      "المستثمرون يبيعون بخوف",
+      "البنوك تقرض أكثر",
+      "الحكومات تمنع الصفقات"
+     ],
+     "en": [
+      "Successful managers grow overconfident and acquire despite the odds",
+      "Investors panic-sell",
+      "Banks overlend",
+      "Governments block deals"
+     ]
+    },
+    "a": 0,
+    "why": {
+     "ar": "صاغها Richard Roll عام 1986.",
+     "en": "Coined by Richard Roll in 1986."
+    }
+   }
+  ]
+ },
+ {
+  "id": "pg-new-things",
+  "cat": "vc",
+  "topic": "vc",
+  "ar": "ستة مبادئ لصنع أشياء جديدة",
+  "en": "Six Principles for Making New Things",
+  "author": "بول غراهام",
+  "author_en": "Paul Graham",
+  "pub": "paulgraham.com",
+  "date": "فبراير 2008",
+  "mins": 5,
+  "url": "https://paulgraham.com/newthings.html",
+  "embed": true,
+  "arabic": true,
+  "img": null,
+  "about": "لماذا سخر الناس من Viaweb وY Combinator وReddit في بدايتها؟ لأنها اتبعت الطريقة نفسها: حل بسيط لمشكلة مهملة، يُقدَّم بلا رسمية، ويبدأ بدائيًا ويتحسن بسرعة.",
+  "about_en": "Why were Viaweb, Y Combinator and Reddit mocked at first? Because they followed the same method: a simple solution to an overlooked problem, delivered informally, starting crude and iterating fast.",
+  "why": "إطار لتقييم شركة ناشئة تبدو صغيرة أو «بسيطة أكثر من اللازم»، وتذكير بأن رد الفعل الأول المستخف قد يكون علامة جيدة لا سيئة.",
+  "why_en": "A frame for judging a startup that looks small or \"too simple\", and a reminder that a dismissive first reaction can be a good sign, not a bad one.",
+  "match": [
+   "كل الفقرات بترتيبها؛ لا عناوين ولا هوامش في الأصل."
+  ],
+  "summary": {
+   "ar": {
+    "core": "الأشياء الجديدة الناجحة تبدو خاطئة في البداية، لأن الطريقة التي تصنعها، أي حل بسيط لمشكلة مهملة يقدَّم بلا رسمية ويبدأ بدائيًا، تشبه الاستثمار المعاكس: تبدو خطأ للشخص العادي، وهذا بالضبط مصدر قيمتها.",
+    "points": [
+     [
+      "النمط",
+      "Viaweb وYC والمقالات وArc: كلها قوبلت بالاستخفاف نفسه."
+     ],
+     [
+      "المبادئ",
+      "حل بسيط، ومشكلة مهملة تحتاج حلًا، وتقديم غير رسمي، ونسخة أولى بدائية، وتحسين سريع."
+     ],
+     [
+      "لماذا الاستخفاف",
+      "البساطة لا تبهر، والمهمل يبدو غير مهم، والبدائي يبدو ناقصًا."
+     ],
+     [
+      "مثل الاستثمار المعاكس",
+      "المشاكل المهملة فيها منافسة أقل، والتحسين السريع يترك الواقع يعلّمك."
+     ],
+     [
+      "Viaweb",
+      "البرنامج على الخادم، وتوليد المتاجر تلقائيًا، وأقل من 10,000 سطر عند الإطلاق."
+     ],
+     [
+      "Reddit",
+      "تصميم بدا بلا تصميم، لكنه حل المشكلة الحقيقية، ثم صار بديهيًا."
+     ]
+    ],
+    "numbers": [
+     [
+      "6",
+      "مبادئ الطريقة"
+     ],
+     [
+      "1995",
+      "سنة إطلاق Viaweb"
+     ],
+     [
+      "<10K",
+      "أسطر نسخة Viaweb الأولى تقريبًا"
+     ],
+     [
+      "2008",
+      "سنة المقالة"
+     ]
+    ],
+    "must": "إذا قيل عن شركة ناشئة إنها «بسيطة أكثر من اللازم» أو «تحل مشكلة صغيرة»، لا تستبعدها فورًا. اسأل: هل المشكلة حقيقية؟ وهل يتحسن المنتج بسرعة من استخدام الناس؟"
+   },
+   "en": {
+    "core": "Successful new things look wrong at first, because the method that makes them (a simple fix to an overlooked problem, delivered informally, starting crude) works like contrarian investing: it looks wrong to the average person, which is exactly where its value comes from.",
+    "points": [
+     [
+      "The pattern",
+      "Viaweb, YC, the essays and Arc all met the same dismissal."
+     ],
+     [
+      "The principles",
+      "Simple solution, overlooked problem that needs solving, informal delivery, crude first version, fast iteration."
+     ],
+     [
+      "Why the dismissal",
+      "Simplicity does not impress, the overlooked seems unimportant, the crude looks incomplete."
+     ],
+     [
+      "Like contrarian investing",
+      "Overlooked problems mean less competition; fast iteration lets reality teach you."
+     ],
+     [
+      "Viaweb",
+      "Software on the server, auto-generated stores, under 10,000 lines at launch."
+     ],
+     [
+      "Reddit",
+      "A design that looked like no design solved the real problem, then came to seem obvious."
+     ]
+    ],
+    "numbers": [
+     [
+      "6",
+      "Principles in the method"
+     ],
+     [
+      "1995",
+      "Viaweb launch year"
+     ],
+     [
+      "<10K",
+      "Lines in Viaweb v1, roughly"
+     ],
+     [
+      "2008",
+      "Year of the essay"
+     ]
+    ],
+    "must": "If a startup is called \"too simple\" or \"solving a small problem\", do not dismiss it at once. Ask: is the problem real, and does the product improve fast from people using it?"
+   }
+  },
+  "quiz": [
+   {
+    "q": {
+     "ar": "لماذا يتوقع غراهام رد فعل مستخفًّا؟",
+     "en": "Why does Graham expect a dismissive reaction?"
+    },
+    "o": {
+     "ar": [
+      "لأن الحلول البسيطة والنسخ البدائية تبدو أقل إبهارًا",
+      "لأن المنتج سيئ",
+      "لأن السعر مرتفع",
+      "لأن السوق صغير دائمًا"
+     ],
+     "en": [
+      "Simple solutions and crude versions look less impressive",
+      "The product is bad",
+      "The price is high",
+      "The market is always small"
+     ]
+    },
+    "a": 0,
+    "why": {
+     "ar": "وهذا ما يجعل الطريقة تشبه الاستثمار المعاكس.",
+     "en": "That is what makes it like contrarian investing."
+    }
+   }
+  ]
+ },
+ {
+  "id": "marks-further-sea-change",
+  "cat": "ec",
+  "topic": "ec",
+  "ar": "أفكار إضافية عن التغير الجذري",
+  "en": "Further Thoughts on Sea Change",
+  "author": "هوارد ماركس",
+  "author_en": "Howard Marks",
+  "pub": "Oaktree",
+  "date": "أكتوبر 2023",
+  "mins": 18,
+  "url": "https://www.oaktreecapital.com/docs/default-source/memos/further-thoughts-on-sea-change3dda4540-569f-4415-9a5b-004fbabf06d4.pdf",
+  "embed": true,
+  "arabic": true,
+  "img": null,
+  "about": "انخفاض الفائدة 2,000 نقطة أساس بين 1980 و2020 صنع معظم أرباح الاستثمار. ماركس يرى أن هذا انتهى، وأن الدين بعوائد 8% إلى 10% صار ينافس العوائد التاريخية للأسهم.",
+  "about_en": "A 2,000-basis-point fall in rates from 1980 to 2020 drove most investment profits. Marks argues that era is over and credit yielding 8–10% now rivals historical equity returns.",
+  "why": "إذا انتهى المال السهل، تتغير قواعد الملكية الخاصة ورأس المال الجريء في المنطقة: الرافعة أغلى، والتقييمات أصعب، والإقراض الخاص يصبح فرصة. والمقالة تشرح المنطق خطوة بخطوة.",
+  "why_en": "If easy money is over, the rules change for private equity and venture capital in the region: leverage costs more, valuations get harder and private lending becomes an opportunity. The memo walks through the logic step by step.",
+  "match": [
+   "كل الفقرات بترتيبها تحت عناوين الأصل.",
+   "لا رسوم في الأصل؛ أضفنا رسمًا توضيحيًا للمثال الحسابي ووسمناه.",
+   "الهامش الوحيد منقول."
+  ],
+  "summary": {
+   "ar": {
+    "core": "أربعون عامًا من انخفاض الفائدة كانت الممشى المتحرك الذي حمل المستثمرين. انتهى ذلك، فامتلاك الأصول بالدين سيربح أقل، والإقراض بعوائد قرب 9% صار ينافس الأسهم بيقين أكبر.",
+    "points": [
+     [
+      "هذه المرة مختلفة",
+      "Templeton: الأمور مختلفة فعلًا في نحو 20% من الحالات."
+     ],
+     [
+      "الخلفية",
+      "فائدة صفرية من 2008، وتيسير 13 عامًا، ثم تضخم 2021 وأسرع رفع منذ أربعة عقود."
+     ],
+     [
+      "الحدث الأهم",
+      "انخفاض الفائدة نحو 2,000 نقطة أساس بين 1980 و2020، ولم يلاحظه أحد."
+     ],
+     [
+      "التاريخ",
+      "سوق بلا سعر حر للمال لعقدين شوّهت السلوك؛ وانهيار SVB مرتبط بها."
+     ],
+     [
+      "إعادة التمويل",
+      "800 مليون بـ5% تصبح 500 مليون بـ8%: فجوة 300 مليون."
+     ],
+     [
+      "الاستراتيجيات",
+      "الملكية والرافعة تستفيد أقل؛ الدين في موقع أفضل بعوائد فوق 8%."
+     ],
+     [
+      "التوزيع",
+      "هدف الوقف 6% وسندات عالية العائد بـ9% تتجاوزه."
+     ],
+     [
+      "المخاطر",
+      "التعثر، والصعود المحدود، والتقلب، والتضخم، والانعكاس."
+     ]
+    ],
+    "numbers": [
+     [
+      "2,000",
+      "نقطة أساس انخفاض الفائدة 1980–2020"
+     ],
+     [
+      "13",
+      "عامًا من السياسة الميسرة"
+     ],
+     [
+      "~4% → 8%+",
+      "عائد السندات عالية العائد من أوائل 2022 إلى 2023"
+     ],
+     [
+      "$300M",
+      "الفجوة في مثال إعادة التمويل"
+     ]
+    ],
+    "must": "حين يُعرض عليك استثمار في شركة ممولة بالدين، احسب ماذا يحدث لو أعيد تمويل دينها بفائدة أعلى بثلاث نقاط. وحين تقارن الأسهم بالدين، تذكر أن عائد الدين تعاقدي وعائد الأسهم مزاجي."
+   },
+   "en": {
+    "core": "Forty years of falling rates were the moving walkway carrying investors. That is over, so owning assets with leverage will earn less, and lending at close to 9% now rivals equities with more certainty.",
+    "points": [
+     [
+      "This time is different",
+      "Templeton: things really are different about 20% of the time."
+     ],
+     [
+      "Backdrop",
+      "Zero rates from 2008, 13 years of easing, then 2021 inflation and the fastest hikes in four decades."
+     ],
+     [
+      "The key event",
+      "A roughly 2,000bp fall in rates from 1980 to 2020 that nobody noticed."
+     ],
+     [
+      "History",
+      "Two decades without a free market in money distorted behaviour; SVB is linked to it."
+     ],
+     [
+      "Refinancing",
+      "$800M at 5% becomes $500M at 8%: a $300M gap."
+     ],
+     [
+      "Strategies",
+      "Ownership and leverage benefit less; credit is better placed at yields above 8%."
+     ],
+     [
+      "Allocation",
+      "An endowment targets 6%; 9% high yield clears it."
+     ],
+     [
+      "Risks",
+      "Defaults, limited upside, volatility, inflation, reversal."
+     ]
+    ],
+    "numbers": [
+     [
+      "2,000",
+      "bp fall in rates 1980–2020"
+     ],
+     [
+      "13",
+      "Years of easy policy"
+     ],
+     [
+      "~4% → 8%+",
+      "High-yield yields, early 2022 to 2023"
+     ],
+     [
+      "$300M",
+      "Gap in the refinancing example"
+     ]
+    ],
+    "must": "When offered a leveraged company, compute what happens if its debt is refinanced three points higher. When comparing equity and credit, remember credit returns are contractual and equity returns depend on mood."
+   }
+  },
+  "quiz": [
+   {
+    "q": {
+     "ar": "ما الحدث الذي يراه ماركس الأهم ولم يلاحظه أحد؟",
+     "en": "Which event does Marks see as most important yet unnoticed?"
+    },
+    "o": {
+     "ar": [
+      "انخفاض الفائدة نحو 2,000 نقطة أساس بين 1980 و2020",
+      "فقاعة الإنترنت",
+      "الأزمة المالية 2008",
+      "جائحة Covid"
+     ],
+     "en": [
+      "The ~2,000bp fall in rates 1980–2020",
+      "The dot-com bubble",
+      "The 2008 crisis",
+      "Covid"
+     ]
+    },
+    "a": 0,
+    "why": {
+     "ar": "كالممشى المتحرك في المطار: يدفعك دون أن تشعر.",
+     "en": "Like an airport walkway: it carries you without your noticing."
+    }
+   },
+   {
+    "q": {
+     "ar": "لماذا يفضّل ماركس الدين الآن؟",
+     "en": "Why does Marks favour credit now?"
+    },
+    "o": {
+     "ar": [
+      "عوائده تعاقدية وقريبة من العوائد التاريخية للأسهم",
+      "لأنه بلا مخاطر",
+      "لأن الأسهم ستنهار",
+      "لأن الفائدة ستعود للصفر"
+     ],
+     "en": [
+      "Its returns are contractual and near historical equity returns",
+      "It is riskless",
+      "Stocks will crash",
+      "Rates will return to zero"
+     ]
+    },
+    "a": 0,
+    "why": {
+     "ar": "ولا يتوقع انهيارًا، بل يدعو لإعادة توزيع.",
+     "en": "He does not predict a crash; he calls for reallocation."
+    }
+   }
+  ]
+ },
+ {
+  "id": "stratechery-defining-aggregators",
+  "cat": "vc",
+  "topic": "vc",
+  "ar": "تعريف المجمِّعين",
+  "en": "Defining Aggregators",
+  "author": "بن تومسون",
+  "author_en": "Ben Thompson",
+  "pub": "Stratechery",
+  "date": "سبتمبر 2017",
+  "mins": 12,
+  "url": "https://stratechery.com/2017/defining-aggregators/",
+  "embed": true,
+  "arabic": true,
+  "img": null,
+  "about": "المرجع الذي يحدد متى تكون الشركة «مجمِّعًا»: علاقة مباشرة مع المستخدم، وتكلفة حدية صفرية، وتكلفة اكتساب تتناقص. ثم ثلاثة مستويات: Netflix وUber وGoogle، والمجمِّعون الفائقون Facebook وGoogle.",
+  "about_en": "The reference for when a company is an \"aggregator\": a direct user relationship, zero marginal cost, falling acquisition cost. Then three levels (Netflix, Uber, Google) and the super-aggregators Facebook and Google.",
+  "why": "كثير من الشركات الناشئة تقول إنها منصة. هذه المقالة تعطيك ثلاثة اختبارات واضحة، ومستويات تبين لماذا Careem أو Talabat ليست مثل Google في قوة نموذجها.",
+  "why_en": "Many startups claim to be platforms. This piece gives three clear tests, and levels that show why a ride-hailing or delivery app is not like Google in the strength of its model.",
+  "match": [
+   "كل الفقرات بترتيبها تحت عناوين الأصل وعناوينه الفرعية.",
+   "الهوامش الخمسة منقولة.",
+   "لا صور ولا جداول في الأصل."
+  ],
+  "summary": {
+   "ar": {
+    "core": "المجمِّع يملك العلاقة مع المستخدم، ويخدمه بتكلفة حدية صفرية، وتنخفض تكلفة اكتساب عملائه كلما كبر. وكلما قلت تكلفة إدخال الموردين، صار أقوى: من Netflix التي تشتري المحتوى، إلى Uber التي تفحص السائقين، إلى Google التي يأتيها الموردون مجانًا.",
+    "points": [
+     [
+      "الغرض",
+      "مرجع لتعريف المجمِّعين بعد سنتين من تطوير نظرية 2015."
+     ],
+     [
+      "علاقة مباشرة",
+      "بالدفع أو الحساب أو الاستخدام المنتظم."
+     ],
+     [
+      "تكلفة حدية صفرية",
+      "لا تكلفة بضاعة ولا توزيع ولا معاملة؛ لذلك أجهزة Apple ليست مجمِّعًا."
+     ],
+     [
+      "تكلفة اكتساب تتناقص",
+      "الموردون يجذبون المستخدمين، فيأخذ الفائز كل شيء."
+     ],
+     [
+      "المستوى الأول",
+      "Netflix: تشتري العرض، وقوتها شرائية، وعرضة لمن جيبه أعمق."
+     ],
+     [
+      "المستوى الثاني",
+      "Uber: تتحمل تكلفة إدخال السائقين وفحصهم، فيتباطأ نموها."
+     ],
+     [
+      "المستوى الثالث",
+      "Google والشبكات الاجتماعية: الموردون يأتون مجانًا، والنموذج إعلاني."
+     ],
+     [
+      "الفائقون",
+      "Facebook وGoogle: ثلاثة أطراف بتكلفة صفرية، مع إعلان بالخدمة الذاتية."
+     ],
+     [
+      "التنظيم",
+      "رفاه المستهلك لا يدينهم، وتفكيكهم قد يأتي ببديل، وهم يصنعون فرصًا للموردين."
+     ]
+    ],
+    "numbers": [
+     [
+      "3",
+      "خصائص المجمِّع"
+     ],
+     [
+      "3",
+      "تكاليف حدية يتجنبها: البضاعة والتوزيع والمعاملة"
+     ],
+     [
+      "3",
+      "مستويات حسب العلاقة بالموردين"
+     ],
+     [
+      "2",
+      "مجمِّعان فائقان فقط: Facebook وGoogle"
+     ]
+    ],
+    "must": "لتقييم «منصة»: هل تملك المستخدم مباشرة؟ هل تكلفة خدمة المستخدم الإضافي قرب الصفر؟ هل تنخفض تكلفة الاكتساب مع النمو؟ ثم: كم تكلف إضافة مورد جديد؟ كلما اقتربت من الصفر، كان النموذج أقوى."
+   },
+   "en": {
+    "core": "An aggregator owns the user relationship, serves users at zero marginal cost, and its acquisition cost falls as it grows. The cheaper it is to onboard suppliers, the stronger it is: from Netflix buying content, to Uber vetting drivers, to Google, which suppliers join for free.",
+    "points": [
+     [
+      "Purpose",
+      "A reference definition after two years of developing the 2015 theory."
+     ],
+     [
+      "Direct relationship",
+      "Via payment, account or regular usage."
+     ],
+     [
+      "Zero marginal cost",
+      "No cost of goods, distribution or transaction; hence Apple hardware is not an aggregator."
+     ],
+     [
+      "Falling acquisition cost",
+      "Suppliers attract users, so the winner takes all."
+     ],
+     [
+      "Level 1",
+      "Netflix: acquires supply; buying power; vulnerable to deeper pockets."
+     ],
+     [
+      "Level 2",
+      "Uber: bears costs to onboard and vet drivers, which slows growth."
+     ],
+     [
+      "Level 3",
+      "Google and social networks: suppliers come free; ad-based."
+     ],
+     [
+      "Super-aggregators",
+      "Facebook and Google: three sides at zero cost, with self-serve ads."
+     ],
+     [
+      "Regulation",
+      "Consumer welfare does not condemn them, breakups may bring a replacement, and they create supplier opportunities."
+     ]
+    ],
+    "numbers": [
+     [
+      "3",
+      "Characteristics of an aggregator"
+     ],
+     [
+      "3",
+      "Marginal costs avoided: goods, distribution, transactions"
+     ],
+     [
+      "3",
+      "Levels by supplier relationship"
+     ],
+     [
+      "2",
+      "Super-aggregators: Facebook and Google"
+     ]
+    ],
+    "must": "To judge a \"platform\": does it own the user directly? Is the cost of serving one more user near zero? Does acquisition cost fall with growth? Then: what does adding a supplier cost? The closer to zero, the stronger the model."
+   }
+  },
+  "quiz": [
+   {
+    "q": {
+     "ar": "لماذا ليست أجهزة Apple مجمِّعًا؟",
+     "en": "Why is Apple hardware not an aggregator?"
+    },
+    "o": {
+     "ar": [
+      "لأن لكل عميل تكلفة كبيرة",
+      "لأنها غير ناجحة",
+      "لأنها بلا مستخدمين",
+      "لأنها إعلانية"
+     ],
+     "en": [
+      "Each customer carries significant cost",
+      "It is unsuccessful",
+      "It has no users",
+      "It is ad-based"
+     ]
+    },
+    "a": 0,
+    "why": {
+     "ar": "المجمِّع تكلفته الحدية صفر.",
+     "en": "An aggregator has zero marginal cost."
+    }
+   },
+   {
+    "q": {
+     "ar": "في أي مستوى Uber؟",
+     "en": "Which level is Uber?"
+    },
+    "o": {
+     "ar": [
+      "الثاني: تكاليف إدخال الموردين",
+      "الأول: شراء العرض",
+      "الثالث: تكلفة صفرية",
+      "فائق"
+     ],
+     "en": [
+      "Level 2: supplier onboarding costs",
+      "Level 1: buys supply",
+      "Level 3: zero cost",
+      "Super"
+     ]
+    },
+    "a": 0,
+    "why": {
+     "ar": "فحص السائقين والمركبات يكلف مالًا ووقتًا.",
+     "en": "Vetting drivers and vehicles costs money and time."
+    }
+   }
+  ]
  }
 ]
