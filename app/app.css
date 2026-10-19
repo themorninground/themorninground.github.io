@@ -1002,7 +1002,7 @@ kbd{font-family:var(--lat);font-size:11.5px;padding:2px 6px;border-radius:6px;ba
 .dfbar .seg{max-width:100%;overflow-x:auto;scrollbar-width:none}.dfbar .seg::-webkit-scrollbar{display:none}
 @media (max-width:640px){.dfbar .seg button{padding:0 11px;font-size:13.5px}.cchips{flex-basis:100%}.sunsvg .mn{font-size:16px}.sunsvg .mm{font-size:13px}.sunsvg .mv{font-size:16px}.strsvg .slabs text{font-size:16px}.strsvg .mt{font-size:15px}.invsvg .il{font-size:14px}}
 
-.foot .byl{display:block;margin-top:10px;font-weight:700;color:#D9DDE3;font-size:15px}
+.foot .byl{display:block;margin-top:14px;font-family:'Bricolage Grotesque',system-ui,sans-serif;font-weight:500;color:#A9AFB8;font-size:13px;letter-spacing:.01em;direction:ltr;unicode-bidi:isolate}
 .menu{position:fixed;inset:0;z-index:210;background:rgba(11,13,18,.45);backdrop-filter:blur(6px);animation:fade .3s ease both;transition:opacity .35s}
 .menu.out{opacity:0}
 .mpane{position:absolute;top:0;bottom:0;inset-inline-end:0;width:min(380px,88vw);background:var(--paper);display:flex;flex-direction:column;padding:18px 18px calc(24px + env(safe-area-inset-bottom,0px));box-shadow:0 0 60px rgba(0,0,0,.35);animation:mslide .5s var(--ease) both}
@@ -1042,3 +1042,4 @@ kbd{font-family:var(--lat);font-size:11.5px;padding:2px 6px;border-radius:6px;ba
 .prose .figcard p{font-family:var(--ar);font-size:15px;line-height:1.8;color:var(--ink-2);margin:6px 0 0}
 .prose .c{text-align:center;letter-spacing:.5em;color:var(--ink-3)}
 .prose ul{margin:0 0 22px;padding-inline-start:24px;font-family:var(--art);font-size:19px;line-height:1.95}
+html[dir=rtl] .foot .byl{text-align:right}

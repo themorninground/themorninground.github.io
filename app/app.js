@@ -555,7 +555,7 @@ function openMenu() {
   <nav class="mlinks">${ROUTES.map((r, k) => `<a href="#${r[0]}" class="${cur === '#' + r[0] ? 'on' : ''}" style="--i:${k}">${ic(r[2])}<span>${tr(r[1], r[3])}</span></a>`).join('')}
   <a href="#/saved" class="sv${cur === '#/saved' ? ' on' : ''}" style="--i:5">${ic('bookmark')}<span>${tr('محفوظاتك', 'Saved')}</span>${n ? `<b class="b">${n}</b>` : ''}</a></nav>
   <div class="mtools"><button id="m-s">${ic('search')} ${tr('بحث', 'Search')}</button><button id="m-l">${ic('lang')} ${tr('English', 'العربية')}</button><button id="m-t">${ic('moon')} ${tr('الوضع الليلي', 'Dark mode')}</button></div>
-  <div class="mby">Every page compounds · ${tr('باي مشعل الكنهل', 'by Meshal Alkanhal')}</div></div>`;
+  <div class="mby" dir="ltr">© ${new Date().getFullYear()} The Morning Round · by Meshal Alkanhal</div></div>`;
  document.body.appendChild(el);
  const close = () => { el.classList.add('out'); setTimeout(() => el.remove(), 350); };
  el.onclick = e => { if (e.target === el || e.target.closest('.mx') || e.target.closest('.mlinks a')) close(); };
@@ -575,7 +575,7 @@ function chrome() {
  $('#dock').innerHTML = '<span class="ind" id="dockind"></span>' + ROUTES.map(r => `<a href="#${r[0]}" data-r="${r[0]}">${ic(r[2])}<span>${tr(r[1], r[3])}</span></a>`).join('');
  $('#langb').innerHTML = `<span class="${EN() ? 'ar' : 'b'}">${EN() ? 'ع' : 'EN'}</span>`; $('#langb').setAttribute('aria-label', tr('English', 'العربية'));
  $('#srch').setAttribute('aria-label', tr('بحث', 'Search'));
- $('#footl').innerHTML = `<i>Every page compounds</i><span>${tr('الاستثمار الجريء · الأسواق الخاصة · السعودية والخليج · الرياض', 'Venture · Private markets · Saudi & GCC · Riyadh')}</span><span class="byl">${tr('باي مشعل الكنهل', 'by Meshal Alkanhal')}</span>`;
+ $('#footl').innerHTML = `<i>Every page compounds</i><span>${tr('الاستثمار الجريء · الأسواق الخاصة · السعودية والخليج · الرياض', 'Venture · Private markets · Saudi & GCC · Riyadh')}</span><span class="byl" dir="ltr">© ${new Date().getFullYear()} The Morning Round · by Meshal Alkanhal</span>`;
 }
 function shell() {
  setLangAttrs();
