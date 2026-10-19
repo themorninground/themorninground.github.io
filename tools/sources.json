@@ -3061,5 +3061,33 @@
   "region": "SA",
   "auto": true,
   "found": "2026-10-18"
+ },
+ {
+  "id": "yourstory",
+  "name": "YourStory.com",
+  "ar": "YourStory.com",
+  "url": "https://yourstory.com",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "en"
+  ],
+  "region": "US",
+  "auto": true,
+  "found": "2026-10-19"
+ },
+ {
+  "id": "clay",
+  "name": "Clay",
+  "ar": "Clay",
+  "url": "https://clay.com",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "en"
+  ],
+  "region": "US",
+  "auto": true,
+  "found": "2026-10-19"
  }
 ]
