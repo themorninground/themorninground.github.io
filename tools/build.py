@@ -20,8 +20,10 @@ HEAD = """<!doctype html>
 <meta property="og:title" content="The Morning Round">
 <meta property="og:description" content="A daily paper on venture capital, startups and the Saudi and GCC markets. Every page compounds.">
 <meta property="og:type" content="website">
-<meta name="theme-color" content="#0B1424">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'%3E%3Ccircle cx='100' cy='100' r='96' fill='%2314233D'/%3E%3Ctext x='100' y='128' text-anchor='middle' font-family='Georgia,serif' font-weight='800' font-size='80' fill='%23F2EADC'%3EMR%3C/text%3E%3C/svg%3E">
+<meta name="theme-color" content="#0B0D12">
+<link rel="apple-touch-icon" href="brand/pack/png/tmr-app-icon-180.png">
+<meta property="og:image" content="https://themorninground.github.io/brand/pack/png/tmr-avatar-1080.png">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100"%3E%3CclipPath id="c14"%3E%3Ccircle cx="50.000" cy="50.000" r="50.000"/%3E%3C/clipPath%3E%3Cg clip-path="url%28%23c14%29"%3E%3Crect x="0.000" y="0.000" width="100.000" height="50.000" fill="%233EA6F2"/%3E%3Crect x="0.000" y="57.000" width="100.000" height="14.000" fill="%23FFA235"/%3E%3Crect x="0.000" y="79.000" width="100.000" height="21.000" fill="%23F2551A"/%3E%3C/g%3E%3C/svg%3E">
 <style>:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0;font-size:14px}img{max-width:100%}[hidden]{display:none!important}</style>
 </head>
 <body>
