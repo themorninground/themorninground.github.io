@@ -3399,5 +3399,221 @@
     }
    }
   ]
+ },
+ {
+  "id": "stratechery-aggregation",
+  "cat": "vc",
+  "topic": "vc",
+  "ar": "نظرية التجميع",
+  "en": "Aggregation Theory",
+  "author": "بن تومسون",
+  "author_en": "Ben Thompson",
+  "pub": "Stratechery",
+  "date": "يوليو 2015",
+  "mins": 10,
+  "url": "https://stratechery.com/2015/aggregation-theory/",
+  "embed": true,
+  "arabic": true,
+  "img": null,
+  "about": "لماذا ربحت Google وFacebook وAmazon وNetflix وUber وAirbnb؟ قبل الإنترنت كان الموزع يربح بالسيطرة على الموردين. الإنترنت جعل التوزيع والمعاملات مجانية، فصار الرابح من يملك المستخدمين بأفضل تجربة، ويحول الموردين إلى سلعة.",
+  "about_en": "Why did Google, Facebook, Amazon, Netflix, Uber and Airbnb win? Before the internet, distributors profited by controlling suppliers. The internet made distribution and transactions free, so the winner became whoever owns users through the best experience and commoditises suppliers.",
+  "why": "أهم إطار لفهم لماذا تُقيّم منصات المستهلكين بهذه الأرقام، ولتقييم أي شركة ناشئة تقول إنها «منصة».",
+  "why_en": "The key framework for why consumer platforms carry such valuations, and for judging any startup that calls itself a \"platform\".",
+  "match": [
+   "كل الفقرات بترتيبها، وعناوين الأمثلة السبعة كما في الأصل.",
+   "الصورة الوحيدة لا يصفها النص؛ رسمنا ما يشرحه النص.",
+   "الهامش الوحيد منقول."
+  ],
+  "summary": {
+   "ar": {
+    "core": "الإنترنت قلب سلسلة القيمة: التوزيع والمعاملات صارت مجانية، فلم تعد الميزة في السيطرة على الموردين، بل في امتلاك علاقة مباشرة مع المستخدمين بأفضل تجربة. المجمِّع يجذب المستخدمين، فيأتي الموردون، فتتحسن التجربة، ويأخذ الفائز كل شيء.",
+    "points": [
+     [
+      "سلسلة القيمة",
+      "موردون، وموزعون، ومستخدمون. الأرباح من احتكار جزء أو دمج جزأين."
+     ],
+     [
+      "قبل الإنترنت",
+      "الموزعون، كالصحف والناشرين والفنادق وشركات الأجرة، اندمجوا للخلف مع الموردين."
+     ],
+     [
+      "ما غيّره الإنترنت",
+      "توزيع مجاني وتكاليف معاملات صفرية، فصار الاندماج للأمام مع المستخدمين ممكنًا."
+     ],
+     [
+      "الحلقة",
+      "أفضل تجربة ← أكثر مستخدمين ← أكثر موردين ← تجربة أفضل."
+     ],
+     [
+      "سبعة أمثلة",
+      "Google وFacebook وAmazon وNetflix وSnapchat وUber وAirbnb: كل منها جزّأ ما كان متكاملًا، ودمج العلاقة مع المستخدم."
+     ],
+     [
+      "الموجة الثالثة",
+      "Uber وAirbnb أثبتتا أن صناعات بلا مكون رقمي يمكن تعطيلها برقمنة وظيفة واحدة كالثقة أو التوجيه."
+     ],
+     [
+      "الفائز يأخذ كل شيء",
+      "المجمِّع يتحسن كلما خدم أكثر، ولهذا تُقيّم شركات التقنية الاستهلاكية عاليًا."
+     ],
+     [
+      "السؤال للشركة القائمة",
+      "ما الذي يميزك، وهل يمكن رقمنته؟ إن أمكن، صارت المنافسة على تجربة المستخدم."
+     ]
+    ],
+    "numbers": [
+     [
+      "3",
+      "أجزاء سلسلة القيمة: الموردون والموزعون والمستخدمون"
+     ],
+     [
+      "2",
+      "تغيرا الإنترنت: توزيع مجاني ومعاملات بلا تكلفة"
+     ],
+     [
+      "7",
+      "أمثلة على المجمِّعين في المقالة"
+     ],
+     [
+      "2015",
+      "سنة نشر النظرية، مع تحديث في 2017"
+     ]
+    ],
+    "must": "حين تقيّم منصة، اسأل: من يملك العلاقة مع المستخدم؟ هل الموردون يتحولون إلى سلعة؟ هل تتحسن التجربة كلما كبرت؟ إذا كانت الإجابات نعم، فهي مجمِّع قد يأخذ معظم السوق، وإلا فهي وسيط يمكن تجاوزه."
+   },
+   "en": {
+    "core": "The internet flipped the value chain: distribution and transactions became free, so advantage no longer comes from controlling suppliers but from owning a direct relationship with users through the best experience. The aggregator attracts users, suppliers follow, the experience improves, and the winner takes all.",
+    "points": [
+     [
+      "Value chain",
+      "Suppliers, distributors, users. Profits come from monopolising one part or integrating two."
+     ],
+     [
+      "Before the internet",
+      "Distributors (newspapers, publishers, hotels, taxis) integrated backward with suppliers."
+     ],
+     [
+      "What the internet changed",
+      "Free distribution and zero transaction costs made forward integration with users possible."
+     ],
+     [
+      "The cycle",
+      "Best experience → most users → most suppliers → better experience."
+     ],
+     [
+      "Seven examples",
+      "Google, Facebook, Amazon, Netflix, Snapchat, Uber, Airbnb each modularised what was integrated and integrated the user relationship."
+     ],
+     [
+      "Third wave",
+      "Uber and Airbnb showed non-digital industries can be disrupted by digitising one function such as trust or dispatch."
+     ],
+     [
+      "Winner takes all",
+      "Aggregators improve as they serve more, which is why consumer tech is valued so highly."
+     ],
+     [
+      "The incumbent's question",
+      "What is your differentiator, and can it be digitised? If so, competition moves to user experience."
+     ]
+    ],
+    "numbers": [
+     [
+      "3",
+      "Parts of the value chain"
+     ],
+     [
+      "2",
+      "Internet changes: free distribution, zero transaction cost"
+     ],
+     [
+      "7",
+      "Aggregator examples"
+     ],
+     [
+      "2015",
+      "Year published; updated in 2017"
+     ]
+    ],
+    "must": "When judging a platform, ask: who owns the user relationship? Are suppliers being commoditised? Does the experience improve as it grows? If yes, it is an aggregator that may take most of the market; if not, it is an intermediary that can be bypassed."
+   }
+  },
+  "quiz": [
+   {
+    "q": {
+     "ar": "ما الذي تغير بالإنترنت حسب الكاتب؟",
+     "en": "What did the internet change, per Thompson?"
+    },
+    "o": {
+     "ar": [
+      "التوزيع صار مجانيًا وتكاليف المعاملات صفرًا",
+      "الموردون صاروا أقوى",
+      "الإعلانات اختفت",
+      "المستخدمون صاروا أقل"
+     ],
+     "en": [
+      "Distribution became free and transaction costs zero",
+      "Suppliers grew stronger",
+      "Ads disappeared",
+      "Users became fewer"
+     ]
+    },
+    "a": 0,
+    "why": {
+     "ar": "فانتقلت الميزة من السيطرة على الموردين إلى امتلاك المستخدمين.",
+     "en": "So advantage shifted from controlling suppliers to owning users."
+    }
+   },
+   {
+    "q": {
+     "ar": "ما الذي جزّأته Airbnb؟",
+     "en": "What did Airbnb modularise?"
+    },
+    "o": {
+     "ar": [
+      "العقارات الشاغرة، وصنعت الثقة بنظام سمعة",
+      "الإعلانات",
+      "الكتب",
+      "التوجيه"
+     ],
+     "en": [
+      "Vacant properties, building trust via reputation",
+      "Ads",
+      "Books",
+      "Dispatch"
+     ]
+    },
+    "a": 0,
+    "why": {
+     "ar": "كانت الفنادق تدمج الغرف مع ثقة علامتها.",
+     "en": "Hotels used to integrate rooms with brand trust."
+    }
+   },
+   {
+    "q": {
+     "ar": "ما أهم عامل نجاح للمجمِّع؟",
+     "en": "What is the key success factor for an aggregator?"
+    },
+    "o": {
+     "ar": [
+      "تجربة المستخدم",
+      "العقود الحصرية مع الموردين",
+      "السعر الأعلى",
+      "عدد الموظفين"
+     ],
+     "en": [
+      "User experience",
+      "Exclusive supplier deals",
+      "Higher prices",
+      "Headcount"
+     ]
+    },
+    "a": 0,
+    "why": {
+     "ar": "أفضل تجربة تجذب أكثر المستخدمين، فتبدأ الحلقة.",
+     "en": "The best experience attracts the most users, starting the cycle."
+    }
+   }
+  ]
  }
 ]

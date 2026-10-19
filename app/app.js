@@ -56,9 +56,10 @@ const AR_MON = ['يناير', 'فبراير', 'مارس', 'أبريل', 'ماي�
 const EN_MON = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
 const MON = () => EN() ? EN_MON : AR_MON;
 const dt = s => new Date((s || '').slice(0, 10) + 'T12:00:00');
-const fmtDate = s => { if (!s) return ''; const d = dt(s); if (isNaN(d)) return s; return `${d.getDate()} ${MON()[d.getMonth()]} ${d.getFullYear()}`; };
-const fmtDay = s => { const d = dt(s); return EN() ? `${EN_DAYS[d.getDay()]} ${d.getDate()} ${EN_MON[d.getMonth()]}` : `${AR_DAYS[d.getDay()]} ${d.getDate()} ${AR_MON[d.getMonth()]}`; };
-const fmtShort = s => { const d = dt(s); return `${d.getDate()} ${MON()[d.getMonth()]}`; };
+const isMon = s => /^\d{4}-\d{2}$/.test(s || '');
+const fmtDate = s => { if (!s) return ''; if (isMon(s)) { const d = dt(s + '-15'); return `${MON()[d.getMonth()]} ${d.getFullYear()}`; } const d = dt(s); if (isNaN(d)) return s; return `${d.getDate()} ${MON()[d.getMonth()]} ${d.getFullYear()}`; };
+const fmtDay = s => { if (isMon(s)) return fmtDate(s); const d = dt(s); return EN() ? `${EN_DAYS[d.getDay()]} ${d.getDate()} ${EN_MON[d.getMonth()]}` : `${AR_DAYS[d.getDay()]} ${d.getDate()} ${AR_MON[d.getMonth()]}`; };
+const fmtShort = s => { if (isMon(s)) return MON()[dt(s + '-15').getMonth()]; const d = dt(s); return `${d.getDate()} ${MON()[d.getMonth()]}`; };
 
 /* ---------- state ---------- */
 const KEY = 'tmr4';
@@ -110,11 +111,11 @@ const itF = (x, k) => ((x[LANG] && x[LANG][k]) || (x.ar && x.ar[k]) || (x.en && 
 
 async function load() {
  const v = VER ? '?v=' + VER : '';
- const [s, l, c] = await Promise.all([fetch('data/site.json' + v).then(r => r.json()), fetch('app/data/library.json' + v).then(r => r.json()), fetch('app/data/concepts.json' + v).then(r => r.json())]);
+ const [s, l, c, h] = await Promise.all([fetch('data/site.json' + v).then(r => r.json()), fetch('app/data/library.json' + v).then(r => r.json()), fetch('app/data/concepts.json' + v).then(r => r.json()), fetch('app/data/deals-h1.json' + v).then(r => r.json()).catch(() => ({ deals: [] }))]);
  SITE = s; LIB = l; CON = c;
  const items = s.collections.items; ITEMS = Object.entries(items).map(([id, v]) => Object.assign({ id }, v)).filter(x => !x.hidden);
  const meta = s.collections.meta; LOGOS = (meta.logos && meta.logos.map) || {};
- DEALS = ((meta.deals && meta.deals.deals) || []).slice();
+ DEALS = ((meta.deals && meta.deals.deals) || []).concat(h.deals || []);
  /* one list of rounds: tracked deals + edited deal stories, linked when they are the same company */
  const story = {}; ITEMS.filter(x => x.type === 'deal').forEach(x => { story[slug(x.company)] = story[slug(x.company)] || x; });
  const seen = new Set();
