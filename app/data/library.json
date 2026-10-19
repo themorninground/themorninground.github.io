@@ -339,19 +339,267 @@
  {
   "id": "gurley-revenue",
   "cat": "vc",
-  "ar": "ليست كل الإيرادات سواء",
-  "en": "All Revenue is Not Created Equal",
+  "ar": "الإيرادات ليست متساوية: مفاتيح نادي العشرة أضعاف",
+  "en": "All Revenue is Not Created Equal: The Keys to the 10X Revenue Club",
   "author": "بيل غيرلي",
   "pub": "Above the Crowd",
-  "date": "2011",
+  "date": "مايو 2011",
   "mins": 23,
   "url": "https://abovethecrowd.com/2011/05/24/all-revenue-is-not-created-equal-the-keys-to-the-10x-revenue-club/",
   "embed": true,
-  "arabic": false,
+  "arabic": true,
   "img": "lib-gurley-revenue",
-  "about": "لماذا تُقيَّم شركة بعشرة أضعاف إيرادها وأخرى بضعفين؟ غيرلي يعدد الصفات التي ترفع جودة الإيراد.",
-  "why": "طريقة تفكير مستثمر أسطوري في التقييم.",
-  "topic": "vc"
+  "about": "لماذا تُتداول شركة بخُمس إيراداتها وأخرى بعشرين ضعفًا؟ الشريك في Benchmark يشرح عشر صفات تجعل دولار الإيراد أثمن: الميزة التنافسية، وآثار الشبكة، والقابلية للتوقع، وتكلفة الانتقال، والهامش، والربحية الحدية، وتركز العملاء، والاعتماد على الشركاء، والطلب العضوي، والنمو.",
+  "why": "مرجع كلاسيكي لكل من يقرأ تقييمًا بـ«كذا ضعف الإيرادات»: يعلّمك أن تسأل عن جودة الإيراد قبل حجمه.",
+  "topic": "vc",
+  "author_en": "Bill Gurley",
+  "about_en": "Why does one company trade at a fifth of its revenue and another at twenty times? The Benchmark partner sets out ten traits that make a dollar of revenue worth more: moat, network effects, predictability, switching costs, gross margin, marginal profitability, customer concentration, partner dependence, organic demand and growth.",
+  "why_en": "A classic for anyone reading a valuation at \"X times revenue\": it teaches you to ask about revenue quality before size.",
+  "match": [
+   "المقدمة والصفات العشر بعناوينها المرقمة، ونادي العشرة أضعاف، والتحديث بنقاطه الأربع، كلها بترتيبها.",
+   "رسم المضاعفات أعدنا رسمه من الأرقام الواردة في النص فقط؛ الرسم الأصلي يعرض 122 شركة.",
+   "رسوم Google وجدول النمو وبطاقة LinkedIn صور في الأصل بلا أرقام في النص؛ وصفناها، وبطاقة LinkedIn صغناها جدولًا مما ذكره النص.",
+   "نبهنا في هامش إلى خطأ حسابي في نسبة نزول سهم Google."
+  ],
+  "summary": {
+   "ar": {
+    "core": "مضاعف السعر إلى الإيراد أداة بدائية، لأن قيمة الشركة تأتي من تدفقاتها النقدية المستقبلية، ودولار الإيراد يختلف كثيرًا بين شركة وأخرى. غيرلي يحدد عشر صفات تجعل الإيراد «عالي الجودة»، وقلة فقط من الشركات تستحق عشرة أضعاف إيراداتها.",
+    "points": [
+     [
+      "المضاعفات مشتتة جدًا",
+      "بين 122 شركة إنترنت مدرجة: Overstock بـ0.2 ضعف وYouku بـ21.7 ضعف، وأكثر من 72% تحت 4 أضعاف، و5 فقط فوق 10 أضعاف."
+     ],
+     [
+      "1. الميزة التنافسية",
+      "حواجز الدخول تمنح الثقة في التدفقات البعيدة: Coca-Cola تنمو 5% وتُتداول بـ3.6 ضعف، وRIM تنمو 12% وتُتداول بـ0.77."
+     ],
+     [
+      "2. آثار الشبكة",
+      "أقوى خندق، ونادرة، وكثير مما يُسمى آثار شبكة هو وفورات حجم أضعف."
+     ],
+     [
+      "3. القابلية للتوقع",
+      "الاشتراكات ترفع المضاعف (Salesforce بـ7.5 ضعف)، والإيراد المتقطع كالألعاب والاستشارات يخفضه."
+     ],
+     [
+      "4. تكلفة الانتقال",
+      "التسرب السنوي 5% أو أقل يضع الشركة غالبًا في أعلى عُشر من المضاعفات."
+     ],
+     [
+      "5. الهامش الإجمالي",
+      "Amazon بهامش 20% تُتداول بـ1.5 ضعف، وBest Buy بهامش 24% بـ0.22 ضعف: الهامش يحدد النقد الحر."
+     ],
+     [
+      "6. الربحية الحدية",
+      "التغير في الربح ÷ التغير في الإيراد. حين صار سالبًا لدى Google نزل سهمها 48 دولارًا في يوم."
+     ],
+     [
+      "7. تركز العملاء",
+      "قاعدة عملاء كثيرة وصغيرة أفضل من عملاء كبار يفرضون الأسعار."
+     ],
+     [
+      "8. الاعتماد على شريك",
+      "41% من زيارات Demand Media من محركات البحث، ومعظمها Google: مخاطرة تخفض المضاعف."
+     ],
+     [
+      "9. الطلب العضوي",
+      "Netflix تنفق 15% من مبيعاتها على التسويق فتُتداول بـ3 إلى 4 أضعاف رغم نموها 50%، وتكلفة اكتساب مستخدم Skype 0.001 دولار مقابل 400 لدى Vonage."
+     ],
+     [
+      "10. النمو",
+      "أقوى محرك للمضاعف، لكنه مضلل بلا تدفق نقدي: بيع الدولار بـ85 سنتًا يحقق نموًا بلا حد."
+     ],
+     [
+      "نادي العشرة أضعاف",
+      "LinkedIn بين 11.8 و15 ضعف إيرادات 2012، قوية في النمو والحواجز وآثار الشبكة، وضعيفة في الربحية الحدية."
+     ],
+     [
+      "التحديث",
+      "أربع صفات إضافية: كثافة الإنفاق الرأسمالي، والنقد مقابل الأرباح، والخيارية (AWS لدى Amazon)، وحجم السوق."
+     ]
+    ],
+    "numbers": [
+     [
+      "100x",
+      "الفرق في قيمة دولار الإيراد بين Youku وOverstock"
+     ],
+     [
+      "72%",
+      "من شركات الإنترنت المدرجة تحت 4 أضعاف الإيراد"
+     ],
+     [
+      "5 من 122",
+      "شركات فوق 10 أضعاف"
+     ],
+     [
+      "≤5%",
+      "تسرب سنوي يرتبط بأعلى عُشر في المضاعفات"
+     ],
+     [
+      "$0.001 / $400",
+      "تكلفة اكتساب مستخدم Skype مقابل Vonage"
+     ]
+    ],
+    "must": "لا تقبل تقييمًا لمجرد أنه «عشرة أضعاف الإيرادات». اسأل: هل الإيراد متكرر ويمكن توقعه؟ هل الهامش عالٍ ويتحسن مع الحجم؟ هل يأتي العملاء عضويًا ويبقون؟ هل يعتمد على عميل أو شريك واحد؟ هذه الأسئلة هي ما يحدد قيمة الإيراد فعلًا."
+   },
+   "en": {
+    "core": "Price/revenue is a crude tool because a company's value comes from future cash flows, and a dollar of revenue is worth very different amounts in different companies. Gurley names ten traits that make revenue \"high quality\", and only a handful of companies deserve 10x revenue.",
+    "points": [
+     [
+      "Multiples are widely spread",
+      "Among 122 listed internet companies, Overstock trades at 0.2x and Youku at 21.7x; over 72% are below 4x and just 5 are above 10x."
+     ],
+     [
+      "1. Competitive advantage",
+      "Barriers to entry give confidence in distant cash flows: Coca-Cola grows 5% and trades at 3.6x; RIM grows 12% and trades at 0.77x."
+     ],
+     [
+      "2. Network effects",
+      "The strongest moat, and rare; much of what is called a network effect is weaker economies of scale."
+     ],
+     [
+      "3. Predictability",
+      "Subscriptions lift multiples (Salesforce 7.5x); episodic revenue such as games and consulting lowers them."
+     ],
+     [
+      "4. Switching costs",
+      "Annual churn of 5% or less very likely puts a company in the top decile of multiples."
+     ],
+     [
+      "5. Gross margin",
+      "Amazon at 20% margin trades at 1.5x; Best Buy at 24% trades at 0.22x: margin decides free cash flow."
+     ],
+     [
+      "6. Marginal profitability",
+      "Change in profit ÷ change in revenue. When Google's turned negative, its shares fell $48 in a day."
+     ],
+     [
+      "7. Customer concentration",
+      "Many small customers beat a few big ones who dictate prices."
+     ],
+     [
+      "8. Partner dependence",
+      "41% of Demand Media's page views came from search engines, mostly Google: a risk that lowers the multiple."
+     ],
+     [
+      "9. Organic demand",
+      "Netflix spends 15% of sales on marketing and trades at 3–4x despite 50% growth; Skype acquired users for $0.001 versus $400 at Vonage."
+     ],
+     [
+      "10. Growth",
+      "The strongest multiple driver, but misleading without cash flow: selling dollars for 85 cents creates unlimited growth."
+     ],
+     [
+      "The 10X club",
+      "LinkedIn at 11.8–15x 2012 revenue scores well on growth, barriers and network effects, poorly on marginal profitability."
+     ],
+     [
+      "Update",
+      "Four more traits: capex intensity, cash flow versus earnings, optionality (Amazon's AWS) and market size."
+     ]
+    ],
+    "numbers": [
+     [
+      "100x",
+      "Gap in value per revenue dollar between Youku and Overstock"
+     ],
+     [
+      "72%",
+      "Of listed internet companies below 4x revenue"
+     ],
+     [
+      "5 of 122",
+      "Companies above 10x"
+     ],
+     [
+      "≤5%",
+      "Annual churn linked to top-decile multiples"
+     ],
+     [
+      "$0.001 / $400",
+      "Cost to acquire a Skype user versus Vonage"
+     ]
+    ],
+    "must": "Never accept a valuation just because it is \"10x revenue\". Ask: is the revenue recurring and predictable? Is the margin high and improving with scale? Do customers arrive organically and stay? Does it depend on one customer or partner? Those answers decide what the revenue is really worth."
+   }
+  },
+  "quiz": [
+   {
+    "q": {
+     "ar": "ما الذي يجعل الكاتب يعتبر مضاعف السعر إلى الإيراد خطيرًا؟",
+     "en": "Why does Gurley call price/revenue dangerous?"
+    },
+    "o": {
+     "ar": [
+      "لأن الإيرادات ليست متساوية في قيمتها",
+      "لأن الإيرادات لا تُنشر",
+      "لأنه يتجاهل عدد الموظفين",
+      "لأنه أصعب من التدفقات المخصومة"
+     ],
+     "en": [
+      "Not all revenue is equal in value",
+      "Revenue is not disclosed",
+      "It ignores headcount",
+      "It is harder than DCF"
+     ]
+    },
+    "a": 0,
+    "why": {
+     "ar": "دولار الإيراد يختلف حسب الهامش والتكرار والتسرب وغيرها.",
+     "en": "A revenue dollar differs by margin, recurrence, churn and more."
+    }
+   },
+   {
+    "q": {
+     "ar": "كيف تُحسب الربحية الحدية؟",
+     "en": "How is marginal profitability calculated?"
+    },
+    "o": {
+     "ar": [
+      "التغير في الربح ÷ التغير في الإيراد",
+      "الربح ÷ الإيراد",
+      "الإيراد ÷ عدد العملاء",
+      "التكاليف الثابتة ÷ المتغيرة"
+     ],
+     "en": [
+      "Change in profit ÷ change in revenue",
+      "Profit ÷ revenue",
+      "Revenue ÷ customers",
+      "Fixed costs ÷ variable costs"
+     ]
+    },
+    "a": 0,
+    "why": {
+     "ar": "إذا كان أعلى من الهامش التاريخي فالشركة تتوسع جيدًا.",
+     "en": "If it exceeds the historical margin, the company is scaling well."
+    }
+   },
+   {
+    "q": {
+     "ar": "لماذا تُتداول Netflix بمضاعف منخفض نسبيًا رغم نموها؟",
+     "en": "Why does Netflix trade at a modest multiple despite its growth?"
+    },
+    "o": {
+     "ar": [
+      "اعتمادها الكبير على الإنفاق التسويقي",
+      "آثار الشبكة القوية",
+      "تسرب عملائها أقل من 5%",
+      "هامشها الإجمالي 90%"
+     ],
+     "en": [
+      "Heavy reliance on marketing spend",
+      "Strong network effects",
+      "Churn below 5%",
+      "A 90% gross margin"
+     ]
+    },
+    "a": 0,
+    "why": {
+     "ar": "تنفق قرابة 15% من مبيعاتها على التسويق، والكاتب يرى أن العملاء «المستأجرين» أقل قيمة من العضويين.",
+     "en": "It spends about 15% of sales on marketing; Gurley sees \"rented\" customers as worth less than organic ones."
+    }
+   }
+  ]
  },
  {
   "id": "kauffman-enemy",
@@ -373,19 +621,242 @@
  {
   "id": "sequoia-600b",
   "cat": "vc",
-  "ar": "سؤال الـ600 مليار في الذكاء الاصطناعي",
+  "ar": "سؤال الذكاء الاصطناعي بقيمة 600 مليار دولار",
   "en": "AI's $600B Question",
-  "author": "ديفيد كاهن",
-  "pub": "Sequoia",
+  "author": "ديفيد كان",
+  "pub": "Sequoia Capital",
   "date": "يونيو 2024",
-  "mins": 6,
+  "mins": 8,
   "url": "https://sequoiacap.com/article/ais-600b-question",
   "embed": true,
-  "arabic": false,
+  "arabic": true,
   "img": "lib-sequoia-600b",
-  "about": "يحسب الفجوة بين الإنفاق على بنية الذكاء الاصطناعي وإيراده الفعلي، ويجدها قرابة 600 مليار دولار.",
-  "why": "قصيرة وتغير نظرتك لموجة الذكاء الاصطناعي.",
-  "topic": "vc"
+  "about": "يحدّث الكاتب حسابًا نشره قبل تسعة أشهر: كم يجب أن تحقق شركات الذكاء الاصطناعي من إيرادات لتبرير ما يُنفق على الشرائح ومراكز البيانات؟ الجواب قفز من 200 مليار إلى 600 مليار دولار، والفجوة من 125 مليارًا إلى 500 مليار.",
+  "why": "أوضح طريقة لقراءة فقاعة الإنفاق على الذكاء الاصطناعي بالأرقام، من شريك في أشهر صندوق جريء، ولماذا قد يخسر المستثمرون بينما يربح المؤسسون.",
+  "topic": "mk",
+  "author_en": "David Cahn",
+  "about_en": "Cahn updates a sum he published nine months earlier: how much revenue must AI companies make to justify what is being spent on chips and data centres? The answer jumped from $200B to $600B, and the gap from $125B to $500B.",
+  "why_en": "The clearest way to read the AI spending boom in numbers, from a partner at the best-known venture firm, and why investors may lose while founders win.",
+  "match": [
+   "النص بلا عناوين فرعية في الأصل، فلم نضف عناوين. المقدمة والملاحظة والقائمتان المرقمتان (خمس نقاط ثم أربع) والخاتمة كلها بترتيبها.",
+   "الرسم الوحيد في الأصل صورة لخطوات الحساب، أعدنا رسمه من أرقام النص، والرقمان 150 و300 مستنتجان ومنبَّه عليهما.",
+   "الهامش الوحيد في الأصل منقول بصياغتنا."
+  ],
+  "summary": {
+   "ar": {
+    "core": "في 2023 حسب الكاتب أن صناعة الذكاء الاصطناعي تحتاج إيرادات بقيمة 200 مليار دولار لتبرير إنفاقها على البنية التحتية. في يونيو 2024 صار الرقم 600 مليار، والفجوة بين المطلوب والمتوقع نحو 500 مليار. الذكاء الاصطناعي سيخلق قيمة حقيقية، لكن كثيرًا من المستثمرين قد يخسرون في مرحلة المضاربة.",
+    "points": [
+     [
+      "من 200 إلى 600 مليار",
+      "حين صارت Nvidia أعلى شركة قيمة في العالم، أعاد الكاتب حسابه القديم: السؤال لم يعد 200 مليار دولار بل 600 مليار."
+     ],
+     [
+      "طريقة الحساب",
+      "توقع إيرادات Nvidia السنوية × 2 (لأن الشرائح نصف تكلفة مركز البيانات) × 2 (لأن المستخدم النهائي يحتاج هامش ربح 50%) = الإيراد المطلوب من منتجات الذكاء الاصطناعي."
+     ],
+     [
+      "انتهى الشح",
+      "أزمة الحصول على الشرائح بلغت ذروتها أواخر 2023، واليوم مدد الانتظار معقولة."
+     ],
+     [
+      "المخزون يكبر",
+      "نصف إيرادات مراكز بيانات Nvidia في الربع الرابع تقريبًا من مزودي السحابة الكبار، ومايكروسوفت وحدها قرابة 22%. والتصحيح يأتي حين يفوق المخزون الطلب."
+     ],
+     [
+      "OpenAI في المقدمة",
+      "إيراداتها السنوية 3.4 مليار دولار بعد 1.6 مليار أواخر 2023، والباقون بعيدون. ولكي تستمر الإيرادات يجب أن يرى الناس قيمة تشبه ما يدفعون له في Netflix وSpotify."
+     ],
+     [
+      "الفجوة 500 مليار",
+      "حتى مع افتراض 10 مليارات سنويًا لكل من Google ومايكروسوفت وApple وMeta، و5 مليارات لست شركات أخرى، تبقى الفجوة نحو 500 مليار، بعد أن كانت 125 مليارًا."
+     ],
+     [
+      "B100",
+      "شريحة Nvidia الجديدة بأداء أعلى 2.5 مرة مقابل تكلفة أعلى 25%، ويتوقع الكاتب معها موجة طلب أخيرة وشحًا جديدًا."
+     ],
+     [
+      "ليست مثل السكك الحديدية",
+      "الحوسبة صارت سلعة تُباع بالساعة بلا قدرة على التسعير، والمضاربة تحرق رأس المال، والشرائح تفقد قيمتها بسرعة مع كل جيل جديد."
+     ],
+     [
+      "من يخسر ومن يربح",
+      "الخاسر الأكبر هم المستثمرون، أما المؤسسون والمبتكرون فيستفيدون من انخفاض أسعار الحوسبة."
+     ],
+     [
+      "الخلاصة",
+      "قيمة اقتصادية كبيرة قادمة وNvidia ستبقى في قلبها، لكن الإيمان بأن الذكاء الاصطناعي العام قريب وأن الشرائح وحدها كنز قد يكون وهمًا، والطريق طويل."
+     ]
+    ],
+    "numbers": [
+     [
+      "$600B",
+      "الإيراد السنوي المطلوب لتبرير الإنفاق الحالي على البنية التحتية"
+     ],
+     [
+      "$500B",
+      "الفجوة بعد طرح إيرادات متوقعة سخية (كانت 125 مليارًا في 2023)"
+     ],
+     [
+      "×2 ×2",
+      "الشرائح نصف تكلفة مركز البيانات، والمستخدم يحتاج هامش 50%"
+     ],
+     [
+      "$3.4B",
+      "إيرادات OpenAI السنوية، بعد 1.6 مليار أواخر 2023"
+     ],
+     [
+      "2.5x / +25%",
+      "أداء شريحة B100 مقابل زيادة تكلفتها"
+     ]
+    ],
+    "must": "الإنفاق على الشرائح يجب أن يُسترد في النهاية من مستخدمين يدفعون مقابل منتجات الذكاء الاصطناعي. حين تكون الفجوة بين المطلوب والمتوقع بهذا الحجم، والحوسبة سلعة بلا تسعير احتكاري، والشرائح تفقد قيمتها بسرعة، فالمستثمر في البنية التحتية يتحمل مخاطرة كبيرة حتى لو كانت التقنية نفسها ناجحة."
+   },
+   "en": {
+    "core": "In 2023 Cahn worked out that the AI industry needed $200B of revenue to justify its infrastructure spending. By June 2024 the figure was $600B, with a gap of about $500B between what is needed and what is likely. AI will create real value, but many investors may lose money in the speculative phase.",
+    "points": [
+     [
+      "From $200B to $600B",
+      "As Nvidia became the world's most valuable company, Cahn reran his old sum: the question is no longer $200B but $600B."
+     ],
+     [
+      "The method",
+      "Nvidia run-rate revenue × 2 (chips are half of data-centre cost) × 2 (end users need a 50% gross margin) = revenue AI products must generate."
+     ],
+     [
+      "The shortage is over",
+      "Getting GPUs peaked as a problem in late 2023; lead times are now reasonable."
+     ],
+     [
+      "Stockpiles are growing",
+      "About half of Nvidia's Q4 data-centre revenue came from big cloud providers, Microsoft alone roughly 22%. The reset comes when stockpiles exceed demand."
+     ],
+     [
+      "OpenAI leads",
+      "Its run-rate revenue is $3.4B, up from $1.6B in late 2023, far ahead of the rest. To last, AI must deliver value people pay for like Netflix or Spotify."
+     ],
+     [
+      "A $500B hole",
+      "Even assuming $10B a year each for Google, Microsoft, Apple and Meta and $5B each for six others, the gap is about $500B, up from $125B."
+     ],
+     [
+      "B100",
+      "Nvidia's new chip offers 2.5x the performance for 25% more cost; Cahn expects a last demand surge and another shortage."
+     ],
+     [
+      "Not like railroads",
+      "Compute is becoming a commodity priced by the hour with no pricing power, speculation burns capital, and chips lose value fast with each generation."
+     ],
+     [
+      "Who loses, who wins",
+      "Investors bear most of the harm; founders and builders gain from cheaper compute."
+     ],
+     [
+      "Conclusion",
+      "Huge value is coming and Nvidia will stay central, but the belief that AGI is near and GPUs alone are treasure may be a delusion; the road is long."
+     ]
+    ],
+    "numbers": [
+     [
+      "$600B",
+      "Annual revenue needed to justify current infrastructure spending"
+     ],
+     [
+      "$500B",
+      "The gap after generous revenue assumptions ($125B in 2023)"
+     ],
+     [
+      "×2 ×2",
+      "Chips are half of data-centre cost; users need a 50% margin"
+     ],
+     [
+      "$3.4B",
+      "OpenAI run-rate revenue, up from $1.6B in late 2023"
+     ],
+     [
+      "2.5x / +25%",
+      "B100 performance versus its added cost"
+     ]
+    ],
+    "must": "Chip spending must eventually be paid back by users paying for AI products. When the gap is this large, compute is a commodity without monopoly pricing, and chips lose value quickly, infrastructure investors carry big risk even if the technology itself succeeds."
+   }
+  },
+  "quiz": [
+   {
+    "q": {
+     "ar": "لماذا يضرب الكاتب توقع إيرادات Nvidia في 2 أول مرة؟",
+     "en": "Why does Cahn first multiply Nvidia's revenue by 2?"
+    },
+    "o": {
+     "ar": [
+      "لأن الشرائح نصف التكلفة الكاملة لمركز البيانات",
+      "لأن Nvidia تضاعف أسعارها كل سنة",
+      "لأن هناك منافسًا بنفس الحجم",
+      "لأن الإيرادات تُحسب لسنتين"
+     ],
+     "en": [
+      "Chips are half of total data-centre cost",
+      "Nvidia doubles prices every year",
+      "There is a competitor of equal size",
+      "Revenue is counted over two years"
+     ]
+    },
+    "a": 0,
+    "why": {
+     "ar": "الشرائح نصف تكلفة التشغيل، والنصف الآخر طاقة ومبانٍ وغيرها.",
+     "en": "GPUs are half of total cost of ownership; the rest is energy, buildings and so on."
+    }
+   },
+   {
+    "q": {
+     "ar": "كم صارت الفجوة في تقدير الكاتب؟",
+     "en": "How big is the gap in Cahn's new estimate?"
+    },
+    "o": {
+     "ar": [
+      "نحو 500 مليار دولار",
+      "نحو 125 مليار دولار",
+      "نحو 3.4 مليار دولار",
+      "لا توجد فجوة"
+     ],
+     "en": [
+      "About $500B",
+      "About $125B",
+      "About $3.4B",
+      "There is no gap"
+     ]
+    },
+    "a": 0,
+    "why": {
+     "ar": "كانت 125 مليارًا في 2023 وصارت نحو 500 مليار في 2024.",
+     "en": "It was $125B in 2023 and about $500B in 2024."
+    }
+   },
+   {
+    "q": {
+     "ar": "أي من هذه ليس من أسباب اختلاف الشرائح عن السكك الحديدية؟",
+     "en": "Which is NOT one of the reasons GPUs differ from railroads?"
+    },
+    "o": {
+     "ar": [
+      "أن الحكومات تمنع بناء مراكز البيانات",
+      "غياب القدرة على التسعير",
+      "سرعة فقدان الشرائح لقيمتها",
+      "حرق رأس المال في المضاربة"
+     ],
+     "en": [
+      "Governments ban data centres",
+      "Lack of pricing power",
+      "Fast depreciation of chips",
+      "Capital incineration in speculation"
+     ]
+    },
+    "a": 0,
+    "why": {
+     "ar": "الأسباب الأربعة: التسعير، وحرق الاستثمارات، والاستهلاك، والفائزون والخاسرون.",
+     "en": "The four points are pricing power, investment incineration, depreciation, and winners versus losers."
+    }
+   }
+  ]
  },
  {
   "id": "marks-repeal-3",
