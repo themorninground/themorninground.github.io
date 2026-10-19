@@ -3144,5 +3144,260 @@
     }
    }
   ]
+ },
+ {
+  "id": "marks-there-they-go",
+  "cat": "pm",
+  "topic": "mk",
+  "ar": "ها هم يعودون... مجددًا",
+  "en": "There They Go Again . . . Again",
+  "author": "هوارد ماركس",
+  "author_en": "Howard Marks",
+  "pub": "Oaktree",
+  "date": "يوليو 2017",
+  "mins": 35,
+  "url": "https://www.oaktreecapital.com/docs/default-source/memos/there-they-go-again-again.pdf?sfvrsn=6",
+  "embed": true,
+  "arabic": true,
+  "img": null,
+  "about": "أطول مذكرات ماركس وأشملها عن قراءة حرارة السوق: تسعة عناصر للفقاعة، ثم أمثلة من كل مكان: الأسهم الأمريكية بـ25 ضعف الأرباح، وVIX في أدنى مستوى، وFAANG، والاستثمار السلبي، وسندات Netflix، وسند القرن الأرجنتيني، وصندوق SoftBank بالرافعة، والعملات الرقمية. ثم قائمة تحقق من ثمانية أسئلة.",
+  "about_en": "Marks's longest and most complete memo on reading market temperature: nine elements of a bubble, then examples everywhere: US stocks at 25x earnings, a record-low VIX, FAANG, passive investing, Netflix bonds, Argentina's century bond, SoftBank's levered Vision Fund, and crypto. Then an eight-question checklist.",
+  "why": "فيها تحليل لهيكل صندوق SoftBank Vision Fund ونقد لمنطق «الحلقة الفاضلة»، وهما أساسيان لفهم الاستثمار الجريء الحديث.",
+  "why_en": "It dissects the SoftBank Vision Fund's structure and the \"virtuous circle\" logic, both essential to understanding modern venture.",
+  "match": [
+   "كل الأقسام بعناوين الكاتب وترتيبها، والقوائم كلها.",
+   "الأصل بلا جداول ولا هوامش؛ أضفنا هامشين للتنبيه على تناقضين في الأصل."
+  ],
+  "summary": {
+   "ar": {
+    "core": "في 2017 رأى ماركس علامات كثيرة لسوق ساخن: تقييمات من أعلى ما في التاريخ، واطمئنان قياسي، وأسهم «لا تخسر»، وأموال تشتري بلا اهتمام بالسعر، وديون رديئة بعوائد زهيدة، وأكبر جمع أموال للملكية الخاصة، وعملات رقمية تتضاعف. ليست فقاعة بلا منطق، لكنه عالم عائد منخفض ومخاطرة عالية، يستحق حذرًا أكبر.",
+    "points": [
+     [
+      "مبكر؟",
+      "ماركس يعترف أن تحذيراته كثيرًا ما تأتي مبكرة، لكنه يفضل الحذر المبكر على المتأخر."
+     ],
+     [
+      "أربع ظروف",
+      "شكوك كثيرة، وعوائد متوقعة في أدناها، وأسعار مرتفعة في كل شيء، وسلوك محب للمخاطرة."
+     ],
+     [
+      "بذور الطفرة",
+      "تسعة عناصر: بيئة مواتية، وذرة حقيقة، ونجاح مبكر، ومال أكثر من الأفكار، وتعليق للتشكك، ورفض للتقييم، ومطاردة الجديد، وحلقة فاضلة، وخوف من تفويت الفرصة."
+     ],
+     [
+      "الأسهم",
+      "S&P 500 بـ25 ضعف مقابل وسيط 15، وShiller قرب 30، ومقياس بافيت 145 مقابل 60."
+     ],
+     [
+      "VIX",
+      "أدنى مستوى في 27 عامًا، وهو يقيس المزاج لا المستقبل."
+     ],
+     [
+      "FAANG",
+      "كل مجموعة «خارقة» سابقة سقطت بتغير البيئة أو المنافسة أو المبالغة في السعر؛ وشركاء Amazon في 1997 اختفوا كلهم تقريبًا."
+     ],
+     [
+      "الاستثمار السلبي",
+      "37% من صناديق الأسهم، يشتري أكبر الأسهم بلا اهتمام بالسعر، «صفقة زخم مزدحمة»."
+     ],
+     [
+      "الائتمان",
+      "Netflix تقترض بـ3.625% وتحرق 1.8 مليار، و75% من القروض خفيفة العهود."
+     ],
+     [
+      "الأسواق الناشئة",
+      "الأرجنتين، التي تعثرت ثماني مرات، تبيع سندًا لمئة عام بـ8% وتتلقى 9.75 مليار من العروض."
+     ],
+     [
+      "الملكية الخاصة وSoftBank",
+      "221.4 مليار في نصف عام، وصندوق بـ93 مليارًا برافعة: الشركاء يضعون 62 سنتًا ممتازة بـ7% مقابل 38 ملكية."
+     ],
+     [
+      "العملات الرقمية",
+      "Ether +4,500% في عام، ومعًا تساوي Goldman Sachs تقريبًا: مضاربة لا استثمار."
+     ],
+     [
+      "ماذا نفعل",
+      "تقدم بحذر أكبر، وتجنب مطاردة العائد، واختر الطرق منخفضة المخاطرة داخل كل فئة، واستخدم قائمة الأسئلة الثمانية."
+     ]
+    ],
+    "numbers": [
+     [
+      "25x / 15x",
+      "مضاعف S&P 500 مقابل الوسيط التاريخي"
+     ],
+     [
+      "145 / 60",
+      "مقياس بافيت مقابل معيار 1970–1995"
+     ],
+     [
+      "37%",
+      "حصة الاستثمار السلبي من صناديق الأسهم"
+     ],
+     [
+      "62 / 38",
+      "الوحدات الممتازة مقابل الملكية في Vision Fund"
+     ],
+     [
+      "+4,500%",
+      "صعود Ether منذ بداية 2017"
+     ]
+    ],
+    "must": "حرارة السوق تُقرأ من سلوك الناس: هل يرفضون أي صفقة؟ هل يطلبون علاوة مخاطرة؟ هل التقييمات معقولة؟ حين تكون الإجابات «لا»، فالحذر واجب حتى لو بدا متأخرًا، لأن المال الأكثر والأأمن يُكسب حين تفعل ما يتجنبه الآخرون."
+   },
+   "en": {
+    "core": "In 2017 Marks saw many signs of a hot market: some of the highest valuations in history, record complacency, \"can't-lose\" stocks, money buying regardless of price, junk debt at thin yields, record PE fundraising, and crypto multiplying. Not a nonsensical bubble, but a low-return, high-risk world that warrants more caution.",
+    "points": [
+     [
+      "Too early?",
+      "Marks admits his warnings often come early but prefers early caution to late."
+     ],
+     [
+      "Four conditions",
+      "High uncertainty, lowest-ever prospective returns, high prices everywhere, pro-risk behaviour."
+     ],
+     [
+      "Seeds of a boom",
+      "Nine elements: benign environment, grain of truth, early success, more money than ideas, suspension of disbelief, rejecting valuation, pursuit of the new, virtuous circle, FOMO."
+     ],
+     [
+      "Equities",
+      "S&P 500 at 25x vs a median of 15, Shiller near 30, the Buffett yardstick at 145 vs 60."
+     ],
+     [
+      "VIX",
+      "Lowest in 27 years; it measures mood, not the future."
+     ],
+     [
+      "FAANG",
+      "Every past \"super-stock\" group fell to change, competition or overpricing; Amazon's 1997 partners almost all vanished."
+     ],
+     [
+      "Passive investing",
+      "37% of equity funds, buying the biggest stocks regardless of price: \"a crowded momentum trade\"."
+     ],
+     [
+      "Credit",
+      "Netflix borrows at 3.625% while burning $1.8B; 75% of loans are covenant-lite."
+     ],
+     [
+      "Emerging markets",
+      "Argentina, with eight defaults, sells a 100-year bond at 8% and gets $9.75B of bids."
+     ],
+     [
+      "PE and SoftBank",
+      "$221.4B in half a year, and a $93B levered fund: LPs put 62 cents into 7% preferred for 38 of equity."
+     ],
+     [
+      "Crypto",
+      "Ether +4,500% in a year, together worth about Goldman Sachs: speculation, not investment."
+     ],
+     [
+      "What to do",
+      "Move forward with more caution, don't reach for yield, choose low-risk approaches within each class, and use the eight-question checklist."
+     ]
+    ],
+    "numbers": [
+     [
+      "25x / 15x",
+      "S&P 500 P/E vs historical median"
+     ],
+     [
+      "145 / 60",
+      "Buffett yardstick vs the 1970–95 norm"
+     ],
+     [
+      "37%",
+      "Passive share of equity funds"
+     ],
+     [
+      "62 / 38",
+      "Preferred vs equity in the Vision Fund"
+     ],
+     [
+      "+4,500%",
+      "Ether's rise in 2017 to date"
+     ]
+    ],
+    "must": "Market temperature is read from behaviour: do people turn any deals down? Do they demand risk premiums? Are valuations sensible? When the answers are \"no\", caution is warranted even if it looks late, because the most and safest money is made doing what others avoid."
+   }
+  },
+  "quiz": [
+   {
+    "q": {
+     "ar": "ما الذي يقيسه مؤشر VIX فعلًا حسب ماركس؟",
+     "en": "What does the VIX really measure, per Marks?"
+    },
+    "o": {
+     "ar": [
+      "مزاج المستثمرين وتوقعاتهم",
+      "التقلب الذي سيحدث فعلًا",
+      "أرباح الشركات",
+      "الفائدة"
+     ],
+     "en": [
+      "Investor mood and expectations",
+      "Volatility that will happen",
+      "Company earnings",
+      "Interest rates"
+     ]
+    },
+    "a": 0,
+    "why": {
+     "ar": "يكشف المزاج الحالي أكثر مما يكشف التقلب القادم.",
+     "en": "It reveals current mood more than future volatility."
+    }
+   },
+   {
+    "q": {
+     "ar": "ما مشكلة هيكل SoftBank Vision Fund في رأي ماركس؟",
+     "en": "What is the problem with the Vision Fund structure in Marks's view?"
+    },
+    "o": {
+     "ar": [
+      "الشركاء يقدمون رافعة بـ7% لاستثمارهم مع جانب هابط بلا صاعد",
+      "لا توجد رسوم",
+      "الصندوق صغير جدًا",
+      "لا رافعة فيه"
+     ],
+     "en": [
+      "LPs supply 7% leverage to their own investment, with downside and no upside",
+      "No fees",
+      "The fund is too small",
+      "It has no leverage"
+     ]
+    },
+    "a": 0,
+    "why": {
+     "ar": "62 سنتًا ممتازة مقابل 38 ملكية تعني رافعة 1.6 ضعف على الملكية.",
+     "en": "62 cents preferred to 38 equity means 1.6x leverage on the equity."
+    }
+   },
+   {
+    "q": {
+     "ar": "ما الفرق بين الاستثمار والمضاربة عند ماركس؟",
+     "en": "How does Marks distinguish investing from speculation?"
+    },
+    "o": {
+     "ar": [
+      "الاستثمار شراء بسعر جذاب مقارنة بالقيمة، والمضاربة شراء على أمل أن يدفع غيرك أكثر",
+      "لا فرق",
+      "المضاربة أكثر أمانًا",
+      "الاستثمار للأفراد فقط"
+     ],
+     "en": [
+      "Investing buys below intrinsic value; speculation bets others will pay more",
+      "No difference",
+      "Speculation is safer",
+      "Investing is only for individuals"
+     ]
+    },
+    "a": 0,
+    "why": {
+     "ar": "ولهذا يعدّ العملات الرقمية مضاربة.",
+     "en": "That is why he sees crypto as speculation."
+    }
+   }
+  ]
  }
 ]
