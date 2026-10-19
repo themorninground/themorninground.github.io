@@ -1,0 +1,86 @@
+[
+ {
+  "url": "https://www.oaktreecapital.com/insights/memo/whats-going-on-in-private-credit",
+  "status": "HTTP/2 200 \ndate: Mon, 19 Oct 2026 10:39:44 GMT\ncontent-type: text/html; charset=utf-8\ncf-ray: a4cf29200ed3f81b-DFW\ncf-cache-status: DYNAMIC\ncache-control: public, max-age=0, s-maxage=3600\nvary: accept-encoding\nexpires: Mon, 19 Oct 2026 10:39:44 GMT\nlast-modified: Thu, 15 Oct 2026 08:08:59 GMT\nserver: cloudflare\nstrict-transport-security: max-age=31536000; preload\naccess-control-expose-headers: Request-Context\ncache-tag: cbf94cd4-8561-4e2d-a831-e24de8150b94|Production|www.oaktreecapital.com|/insights/memo/whats-going-on-in-private-credit, cbf94cd4-8561-4e2d-a831-e24de8150b94|Production\nrequest-context: appId=cid-v1:4f1af9bd-3d29-4011-893c-152a7fe0e2d8\nsf-cache-key: h-1a0s0ODi2TNiznL90Xs1WTJJyVa4o4OWRxQJXkH1M1\nsf-cache-status: HIT\nalt-svc: h3=\":443\"; ma=86400\n\n",
+  "x-frame-options": "",
+  "frame-ancestors": "",
+  "content-type": ""
+ },
+ {
+  "url": "https://www.oaktreecapital.com/docs/oaktreecaplibraries/memos/whats-going-on-in-private-credit.pdf?sfvrsn=c0422f66_5",
+  "status": "HTTP/2 200 \ndate: Mon, 19 Oct 2026 10:39:44 GMT\ncontent-type: application/pdf\ncf-ray: a4cf29218b84e909-DFW\ncf-cache-status: HIT\naccept-ranges: bytes\nage: 849065\ncache-control: public, max-age=31536000\ncontent-disposition: inline; filename=whats-going-on-in-private-credit.pdf\nexpires: Sat, 09 Oct 2027 14:48:38 GMT\nlast-modified: Fri, 10 Apr 2026 15:54:07 GMT\nserver: cloudflare\nstrict-transport-security: max-age=31536000; preload\naccess-control-expose-headers: Request-Context\nrequest-context: appId=cid-v1:4f1af9bd-3d29-4011-893c-152a7fe0e2d8\nvary: accept-encoding\nalt-svc: h3=\":443\"; ma=86400\n\n",
+  "x-frame-options": "",
+  "frame-ancestors": "",
+  "content-type": ""
+ },
+ {
+  "url": "https://www.bain.com/insights/private-equity-midyear-report-2026/",
+  "status": "HTTP/2 200 \ndate: Mon, 19 Oct 2026 10:39:45 GMT\ncontent-type: text/html; charset=utf-8\nserver: cloudflare\ncache-control: no-cache,no-store\nexpires: -1\npragma: no-cache\nset-cookie: EPiStateMarker=true; path=/; secure\nset-cookie: EPiStartUrlKey=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/; secure\nset-cookie: EPiStartUrlKey=https%3A%2F%2Fwww.bain.com%2Finsights%2Fprivate-equity-midyear-report-2026%2F; path=/; secure\nset-cookie: .AspNetCore.Mvc.CookieTempDataProvider=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/; secure; samesite=lax; httponly\nset-cookie: .AspNetCore.Session=CfDJ8LZ0G65%2BPlRBuSRx0n%2Bo783bX8EK28xFu0ixQnEKiTvimZcNtytIHGe3BUYQUf8HwiOnWBKcmHJsHbU8L7hFEuZws0jRcmu%2FBVDCvCu%2Bqp4WZY2TCah9cwbP2hFz6z1t%2FcL0zBqQ1hTOyAllkNeEXqARVJM1J8hD8zLnGFLK2vOU; path=/; secure; samesite=lax; httponly\nset-cookie: ARRAffinity=7f898de36343a59af96c07ef5a8ed1a0d573ce3be038eaa711583de907b2a583;Path=/;HttpOnly;Secure;Domain=www.bain.com\nset-cookie: ARRAffinitySameSite=7f898de36343a59af96c07ef5a8ed1a0d573ce3be038eaa711583de907b2a583;Path=/;HttpOnly;SameSite=None;Secure;Domain=www.bain.com\nrequest-context: appId=cid-v1:76c43c12-b23b-4108-90dc-7092205c9f1e\ncontent-security-policy: script-src 'nonce-JFi0qn1W/rPls1OeERaG4B1Dv/X8LHTKU6e2EoSAiYU=' 'strict-dynamic' 'self' 'unsafe-inline' 'unsafe-eval' https: http:; object-src 'self';\ncf-cache-status: DYNAMIC\ncf-ray: a4cf29227c5d46e0-DFW\nalt-svc: h3=\":443\"; ma=86400\n\n",
+  "x-frame-options": "",
+  "frame-ancestors": "",
+  "content-type": ""
+ },
+ {
+  "url": "https://aswathdamodaran.blogspot.com/2026/08/the-situational-awareness-blow-up.html",
+  "status": "HTTP/2 204 \ndate: Mon, 19 Oct 2026 10:39:45 GMT\ncontent-type: text/html\nserver: scaffolding on HTTPServer2\nx-xss-protection: 0\nalt-svc: h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000\n\n",
+  "x-frame-options": "",
+  "frame-ancestors": "",
+  "content-type": ""
+ },
+ {
+  "url": "https://reactionwheel.net/2015/06/power-laws-in-venture.html",
+  "status": "HTTP/2 406 \ncontent-type: text/html; charset=iso-8859-1\ndate: Mon, 19 Oct 2026 10:39:46 GMT\nserver: Apache\n\n",
+  "x-frame-options": "",
+  "frame-ancestors": "",
+  "content-type": ""
+ },
+ {
+  "url": "https://abovethecrowd.com/2011/05/24/all-revenue-is-not-created-equal-the-keys-to-the-10x-revenue-club/",
+  "status": "HTTP/2 200 \nserver: nginx\ndate: Mon, 19 Oct 2026 10:39:46 GMT\ncontent-type: text/html; charset=UTF-8\nstrict-transport-security: max-age=31536000\nvary: Accept-Encoding\nhost-header: wpcloud\nvary: accept, content-type, cookie\nx-pingback: https://abovethecrowd.com/xmlrpc.php\nlink: <https://abovethecrowd.com/wp-json/>; rel=\"https://api.w.org/\"\nlink: <https://abovethecrowd.com/wp-json/wp/v2/posts/870>; rel=\"alternate\"; title=\"JSON\"; type=\"application/json\"\nlink: <https://wp.me/paL8i1-e2>; rel=shortlink\nlast-modified: Sat, 17 Oct 2026 16:29:46 GMT\ncache-control: max-age=300, must-revalidate\nx-nananana: Batcache-Set\nx-ac: 4.dfw _atomic_dfw STALE\nx-remembering: Eric Binnion <https://friendsofericbinnion.wordpress.com/>\nalt-svc: clear\nserver-timing: a8c-cdn, dc;desc=dfw, cache;desc=STALE;dur=2.0\n\n",
+  "x-frame-options": "",
+  "frame-ancestors": "",
+  "content-type": ""
+ },
+ {
+  "url": "https://kauffman.org/reports/we-have-met-the-enemy-and-he-is-us",
+  "status": "HTTP/2 301 \nserver: nginx\ndate: Mon, 19 Oct 2026 10:39:50 GMT\ncontent-type: text/html; charset=utf-8\nlocation: https://www.kauffman.org/reports/we-have-met-the-enemy-and-he-is-us\nx-cache: MISS\nx-rq: dfw5 0 20 9980\nstrict-transport-security: max-age=31536000\nx-remembering: Eric Binnion <https://friendsofericbinnion.wordpress.com/>\n\nHTTP/2 301 \nserver: nginx\ndate: Mon, 19 Oct 2026 10:39:54 GMT\ncontent-type: text/html; charset=UTF-8\nlocation: https://www.kauffman.org/reports/we-have-met-the-enemy-and-he-is-us/\nx-hacker: If you're reading this, you should visit https://join.a8c.com/viphacker and apply to join the fun, mention this header.\nx-powered-by: WordPress VIP <https://wpvip.com>\nhost-header: a9130478a60e5f9135f765b23f26593b\nx-frame-options: SAMEORIGIN\nx-redirect-by: WordPress\nx-rq: dfw8 0 20 9980\nx-cache: MISS\nstrict-transport-security: max-age=31536000\nx-remembering: Eric Binnion <https://friendsofericbinnion.wordpress.com/>\n\nHTTP/2 200 \nserver: nginx\ndate: Mon, 19 Oct 2026 10:39:54 GMT\ncontent-type: text/html; charset=UTF-8\nvary: Accept-Encoding\nx-hacker: If you're reading this, you should visit https://join.a8c.com/viphacker and apply to join the fun, mention this header.\nx-powered-by: WordPress VIP <https://wpvip.com>\nhost-header: a9130478a60e5f9135f765b23f26593b\nx-frame-options: SAMEORIGIN\nlink: <https://www.kauffman.org/wp-json/>; rel=\"https://api.w.org/\"\nlink: <https://www.kauffman.org/wp-json/wp/v2/research/15286>; rel=\"alternate\"; title=\"JSON\"; type=\"application/json\"\nx-cache: STALE\naccept-ranges: bytes\ncache-control: max-age=300, must-revalidate\nx-rq: dfw8 0 20 9980\nstrict-transport-security: max-age=31536000\nx-remembering: Eric Binnion <https://friendsofericbinnion.wordpress.com/>\n\n",
+  "x-frame-options": "",
+  "frame-ancestors": "",
+  "content-type": ""
+ },
+ {
+  "url": "https://www.kauffman.org/wp-content/uploads/2012/05/we_have_met_the_enemy_venture_capital_report_kauffman_foundation.pdf",
+  "status": "HTTP/2 200 \nserver: nginx\ndate: Mon, 19 Oct 2026 10:39:54 GMT\ncontent-type: application/pdf\ncontent-length: 1146614\netag: \"efe7129f1df6601a\"\nlast-modified: Mon, 14 Sep 2020 14:49:10 GMT\naccess-control-allow-methods: GET, HEAD\naccess-control-allow-origin: *\naccept-ranges: bytes\ncache-control: max-age=31536000\nx-rq: dfw8\nx-cache: HIT\naccept-ranges: bytes\nstrict-transport-security: max-age=31536000\nx-remembering: Eric Binnion <https://friendsofericbinnion.wordpress.com/>\n\n",
+  "x-frame-options": "",
+  "frame-ancestors": "",
+  "content-type": ""
+ },
+ {
+  "url": "https://sequoiacap.com/article/ais-600b-question",
+  "status": "HTTP/2 200 \nalt-svc: h3=\":443\"; ma=2592000\ncache-control: public, max-age=0, must-revalidate\ncontent-type: text/html\ndate: Mon, 19 Oct 2026 10:39:55 GMT\netag: \"9c12dccc26466a6682d019a268cccc92\"\nframer-site-id: 17ae59ef99109f4c2e49070e0d8353dd47e925a2bae0f5b752f1e6a8dd0cf3b4\nlast-modified: Sat, 17 Oct 2026 07:23:00 GMT\nlink: <https://framerusercontent.com>; rel=\"preconnect\", <https://framerusercontent.com>; rel=\"preconnect\"; crossorigin=\"\"\nserver: Framer/24ab00f\nserver-timing: region;desc=\"us-east-1\", cache;desc=\"cached\", ssg-status;desc=\"optimized\", version;desc=\"24ab00f\", instance;desc=\"291ad59\", route;dur=1;desc=\"id=OUvT4Owxg&locale=default&var.ms2LKUZRq=ais-600b-question\", country;desc=\"US\", ss-only-routes\nstrict-transport-security: max-age=31536000\nvary: Accept-Encoding, Accept\nx-content-type-options: nosniff\ncontent-length: 530334\n\n",
+  "x-frame-options": "",
+  "frame-ancestors": "",
+  "content-type": ""
+ },
+ {
+  "url": "https://www.nobelprize.org/prizes/economic-sciences/2005/popular-information/",
+  "status": "HTTP/2 200 \ndate: Mon, 19 Oct 2026 10:39:59 GMT\ncontent-type: text/html; charset=UTF-8\nvary: Accept-Encoding\nx-frame-options: SAMEORIGIN\nx-loc: old\nx-ncache-status: 0\nx-ncache-bypass: 0\nx-ncache: MISS\nlast-modified: Mon, 19 Oct 2026 10:39:59 GMT\ncache-control: no-store\nstrict-transport-security: max-age=31536000\nx-content-type-options: nosniff\nreferrer-policy: strict-origin\nx-xss-protection: 1; mode=block\ncf-cache-status: EXPIRED\nserver: cloudflare\ncf-ray: a4cf29780aa24772-DFW\nalt-svc: h3=\":443\"; ma=86400\n\n",
+  "x-frame-options": "",
+  "frame-ancestors": "",
+  "content-type": ""
+ },
+ {
+  "url": "https://www.oaktreecapital.com/insights/memo/shall-we-repeal-the-laws-of-economics---part-iii",
+  "status": "HTTP/2 200 \ndate: Mon, 19 Oct 2026 10:39:59 GMT\ncontent-type: text/html; charset=utf-8\ncf-ray: a4cf297ddc70f81b-DFW\ncf-cache-status: DYNAMIC\ncache-control: public, max-age=0, s-maxage=3600\nvary: accept-encoding\nexpires: Mon, 19 Oct 2026 10:39:59 GMT\nlast-modified: Thu, 15 Oct 2026 07:44:41 GMT\nserver: cloudflare\nstrict-transport-security: max-age=31536000; preload\naccess-control-expose-headers: Request-Context\ncache-tag: cbf94cd4-8561-4e2d-a831-e24de8150b94|Production|www.oaktreecapital.com|/insights/memo/shall-we-repeal-the-laws-of-economics---part-iii, cbf94cd4-8561-4e2d-a831-e24de8150b94|Production\nrequest-context: appId=cid-v1:4f1af9bd-3d29-4011-893c-152a7fe0e2d8\nsf-cache-key: 5XjEQrGn8JswTRIdUS6OIAEb-4NW6mK1fuWoUdeJ1uM1\nsf-cache-status: HIT\nalt-svc: h3=\":443\"; ma=86400\n\n",
+  "x-frame-options": "",
+  "frame-ancestors": "",
+  "content-type": ""
+ },
+ {
+  "url": "https://saudi.endeavor.org/from-startup-to-public-offering-strengthening-the-ipo-pipeline-in-saudi-arabia/",
+  "status": "HTTP/2 403 \ndate: Mon, 19 Oct 2026 10:40:02 GMT\ncontent-type: text/html; charset=UTF-8\ncache-control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0\nexpires: Thu, 01 Jan 1970 00:00:01 GMT\nreferrer-policy: same-origin\nx-frame-options: SAMEORIGIN\nset-cookie: __cf_bm=cw3MWxZ6NNf53zTzLYGenUHap_cECrgIfz34f_8lI_k-1792406402.0015934-1.0.1.1-Jj1w5rVBAgnN5rw9l7bOkDw7Tf86aWEaBgMJRSX97CP22umDEl_lBZsO6TuiYDeRKsaDXheQqbRQZ6Pe2u_CePW.IUpc9OpIYsF895.UwH9y7nzI32cQsiuQeIMlVK8O; HttpOnly; SameSite=None; Secure; Path=/; Domain=saudi.endeavor.org; Expires=Mon, 19 Oct 2026 11:10:02 GMT\nserver: cloudflare\ncf-ray: a4cf298c8f4dca89-DFW\nalt-svc: h3=\":443\"; ma=86400\n\n",
+  "x-frame-options": "",
+  "frame-ancestors": "",
+  "content-type": ""
+ }
+]
