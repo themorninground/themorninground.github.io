@@ -3277,6 +3277,35 @@
   ],
   "region": "AE",
   "auto": true,
+  "found": "2026-10-20",
+  "last_ok": "2026-10-20"
+ },
+ {
+  "id": "moomoo",
+  "name": "Moomoo",
+  "ar": "Moomoo",
+  "url": "https://moomoo.com",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "en"
+  ],
+  "region": "US",
+  "auto": true,
+  "found": "2026-10-20"
+ },
+ {
+  "id": "alquds",
+  "name": "جريدة القدس",
+  "ar": "جريدة القدس",
+  "url": "https://alquds.com",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "ar"
+  ],
+  "region": "AE",
+  "auto": true,
   "found": "2026-10-20"
  }
 ]
