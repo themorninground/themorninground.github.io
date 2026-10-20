@@ -223,5 +223,7 @@
  "morningstar": "",
  "cryptobriefing": "https://cryptobriefing.com/feed/",
  "moomoo": "",
- "alquds": "https://alquds.com/feed"
+ "alquds": "https://alquds.com/feed",
+ "infotechlead": "",
+ "hapijournal": "https://hapijournal.com/feed/"
 }
