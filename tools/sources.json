@@ -3395,5 +3395,19 @@
   "auto": true,
   "found": "2026-10-20",
   "last_ok": "2026-10-20"
+ },
+ {
+  "id": "businessinsider",
+  "name": "Business Insider",
+  "ar": "Business Insider",
+  "url": "https://businessinsider.com",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "en"
+  ],
+  "region": "US",
+  "auto": true,
+  "found": "2026-10-20"
  }
 ]
