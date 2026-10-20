@@ -3306,6 +3306,35 @@
   ],
   "region": "AE",
   "auto": true,
+  "found": "2026-10-20",
+  "last_ok": "2026-10-20"
+ },
+ {
+  "id": "infotechlead",
+  "name": "InfotechLead",
+  "ar": "InfotechLead",
+  "url": "https://infotechlead.com",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "en"
+  ],
+  "region": "SA",
+  "auto": true,
+  "found": "2026-10-20"
+ },
+ {
+  "id": "hapijournal",
+  "name": "جريدة حابي",
+  "ar": "جريدة حابي",
+  "url": "https://hapijournal.com",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "ar"
+  ],
+  "region": "SA",
+  "auto": true,
   "found": "2026-10-20"
  }
 ]
