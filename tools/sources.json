@@ -3248,7 +3248,8 @@
   ],
   "region": "SA",
   "auto": true,
-  "found": "2026-10-20"
+  "found": "2026-10-20",
+  "last_ok": "2026-10-20"
  },
  {
   "id": "morningstar",
@@ -3261,6 +3262,20 @@
    "en"
   ],
   "region": "US",
+  "auto": true,
+  "found": "2026-10-20"
+ },
+ {
+  "id": "cryptobriefing",
+  "name": "Crypto Briefing",
+  "ar": "Crypto Briefing",
+  "url": "https://cryptobriefing.com",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "en"
+  ],
+  "region": "AE",
   "auto": true,
   "found": "2026-10-20"
  }
