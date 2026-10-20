@@ -3337,5 +3337,33 @@
   "auto": true,
   "found": "2026-10-20",
   "last_ok": "2026-10-20"
+ },
+ {
+  "id": "sollywood",
+  "name": "سوليوود",
+  "ar": "سوليوود",
+  "url": "https://sollywood.com.sa",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "ar"
+  ],
+  "region": "SA",
+  "auto": true,
+  "found": "2026-10-20"
+ },
+ {
+  "id": "almawq3",
+  "name": "موقع الموقع",
+  "ar": "موقع الموقع",
+  "url": "https://almawq3.com",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "ar"
+  ],
+  "region": "SA",
+  "auto": true,
+  "found": "2026-10-20"
  }
 ]
