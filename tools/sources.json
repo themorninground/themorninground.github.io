@@ -3366,5 +3366,33 @@
   "region": "SA",
   "auto": true,
   "found": "2026-10-20"
+ },
+ {
+  "id": "alain",
+  "name": "العين الإخبارية",
+  "ar": "العين الإخبارية",
+  "url": "https://al-ain.com",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "ar"
+  ],
+  "region": "SA",
+  "auto": true,
+  "found": "2026-10-20"
+ },
+ {
+  "id": "sawtbeirut",
+  "name": "صوت بيروت إنترناشونال",
+  "ar": "صوت بيروت إنترناشونال",
+  "url": "https://sawtbeirut.com",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "ar"
+  ],
+  "region": "SA",
+  "auto": true,
+  "found": "2026-10-20"
  }
 ]
