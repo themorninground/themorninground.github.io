@@ -3235,5 +3235,33 @@
   "auto": true,
   "found": "2026-10-19",
   "last_ok": "2026-10-20"
+ },
+ {
+  "id": "disruptionbanking",
+  "name": "Disruption Banking",
+  "ar": "Disruption Banking",
+  "url": "https://disruptionbanking.com",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "en"
+  ],
+  "region": "SA",
+  "auto": true,
+  "found": "2026-10-20"
+ },
+ {
+  "id": "morningstar",
+  "name": "Morningstar",
+  "ar": "Morningstar",
+  "url": "https://morningstar.com",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "en"
+  ],
+  "region": "US",
+  "auto": true,
+  "found": "2026-10-20"
  }
 ]
