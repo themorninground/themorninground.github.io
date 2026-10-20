@@ -39,7 +39,9 @@ html = f'''<!doctype html>
 <meta property="og:description" content="Every page compounds.">
 <meta property="og:image" content="https://themorninground.github.io/brand/pack/png/tmr-avatar-1080.png">
 <meta name="theme-color" content="#0B0D12">
-<link rel="icon" href="{fav}">
+<link rel="icon" href="favicon.ico" sizes="48x48">
+<link rel="icon" href="favicon.svg?v=2" type="image/svg+xml">
+<link rel="icon" href="favicon-32.png?v=2" type="image/png" sizes="32x32">
 <link rel="apple-touch-icon" href="brand/pack/png/tmr-app-icon-180.png">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=Newsreader:opsz,wght@6..72,400..700&display=swap">
