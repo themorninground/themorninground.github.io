@@ -3424,5 +3424,33 @@
   "region": "SA",
   "auto": true,
   "found": "2026-10-21"
+ },
+ {
+  "id": "pressreader",
+  "name": "PressReader",
+  "ar": "PressReader",
+  "url": "https://pressreader.com",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "en"
+  ],
+  "region": "US",
+  "auto": true,
+  "found": "2026-10-21"
+ },
+ {
+  "id": "natlawreview",
+  "name": "The National Law Review",
+  "ar": "The National Law Review",
+  "url": "https://natlawreview.com",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "en"
+  ],
+  "region": "US",
+  "auto": true,
+  "found": "2026-10-21"
  }
 ]
