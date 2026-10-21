@@ -3410,5 +3410,19 @@
   "auto": true,
   "found": "2026-10-20",
   "last_ok": "2026-10-21"
+ },
+ {
+  "id": "sarayanews",
+  "name": "وكالة أنباء سرايا الإخبارية - حرية سقفها السماء",
+  "ar": "وكالة أنباء سرايا الإخبارية - حرية سقفها السماء",
+  "url": "https://sarayanews.com",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "ar"
+  ],
+  "region": "SA",
+  "auto": true,
+  "found": "2026-10-21"
  }
 ]
