@@ -3482,5 +3482,47 @@
   "region": "US",
   "auto": true,
   "found": "2026-10-21"
+ },
+ {
+  "id": "ua",
+  "name": "UA.NEWS",
+  "ar": "UA.NEWS",
+  "url": "https://ua.news",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "en"
+  ],
+  "region": "SA",
+  "auto": true,
+  "found": "2026-10-21"
+ },
+ {
+  "id": "arcticstartup",
+  "name": "ArcticStartup",
+  "ar": "ArcticStartup",
+  "url": "https://arcticstartup.com",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "en"
+  ],
+  "region": "US",
+  "auto": true,
+  "found": "2026-10-21"
+ },
+ {
+  "id": "alalamelyoum",
+  "name": "العالم اليوم",
+  "ar": "العالم اليوم",
+  "url": "https://alalamelyoum.co",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "ar"
+  ],
+  "region": "EG",
+  "auto": true,
+  "found": "2026-10-21"
  }
 ]
