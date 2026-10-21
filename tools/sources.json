@@ -3451,6 +3451,35 @@
   ],
   "region": "US",
   "auto": true,
+  "found": "2026-10-21",
+  "last_ok": "2026-10-21"
+ },
+ {
+  "id": "thehindubusinessline",
+  "name": "BusinessLine",
+  "ar": "BusinessLine",
+  "url": "https://thehindubusinessline.com",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "en"
+  ],
+  "region": "SA",
+  "auto": true,
+  "found": "2026-10-21"
+ },
+ {
+  "id": "smartasset",
+  "name": "SmartAsset",
+  "ar": "SmartAsset",
+  "url": "https://smartasset.com",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "en"
+  ],
+  "region": "US",
+  "auto": true,
   "found": "2026-10-21"
  }
 ]
