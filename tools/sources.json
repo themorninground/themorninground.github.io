@@ -3509,7 +3509,8 @@
   ],
   "region": "US",
   "auto": true,
-  "found": "2026-10-21"
+  "found": "2026-10-21",
+  "last_ok": "2026-10-21"
  },
  {
   "id": "alalamelyoum",
@@ -3522,6 +3523,48 @@
    "ar"
   ],
   "region": "EG",
+  "auto": true,
+  "found": "2026-10-21"
+ },
+ {
+  "id": "technext24",
+  "name": "Technext24.com",
+  "ar": "Technext24.com",
+  "url": "https://technext24.com",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "en"
+  ],
+  "region": "AE",
+  "auto": true,
+  "found": "2026-10-21"
+ },
+ {
+  "id": "innovationvillage",
+  "name": "Innovation Village",
+  "ar": "Innovation Village",
+  "url": "https://innovation-village.com",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "en"
+  ],
+  "region": "EG",
+  "auto": true,
+  "found": "2026-10-21"
+ },
+ {
+  "id": "convergencenow",
+  "name": "Convergence Now",
+  "ar": "Convergence Now",
+  "url": "https://convergence-now.com",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "en"
+  ],
+  "region": "US",
   "auto": true,
   "found": "2026-10-21"
  }
