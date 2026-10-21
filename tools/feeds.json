@@ -233,5 +233,7 @@
  "businessinsider": "https://feeds.businessinsider.com/custom/all",
  "sarayanews": "",
  "pressreader": "",
- "natlawreview": "https://natlawreview.com/feed"
+ "natlawreview": "https://natlawreview.com/feed",
+ "thehindubusinessline": "https://www.thehindubusinessline.com/feeder/default.rss",
+ "smartasset": ""
 }

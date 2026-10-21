@@ -3466,7 +3466,8 @@
   ],
   "region": "SA",
   "auto": true,
-  "found": "2026-10-21"
+  "found": "2026-10-21",
+  "last_ok": "2026-10-21"
  },
  {
   "id": "smartasset",
