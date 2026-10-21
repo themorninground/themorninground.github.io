@@ -3538,7 +3538,8 @@
   ],
   "region": "AE",
   "auto": true,
-  "found": "2026-10-21"
+  "found": "2026-10-21",
+  "last_ok": "2026-10-21"
  },
  {
   "id": "innovationvillage",
@@ -3552,7 +3553,8 @@
   ],
   "region": "EG",
   "auto": true,
-  "found": "2026-10-21"
+  "found": "2026-10-21",
+  "last_ok": "2026-10-21"
  },
  {
   "id": "convergencenow",
@@ -3565,6 +3567,21 @@
    "en"
   ],
   "region": "US",
+  "auto": true,
+  "found": "2026-10-21",
+  "last_ok": "2026-10-21"
+ },
+ {
+  "id": "legit",
+  "name": "Legit News",
+  "ar": "Legit News",
+  "url": "https://legit.ng",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "en"
+  ],
+  "region": "SA",
   "auto": true,
   "found": "2026-10-21"
  }
