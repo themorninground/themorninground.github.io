@@ -247,5 +247,7 @@
  "enx": "https://en.sedaily.com/rss/newsall",
  "economictimes": "",
  "livemint": "",
- "economytoday": "https://www.economy-today.com/feed/"
+ "economytoday": "https://www.economy-today.com/feed/",
+ "cityam": "https://www.cityam.com/feed/",
+ "marketscreener": ""
 }

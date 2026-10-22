@@ -3670,7 +3670,8 @@
   ],
   "region": "SA",
   "auto": true,
-  "found": "2026-10-22"
+  "found": "2026-10-22",
+  "last_ok": "2026-10-22"
  },
  {
   "id": "marketscreener",
