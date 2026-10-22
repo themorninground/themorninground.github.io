@@ -242,5 +242,7 @@
  "technext24": "https://technext24.com/feed/",
  "innovationvillage": "https://innovation-village.com/feed/",
  "convergencenow": "https://www.convergence-now.com/feed/",
- "legit": "https://www.legit.ng/rss/all.rss"
+ "legit": "https://www.legit.ng/rss/all.rss",
+ "techstars": "",
+ "enx": "https://en.sedaily.com/rss/newsall"
 }

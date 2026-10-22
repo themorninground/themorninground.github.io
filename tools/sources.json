@@ -708,7 +708,7 @@
   ],
   "region": "MENA",
   "auto": false,
-  "last_ok": "2026-10-21"
+  "last_ok": "2026-10-22"
  },
  {
   "id": "arabfounders",
@@ -1577,7 +1577,7 @@
   "region": "AE",
   "auto": true,
   "found": "2026-10-14",
-  "last_ok": "2026-10-21"
+  "last_ok": "2026-10-22"
  },
  {
   "id": "tekedia",
@@ -3612,6 +3612,7 @@
   ],
   "region": "US",
   "auto": true,
-  "found": "2026-10-22"
+  "found": "2026-10-22",
+  "last_ok": "2026-10-22"
  }
 ]
