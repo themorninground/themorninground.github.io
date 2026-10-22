@@ -3234,7 +3234,7 @@
   "region": "SA",
   "auto": true,
   "found": "2026-10-19",
-  "last_ok": "2026-10-21"
+  "last_ok": "2026-10-22"
  },
  {
   "id": "disruptionbanking",
@@ -3654,6 +3654,35 @@
    "ar"
   ],
   "region": "SA",
+  "auto": true,
+  "found": "2026-10-22",
+  "last_ok": "2026-10-22"
+ },
+ {
+  "id": "cityam",
+  "name": "City AM",
+  "ar": "City AM",
+  "url": "https://cityam.com",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "en"
+  ],
+  "region": "SA",
+  "auto": true,
+  "found": "2026-10-22"
+ },
+ {
+  "id": "marketscreener",
+  "name": "www.marketscreener.com",
+  "ar": "www.marketscreener.com",
+  "url": "https://marketscreener.com",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "en"
+  ],
+  "region": "US",
   "auto": true,
   "found": "2026-10-22"
  }

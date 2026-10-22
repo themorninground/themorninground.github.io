@@ -245,5 +245,7 @@
  "legit": "https://www.legit.ng/rss/all.rss",
  "techstars": "",
  "enx": "https://en.sedaily.com/rss/newsall",
- "economictimes": ""
+ "economictimes": "",
+ "livemint": "",
+ "economytoday": "https://www.economy-today.com/feed/"
 }
