@@ -3731,5 +3731,19 @@
   "auto": true,
   "found": "2026-10-22",
   "last_ok": "2026-10-22"
+ },
+ {
+  "id": "mystartupworld",
+  "name": "My Startup World",
+  "ar": "My Startup World",
+  "url": "https://mystartupworld.com",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "en"
+  ],
+  "region": "SA",
+  "auto": true,
+  "found": "2026-10-22"
  }
 ]
