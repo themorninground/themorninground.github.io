@@ -2300,7 +2300,7 @@
   "region": "SA",
   "auto": true,
   "found": "2026-10-14",
-  "last_ok": "2026-10-21"
+  "last_ok": "2026-10-22"
  },
  {
   "id": "streamlinefeed",
@@ -3624,6 +3624,34 @@
   "kind": "discovered",
   "lang": [
    "en"
+  ],
+  "region": "SA",
+  "auto": true,
+  "found": "2026-10-22"
+ },
+ {
+  "id": "livemint",
+  "name": "Livemint",
+  "ar": "Livemint",
+  "url": "https://livemint.com",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "en"
+  ],
+  "region": "US",
+  "auto": true,
+  "found": "2026-10-22"
+ },
+ {
+  "id": "economytoday",
+  "name": "الاقتصاد اليوم",
+  "ar": "الاقتصاد اليوم",
+  "url": "https://economy-today.com",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "ar"
   ],
   "region": "SA",
   "auto": true,
