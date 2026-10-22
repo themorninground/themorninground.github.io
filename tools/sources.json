@@ -3686,5 +3686,47 @@
   "region": "US",
   "auto": true,
   "found": "2026-10-22"
+ },
+ {
+  "id": "shattered",
+  "name": "shattered.io",
+  "ar": "shattered.io",
+  "url": "https://shattered.io",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "en"
+  ],
+  "region": "SA",
+  "auto": true,
+  "found": "2026-10-22"
+ },
+ {
+  "id": "digitalhealthnews",
+  "name": "Digital Health News",
+  "ar": "Digital Health News",
+  "url": "https://digitalhealthnews.com",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "en"
+  ],
+  "region": "US",
+  "auto": true,
+  "found": "2026-10-22"
+ },
+ {
+  "id": "businessconnectindia",
+  "name": "Business Connect Magazine",
+  "ar": "Business Connect Magazine",
+  "url": "https://businessconnectindia.in",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "en"
+  ],
+  "region": "US",
+  "auto": true,
+  "found": "2026-10-22"
  }
 ]
