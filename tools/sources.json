@@ -3774,5 +3774,19 @@
   "region": "SA",
   "auto": true,
   "found": "2026-10-23"
+ },
+ {
+  "id": "indexbox",
+  "name": "IndexBox",
+  "ar": "IndexBox",
+  "url": "https://indexbox.io",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "ar"
+  ],
+  "region": "SA",
+  "auto": true,
+  "found": "2026-10-23"
  }
 ]
