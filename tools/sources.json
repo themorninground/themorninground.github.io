@@ -3844,7 +3844,8 @@
   ],
   "region": "US",
   "auto": true,
-  "found": "2026-10-23"
+  "found": "2026-10-23",
+  "last_ok": "2026-10-23"
  },
  {
   "id": "quasa",
@@ -3872,7 +3873,8 @@
   ],
   "region": "SA",
   "auto": true,
-  "found": "2026-10-23"
+  "found": "2026-10-23",
+  "last_ok": "2026-10-23"
  },
  {
   "id": "nl7za",
@@ -3914,7 +3916,8 @@
   ],
   "region": "AE",
   "auto": true,
-  "found": "2026-10-23"
+  "found": "2026-10-23",
+  "last_ok": "2026-10-23"
  },
  {
   "id": "iqraa",
