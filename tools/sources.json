@@ -3801,6 +3801,35 @@
   ],
   "region": "SA",
   "auto": true,
+  "found": "2026-10-23",
+  "last_ok": "2026-10-23"
+ },
+ {
+  "id": "soutalomma",
+  "name": "صوت الأمة",
+  "ar": "صوت الأمة",
+  "url": "https://soutalomma.com",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "ar"
+  ],
+  "region": "SA",
+  "auto": true,
+  "found": "2026-10-23"
+ },
+ {
+  "id": "rosaelyoussef",
+  "name": "بوابة روز اليوسف",
+  "ar": "بوابة روز اليوسف",
+  "url": "https://rosaelyoussef.com",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "ar"
+  ],
+  "region": "EG",
+  "auto": true,
   "found": "2026-10-23"
  }
 ]
