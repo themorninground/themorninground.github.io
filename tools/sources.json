@@ -3788,5 +3788,19 @@
   "region": "SA",
   "auto": true,
   "found": "2026-10-23"
+ },
+ {
+  "id": "techround",
+  "name": "TechRound",
+  "ar": "TechRound",
+  "url": "https://techround.co.uk",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "en"
+  ],
+  "region": "SA",
+  "auto": true,
+  "found": "2026-10-23"
  }
 ]
