@@ -3831,5 +3831,103 @@
   "region": "EG",
   "auto": true,
   "found": "2026-10-23"
+ },
+ {
+  "id": "americanbazaaronline",
+  "name": "The American Bazaar",
+  "ar": "The American Bazaar",
+  "url": "https://americanbazaaronline.com",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "en"
+  ],
+  "region": "US",
+  "auto": true,
+  "found": "2026-10-23"
+ },
+ {
+  "id": "quasa",
+  "name": "quasa.io",
+  "ar": "quasa.io",
+  "url": "https://quasa.io",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "ar"
+  ],
+  "region": "SA",
+  "auto": true,
+  "found": "2026-10-23"
+ },
+ {
+  "id": "aleqaria",
+  "name": "الجريدة العقارية",
+  "ar": "الجريدة العقارية",
+  "url": "https://aleqaria.com.eg",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "ar"
+  ],
+  "region": "SA",
+  "auto": true,
+  "found": "2026-10-23"
+ },
+ {
+  "id": "nl7za",
+  "name": "لحظات نيوز",
+  "ar": "لحظات نيوز",
+  "url": "https://nl7za.com",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "ar"
+  ],
+  "region": "SA",
+  "auto": true,
+  "found": "2026-10-23"
+ },
+ {
+  "id": "gate",
+  "name": "بوابة الأهرام",
+  "ar": "بوابة الأهرام",
+  "url": "https://gate.ahram.org.eg",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "ar"
+  ],
+  "region": "SA",
+  "auto": true,
+  "found": "2026-10-23"
+ },
+ {
+  "id": "mangish",
+  "name": "مانكيش نت",
+  "ar": "مانكيش نت",
+  "url": "https://mangish.net",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "ar"
+  ],
+  "region": "AE",
+  "auto": true,
+  "found": "2026-10-23"
+ },
+ {
+  "id": "iqraa",
+  "name": "إقرأ نيوز",
+  "ar": "إقرأ نيوز",
+  "url": "https://iqraa.news",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "ar"
+  ],
+  "region": "EG",
+  "auto": true,
+  "found": "2026-10-23"
  }
 ]
