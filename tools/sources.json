@@ -3932,5 +3932,19 @@
   "region": "EG",
   "auto": true,
   "found": "2026-10-23"
+ },
+ {
+  "id": "cryptorank",
+  "name": "CryptoRank",
+  "ar": "CryptoRank",
+  "url": "https://cryptorank.io",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "en"
+  ],
+  "region": "US",
+  "auto": true,
+  "found": "2026-10-24"
  }
 ]
