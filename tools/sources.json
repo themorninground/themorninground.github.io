@@ -3961,5 +3961,19 @@
   "auto": true,
   "found": "2026-10-24",
   "last_ok": "2026-10-24"
+ },
+ {
+  "id": "newsroom",
+  "name": "نيوز رووم",
+  "ar": "نيوز رووم",
+  "url": "https://newsroom.info",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "ar"
+  ],
+  "region": "EG",
+  "auto": true,
+  "found": "2026-10-24"
  }
 ]
