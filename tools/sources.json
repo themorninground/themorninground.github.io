@@ -3946,5 +3946,19 @@
   "region": "US",
   "auto": true,
   "found": "2026-10-24"
+ },
+ {
+  "id": "geekwire",
+  "name": "GeekWire",
+  "ar": "GeekWire",
+  "url": "https://geekwire.com",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "en"
+  ],
+  "region": "US",
+  "auto": true,
+  "found": "2026-10-24"
  }
 ]
