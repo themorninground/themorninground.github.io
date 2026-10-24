@@ -3975,5 +3975,19 @@
   "region": "EG",
   "auto": true,
   "found": "2026-10-24"
+ },
+ {
+  "id": "wipo",
+  "name": "WIPO",
+  "ar": "WIPO",
+  "url": "https://wipo.int",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "en"
+  ],
+  "region": "SA",
+  "auto": true,
+  "found": "2026-10-24"
  }
 ]
