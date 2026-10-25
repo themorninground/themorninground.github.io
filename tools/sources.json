@@ -4047,5 +4047,33 @@
   "region": "US",
   "auto": true,
   "found": "2026-10-25"
+ },
+ {
+  "id": "techbuild",
+  "name": "Tech Build Africa",
+  "ar": "Tech Build Africa",
+  "url": "https://techbuild.africa",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "en"
+  ],
+  "region": "EG",
+  "auto": true,
+  "found": "2026-10-25"
+ },
+ {
+  "id": "mt",
+  "name": "머니투데이",
+  "ar": "머니투데이",
+  "url": "https://mt.co.kr",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "en"
+  ],
+  "region": "US",
+  "auto": true,
+  "found": "2026-10-25"
  }
 ]
