@@ -4018,5 +4018,19 @@
   "region": "US",
   "auto": true,
   "found": "2026-10-25"
+ },
+ {
+  "id": "emirates24",
+  "name": "https://emirates24.net/",
+  "ar": "https://emirates24.net/",
+  "url": "https://emirates24.net",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "ar"
+  ],
+  "region": "SA",
+  "auto": true,
+  "found": "2026-10-25"
  }
 ]
