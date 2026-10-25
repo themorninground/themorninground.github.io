@@ -4033,5 +4033,19 @@
   "auto": true,
   "found": "2026-10-25",
   "last_ok": "2026-10-25"
+ },
+ {
+  "id": "electronics",
+  "name": "electronics.economictimes.indiatimes.com",
+  "ar": "electronics.economictimes.indiatimes.com",
+  "url": "https://electronics.economictimes.indiatimes.com",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "en"
+  ],
+  "region": "US",
+  "auto": true,
+  "found": "2026-10-25"
  }
 ]
