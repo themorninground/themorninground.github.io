@@ -4004,5 +4004,19 @@
   "auto": true,
   "found": "2026-10-25",
   "last_ok": "2026-10-25"
+ },
+ {
+  "id": "tokenpost",
+  "name": "TOKENPOST",
+  "ar": "TOKENPOST",
+  "url": "https://tokenpost.com",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "en"
+  ],
+  "region": "US",
+  "auto": true,
+  "found": "2026-10-25"
  }
 ]
