@@ -596,7 +596,7 @@ function shell() {
  $('#srch').onclick = openSearch;
  $('#menub').onclick = openMenu;
  document.addEventListener('keydown', e => { if ((e.key === 'k' && (e.metaKey || e.ctrlKey)) || (e.key === '/' && !/INPUT|TEXTAREA/.test(document.activeElement.tagName))) { e.preventDefault(); openSearch(); } });
- let ly = 0; window.addEventListener('scroll', () => { const y = window.scrollY; const down = y > ly && y > 140; $('#hdr').classList.toggle('hide', down); $('#dock').classList.toggle('hide', down && y > 300); ly = y;
+ let ly = 0; window.addEventListener('scroll', () => { const y = window.scrollY; const down = y > ly && y > 140 && /^#\/a\//.test(location.hash); $('#hdr').classList.toggle('hide', down); ly = y;
   const rs = $('#rsun'); const pr = $('#prose'); const sm = $('#sdeck'); const tgt = pr && pr.offsetParent ? pr : (sm && sm.offsetParent ? sm : null); if (rs && tgt) { const r = tgt.getBoundingClientRect(); const p = Math.min(1, Math.max(0, (window.innerHeight * .6 - r.top) / r.height)); rs.style.setProperty('--r', p.toFixed(3)); } }, { passive: true });
  document.addEventListener('click', e => { const b = e.target.closest('[data-save]'); if (!b) return; const id = b.dataset.save; const i = ST.saved.indexOf(id); if (i < 0) ST.saved.push(id); else ST.saved.splice(i, 1); save(); b.setAttribute('aria-pressed', String(i < 0)); if (i < 0) toast(tr('حُفظت في محفوظاتك', 'Saved to your list')); });
  document.addEventListener('click', e => { const b = e.target.closest('[data-know]'); if (!b) return; const id = b.dataset.know; if (!ST.known.includes(id)) { ST.known.push(id); save(); burst(b); } $$(`[data-know="${id}"]`).forEach(x => { x.classList.add('done'); x.lastChild.textContent = tr('أخذته', 'Learned'); }); refreshStats(); });
