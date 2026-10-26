@@ -1125,3 +1125,12 @@ html[dir=rtl] .foot .byl{text-align:right}
 .wkcard.wkbig{aspect-ratio:auto;min-height:560px;padding-bottom:170px}
 .wksun{bottom:-36px;width:170px;height:170px}
 @media (max-width:640px){.wkcard{padding-bottom:150px}.wkcard.wkbig{min-height:0}.wksun{width:130px;height:130px;bottom:-28px}.wklogo{width:130px}}
+.cterm.auto{background:none;border-radius:0;padding-bottom:1px}
+.cterm.auto.new{border-bottom:2px dotted var(--sky)}
+.cterm.auto.new::after{content:"";display:inline-block;width:.55em;height:.55em;margin-inline-start:3px;vertical-align:.45em;background:var(--sky);clip-path:polygon(50% 0,61% 39%,100% 50%,61% 61%,50% 100%,39% 61%,0 50%,39% 39%)}
+.cterm.auto.known{background:linear-gradient(transparent 64%,color-mix(in srgb,var(--dawn) 55%,transparent) 64%)}
+.cterm.auto.known::before{content:"";display:inline-block;width:.6em;height:.6em;margin-inline-end:4px;border-radius:50%;background:var(--stripes);vertical-align:.1em}
+.popacts{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-top:10px}
+.knowb.sm{padding:6px 12px;font-size:13px}
+.ohint{display:inline-flex;align-items:center;gap:8px;padding:8px 14px;border-radius:12px;background:var(--paper-2);color:var(--ink);font-weight:600;font-size:14px}.ohint .ic{width:16px;height:16px}
+.sprose .colink{border-bottom:1px dashed currentColor;text-decoration:none;color:inherit}

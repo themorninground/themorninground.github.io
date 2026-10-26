@@ -45,6 +45,11 @@
   "related": [
    "tvpi-dpi",
    "pro-rata"
+  ],
+  "aka": [
+   "قانون القوة",
+   "قوانين القوة",
+   "Power law"
   ]
  },
  {
@@ -83,7 +88,15 @@
   ],
   "formula": "<span dir=\"ltr\">Stake = Investment ÷ Post</span>",
   "stage": "هيكلة الصفقات",
-  "stage_en": "Deal terms"
+  "stage_en": "Deal terms",
+  "aka": [
+   "التقييم قبل الجولة",
+   "التقييم بعد الجولة",
+   "التقييم قبل التمويل",
+   "التقييم بعد التمويل",
+   "pre-money",
+   "post-money"
+  ]
  },
  {
   "id": "dilution",
@@ -120,7 +133,13 @@
   ],
   "formula": "<span dir=\"ltr\">New = Old × (1 − Investor stake)</span>",
   "stage": "هيكلة الصفقات",
-  "stage_en": "Deal terms"
+  "stage_en": "Deal terms",
+  "aka": [
+   "تخفيف الملكية",
+   "تخفيف حصة",
+   "تخفيف حصص",
+   "dilution"
+  ]
  },
  {
   "id": "cap-table",
@@ -156,7 +175,12 @@
    "convertible-note"
   ],
   "stage": "هيكلة الصفقات",
-  "stage_en": "Deal terms"
+  "stage_en": "Deal terms",
+  "aka": [
+   "جدول الملكية",
+   "جداول الملكية",
+   "cap table"
+  ]
  },
  {
   "id": "option-pool",
@@ -191,7 +215,13 @@
    "pre-post-money"
   ],
   "stage": "هيكلة الصفقات",
-  "stage_en": "Deal terms"
+  "stage_en": "Deal terms",
+  "aka": [
+   "مجمع خيارات",
+   "خيارات الأسهم للموظفين",
+   "option pool",
+   "ESOP"
+  ]
  },
  {
   "id": "vesting",
@@ -225,7 +255,12 @@
    "term-sheet"
   ],
   "stage": "هيكلة الصفقات",
-  "stage_en": "Deal terms"
+  "stage_en": "Deal terms",
+  "aka": [
+   "الاستحقاق التدريجي",
+   "جداول الاستحقاق",
+   "vesting"
+  ]
  },
  {
   "id": "liquidation-preference",
@@ -265,7 +300,12 @@
   ],
   "formula": "<span dir=\"ltr\">max(1× invested, stake × exit)</span>",
   "stage": "هيكلة الصفقات",
-  "stage_en": "Deal terms"
+  "stage_en": "Deal terms",
+  "aka": [
+   "أفضلية التصفية",
+   "تفضيل التصفية",
+   "liquidation preference"
+  ]
  },
  {
   "id": "participating-preferred",
@@ -299,7 +339,11 @@
    "term-sheet"
   ],
   "stage": "هيكلة الصفقات",
-  "stage_en": "Deal terms"
+  "stage_en": "Deal terms",
+  "aka": [
+   "الأسهم الممتازة المشاركة",
+   "participating preferred"
+  ]
  },
  {
   "id": "anti-dilution",
@@ -334,7 +378,11 @@
    "term-sheet"
   ],
   "stage": "هيكلة الصفقات",
-  "stage_en": "Deal terms"
+  "stage_en": "Deal terms",
+  "aka": [
+   "الحماية من التخفيف",
+   "anti-dilution"
+  ]
  },
  {
   "id": "safe",
@@ -370,7 +418,11 @@
   ],
   "formula": "<span dir=\"ltr\">Stake ≈ Amount ÷ Cap</span>",
   "stage": "هيكلة الصفقات",
-  "stage_en": "Deal terms"
+  "stage_en": "Deal terms",
+  "aka": [
+   "اتفاقية سيف",
+   "SAFE"
+  ]
  },
  {
   "id": "convertible-note",
@@ -404,7 +456,12 @@
    "venture-debt"
   ],
   "stage": "هيكلة الصفقات",
-  "stage_en": "Deal terms"
+  "stage_en": "Deal terms",
+  "aka": [
+   "السند القابل للتحويل",
+   "السندات القابلة للتحويل",
+   "convertible note"
+  ]
  },
  {
   "id": "term-sheet",
@@ -444,7 +501,11 @@
    "vesting"
   ],
   "stage": "هيكلة الصفقات",
-  "stage_en": "Deal terms"
+  "stage_en": "Deal terms",
+  "aka": [
+   "ورقة الشروط",
+   "term sheet"
+  ]
  },
  {
   "id": "pro-rata",
@@ -479,7 +540,11 @@
    "power-law"
   ],
   "stage": "هيكلة الصفقات",
-  "stage_en": "Deal terms"
+  "stage_en": "Deal terms",
+  "aka": [
+   "حق المشاركة النسبية",
+   "pro-rata"
+  ]
  },
  {
   "id": "down-round",
@@ -514,7 +579,12 @@
    "pre-post-money"
   ],
   "stage": "هيكلة الصفقات",
-  "stage_en": "Deal terms"
+  "stage_en": "Deal terms",
+  "aka": [
+   "الجولة المنخفضة",
+   "جولة بتقييم أقل",
+   "down round"
+  ]
  },
  {
   "id": "gp-lp",
@@ -556,7 +626,13 @@
    "vintage-year"
   ],
   "stage": "الصناديق والمستثمرون فيها",
-  "stage_en": "Funds & LPs"
+  "stage_en": "Funds & LPs",
+  "aka": [
+   "الشريك العام",
+   "الشركاء المحدودين",
+   "الشركاء المحدودون",
+   "limited partners"
+  ]
  },
  {
   "id": "management-fee",
@@ -591,7 +667,11 @@
    "j-curve"
   ],
   "stage": "الصناديق والمستثمرون فيها",
-  "stage_en": "Funds & LPs"
+  "stage_en": "Funds & LPs",
+  "aka": [
+   "رسوم الإدارة",
+   "management fee"
+  ]
  },
  {
   "id": "carried-interest",
@@ -628,7 +708,12 @@
   ],
   "formula": "<span dir=\"ltr\">Carry = 20% × (Distributions − Capital)</span>",
   "stage": "الصناديق والمستثمرون فيها",
-  "stage_en": "Funds & LPs"
+  "stage_en": "Funds & LPs",
+  "aka": [
+   "الحصة المحمولة",
+   "حصة الأرباح للمدير",
+   "carried interest"
+  ]
  },
  {
   "id": "hurdle-rate",
@@ -662,7 +747,11 @@
    "waterfall"
   ],
   "stage": "الصناديق والمستثمرون فيها",
-  "stage_en": "Funds & LPs"
+  "stage_en": "Funds & LPs",
+  "aka": [
+   "عتبة العائد",
+   "hurdle rate"
+  ]
  },
  {
   "id": "waterfall",
@@ -697,7 +786,11 @@
    "liquidation-preference"
   ],
   "stage": "الصناديق والمستثمرون فيها",
-  "stage_en": "Funds & LPs"
+  "stage_en": "Funds & LPs",
+  "aka": [
+   "شلال التوزيع",
+   "distribution waterfall"
+  ]
  },
  {
   "id": "j-curve",
@@ -733,7 +826,11 @@
    "vintage-year"
   ],
   "stage": "الصناديق والمستثمرون فيها",
-  "stage_en": "Funds & LPs"
+  "stage_en": "Funds & LPs",
+  "aka": [
+   "منحنى J",
+   "J-curve"
+  ]
  },
  {
   "id": "tvpi-dpi",
@@ -773,7 +870,11 @@
   ],
   "formula": "<span dir=\"ltr\">TVPI = DPI + RVPI</span>",
   "stage": "الصناديق والمستثمرون فيها",
-  "stage_en": "Funds & LPs"
+  "stage_en": "Funds & LPs",
+  "aka": [
+   "TVPI",
+   "DPI"
+  ]
  },
  {
   "id": "irr",
@@ -808,7 +909,12 @@
    "dcf"
   ],
   "stage": "الصناديق والمستثمرون فيها",
-  "stage_en": "Funds & LPs"
+  "stage_en": "Funds & LPs",
+  "aka": [
+   "معدل العائد الداخلي",
+   "العائد الداخلي",
+   "IRR"
+  ]
  },
  {
   "id": "vintage-year",
@@ -842,7 +948,10 @@
    "tvpi-dpi"
   ],
   "stage": "الصناديق والمستثمرون فيها",
-  "stage_en": "Funds & LPs"
+  "stage_en": "Funds & LPs",
+  "aka": [
+   "vintage year"
+  ]
  },
  {
   "id": "capital-call",
@@ -877,7 +986,11 @@
    "j-curve"
   ],
   "stage": "الصناديق والمستثمرون فيها",
-  "stage_en": "Funds & LPs"
+  "stage_en": "Funds & LPs",
+  "aka": [
+   "استدعاء رأس المال",
+   "capital call"
+  ]
  },
  {
   "id": "dry-powder",
@@ -911,7 +1024,11 @@
    "gp-lp"
   ],
   "stage": "الصناديق والمستثمرون فيها",
-  "stage_en": "Funds & LPs"
+  "stage_en": "Funds & LPs",
+  "aka": [
+   "السيولة المتاحة للاستثمار",
+   "dry powder"
+  ]
  },
  {
   "id": "stages",
@@ -952,7 +1069,12 @@
    "unicorn"
   ],
   "stage": "أساسيات الاستثمار الجريء",
-  "stage_en": "Venture basics"
+  "stage_en": "Venture basics",
+  "aka": [
+   "مراحل التمويل",
+   "ما قبل البذرة",
+   "الجولة البذرية"
+  ]
  },
  {
   "id": "unicorn",
@@ -989,7 +1111,12 @@
    "stages"
   ],
   "stage": "أساسيات الاستثمار الجريء",
-  "stage_en": "Venture basics"
+  "stage_en": "Venture basics",
+  "aka": [
+   "اليونيكورن",
+   "يونيكورن",
+   "unicorn"
+  ]
  },
  {
   "id": "cvc",
@@ -1024,7 +1151,12 @@
    "stages"
   ],
   "stage": "أساسيات الاستثمار الجريء",
-  "stage_en": "Venture basics"
+  "stage_en": "Venture basics",
+  "aka": [
+   "الاستثمار الجريء المؤسسي",
+   "corporate venture capital",
+   "CVC"
+  ]
  },
  {
   "id": "venture-debt",
@@ -1060,7 +1192,11 @@
    "burn-runway"
   ],
   "stage": "أساسيات الاستثمار الجريء",
-  "stage_en": "Venture basics"
+  "stage_en": "Venture basics",
+  "aka": [
+   "الدين الجريء",
+   "venture debt"
+  ]
  },
  {
   "id": "secondaries",
@@ -1095,7 +1231,11 @@
    "tvpi-dpi"
   ],
   "stage": "أساسيات الاستثمار الجريء",
-  "stage_en": "Venture basics"
+  "stage_en": "Venture basics",
+  "aka": [
+   "الصفقات الثانوية",
+   "secondaries"
+  ]
  },
  {
   "id": "arr",
@@ -1130,7 +1270,12 @@
    "unit-economics"
   ],
   "stage": "التقييم والمقاييس",
-  "stage_en": "Valuation & metrics"
+  "stage_en": "Valuation & metrics",
+  "aka": [
+   "الإيراد السنوي المتكرر",
+   "الإيراد المتكرر",
+   "ARR"
+  ]
  },
  {
   "id": "unit-economics",
@@ -1172,6 +1317,15 @@
   "stage_en": "Valuation & metrics",
   "articles": [
    "gurley-rake"
+  ],
+  "aka": [
+   "اقتصاديات الوحدة",
+   "القيمة الدائمة للعميل",
+   "تكلفة اكتساب العميل",
+   "تكلفة جلب العميل",
+   "unit economics",
+   "LTV",
+   "CAC"
   ]
  },
  {
@@ -1207,7 +1361,13 @@
   ],
   "formula": "<span dir=\"ltr\">Runway = Cash ÷ Net burn</span>",
   "stage": "التقييم والمقاييس",
-  "stage_en": "Valuation & metrics"
+  "stage_en": "Valuation & metrics",
+  "aka": [
+   "معدل الحرق",
+   "المدة المتبقية",
+   "burn rate",
+   "runway"
+  ]
  },
  {
   "id": "burn-multiple",
@@ -1243,7 +1403,11 @@
   ],
   "formula": "<span dir=\"ltr\">Net burn ÷ Net new ARR</span>",
   "stage": "التقييم والمقاييس",
-  "stage_en": "Valuation & metrics"
+  "stage_en": "Valuation & metrics",
+  "aka": [
+   "مضاعف الحرق",
+   "burn multiple"
+  ]
  },
  {
   "id": "rule-of-40",
@@ -1279,7 +1443,12 @@
   ],
   "formula": "<span dir=\"ltr\">Growth % + Margin % ≥ 40</span>",
   "stage": "التقييم والمقاييس",
-  "stage_en": "Valuation & metrics"
+  "stage_en": "Valuation & metrics",
+  "aka": [
+   "قاعدة الأربعين",
+   "قاعدة 40",
+   "Rule of 40"
+  ]
  },
  {
   "id": "ev-revenue",
@@ -1315,7 +1484,14 @@
   ],
   "formula": "<span dir=\"ltr\">EV ÷ Revenue</span>",
   "stage": "التقييم والمقاييس",
-  "stage_en": "Valuation & metrics"
+  "stage_en": "Valuation & metrics",
+  "aka": [
+   "مضاعف الإيراد",
+   "مضاعفات الإيراد",
+   "مضاعف القيمة إلى الإيراد",
+   "مضاعفات الإيرادات",
+   "EV/Revenue"
+  ]
  },
  {
   "id": "dcf",
@@ -1350,7 +1526,13 @@
   ],
   "formula": "<span dir=\"ltr\">Σ CFₜ ÷ (1 + r)ᵗ</span>",
   "stage": "التقييم والمقاييس",
-  "stage_en": "Valuation & metrics"
+  "stage_en": "Valuation & metrics",
+  "aka": [
+   "التدفقات النقدية المخصومة",
+   "التدفق النقدي المخصوم",
+   "خصم التدفقات النقدية",
+   "DCF"
+  ]
  },
  {
   "id": "lbo",
@@ -1388,6 +1570,13 @@
   "stage_en": "PE & credit",
   "articles": [
    "marks-further-sea-change"
+  ],
+  "aka": [
+   "الاستحواذ بالرافعة",
+   "الاستحواذات بالرافعة",
+   "الشراء بالرافعة",
+   "leveraged buyout",
+   "LBO"
   ]
  },
  {
@@ -1425,6 +1614,12 @@
   "stage_en": "PE & credit",
   "articles": [
    "marks-further-sea-change"
+  ],
+  "aka": [
+   "الائتمان الخاص",
+   "الإقراض الخاص",
+   "الإقراض المباشر",
+   "private credit"
   ]
  },
  {
@@ -1459,7 +1654,13 @@
    "tvpi-dpi"
   ],
   "stage": "الملكية الخاصة والائتمان",
-  "stage_en": "PE & credit"
+  "stage_en": "PE & credit",
+  "aka": [
+   "صندوق الاستمرار",
+   "صناديق الاستمرار",
+   "continuation vehicle",
+   "continuation fund"
+  ]
  },
  {
   "id": "ipo",
@@ -1495,7 +1696,14 @@
    "secondaries"
   ],
   "stage": "الأسواق والخروج",
-  "stage_en": "Markets & exits"
+  "stage_en": "Markets & exits",
+  "aka": [
+   "الطرح العام الأولي",
+   "الطرح العام",
+   "الطروحات العامة",
+   "الاكتتاب العام",
+   "IPO"
+  ]
  },
  {
   "id": "m-and-a",
@@ -1534,6 +1742,12 @@
   "stage_en": "Markets & exits",
   "articles": [
    "humbledollar-deals"
+  ],
+  "aka": [
+   "الاندماج والاستحواذ",
+   "الاندماجات والاستحواذات",
+   "الاستحواذات",
+   "M&A"
   ]
  }
 ]

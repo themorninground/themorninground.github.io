@@ -327,7 +327,7 @@ async function renderArticle(id, q) {
    ${a.who ? `<div class="box soft"><h4>من كتبه</h4><p>${esc(a.who)}</p><div class="src">المصدر: <a href="${esc(a.whoSrc[1])}" target="_blank" rel="noopener">${esc(a.whoSrc[0])}</a></div></div>` : ''}
    ${a.match ? `<div class="box soft"><h4>مطابقة مع الأصل</h4><ul>${a.match.map(m => `<li>${esc(m)}</li>`).join('')}</ul></div>` : ''}
   </div>${artConcepts(a)}${doneBtn}${readNext(a)}` : `<div class="empty">النسخة العربية الكاملة لهذه المقالة قيد الإعداد.</div>`}</section>
- <section id="v-orig" class="origwrap" ${tab === 'orig' ? '' : 'hidden'}>${a.embed === false ? `<div class="empty">${tr('موقع الكاتب لا يسمح بعرض المقالة داخل موقعنا.', "The author's site doesn't allow the article to be shown inside ours.")} <a href="${esc(a.url)}" target="_blank" rel="noopener">${tr('افتح الأصل', 'Open the original')}</a></div>` : `<div class="obar">${EN() ? '' : `<div class="seg sm" id="otabs"><span class="pill"></span><button data-o="o" aria-pressed="true">${tr('النص الأصلي', 'Original')}</button><button data-o="t" aria-pressed="false">${ic('translate')} ${tr('مترجم آليًا', 'Machine-translated')} ${ic('ext')}</button></div>`}<a class="olink" id="olink" href="${esc(a.url)}" target="_blank" rel="noopener">${ic('ext')} ${tr('افتح في صفحة جديدة', 'Open in a new tab')}</a></div><div class="note" id="onote">${ic('source')} ${tr('النص الأصلي كما نشره الكاتب، معروض من موقعه داخل صفحتنا.', 'The original as the author published it, shown from their site inside ours.')}</div><iframe data-src="${esc(a.url)}" data-tg="${esc(tgURL(a.url))}" title="${esc(a.en)}" loading="lazy" referrerpolicy="no-referrer"></iframe>`}</section>
+ <section id="v-orig" class="origwrap" ${tab === 'orig' ? '' : 'hidden'}>${a.embed === false ? `<div class="empty">${tr('موقع الكاتب لا يسمح بعرض المقالة داخل موقعنا.', "The author's site doesn't allow the article to be shown inside ours.")} <a href="${esc(a.url)}" target="_blank" rel="noopener">${tr('افتح الأصل', 'Open the original')}</a></div>` : `<div class="obar">${a.arabic && !EN() ? `<button class="ohint" data-goar>${ic('article')} ${tr('النسخة العربية الكاملة في تبويب «العربية»', 'The full Arabic version is in the Arabic tab')}</button>` : '<span></span>'}<a class="olink" id="olink" href="${esc(a.url)}" target="_blank" rel="noopener">${ic('ext')} ${tr('افتح في صفحة جديدة', 'Open in a new tab')}</a></div><div class="note" id="onote">${ic('source')} ${tr('النص الأصلي كما نشره الكاتب، معروض من موقعه داخل صفحتنا.', 'The original as the author published it, shown from their site inside ours.')}</div><iframe data-src="${esc(a.url)}" title="${esc(a.en)}" loading="lazy" referrerpolicy="no-referrer"></iframe>`}</section>
  </main>`;
 }
 function placePill(seg) { const pill = $('.pill', seg), on = $('[aria-pressed="true"]', seg); if (!pill || !on) return; const r = on.getBoundingClientRect(), p = seg.getBoundingClientRect(); pill.style.left = '0px'; pill.style.width = r.width + 'px'; pill.style.transform = `translateX(${r.left - p.left}px)`; }
@@ -337,7 +337,7 @@ function bindArticle(id) {
  const show = t => { $$('button', tabs).forEach(x => x.setAttribute('aria-pressed', String(x.dataset.t === t))); placePill(tabs); ['sum', 'ar', 'orig'].forEach(k => { $('#v-' + k).hidden = k !== t; }); const f = $('#v-orig iframe'); if (t === 'orig' && f && !f.src) f.src = f.dataset.src; if (t === 'sum') dots(); history.replaceState(null, '', `#/a/${id}${t === 'sum' ? '' : '?t=' + t}`); const h = $('.ahead'); if (window.scrollY > h.offsetTop + h.offsetHeight) window.scrollTo({ top: h.offsetTop + h.offsetHeight - 120, behavior: 'smooth' }); };
  $$('button', tabs).forEach(b => b.onclick = () => show(b.dataset.t));
  if (!$('#v-orig').hidden) { const f = $('#v-orig iframe'); if (f) f.src = f.dataset.src; }
- const ot = $('#otabs'); if (ot) { requestAnimationFrame(() => placePill(ot)); $$('button', ot).forEach(b => b.onclick = () => { if (b.dataset.o === 't') { window.open($('#v-orig iframe').dataset.tg, '_blank', 'noopener'); toast(tr('فتحنا الترجمة الآلية في صفحة جديدة', 'Opened the machine translation in a new tab')); } }); }
+ const goar = $('[data-goar]'); if (goar) goar.onclick = () => show('ar');
  /* summary deck dots (mobile swipe) */
  const deck = $('#sdeck'), dd = $('#sdots');
  function dots() { if (!deck || !dd) return; const cs = $$('.scard', deck).filter(c => getComputedStyle(c).display !== 'none'); dd.innerHTML = cs.map(() => '<i></i>').join(''); const upd = () => { const w = deck.getBoundingClientRect(); let k = 0, best = 1e9; cs.forEach((c, j) => { const r = c.getBoundingClientRect(); const d = Math.abs((r.left + r.width / 2) - (w.left + w.width / 2)); if (d < best) { best = d; k = j; } }); $$('i', dd).forEach((x, j) => x.classList.toggle('on', j === k)); }; deck.onscroll = upd; upd(); }
@@ -350,13 +350,37 @@ function bindArticle(id) {
   $$('.term', pr).forEach(t => { const cc = CON.find(c => (c.en || '').toLowerCase() === (t.dataset.en || '').toLowerCase()); if (cc) { t.className = 'cterm'; t.dataset.c = cc.id; } else t.onclick = () => t.classList.toggle('on'); });
   pr.addEventListener('click', e => {
    const f = e.target.closest('sup.fn a'); if (f) { e.preventDefault(); const k = f.getAttribute('href').slice(1); pop(f, `<span class="tag fnt">${tr('هامش', 'Note')} <span class="b">${esc(f.textContent)}</span></span><p class="fnp">${notes[k] || tr('هذا الهامش فارغ في الأصل.', 'This note is empty in the original.')}</p>`); return; }
-   const t = e.target.closest('.cterm'); if (t) { const c = con(t.dataset.c); if (c) pop(t, `<span class="tag cn">${tr('مفهوم', 'Concept')}</span><div style="margin-top:8px"><b>${esc(c.ar)}</b> <span class="b" style="color:var(--ink-2)">${esc(c.en)}</span></div><p>${c.defn}</p><a href="#/c/${c.id}">${tr('افتح المفهوم', 'Open the concept')} ←</a>`); }
+   const t = e.target.closest('.cterm'); if (t) { const c = con(t.dataset.c); const on = c && ST.known.includes(c.id); if (c) pop(t, `<span class="tag cn">${on ? `<i class="sunlet"></i> ${tr('مفهوم أخذته', 'A concept you learned')}` : `${ic('star')} ${tr('مفهوم جديد عليك', 'New concept for you')}`}</span><div style="margin-top:8px"><b>${esc(c.ar)}</b> <span class="b" style="color:var(--ink-2)">${esc(c.en)}</span></div><p>${c.defn}</p><div class="popacts"><a href="#/c/${c.id}">${tr('افتح المفهوم', 'Open the concept')} ←</a>${on ? '' : `<button class="btn2 knowb sm" data-know="${c.id}"><svg class="ic" viewBox="0 0 24 24" style="width:16px;height:16px">${P.check}</svg><span>${tr('تعلمته', 'Got it')}</span></button>`}</div>`); }
   });
   applyHL(pr, id); bindHL(pr, id);
  }
  $$('.readdone').forEach(rd => rd.onclick = () => { markRead(id); $$('.readdone').forEach(x => x.classList.add('done')); burst(rd); });
- if (pr) { crossNotes(pr, a); resumeReading(pr, id); }
+ if (pr) { crossNotes(pr, a); autoConcepts(pr); resumeReading(pr, id); }
  const rs = document.createElement('div'); rs.className = 'rsun'; rs.innerHTML = '<i></i>'; rs.id = 'rsun'; document.body.appendChild(rs);
+}
+let AKA = null;
+function akaList() {
+ if (AKA) return AKA; AKA = [];
+ CON.forEach(c => (c.aka || []).forEach(t => { const lat = /^[A-Za-z0-9 &\/.\-]+$/.test(t); const esc2 = t.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'); const caseS = lat && t.length <= 4 && t === t.toUpperCase();
+  const re = lat ? new RegExp('(?<![A-Za-z])' + esc2 + '(?![A-Za-z])', caseS ? 'g' : 'gi') : new RegExp('(?<![\\u0621-\\u064A])(?:[وفبلك])?' + esc2, 'g'); AKA.push({ c: c.id, re, len: t.length }); }));
+ return AKA;
+}
+function autoConcepts(pr) {
+ const L = akaList(); let used = new Set();
+ const walk = el => {
+  [...el.childNodes].forEach(n => {
+   if (n.nodeType === 1) { if (/^(H2|H3)$/.test(n.tagName)) { used = new Set(); return; } if (n.closest('a,sup,.cterm,mark,figure,svg,.xnote,.foot,math,table,.ournote')) return; walk(n); return; }
+   if (n.nodeType !== 3 || !n.data.trim()) return;
+   let node = n;
+   for (let guard = 0; guard < 6 && node; guard++) {
+    let best = null; L.forEach(x => { if (used.has(x.c)) return; x.re.lastIndex = 0; const m = x.re.exec(node.data); if (m && (!best || m.index < best.i || (m.index === best.i && m[0].length > best.l))) best = { i: m.index, l: m[0].length, c: x.c }; });
+    if (!best) break; used.add(best.c);
+    const r = document.createRange(); r.setStart(node, best.i); r.setEnd(node, best.i + best.l); const sp = document.createElement('span'); sp.className = 'cterm auto' + (ST.known.includes(best.c) ? ' known' : ' new'); sp.dataset.c = best.c; r.surroundContents(sp);
+    node = sp.nextSibling && sp.nextSibling.nodeType === 3 ? sp.nextSibling : null;
+   }
+  });
+ };
+ walk(pr);
 }
 function crossNotes(pr, a) {
  const ps = $$('p', pr);
@@ -519,7 +543,7 @@ function renderStory(id) {
   ${itF(x, 'dek') ? `<div class="dek">${esc(itF(x, 'dek'))}</div>` : ''}
   ${isDeal ? `<div class="bigfacts rv"><div class="bf main">${logoBox(x.company)}<div><small><a class="colink" href="${coHref(x.company)}">${esc(x.company)} ${ic(EN() ? 'back' : 'fwd')}</a></small><b class="b">${esc(x.amount ? money(x.amount) : (x.amountLabel || money(null)))}</b></div></div>${facts.map(f => `<div class="bf"><small>${esc(f[0])}</small><b>${esc(f[1])}</b></div>`).join('')}</div>` : facts.length ? `<div class="bigfacts rv">${facts.map(f => `<div class="bf"><small>${esc(f[0])}</small><b>${esc(f[1])}</b></div>`).join('')}</div>` : ''}
   ${others.length ? `<div class="invs">${tr('مستثمرون آخرون', 'Also investing')}: ${others.map(n => `<span>${logoOf(n) ? `<img src="${esc(logoOf(n))}" alt="">` : ''}${esc(n)}</span>`).join('')}</div>` : ''}
-  <div class="prose sprose">${body.map(p => `<p>${esc(typeof p === 'string' ? p : (p.text || ''))}</p>`).join('')}</div>
+  <div class="prose sprose">${coLinks(body.map(p => `<p>${esc(typeof p === 'string' ? p : (p.text || ''))}</p>`).join(''), x.company)}</div>
   ${itF(x, 'why') ? `<div class="box dark why2 rv"><h4>${ic('bolt')} ${tr('ليش هذا مهم', 'Why it matters')}</h4><p>${esc(itF(x, 'why'))}</p></div>` : ''}
   <div class="srcs">${(x.sources && x.sources.length ? x.sources : [x.source]).filter(Boolean).map(s => `<a href="${esc(s.url)}" target="_blank" rel="noopener">${ic('source')} ${esc(s.name)}</a>`).join('')}<button class="iconbtn save sm" data-save="${x.id}" aria-pressed="${ST.saved.includes(x.id)}" aria-label="${tr('حفظ', 'Save')}">${ic('save')}</button></div>
   ${sim.length ? `<section class="sec"><div class="sh"><span class="mark"></span><h2>${tr('صفقات مشابهة', 'Similar deals')}</h2><span class="aside">${x.industry ? esc(ind(x.industry)) : ''}${x.industry && x.market ? ' · ' : ''}${x.market ? esc(mkt(x.market)) : ''}</span></div><div class="deals">${sim.map((d, k) => dealRow(d, k, smx)).join('')}</div></section>` : ''}
@@ -555,6 +579,12 @@ function companyData(sl) {
  const storyIds = new Set(rounds.map(d => d.story).filter(Boolean));
  const items = ITEMS.filter(x => !storyIds.has(x.id) && ((x.company && coSlug(x.company) === sl) || re.test(txt(x))));
  return { name, rounds, items };
+}
+function coLinks(html, own) {
+ const names = [...new Set(ROUNDS.map(d => d.company))].filter(n => n && n.length >= 4 && /^[A-Za-z0-9][A-Za-z0-9 .&'-]+$/.test(n) && n !== own).sort((a, b) => b.length - a.length);
+ const done = new Set();
+ names.forEach(n => { if (done.size > 6) return; const re = new RegExp('(^|[^A-Za-z>])(' + n.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + ')(?![A-Za-z])'); if (re.test(html) && !done.has(n)) { done.add(n); html = html.replace(re, (m, a, b) => `${a}<a class="colink" href="${coHref(n)}">${b}</a>`); } });
+ return html;
 }
 function renderCompany(sl) {
  const D = companyData(decodeURIComponent(sl)); if (!D) return notFound();
@@ -742,7 +772,7 @@ function shell() {
  let ly = 0; window.addEventListener('scroll', () => { const y = window.scrollY; const down = y > ly && y > 140 && /^#\/a\//.test(location.hash); $('#hdr').classList.toggle('hide', down); ly = y;
   const rs = $('#rsun'); const pr = $('#prose'); const sm = $('#sdeck'); const tgt = pr && pr.offsetParent ? pr : (sm && sm.offsetParent ? sm : null); if (rs && tgt) { const r = tgt.getBoundingClientRect(); const p = Math.min(1, Math.max(0, (window.innerHeight * .6 - r.top) / r.height)); rs.style.setProperty('--r', p.toFixed(3)); } }, { passive: true });
  document.addEventListener('click', e => { const b = e.target.closest('[data-save]'); if (!b) return; const id = b.dataset.save; const i = ST.saved.indexOf(id); if (i < 0) ST.saved.push(id); else ST.saved.splice(i, 1); save(); b.setAttribute('aria-pressed', String(i < 0)); if (i < 0) toast(tr('حُفظت في محفوظاتك', 'Saved to your list')); });
- document.addEventListener('click', e => { const b = e.target.closest('[data-know]'); if (!b) return; const id = b.dataset.know; if (!ST.known.includes(id)) { ST.known.push(id); ST.knownAt = ST.knownAt || {}; ST.knownAt[id] = TODAY; const am = (location.hash || '').match(/^#\/a\/([^?]+)/); if (am) { ST.knownFrom = ST.knownFrom || {}; ST.knownFrom[id] = am[1]; } save(); burst(b); } $$(`[data-know="${id}"]`).forEach(x => { x.classList.add('done'); x.lastChild.textContent = tr('أخذته', 'Learned'); }); refreshStats(); });
+ document.addEventListener('click', e => { const b = e.target.closest('[data-know]'); if (!b) return; const id = b.dataset.know; if (!ST.known.includes(id)) { ST.known.push(id); ST.knownAt = ST.knownAt || {}; ST.knownAt[id] = TODAY; const am = (location.hash || '').match(/^#\/a\/([^?]+)/); if (am) { ST.knownFrom = ST.knownFrom || {}; ST.knownFrom[id] = am[1]; } save(); burst(b); } $$(`[data-know="${id}"]`).forEach(x => { x.classList.add('done'); x.lastChild.textContent = tr('أخذته', 'Learned'); }); $$(`.cterm[data-c="${id}"]`).forEach(x => { x.classList.remove('new'); x.classList.add('known'); }); refreshStats(); });
 }
 function navSync(path) {
  const base = '/' + (path.split('/')[1] || '');
