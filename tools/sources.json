@@ -4076,5 +4076,19 @@
   "region": "US",
   "auto": true,
   "found": "2026-10-25"
+ },
+ {
+  "id": "misrelaan",
+  "name": "مصر الآن",
+  "ar": "مصر الآن",
+  "url": "https://misrelaan.com",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "ar"
+  ],
+  "region": "SA",
+  "auto": true,
+  "found": "2026-10-26"
  }
 ]
