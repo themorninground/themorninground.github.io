@@ -4104,5 +4104,19 @@
   "region": "EG",
   "auto": true,
   "found": "2026-10-26"
+ },
+ {
+  "id": "alahalygate",
+  "name": "جريدة الأهالي المصرية",
+  "ar": "جريدة الأهالي المصرية",
+  "url": "https://alahalygate.com",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "ar"
+  ],
+  "region": "EG",
+  "auto": true,
+  "found": "2026-10-26"
  }
 ]
