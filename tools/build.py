@@ -64,6 +64,12 @@ def build_data(export_dir):
             w = (d.get(lang) or {}).get('why')
             if isinstance(w, str) and INTERNAL.search(w):
                 raise SystemExit('internal reference in public "why" of %s (%s): %s' % (k, lang, w))
+    # the artifact database keeps artifact-only asset URLs (/_blob/...) in these meta docs; the public site keeps its own copies
+    prev = os.path.join(ROOT, 'data', 'site.json')
+    if os.path.exists(prev):
+        old_meta = json.load(open(prev, encoding='utf-8')).get('collections', {}).get('meta', {})
+        for k in ('logos', 'learn', 'sources', 'world'):
+            if k in old_meta: cols['meta'][k] = old_meta[k]
     site = {'updated': datetime.datetime.now(datetime.timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ'), 'collections': cols}
     os.makedirs(os.path.join(ROOT, 'data'), exist_ok=True)
     json.dump(site, open(os.path.join(ROOT, 'data', 'site.json'), 'w', encoding='utf-8'), ensure_ascii=False)

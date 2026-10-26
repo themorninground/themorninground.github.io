@@ -1,0 +1,44 @@
+[
+ {
+  "id": "platforms",
+  "ar": "كيف تفكر في المنصات",
+  "en": "How to think about platforms",
+  "about": "من أين تأتي عوائد الاستثمار الجريء، ولماذا تكبر المنصات، وكيف تسعّر، والخطأ الشائع في حساب قيمة العميل.",
+  "about_en": "Where venture returns come from, why platforms grow, how they price, and the common mistake in valuing a customer.",
+  "ids": [
+   "neumann-power-laws",
+   "stratechery-aggregation",
+   "stratechery-defining-aggregators",
+   "gurley-rake",
+   "gurley-ltv"
+  ]
+ },
+ {
+  "id": "marks-cycles",
+  "ar": "دورات السوق عند هوارد ماركس",
+  "en": "Market cycles with Howard Marks",
+  "about": "ست مذكرات بترتيب كتابتها من 2007 إلى 2026: كيف يتراخى الحذر في الأوقات الجيدة، ولماذا يعود.",
+  "about_en": "Six memos in the order he wrote them, 2007 to 2026: how caution slips in good times, and why it comes back.",
+  "ids": [
+   "marks-race-bottom",
+   "marks-race-on",
+   "marks-there-they-go",
+   "marks-sea-change",
+   "marks-further-sea-change",
+   "marks-private-credit"
+  ]
+ },
+ {
+  "id": "ai-valuation",
+  "ar": "تقييم الحماس: الإيرادات والذكاء الاصطناعي",
+  "en": "Pricing the hype: revenue and AI",
+  "about": "لماذا لا تتساوى الإيرادات، ثم سؤال الذكاء الاصطناعي بقيمة 200 ثم 600 مليار دولار، ثم ماذا يحدث حين تنكسر قناعة المستثمرين.",
+  "about_en": "Why not all revenue is equal, then AI's $200B and $600B questions, then what happens when investor conviction breaks.",
+  "ids": [
+   "gurley-revenue",
+   "sequoia-200b",
+   "sequoia-600b",
+   "damodaran-sa-blowup"
+  ]
+ }
+]

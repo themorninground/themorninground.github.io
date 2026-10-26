@@ -47,7 +47,9 @@
    "النسخة العربية مكتوبة بصياغتنا، والنص الإنجليزي كما كتبه الكاتب في تبويب «الأصل»."
   ],
   "concepts": [
-   "power-law"
+   "power-law",
+   "unicorn",
+   "tvpi-dpi"
   ],
   "topic": "vc",
   "author_en": "Jerry Neumann",
@@ -531,6 +533,16 @@
      "en": "He says 1929 is not about interest rates but about human nature."
     }
    }
+  ],
+  "concepts": [
+   "private-credit",
+   "lbo"
+  ],
+  "links": [
+   {
+    "p": 46,
+    "to": "marks-race-bottom"
+   }
   ]
  },
  {
@@ -763,6 +775,12 @@
      "en": "It combines expensive debt and expensive purchases in one number, now at a record."
     }
    }
+  ],
+  "concepts": [
+   "m-and-a",
+   "tvpi-dpi",
+   "continuation-vehicle",
+   "ipo"
   ]
  },
  {
@@ -1268,6 +1286,11 @@
      "en": "It spends about 15% of sales on marketing; Gurley sees \"rented\" customers as worth less than organic ones."
     }
    }
+  ],
+  "concepts": [
+   "ev-revenue",
+   "dcf",
+   "unit-economics"
   ]
  },
  {
@@ -1524,6 +1547,12 @@
      "ar": "الأسباب الأربعة: التسعير، وحرق الاستثمارات، والاستهلاك، والفائزون والخاسرون.",
      "en": "The four points are pricing power, investment incineration, depreciation, and winners versus losers."
     }
+   }
+  ],
+  "links": [
+   {
+    "p": 0,
+    "to": "sequoia-200b"
    }
   ]
  },
@@ -2242,6 +2271,10 @@
      "en": "That is why the promised \"tomorrow\" rarely arrives."
     }
    }
+  ],
+  "concepts": [
+   "unit-economics",
+   "dcf"
   ]
  },
  {
@@ -2689,6 +2722,9 @@
      "en": "He sees a return to highly stimulative rates as unlikely without a serious recession."
     }
    }
+  ],
+  "concepts": [
+   "lbo"
   ]
  },
  {
@@ -2912,6 +2948,9 @@
      "en": "Three times the share (10% to 30%) on three times the capital."
     }
    }
+  ],
+  "concepts": [
+   "lbo"
   ]
  },
  {
@@ -3142,6 +3181,12 @@
      "ar": "لأن الظروف ليست سيئة بما يكفي لأقصى حذر ولا جيدة بما يكفي للعدوانية.",
      "en": "Conditions were neither bad enough for maximum caution nor good enough for aggression."
     }
+   }
+  ],
+  "links": [
+   {
+    "p": 0,
+    "to": "marks-race-bottom"
    }
   ]
  },
@@ -3398,6 +3443,16 @@
      "en": "That is why he sees crypto as speculation."
     }
    }
+  ],
+  "concepts": [
+   "lbo",
+   "ev-revenue"
+  ],
+  "links": [
+   {
+    "p": 1,
+    "to": "marks-race-bottom"
+   }
   ]
  },
  {
@@ -3613,6 +3668,12 @@
      "ar": "أفضل تجربة تجذب أكثر المستخدمين، فتبدأ الحلقة.",
      "en": "The best experience attracts the most users, starting the cycle."
     }
+   }
+  ],
+  "links": [
+   {
+    "p": 20,
+    "to": "stratechery-defining-aggregators"
    }
   ]
  },
@@ -3830,6 +3891,9 @@
      "en": "Because total profit is margin times volume."
     }
    }
+  ],
+  "concepts": [
+   "unit-economics"
   ]
  },
  {
@@ -4012,6 +4076,9 @@
      "en": "Coined by Richard Roll in 1986."
     }
    }
+  ],
+  "concepts": [
+   "m-and-a"
   ]
  },
  {
@@ -4351,6 +4418,16 @@
      "en": "He does not predict a crash; he calls for reallocation."
     }
    }
+  ],
+  "concepts": [
+   "private-credit",
+   "lbo"
+  ],
+  "links": [
+   {
+    "p": 0,
+    "to": "marks-sea-change"
+   }
   ]
  },
  {
@@ -4549,6 +4626,12 @@
      "ar": "فحص السائقين والمركبات يكلف مالًا ووقتًا.",
      "en": "Vetting drivers and vehicles costs money and time."
     }
+   }
+  ],
+  "links": [
+   {
+    "p": 2,
+    "to": "stratechery-aggregation"
    }
   ]
  }

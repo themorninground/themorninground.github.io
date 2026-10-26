@@ -63,7 +63,7 @@ const fmtShort = s => { if (isMon(s)) return MON()[dt(s + '-15').getMonth()]; co
 
 /* ---------- state ---------- */
 const KEY = 'tmr4';
-let ST = { days: [], read: [], known: [], saved: [], pick: {}, hl: [] };
+let ST = { days: [], read: [], known: [], saved: [], pick: {}, hl: [], readAt: {}, knownAt: {}, knownFrom: {}, pos: {} };
 try { ST = Object.assign(ST, JSON.parse(localStorage.getItem(KEY) || '{}')); } catch (e) {}
 if (!Array.isArray(ST.hl)) ST.hl = [];
 const save = () => { try { localStorage.setItem(KEY, JSON.stringify(ST)); } catch (e) {} };
@@ -102,7 +102,7 @@ function kindOf(x) {
 }
 
 /* ---------- data ---------- */
-let SITE, LIB, CON, ITEMS, DEALS, ROUNDS, LOGOS = {};
+let SITE, LIB, CON, ITEMS, DEALS, ROUNDS, LOGOS = {}, TRACKS = [];
 const slug = s => String(s || '').toLowerCase().replace(/[^a-z0-9؀-ۿ]+/g, '-').replace(/^-|-$/g, '');
 const logoOf = name => LOGOS[slug(name)] || null;
 const money = m => m == null || m === '' ? tr('غير معلن', 'Undisclosed') : m >= 1000 ? '$' + (+(m / 1000).toFixed(m >= 10000 ? 0 : 2)).toString() + 'B' : m >= 1 ? '$' + (+m.toFixed(m >= 100 ? 0 : 1)) + 'M' : '$' + Math.round(m * 1000) + 'K';
@@ -111,7 +111,8 @@ const itF = (x, k) => ((x[LANG] && x[LANG][k]) || (x.ar && x.ar[k]) || (x.en && 
 
 async function load() {
  const v = VER ? '?v=' + VER : '';
- const [s, l, c, h] = await Promise.all([fetch('data/site.json' + v).then(r => r.json()), fetch('app/data/library.json' + v).then(r => r.json()), fetch('app/data/concepts.json' + v).then(r => r.json()), fetch('app/data/deals-h1.json' + v).then(r => r.json()).catch(() => ({ deals: [] }))]);
+ const [s, l, c, h, tk] = await Promise.all([fetch('data/site.json' + v).then(r => r.json()), fetch('app/data/library.json' + v).then(r => r.json()), fetch('app/data/concepts.json' + v).then(r => r.json()), fetch('app/data/deals-h1.json' + v).then(r => r.json()).catch(() => ({ deals: [] })), fetch('app/data/tracks.json' + v).then(r => r.json()).catch(() => [])]);
+ TRACKS = tk || [];
  SITE = s; LIB = l; CON = c;
  const items = s.collections.items; ITEMS = Object.entries(items).map(([id, v]) => Object.assign({ id }, v)).filter(x => !x.hidden);
  const meta = s.collections.meta; LOGOS = (meta.logos && meta.logos.map) || {};
@@ -147,6 +148,40 @@ function dealRow(d, k, max) {
 }
 const head = (title, sub) => `<header class="phead"><h1><span class="mark"></span>${title}</h1>${sub ? `<p>${sub}</p>` : ''}</header>`;
 const backLink = (href, label) => `<a href="${href}" class="back">${ic(EN() ? 'fwd' : 'back')} ${label}</a>`;
+
+
+/* ---------- reading progress, concepts per article, tracks, companies ---------- */
+function markRead(id) { if (!ST.read.includes(id)) ST.read.push(id); ST.readAt = ST.readAt || {}; if (!ST.readAt[id]) ST.readAt[id] = TODAY; save(); }
+const trackOf = id => TRACKS.find(t => t.ids.includes(id));
+const coSlug = name => slug(name);
+const coHref = name => '#/co/' + encodeURIComponent(coSlug(name));
+function prereqBox(a) {
+ const cs = (a.concepts || []).map(con).filter(Boolean); if (!cs.length) return '';
+ return `<section class="prereq rv"><h4>${tr('تحتاج تعرف قبلها', 'Good to know first')}</h4><div class="pchips">${cs.map(c => { const on = ST.known.includes(c.id); return `<a class="pchip${on ? ' on' : ''}" href="#/c/${c.id}">${on ? '<i class="sunlet"></i>' : `<span class="pst">${ic('star')}</span>`}<span>${esc(EN() ? c.en : c.ar)}</span><small>${on ? tr('أخذته', 'Learned') : tr('افتحه', 'Open it')}</small></a>`; }).join('')}</div></section>`;
+}
+function artConcepts(a) {
+ const cs = (a.concepts || []).map(con).filter(Boolean); if (!cs.length) return '';
+ return `<section class="aconc rv"><h3>${tr('مفاهيم هالمقالة', 'Concepts in this article')}</h3><div class="acgrid">${cs.map(c => { const on = ST.known.includes(c.id); return `<div class="acitem${on ? ' on' : ''}"><a href="#/c/${c.id}"><b>${esc(EN() ? c.en : c.ar)}</b><span class="b">${esc(EN() ? c.ar : c.en)}</span><p>${tx(c, 'defn').replace(/<[^>]+>/g, '').slice(0, 120)}…</p></a><button class="btn2 knowb${on ? ' done' : ''}" data-know="${c.id}"><svg class="ic" viewBox="0 0 24 24" style="width:18px;height:18px">${P.check}</svg><span>${on ? tr('أخذته', 'Learned') : tr('تعلمته', 'Got it')}</span></button></div>`; }).join('')}</div></section>`;
+}
+function readNext(a) {
+ const out = []; const add = x => { if (x && x.id !== a.id && x.arabic && !out.includes(x)) out.push(x); };
+ const t = trackOf(a.id); if (t) add(lib(t.ids[t.ids.indexOf(a.id) + 1]));
+ (a.links || []).forEach(l => add(lib(l.to)));
+ LIB.filter(x => (x.links || []).some(l => l.to === a.id)).forEach(add);
+ ARTS().filter(x => x.topic === a.topic && !ST.read.includes(x.id)).forEach(add);
+ const L = out.slice(0, 3); if (!L.length) return '';
+ return `<section class="rnext rv"><h3>${tr('اقرأ بعدها', 'Read next')}</h3><div class="rngrid">${L.map(x => `<a href="#/a/${x.id}" class="rn"><span class="tag t-${x.topic}">${esc(topic(x.topic))}</span><b>${esc(EN() ? x.en : x.ar)}</b><small>${esc(tx(x, 'author'))} · <span class="b">${x.mins}</span> ${tr('دقيقة', 'min')}${ST.read.includes(x.id) ? ' · ' + tr('قرأتها', 'Read') : ''}</small></a>`).join('')}</div></section>`;
+}
+function trackBar(a) {
+ const t = trackOf(a.id); if (!t) return '';
+ const k = t.ids.indexOf(a.id); const done = t.ids.filter(i => ST.read.includes(i)).length;
+ const nx = lib(t.ids[k + 1]);
+ return `<a class="tbar rv" href="#/articles?track=${t.id}"><span class="tbk">${tr('مسار', 'Track')}</span><b>${esc(EN() ? t.en : t.ar)}</b><span class="tpos"><span class="b">${k + 1}</span> ${tr('من', 'of')} <span class="b">${t.ids.length}</span></span><span class="tdots">${t.ids.map(i => `<i class="${ST.read.includes(i) ? 'on' : ''}${i === a.id ? ' now' : ''}"></i>`).join('')}</span>${nx ? `<small>${tr('التالية', 'Next')}: ${esc(EN() ? nx.en : nx.ar)}</small>` : `<small>${done === t.ids.length ? tr('خلصت المسار', 'Track complete') : tr('آخر مقالة في المسار', 'Last in the track')}</small>`}</a>`;
+}
+function trackCard(t) {
+ const done = t.ids.filter(i => ST.read.includes(i)).length; const nx = t.ids.map(lib).find(x => x && !ST.read.includes(x.id));
+ return `<a class="trk rv" href="#/a/${(nx || lib(t.ids[0])).id}"><div class="tt"><b>${esc(EN() ? t.en : t.ar)}</b><small><span class="b">${t.ids.length}</span> ${tr('مقالات', 'articles')} · ${tr('نحو', 'about')} <span class="b">${Math.round(t.ids.reduce((s, i) => s + ((lib(i) || {}).mins || 0), 0) / 5) * 5}</span> ${tr('دقيقة', 'min')}</small></div><p>${esc(tx(t, 'about'))}</p><span class="tprog"><i style="width:${Math.round(done / t.ids.length * 100)}%"></i></span><ol>${t.ids.map(lib).filter(Boolean).map(x => `<li class="${ST.read.includes(x.id) ? 'on' : ''}${nx && x.id === nx.id ? ' now' : ''}">${esc(EN() ? x.en : x.ar)}</li>`).join('')}</ol><span class="tgo">${done === t.ids.length ? tr('خلصته', 'Completed') : done ? tr('كمّل المسار', 'Continue') : tr('ابدأ المسار', 'Start')} ${ic(EN() ? 'back' : 'fwd')}</span></a>`;
+}
 
 /* ---------- FOR YOU ---------- */
 function todayArticle() {
@@ -218,6 +253,7 @@ function renderForYou() {
    <div class="ccard rv" id="ccard"><div><span class="tag cn">${ic('learn')} ${esc(tx(c, 'stage'))}</span><h3>${esc(EN() ? c.en : c.ar)}<small>${esc(EN() ? c.ar : c.en)}</small></h3><p>${tx(c, 'defn')}</p>${tx(c, 'example') ? `<div class="ex">${esc(tx(c, 'example'))}</div>` : ''}
     <div class="acts"><a class="btn2" href="#/c/${c.id}">${tr('افتح المفهوم', 'Open the concept')}</a><button class="btn2 knowb${ST.known.includes(c.id) ? ' done' : ''}" data-know="${c.id}"><svg class="ic" viewBox="0 0 24 24" style="width:18px;height:18px">${P.check}</svg><span>${ST.known.includes(c.id) ? tr('أخذته', 'Learned') : tr('أعرفه', 'I know it')}</span></button></div></div>
     <div class="side">${conceptSide(c)}</div></div></section>` : ''}
+  ${DOW >= 4 ? `<section class="sec rv"><div class="sh"><span class="mark"></span><h2>${tr('جولتك الأسبوعية', 'Your week')}</h2></div>${weekCard(false)}</section>` : ''}
   ${tops.length ? `<section class="sec"><div class="sh"><span class="mark"></span><h2>${tr('أهم ما صار', 'What mattered')}</h2><span class="aside"><a href="#/news" class="more-l">${tr('كل الأخبار', 'All news')} ${ic(EN() ? 'back' : 'fwd')}</a></span></div>
    <div class="tops">${tops.map(storyCard).join('')}</div></section>` : ''}
   ${rounds.length ? `<section class="sec"><div class="sh"><span class="mark"></span><h2>${tr('آخر الجولات', 'Latest rounds')}</h2><span class="aside"><a href="#/dashboard?s=rounds" class="more-l">${tr('الجدول الكامل', 'Full table')} ${ic(EN() ? 'back' : 'fwd')}</a></span></div>
@@ -283,14 +319,14 @@ async function renderArticle(id, q) {
   <div class="by"><b>${esc(tx(a, 'author'))}</b> · ${esc(a.pub)} · <a href="${esc(a.url)}" target="_blank" rel="noopener">${tr('المصدر', 'Source')} ${ic('ext')}</a></div>
   <div class="atools"><div class="seg" id="atabs"><span class="pill"></span>${order.map(k => `<button data-t="${k}" aria-pressed="${tab === k}">${TABS[k][EN() ? 1 : 0]}</button>`).join('')}</div><button class="iconbtn save" data-save="${a.id}" aria-pressed="${ST.saved.includes(a.id)}" aria-label="${tr('حفظ', 'Save')}" style="background:var(--paper-2)">${ic('save')}</button></div>
  </article>
- <section id="v-sum" class="sum" ${tab === 'sum' ? '' : 'hidden'}>${summaryHTML(a)}${doneBtn}</section>
+ ${trackBar(a)}${prereqBox(a)}
+ <section id="v-sum" class="sum" ${tab === 'sum' ? '' : 'hidden'}>${summaryHTML(a)}${artConcepts(a)}${doneBtn}${readNext(a)}</section>
  <section id="v-ar" ${tab === 'ar' ? '' : 'hidden'} lang="ar" dir="rtl">${a.arabic ? `<div class="hlhint">${ic('pen')} ${tr('ظلّل أي جملة لتحفظها', 'Select any sentence to save it')}</div><div class="prose" id="prose">${body}</div>
   <div class="ours">
    ${a.market ? `<div class="box dark"><h4>ماذا يعني هذا لسوقنا</h4>${a.market.map(p => `<p>${esc(p)}</p>`).join('')}<div class="src">المصادر: ${a.marketSrc.map(s => `<a href="${esc(s[1])}" target="_blank" rel="noopener">${esc(s[0])}</a>`).join(' · ')}</div></div>` : ''}
-   ${a.concepts ? `<div class="box soft"><h4>المفاهيم في هذه المقالة</h4><div class="cl">${a.concepts.map(cid => { const c = con(cid); return c ? `<a href="#/c/${c.id}">${ic('learn')} ${esc(c.ar)}</a>` : ''; }).join('')}</div></div>` : ''}
    ${a.who ? `<div class="box soft"><h4>من كتبه</h4><p>${esc(a.who)}</p><div class="src">المصدر: <a href="${esc(a.whoSrc[1])}" target="_blank" rel="noopener">${esc(a.whoSrc[0])}</a></div></div>` : ''}
    ${a.match ? `<div class="box soft"><h4>مطابقة مع الأصل</h4><ul>${a.match.map(m => `<li>${esc(m)}</li>`).join('')}</ul></div>` : ''}
-  </div>${doneBtn}` : `<div class="empty">النسخة العربية الكاملة لهذه المقالة قيد الإعداد.</div>`}</section>
+  </div>${artConcepts(a)}${doneBtn}${readNext(a)}` : `<div class="empty">النسخة العربية الكاملة لهذه المقالة قيد الإعداد.</div>`}</section>
  <section id="v-orig" class="origwrap" ${tab === 'orig' ? '' : 'hidden'}>${a.embed === false ? `<div class="empty">${tr('موقع الكاتب لا يسمح بعرض المقالة داخل موقعنا.', "The author's site doesn't allow the article to be shown inside ours.")} <a href="${esc(a.url)}" target="_blank" rel="noopener">${tr('افتح الأصل', 'Open the original')}</a></div>` : `<div class="obar">${EN() ? '' : `<div class="seg sm" id="otabs"><span class="pill"></span><button data-o="o" aria-pressed="true">${tr('النص الأصلي', 'Original')}</button><button data-o="t" aria-pressed="false">${ic('translate')} ${tr('مترجم آليًا', 'Machine-translated')} ${ic('ext')}</button></div>`}<a class="olink" id="olink" href="${esc(a.url)}" target="_blank" rel="noopener">${ic('ext')} ${tr('افتح في صفحة جديدة', 'Open in a new tab')}</a></div><div class="note" id="onote">${ic('source')} ${tr('النص الأصلي كما نشره الكاتب، معروض من موقعه داخل صفحتنا.', 'The original as the author published it, shown from their site inside ours.')}</div><iframe data-src="${esc(a.url)}" data-tg="${esc(tgURL(a.url))}" title="${esc(a.en)}" loading="lazy" referrerpolicy="no-referrer"></iframe>`}</section>
  </main>`;
 }
@@ -318,8 +354,26 @@ function bindArticle(id) {
   });
   applyHL(pr, id); bindHL(pr, id);
  }
- $$('.readdone').forEach(rd => rd.onclick = () => { if (!ST.read.includes(id)) { ST.read.push(id); save(); } $$('.readdone').forEach(x => x.classList.add('done')); burst(rd); });
+ $$('.readdone').forEach(rd => rd.onclick = () => { markRead(id); $$('.readdone').forEach(x => x.classList.add('done')); burst(rd); });
+ if (pr) { crossNotes(pr, a); resumeReading(pr, id); }
  const rs = document.createElement('div'); rs.className = 'rsun'; rs.innerHTML = '<i></i>'; rs.id = 'rsun'; document.body.appendChild(rs);
+}
+function crossNotes(pr, a) {
+ const ps = $$('p', pr);
+ (a.links || []).forEach(l => { const p = ps[l.p], t = lib(l.to); if (!p || !t) return; const n = document.createElement('a'); n.className = 'xnote'; n.href = '#/a/' + t.id; n.innerHTML = `<span class="xk">${ic('article')} ${tr('كتبنا عن هذا', 'We covered this')}</span><b>${esc(EN() ? t.en : t.ar)}</b><small>${esc(tx(t, 'author'))} · <span class="b">${t.mins}</span> ${tr('دقيقة', 'min')}${ST.read.includes(t.id) ? ' · ' + tr('قرأتها', 'Read') : ''}</small>`; p.after(n); });
+}
+function resumeReading(pr, id) {
+ const ps = $$(':scope > p, :scope > h2', pr).filter(p => p.textContent.trim().length > 40 || p.tagName === 'H2'); if (ps.length < 6) return;
+ ST.pos = ST.pos || {}; const prev = ST.pos[id];
+ const bar = document.createElement('div'); bar.className = 'rprog'; bar.innerHTML = '<i></i>'; document.body.appendChild(bar); bar.id = 'rprog';
+ let last = 0, t0 = 0;
+ const tick = () => { const va = $('#v-ar'); if (!va || va.hidden || !document.body.contains(pr)) return; const mid = window.innerHeight * .35; let k = 0; ps.forEach((p, j) => { if (p.getBoundingClientRect().top < mid) k = j; }); const pc = Math.min(1, Math.max(0, (k + 1) / ps.length)); bar.firstChild.style.width = (pc * 100).toFixed(1) + '%'; const now = Date.now(); if (k !== last && now - t0 > 1500) { t0 = now; last = k; ST.pos[id] = { p: k, n: ps.length, d: TODAY }; save(); } if (k >= ps.length - 1 && !ST.read.includes(id)) { markRead(id); $$('.readdone').forEach(x => x.classList.add('done')); toast(tr('وصلت لآخر المقالة، علّمناها إنك خلصتها', 'You reached the end, marked as finished')); } };
+ if (window._rtick) window.removeEventListener('scroll', window._rtick); window._rtick = tick; window.addEventListener('scroll', tick, { passive: true });
+ if (prev && prev.p > 2 && prev.p < ps.length - 1 && !$('#v-ar').hidden) {
+  setTimeout(() => { const tgt = ps[prev.p]; if (!tgt) return; window.scrollTo({ top: window.scrollY + tgt.getBoundingClientRect().top - 140, behavior: 'smooth' }); tgt.classList.add('resumed');
+   const b = document.createElement('div'); b.className = 'resume'; b.innerHTML = `<span class="sunlet"></span><span>${tr('رجعناك للفقرة', 'Back to paragraph')} <span class="b">${prev.p + 1}</span> ${tr('من', 'of')} <span class="b">${ps.length}</span></span><button>${tr('من البداية', 'From the start')}</button>`; document.body.appendChild(b);
+   $('button', b).onclick = () => { b.remove(); window.scrollTo({ top: 0, behavior: 'smooth' }); }; setTimeout(() => b.classList.add('out'), 6500); setTimeout(() => b.remove(), 7000); }, 450);
+ }
 }
 function pop(t, html) {
  $$('.pop').forEach(p => p.remove());
@@ -344,10 +398,11 @@ function bindHL(pr, id) {
   const s = window.getSelection(); if (!s || s.isCollapsed) return clear();
   const text = s.toString().trim(); if (text.length < 6 || text.length > 700 || !pr.contains(s.anchorNode)) return clear();
   const r = s.getRangeAt(0).getBoundingClientRect(); clear();
-  btn = document.createElement('button'); btn.className = 'hlbtn'; btn.innerHTML = `${ic('pen')} ${tr('احفظ الجملة', 'Save sentence')}`;
-  btn.style.top = (window.scrollY + r.top - 50) + 'px'; btn.style.left = Math.max(10, Math.min(window.innerWidth - 170, r.left + r.width / 2 - 80)) + 'px';
+  btn = document.createElement('div'); btn.className = 'hlbar'; btn.innerHTML = `<button class="hlbtn" data-k="s">${ic('pen')} ${tr('احفظ', 'Save')}</button><button class="hlbtn sh" data-k="q">${ic('ext')} ${tr('شاركها كصورة', 'Share as image')}</button>`;
+  btn.style.top = (window.scrollY + r.top - 52) + 'px'; btn.style.left = Math.max(10, Math.min(window.innerWidth - 300, r.left + r.width / 2 - 140)) + 'px';
   btn.onmousedown = e => e.preventDefault();
-  btn.onclick = () => { const rg = s.getRangeAt(0); try { const m = document.createElement('mark'); m.className = 'hl new'; rg.surroundContents(m); } catch (e) { /* spans several elements: kept in saved list */ }
+  $('[data-k="q"]', btn).onclick = () => { const t = text; s.removeAllRanges(); clear(); toast(tr('نجهز البطاقة…', 'Making the card…')); quoteCard(t, lib(id)); };
+  $('[data-k="s"]', btn).onclick = () => { const rg = s.getRangeAt(0); try { const m = document.createElement('mark'); m.className = 'hl new'; rg.surroundContents(m); } catch (e) { /* spans several elements: kept in saved list */ }
    ST.hl.push({ a: id, t: text, d: TODAY }); save(); s.removeAllRanges(); clear(); toast(tr('حُفظت في محفوظاتك', 'Saved to your list')); };
   document.body.appendChild(btn);
  }, 10);
@@ -359,20 +414,22 @@ function toast(msg) { const t = document.createElement('div'); t.className = 'to
 /* ---------- LIBRARY ---------- */
 const LEN = { s: [0, 10, ['حتى 10 دقائق', 'Up to 10 min']], m: [11, 20, ['10 إلى 20', '10–20 min']], l: [21, 999, ['أطول من 20', 'Over 20 min']] };
 function renderLibrary(q) {
- const ft = q.get('topic') || '', fs = q.get('src') || '', fl = q.get('len') || '';
+ const ft = q.get('topic') || '', fs = q.get('src') || '', fl = q.get('len') || '', fr = q.get('st') || '', ftk = q.get('track') || '';
  const all = ARTS();
- const list = all.filter(a => (!ft || a.topic === ft) && (!fs || a.pub === fs) && (!fl || (a.mins >= LEN[fl][0] && a.mins <= LEN[fl][1])));
+ const tk = TRACKS.find(t => t.id === ftk); const list = (tk ? tk.ids.map(lib).filter(Boolean) : all).filter(a => (!ft || a.topic === ft) && (!fs || a.pub === fs) && (!fl || (a.mins >= LEN[fl][0] && a.mins <= LEN[fl][1])) && (!fr || (fr === 'read') === ST.read.includes(a.id)));
  const pubs = [...new Set(all.map(a => a.pub))];
  const topics = Object.keys(TOPIC).filter(k => all.some(a => a.topic === k));
- const link = (k, v) => { const p = new URLSearchParams({ topic: ft, src: fs, len: fl }); if (p.get(k) === v) p.delete(k); else p.set(k, v); [...p.keys()].forEach(x => { if (!p.get(x)) p.delete(x); }); const s = p.toString(); return '#/articles' + (s ? '?' + s : ''); };
- const chip = (k, v, label) => `<a class="chipb" href="${link(k, v)}" aria-pressed="${({ topic: ft, src: fs, len: fl })[k] === v}">${label}</a>`;
- const open = ft || fs || fl;
+ const link = (k, v) => { const p = new URLSearchParams({ topic: ft, src: fs, len: fl, st: fr, track: ftk }); if (p.get(k) === v) p.delete(k); else p.set(k, v); [...p.keys()].forEach(x => { if (!p.get(x)) p.delete(x); }); const s = p.toString(); return '#/articles' + (s ? '?' + s : ''); };
+ const chip = (k, v, label) => `<a class="chipb" href="${link(k, v)}" aria-pressed="${({ topic: ft, src: fs, len: fl, st: fr, track: ftk })[k] === v}">${label}</a>`;
+ const open = ft || fs || fl || fr;
  return `<main class="wrap">${head(tr('المقالات', 'Articles'), tr('مكتبة مفتوحة ومتنوعة: الاستثمار الجريء والملكية الخاصة والائتمان والاستحواذات والأسواق والاقتصاد. كل مقالة هنا كاملة بالعربية، ومعها الأصل والملخص.', 'An open, varied library: venture, private equity and credit, M&A, markets and economics. Every article here is complete in Arabic, with the original and a summary.'))}
   <details class="filters" ${open ? 'open' : ''}><summary>${ic('filter')} ${tr('تصفية', 'Filter')} ${open ? `<a class="clr" href="#/articles">${tr('مسح', 'Clear')}</a>` : ''}</summary>
    <div class="frow"><span>${tr('الموضوع', 'Topic')}</span><div class="chips">${topics.map(k => chip('topic', k, esc(topic(k)))).join('')}</div></div>
    <div class="frow"><span>${tr('المصدر', 'Source')}</span><div class="chips">${pubs.map(p => chip('src', p, esc(p))).join('')}</div></div>
-   <div class="frow"><span>${tr('الطول', 'Length')}</span><div class="chips">${Object.keys(LEN).map(k => chip('len', k, LEN[k][2][EN() ? 1 : 0])).join('')}</div></div></details>
-  <div class="lgrid">${list.map((a, k) => `<a class="lcard rv" href="#/a/${a.id}" style="transition-delay:${k * .05}s"><div class="vis">${a.chart && window.TMR_CHARTS ? `<div style="position:absolute;inset:14px 10px 18px">${TMR_CHARTS[a.chart]}</div>` : a.img ? `<img src="img/${a.img}.jpg" alt="" loading="lazy">` : `<div class="typo"><b>${esc(a.pub.toUpperCase())}</b><em>${esc(a.en)}</em></div>`}${bands()}</div><div class="bd"><div class="meta"><span class="tag t-${a.topic}">${esc(topic(a.topic))}</span><span><span class="b">${a.mins}</span> ${tr('دقيقة', 'min')}</span></div><h3>${esc(EN() ? a.en : a.ar)}</h3><p>${esc(tx(a, 'author'))} · ${esc(a.pub)}</p><div class="ft">${ST.read.includes(a.id) ? `<span class="ar-ok">${ic('check')} ${tr('قرأتها', 'Read')}</span>` : `<span>${tr('ملخص · العربية · الأصل', 'Summary · Arabic · Original')}</span>`}</div></div></a>`).join('')}
+   <div class="frow"><span>${tr('الطول', 'Length')}</span><div class="chips">${Object.keys(LEN).map(k => chip('len', k, LEN[k][2][EN() ? 1 : 0])).join('')}</div></div>
+   <div class="frow"><span>${tr('حالتها', 'Status')}</span><div class="chips">${chip('st', 'unread', tr('ما قريتها', 'Not read yet'))}${chip('st', 'read', tr('قريتها', 'Read'))}</div></div></details>
+  ${TRACKS.length && !tk ? `<section class="trks"><div class="sh"><span class="mark"></span><h2>${tr('مسارات القراءة', 'Reading tracks')}</h2><span class="aside">${tr('مقالات مرتبة بموضوع واحد', 'Articles in order, one theme')}</span></div><div class="trgrid">${TRACKS.map(trackCard).join('')}</div></section>` : tk ? `<div class="tkhead"><a class="clr" href="#/articles">${ic(EN() ? 'fwd' : 'back')} ${tr('كل المقالات', 'All articles')}</a><h2>${tr('مسار', 'Track')}: ${esc(EN() ? tk.en : tk.ar)}</h2></div>` : ''}
+  <div class="lgrid">${list.map((a, k) => `<a class="lcard rv${ST.read.includes(a.id) ? ' isread' : ''}" href="#/a/${a.id}" style="transition-delay:${k * .05}s"><div class="vis">${a.chart && window.TMR_CHARTS ? `<div style="position:absolute;inset:14px 10px 18px">${TMR_CHARTS[a.chart]}</div>` : a.img ? `<img src="img/${a.img}.jpg" alt="" loading="lazy">` : `<div class="typo"><b>${esc(a.pub.toUpperCase())}</b><em>${esc(a.en)}</em></div>`}${bands()}</div><div class="bd"><div class="meta"><span class="tag t-${a.topic}">${esc(topic(a.topic))}</span><span><span class="b">${a.mins}</span> ${tr('دقيقة', 'min')}</span></div><h3>${esc(EN() ? a.en : a.ar)}</h3><p>${esc(tx(a, 'author'))} · ${esc(a.pub)}</p><div class="ft">${ST.read.includes(a.id) ? `<span class="ar-ok">${ic('check')} ${tr('قرأتها', 'Read')}${ST.readAt && ST.readAt[a.id] ? ' · ' + esc(fmtDate(ST.readAt[a.id])) : ''}</span>` : (ST.pos && ST.pos[a.id] ? `<span class="ar-mid">${tr('وصلت للفقرة', 'At paragraph')} <span class="b">${ST.pos[a.id].p + 1}</span> ${tr('من', 'of')} <span class="b">${ST.pos[a.id].n}</span></span>` : `<span>${tr('ملخص · العربية · الأصل', 'Summary · Arabic · Original')}</span>`)}</div></div></a>`).join('')}
   ${list.length ? '' : `<div class="empty">${tr('لا توجد مقالات بهذه التصفية.', 'No articles match.')}</div>`}</div>
   <div class="coming rv">${ic('clock')} <span>${tr('مقالات جديدة كاملة تُضاف كل أسبوع بعد ترجمتها كاملة ومراجعتها.', 'New articles are added every week once they are fully written in Arabic and checked.')}</span></div></main>`;
 }
@@ -400,23 +457,24 @@ function renderConcepts() {
  const n = CON.length, k = CON.filter(c => ST.known.includes(c.id)).length;
  return `<main class="wrap">${head(tr('المفاهيم', 'Concepts'), tr('سماء مفاهيمك: كل نجمة مفهوم، وتضيء حين تأخذه. تعريف دقيق بمرجعه، وكيف يشتغل، ومثال حقيقي، وما يختلط معه.', 'Your sky of concepts: each star is a concept and it lights up once you learn it. A precise definition with its reference, how it works, a real example, and what it gets confused with.'))}
   <section class="skywrap rv"><div class="skyhead"><b dir="ltr"><span class="b">${k}</span> / <span class="b">${n}</span></b><span>${tr('مفهوم أضأته', 'concepts lit')}</span></div>${skySVG(1100, 560)}</section>
-  ${Object.keys(CGROUP).filter(g => CON.some(c => (c.group || 'vc') === g)).map(g => `<h2 class="cgh">${esc(CGROUP[g][EN() ? 1 : 0])}</h2><div class="cgrid">${CON.filter(c => (c.group || 'vc') === g).map(c => `<a class="cbox rv${ST.known.includes(c.id) ? ' on' : ''}" href="#/c/${c.id}"><span class="cst">${ST.known.includes(c.id) ? '<i class="sunlet"></i>' : ic('star')}</span><b>${esc(EN() ? c.en : c.ar)}</b><span class="b en2">${esc(EN() ? c.ar : c.en)}</span><span>${tx(c, 'defn').replace(/<[^>]+>/g, '').slice(0, 130)}…</span></a>`).join('')}</div>`).join('')}
+  ${Object.keys(CGROUP).filter(g => CON.some(c => (c.group || 'vc') === g)).map(g => `<h2 class="cgh">${esc(CGROUP[g][EN() ? 1 : 0])}</h2><div class="cgrid">${CON.filter(c => (c.group || 'vc') === g).map(c => `<a class="cbox rv${ST.known.includes(c.id) ? ' on' : ''}" href="#/c/${c.id}"><span class="cst">${ST.known.includes(c.id) ? '<i class="sunlet"></i>' : ic('star')}</span><b>${esc(EN() ? c.en : c.ar)}</b><span class="b en2">${esc(EN() ? c.ar : c.en)}</span><span>${tx(c, 'defn').replace(/<[^>]+>/g, '').slice(0, 130)}…</span>${ST.known.includes(c.id) ? `<em class="kok">${ic('check')} ${tr('أخذته', 'Learned')}${ST.knownAt && ST.knownAt[c.id] ? ' · ' + esc(fmtDate(ST.knownAt[c.id])) : ''}</em>` : ''}</a>`).join('')}</div>`).join('')}
   <div class="coming rv">${ic('clock')} <span>${tr('تُضاف المفاهيم تباعًا بعد مراجعة كل واحد ومرجعه.', 'Concepts are added as each one and its reference are checked.')}</span></div></main>`;
 }
 function bindSky() { const sv = $('.sky'); if (!sv) return; $$('.st', sv).forEach(a => { a.addEventListener('pointerenter', () => { sv.classList.add('hov'); a.classList.add('hv'); $$('.lk', sv).forEach(l => l.classList.toggle('hl', l.dataset.a === a.dataset.id || l.dataset.b === a.dataset.id)); }); a.addEventListener('pointerleave', () => { sv.classList.remove('hov'); a.classList.remove('hv'); $$('.lk.hl', sv).forEach(l => l.classList.remove('hl')); }); }); }
 function renderConcept(id) {
  const c = con(id); if (!c) return notFound();
- const arts = (c.articles || []).map(lib).filter(a => a && a.arabic);
+ const arts = [...new Set([...(c.articles || []), ...LIB.filter(a => (a.concepts || []).includes(c.id)).map(a => a.id)])].map(lib).filter(a => a && a.arabic); const from = ST.knownFrom && ST.knownFrom[c.id] && lib(ST.knownFrom[c.id]);
  const rel = (c.related || []).map(con).filter(Boolean);
  const confuse = EN() && c.confuse_en ? c.confuse_en : c.confuse;
  return `<main class="wrap"><article class="cpage">${backLink('#/concepts', tr('المفاهيم', 'Concepts'))}
   <div class="chero"><div><span class="tag cn">${esc(tx(c, 'stage'))}</span><h1>${esc(EN() ? c.en : c.ar)}</h1><div class="en">${esc(EN() ? c.ar : c.en)}</div></div><div class="cside">${conceptSide(c)}</div></div>
+  ${from ? `<a class="kfrom" href="#/a/${from.id}"><i class="sunlet"></i> ${tr('تعلمته من', 'Learned from')}: <b>${esc(EN() ? from.en : from.ar)}</b>${ST.knownAt && ST.knownAt[c.id] ? ` · ${esc(fmtDate(ST.knownAt[c.id]))}` : ''}</a>` : ''}
   <h2>${tr('التعريف', 'Definition')}</h2><p>${tx(c, 'defn')}</p>
   <h2>${tr('كيف يشتغل', 'How it works')}</h2><p>${esc(tx(c, 'how'))}</p>
   ${tx(c, 'example') ? `<h2>${tr('مثال حقيقي', 'A real example')}</h2><div class="exbox"><p>${esc(tx(c, 'example'))}</p></div>` : ''}
   ${confuse && confuse.length ? `<h2>${tr('ما يختلط معه', 'Often confused with')}</h2><div class="cmp">${confuse.map(x => `<div><b>${esc(x[0])}</b>${esc(x[1])}</div>`).join('')}</div>` : ''}
   ${rel.length ? `<h2>${tr('مفاهيم قريبة', 'Related concepts')}</h2><div class="cl">${rel.map(r => `<a href="#/c/${r.id}">${ic('star')} ${esc(EN() ? r.en : r.ar)}</a>`).join('')}</div>` : ''}
-  ${arts.length ? `<h2>${tr('مقالات تتناوله', 'Articles that cover it')}</h2><div class="cl">${arts.map(a => `<a href="#/a/${a.id}">${ic('article')} ${esc(EN() ? a.en : a.ar)}</a>`).join('')}</div>` : ''}
+  ${arts.length ? `<h2>${tr('ورد في هذه المقالات', 'Appears in these articles')}</h2><div class="cl">${arts.map(a => `<a href="#/a/${a.id}">${ic('article')} ${esc(EN() ? a.en : a.ar)}</a>`).join('')}</div>` : ''}
   <h2>${tr('المرجع', 'Reference')}</h2><div class="srcs">${c.refs.map(r => `<a href="${esc(r[1])}" target="_blank" rel="noopener">${ic('source')} ${esc(r[0])}</a>`).join('')}</div>
   <div class="finish"><button class="btn2 knowb big2${ST.known.includes(c.id) ? ' done' : ''}" data-know="${c.id}"><svg class="ic" viewBox="0 0 24 24">${P.check}</svg><span>${ST.known.includes(c.id) ? tr('أخذته', 'Learned') : tr('أعرفه', 'I know it')}</span></button></div></article></main>`;
 }
@@ -459,7 +517,7 @@ function renderStory(id) {
   ${img && x.image.credit ? `<div class="wrap"><div class="cred">${tr('الصورة', 'Photo')}: ${esc(x.image.credit)}</div></div>` : ''}
   <main class="wrap"><article class="story">
   ${itF(x, 'dek') ? `<div class="dek">${esc(itF(x, 'dek'))}</div>` : ''}
-  ${isDeal ? `<div class="bigfacts rv"><div class="bf main">${logoBox(x.company)}<div><small>${esc(x.company)}</small><b class="b">${esc(x.amount ? money(x.amount) : (x.amountLabel || money(null)))}</b></div></div>${facts.map(f => `<div class="bf"><small>${esc(f[0])}</small><b>${esc(f[1])}</b></div>`).join('')}</div>` : facts.length ? `<div class="bigfacts rv">${facts.map(f => `<div class="bf"><small>${esc(f[0])}</small><b>${esc(f[1])}</b></div>`).join('')}</div>` : ''}
+  ${isDeal ? `<div class="bigfacts rv"><div class="bf main">${logoBox(x.company)}<div><small><a class="colink" href="${coHref(x.company)}">${esc(x.company)} ${ic(EN() ? 'back' : 'fwd')}</a></small><b class="b">${esc(x.amount ? money(x.amount) : (x.amountLabel || money(null)))}</b></div></div>${facts.map(f => `<div class="bf"><small>${esc(f[0])}</small><b>${esc(f[1])}</b></div>`).join('')}</div>` : facts.length ? `<div class="bigfacts rv">${facts.map(f => `<div class="bf"><small>${esc(f[0])}</small><b>${esc(f[1])}</b></div>`).join('')}</div>` : ''}
   ${others.length ? `<div class="invs">${tr('مستثمرون آخرون', 'Also investing')}: ${others.map(n => `<span>${logoOf(n) ? `<img src="${esc(logoOf(n))}" alt="">` : ''}${esc(n)}</span>`).join('')}</div>` : ''}
   <div class="prose sprose">${body.map(p => `<p>${esc(typeof p === 'string' ? p : (p.text || ''))}</p>`).join('')}</div>
   ${itF(x, 'why') ? `<div class="box dark why2 rv"><h4>${ic('bolt')} ${tr('ليش هذا مهم', 'Why it matters')}</h4><p>${esc(itF(x, 'why'))}</p></div>` : ''}
@@ -485,6 +543,90 @@ function coCard(el, d) {
  c.style.top = (window.scrollY + r.top - c.offsetHeight - 10 > window.scrollY + 70 ? window.scrollY + r.top - c.offsetHeight - 10 : window.scrollY + r.bottom + 10) + 'px';
  c.style.left = Math.max(12, Math.min(window.innerWidth - c.offsetWidth - 12, r.left + (EN() ? 40 : r.width - c.offsetWidth - 40))) + 'px';
 }
+
+
+/* ---------- company pages ---------- */
+function companyData(sl) {
+ const rounds = ROUNDS.filter(d => coSlug(d.company) === sl);
+ const name = rounds[0] ? rounds[0].company : (ITEMS.find(x => x.company && coSlug(x.company) === sl) || {}).company;
+ if (!name) return null;
+ const re = new RegExp('(^|[^A-Za-z])' + name.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '([^A-Za-z]|$)', 'i');
+ const txt = x => [x.en && x.en.title, x.en && x.en.dek, ...((x.en && x.en.body) || []).map(b => typeof b === 'string' ? b : (b.text || ''))].join(' ');
+ const storyIds = new Set(rounds.map(d => d.story).filter(Boolean));
+ const items = ITEMS.filter(x => !storyIds.has(x.id) && ((x.company && coSlug(x.company) === sl) || re.test(txt(x))));
+ return { name, rounds, items };
+}
+function renderCompany(sl) {
+ const D = companyData(decodeURIComponent(sl)); if (!D) return notFound();
+ const { name, rounds, items } = D; const r0 = rounds[0] || {};
+ const st = rounds.map(d => d.story && ITEMS.find(i => i.id === d.story)).filter(Boolean);
+ const val = [...st, ...items].filter(x => x.valuation).sort((a, b) => (b.date || '').localeCompare(a.date || ''))[0];
+ const invs = [...new Set(rounds.flatMap(d => (d.investors || []).map(i => i.name)))];
+ const total = rounds.reduce((s, d) => s + (d.amount || 0), 0);
+ const ev = [...rounds.map(d => ({ d: d.date, c: kindCol(d.k || kindOf(d)), h: d.story ? `#/n/${d.story}` : (d.source && d.source.url) || '#', ext: !d.story, t: `${kindName(d.k || kindOf(d))}${d.stage ? ' · ' + stg(d.stage) : ''}${d.amount ? ' · ' + money(d.amount) : ''}`, s: (d.investors || []).length ? (d.investors.filter(i => i.lead).map(i => i.name).join(EN() ? ', ' : '، ') ? tr('بقيادة ', 'Led by ') + d.investors.filter(i => i.lead).map(i => i.name).join(EN() ? ', ' : '، ') : d.investors.map(i => i.name).slice(0, 3).join(EN() ? ', ' : '، ')) : (d.source && d.source.name) || '' })),
+  ...items.map(x => ({ d: x.date, c: x.type === 'report' ? 'var(--glow)' : x.type === 'article' ? 'var(--dawn)' : kindCol(kindOf(x)), h: `#/n/${x.id}`, t: itTitle(x), s: `${x.type === 'report' ? tr('تقرير', 'Report') : x.type === 'article' ? tr('مقالة', 'Article') : kindName(kindOf(x))} · ${(x.source && x.source.name) || ''}` }))].filter(e => e.d).sort((a, b) => b.d.localeCompare(a.d));
+ const r1 = rounds.find(d => d.industry) || {};
+ return `<main class="wrap"><article class="copage">${backLink('#/news', tr('الأخبار', 'News'))}
+  <div class="cohead">${logoBox(name, 'xl')}<div><h1>${esc(name)}</h1><div class="meta">${r1.industry ? `<span>${esc(ind(r1.industry))}</span>` : ''}${r0.market ? `<span>${esc(mkt(r0.market))}</span>` : ''}</div></div></div>
+  <div class="cokpi rv">${val ? `<div><b class="b" dir="ltr">${esc(val.valuation)}</b><span>${tr('آخر تقييم معلن', 'Latest reported valuation')} · ${esc(fmtDate(val.date))}</span></div>` : ''}${r0.date ? `<div><b class="b">${esc(r0.amount ? money(r0.amount) : money(null))}</b><span>${tr('آخر جولة', 'Latest round')}${r0.stage ? ': ' + esc(stg(r0.stage)) : ''} · ${esc(fmtDate(r0.date))}</span></div>` : ''}${rounds.length > 1 && total ? `<div><b class="b">${esc(money(total))}</b><span>${tr('مجموع الجولات التي نتابعها', 'Total of rounds we track')}</span></div>` : ''}${invs.length ? `<div><b class="b">${invs.length}</b><span>${tr('مستثمرون في جولاتها', 'Investors in its rounds')}</span></div>` : ''}</div>
+  ${invs.length ? `<div class="invs">${tr('المستثمرون', 'Investors')}: ${invs.map(n => `<span>${logoOf(n) ? `<img src="${esc(logoOf(n))}" alt="">` : ''}${esc(n)}</span>`).join('')}</div>` : ''}
+  <h2>${tr('الخط الزمني', 'Timeline')}</h2>
+  <div class="cotl">${ev.map(e => `<a class="cev rv" href="${esc(e.h)}" ${e.ext ? 'target="_blank" rel="noopener"' : ''} style="--c:${e.c}"><span class="cd">${esc(fmtDate(e.d))}</span><i></i><span class="ct"><b>${esc(e.t)}</b><small>${esc(e.s)}</small></span></a>`).join('')}</div>
+  <p class="conote">${tr('نعرض الجولات التي نتابعها منذ يناير 2026، وكل خبر أو تقرير ذكر الشركة. الجولات الأقدم تُضاف تباعًا.', 'We show the rounds we track since January 2026, and every story or report that mentions the company. Older rounds are being added.')}</p>
+ </article></main>`;
+}
+
+/* ---------- images: quote card and weekly card ---------- */
+function loadImg(src) { return new Promise(r => { const i = new Image(); i.onload = () => r(i); i.onerror = () => r(null); i.src = src; }); }
+async function brandFonts() { try { await Promise.all(["900 60px 'Thmanyah Serif Display'", "400 30px 'Thmanyah Sans'", "700 30px 'Thmanyah Sans'", "800 60px 'Bricolage Grotesque'"].map(f => document.fonts.load(f))); } catch (e) {} }
+function wrapLines(ctx, text, maxW) { const w = text.split(/\s+/); const L = []; let cur = ''; w.forEach(x => { const t = cur ? cur + ' ' + x : x; if (ctx.measureText(t).width > maxW && cur) { L.push(cur); cur = x; } else cur = t; }); if (cur) L.push(cur); return L; }
+function drawSun(ctx, cx, cy, r) { ctx.save(); ctx.beginPath(); ctx.arc(cx, cy, r, 0, Math.PI * 2); ctx.clip(); const d = 2 * r, top = cy - r; [[0, 50, '#3EA6F2'], [54, 63, '#FFD45C'], [67.5, 75.5, '#FFA235'], [80.5, 87.5, '#FF7A24'], [93, 100, '#F2551A']].forEach(([a, b, c]) => { ctx.fillStyle = c; ctx.fillRect(cx - r, top + a / 100 * d, d, (b - a) / 100 * d); }); ctx.restore(); }
+async function saveCanvas(cv, name) {
+ const blob = await new Promise(r => cv.toBlob(r, 'image/png')); if (!blob) return;
+ try { const f = new File([blob], name, { type: 'image/png' }); if (navigator.canShare && navigator.canShare({ files: [f] }) && /Mobi|Android|iPhone/i.test(navigator.userAgent)) { await navigator.share({ files: [f] }); return; } } catch (e) {}
+ const u = URL.createObjectURL(blob); const a = document.createElement('a'); a.href = u; a.download = name; document.body.appendChild(a); a.click(); a.remove(); setTimeout(() => URL.revokeObjectURL(u), 3000);
+}
+async function quoteCard(text, a) {
+ await brandFonts(); const W = 1080, H = 1350; const cv = document.createElement('canvas'); cv.width = W; cv.height = H; const ctx = cv.getContext('2d');
+ ctx.fillStyle = '#FFFFFF'; ctx.fillRect(0, 0, W, H);
+ const lg = await loadImg('brand/pack/tmr-logo-line-color.svg'); if (lg) ctx.drawImage(lg, 80, 80, 400, 400 * lg.height / lg.width);
+ ctx.direction = 'rtl'; ctx.textAlign = 'right'; ctx.fillStyle = '#0B0D12';
+ let fs = 78; let lines; do { ctx.font = `900 ${fs}px 'Thmanyah Serif Display'`; lines = wrapLines(ctx, '«' + text.replace(/\s+/g, ' ').trim() + '»', W - 180); fs -= 4; } while (lines.length * fs * 1.5 > 700 && fs > 36);
+ const lh = (fs + 4) * 1.5; let y = 260 + Math.max(0, (720 - lines.length * lh) / 2) + lh * .8; lines.forEach(l => { ctx.fillText(l, W - 90, y); y += lh; });
+ ctx.font = "700 34px 'Thmanyah Sans'"; ctx.fillText(EN() ? a.en : a.ar, W - 90, H - 250, W - 180); ctx.fillStyle = '#5D6370'; ctx.font = "400 30px 'Thmanyah Sans'"; ctx.fillText(`${tx(a, 'author')} · ${a.pub}`, W - 90, H - 200, W - 180);
+ [['#FFD45C', 0], ['#FFA235', 1], ['#FF7A24', 2], ['#F2551A', 3]].forEach(([c, k]) => { ctx.fillStyle = c; ctx.fillRect(0, H - 140 + k * 35, W, 35); });
+ await saveCanvas(cv, `the-morning-round-${a.id}.png`);
+}
+function weekRange() { const wk = weekDates(); const s = wk[0]; const e = new Date(dt(s)); e.setDate(e.getDate() + 6); const ei = `${e.getFullYear()}-${String(e.getMonth() + 1).padStart(2, '0')}-${String(e.getDate()).padStart(2, '0')}`; return [s, ei]; }
+function weekStats() {
+ const [s, e] = weekRange(); const inR = d => d && d >= s && d <= e;
+ const reads = Object.entries(ST.readAt || {}).filter(([, d]) => inR(d)).map(([id]) => lib(id)).filter(Boolean);
+ const knows = Object.entries(ST.knownAt || {}).filter(([, d]) => inR(d)).map(([id]) => con(id)).filter(Boolean);
+ const days = ST.days.filter(inR).length; const longest = reads.slice().sort((a, b) => b.mins - a.mins)[0];
+ return { s, e, reads, knows, days, longest };
+}
+function weekCard(big) {
+ const W = weekStats(); const s = dt(W.s), e = dt(W.e);
+ const rng = `${s.getDate()} ${MON()[s.getMonth()]} ${tr('إلى', 'to')} ${e.getDate()} ${MON()[e.getMonth()]}`;
+ return `<div class="wkcard${big ? ' wkbig' : ''}"><div class="wk1">${tr('جولتك الأسبوعية', 'Your week')} · ${esc(rng)}</div><h2>${W.reads.length + W.knows.length ? tr('أسبوعك في سطور', 'Your week in brief') : tr('أسبوعك ما بدأ بعد', 'Your week has not started')}</h2>
+  <div class="wkst"><div><b class="b">${W.reads.length}</b><span>${tr('مقالات خلصتها', 'articles finished')}</span></div><div><b class="b">${W.knows.length}</b><span>${tr('مفاهيم تعلمتها', 'concepts learned')}</span></div><div><b class="b">${streak()}</b><span>${tr('أيام ورا بعض', 'day streak')}</span></div></div>
+  ${W.longest ? `<div class="wkbest">${tr('أطول مقالة خلصتها', 'Longest article you finished')}<strong>${esc(EN() ? W.longest.en : W.longest.ar)} · <span class="b">${W.longest.mins}</span> ${tr('دقيقة', 'min')}</strong></div>` : ''}
+  <span class="wksun"></span><span class="wklogo">${LOGO_LINE}</span>${big ? '' : `<a class="wkmore" href="#/week">${tr('افتحها', 'Open it')} ${ic(EN() ? 'back' : 'fwd')}</a>`}</div>`;
+}
+async function weekImage() {
+ await brandFonts(); const Wk = weekStats(); const W = 1080, H = 1080; const cv = document.createElement('canvas'); cv.width = W; cv.height = H; const ctx = cv.getContext('2d');
+ ctx.fillStyle = '#0B0D12'; ctx.fillRect(0, 0, W, H); drawSun(ctx, EN() ? W - 250 : 250, H - 110, 180);
+ ctx.direction = EN() ? 'ltr' : 'rtl'; ctx.textAlign = EN() ? 'left' : 'right'; const X = EN() ? 80 : W - 80;
+ const s = dt(Wk.s), e = dt(Wk.e); ctx.fillStyle = '#A3AAB6'; ctx.font = "400 34px 'Thmanyah Sans'"; ctx.fillText(`${tr('جولتك الأسبوعية', 'Your week')} · ${s.getDate()} ${MON()[s.getMonth()]} ${tr('إلى', 'to')} ${e.getDate()} ${MON()[e.getMonth()]}`, X, 130);
+ ctx.fillStyle = '#EEF0F4'; ctx.font = `900 92px ${EN() ? "'Bricolage Grotesque'" : "'Thmanyah Serif Display'"}`; ctx.fillText(tr('أسبوعك في سطور', 'Your week in brief'), X, 250);
+ const st = [[Wk.reads.length, tr('مقالات خلصتها', 'articles finished')], [Wk.knows.length, tr('مفاهيم تعلمتها', 'concepts learned')], [streak(), tr('أيام ورا بعض', 'day streak')]];
+ st.forEach(([n, l], k) => { const x = EN() ? 80 + k * 320 : W - 80 - k * 320; ctx.fillStyle = '#FFD45C'; ctx.font = "800 150px 'Bricolage Grotesque'"; ctx.fillText(String(n), x, 460); ctx.fillStyle = '#A3AAB6'; ctx.font = "400 32px 'Thmanyah Sans'"; ctx.fillText(l, x, 520); });
+ if (Wk.longest) { ctx.fillStyle = '#A3AAB6'; ctx.font = "400 30px 'Thmanyah Sans'"; ctx.fillText(tr('أطول مقالة خلصتها', 'Longest article you finished'), X, 620); ctx.fillStyle = '#FFFFFF'; ctx.font = "700 40px 'Thmanyah Sans'"; ctx.fillText(`${EN() ? Wk.longest.en : Wk.longest.ar} · ${Wk.longest.mins} ${tr('دقيقة', 'min')}`, X, 680, W - 160); }
+ const lg = await loadImg('brand/pack/tmr-logo-line-color-on-dark.svg'); if (lg) ctx.drawImage(lg, EN() ? 80 : W - 80 - 360, H - 120, 360, 360 * lg.height / lg.width);
+ await saveCanvas(cv, `the-morning-round-week-${Wk.s}.png`);
+}
+function renderWeek() { return `<main class="wrap">${head(tr('جولتك الأسبوعية', 'Your week'), tr('كل خميس: وش قريت ووش تعلمت هالأسبوع. تنحسب المقالات اللي علّمتها «خلصتها» والمفاهيم اللي أخذتها.', 'Every Thursday: what you read and learned this week. Counts articles you marked finished and concepts you learned.'))}<div class="wkwrap">${weekCard(true)}<button class="btn" id="wksave">${ic('ext')} ${tr('احفظها كصورة', 'Save as image')}</button></div></main>`; }
+function bindWeek() { const b = $('#wksave'); if (b) b.onclick = () => weekImage(); }
 
 /* ---------- SAVED ---------- */
 function renderSaved() {
@@ -521,7 +663,7 @@ function searchIndex() {
  ARTS().forEach(a => L.push({ g: 'article', t: EN() ? a.en : a.ar, s: `${tx(a, 'author')} · ${a.pub}`, h: '#/a/' + a.id, i: 'article', k: [a.ar, a.en, a.author, a.author_en, a.pub, a.about, a.about_en].join(' ') }));
  CON.forEach(c => L.push({ g: 'concept', t: EN() ? c.en : c.ar, s: EN() ? c.ar : c.en, h: '#/c/' + c.id, i: 'learn', k: [c.ar, c.en].join(' ') }));
  const cos = new Set();
- ROUNDS.forEach(d => { if (cos.has(d.company)) return; cos.add(d.company); L.push({ g: 'company', t: d.company, s: `${d.amount ? money(d.amount) : ''} · ${stg(d.stage)} · ${mkt(d.market)}`, h: d.story ? '#/n/' + d.story : '#/dashboard?co=' + encodeURIComponent(d.company), i: 'deal', logo: d.company, k: [d.company, (d.investors || []).map(i => i.name).join(' '), d.industry].join(' ') }); });
+ ROUNDS.forEach(d => { if (cos.has(d.company)) return; cos.add(d.company); L.push({ g: 'company', t: d.company, s: `${d.amount ? money(d.amount) : ''} · ${stg(d.stage)} · ${mkt(d.market)}`, h: coHref(d.company), i: 'deal', logo: d.company, k: [d.company, (d.investors || []).map(i => i.name).join(' '), d.industry].join(' ') }); });
  ITEMS.filter(x => x.type === 'news' || x.type === 'deal').forEach(x => L.push({ g: 'news', t: itTitle(x), s: fmtDate(x.date), h: '#/n/' + x.id, i: 'news', k: [x.ar && x.ar.title, x.en && x.en.title, x.company].join(' ') }));
  L.forEach(x => { x.n = norm((x.k || '') + ' ' + x.t + ' ' + x.s); });
  SIDX = { L, norm }; return SIDX;
@@ -553,7 +695,8 @@ function openMenu() {
  const cur = '#' + ((location.hash || '#/').slice(1).split('?')[0] || '/');
  el.innerHTML = `<div class="mpane"><div class="mtop"><span class="mlogo">${LOGO_LINE}</span><button class="mx" aria-label="close">${ic('close')}</button></div>
   <nav class="mlinks">${ROUTES.map((r, k) => `<a href="#${r[0]}" class="${cur === '#' + r[0] ? 'on' : ''}" style="--i:${k}">${ic(r[2])}<span>${tr(r[1], r[3])}</span></a>`).join('')}
-  <a href="#/saved" class="sv${cur === '#/saved' ? ' on' : ''}" style="--i:5">${ic('bookmark')}<span>${tr('محفوظاتك', 'Saved')}</span>${n ? `<b class="b">${n}</b>` : ''}</a></nav>
+  <a href="#/week" class="${cur === '#/week' ? 'on' : ''}" style="--i:5">${ic('streak')}<span>${tr('جولتك الأسبوعية', 'Your week')}</span></a>
+  <a href="#/saved" class="sv${cur === '#/saved' ? ' on' : ''}" style="--i:6">${ic('bookmark')}<span>${tr('محفوظاتك', 'Saved')}</span>${n ? `<b class="b">${n}</b>` : ''}</a></nav>
   <div class="mtools"><button id="m-s">${ic('search')} ${tr('بحث', 'Search')}</button><button id="m-l">${ic('lang')} ${tr('English', 'العربية')}</button><button id="m-t">${ic('moon')} ${tr('الوضع الليلي', 'Dark mode')}</button></div>
   <div class="mby" dir="ltr">© ${new Date().getFullYear()} The Morning Round · by Meshal Alkanhal</div></div>`;
  document.body.appendChild(el);
@@ -599,7 +742,7 @@ function shell() {
  let ly = 0; window.addEventListener('scroll', () => { const y = window.scrollY; const down = y > ly && y > 140 && /^#\/a\//.test(location.hash); $('#hdr').classList.toggle('hide', down); ly = y;
   const rs = $('#rsun'); const pr = $('#prose'); const sm = $('#sdeck'); const tgt = pr && pr.offsetParent ? pr : (sm && sm.offsetParent ? sm : null); if (rs && tgt) { const r = tgt.getBoundingClientRect(); const p = Math.min(1, Math.max(0, (window.innerHeight * .6 - r.top) / r.height)); rs.style.setProperty('--r', p.toFixed(3)); } }, { passive: true });
  document.addEventListener('click', e => { const b = e.target.closest('[data-save]'); if (!b) return; const id = b.dataset.save; const i = ST.saved.indexOf(id); if (i < 0) ST.saved.push(id); else ST.saved.splice(i, 1); save(); b.setAttribute('aria-pressed', String(i < 0)); if (i < 0) toast(tr('حُفظت في محفوظاتك', 'Saved to your list')); });
- document.addEventListener('click', e => { const b = e.target.closest('[data-know]'); if (!b) return; const id = b.dataset.know; if (!ST.known.includes(id)) { ST.known.push(id); save(); burst(b); } $$(`[data-know="${id}"]`).forEach(x => { x.classList.add('done'); x.lastChild.textContent = tr('أخذته', 'Learned'); }); refreshStats(); });
+ document.addEventListener('click', e => { const b = e.target.closest('[data-know]'); if (!b) return; const id = b.dataset.know; if (!ST.known.includes(id)) { ST.known.push(id); ST.knownAt = ST.knownAt || {}; ST.knownAt[id] = TODAY; const am = (location.hash || '').match(/^#\/a\/([^?]+)/); if (am) { ST.knownFrom = ST.knownFrom || {}; ST.knownFrom[id] = am[1]; } save(); burst(b); } $$(`[data-know="${id}"]`).forEach(x => { x.classList.add('done'); x.lastChild.textContent = tr('أخذته', 'Learned'); }); refreshStats(); });
 }
 function navSync(path) {
  const base = '/' + (path.split('/')[1] || '');
@@ -611,7 +754,7 @@ function navSync(path) {
 let io;
 function reveal() { if (io) io.disconnect(); io = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } }), { threshold: .08, rootMargin: '0px 0px -30px 0px' }); $$('.rv,.deals,#acard,#ccard').forEach(el => io.observe(el)); }
 async function route(fresh) {
- $$('.rsun,.pop,.hlbtn,.cocard,.dtip').forEach(x => x.remove());
+ $$('.rsun,.pop,.hlbtn,.hlbar,.cocard,.dtip,.rprog,.resume').forEach(x => x.remove()); if (window._rtick) { window.removeEventListener('scroll', window._rtick); window._rtick = null; }
  const raw = (location.hash || '#/').slice(1); const [path, qs] = raw.split('?'); const q = new URLSearchParams(qs || '');
  const parts = path.split('/').filter(Boolean);
  let html, bind = () => {};
@@ -624,6 +767,8 @@ async function route(fresh) {
  else if (parts[0] === 'n') { html = renderStory(parts[1]); bind = bindStory; }
  else if (parts[0] === 'saved') html = renderSaved();
  else if (parts[0] === 'dashboard') { html = renderDashShell(); bind = () => bindDash(q); }
+ else if (parts[0] === 'co') { html = renderCompany(parts[1] || ''); bind = bindRowCards; }
+ else if (parts[0] === 'week') { html = renderWeek(); bind = bindWeek; }
  else html = notFound();
  const apply = () => { $('#view').innerHTML = `<div class="page">${html}</div>`; bind(); navSync(path || '/'); reveal(); if (!fresh) window.scrollTo(0, 0); };
  if (document.startViewTransition && !fresh) document.startViewTransition(apply); else apply();
