@@ -4118,5 +4118,122 @@
   "region": "EG",
   "auto": true,
   "found": "2026-10-26"
+ },
+ {
+  "id": "hub71",
+  "name": "Hub71",
+  "ar": "هب71",
+  "url": "https://www.hub71.com",
+  "tier": 2,
+  "kind": "vc",
+  "lang": [
+   "en"
+  ],
+  "region": "UAE",
+  "auto": false
+ },
+ {
+  "id": "flat6labs",
+  "name": "Flat6Labs",
+  "ar": "فلات6لابز",
+  "url": "https://www.flat6labs.com",
+  "tier": 2,
+  "kind": "vc",
+  "lang": [
+   "en"
+  ],
+  "region": "MENA",
+  "auto": false
+ },
+ {
+  "id": "startupscene",
+  "name": "The Startup Scene",
+  "ar": "ستارتب سين",
+  "url": "https://thestartupscene.me",
+  "tier": 2,
+  "kind": "media",
+  "lang": [
+   "en"
+  ],
+  "region": "EG",
+  "auto": false
+ },
+ {
+  "id": "gulfnews",
+  "name": "Gulf News",
+  "ar": "غلف نيوز",
+  "url": "https://gulfnews.com",
+  "tier": 3,
+  "kind": "media",
+  "lang": [
+   "en"
+  ],
+  "region": "UAE",
+  "auto": false
+ },
+ {
+  "id": "sabq",
+  "name": "Sabq",
+  "ar": "سبق",
+  "url": "https://sabq.org",
+  "tier": 3,
+  "kind": "media",
+  "lang": [
+   "ar"
+  ],
+  "region": "KSA",
+  "auto": false
+ },
+ {
+  "id": "arabfinance",
+  "name": "Arab Finance",
+  "ar": "عرب فاينانس",
+  "url": "https://www.arabfinance.com",
+  "tier": 2,
+  "kind": "media",
+  "lang": [
+   "en"
+  ],
+  "region": "EG",
+  "auto": false
+ },
+ {
+  "id": "dailynewsegypt",
+  "name": "Daily News Egypt",
+  "ar": "ديلي نيوز إيجيبت",
+  "url": "https://www.dailynewsegypt.com",
+  "tier": 3,
+  "kind": "media",
+  "lang": [
+   "en"
+  ],
+  "region": "EG",
+  "auto": false
+ },
+ {
+  "id": "meainews",
+  "name": "Middle East AI News",
+  "ar": "أخبار الذكاء الاصطناعي في الشرق الأوسط",
+  "url": "https://www.middleeastainews.com",
+  "tier": 2,
+  "kind": "media",
+  "lang": [
+   "en"
+  ],
+  "region": "MENA",
+  "auto": false
+ },
+ {
+  "id": "lucidity",
+  "name": "Lucidity Insights",
+  "ar": "لوسيديتي إنسايتس",
+  "url": "https://lucidityinsights.com",
+  "tier": 2,
+  "kind": "media",
+  "lang": [
+   "en"
+  ],
+  "region": "MENA",
+  "auto": false
  }
 ]
