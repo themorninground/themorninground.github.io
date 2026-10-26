@@ -4250,5 +4250,19 @@
   "auto": false,
   "via": "gnews",
   "last_ok": "2026-10-26"
+ },
+ {
+  "id": "akhbarelyom",
+  "name": "بوابة أخبار اليوم الإلكترونية",
+  "ar": "بوابة أخبار اليوم الإلكترونية",
+  "url": "https://akhbarelyom.com",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "ar"
+  ],
+  "region": "SA",
+  "auto": true,
+  "found": "2026-10-26"
  }
 ]
