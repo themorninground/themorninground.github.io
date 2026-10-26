@@ -4264,5 +4264,33 @@
   "region": "SA",
   "auto": true,
   "found": "2026-10-26"
+ },
+ {
+  "id": "moneycontrol",
+  "name": "Moneycontrol.com",
+  "ar": "Moneycontrol.com",
+  "url": "https://moneycontrol.com",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "en"
+  ],
+  "region": "SA",
+  "auto": true,
+  "found": "2026-10-26"
+ },
+ {
+  "id": "roayahnews",
+  "name": "شبكة رؤية الإخبارية",
+  "ar": "شبكة رؤية الإخبارية",
+  "url": "https://roayahnews.com",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "ar"
+  ],
+  "region": "SA",
+  "auto": true,
+  "found": "2026-10-26"
  }
 ]
