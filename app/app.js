@@ -350,14 +350,16 @@ function bindArticle(id) {
   $$('.term', pr).forEach(t => { const cc = CON.find(c => (c.en || '').toLowerCase() === (t.dataset.en || '').toLowerCase()); if (cc) { t.className = 'cterm'; t.dataset.c = cc.id; } else t.onclick = () => t.classList.toggle('on'); });
   pr.addEventListener('click', e => {
    const f = e.target.closest('sup.fn a'); if (f) { e.preventDefault(); const k = f.getAttribute('href').slice(1); pop(f, `<span class="tag fnt">${tr('هامش', 'Note')} <span class="b">${esc(f.textContent)}</span></span><p class="fnp">${notes[k] || tr('هذا الهامش فارغ في الأصل.', 'This note is empty in the original.')}</p>`); return; }
-   const t = e.target.closest('.cterm'); if (t) { const c = con(t.dataset.c); const on = c && ST.known.includes(c.id); if (c) pop(t, `<span class="tag cn">${on ? `<i class="sunlet"></i> ${tr('مفهوم أخذته', 'A concept you learned')}` : `${ic('star')} ${tr('مفهوم جديد عليك', 'New concept for you')}`}</span><div style="margin-top:8px"><b>${esc(c.ar)}</b> <span class="b" style="color:var(--ink-2)">${esc(c.en)}</span></div><p>${c.defn}</p><div class="popacts"><a href="#/c/${c.id}">${tr('افتح المفهوم', 'Open the concept')} ←</a>${on ? '' : `<button class="btn2 knowb sm" data-know="${c.id}"><svg class="ic" viewBox="0 0 24 24" style="width:16px;height:16px">${P.check}</svg><span>${tr('تعلمته', 'Got it')}</span></button>`}</div>`); }
+   const t = e.target.closest('.cterm'); if (t) conceptPop(t);
   });
   applyHL(pr, id); bindHL(pr, id);
  }
  $$('.readdone').forEach(rd => rd.onclick = () => { markRead(id); $$('.readdone').forEach(x => x.classList.add('done')); burst(rd); });
  if (pr) { crossNotes(pr, a); autoConcepts(pr); resumeReading(pr, id); }
+ const sd = $('#v-sum'); if (sd) { $$('.scard, .lead2, .must, .numg', sd).forEach(el => autoConcepts(el)); sd.addEventListener('click', e => { const t = e.target.closest('.cterm'); if (t) conceptPop(t); }); }
  const rs = document.createElement('div'); rs.className = 'rsun'; rs.innerHTML = '<i></i>'; rs.id = 'rsun'; document.body.appendChild(rs);
 }
+window.TMR_EN = () => EN();
 let AKA = null;
 function akaList() {
  if (AKA) return AKA; AKA = [];
@@ -382,6 +384,7 @@ function autoConcepts(pr) {
  };
  walk(pr);
 }
+function conceptPop(t) { const c = con(t.dataset.c); const on = c && ST.known.includes(c.id); if (c) pop(t, `<span class="tag cn">${on ? `<i class="sunlet"></i> ${tr('مفهوم أخذته', 'A concept you learned')}` : `${ic('star')} ${tr('مفهوم جديد عليك', 'New concept for you')}`}</span><div style="margin-top:8px"><b>${esc(c.ar)}</b> <span class="b" style="color:var(--ink-2)">${esc(c.en)}</span></div><p>${c.defn}</p><div class="popacts"><a href="#/c/${c.id}">${tr('افتح المفهوم', 'Open the concept')} ←</a>${on ? '' : `<button class="btn2 knowb sm" data-know="${c.id}"><svg class="ic" viewBox="0 0 24 24" style="width:16px;height:16px">${P.check}</svg><span>${tr('تعلمته', 'Got it')}</span></button>`}</div>`); }
 function crossNotes(pr, a) {
  const ps = $$('p', pr);
  (a.links || []).forEach(l => { const p = ps[l.p], t = lib(l.to); if (!p || !t) return; const n = document.createElement('a'); n.className = 'xnote'; n.href = '#/a/' + t.id; n.innerHTML = `<span class="xk">${ic('article')} ${tr('كتبنا عن هذا', 'We covered this')}</span><b>${esc(EN() ? t.en : t.ar)}</b><small>${esc(tx(t, 'author'))} · <span class="b">${t.mins}</span> ${tr('دقيقة', 'min')}${ST.read.includes(t.id) ? ' · ' + tr('قرأتها', 'Read') : ''}</small>`; p.after(n); });
@@ -495,6 +498,7 @@ function renderConcept(id) {
   ${from ? `<a class="kfrom" href="#/a/${from.id}"><i class="sunlet"></i> ${tr('تعلمته من', 'Learned from')}: <b>${esc(EN() ? from.en : from.ar)}</b>${ST.knownAt && ST.knownAt[c.id] ? ` · ${esc(fmtDate(ST.knownAt[c.id]))}` : ''}</a>` : ''}
   <h2>${tr('التعريف', 'Definition')}</h2><p>${tx(c, 'defn')}</p>
   <h2>${tr('كيف يشتغل', 'How it works')}</h2><p>${esc(tx(c, 'how'))}</p>
+  ${window.TMR_LABS && TMR_LABS.has(c.id) ? TMR_LABS.html(c.id) : ''}
   ${tx(c, 'example') ? `<h2>${tr('مثال حقيقي', 'A real example')}</h2><div class="exbox"><p>${esc(tx(c, 'example'))}</p></div>` : ''}
   ${confuse && confuse.length ? `<h2>${tr('ما يختلط معه', 'Often confused with')}</h2><div class="cmp">${confuse.map(x => `<div><b>${esc(x[0])}</b>${esc(x[1])}</div>`).join('')}</div>` : ''}
   ${rel.length ? `<h2>${tr('مفاهيم قريبة', 'Related concepts')}</h2><div class="cl">${rel.map(r => `<a href="#/c/${r.id}">${ic('star')} ${esc(EN() ? r.en : r.ar)}</a>`).join('')}</div>` : ''}
@@ -792,7 +796,7 @@ async function route(fresh) {
  else if (parts[0] === 'a') { html = await renderArticle(parts[1], q); bind = () => bindArticle(parts[1]); }
  else if (parts[0] === 'articles') html = renderLibrary(q);
  else if (parts[0] === 'concepts') { html = renderConcepts(); bind = bindSky; }
- else if (parts[0] === 'c') html = renderConcept(parts[1]);
+ else if (parts[0] === 'c') { html = renderConcept(parts[1]); bind = () => { if (window.TMR_LABS) TMR_LABS.bind(parts[1]); }; }
  else if (parts[0] === 'news') html = renderNews(q);
  else if (parts[0] === 'n') { html = renderStory(parts[1]); bind = bindStory; }
  else if (parts[0] === 'saved') html = renderSaved();
