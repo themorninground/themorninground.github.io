@@ -4090,5 +4090,19 @@
   "region": "SA",
   "auto": true,
   "found": "2026-10-26"
+ },
+ {
+  "id": "egyptke",
+  "name": "إيجبتكِ",
+  "ar": "إيجبتكِ",
+  "url": "https://egyptke.com",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "ar"
+  ],
+  "region": "EG",
+  "auto": true,
+  "found": "2026-10-26"
  }
 ]
