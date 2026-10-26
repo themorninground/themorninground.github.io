@@ -49,7 +49,9 @@ html = f'''<!doctype html>
 </head>
 <body>
 <script>window.TMR_LOGO_LINE={json.dumps(line)};window.TMR_LOGO_STACK={json.dumps(st)};window.TMR_CHARTS={json.dumps(charts, ensure_ascii=False)};</script>
+<script src="app/firebase-config.js?v=VER"></script>
 <script src="app/labs.js?v=VER" defer></script>
+<script src="app/auth.js?v=VER" defer></script>
 <script src="app/app.js?v=VER" defer></script>
 </body>
 </html>

@@ -66,7 +66,9 @@ const KEY = 'tmr4';
 let ST = { days: [], read: [], known: [], saved: [], pick: {}, hl: [], readAt: {}, knownAt: {}, knownFrom: {}, pos: {} };
 try { ST = Object.assign(ST, JSON.parse(localStorage.getItem(KEY) || '{}')); } catch (e) {}
 if (!Array.isArray(ST.hl)) ST.hl = [];
-const save = () => { try { localStorage.setItem(KEY, JSON.stringify(ST)); } catch (e) {} };
+const save = () => { try { localStorage.setItem(KEY, JSON.stringify(ST)); } catch (e) {} if (window.TMR_AUTH) TMR_AUTH.push(); };
+window.TMR_HOOKS = Object.assign(window.TMR_HOOKS || {}, { getState: () => ST, setState: x => { ST = Object.assign(ST, x); try { localStorage.setItem(KEY, JSON.stringify(ST)); } catch (e) {} }, refresh: () => { try { chrome(); route(true); } catch (e) {} } });
+const uname = () => (window.TMR_AUTH && TMR_AUTH.on() && TMR_AUTH.name()) || '';
 const iso = d => d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0') + '-' + String(d.getDate()).padStart(2, '0');
 const NOW = new Date(); const TODAY = iso(NOW);
 const DOW = NOW.getDay();
@@ -232,7 +234,7 @@ function renderForYou() {
  const dl = EN() ? 'SMTWT' : 'حنثرخ';
  return `<section class="hero" id="hero"><span class="light"></span><div class="wrap in">
   <div>
-   <div class="hi">${tr('صباح الخير', 'Good morning')} · ${esc(fmtDay(TODAY))}</div>
+   <div class="hi">${tr('صباح الخير', 'Good morning')}${uname() ? (EN() ? ', ' : ' يا ') + esc(uname()) : ''} · ${esc(fmtDay(TODAY))}</div>
    <h1>${tr('جولة اليوم', "Today's round")}</h1>
    <div class="week">${wsunSVG()}<div class="wdays"><b>${tr('أسبوعك', 'Your week')}</b><span><span class="b">${wk.filter(d => ST.days.includes(d)).length}</span> ${tr('من 5 أيام', 'of 5 workdays')}</span><span class="dl">${wk.map((d, k) => `<i class="${ST.days.includes(d) ? 'on' : ''}${d === TODAY ? ' now' : ''}">${dl[k]}</i>`).join('')}</span></div></div>
    <div class="stats"><div class="stat">${odo(streak())}<div class="l">${ic('streak')} ${tr('أيام متتالية', 'day streak')}</div></div><div class="stat">${odo(ST.read.length)}<div class="l">${tr('مقالة قرأتها', 'articles read')}</div></div><div class="stat">${odo(ST.known.length)}<div class="l">${tr('مفهوم أخذته', 'concepts learned')}</div></div></div>
@@ -642,7 +644,7 @@ function weekStats() {
 function weekCard(big) {
  const W = weekStats(); const s = dt(W.s), e = dt(W.e);
  const rng = `${s.getDate()} ${MON()[s.getMonth()]} ${tr('إلى', 'to')} ${e.getDate()} ${MON()[e.getMonth()]}`;
- return `<div class="wkcard${big ? ' wkbig' : ''}"><div class="wk1">${tr('جولتك الأسبوعية', 'Your week')} · ${esc(rng)}</div><h2>${W.reads.length + W.knows.length ? tr('أسبوعك في سطور', 'Your week in brief') : tr('أسبوعك ما بدأ بعد', 'Your week has not started')}</h2>
+ return `<div class="wkcard${big ? ' wkbig' : ''}"><div class="wk1">${tr('جولتك الأسبوعية', 'Your week')} · ${esc(rng)}</div><h2>${W.reads.length + W.knows.length ? (uname() ? tr('أسبوع ', '') + uname() + tr(' في سطور', "'s week in brief") : tr('أسبوعك في سطور', 'Your week in brief')) : tr('أسبوعك ما بدأ بعد', 'Your week has not started')}</h2>
   <div class="wkst"><div><b class="b">${W.reads.length}</b><span>${tr('مقالات خلصتها', 'articles finished')}</span></div><div><b class="b">${W.knows.length}</b><span>${tr('مفاهيم تعلمتها', 'concepts learned')}</span></div><div><b class="b">${streak()}</b><span>${tr('أيام ورا بعض', 'day streak')}</span></div></div>
   ${W.longest ? `<div class="wkbest">${tr('أطول مقالة خلصتها', 'Longest article you finished')}<strong>${esc(EN() ? W.longest.en : W.longest.ar)} · <span class="b">${W.longest.mins}</span> ${tr('دقيقة', 'min')}</strong></div>` : ''}
   <span class="wksun"></span><span class="wklogo">${LOGO_LINE}</span>${big ? '' : `<a class="wkmore" href="#/week">${tr('افتحها', 'Open it')} ${ic(EN() ? 'back' : 'fwd')}</a>`}</div>`;
@@ -731,12 +733,14 @@ function openMenu() {
   <nav class="mlinks">${ROUTES.map((r, k) => `<a href="#${r[0]}" class="${cur === '#' + r[0] ? 'on' : ''}" style="--i:${k}">${ic(r[2])}<span>${tr(r[1], r[3])}</span></a>`).join('')}
   <a href="#/week" class="${cur === '#/week' ? 'on' : ''}" style="--i:5">${ic('streak')}<span>${tr('جولتك الأسبوعية', 'Your week')}</span></a>
   <a href="#/saved" class="sv${cur === '#/saved' ? ' on' : ''}" style="--i:6">${ic('bookmark')}<span>${tr('محفوظاتك', 'Saved')}</span>${n ? `<b class="b">${n}</b>` : ''}</a></nav>
+  ${window.TMR_AUTH && TMR_AUTH.on() ? (TMR_AUTH.user() ? `<div class="macct"><span class="sunlet"></span><b>${esc(uname() || tr('حسابك', 'Your account'))}</b><button id="m-out">${tr('خروج', 'Sign out')}</button><button id="m-del">${tr('حذف الحساب', 'Delete account')}</button></div>` : `<button class="btn macin" id="m-in">${tr('سجّل دخولك واحفظ تقدمك', 'Sign in to keep your progress')}</button>`) : ''}
   <div class="mtools"><button id="m-s">${ic('search')} ${tr('بحث', 'Search')}</button><button id="m-l">${ic('lang')} ${tr('English', 'العربية')}</button><button id="m-t">${ic('moon')} ${tr('الوضع الليلي', 'Dark mode')}</button></div>
   <div class="mby" dir="ltr">© ${new Date().getFullYear()} The Morning Round · by Meshal Alkanhal</div></div>`;
  document.body.appendChild(el);
  const close = () => { el.classList.add('out'); setTimeout(() => el.remove(), 350); };
  el.onclick = e => { if (e.target === el || e.target.closest('.mx') || e.target.closest('.mlinks a')) close(); };
  $('#m-s', el).onclick = () => { close(); setTimeout(openSearch, 200); };
+ const mi = $('#m-in', el); if (mi) mi.onclick = () => { close(); TMR_AUTH.open(); }; const mo = $('#m-out', el); if (mo) mo.onclick = () => { close(); TMR_AUTH.out(); }; const md = $('#m-del', el); if (md) md.onclick = () => { close(); TMR_AUTH.remove(); };
  $('#m-l', el).onclick = () => { close(); $('#langb').click(); };
  $('#m-t', el).onclick = () => { close(); $('#theme').click(); };
 }

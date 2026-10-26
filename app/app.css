@@ -1154,3 +1154,14 @@ html[dir=rtl] .foot .byl{text-align:right}
 .lsrc{margin-top:12px;font-size:12.5px;color:var(--ink-3);line-height:1.6}
 .lrow{display:flex;align-items:center;gap:12px;margin-bottom:12px}.lhint{font-size:13px;color:var(--ink-3)}
 @media (max-width:720px){.lgrid2{grid-template-columns:1fr}.lab{padding:16px}}
+/* accounts */
+.authm{position:fixed;inset:0;z-index:200;background:rgba(11,13,18,.55);display:grid;place-items:center;padding:16px}
+.authp{position:relative;width:min(420px,100%);background:var(--paper);color:var(--ink);border-radius:var(--r-lg);padding:26px;display:flex;flex-direction:column;gap:10px;box-shadow:0 30px 60px -20px rgba(0,0,0,.5)}
+.authp h3{font-family:var(--ard);font-weight:900;font-size:28px}.authp p{font-size:14px;line-height:1.7;color:var(--ink-2)}
+.authp .ax{position:absolute;top:12px;inset-inline-end:14px;font-size:22px;color:var(--ink-3)}
+.aor{text-align:center;font-size:12.5px;color:var(--ink-3)}
+.ain{height:44px;border-radius:12px;border:1px solid var(--hair);background:var(--paper-2);padding:0 12px;font:inherit;color:var(--ink)}
+.arow{display:flex;gap:8px}.arow .btn2{flex:1}
+.aerr{color:var(--fall)!important;min-height:1em}.apriv{font-size:12.5px!important;color:var(--ink-3)!important}
+.macct{display:flex;align-items:center;gap:8px;flex-wrap:wrap;padding:10px 4px;font-size:14px}.macct b{margin-inline-end:auto}.macct button{font-size:13px;color:var(--sky-ink)}
+.macin{margin:6px 0}
