@@ -23,10 +23,11 @@
     const ref = fs.doc(fb.db, 'users', u.uid); const snap = await fs.getDoc(ref);
     const remote = snap.exists() ? snap.data() : {}; profile = { name: remote.name || u.displayName || '' };
     const merged = mergeState(H.getState(), remote.st || {}); H.setState(merged);
-    await fs.setDoc(ref, { name: profile.name, st: merged, updated: fs.serverTimestamp() }, { merge: true });
+    const doc = { st: merged, updated: fs.serverTimestamp() }; if (profile.name) doc.name = profile.name; await fs.setDoc(ref, doc, { merge: true });
    }
    ready = true; H.refresh && H.refresh();
   });
+  H.refresh && H.refresh();
  }
  function push() { if (!user || !fb) return; clearTimeout(timer); timer = setTimeout(() => { fb.F.setDoc(fb.F.doc(fb.db, 'users', user.uid), { st: H.getState(), updated: fb.F.serverTimestamp() }, { merge: true }).catch(() => {}); }, 1500); }
  function modal() {
@@ -44,14 +45,14 @@
   const msg = e => ({ 'auth/invalid-credential': T('الإيميل أو كلمة السر غلط.', 'Wrong email or password.'), 'auth/email-already-in-use': T('هذا الإيميل له حساب، سجّل دخول.', 'This email already has an account; sign in.'), 'auth/weak-password': T('كلمة السر قصيرة.', 'Password too short.'), 'auth/invalid-email': T('الإيميل غير صحيح.', 'Invalid email.') })[e.code] || T('ما قدرنا نكمل، جرّب مرة ثانية.', 'Could not continue; try again.');
   el.querySelector('.agoogle').onclick = async () => { try { await fb.A.signInWithPopup(fb.auth, new fb.A.GoogleAuthProvider()); close(); } catch (e) { err(msg(e)); } };
   el.querySelector('#a-in').onclick = async () => { try { await fb.A.signInWithEmailAndPassword(fb.auth, el.querySelector('#a-mail').value.trim(), el.querySelector('#a-pass').value); close(); } catch (e) { err(msg(e)); } };
-  el.querySelector('#a-up').onclick = async () => { const name = el.querySelector('#a-name').value.trim(); if (!name) return err(T('اكتب اسمك أول.', 'Enter your name first.')); try { const c = await fb.A.createUserWithEmailAndPassword(fb.auth, el.querySelector('#a-mail').value.trim(), el.querySelector('#a-pass').value); await fb.A.updateProfile(c.user, { displayName: name }); await fb.F.setDoc(fb.F.doc(fb.db, 'users', c.user.uid), { name }, { merge: true }); profile = { name }; close(); H.refresh && H.refresh(); } catch (e) { err(msg(e)); } };
+  el.querySelector('#a-up').onclick = async () => { const name = el.querySelector('#a-name').value.trim(); if (!name) return err(T('اكتب اسمك أول.', 'Enter your name first.')); try { const c = await fb.A.createUserWithEmailAndPassword(fb.auth, el.querySelector('#a-mail').value.trim(), el.querySelector('#a-pass').value); await fb.A.updateProfile(c.user, { displayName: name }); await fb.F.setDoc(fb.F.doc(fb.db, 'users', c.user.uid), { name }, { merge: true }); profile = { name }; H.setState && push(); close(); H.refresh && H.refresh(); } catch (e) { err(msg(e)); } };
  }
  async function remove() {
   if (!user || !confirm(T('متأكد تبي تحذف حسابك وكل تقدمك المحفوظ فيه؟', 'Delete your account and all saved progress?'))) return;
   try { await fb.F.deleteDoc(fb.F.doc(fb.db, 'users', user.uid)); await fb.A.deleteUser(user); } catch (e) { alert(T('لأمان حسابك، سجّل خروج ثم دخول ثم احذف.', 'For security, sign out, sign in again, then delete.')); }
  }
  window.TMR_AUTH = {
-  on: () => !!window.TMR_FB,
+  on: () => !!fb,
   ready: () => ready, user: () => user, name: () => (profile && profile.name) || (user && user.displayName) || '',
   open: () => fb && modal(), out: () => fb && fb.A.signOut(fb.auth), remove, push
  };
