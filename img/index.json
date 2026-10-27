@@ -933,5 +933,64 @@
    1400,
    933
   ]
+ },
+ "n100": {
+  "src": "https://www.thenationalnews.com/resizer/v2/WQPRDRZPBRABVEJPWBZZW4RLSA.jpg?auth=c1288b2474f53cb68a15b2e924455a113bb2ae7151f1d6e7219abbd7f454bbc7&focal=1282%2C770&width=1200&height=630",
+  "size": [
+   1200,
+   630
+  ]
+ },
+ "n101": {
+  "src": "https://media.almalnews.com/2026/10/large/29871525140246202610260745344534.jpg",
+  "size": [
+   711,
+   500
+  ]
+ },
+ "n103": {
+  "src": "https://jawlah.co/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-25-at-17.12.30.jpeg",
+  "size": [
+   665,
+   350
+  ]
+ },
+ "n104": {
+  "src": "https://shabiba.eu-central-1.linodeobjects.com/2026/10/1792839789-1792839789-odhoiaknmmd5-700x400.png",
+  "size": [
+   700,
+   400
+  ]
+ },
+ "n105": {
+  "page": "https://arqam.news/604735/",
+  "site": "مجلة أرقام",
+  "title": "وزير التخطيط: نستهدف جذب 5 مليارات دولار استثمارات رأس المال المخاطر لدعم الشركات الناشئة في مصر",
+  "src": "https://arqam.news/wp-content/uploads/2026/10/وزير-التخطيط-نستهدف-جذب-5-مليارات-دولار-استثمارات-رأس-المال-المخاطر-لدعم-الشركات-الناشئة-في-مصر.jpg",
+  "size": [
+   1400,
+   921
+  ]
+ },
+ "n106": {
+  "src": "https://cdn.wamda.com/feature-images/bfb73d1c4a7ad66.jpg",
+  "size": [
+   900,
+   500
+  ]
+ },
+ "n107": {
+  "src": "https://entarabi.com/wp-content/uploads/2026/10/Turuq-.jpeg",
+  "size": [
+   1200,
+   675
+  ]
+ },
+ "n108": {
+  "src": "https://cdn.wamda.com/feature-images/795f02ca91fa3db.jpg",
+  "size": [
+   900,
+   500
+  ]
  }
 }

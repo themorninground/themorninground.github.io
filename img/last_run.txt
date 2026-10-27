@@ -7,11 +7,11 @@ no share image https://www.oaktreecapital.com/insights/memo/shall-we-repeal-the-
 FAIL lib-marks-repeal-3 None no image found
 no share image https://saudi.endeavor.org/from-startup-to-public-offering-strengthening-the-ipo-pipeline-in-saudi-arabia/
 FAIL lib-endeavor-ipo None no image found
-ok n90 (900, 500) https://cdn.wamda.com/feature-images/a82ebbf716705c3.jpg
-ok n91 (900, 500) https://cdn.wamda.com/feature-images/b043361e768a5cd.jpg
-ok n92 (900, 500) https://cdn.wamda.com/feature-images/5b8015bb59d454b.jpg
-ok n93 (900, 500) https://cdn.wamda.com/feature-images/22d8796d1c984f0.jpg
-ok n94 (900, 500) https://cdn.wamda.com/feature-images/557430e627936a7.jpg
-ok n95 (900, 500) https://cdn.wamda.com/feature-images/f564eeb2a8672b6.jpg
-ok n97 (900, 500) https://cdn.wamda.com/feature-images/eb0ac554e39a5d8.jpg
-ok n98 (1400, 933) https://i0.wp.com/ent.news/2026/10/1153.jpg
+ok n100 (1200, 630) https://www.thenationalnews.com/resizer/v2/WQPRDRZPBRABVEJPWBZZW4RLSA.jpg?auth=c1288b2474f53cb68a15b2e924455a113bb2ae7151f1d6e7219abbd7f454bbc7&focal=1282%2C770&width=1200&height=630
+ok n101 (711, 500) https://media.almalnews.com/2026/10/large/29871525140246202610260745344534.jpg
+ok n103 (665, 350) https://jawlah.co/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-25-at-17.12.30.jpeg
+ok n104 (700, 400) https://shabiba.eu-central-1.linodeobjects.com/2026/10/1792839789-1792839789-odhoiaknmmd5-700x400.png
+ok n105 (1400, 921) https://arqam.news/wp-content/uploads/2026/10/وزير-التخطيط-نستهدف-جذب-5-مليارات-دولار-استثمارات-رأس-المال-المخاطر-لدعم-الشركات-الناشئة-في-مصر.jpg
+ok n106 (900, 500) https://cdn.wamda.com/feature-images/bfb73d1c4a7ad66.jpg
+ok n107 (1200, 675) https://entarabi.com/wp-content/uploads/2026/10/Turuq-.jpeg
+ok n108 (900, 500) https://cdn.wamda.com/feature-images/795f02ca91fa3db.jpg
