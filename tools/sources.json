@@ -4321,5 +4321,33 @@
   "region": "SA",
   "auto": true,
   "found": "2026-10-27"
+ },
+ {
+  "id": "africa",
+  "name": "Business Insider Africa",
+  "ar": "Business Insider Africa",
+  "url": "https://africa.businessinsider.com",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "en"
+  ],
+  "region": "EG",
+  "auto": true,
+  "found": "2026-10-27"
+ },
+ {
+  "id": "coptsunited",
+  "name": "Copts United",
+  "ar": "Copts United",
+  "url": "https://copts-united.com",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "ar"
+  ],
+  "region": "EG",
+  "auto": true,
+  "found": "2026-10-27"
  }
 ]
