@@ -13,7 +13,7 @@
   "region": "KSA",
   "auto": false,
   "via": "gnews",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "cma",
@@ -29,7 +29,7 @@
   "region": "KSA",
   "auto": false,
   "via": "gnews",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "sama",
@@ -45,7 +45,7 @@
   "region": "KSA",
   "auto": false,
   "via": "gnews",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "gastat",
@@ -61,7 +61,7 @@
   "region": "KSA",
   "auto": false,
   "via": "gnews",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "misa",
@@ -76,7 +76,7 @@
   ],
   "region": "KSA",
   "auto": false,
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "monshaat",
@@ -92,7 +92,7 @@
   "region": "KSA",
   "auto": false,
   "via": "gnews",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "svc",
@@ -108,7 +108,7 @@
   "region": "KSA",
   "auto": false,
   "via": "gnews",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "jada",
@@ -123,7 +123,7 @@
   ],
   "region": "KSA",
   "auto": false,
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "pif",
@@ -139,7 +139,7 @@
   "region": "KSA",
   "auto": false,
   "via": "gnews",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "spa",
@@ -155,7 +155,7 @@
   "region": "KSA",
   "auto": false,
   "via": "gnews",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "fintechsaudi",
@@ -171,7 +171,7 @@
   "region": "KSA",
   "auto": false,
   "via": "gnews",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "kaust",
@@ -186,7 +186,7 @@
   "region": "KSA",
   "auto": false,
   "via": "gnews",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "adgm",
@@ -201,7 +201,7 @@
   "region": "UAE",
   "auto": false,
   "via": "gnews",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "difc",
@@ -216,7 +216,7 @@
   "region": "UAE",
   "auto": false,
   "via": "gnews",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "prnewswire",
@@ -231,7 +231,7 @@
   "region": "Global",
   "auto": false,
   "via": "gnews",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "businesswire",
@@ -246,7 +246,7 @@
   "region": "Global",
   "auto": false,
   "via": "gnews",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "asharq",
@@ -260,7 +260,7 @@
   ],
   "region": "MENA",
   "auto": false,
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "bloomberg",
@@ -275,7 +275,7 @@
   "region": "Global",
   "auto": false,
   "via": "gnews",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "reuters",
@@ -290,7 +290,7 @@
   "region": "Global",
   "auto": false,
   "via": "gnews",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "ft",
@@ -305,7 +305,7 @@
   "region": "Global",
   "auto": false,
   "via": "gnews",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "wsj",
@@ -320,7 +320,7 @@
   "region": "Global",
   "auto": false,
   "via": "gnews",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "cnbc",
@@ -335,7 +335,7 @@
   "region": "Global",
   "auto": false,
   "via": "gnews",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "cnbcarabia",
@@ -350,7 +350,7 @@
   "region": "MENA",
   "auto": false,
   "via": "gnews",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "zawya",
@@ -366,7 +366,7 @@
   "region": "MENA",
   "auto": false,
   "via": "gnews",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "alarabiya",
@@ -381,7 +381,7 @@
   "region": "MENA",
   "auto": false,
   "via": "gnews",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "argaam",
@@ -397,7 +397,7 @@
   "region": "KSA",
   "auto": false,
   "via": "gnews",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "maaal",
@@ -412,7 +412,7 @@
   "region": "KSA",
   "auto": false,
   "via": "gnews",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "aleqt",
@@ -427,7 +427,7 @@
   "region": "KSA",
   "auto": false,
   "via": "gnews",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "arabnews",
@@ -442,7 +442,7 @@
   "region": "KSA",
   "auto": false,
   "via": "gnews",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "saudigazette",
@@ -457,7 +457,7 @@
   "region": "KSA",
   "auto": false,
   "via": "gnews",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "agbi",
@@ -471,7 +471,7 @@
   ],
   "region": "GCC",
   "auto": false,
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "meed",
@@ -486,7 +486,7 @@
   "region": "MENA",
   "auto": false,
   "via": "gnews",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "forbesme",
@@ -501,7 +501,7 @@
   ],
   "region": "MENA",
   "auto": false,
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "gulfbusiness",
@@ -516,7 +516,7 @@
   "region": "GCC",
   "auto": false,
   "via": "gnews",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "thenational",
@@ -531,7 +531,7 @@
   "region": "UAE",
   "auto": false,
   "via": "gnews",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "khaleej",
@@ -545,7 +545,7 @@
   ],
   "region": "UAE",
   "auto": false,
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "enterprise",
@@ -560,7 +560,7 @@
   ],
   "region": "MENA",
   "auto": false,
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "sharikat",
@@ -576,7 +576,7 @@
   "region": "MENA",
   "auto": false,
   "via": "gnews",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "aawsat",
@@ -590,7 +590,7 @@
   ],
   "region": "MENA",
   "auto": false,
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "okaz",
@@ -605,7 +605,7 @@
   "region": "KSA",
   "auto": false,
   "via": "gnews",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "alriyadh",
@@ -620,7 +620,7 @@
   "region": "KSA",
   "auto": false,
   "via": "gnews",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "jawlah",
@@ -636,7 +636,7 @@
   "region": "KSA",
   "auto": false,
   "via": "gnews",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "zerotoone",
@@ -664,7 +664,7 @@
   ],
   "region": "MENA",
   "auto": false,
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "magnitt",
@@ -679,7 +679,7 @@
   "region": "MENA",
   "auto": false,
   "via": "gnews",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "menabytes",
@@ -694,7 +694,7 @@
   "region": "MENA",
   "auto": false,
   "via": "gnews",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "entrepreneurme",
@@ -708,7 +708,7 @@
   ],
   "region": "MENA",
   "auto": false,
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "arabfounders",
@@ -724,7 +724,7 @@
   "region": "MENA",
   "auto": false,
   "via": "gnews",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "disruptor",
@@ -739,7 +739,7 @@
   "region": "KSA",
   "auto": false,
   "via": "gnews",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "entarabi",
@@ -753,7 +753,7 @@
   ],
   "region": "MENA",
   "auto": false,
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "menastartupdigest",
@@ -767,7 +767,7 @@
   ],
   "region": "MENA",
   "auto": false,
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "fintechfutures",
@@ -781,7 +781,7 @@
   ],
   "region": "Global",
   "auto": false,
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "fintechnews",
@@ -795,7 +795,7 @@
   ],
   "region": "MENA",
   "auto": false,
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "techcrunch",
@@ -809,7 +809,7 @@
   ],
   "region": "Global",
   "auto": false,
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "crunchbase",
@@ -823,7 +823,7 @@
   ],
   "region": "Global",
   "auto": false,
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "pitchbook",
@@ -838,7 +838,7 @@
   "region": "Global",
   "auto": false,
   "via": "gnews",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "sifted",
@@ -852,7 +852,7 @@
   ],
   "region": "Europe",
   "auto": false,
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "semafor",
@@ -866,7 +866,7 @@
   ],
   "region": "Global",
   "auto": false,
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "axios",
@@ -881,7 +881,7 @@
   "region": "Global",
   "auto": false,
   "via": "gnews",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "theinformation",
@@ -895,7 +895,7 @@
   ],
   "region": "Global",
   "auto": false,
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "dealroom",
@@ -910,7 +910,7 @@
   "region": "Global",
   "auto": false,
   "via": "gnews",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "techinafrica",
@@ -924,7 +924,7 @@
   ],
   "region": "Africa",
   "auto": false,
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "techcabal",
@@ -938,7 +938,7 @@
   ],
   "region": "Africa",
   "auto": false,
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "dabafinance",
@@ -953,7 +953,7 @@
   "region": "Africa",
   "auto": false,
   "via": "gnews",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "kpmg",
@@ -968,7 +968,7 @@
   "region": "Global",
   "auto": false,
   "via": "gnews",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "pwc",
@@ -983,7 +983,7 @@
   "region": "MENA",
   "auto": false,
   "via": "gnews",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "bain",
@@ -998,7 +998,7 @@
   "region": "Global",
   "auto": false,
   "via": "gnews",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "mckinsey",
@@ -1012,7 +1012,7 @@
   ],
   "region": "Global",
   "auto": false,
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "cbinsights",
@@ -1026,7 +1026,7 @@
   ],
   "region": "Global",
   "auto": false,
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "startupgenome",
@@ -1041,7 +1041,7 @@
   "region": "Global",
   "auto": false,
   "via": "gnews",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "imf",
@@ -1056,7 +1056,7 @@
   "region": "Global",
   "auto": false,
   "via": "gnews",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "paulgraham",
@@ -1070,7 +1070,7 @@
   ],
   "region": "Global",
   "auto": false,
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "a16z",
@@ -1085,7 +1085,7 @@
   "region": "Global",
   "auto": false,
   "via": "gnews",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "sequoia",
@@ -1100,7 +1100,7 @@
   "region": "Global",
   "auto": false,
   "via": "gnews",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "firstround",
@@ -1114,7 +1114,7 @@
   ],
   "region": "Global",
   "auto": false,
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "nfx",
@@ -1129,7 +1129,7 @@
   "region": "Global",
   "auto": false,
   "via": "gnews",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "abovethecrowd",
@@ -1143,7 +1143,7 @@
   ],
   "region": "Global",
   "auto": false,
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "avc",
@@ -1158,7 +1158,7 @@
   "region": "Global",
   "auto": false,
   "via": "gnews",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "eladgil",
@@ -1172,7 +1172,7 @@
   ],
   "region": "Global",
   "auto": false,
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "notboring",
@@ -1186,7 +1186,7 @@
   ],
   "region": "Global",
   "auto": false,
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "lenny",
@@ -1200,7 +1200,7 @@
   ],
   "region": "Global",
   "auto": false,
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "tunguz",
@@ -1214,7 +1214,7 @@
   ],
   "region": "Global",
   "auto": false,
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "ycblog",
@@ -1228,7 +1228,7 @@
   ],
   "region": "Global",
   "auto": false,
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "howardmarks",
@@ -1243,7 +1243,7 @@
   "region": "Global",
   "auto": false,
   "via": "gnews",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "stv",
@@ -1258,7 +1258,7 @@
   "region": "KSA",
   "auto": false,
   "via": "gnews",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "raed",
@@ -1273,7 +1273,7 @@
   "region": "KSA",
   "auto": false,
   "via": "gnews",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "beco",
@@ -1287,7 +1287,7 @@
   ],
   "region": "UAE",
   "auto": false,
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "thmanyah",
@@ -1302,7 +1302,7 @@
   "region": "KSA",
   "auto": false,
   "via": "gnews",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "orrick",
@@ -1317,7 +1317,7 @@
   "region": "Global",
   "auto": false,
   "via": "gnews",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "tradingview",
@@ -1332,7 +1332,7 @@
   "region": "SA",
   "auto": true,
   "found": "2026-10-14",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "waya",
@@ -1389,7 +1389,7 @@
   "region": "SA",
   "auto": true,
   "found": "2026-10-14",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "finance",
@@ -1460,7 +1460,7 @@
   "region": "SA",
   "auto": true,
   "found": "2026-10-14",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "fintechgate",
@@ -1503,7 +1503,7 @@
   "region": "AE",
   "auto": true,
   "found": "2026-10-14",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "businessstandard",
@@ -1532,7 +1532,7 @@
   "region": "AE",
   "auto": true,
   "found": "2026-10-14",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "entrackr",
@@ -1547,7 +1547,7 @@
   "region": "AE",
   "auto": true,
   "found": "2026-10-14",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "thecondia",
@@ -1562,7 +1562,7 @@
   "region": "AE",
   "auto": true,
   "found": "2026-10-14",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "nairametrics",
@@ -1577,7 +1577,7 @@
   "region": "AE",
   "auto": true,
   "found": "2026-10-14",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "tekedia",
@@ -1592,7 +1592,7 @@
   "region": "EG",
   "auto": true,
   "found": "2026-10-14",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "bignewsnetwork",
@@ -1621,7 +1621,7 @@
   "region": "SA",
   "auto": true,
   "found": "2026-10-14",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "satellitetoday",
@@ -1636,7 +1636,7 @@
   "region": "US",
   "auto": true,
   "found": "2026-10-14",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "app",
@@ -1665,7 +1665,7 @@
   "region": "US",
   "auto": true,
   "found": "2026-10-14",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "fortune",
@@ -1680,7 +1680,7 @@
   "region": "US",
   "auto": true,
   "found": "2026-10-14",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "financex",
@@ -1709,7 +1709,7 @@
   "region": "US",
   "auto": true,
   "found": "2026-10-14",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "tech",
@@ -1739,7 +1739,7 @@
   "region": "US",
   "auto": true,
   "found": "2026-10-14",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "bwdisrupt",
@@ -1768,7 +1768,7 @@
   "region": "US",
   "auto": true,
   "found": "2026-10-14",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "ascendants",
@@ -1783,7 +1783,7 @@
   "region": "US",
   "auto": true,
   "found": "2026-10-14",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "techjuice",
@@ -1798,7 +1798,7 @@
   "region": "US",
   "auto": true,
   "found": "2026-10-14",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "bizjournals",
@@ -1841,7 +1841,7 @@
   "region": "US",
   "auto": true,
   "found": "2026-10-14",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "techinsider",
@@ -1898,7 +1898,7 @@
   "region": "US",
   "auto": true,
   "found": "2026-10-14",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "capitalriesgo",
@@ -1927,7 +1927,7 @@
   "region": "US",
   "auto": true,
   "found": "2026-10-14",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "startupfortune",
@@ -1942,7 +1942,7 @@
   "region": "US",
   "auto": true,
   "found": "2026-10-14",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "startupbusiness",
@@ -1957,7 +1957,7 @@
   "region": "US",
   "auto": true,
   "found": "2026-10-14",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "enterpriseai",
@@ -2028,7 +2028,7 @@
   "region": "GB",
   "auto": true,
   "found": "2026-10-14",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "n24",
@@ -2085,7 +2085,7 @@
   "region": "SA",
   "auto": true,
   "found": "2026-10-14",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "twaslnews1",
@@ -2114,7 +2114,7 @@
   "region": "SA",
   "auto": true,
   "found": "2026-10-14",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "alborsaanews",
@@ -2129,7 +2129,7 @@
   "region": "SA",
   "auto": true,
   "found": "2026-10-14",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "youm7",
@@ -2158,7 +2158,7 @@
   "region": "SA",
   "auto": true,
   "found": "2026-10-14",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "agenzianova",
@@ -2243,7 +2243,7 @@
   "region": "EG",
   "auto": true,
   "found": "2026-10-14",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "alanba",
@@ -2315,7 +2315,7 @@
   "region": "EG",
   "auto": true,
   "found": "2026-10-14",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "citybiz",
@@ -2344,7 +2344,7 @@
   "region": "US",
   "auto": true,
   "found": "2026-10-14",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "25h",
@@ -2359,7 +2359,7 @@
   "region": "SA",
   "auto": true,
   "found": "2026-10-14",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "france24",
@@ -2374,7 +2374,7 @@
   "region": "SA",
   "auto": true,
   "found": "2026-10-14",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "timesofindia",
@@ -2403,7 +2403,7 @@
   "region": "SA",
   "auto": true,
   "found": "2026-10-14",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "tradersunion",
@@ -2432,7 +2432,7 @@
   "region": "US",
   "auto": true,
   "found": "2026-10-14",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "techbuzz",
@@ -2461,7 +2461,7 @@
   "region": "US",
   "auto": true,
   "found": "2026-10-14",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "venturesquare",
@@ -2476,7 +2476,7 @@
   "region": "US",
   "auto": true,
   "found": "2026-10-14",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "fiercehealthcare",
@@ -2491,7 +2491,7 @@
   "region": "US",
   "auto": true,
   "found": "2026-10-15",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "erembusiness",
@@ -2520,7 +2520,7 @@
   "region": "US",
   "auto": true,
   "found": "2026-10-15",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "youlyou",
@@ -2535,7 +2535,7 @@
   "region": "SA",
   "auto": true,
   "found": "2026-10-15",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "almalnews",
@@ -2592,7 +2592,7 @@
   "region": "US",
   "auto": true,
   "found": "2026-10-15",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "egypttelegraph",
@@ -2621,7 +2621,7 @@
   "region": "SA",
   "auto": true,
   "found": "2026-10-15",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "menafn",
@@ -2650,7 +2650,7 @@
   "region": "EG",
   "auto": true,
   "found": "2026-10-15",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "cairoscene",
@@ -2693,7 +2693,7 @@
   "region": "US",
   "auto": true,
   "found": "2026-10-16",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "analyticsinsight",
@@ -2708,7 +2708,7 @@
   "region": "AE",
   "auto": true,
   "found": "2026-10-16",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "techfundingnews",
@@ -2737,7 +2737,7 @@
   "region": "SA",
   "auto": true,
   "found": "2026-10-16",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "disruptafrica",
@@ -2752,7 +2752,7 @@
   "region": "AE",
   "auto": true,
   "found": "2026-10-16",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "inc",
@@ -2767,7 +2767,7 @@
   "region": "US",
   "auto": true,
   "found": "2026-10-16",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "demandsage",
@@ -2782,7 +2782,7 @@
   "region": "US",
   "auto": true,
   "found": "2026-10-16",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "crowdfundinsider",
@@ -2812,7 +2812,7 @@
   "region": "AE",
   "auto": true,
   "found": "2026-10-16",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "internationalfinance",
@@ -2827,7 +2827,7 @@
   "region": "SA",
   "auto": true,
   "found": "2026-10-16",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "xtb",
@@ -2870,7 +2870,7 @@
   "region": "US",
   "auto": true,
   "found": "2026-10-16",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "arabictrader",
@@ -2913,7 +2913,7 @@
   "region": "SA",
   "auto": true,
   "found": "2026-10-17",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "ventureburn",
@@ -2928,7 +2928,7 @@
   "region": "AE",
   "auto": true,
   "found": "2026-10-17",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "entrepreneur",
@@ -2957,7 +2957,7 @@
   "region": "SA",
   "auto": true,
   "found": "2026-10-18",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "siliconangle",
@@ -2972,7 +2972,7 @@
   "region": "US",
   "auto": true,
   "found": "2026-10-18",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "ahwal",
@@ -2987,7 +2987,7 @@
   "region": "SA",
   "auto": true,
   "found": "2026-10-18",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "motanahy",
@@ -3002,7 +3002,7 @@
   "region": "SA",
   "auto": true,
   "found": "2026-10-18",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "khabrynews",
@@ -3031,7 +3031,7 @@
   "region": "SA",
   "auto": true,
   "found": "2026-10-18",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "alleywatch",
@@ -3046,7 +3046,7 @@
   "region": "US",
   "auto": true,
   "found": "2026-10-18",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "petra",
@@ -3075,7 +3075,7 @@
   "region": "US",
   "auto": true,
   "found": "2026-10-19",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "clay",
@@ -3146,7 +3146,7 @@
   "region": "SA",
   "auto": true,
   "found": "2026-10-19",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "techstory",
@@ -3161,7 +3161,7 @@
   "region": "US",
   "auto": true,
   "found": "2026-10-19",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "rowadalaamal",
@@ -3176,7 +3176,7 @@
   "region": "SA",
   "auto": true,
   "found": "2026-10-19",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "akhbarak",
@@ -3234,7 +3234,7 @@
   "region": "SA",
   "auto": true,
   "found": "2026-10-19",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "disruptionbanking",
@@ -3249,7 +3249,7 @@
   "region": "SA",
   "auto": true,
   "found": "2026-10-20",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "morningstar",
@@ -3278,7 +3278,7 @@
   "region": "AE",
   "auto": true,
   "found": "2026-10-20",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "moomoo",
@@ -3307,7 +3307,7 @@
   "region": "AE",
   "auto": true,
   "found": "2026-10-20",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "infotechlead",
@@ -3336,7 +3336,7 @@
   "region": "SA",
   "auto": true,
   "found": "2026-10-20",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "sollywood",
@@ -3351,7 +3351,7 @@
   "region": "SA",
   "auto": true,
   "found": "2026-10-20",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "almawq3",
@@ -3394,7 +3394,7 @@
   "region": "SA",
   "auto": true,
   "found": "2026-10-20",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "businessinsider",
@@ -3409,7 +3409,7 @@
   "region": "US",
   "auto": true,
   "found": "2026-10-20",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "sarayanews",
@@ -3452,7 +3452,7 @@
   "region": "US",
   "auto": true,
   "found": "2026-10-21",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "thehindubusinessline",
@@ -3467,7 +3467,7 @@
   "region": "SA",
   "auto": true,
   "found": "2026-10-21",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "smartasset",
@@ -3510,7 +3510,7 @@
   "region": "US",
   "auto": true,
   "found": "2026-10-21",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "alalamelyoum",
@@ -3539,7 +3539,7 @@
   "region": "AE",
   "auto": true,
   "found": "2026-10-21",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "innovationvillage",
@@ -3554,7 +3554,7 @@
   "region": "EG",
   "auto": true,
   "found": "2026-10-21",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "convergencenow",
@@ -3569,7 +3569,7 @@
   "region": "US",
   "auto": true,
   "found": "2026-10-21",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "legit",
@@ -3584,7 +3584,7 @@
   "region": "SA",
   "auto": true,
   "found": "2026-10-21",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "techstars",
@@ -3613,7 +3613,7 @@
   "region": "US",
   "auto": true,
   "found": "2026-10-22",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "economictimes",
@@ -3656,7 +3656,7 @@
   "region": "SA",
   "auto": true,
   "found": "2026-10-22",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "cityam",
@@ -3671,7 +3671,7 @@
   "region": "SA",
   "auto": true,
   "found": "2026-10-22",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "marketscreener",
@@ -3700,7 +3700,7 @@
   "region": "SA",
   "auto": true,
   "found": "2026-10-22",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "digitalhealthnews",
@@ -3715,7 +3715,7 @@
   "region": "US",
   "auto": true,
   "found": "2026-10-22",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "businessconnectindia",
@@ -3730,7 +3730,7 @@
   "region": "US",
   "auto": true,
   "found": "2026-10-22",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "mystartupworld",
@@ -3745,7 +3745,7 @@
   "region": "SA",
   "auto": true,
   "found": "2026-10-22",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "biz",
@@ -3802,7 +3802,7 @@
   "region": "SA",
   "auto": true,
   "found": "2026-10-23",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "soutalomma",
@@ -3845,7 +3845,7 @@
   "region": "US",
   "auto": true,
   "found": "2026-10-23",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "quasa",
@@ -3917,7 +3917,7 @@
   "region": "AE",
   "auto": true,
   "found": "2026-10-23",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "iqraa",
@@ -3960,7 +3960,7 @@
   "region": "US",
   "auto": true,
   "found": "2026-10-24",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "newsroom",
@@ -4003,7 +4003,7 @@
   "region": "SA",
   "auto": true,
   "found": "2026-10-25",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "tokenpost",
@@ -4032,7 +4032,7 @@
   "region": "SA",
   "auto": true,
   "found": "2026-10-25",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "electronics",
@@ -4061,7 +4061,7 @@
   "region": "EG",
   "auto": true,
   "found": "2026-10-25",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "mt",
@@ -4118,7 +4118,7 @@
   "region": "EG",
   "auto": true,
   "found": "2026-10-26",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "hub71",
@@ -4133,7 +4133,7 @@
   "region": "UAE",
   "auto": false,
   "via": "gnews",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "flat6labs",
@@ -4148,7 +4148,7 @@
   "region": "MENA",
   "auto": false,
   "via": "gnews",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "startupscene",
@@ -4163,7 +4163,7 @@
   "region": "EG",
   "auto": false,
   "via": "gnews",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "gulfnews",
@@ -4177,7 +4177,7 @@
   ],
   "region": "UAE",
   "auto": false,
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "sabq",
@@ -4191,7 +4191,7 @@
   ],
   "region": "KSA",
   "auto": false,
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "arabfinance",
@@ -4206,7 +4206,7 @@
   "region": "EG",
   "auto": false,
   "via": "gnews",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "dailynewsegypt",
@@ -4220,7 +4220,7 @@
   ],
   "region": "EG",
   "auto": false,
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "meainews",
@@ -4234,7 +4234,7 @@
   ],
   "region": "MENA",
   "auto": false,
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "lucidity",
@@ -4249,7 +4249,7 @@
   "region": "MENA",
   "auto": false,
   "via": "gnews",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "akhbarelyom",
@@ -4277,7 +4277,8 @@
   ],
   "region": "SA",
   "auto": true,
-  "found": "2026-10-26"
+  "found": "2026-10-26",
+  "last_ok": "2026-10-27"
  },
  {
   "id": "roayahnews",

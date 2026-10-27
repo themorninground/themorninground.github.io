@@ -289,5 +289,7 @@
  "dailynewsegypt": "https://www.dailynewsegypt.com/feed/",
  "meainews": "https://www.middleeastainews.com/feed",
  "lucidity": "",
- "akhbarelyom": ""
+ "akhbarelyom": "",
+ "moneycontrol": "https://www.moneycontrol.com/rss/latestnews.xml",
+ "roayahnews": ""
 }
