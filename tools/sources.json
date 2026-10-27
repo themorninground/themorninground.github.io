@@ -3219,7 +3219,7 @@
   "region": "SA",
   "auto": true,
   "found": "2026-10-19",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "businessnewsthisweek",
@@ -4293,5 +4293,19 @@
   "region": "SA",
   "auto": true,
   "found": "2026-10-26"
+ },
+ {
+  "id": "worldcement",
+  "name": "World Cement",
+  "ar": "World Cement",
+  "url": "https://worldcement.com",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "en"
+  ],
+  "region": "US",
+  "auto": true,
+  "found": "2026-10-27"
  }
 ]
