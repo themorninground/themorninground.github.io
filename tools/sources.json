@@ -4364,5 +4364,33 @@
   "region": "US",
   "auto": true,
   "found": "2026-10-27"
+ },
+ {
+  "id": "sahyadristartups",
+  "name": "Sahyadri Startups",
+  "ar": "Sahyadri Startups",
+  "url": "https://sahyadristartups.com",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "en"
+  ],
+  "region": "US",
+  "auto": true,
+  "found": "2026-10-27"
+ },
+ {
+  "id": "aimagazine",
+  "name": "AI Magazine",
+  "ar": "AI Magazine",
+  "url": "https://aimagazine.com",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "en"
+  ],
+  "region": "US",
+  "auto": true,
+  "found": "2026-10-27"
  }
 ]
