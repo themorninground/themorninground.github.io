@@ -2300,7 +2300,7 @@
   "region": "SA",
   "auto": true,
   "found": "2026-10-14",
-  "last_ok": "2026-10-26"
+  "last_ok": "2026-10-27"
  },
  {
   "id": "streamlinefeed",
@@ -4305,6 +4305,20 @@
    "en"
   ],
   "region": "US",
+  "auto": true,
+  "found": "2026-10-27"
+ },
+ {
+  "id": "alternativeswatch",
+  "name": "Alternatives Watch",
+  "ar": "Alternatives Watch",
+  "url": "https://alternativeswatch.com",
+  "tier": 4,
+  "kind": "discovered",
+  "lang": [
+   "en"
+  ],
+  "region": "SA",
   "auto": true,
   "found": "2026-10-27"
  }
